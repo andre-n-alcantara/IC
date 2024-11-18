@@ -1,11 +1,91 @@
-20Rede ótica
-Arquivo fonte: rede.c, rede.cc, rede.cpp ou rede.pasOs caciques da região de Tutuaçu pretendem integrar suas tribos à chamada “aldeia global”. A pri-meira providência foi a distribuição de telefones celulares a todos os pajés. Agora, planejam mon-tar uma rede deﬁbra ótica interligando todas as tabas. Esta empreitada requer que sejam abertasnovas picadas na mata, passando por reservas de ﬂora e fauna. Conscientes da necessidade de pre-servar o máximo possível o meio ambiente, os caciques encomendaram um estudo do impactoambiental do projeto. Será que você consegue ajudá-los a projetar a rede de ﬁbra ótica?
+Rede ótica
+
+Arquivo fonte: rede.c, rede.cc, rede.cpp ou rede.pas
+
+Os caciques da região de Tutuaçu pretendem integrar suas tribos à chamada “aldeia global”. A pri-
+meira providência foi a distribuição de telefones celulares a todos os pajés. Agora, planejam mon-
+tar uma rede de fibra ótica interligando todas as tabas. Esta empreitada requer que sejam abertas
+novas picadas na mata, passando por reservas de flora e fauna. Conscientes da necessidade de pre-
+servar o máximo possível o meio ambiente, os caciques encomendaram um estudo do impacto
+ambiental do projeto. Será que você consegue ajudá-los a projetar a rede de fibra ótica?
+
 1. Tarefa
-Vamos denominar uma ligação de ﬁbra ótica entre duas tabas de um ramo de rede. Para possibili-tar a comunicação entre todas as tabas é necessário que todas elas estejam interligadas, direta (uti-lizando um ramo de rede) ou indiretamente (utilizando mais de um ramo). Os caciquesconseguiram a informação do impacto ambiental que causará a construção dos ramos. Algunsramos, no entanto, nem foram considerados no estudo ambiental, pois sua construção é impossí-vel.Sua tarefa é escrever um programa para determinar quais ramos devem ser construídos, de formaa possibilitar a comunicação entre todas as tabas, causando o menor impacto ambiental possível.
+
+Vamos denominar uma ligação de fibra ótica entre duas tabas de um ramo de rede. Para possibili-
+tar a comunicação entre todas as tabas é necessário que todas elas estejam interligadas, direta (uti-
+lizando um ramo de rede) ou indiretamente (utilizando mais de um ramo). Os caciques
+conseguiram a informação do impacto ambiental que causará a construção dos ramos. Alguns
+ramos, no entanto, nem foram considerados no estudo ambiental, pois sua construção é impossí-
+vel.
+
+sa
+13
+e
+
+(2) 5
+
+Ns
+12
+
+Ramos de rede possíveis com Interligação das tabas com
+custo ambiental associado menor custo ambiental
+
+1
+
+Sua tarefa é escrever um programa para determinar quais ramos devem ser construídos, de forma
+a possibilitar a comunicação entre todas as tabas, causando o menor impacto ambiental possível.
+
 2. Entrada
-A entrada é composta de vários conjuntos de teste. A primeira linha de um conjunto de teste con-tém dois números inteiros positivos N e M que indicam, respectivamente, o número de tabas e onúmero de ramos de redes possíveis. As tabas são numeradas de 1 a N. As M linhas seguintes con-têm três inteiros positivos X, Y e Z, que indicam que o ramo de rede que liga a taba X à taba Y temimpacto ambiental Z. Com os conjuntos de teste dados sempre é possível interligar todas as tabas.O ﬁnal da entrada é indicado quando N = 0.61351261565126Ramos de rede possíveis comcusto ambiental associadoInterligação das tabas commenor custo ambiental
-21534512343Exemplo de Entrada3 31 2 102 3 103 1 105 61 2 151 3 122 4 132 5 53 2 63 4 60 0
+
+A entrada é composta de vários conjuntos de teste. A primeira linha de um conjunto de teste con-
+tém dois números inteiros positivos N e M que indicam, respectivamente, o número de tabas e o
+número de ramos de redes possíveis. As tabas são numeradas de 1 a N. As M linhas seguintes con-
+têm três inteiros positivos X, Y e Z, que indicam que o ramo de rede que liga a taba X à taba Y tem
+impacto ambiental Z. Com os conjuntos de teste dados sempre é possível interligar todas as tabas.
+O final da entrada é indicado quando N = 0.
+ Exemplo de Entrada
+
+SWUWUNNHHTAWNHO
+OEBENUTBRUWUNO HWONO
+H
+o)
+
 3. Saída
-Para cada conjunto de teste da entrada seu programa deve produzir uma lista dos ramos de redesque devem ser construídos. A lista deve ser precedida de uma linha que identiﬁca o conjunto deteste, no formato "Teste n", onde n é numerado a partir de 1. A lista é composta por uma sequênciade ramos a serem construídos, um ramo por linha. Um ramo é descrito por um par de tabasXeY,com X < Y. Os ramos de rede podem ser listados em qualquer ordem, mas não deve haver repeti-ção. Se houver mais de uma solução possível, imprima apenas uma delas. O ﬁnal de uma lista deramos deve ser marcado com uma linha em branco. A graﬁa mostrada no Exemplo de Saída,abaixo, deve ser seguida rigorosamente.Exemplo de SaídaTeste 11 21 3Teste 21 32 32 53 4(esta saída corresponde ao exemplo de entrada acima)
+
+Para cada conjunto de teste da entrada seu programa deve produzir uma lista dos ramos de redes
+que devem ser construídos. A lista deve ser precedida de uma linha que identifica o conjunto de
+teste, no formato "Teste n", onde n é numerado a partir de 1. A lista é composta por uma sequência
+de ramos a serem construídos, um ramo por linha. Um ramo é descrito por um par de tabas X e Y,
+com X< Y. Os ramos de rede podem ser listados em qualquer ordem, mas não deve haver repeti-
+ção. Se houver mais de uma solução possível, imprima apenas uma delas. O final de uma lista de
+ramos deve ser marcado com uma linha em branco. A grafia mostrada no Exemplo de Saída,
+abaixo, deve ser seguida rigorosamente.
+
+Exemplo de Saída
+
+Teste 1
+12
+13
+
+este 2
+
+QONNHA
+
+s
+3
+3
+5
+4
+
+(esta saída corresponde ao exemplo de entrada acima)
+
 4. Restrições
-0 ≤ N ≤ 100 (N = 0 apenas para indicar o ﬁm da entrada)1 ≤ M ≤ N(N-1)/21 ≤ X ≤ 1001≤Y≤1001 ≤ Z ≤ 100
+
+0<N< 100 (N=o0 apenas para indicar o fim da entrada)
+1I<Ms N(N-1)/2
+
+1<X<100
+
+i<Y<100
+
+1<Z<100

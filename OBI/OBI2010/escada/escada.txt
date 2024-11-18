@@ -1,15 +1,67 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2010 2
+Olimpíada Brasileira de Informática — OBI2010 2
+
 Escada Rolante
-Nome do arquivo fonte:escada.c,escada.cpp,ouescada.pasO Shopping Boas Compras – SBC, atrav´ es de sua pol´ıtica ambiental, est´ a preocupado com o consumo de energiae, resolveu trocar todas as escadas rolantes por modelos mais modernos, que se desligam caso ningu´ em estejautilizando, poupando energia.A nova escada rolante possui um sensor no in´ıcio. Toda vez que ela est´ a vazia e algu´ em passa pelo sensor, aescada come¸ ca a funcionar, parando de funcionar novamente ap´ os 10 segundos se ningu´ em mais passar pelosensor. Estes 10 segundos representam o tempo suciente para levar algu´ em de um n´ıvel ao outro.Preocupados em saber exatamente quanto de energia o shopping est´ a economizando, o gerente pediu sua ajuda.Como eles sabem qual era o consumo da escada rolante antiga, eles te pediram para calcular o tempo que anova escadacou funcionando.
+
+Nome do arquivo fonte: escada.c, escada. cpp, ou escada.pas
+
+O Shopping Boas Compras — SBC, através de sua política ambiental, está preocupado com o consumo de energia
+e, resolveu trocar todas as escadas rolantes por modelos mais modernos, que se desligam caso ninguém esteja
+utilizando, poupando energia.
+
+A nova escada rolante possui um sensor no início. Toda vez que ela está vazia e alguém passa pelo sensor, a
+escada. começa a funcionar, parando de funcionar novamente após 10 segundos se ninguém mais passar pelo
+sensor. Estes 10 segundos representam o tempo suficiente para levar alguém de um nível ao outro.
+Preocupados em saber exatamente quanto de energia o shopping está economizando, o gerente pediu sua ajuda.
+Como eles sabem qual era o consumo da escada rolante antiga, eles te pediram para calcular o tempo que a
+nova escada ficou funcionando.
+
 Tarefa
-Dados os instantes, em segundos, em que passaram pessoas pela escada rolante, vocˆ e deve calcular quantossegundos elacou ligada.
+
+Dados os instantes, em segundos, em que passaram pessoas pela escada rolante, você deve calcular quantos
+segundos ela ficou ligada.
+
 Entrada
-A primeira linha da entrada cont´ em um inteiroNque indica o n´ umero de pessoas que o sensor detectou(1≤N≤1.000). AsNlinhas seguintes representam o instante em que a i-´ esima pessoa passou pelo sensor econt´ em um inteiroT(0≤T≤10.000). Os tempos est˜ ao em ordem crescente, sem repeti¸ c˜ oes.
-Sa´ıda
-Seu programa deve imprimir uma ´ unica linha, contendo o tempo que a escada rolantecou ligada.
-Informa¸ c˜ oes sobre a pontua¸ c˜ ao
-•Em um conjunto de casos de teste que totaliza 30 pontos, a primeira pessoa passa pelo sensor no tempo0.
+
+A primeira linha da entrada contém um inteiro N que indica o número de pessoas que o sensor detectou
+(1<N< 1.000). As N linhas seguintes representam o instante em que a i-ésima pessoa passou pelo sensor e
+contém um inteiro T (0 <T < 10.000). Os tempos estão em ordem crescente, sem repetições.
+
+Saída
+Seu programa deve imprimir uma única linha, contendo o tempo que a escada rolante ficou ligada.
+Informações sobre a pontuação
+
+e Em um conjunto de casos de teste que totaliza 30 pontos, a primeira pessoa passa pelo sensor no tempo
+
+0.
+
 Exemplos
-Entrada301020 Sa´ıda30Olimp´ıada Brasileira de Inform´ atica – OBI2010 3
-Entrada5510172030Sa´ıda35
-Entrada3123 Sa´ıda12
+
+Entrada Saída
+
+3 30
+0
+
+10
+20
+
+ Olimpíada Brasileira de Informática - OBD010
+
+Entrada
+
+10
+17
+20
+30
+
+Saída
+
+35
+
+Entrada
+
+CNH wO
+
+Saída
+
+12
+

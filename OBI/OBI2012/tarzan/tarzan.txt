@@ -1,16 +1,73 @@
-Olimpíada Brasileira de Informática – OBI2012 8
+Olimpíada Brasileira de Informática — OBI2012 8
+
 Tarzan
-Nome do arquivo fonte:tarzan.c,tarzan.cpp,tarzan.pas,tarzan.java,outarzan.pyTarzan vive naoresta e é o responsável por manter a ordem na região onde vive. Para locomover-se entre asárvores ele só usa cipós pois esse é um meio de transporte muito mais rápido e seguro do que andar no chão daselva, além de, é claro, poder soltar seu grito característico enquanto viaja.Os cipós das árvores têm todos o mesmo alcance. Dessa forma, é possível viajar de cipó de uma árvore paraoutra se a distância entre elas é no máximoD, ondeDé o alcance dos cipós.Recentemente uma forte chuva assolou a região e derrubou algumas árvores, restando naoresta apenasNárvores. Agora Tarzan quer saber se ele consegue viajar de cipó entre todas árvores remanescentes para podercontinuar mantendo a ordem na região.Para poder manter a ordem ele precisa ser capaz de, partindo de qualquer uma das árvores, poder chegar atodas as outras árvores remanescentes, possivelmente passando por outras árvores no caminho, sempre utilizandosomente cipós.
+
+Nome do arquivo fonte: tarzan.c, tarzan.cpp, tarzan.pas, tarzan. java, ou tarzan.py
+
+Tarzan vive na floresta e é o responsável por manter a ordem na região onde vive. Para locomover-se entre as
+árvores ele só usa cipós pois esse é um meio de transporte muito mais rápido e seguro do que andar no chão da
+selva, além de, é claro, poder soltar seu grito característico enquanto viaja.
+
+Os cipós das árvores têm todos o mesmo alcance. Dessa forma, é possível viajar de cipó de uma árvore para
+outra se a distância entre elas é no máximo D, onde D é o alcance dos cipós.
+
+Recentemente uma forte chuva assolou a região e derrubou algumas árvores, restando na floresta apenas N
+árvores. Agora Tarzan quer saber se ele consegue viajar de cipó entre todas árvores remanescentes para poder
+continuar mantendo a ordem na região.
+
+Para poder manter a ordem ele precisa ser capaz de, partindo de qualquer uma das árvores, poder chegar a
+
+todas as outras árvores remanescentes, possivelmente passando por outras árvores no caminho, sempre utilizando
+somente cipós.
+
 Entrada
-A primeira linha da entrada contém dois inteiros,NeD, indicando respectivamente o número de árvoresremanescentes e o alcance dos cipós. Cada uma dasNlinhas seguintes contém dois inteirosX
-ieYi, as coordenadas da i-ésima árvore. Não existem duas árvores com as mesmas coordenadas.
+
+A primeira linha da entrada contém dois inteiros, N e D, indicando respectivamente o número de árvores
+remanescentes e o alcance dos cipós. Cada uma das N linhas seguintes contém dois inteiros X; e Y;, as
+coordenadas da i-ésima árvore. Não existem duas árvores com as mesmas coordenadas.
+
 Saída
-Seu programa deve escrever uma única linha, contendo um único caractere: ‘S’ se Tarzan consegue viajar decipó entre todas as árvores remanescentes, e ‘N’ caso contrário.
+
+Seu programa deve escrever uma única linha, contendo um único caractere: *S' se Tarzan consegue viajar de
+cipó entre todas as árvores remanescentes, e “Nº caso contrário.
+
 Informações sobre a pontuação
-•Em um conjunto de casos de teste que totaliza 30 pontos,N≤10•Em um conjunto de casos de teste que totaliza 70 pontos,N≤100
+
+e Em um conjunto de casos de teste que totaliza 30 pontos, N < 10
+
+e Em um conjunto de casos de teste que totaliza 70 pontos, N < 100
+
 Restrições
-•2≤N≤1000•1≤D≤5000•0≤X
-i, Yi≤5000Olimpíada Brasileira de Informática – OBI2012 9
+
+e2<N< 1000
+ei<D<õs5000
+e O< X;,Y; < 5000
+ Olimpíada Brasileira de Informática —- OBI2012
+
 Exemplos
-Entrada4 51 16 16 611 6SaídaS
-Entrada4 51 16 611 613 8SaídaN
+
+Entrada Saída
+45 s
+
+11
+
+61
+
+6 6
+
+11 6
+
+Entrada Saída
+45 N
+
+11
+
+6 6
+
+1
+
+H
+wma
+o o
+
+9

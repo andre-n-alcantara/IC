@@ -1,16 +1,71 @@
-Olimpíada Brasileira de Informática – OBI2014 5
+Olimpíada Brasileira de Informática - OBI2014 5
+
 Jogo da Memória
-Nome do arquivo fonte:memoria.c,memoria.cpp,memoria.pas,memoria.java,oumemoria.pyPedro e Paulo resolveram complicar um pouco o tradicional Jogo da Memória, em que os jogadoresprecisam virar duas cartas iguais. Eles colocam as cartas no chão, viradas para baixo, e fazemalgumas linhas ligando pares de cartas, usando giz, de modo que para qualquer par de cartas(A, B)existe uma e apenas uma sequência de cartas distintas que leva deAatéBatravés das linhas queeles desenharam. Com isso, ao virar duas cartas, o jogador ganha uma quantidade de pontos igualao tamanho da sequência de linhas entre as duas cartas, se elas forem iguais. Se forem diferentes,o jogador perde aquela quantidade de pontos.Pedro e Paulo, agora, estão estudando qual é a melhor estratégia para esse jogo e precisam da suaajuda para resolver uma tarefa especíca: dadas as ligações entre asNcartas, calcular a soma dostamanhos das sequências entre todos osN/2pares de cartas iguais!O jogo possuiNcartas, de índices1atéN. Cada carta possui agura de um número de1atéN/2desenhada. Exatamente duas cartas possuem agura de cada número entre1eN/2.
+
+Nome do arquivo fonte: memoria.c, memoria.cpp, memoria.pas, memoria. java, ou memoria.py
+
+Pedro e Paulo resolveram complicar um pouco o tradicional Jogo da Memória, em que os jogadores
+precisam virar duas cartas iguais. Eles colocam as cartas no chão, viradas para baixo, e fazem
+algumas linhas ligando pares de cartas, usando giz, de modo que para qualquer par de cartas (4, B)
+existe uma e apenas uma sequência de cartas distintas que leva de A até B através das linhas que
+eles desenharam. Com isso, ao virar duas cartas, o jogador ganha uma quantidade de pontos igual
+ao tamanho da sequência de linhas entre as duas cartas, se elas forem iguais. Se forem diferentes,
+o jogador perde aquela quantidade de pontos.
+
+Pedro e Paulo, agora, estão estudando qual é a melhor estratégia para esse jogo e precisam da sua
+ajuda para resolver uma tarefa específica: dadas as ligações entre as N cartas, calcular a soma dos
+tamanhos das sequências entre todos os N/2 pares de cartas iguais!
+
+O jogo possui N cartas, de índices 1 até N. Cada carta possui a figura de um número de 1 até N/2
+desenhada. Exatamente duas cartas possuem a figura de cada número entre 1 e N/2.
+
 Entrada
-A primeira linha da entrada contém o número de cartasN. A segunda linha da entrada contémNinteirosC
-i,1≤i≤N, indicando qual número está anotado na carta de índicei. Cada uma dasN−1linhas seguintes contém dois númerosAeB, indicando que existe uma linha desenhada entreas cartas de índicesAeB.
+
+A primeira linha da entrada contém o número de cartas N. A segunda linha da entrada contém N
+inteiros C;, 1 < à < N, indicando qual número está anotado na carta de índice à. Cada uma das
+N—1 linhas seguintes contém dois números A e B, indicando que existe uma linha desenhada entre
+as cartas de índices A e B.
+
 Saída
-Seu programa deve imprimir uma linha contendo um inteiro, a soma dos tamanhos das sequênciasentre todos osN/2pares de cartas iguais.
+Seu programa deve imprimir uma linha contendo um inteiro, a soma dos tamanhos das sequências
+entre todos os N/2 pares de cartas iguais.
 Restrições
-•2≤N≤50000,Né par•1≤C
-i≤N/2•1≤A≤Ne1≤B≤N
+e 2<N< 50000, Né par
+s1<CG<N/2
+eI1I<A<Nei<B<N
+
 Informações sobre a Pontuação
-•Em um conjunto de casos de teste valendo 50 pontos,N≤1000
+
+e Em um conjunto de casos de teste valendo 50 pontos, N < 1000
+
 Exemplos
-Entrada62 2 1 1 3 31 23 46 52 63 6Saída3Olimpíada Brasileira de Informática – OBI2014 6
-Entrada81 2 3 3 2 4 1 41 22 32 65 66 87 84 7Saída12
+
+Entrada Saída
+
+11383
+
+NOW NO
+DO MEBNN
+
+ Olimpíada Brasileira de Informática
+
+OBI2014
+
+Entrada
+
+332414
+
+BNJNODUANINAH-O
+
+2
+2
+3
+6
+6
+8
+8
+7
+
+Saída
+12
+

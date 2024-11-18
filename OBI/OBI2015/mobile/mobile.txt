@@ -1,14 +1,46 @@
-Olimpíada Brasileira de Informática – OBI2015 2
+Olimpíada Brasileira de Informática - OBI2015 2
+
 Móbile
-Nome do arquivo:mobile.c,mobile.cpp,mobile.pas,mobile.java,mobile.jsoumobile.pyO móbile na sala da Maria é composto de três hastes exatamente como nagura abaixo. Para queele esteja completamente equilibrado, com todas as hastes na horizontal, os pesos das quatro bolasA,B,CeDtêm que satisfazer todas as seguintes três condições:1.A=B+C+D; e2.B+C=D; e3.B=C.
-DAB C
-Nesta tarefa, dados os pesos das quatro bolas, seu programa deve decidir se o móbile está ou nãocompletamente equilibrado.
+Nome do arquivo: mobile.c, mobile.cpp, mobile.pas, mobile. java, mobile.js oumobile.py
+O móbile na sala da Maria é composto de três hastes exatamente como na figura abaixo. Para que
+
+ele esteja completamente equilibrado, com todas as hastes na horizontal, os pesos das quatro bolas
+A, B,Ce D têm que satisfazer todas as seguintes três condições:
+
+1. A=B+4C4+D;e
+2. B+C=D;e
+3. B=C.
+
+(B) (0)
+
+Nesta tarefa, dados os pesos das quatro bolas, seu programa deve decidir se o móbile está ou não
+completamente equilibrado.
+
 Entrada
-A entrada consiste de quatro linhas contendo, cada uma, um número inteiro, indicando os pesosdas bolas. Os números são dados na ordem:A,B,CeD.
+
+A entrada consiste de quatro linhas contendo, cada uma, um número inteiro, indicando os pesos
+das bolas. Os números são dados na ordem: 4, B,Ce D.
+
 Saída
-Seu programa deve escrever uma única linha na saída, contendo o caractere “S” se o móbile estiverequilibrado, ou o caractere “N” se não estiver equilibrado.
+
+Seu programa deve escrever uma única linha na saída, contendo o caractere “S” se o móbile estiver
+equilibrado, ou o caractere “N” se não estiver equilibrado.
+
 Restrições
-•1≤A, B, C, D≤1000
+
+e1<4,B,C,D <1000
+
 Exemplos
-Entrada12336 SaídaS
-Entrada2002560560882 SaídaN
+
+Entrada Saída
+12 s
+
+ww
+
+Entrada Saída
+
+2002 N
+560
+560
+882
+

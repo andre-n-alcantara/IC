@@ -1,26 +1,76 @@
-Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível 1 – Fase Local6
+Olimpíada Brasileira de Informática - OBI2019 — Prog. Nível 1 — Fase Local 6
+
 Distância entre amigos
-Nome do arquivo:“amigos.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3Ao longo da rua existemNprédios de largura igual, mas com número de andares diferentes. Quasetoda a turma do colégio mora em algum apartamento desses prédios e eles resolveram denir adistância entre dois apartamentos quaisquer da rua para saber, aonal, qual par de colegas daturma mora mais longe um do outro.Funciona assim: para um colegaAvisitar um colegaB, que mora num prédio diferente, ele devedesceraandares até o térreo do seu prédio; depois andar para a esquerda ou direita, dependendodo lado para o qual seu colega mora, porpprédios; depois subirbandares até o apartamento docolegaB. A distância entreAeB, então, seráa+p+b. Agura mostra um exemplo, paraN= 14,onde estão marcados dois andares de prédios diferentes para os quais a distância é12.
-Dado um número de andares de cada prédio ao longo da rua, seu programa deve computar adistância máxima possível entre dois apartamentos quaisquer na rua.
+
+Nome do arquivo: “amigos .x”, onde x deve ser c, cpp, pas, java, js, py2 ou py3
+
+Ao longo da rua existem N prédios de largura igual, mas com número de andares diferentes. Quase
+toda a turma do colégio mora em algum apartamento desses prédios e eles resolveram definir a
+distância entre dois apartamentos quaisquer da rua para saber, ao final, qual par de colegas da
+turma mora mais longe um do outro.
+
+Funciona assim: para um colega A visitar um colega B, que mora num prédio diferente, ele deve
+descer a andares até o térreo do seu prédio; depois andar para a esquerda ou direita, dependendo
+do lado para o qual seu colega mora, por p prédios; depois subir b andares até o apartamento do
+colega B. A distância entre A e B, então, será a+p+b. A figura mostra um exemplo, para N = 14,
+onde estão marcados dois andares de prédios diferentes para os quais a distância é 12.
+
+Dado um número de andares de cada prédio ao longo da rua, seu programa deve computar a
+distância máxima possível entre dois apartamentos quaisquer na rua.
+
 Entrada
-A primeira linha da entrada contém um inteiroNrepresentando o número de prédios na rua. Asegunda linha contémNinteirosA
-i,1≤i≤N, representando o número de andares de cada prédio,sem contar o térreo. Quer dizer, por exemplo, seA
-i= 19, então quem mora no último andarprecisa descer19andares até o térreo. Veja agura, que corresponde ao primeiro exemplo deentrada abaixo.
+
+A primeira linha da entrada contém um inteiro N representando o número de prédios na rua. À
+segunda linha contém N inteiros 4;,1 <i < N, representando o número de andares de cada prédio,
+sem contar o térreo. Quer dizer, por exemplo, se 4; = 19, então quem mora no último andar
+precisa descer 19 andares até o térreo. Veja a figura, que corresponde ao primeiro exemplo de
+entrada abaixo.
+
 Saída
-Seu programa deve imprimir uma linha contendo um número inteiro representando a distânciamáxima possível entre dois apartamentos na rua.
+
+Seu programa deve imprimir uma linha contendo um número inteiro representando a distância
+máxima possível entre dois apartamentos na rua.
+
 Restrições
-•2≤N≤200000(2×105);•1≤A
-i≤109para todo1≤i≤N.
+e 2<N<200000(2x 10º);
+
+“1<4;<10ºparatodolI<i<N.
+
 Informações sobre a pontuação
-•Em um conjunto de casos de teste somando 25 pontos,N≤104eA i≤104
-•Em um conjunto de casos de teste somando 25 pontos,A i≤100•Em um conjunto de casos de teste somando 50 pontos, nenhuma restrição adicionalOlimpíada Brasileira de Informática – OBI2019 – Prog. Nível 1 – Fase Local7
+
+e Em um conjunto de casos de teste somando 25 pontos, N < 10! e 4; < 104
+e Em um conjunto de casos de teste somando 25 pontos, A; < 100
+
+e Em um conjunto de casos de teste somando 50 pontos, nenhuma restrição adicional
+ Olimpíada Brasileira de Informática
+
 Exemplos
+
+OBI2019
+
+Prog. Nível 1 — Fase Local
+
 Exemplo de entrada 1
-142 3 1 6 4 3 7 5 6 4 5 3 1 1Exemplo de saída 1
+
+14
+23164375645311
+
+Exemplo de saída 1
+
 18
+
 Exemplo de entrada 2
-61 1 4 3 1 2Exemplo de saída 2
+
+6
+114312
+
+Exemplo de saída 2
+
 9
+
 Exemplo de entrada 3
-21 1Exemplo de saída 3
+
+Exemplo de saída 3
+
 3
+

@@ -1,14 +1,60 @@
-Olimpíada Brasileira de Informática – OBI2013 3
+Olimpíada Brasileira de Informática - OBI2018 3
+
+Nome do arquivo fonte: t
+
+A Olimpíada Internacional
+programação para alunos de
+
 Tomadas
-Nome do arquivo fonte:tomadas.c,tomadas.cpp,tomadas.pas,tomadas.java,outomadas.py
-A Olimpíada Internacional de Informática (IOI, no original em inglês) é a mais prestigiada competição deprogramação para alunos de ensino médio; seus aproximadamente 300 competidores se reúnem em um paísdiferente todo ano para os dois dias de prova da competição. Naturalmente, os competidores usamo o tempolivre para acessar a Internet, programar e jogar em seus notebooks, mas eles se depararam com um problema:o saguão do hotel só tem uma tomada.Felizmente, os quatro competidores da equipe brasileira da IOI trouxeram cada um uma régua de tomadas,permitindo assim ligar vários notebooks em uma tomada só; eles também podem ligar uma régua em outrapara aumentar ainda mais o número de tomadas disponíveis. No entanto, como as réguas têm muitastomadas, eles pediram para você escrever um programa que, dado o número de tomadas em cada régua,determina quantas tomadas podem ser disponibilizadas no saguão do hotel.
+
+omadas.c, tomadas.cpp, tomadas.pas, tomadas. java, ou tomadas.py
+
+e Informática (IOI, no original em inglês) é a mais prestigiada competição de
+ensino médio; seus aproximadamente 300 competidores se reúnem em um país
+
+diferente todo ano para os dois dias de prova da competição. Naturalmente, os competidores usamo o tempo
+
+livre para acessar a Internet,
+
+rogramar e jogar em seus notebooks, mas eles se depararam com um problema:
+
+o saguão do hotel só tem uma tomada.
+
+Felizmente, os quatro compe
+
+idores da equipe brasileira da IOI trouxeram cada um uma régua de tomadas,
+
+permitindo assim ligar vários notebooks em uma tomada só; eles também podem ligar uma régua em outra
+para aumentar ainda mais o número de tomadas disponíveis. No entanto, como as réguas têm muitas
+
+tomadas, eles pediram para
+determina quantas tomadas
+
 Entrada
-A entrada consiste de uma linha com quatro inteiros positivosT 1,T2,T3,T4, indicando o número de tomadasde cada uma das quatro réguas.
+
+você escrever um programa que, dado o número de tomadas em cada régua,
+odem ser disponibilizadas no saguão do hotel.
+
+A entrada consiste de uma linha com quatro inteiros positivos T1, T», T3, Tá, indicando o número de tomadas
+de cada uma das quatro réguas.
+
 Saída
-Seu programa deve imprimir uma única linha contendo um único número inteiro, indicando o número máximode notebooks que podem ser conectados num mesmo instante.
+
+Seu programa deve imprimir uma única linha contendo um único número inteiro, indicando o número máximo
+
+de notebooks que podem ser
+
+conectados num mesmo instante.
+
 Restrições
-•2≤T i≤6.
+e2<T;<6.
+
 Exemplos
-Entrada2 4 3 2 Saída8
-Entrada6 6 6 6 Saída21
-Entrada2 2 2 2 Saída5
+
+Entrada Saída
+2432 8
+Entrada Saída
+6666 21
+Entrada Saída
+2222 5
+

@@ -1,28 +1,79 @@
-Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível 2 – Fase Fase 310
+Olimpíada Brasileira de Informática - OBI2021 — Prog. Nível 2 — Fase Fase 3 10
+
 Dona Minhoca
-Nome do arquivo:“minhoca.x”,ondexdeve serc,cpp,pas,java,jsoupyDona Minhoca construiu uma bela casa, composta deNsalas conectadas porN−1túneis. Cadatúnel conecta exatamente duas salas distintas, e pode ser percorrido em qualquer direção. A casade dona Minhoca foi construída de modo que, percorrendo os túneis, é possível partir de qualquersala e chegar a qualquer outra sala da casa.Dona Minhoca quer se exercitar, e para isso planeja construir um túnel adicional, de modo a criarum “ciclo” de salas e túneis. Vamos chamar decomprimentodo ciclo o número de salas do ciclo.Agura (a) abaixo mostra um exemplo de casa. É possível obter um ciclo de comprimento trêsconstruindo um túnel entre as salas 2 e 5, ou um ciclo de comprimento quatro construindo um túnelentre as salas 1 e 3.
-2
-5 34 1
-312
-54
-542
-1
-3
-(a)(b)(c)
-Dada a descrição da casa de dona Minhoca, escreva um programa para determinar o número de salasdo ciclo de maior comprimento que é possível construir, e de quantas maneiras é possível construirum ciclo com esse comprimento.
+
+Nome do arquivo: “ninhoca.x”, onde x deve ser c, cpp, pas, java, js ou py
+
+Dona Minhoca construiu uma bela casa, composta de N salas conectadas por N — 1 túneis. Cada
+túnel conecta exatamente duas salas distintas, e pode ser percorrido em qualquer direção. A casa
+de dona Minhoca foi construída de modo que, percorrendo os túneis, é possível partir de qualquer
+sala e chegar a qualquer outra sala da casa.
+
+Dona Minhoca quer se exercitar, e para isso planeja construir um túnel adicional, de modo a criar
+um “ciclo” de salas e túneis. Vamos chamar de comprimento do ciclo o número de salas do ciclo.
+A figura (a) abaixo mostra um exemplo de casa. E possível obter um ciclo de comprimento três
+
+construindo um túnel entre as salas 2 e 5, ou um ciclo de comprimento quatro construindo um túnel
+entre as salas 1 e 3.
+
+Dada a descrição da casa de dona Minhoca, escreva um programa para determinar o número de salas
+do ciclo de maior comprimento que é possível construir, e de quantas maneiras é possível construir
+um ciclo com esse comprimento.
+
 Entrada
-A primeira linha da entrada contém um inteiroN, o número de salas da casa de dona Minhoca. Assalas são identicadas por números de 1 aN. Cada uma dasN−1linhas seguintes contém doisinteirosXeY, indicando que há um túnel entre a salaXe a salaY.
+
+A primeira linha da entrada contém um inteiro N, o número de salas da casa de dona Minhoca. As
+salas são identificadas por números de 1 a N. Cada uma das N — 1 linhas seguintes contém dois
+inteiros X e Y, indicando que há um túnel entre a sala X e a sala Y.
+
 Saída
-Seu programa deve produzir duas linhas. A primeira linha deve conter somente um inteiro, o númerode salas do ciclo de maior comprimento que é possível construir. A segunda linha deve conter somenteum inteiro, o número de ciclos distintos que é possível contruir com esse comprimento.
+
+Seu programa deve produzir duas linhas. A primeira linha deve conter somente um inteiro, o número
+de salas do ciclo de maior comprimento que é possível construir. A segunda linha deve conter somente
+um inteiro, o número de ciclos distintos que é possível contruir com esse comprimento.
+
 Restrições
-•3≤N≤50 000•1≤X≤N;1≤Y≤N;X6=Y•nos testes, o número de possíveis ciclos distintos é menor do que 100 000 000
+e3<N<50000
+CISX<CNISYONXAY
+
+e nos testes, o número de possíveis ciclos distintos é menor do que 100 000 000
+
 Informações sobre a pontuação
-•Para um conjunto de casos de testes valendo 40 pontos,N≤5 000•Para um conjunto de casos de testes valendo outros 60 pontos, nenhuma restrição adicional.Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível 2 – Fase Fase 311
+
+e Para um conjunto de casos de testes valendo 40 pontos, N < 5 000
+
+e Para um conjunto de casos de testes valendo outros 60 pontos, nenhuma restrição adicional.
+ Olimpíada Brasileira de Informática
+
+OB12021
+
+Prog. Nível 2 — Fase Fase 3 q
+
 Exemplo de entrada 1
-51 22 44 54 3Exemplo de saída 1
-42
-Explicação do exemplo 1:este exemplo corresponde àgura do enunciado. O comprimento domaior ciclo possível é quatro, e há duas maneiras de conseguir um ciclo desse comprimento:criando um túnel entre as salas 1 e 3 ou entre as salas 1 e 5.
+
+BP NHa
+NaN
+
+Exemplo de saída 1
+
+4
+2
+
+Explicação do exemplo 1: este exemplo corresponde à figura do enunciado. O comprimento do
+maior ciclo possível é quatro, e há duas maneiras de conseguir um ciclo desse comprimento:
+criando um túnel entre as salas 1 e 3 ou entre as salas 1 e 5.
+
 Exemplo de entrada 2
-81 22 33 43 65 31 81 7Exemplo de saída 2
-56
-Explicação do exemplo 2:o comprimento do maior ciclo possível é cinco, e há seis maneirasde conseguir isso: criando um túnel entre os pares de salas(4,7) (4,8),(5,7),(5,8),(6,7)ou(6,8).
+
+RR OOo
+“ow E wnN
+
+Exemplo de saída 2
+
+5
+6
+
+Explicação do exemplo 2: o comprimento do maior ciclo possível é cinco, e há seis maneiras
+de conseguir isso: criando um túnel entre os pares de salas (4,7) (4,8), (5, 7), (5,8), (6,7) ou
+
+(6,8).

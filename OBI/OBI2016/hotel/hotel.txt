@@ -1,22 +1,46 @@
-Olimpíada Brasileira de Informática – OBI2016 2
+Olimpíada Brasileira de Informática - OBI2016 2
+
 Lâmpadas do hotel
-Nome do arquivo:hotel.c,hotel.cpp,hotel.pas,hotel.java,hotel.js,hotel.py2ouhotel.py3Você está de volta em seu hotel na Tailândia depois de um dia de mergulhos. O seu quarto temduas lâmpadas. Vamos chamá-las deAeB. No hotel há dois interruptores, que chamaremos deC
-1
-eC2. Ao apertarC 1, a lâmpadaAacende se estiver apagada, e apaga se estiver acesa. Se apertarC
-2, cada uma das lâmpadasAe aBtroca de estado: se estiver apagada,ca acesa e se estiveracesa apaga.Você chegou no hotel e encontrou as lâmpadas em um determinado estado, como foram deixadaspor seu amigo. Vamos chamar o estado inicial da lâmpadaAdeI
-Ae o estado inicial da lâmpadaBdeI
-B. Você gostaria de deixar as lâmpadas em uma certa conguraçãonal, que chamaremos deF
-AeFB, respectivamente, apertando os interruptores a menor quantidade de vezes possível. Porexemplo, se as duas lâmpadas começam apagadas, e você quer que apenas a lâmpadaAtermineacesa, basta apertar o interruptorC
-1.Dados os estados iniciais e desejados das duas lâmpadas (acesa/apagada), determine o númeromínimo de vezes que interruptores devem ser apertados.
+
+Nome do arquivo: hotel.c, hotel.cpp, hotel.pas, hotel. java, hotel. js, hotel.py2 ou
+hotel.py3
+
+Você está de volta em seu hotel na Tailândia depois de um dia de mergulhos. O seu quarto tem
+duas lâmpadas. Vamos chamá-las de Ae B. No hotel há dois interruptores, que chamaremos de C1
+e C5. Ao apertar C4, a lâmpada A acende se estiver apagada, e apaga se estiver acesa. Se apertar
+Cs, cada uma das lâmpadas 4 e a B troca de estado: se estiver apagada, fica acesa e se estiver
+acesa apaga.
+
+Você chegou no hotel e encontrou as lâmpadas em um determinado estado, como foram deixadas
+por seu amigo. Vamos chamar o estado inicial da lâmpada A de T4 e o estado inicial da lâmpada B
+de Ip. Você gostaria de deixar as lâmpadas em uma certa configuração final, que chamaremos de
+Fá4 e Fb, respectivamente, apertando os interruptores a menor quantidade de vezes possível. Por
+exemplo, se as duas lâmpadas começam apagadas, e você quer que apenas a lâmpada A termine
+acesa, basta apertar o interruptor C1.
+
+Dados os estados iniciais e desejados das duas lâmpadas (acesa /apagada), determine o número
+mínimo de vezes que interruptores devem ser apertados.
+
 Entrada
-A entrada contém quatro inteiros:I A,IB,FAeFB, os estados iniciais das lâmpadasAeBe osestadosnais desejados das lâmpadasAeB, respectivamente e nessa ordem. Os valores deI
-A,IB,F
-AeFBpossíveis são0, se a lâmpada estiver apagada e1caso contrário.
+A entrada contém quatro inteiros: Ta, Ip, Fa e Fp, os estados iniciais das lâmpadas 4 e Be os
+
+estados finais desejados das lâmpadas 4 e B, respectivamente e nessa ordem. Os valores de TA, Ip,
+Fa e Fp possíveis são 0, se a lâmpada estiver apagada e 1 caso contrário.
+
 Saída
-Seu programa deverá imprimir um único número, o número mínimo de interruptores que devem serapertados.
+
+Seu programa deverá imprimir um único número, o número mínimo de interruptores que devem ser
+apertados.
+
 Informações sobre a pontuação
-•Em um conjunto de casos de teste equivalente a 25 pontos, as duas lâmpadas começam sempreapagadas (I
-A=IB= 0).
+
+e Em um conjunto de casos de teste equivalente a 25 pontos, as duas lâmpadas começam sempre
+apagadas (14 = Ip = 0).
+
 Exemplos
-Entrada0 0 1 1 Saída1
-Entrada0 0 0 1 Saída2
+
+Entrada Saída
+0011 1
+Entrada Saída
+0001 2
+

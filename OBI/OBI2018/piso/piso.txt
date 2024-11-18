@@ -1,16 +1,52 @@
-Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível 2 – Fase Local2
+Olimpíada Brasileira de Informática - OBI2018 — Prog. Nível 2 — Fase Local 2
+
 Piso da escola
-Nome do arquivo:“piso.x”,ondexdeve sercpp,pas,java,js,py2oupy3O colégio pretende trocar o piso de uma sala de aula e a diretora aproveitou a oportunidade parapassar uma tarefa aos alunos. A sala tem o formato de um retângulo de larguraLmetros ecomprimentoCmetros, ondeLeCsão números inteiros. A diretora precisa comprar lajotas decerâmica para cobrir todo o piso da sala. Seria fácil calcular quantas lajotas seriam necessáriasse cada lajota fosse um quadrado de1metro de lado. O problema é que a lajota que a diretoraquer comprar é um quadrado que possui1metro de diagonal, não de lado. Além disso, ela querpreencher o piso da sala com as diagonais das lajotas alinhadas aos lados da sala, como nagura.A loja vai fornecer lajotas do tipo 1: in-teiras; do tipo 2, que correspondem àmetade das do tipo 1, cortadas ao longoda diagonal; e lajotas do tipo 3, que cor-respondem à metade do tipo 2. Veja ostrês tipos de lajotas nagura.
-Está muito claro que sempre serão necessárias4lajotas do tipo 3 para os cantos da sala. A tarefaque a diretora passou para os alunos é calcular o número de lajotas dos tipos 1 e 2 que serãonecessárias. Nagura, paraL= 3eC= 5, foram necessárias23do tipo 1 e12do tipo 2.Seu programa precisa computar, dados os valores deLeC, a quantidade de lajotas do tipo 1 e dotipo 2 necessárias.
+
+Nome do arquivo: “piso.x”, onde x deve ser cpp, pas, java, js, py2 ou py3
+
+O colégio pretende trocar o piso de uma sala de aula e a diretora aproveitou a oportunidade para
+passar uma tarefa aos alunos. À sala tem o formato de um retângulo de largura L metros e
+comprimento €C' metros, onde L e € são números inteiros. A diretora precisa comprar lajotas de
+cerâmica para cobrir todo o piso da sala. Seria fácil calcular quantas lajotas seriam necessárias
+se cada lajota fosse um quadrado de 1 metro de lado. O problema é que a lajota que a diretora
+quer comprar é um quadrado que possui 1 metro de diagonal, não de lado. Além disso, ela quer
+preencher o piso da sala com as diagonais das lajotas alinhadas aos lados da sala, como na figura.
+
+A loja vai fornecer lajotas do tipo 1: in-
+teiras; do tipo 2, que correspondem à
+metade das do tipo 1, cortadas ao longo
+da diagonal; e lajotas do tipo 3, que cor-
+respondem à metade do tipo 2. Veja os 1 2 3
+três tipos de lajotas na figura. tipos de lajotas
+
+Está muito claro que sempre serão necessárias 4 lajotas do tipo 3 para os cantos da sala. À tarefa
+que a diretora passou para os alunos é calcular o número de lajotas dos tipos 1 e 2 que serão
+necessárias. Na figura, para L=3e CC = 5, foram necessárias 23 do tipo 1 e 12 do tipo 2.
+
+Seu programa precisa computar, dados os valores de L e C, a quantidade de lajotas do tipo 1 e do
+tipo 2 necessárias.
+
 Entrada
-A primeira linha da entrada contém um inteiroLindicando a largura da sala. A segunda linhacontém um inteiroCrepresentando o comprimento da sala.
+
+A primeira linha da entrada contém um inteiro L indicando a largura da sala. A segunda linha
+contém um inteiro C representando o comprimento da sala.
+
 Saída
-Imprima duas linhas na saída. A primeira deve conter um inteiro, representando o número de lajotasdo tipo 1 necessárias. A segunda deve conter um inteiro, indicando o número de lajotas do tipo 2.
+
+Imprima duas linhas na saída. A primeira deve conter um inteiro, representando o número de lajotas
+do tipo 1 necessárias. A segunda deve conter um inteiro, indicando o número de lajotas do tipo 2.
+
 Restrições
-•1≤L, C≤100
-Exemplo de entrada 1
-35Exemplo de saída 1
-2312
-Exemplo de entrada 2
-11Exemplo de saída 2
-10
+
+e1<LC<100
+
+Exemplo de entrada 1 Exemplo de saída 1
+3 23
+
+5 12
+
+Exemplo de entrada 2 Exemplo de saída 2
+1 1
+
+1
+

@@ -1,9 +1,54 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2008 – Programa¸ c˜ ao N´ıvel J´ unior Fase 1 1
+Olimpíada Brasileira de Informática — OB1I2008 — Programação Nível Júnior Fase 1 1
+
 OBI
-Nome do arquivo fonte:obi.c,obi.cppouobi.pasO principal prˆ emio da Olimp´ıada Brasileira de Inform´ atica ´ e o convite para os cursos de programa¸ c˜ ao oferecidosno Instituto de Computa¸ c˜ ao da Unicamp, com todas as despesas pagas pela Funda¸ c˜ ao Carlos Chagas, patro-cinadora da OBI. S˜ ao convidados apenas os competidores que atingem um certo n´ umero m´ınimo de pontos,consideradas as duas fases de provas.Vocˆ e foi contratado pela Coordena¸ c˜ ao da OBI para fazer um programa que, dados os n´ umeros de pontos obtidospor cada competidor em cada uma das fases, e o n´ umero m´ınimo de pontos para ser convidado, determine quantoscompetidores ser˜ ao convidados para o curso na Unicamp. Vocˆ e deve considerar que•todos os competidores participaram das duas fases;•o total de pontos de um competidor ´ e a soma dos pontos obtidos nas duas fases;Por exemplo, se a pontua¸ c˜ ao m´ınima para ser convidado ´ e 435 pontos, um competidor que tenha obtido 200pontos na primeira fase e 235 pontos na segunda fase ser´ a convidado para o curso na Unicamp. J´ a um competidorque tenha obtido 200 pontos na primeira fase e 234 pontos na segunda fase n˜ ao ser´ a convidado.
+
+Nome do arquivo fonte: obi.c, obi.cpp ou obi.pas
+
+O principal prêmio da Olimpíada Brasileira de Informática é o convite para os cursos de programação oferecidos
+no Instituto de Computação da Unicamp, com todas as despesas pagas pela Fundação Carlos Chagas, patro-
+cinadora da OBI. São convidados apenas os competidores que atingem um certo número mínimo de pontos,
+consideradas as duas fases de provas.
+
+Você foi contratado pela Coordenação da OBI para fazer um programa que, dados os números de pontos obtidos
+por cada competidor em cada uma das
+
+3, € o número mínimo de pontos para ser convidado, determine quantos
+
+competidores serão convidados para o curso na Unicamp. Você deve considerar que
+
+e todos os competidores participaram das duas fases;
+e o total de pontos de um competidor é a soma dos pontos obtidos nas duas fases;
+Por exemplo, se a pontuação mínima para ser convidado é 435 pontos, um competidor que tenha obtido 200
+
+pontos na primeira fase e 235 pontos na segunda fase será convidado para o curso na Unicamp. Já um competidor
+que tenha obtido 200 pontos na primeira fase e 234 pontos na segunda fase não será convidado.
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). A primeira linha da entrada cont´ em dois n´ umeros inteirosNeP, representando respectivamente on´ umero de competidores (1≤N≤1000) e o n´ umero m´ınimo de pontos para ser convidado (1≤P≤1000). Cada uma dasNlinhas seguintes cont´ em dois n´ umeros inteirosXeYindicando a pontua¸ c˜ ao de um competidorem cada uma das fases (0≤X≤400) e (0≤Y≤400).
-Sa´ıda
-Seu programa deve imprimir nasa´ıda padr˜ aouma ´ unica linha contendo um ´ unico inteiro, indicando o n´ umerode competidores que ser˜ ao convidados a participar do curso na Unicamp.
-Exemplo de entrada3 10050 50100 049 50 Exemplo de sa´ıda2
-Exemplo de entrada4 235100 1340 0200 200150 150Exemplo de sa´ıda2
+
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado). A primeira linha da entrada contém dois números inteiros N e P, representando respectivamente o
+número de competidores (1 < N < 1000) e o número mínimo de pontos para ser convidado (1 < P < 1000).
+Cada uma das N linhas seguintes contém dois números inteiros X e Y indicando a pontuação de um competidor
+em cada uma das fases (0 < X <400)e(0<Y <ã400).
+
+Saída
+
+Seu programa deve imprimir na saída padrão uma única linha contendo um único inteiro, indicando o número
+de competidores que serão convidados a participar do curso na Unicamp.
+
+Exemplo de entrada Exemplo de saída
+
+3 100 2
+50 50
+100 O
+49 50
+
+Exemplo de entrada Exemplo de saída
+
+4 235 2
+100 134
+00
+
+200 200
+150 150
+

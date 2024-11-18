@@ -1,16 +1,71 @@
-Olimpíada Brasileira de Informática – OBI2016 3
+Olimpíada Brasileira de Informática - OBI2016 3
+
 Chaves
-Nome do arquivo:chaves.c,chaves.cpp,chaves.pas,chaves.java,chaves.js,chaves.py2ouchaves.py3Seu amigo Juca está enfrentando problemas com programação. Na linguagem C, algumas partesdo código devem ser colocadas entre chaves"{ }"e ele frequentemente esquece de colocá-las ou ascoloca de forma errada. Porém, como Juca tem diculdade para entender os erros de compilação, elenunca sabe exatamente o que procurar. Por isso ele te pediu para fazer um programa que determinese um código está com as chaves balanceadas, ou seja, se é válido. Um código está com as chavesbalanceadas se:•Não há chaves (como por exemplo “Bom” ou “Correto”);•O código é composto por uma sequência de códigos válidos (como por exemplo “Bom Correto”ou “{}{}” ou “{}Correto”); ou•O código é formado por um código válido entre chaves (como por exemplo “{{}}” ou “{Bom}”).O código de Juca é composto porNlinhas de até100caracteres cada. Pode haver linhas vazias eespaços consecutivos.
+
+Nome do arquivo: chaves.c, chaves.cpp, chaves.pas, chaves. java, chaves. js, chaves.py2 ou
+chaves.py3
+
+Seu amigo Juca está enfrentando problemas com programação. Na linguagem C, algumas partes
+do código devem ser colocadas entre chaves "f J" e ele frequentemente esquece de colocá-las ou as
+coloca de forma errada. Porém, como Juca tem dificuldade para entender os erros de compilação, ele
+nunca sabe exatamente o que procurar. Por isso ele te pediu para fazer um programa que determine
+se um código está com as chaves balanceadas, ou seja, se é válido. Um código está com as chaves
+balanceadas se:
+
+e Não há chaves (como por exemplo “Bom” ou “Correto”);
+
+e O código é composto por uma sequência de códigos válidos (como por exemplo “Bom Correto”
+ou “(HW ou “LJCorreto”); ou
+
+e O código é formado por um código válido entre chaves (como por exemplo “(JJ ou “LBomJ”).
+O código de Juca é composto por N linhas de até 100 caracteres cada. Pode haver linhas vazias e
+espaços consecutivos.
 Entrada
-A primeira linha contém um inteiroN, representando o número de linhas no código. AsNlinhasseguintes contém até100caracteres.
+
+A primeira linha contém um inteiro N, representando o número de linhas no código. As N linhas
+seguintes contém até 100 caracteres.
+
 Saída
-Seu programa deve produzir uma única linha, contendo uma única letra,"S"se o código está comas chaves balanceadas e"N", caso contrário.
+
+Seu programa deve produzir uma única linha, contendo uma única letra, "S" se o código está com
+as chaves balanceadas e "N", caso contrário.
+
 Restrições
-•1≤N≤103.
+
+c1I<N<IÇ.
+
 Informações sobre a pontuação
-•Em um conjunto de casos de teste equivalente a 50 pontos,N= 1e todos os carateres são"{"ou"}"(como no terceiro exemplo).
+
+e Em um conjunto de casos de teste equivalente a 50 pontos, N = 1 e todos os carateres são
+"£" ou "+" (como no terceiro exemplo).
+
 Exemplos
-Entrada6#include <stdio.h>int main(void){printf("Hello World\n");}SaídaSOlimpíada Brasileira de Informática – OBI2016 4
-Entrada5{I{N{}F{])}O}R{}M}A{T}I{C@!!{onze}!!}SaídaS
-Entrada1{{}}{{}}} SaídaN
-Entrada1{{{3}}}{{{2}}a{{1}}{0} SaídaN
+Entrada Saída
+6 s
+
+tinclude <stdio.h>
+
+int main(void)
+t
+
+printf ("Hello Worldin'");
+>
+
+ Olimpíada Brasileira de Informática - OBI2016
+Entrada Saída
+5 s
+(INT
++)
+
+JoL
+
+IMIMTHI(CO! ! onze)! !)
+
+Entrada Saída
+1 N
+OM O
+
+Entrada Saída
+1 N
+LB HAL2Hatt1HHOS
+

@@ -1,11 +1,94 @@
-OBI2006 – Modalidade Programa¸ c˜ ao N´ıvel 1 – Fase Nacional 1
+0B12006 — Modalidade Programação Nível 1 — Fase Nacional 1
+
 Lobo Mau
-Nome do arquivo fonte:lobo.c,lobo.cpp,oulobo.pasNa fazenda do Sr. Amarante existe um certo n´ umero de ovelhas. Enquanto elas est˜ ao dormindo profundamente,alguns lobos famintos tentam invadir a fazenda e atacar as ovelhas. Ovelhas normaiscariam indefesas diante detal amea¸ ca, mas felizmente as ovelhas do Sr. Amarante s˜ ao praticantes de artes marciais e conseguem defender-seadequadamente.A fazenda possui um formato retangular e consiste de campos arranjados em linhas e colunas. Cada campopode conter uma ovelha (representada pela letra ‘k’), um lobo (letra ‘v’), uma cerca (s´ımbolo ‘#’) ou simples-mente estar vazio (s´ımbolo ‘.’). Consideramos que dois campos pertencem a um mesmopastose podemos irde um campo ao outro atrav´ es de um caminho formado somente com movimentos horizontais ou verticais, sempassar por uma cerca. Na fazenda podem existir campos vazios que n˜ ao pertencem a nenhum pasto. Um campovazio n˜ ao pertence a nenhum pasto se ´ e poss´ıvel “escapar” da fazenda a partir desse campo (ou seja, caso existaum caminho desse campo at´ e a borda da fazenda).Durante a noite, as ovelhas conseguem combater os lobos que est˜ ao no mesmo pasto, da seguinte forma: seem um determinado pasto houver mais ovelhas do que lobos, as ovelhas sobrevivem e matam todos os lobosnaquele pasto. Caso contr´ ario, as ovelhas daquele pasto s˜ ao comidas pelos lobos, que sobrevivem. Note quecaso um pasto possua o mesmo n´ umero de lobos e ovelhas, somente os lobos sobreviver˜ ao, j´ a que lobos s˜ aopredadores naturais, ao contr´ ario de ovelhas.
+
+Nome do arquivo fonte: lobo.c, lobo. cpp, ou lobo.pas
+
+Na fazenda do Sr. Amarante existe um certo número de ovelhas. Enquanto elas estão dormindo profundamente,
+alguns lobos famintos tentam invadir a fazenda e atacar as ovelhas. Ovelhas normais ficariam indefesas diante de
+tal ameaça, mas felizmente as ovelhas do Sr. Amarante são praticantes de artes marciais e conseguem defender-se
+adequadamente.
+
+A fazenda possui um formato retangular e consiste de campos arranjados em linhas e colunas. Cada campo
+pode conter uma ovelha (representada pela letra *k'), um lobo (letra *v”), uma cerca (símbolo *&”) ou simples-
+mente estar vazio (símbolo *.”). Consideramos que dois campos pertencem a um mesmo pasto se podemos ir
+de um campo ao outro através de um caminho formado somente com movimentos horizontais ou verticais, sem
+passar por uma cerca. Na fazenda podem existir campos vazios que não pertencem a nenhum pasto. Um campo
+vazio não pertence a nenhum pasto se é possível “escapar” da fazenda a partir desse campo (ou seja, caso exista
+um caminho desse campo até a borda da fazenda).
+
+Durante a noite, as ovelhas conseguem combater os lobos que estão no mesmo pasto, da seguinte forma: se
+em um determinado pasto houver mais ovelhas do que lobos, as ovelhas sobrevivem e matam todos os lobos
+naquele pasto. Caso contrário, as ovelhas daquele pasto são comidas pelos lobos, que sobrevivem. Note que
+caso um pasto possua o mesmo número de lobos e ovelhas, somente os lobos sobreviverão, já que lobos são
+predadores naturais, ao contrário de ovelhas.
+
 Tarefa
-Escreva um programa que, dado um mapa da fazenda do Sr. Amarante indicando a posi¸ c˜ ao das cercas, ovelhase lobos, determine quantas ovelhas e quantos lobos estar˜ ao vivos na manh˜ a seguinte.
+Escreva um programa que, dado um mapa da fazenda do Sr. Amarante indicando a posição das cercas, ovelhas
+
+e lobos, determine quantas ovelhas e quantos lobos estarão vivos na manhã seguinte.
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmente oteclado). A primeira linha da entrada cont´ em dois inteirosReCque indicam o n´ umero de linhas (3≤R≤250)e de colunas (3≤C≤250) de campos da fazenda. Cada uma dasRlinhas seguintes cont´ emCcaracteres,representando o cont´ eudo do campo localizado naquela linha e coluna (espa¸ co vazio, cerca, ovelha ou lobo).
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, uma ´ unica linha, contendo dois inteiros, sendo que o primeirorepresenta o n´ umero de ovelhas e o segundo representa o n´ umero de lobos que ainda est˜ ao vivos na manh˜ aseguinte.OBI2006 – Modalidade Programa¸ c˜ ao N´ıvel 1 – Fase Nacional 2
-Entrada6 6...#...##v#.#v.#.##.k#.#.###.#...###Sa´ıda0 2Entrada8 8.######.#..k...##.####.##.#v.#.##.#.k#k##k.##..##.v..v.#.######.Sa´ıda3 1
-Entrada9 12.###.#####..#.kk#...#v#.#..k#.#.#.#.#..##k#...#.#.#v#k###.#.#..#v#....#.#...v#v####..####.#vv.k#.......####Sa´ıda3 5
+
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente o
+teclado). A primeira linha da entrada contém dois inteiros R e C que indicam o número de linhas (3 < R < 250)
+e de colunas (3 < C < 250) de campos da fazenda. Cada uma das R linhas seguintes contém C caracteres,
+representando o contéudo do campo localizado naquela linha e coluna (espaço vazio, cerca, ovelha ou lobo).
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, uma única linha, contendo dois inteiros, sendo que o primeiro
+representa o número de ovelhas e o segundo representa o número de lobos que ainda estão vivos na manhã
+seguinte.
+ 0B12006 — Modalidade Programação Nível 1 — Fase Nacional
+
+Entrada
+6 6
+«Hive.
+dv.t.H
+HH. H
+
+BR.
+ERR
+
+Saída
+
+02
+
+Entrada
+
+88
+
+SEE.
+B..k...&
+ER DR
+H.tv.H.d
+Hd. KHKE
+E
+Bev..v.é
+SEE.
+
+Saída
+
+31
+
+Entrada
+
+9 12
+
+ER HR
+kkk... tvk.
+KHE .H.H.
+HHKH...H.
+vHHA E.
+civt....H.
+cv.
+ER tv. KH
+
+Ed
+Ed
+Ed
+Ed
+Ed
+Ed
+

@@ -1,20 +1,115 @@
-Olimpíada Brasileira de Informática – OBI20173
+Olimpíada Brasileira de Informática - OBI2017 3
+
 O Chefe
-Nome do arquivo:chefe.c,chefe.cpp,chefe.pas,chefe.java,chefe.jsouchefe.pyTodos conhecem Iks, a última moda em redes sociais, que fez tanto sucesso que competidores comoFacebook e Google+ estão começando a ter diculdadesnanceiras. Assim como muitas companhias“.com”, Iks surgiu em uma pequena garagem, mas hoje emprega milhares de pessoas no mundo todo.O sistema de gerência utilizado em Iks é bem diferente do padrão. Por exemplo, não há diretoriasou superintendências. No entanto, como é usual em outras companhias, há uma cadeia (ou melhor,várias cadeias) de comando: uma pessoa pode gerenciar outras pessoas, e pode ser gerenciada poroutras pessoas. Asguras abaixo mostram a cadeia de comando para alguns empregados, juntocom suas idades.
-Alice, 21Clara, 26David, 33 Elaine, 33Fred, 22George, 18Bia, 42Alice, 21Clara, 26George, 18 Elaine, 33Fred, 22David, 33Bia, 42
-(a)(b)
-Uma pessoaP 1pode gerenciar outra pessoaP 2diretamente (quandoP 1é o superior imediatodeP
-2) ou indiretamente (quandoP 1gerencia diretamente uma pessoaP 3que gerenciaP 2diretaou indiretamente). Por exemplo, nagura (a) acima, Alice gerencia David diretamente e Claraindiretamente. Uma pessoa não gerencia a si própria, nem direta nem indiretamente.Um folclore que apareceu em Wall Street é que Iks é tão bem sucedido porque em sua rede decomando um(a) gerente é sempre mais jovem do que as pessoas que ele(a) gerencia. Como podemosver nagura acima, isso não é verdade. Mas esse folclore incentivou Iks a desenvolver uma ferra-menta para analisar o seu sistema de gerenciamento, e estudar se tem alguma inuência no sucessoda empresa. Você foi contratado para trabalhar nessa ferramenta.Dadas a descrição da cadeia de comando na Iks e as idades de seus empregados, escreva um programaque execute uma série de instruções. Instruções podem ser de dois tipos: trocas de gerência eperguntas. Uma instrução de troca de gerência faz dois empregadosAeBtrocarem suas posiçõesna cadeia de comando. Como exemplo, agura (b) acima mostra a cadeia de comando resultantequando David e George trocam suas respectivas posições na cadeia de comando. Uma instruçãode pergunta identica um empregadoAe deseja saber a idade do mais jovem gerente (direto ouindireto) deAna cadeia de comando. Por exemplo, no cenário dagura (a) acima a idade do(a)gerente mais jovem de Clara é 18 anos; já no cenário dagura (b), a idade do(a) gerente mais jovemde Clara é 21 anos.
+
+Nome do arquivo: chefe.c, chefe.cpp, chefe.pas, chefe. java, chefe.js ou chefe.py
+
+Todos conhecem Iks, a última moda em redes sociais, que fez tanto sucesso que competidores como
+Facebook e Google- estão começando a ter dificuldades financeiras. Assim como muitas companhias
+“com”, Iks surgiu em uma pequena garagem, mas hoje emprega milhares de pessoas no mundo todo.
+
+O sistema de gerência utilizado em Iks é bem diferente do padrão. Por exemplo, não há diretorias
+ou superintendências. No entanto, como é usual em outras companhias, há uma cadeia (ou melhor,
+várias cadeias) de comando: uma pessoa pode gerenciar outras pessoas, e pode ser gerenciada por
+outras pessoas. Ás figuras abaixo mostram a cadeia de comando para alguns empregados, junto
+com suas idades.
+
+Alice, 21 Alice, 21
+David, 33 Elaine, 33 George, 18 George, 18 Elaine, 33 David, 33
+Bia, 42 Fred, 22 Bia, 42 Fred, 22
+na "
+Clara, 26 Clara, 26
+(a) (b)
+
+Uma pessoa P, pode gerenciar outra pessoa P> diretamente (quando P, é o superior imediato
+de P3) ou indiretamente (quando P, gerencia diretamente uma pessoa P3 que gerencia P> direta
+ou indiretamente). Por exemplo, na figura (a) acima, Alice gerencia David diretamente e Clara
+indiretamente. Uma pessoa não gerencia a si própria, nem direta nem indiretamente.
+
+Um folclore que apareceu em Wall Street é que Iks é tão bem sucedido porque em sua rede de
+comando um(a) gerente é sempre mais jovem do que as pessoas que ele(a) gerencia. Como podemos
+ver na figura acima, isso não é verdade. Mas esse folclore incentivou Iks a desenvolver uma ferra-
+menta para analisar o seu sistema de gerenciamento, e estudar se tem alguma influência no sucesso
+da empresa. Você foi contratado para trabalhar nessa ferramenta.
+
+Dadas a descrição da cadeia de comando na Iks e as idades de seus empregados, escreva um programa
+ue execute uma série de instruções. Instruções podem ser de dois tipos: trocas de gerência e
+perguntas. Uma instrução de troca de gerência faz dois empregados 4 e B trocarem suas posições
+na cadeia de comando. Como exemplo, a figura (b) acima mostra a cadeia de comando resultante
+uando David e George trocam suas respectivas posições na cadeia de comando. Uma instrução
+e pergunta identifica um empregado A e deseja saber a idade do mais jovem gerente (direto ou
+indireto) de A na cadeia de comando. Por exemplo, no cenário da figura (a) acima a idade do(a)
+gerente mais jovem de Clara é 18 anos; já no cenário da figura (b), a idade do(a) gerente mais jovem
+de Clara é 21 anos.
+
+a
+
 Entrada
-A entrada é composta de várias linhas. A primeira linha contém três inteirosN,MeI, indicandorespectivamente o número de empregados, o número de relações de gerência direta e o número deinstruções. Empregados são identicados por números de 1 aN. A segunda linha contémNinteirosK
-i, ondeK iindica a idade do empregado de númeroi.Olimpíada Brasileira de Informática – OBI20174Cada uma dasMlinhas seguintes contém dois inteirosXeY, indicando queXgerenciaYdire-tamente. Seguem-seIlinhas, cada uma descrevendo uma instrução. Uma instrução de troca degerência é descrita em uma linha contendo o identicadorTseguido de dois inteirosAeB, indi-cando os dois empregados que devem trocar seus lugares na cadeia de comando. Uma instrução depergunta é descrita em uma linha contendo o identicadorPseguido de um inteiroE, indicandoum empregado. A última instrução será sempre do tipo pergunta.
+
+A entrada é composta de várias linhas. A primeira linha contém três inteiros N, M e T, indicando
+respectivamente o número de empregados, o número de relações de gerência direta e o número de
+instruções. Empregados são identificados por números de 1 a N. A segunda linha contém N inteiros
+Ki, onde K; indica a idade do empregado de número à.
+ Olimpíada Brasileira de Informática - OBI2017 4
+
+Cada uma das M linhas seguintes contém dois inteiros X e Y, indicando que X gerencia Y dire-
+tamente. Seguem-se 1 linhas, cada uma descrevendo uma instrução. Uma instrução de troca de
+gerência é descrita em uma linha contendo o identificador T seguido de dois inteiros A e B, indi-
+cando os dois empregados que devem trocar seus lugares na cadeia de comando. Uma instrução de
+pergunta é descrita em uma linha contendo o identificador P seguido de um inteiro E , indicando
+um empregado. A última instrução será sempre do tipo pergunta.
+
 Saída
-Para cada instrução de pergunta seu programa deve imprimir uma linha contendo um único inteiro,a idade da pessoa mais jovem que gerencia (direta ou indiretamente) o empregado nomeado napergunta. Se o empregado nomeado não possui um gerente, imprima o caractere ‘*’ (asterisco).
+
+Para cada instrução de pergunta seu programa deve imprimir uma linha contendo um único inteiro,
+a idade da pessoa mais jovem que gerencia (direta ou indiretamente) o empregado nomeado na
+pergunta. Se o empregado nomeado não possui um gerente, imprima o caractere '* (asterisco).
+
 Restrições
-•1≤N≤500•0≤M≤60×103
-•1≤I≤500•1≤K
-i≤100, para1≤i≤N•1≤X, Y≤N,X6=Y•1≤A, B≤N•1≤E≤N
+
+e 1<N<500
+“0<M<60x10
+e1<1<500
+
+e 1<K,<100,paral<i<N
+CI<XY<NXLY
+
+º
+
+I<A,B<N
+
+eI<E<N
 Exemplos
-Entrada7 8 921 33 33 18 42 22 261 21 32 53 53 64 64 76 7P 7T 4 2P 7P 5T 1 4P 7T 4 7P 2P 6
-Saída18211818*26Olimpíada Brasileira de Informática – OBI20175
-Entrada6 5 610 20 30 40 50 601 51 43 62 54 5P 1P 5P 6T 1 6P 1P 4Saída*10303060
+Entrada Saída
+789 18
+2133 33 18 42 22 26 21
+12 18
+13 18
+25 *
+35 26
+36
+4 6
+47
+67
+P7
+T42
+P7
+Ps
+Tia
+P7
+T47
+P2
+P 6
+
+ Olimpíada Brasileira de Informática - OBI2017
+Entrada Saída
+656 *
+
+10 20 30 40 50 60 10
+30
+30
+60
+
+VOS
+BHO
+

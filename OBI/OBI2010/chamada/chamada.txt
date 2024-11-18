@@ -1,15 +1,77 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2010 5
+[o]
+
+Olimpíada Brasileira de Informática — OBI2010
+
 Lista de Chamada
-Nome do arquivo fonte:chamada.c,chamada.cpp,ouchamada.pasTia Joana ´ e uma respeitada professora e tem v´ arios alunos. Em sua ´ ultima aula, ela prometeu que iria sortearum aluno para ganhar um bˆ onus especial na notanal: ela colocouNpeda¸ cos de papel numerados de 1 aNemum saquinho e sorteou um determinado n´ umeroK; o aluno premiado foi oK-´ esimo aluno na lista de chamada.O problema ´ e que a Tia Joana esqueceu o di´ ario de classe, ent˜ ao ela n˜ ao tem como saber qual n´ umero correspondea qual aluno. Ela sabe os nomes de todos os alunos, e que os n´ umeros deles, de 1 at´ eN, s˜ ao atribu´ıdos de acordocom a ordem alfab´ etica, mas os alunos dela est˜ ao muito ansiosos e querem logo saber quem foi o vencedor.
+
+Nome do arquivo fonte: chamada.c, cnamada.cpp, ou chamada.pas
+
+Tia Joana é uma respeitada professora e tem vários alunos. Em sua última aula, ela prometeu que iria sortear
+um aluno para ganhar um bônus especial na nota final: ela colocou N pedaços de papel numerados de 1 a N em
+um saquinho e sorteou um determinado número K; o aluno premiado foi o K-ésimo aluno na lista de chamada.
+
+O problema é que a Tia Joana esqueceu o diário de classe, então ela não tem como saber qual número corresponde
+a qual aluno. Ela sabe os nomes de todos os alunos, e que os números deles, de 1 até N, são atribuídos de acordo
+com a ordem alfabética, mas os alunos dela estão muito ansiosos e querem logo saber quem foi o vencedor.
+
 Tarefa
-Dado os nomes dos alunos da Tia Joana e o n´ umero sorteado, determine o nome do aluno que deve receber obˆ onus.
+
+Dado os nomes dos alunos da Tia Joana e o número sorteado, determine o nome do aluno que deve receber o
+bônus.
+
 Entrada
-A primeira linha cont´ em dois inteirosNeKseparados por um espa¸ co em branco (1≤K≤N≤100). Cadauma dasNlinhas seguintes cont´ em uma cadeia de caracteres de tamanho m´ınimo 1 e m´ aximo 20 representandoos nomes dos alunos. Os nomes s˜ ao compostos apenas por letras min´ usculas de ‘a’ a ‘z’.
-Sa´ıda
-Seu programa deve imprimir uma ´ unica linha, contendo o nome do aluno que deve receber o bˆ onus.
-Informa¸ c˜ oes sobre a pontua¸ c˜ ao
-•Em um conjunto de casos de teste que totaliza 30 pontos,N≤3.Olimp´ıada Brasileira de Inform´ atica – OBI2010 6
+
+A primeira linha contém dois inteiros N e K separados por um espaço em branco (1 < K < N < 100). Cada
+uma das N linhas seguintes contém uma cadeia de caracteres de tamanho mínimo 1 e máximo 20 representando
+os nomes dos alunos. Os nomes são compostos apenas por letras minúsculas de “a' a 'z”.
+
+Saída
+
+Seu programa deve imprimir uma única linha, contendo o nome do aluno que deve receber o bônus.
+
+Informações sobre a pontuação
+
+e Em um conjunto de casos de teste que totaliza 30 pontos, N <3.
+ Olimpíada Brasileira de Informática - OBD010
+
 Exemplos
-Entrada5 1mariajoaocarlosvanessajoseSa´ıdacarlos
-Entrada5 5mariajoaocarlosvanessajoseSa´ıdavanessa
-Entrada5 3mariajoaocarlosvanessajoseSa´ıdajose
+
+Entrada
+
+51
+maria
+joao
+carlos
+vanessa
+jose
+
+Saída
+
+carlos
+
+Entrada
+
+55
+maria
+joao
+carlos
+vanessa
+jose
+
+Saída
+
+vanessa
+
+Entrada
+
+53
+maria
+joao
+carlos
+vanessa
+jose
+
+Saída
+
+jose
+

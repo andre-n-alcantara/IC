@@ -1,15 +1,47 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2010 2
+Olimpíada Brasileira de Informática — OBI2010 2
+
 Sedex Marciano
-Nome do arquivo fonte:marciano.c,marciano.cpp,oumarciano.pasEstamos no ano 2048 e um dos sonhos da humanidade torna-senalmente realidade: a coloniza¸ c˜ ao do planetaMarte. Nossos primeiros colonizadores acabam de chegar, e j´ a come¸ cam a fazer as prepara¸ c˜ oes (como a instala¸ c˜ aode c´ upulas de oxigˆ enio e tratamento do solo para agricultura) para que mais pessoas possam tentar uma novavida no planeta vizinho.Apesar dos avan¸ cos tecnol´ ogicos e desaos vencidos, ainda resta um grande problema: os foguetes usados parair a Marte ainda s˜ ao complicados e caros. Com isso,ca dif´ıcil enviar suprimentos para os nossos colonos(enquanto a agricultura ainda n˜ ao ´ e poss´ıvel) por muito tempo. Assim, a agˆ encia espacial contratou o SBC(Servi¸ co Bal´ıstico C´ osmico), que desenvolveu um canh˜ ao super-potente que consegue disparar esferas at´ e Marte,sem precisar gastar milh˜ oes de d´ olares em equipamento e combust´ıvel.Agora, tudo o que ´ e necess´ ario fazer para enviar suprimentos a Marte ´ e colocar uma caixa com as encomendasdentro de uma esfera e disparar a mesma at´ e seu destino.
+
+Nome do arquivo fonte: marciano.c, marciano.cpp, ou marciano.pas
+
+Estamos no ano 2048 e um dos sonhos da humanidade torna-se finalmente realidade: a colonização do planeta
+Marte. Nossos primeiros colonizadores acabam de chegar, e já começam a fazer as preparações (como a instalação
+de cúpulas de oxigênio e tratamento do solo para agricultura) para que mais pessoas possam tentar uma nova
+vida no planeta vizinho.
+
+Apesar dos avanços tecnológicos e desafios vencidos, ainda resta um grande problema: os foguetes usados para
+ir a Marte ainda são complicados e caros. Com isso, fica difícil enviar suprimentos para os nossos colonos
+(enquanto a agricultura ainda não é possível) por muito tempo. Assim, a agência espacial contratou o SBC
+(Serviço Balístico Cósmico), que desenvolveu um canhão super-potente que consegue disparar esferas até Marte,
+sem precisar gastar milhões de dólares em equipamento e combustível.
+
+Agora, tudo o que é necessário fazer para enviar suprimentos a Marte é colocar uma caixa com as encomendas
+dentro de uma esfera e disparar a mesma até seu destino.
+
 Tarefa
-Dadas as dimens˜ oes de uma caixa com suprimentos e o raio interno da esfera que ´ e disparada pelo canh˜ ao, seuprograma dever´ a dizer se ´ e poss´ıvel enviar tal caixa para Marte usando tal esfera.
+
+Dadas as dimensões de uma caixa com suprimentos e o raio interno da esfera que é disparada pelo canhão, seu
+programa deverá dizer se é possível enviar tal caixa para Marte usando tal esfera.
+
 Entrada
-Cada entrada cont´ em apenas uma linha com quatro inteirosL,A,PeR, (0≤L, A, P, R≤1000) que represen-tam, respectivamente, a largura, altura e profundidade da caixa, e o raio da esfera.
-Sa´ıda
-Seu programa deve imprimir um ´ unico caractere: ‘S’ (sem aspas) se ´ e poss´ıvel colocar a caixa dentro da esfera,ou ‘N’ (sem aspas) caso contr´ ario.
-Informa¸ c˜ oes sobre a pontua¸ c˜ ao
-•Em um conjunto de casos de teste que totaliza 20 pontos, 0≤L, A, P, R≤20.
+
+Cada entrada contém apenas uma linha com quatro inteiros L, 4, Pe R, (0<L,A,P,R < 1000) que represen-
+tam, respectivamente, a largura, altura e profundidade da caixa, e o raio da esfera.
+
+Saída
+
+Seu programa deve imprimir um único caractere: 'S” (sem aspas) se é possível colocar a caixa dentro da esfera,
+ou “Nº (sem aspas) caso contrário.
+
+Informações sobre a pontuação
+
+e Em um conjunto de casos de teste que totaliza 20 pontos, O< L,A,P, R< 20.
+
 Exemplos
-Entrada10 20 30 30 Sa´ıdaS
-Entrada10 10 10 7 Sa´ıdaN
-Entrada2 4 4 3 Sa´ıdaS
+Entrada Saída
+10 20 30 30 8
+Entrada Saída
+10 10 10 7 N
+Entrada Saída
+2443 8
+

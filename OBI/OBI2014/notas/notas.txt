@@ -1,12 +1,39 @@
-Olimpíada Brasileira de Informática – OBI2014 2
+Olimpíada Brasileira de Informática - OBI2014 2
+
 Notas
-Nome do arquivo fonte:notas.c,notas.cpp,notas.pas,notas.java,ounotas.pyO professor Arquimedes precisa da sua ajuda para descobrir qual é a nota mais frequente entre asnotas que os alunos dele tiraram na última prova. A turma temNalunos e seu programa deveimprimir a nota que aparece mais vezes na lista deNnotas. Se houver mais de uma nota maisfrequente, você deve imprimir a maior delas! Por exemplo, se a turma tiverN= 10alunos e asnotas forem[20,25,85,40,25,90,25,40,55,40], as notas mais frequentes são25e40, ocorrendo trêsvezes cada. Seu programa, então, deve imprimir40.
+
+Nome do arquivo fonte: notas.c, notas.cpp, notas.pas, notas. java, ou notas.py
+
+O professor Arquimedes precisa da sua ajuda para descobrir qual é a nota mais frequente entre as
+notas que os alunos dele tiraram na última prova. A turma tem N alunos e seu programa deve
+imprimir a nota que aparece mais vezes na lista de N notas. Se houver mais de uma nota mais
+frequente, você deve imprimir a maior delas! Por exemplo, se a turma tiver N = 10 alunos e as
+notas forem [20, 25, 85, 40, 25, 90, 25, 40,55, 40], as notas mais frequentes são 25 e 40, ocorrendo três
+vezes cada. Seu programa, então, deve imprimir 40.
+
 Entrada
-A entrada consiste de duas linhas. A primeira linha contém um número inteiroN, o número dealunos na turma. A segunda linha contémNinteiros, que é a lista de notas dos alunos.
+
+A entrada consiste de duas linhas. A primeira linha contém um número inteiro N, o número de
+alunos na turma. A segunda linha contém N inteiros, que é a lista de notas dos alunos.
+
 Saída
-Seu programa deve imprimir apenas uma linha contendo apenas um número, a nota mais frequenteda lista.
+
+Seu programa deve imprimir apenas uma linha contendo apenas um número, a nota mais frequente
+da lista.
 Restrições
-•1≤N≤200•O valor de todas as notas é um inteiro entre 0 e 100, inclusive
+
+e1<N<200
+
+e O valor de todas as notas é um inteiro entre O e 100, inclusive
+
 Exemplos
-Entrada1020 25 85 40 25 90 25 40 55 40 Saída40
-Entrada1245 0 33 70 12 55 70 70 90 55 70 100 Saída70
+Entrada Saída
+10 40
+
+20 25 85 40 25 90 25 40 55 40
+
+Entrada Saída
+
+12 TO
+45 033 70 12 55 70 70 90 55 70 100
+

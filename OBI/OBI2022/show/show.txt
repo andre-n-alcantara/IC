@@ -1,22 +1,119 @@
-Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível 1 – Fase 1 5
+Olimpíada Brasileira de Informática - OBI2022 — Prog. Nível 1 - Fase 1 5
+
 Show
-Nome do arquivo:show.c,show.cpp,show.pas,show.java,show.jsoushow.pyUm grupo de amigos quer comprar ingressos para um show da sua banda preferida. O show acontecenum teatro que temNlas de assentos, cadala comMassentos.Os amigos querem comprar ingressos de forma que os assentos dos amigos:•sejam todos na mesmala,•sejam contíguos (ou seja, um vizinho ao outro) e•sejam nala mais próxima possível do palco.Dado um mapa descrevendo os assentos disponíveis, ajude os amigos a encontrarem os ingressos deacordo com as condições acima.
+
+Nome do arquivo: show.c, show.cpp, show.pas, show. java
+
+, Show. js ou show.py
+
+Um grupo de amigos quer comprar ingressos para um show da sua banda preferida. O show acontece
+
+num teatro que tem N filas de assentos, cada fila com M assentos.
+
+Os amigos querem comprar ingressos de forma que os assentos dos amigos:
+
+e sejam todos na mesma fila,
+e sejam contíguos (ou seja, um vizinho ao outro) e
+
+e sejam na fila mais próxima possível do palco.
+
+Dado um mapa descrevendo os assentos disponíveis, ajude os amigos a encontrarem os ingressos de
+
+acordo com as condições acima.
+
 Entrada
-A primeira linha contém três inteirosA,NeM, indicando respectivamente o número de amigos, onúmero delas de assentos e o número de assentos em cadala do teatro. Aslas são numeradasde 1 (mais próxima do palco) atéN(mais distante do palco). Cada uma dasNlinhas seguintescontémMinteirosX i, que podem ter o valor 1 (representando um assento ocupado) ou o valor 0(representando um assento não ocupado). Aslas de assentos são dadas dala mais distante paraala mais próxima do palco. Ou seja, a primeirala dada na entrada é alaN(mais distante dopalco), a últimala dada na entrada é ala 1 (mais próxima do palco).
+
+A primeira linha contém três inteiros 4, N e M, indicando respectivamente o número de amigos, o
+
+número de filas de assentos e o número de assentos em cada fila do
+
+teatro. As filas são numeradas
+
+de 1 (mais próxima do palco) até N (mais distante do palco). Cada uma das N linhas seguintes
+
+contém M inteiros X;, que podem ter o valor 1 (representando um
+(representando um assento não ocupado). As filas de assentos são d.
+
+assento ocupado) ou o valor O
+adas da fila mais distante para
+
+a fila mais próxima do palco. Ou seja, a primeira fila dada na entrada é a fila N (mais distante do
+
+palco), a última fila dada na entrada é a fila 1 (mais próxima do pal
 Saída
-Seu programa deve produzir uma única linha, contendo um único inteiro, que deve ser o número dala em que os amigos conseguem comprar os ingressos se é possível encontrar ingressos de acordocom as condições dadas, ou−1caso contrário.
+
+Seu programa deve produzir uma única linha, contendo um único in
+
+co).
+
+eiro, que deve ser o número da
+
+fila em que os amigos conseguem comprar os ingressos se é possíve
+com as condições dadas, ou —1 caso contrário.
+
 Restrições
-•2≤A≤100•1≤N≤100•1≤M≤100•0≤X
-i≤1para1≤i≤MInformações sobre a pontuação
-•Para um conjunto de casos de testes valendo 20 pontos,N= 1.
-Exemplo de entrada 1
-4 3 50 0 0 0 01 0 0 0 11 0 0 0 0Exemplo de saída 1
-1Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível 1 – Fase 1 6 Explicação do exemplo 1:São 4 amigos e o teatro tem 3las com 5 cadeiras cadala. Amelhor opção é ala 1, embora os quatro amigos possam também comprar os ingressos nala3. Nala 2 não há cadeiras vagas sucientes.
+e2<4<100
+e1<N<100
+e1<M<100
+
+e0O<X;<lIparal<i<M
+
+Informações sobre a pontuação
+
+encontrar ingressos de acordo
+
+e Para um conjunto de casos de testes valendo 20 pontos, N = 1.
+
+Exemplo de entrada 1 Exemplo de saída 1
+
+435 1
+00000
+
+10001
+10000
+
+ Olimpíada Brasileira de Informática - OBI2022
+
+Explicação do exemplo 1: São 4 amigos e o tea
+melhor opção é a fila 1, embora os quatro amigos
+3. Na fila 2 não há cadeiras vagas suficientes.
+
+Prog. Nível 1 - Fase 1
+
+ro tem 3 filas com 5 cadeiras cada fila. A
+possam também comprar os ingressos na fila
+
 Exemplo de entrada 2
-2 3 50 1 0 1 00 1 0 1 00 1 0 1 0Exemplo de saída 2
+
+oo on
+ow
+oooua
+HH
+ooo
+
+Exemplo de saída 2
+
 -1
-Explicação do exemplo 2:São 2 amigos e o teatro tem 3las com 5 cadeiras cadala. Nenhumala tem 2 cadeiras vagas contíguas.
+
+Explicação do exemplo 2: São 2 amigos e o teatro
+fila tem 2 cadeiras vagas contíguas.
+
+em 3 filas com 5 cadeiras cada fila. Nenhuma
+
 Exemplo de entrada 3
-3 6 40 0 0 01 0 0 01 1 0 01 1 1 01 1 1 11 1 1 1Exemplo de saída 3
+
+HH HHHOw
+HhHHHooao
+nnhHooows
+HHooo o
+
+Exemplo de saída 3
+
 5
-Explicação do exemplo 3:São 3 amigos e o teatro tem 6las com 4 cadeiras cadala. Asúnicaslas com cadeiras vagas sucientes são ala 5 e ala 6, então a melhor opção é ala5.
+
+Explicação do exemplo 3: São 3 amigos e o teatro tem 6 filas com 4 cadeiras cada fila. As
+
+únicas filas com cadeiras vagas suficientes são a fila 5 e a fila 6, então a melhor opção é a fila
+
+5.
+

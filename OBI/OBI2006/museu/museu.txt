@@ -1,10 +1,93 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2006 –Modalidade Programa¸ c˜ ao N´ıvel 23
+Olimpíada Brasileira de Informática — OB12006 —- Modalidade Programação Nível 2 3
+
 Museu
-Nome do arquivo fonte:museu.c,museu.cpp,oumuseu.pasDesde que o arquiteto Frank Gehry projetou o Museu Guggenheim de Bilbao, os museus tˆ em sido constru´ıdoscom formas cada vez mais complexas, fugindo de padr˜ oes pr´ e-estabelecidos e de simetrias. Um t´ıpico museumoderno ´ e composto por um conjuto de salas ligadas por corredores e escadas, sem preocupa¸ c˜ ao com a pr´ e-deni¸ c˜ ao de caminhos a serem seguidos pelas pessoas.Henriqueta ´ e uma professora do ensino fundamental que deseja visitar o museu da Ordem Brasileira deMedicina (OBM) para mostrar aos seus alunos de ciˆ encias como o corpo humano funciona e como as cirurgiaseram feitas nos s´ eculos XIX e XX. Henriqueta quer planejar uma visita pelas salas do museu, obedecento asseguintes restri¸ c˜ oes:•a visita deve come¸ car e terminar em uma mesma sala;•exceto a sala de partida, nenhuma sala do museu pode ser visitada mais de uma vez;•a visita deve incluir pelo menos duas salas;•os corredores s˜ ao unidirecionais, ou seja, as pessoas podem caminhar, em um corredor, apenas em umadire¸ c˜ ao.•a visita deve tomar o menor tempo poss´ıvel.Um estudo preliminar, realizado pelo pr´ oprio museu, indica o tempo m´ edio que cada visitanteca em umasala e quanto tempo leva-se para atravessar um corredor ou uma escada. Henriqueta quer a sua ajuda paracalcular o tempo total da menor visita que ela pode efetuar, obedecendo as restri¸ c˜ oes dadas.
+
+Nome do arquivo fonte: museu.c, museu. cpp, ou museu.pas
+
+Desde que o arquiteto Frank Gehry projetou o Museu Guggenheim de Bilbao, os museus têm sido construídos
+com formas cada vez mais complexas, fugindo de padrões pré-estabelecidos e de simetrias. Um típico museu
+moderno é composto por um conjuto de salas ligadas por corredores e escadas, sem preocupação com a pré-
+definição de caminhos a serem seguidos pelas pessoas.
+
+Henriqueta é uma professora do ensino fundamental que deseja visitar o museu da Ordem Brasileira de
+Medicina (OBM) para mostrar aos seus alunos de ciências como o corpo humano funciona e como as cirurgias
+eram feitas nos séculos XIX e XX. Henriqueta quer planejar uma visita pelas salas do museu, obedecento as
+seguintes restrições:
+
+e a visita deve começar e terminar em uma mesma sala;
+e exceto a sala de partida, nenhuma sala do museu pode ser visitada mais de uma vez;
+e a visita deve incluir pelo menos duas salas;
+
+e os corredores são unidirecionais, ou seja, as pessoas podem caminhar, em um corredor, apenas em uma
+direção.
+
+e a visita deve tomar o menor tempo possível.
+
+Um estudo preliminar, realizado pelo próprio museu, indica o tempo médio que cada visitante fica em uma
+
+sala e quanto tempo leva-se para atravessar um corredor ou uma escada. Henriqueta quer a sua ajuda para
+calcular o tempo total da menor visita que ela pode efetuar, obedecendo as restrições dadas.
+
 Tarefa
-Escreva um programa que, dados um conjunto de salas, um conjunto de corredores e escadas que ligam essassalas e o tempo necess´ ario para percorrer cada sala e cada corredor, determine qual ´ e o menor tempo poss´ıvelpara uma visita. Note que o tempo de visita da sala onde a visita se inicia deve ser contado apenas uma vez.
+
+Escreva um programa que, dados um conjunto de salas, um conjunto de corredores e escadas que ligam essas
+salas e o tempo necessário para percorrer cada sala e cada corredor, determine qual é o menor tempo possível
+para uma visita. Note que o tempo de visita da sala onde a visita se inicia deve ser contado apenas uma vez.
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). A primeira linha da entrada cont´ em dois inteirosSeC, que indicam, respectivamente, o n´ umerode salas (1≤S≤1000) e o n´ umero de corredores e escadas (1≤C≤1000). As salas s˜ ao numeradas de 1 aS. A segunda linha cont´ emSinteiros representando o tempo gasto para percorrer cada sala. Cada uma dasClinhas seguintes descreve um corredor ou escada. A descri¸ c˜ ao ´ e composta por trˆ es inteiros,I,FeT, indicandoque o corredor somente pode ser percorrido da salaI(1≤I≤N) para a salaF(1≤F≤N) no tempoT(1≤T≤1000). O tempo total m´ aximo ´ e sempre menor ou igual a 1000000.
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, uma ´ unica linha contendo o tempo gasto na visita de menordura¸ c˜ ao que Henriqueta pode realizar no museu. Existe pelo menos uma visita que atende as restri¸ c˜ oes impostas.Olimp´ıada Brasileira de Inform´ atica – OBI2006 –Modalidade Programa¸ c˜ ao N´ıvel 24
-Entrada2 21 11 2 12 1 3Sa´ıda6Entrada5 65 5 10 10 51 2 12 3 15 1 13 4 14 1 15 2 1Sa´ıda34Entrada8 103 10 8 4 1 1 8 11 2 11 3 104 1 15 8 13 7 17 5 28 4 22 3 23 6 16 7 2Sa´ıda42
+
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado). A primeira linha da entrada contém dois inteiros S e C, que indicam, respectivamente, o número
+de salas (1 < S < 1000) e o número de corredores e escadas (1 < C < 1000). As salas são numeradas de 1 a
+S. A segunda linha contém S inteiros representando o tempo gasto para percorrer cada sala. Cada uma das C
+linhas seguintes descreve um corredor ou escada. A descrição é composta por três inteiros, 1, F e T, indicando
+que o corredor somente pode ser percorrido da sala 1 (1 < 1 < N) paraasala F (1<F< N) no tempo T
+(1<7T < 1000). O tempo total máximo é sempre menor ou igual a 1000000.
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, uma única linha contendo o tempo gasto na visita de menor
+duração que Henriqueta pode realizar no museu. Existe pelo menos uma visita que atende as restrições impostas.
+ Olimpíada Brasileira de Informática — OB12006 —- Modalidade Programação Nível 2
+
+Entrada
+
+NH HAN
+HH HM
+wa
+
+Saída
+
+Entrada
+
+10 10 5
+
+QRO
+[O RR e = e O EO 0)
+HH
+
+[64]
+p
+[=
+joh
+»
+
+w
++
+
+Entrada
+
+10
+10841181
+1
+
+SD WNONOO HH ãawgGo
+JOW NO HO
+DANNNHHHR
+
+o
+
+Saída
+
+42
+

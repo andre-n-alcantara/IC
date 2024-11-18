@@ -1,21 +1,58 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2005 – Modalidade Programa¸ c˜ ao N´ıvel 11
-Frota de T´ axi
-Arquivo fonte: taxi.c, taxi.cc, taxi.cpp ou taxi.pasA Companhia de T´ axi Tabajara (CTT) ´ e uma das maiores empresas de transporte do pa´ıs. Possui umavasta frota de carros e opera em todas as grandes cidades. Recentemente a CTT modernizou a suafrota, adquirindo um lote de 500 carros bi-combust´ıveis (carros que podem utilizar como combust´ıveltanto ´ alcool quanto gasolina). Al´ em do maior conforto para os passageiros e o menor gasto commanuten¸ c˜ ao, com os novos carros ´ e poss´ıvel uma redu¸ c˜ ao adicional de custo: como o pre¸ co da gasolinaest´ a sujeito a varia¸ c˜ oes muito bruscas e pode ser vantagem, em certos momentos, utilizar ´ alcool comocombust´ıvel. Entretanto, os carros possuem um melhor desempenho utilizando gasolina, ou seja, emgeral, um carro percorre mais quilˆ ometros por litro de gasolina do que por litro de ´ alcool.
+Olimpíada Brasileira de Informática - OBI2005 - Modalidade Programação Nível 1 1
+
+Frota de Táxi
+
+Arquivo fonte: taxi.c, taxi.cc, tazxi.cpp ou taxi. pas
+
+A Companhia de Táxi Tabajara (CTT) é uma das maiores empresas de transporte do país. Possui uma
+vasta frota de carros e opera em todas as grandes cidades. Recentemente a CTT modernizou a sua
+frota, adquirindo um lote de 500 carros bi-combustíveis (carros que podem utilizar como combustível
+tanto álcool quanto gasolina). Além do maior conforto para os passageiros e o menor gasto com
+manutenção, com os novos carros é possível uma redução adicional de custo: como o preço da gasolina
+está sujeito a variações muito bruscas e pode ser vantagem, em certos momentos, utilizar álcool como
+combustível. Entretanto, os carros possuem um melhor desempenho utilizando gasolina, ou seja, em
+geral, um carro percorre mais quilômetros por litro de gasolina do que por litro de álcool.
+
 Tarefa
-Vocˆ e deve escrever um programa que, dados o pre¸ co do litro de ´ alcool, o pre¸ co do litro de gasolina e osquilˆ ometros por litro que um carro bi-combust´ıvel realiza com cada um desses combust´ıveis, determinese ´ e mais econˆ omico abastecer os carros da CTT com ´ alcool ou com gasolina. No caso de n˜ ao haverdiferen¸ ca de custo entre abastecer com ´ alcool ou gasolina a CTT prefere utilizar gasolina.
+
+Você deve escrever um programa que, dados o preço do litro de álcool, o preço do litro de gasolina e os
+quilômetros por litro que um carro bi-combustível realiza com cada um desses combustíveis, determine
+se é mais econômico abastecer os carros da CTT com álcool ou com gasolina. No caso de não haver
+diferença de custo entre abastecer com álcool ou gasolina a CTT prefere utilizar gasolina.
+
 Entrada
-A entrada ´ e composta por uma linha contendo quatro n´ umeros reais com precis˜ ao de duas casasdecimaisA,G,R
-aeRg, representando respectivamente o pre¸ co por litro do ´ alcool, o pre¸ co por litroda gasolina, o rendimento (km/l) do carro utilizando ´ alcool e o rendimento (km/l) do carro utilizandogasolina.A entrada deve ser lida do dispositivo de entrada padr˜ ao (normalmente o teclado).
-Sa´ıda
-A sa´ıda deve ser composta por uma ´ unica linha contendo o caractere ‘A’ se ´ e mais econˆ omico abastecera frota com ´ alcool ou o caractere ‘G’ se ´ e mais econˆ omico ou indiferente abastecer a frota com gasolina.A sa´ıda deve ser escrita no dispositivo de sa´ıda padr˜ ao (normalmente a tela).
-Restri¸ c˜ oes
-0.01≤A≤10.000.01≤G≤10.000.01≤R
-a≤20.000.01≤R
-g≤20.00Olimp´ıada Brasileira de Inform´ atica – OBI2005 – Modalidade Programa¸ c˜ ao N´ıvel 12
-Exemplos de entrada e sa´ıda
+
+A entrada é composta por uma linha contendo quatro números reais com precisão de duas casas
+decimais 4, G, Ra e Rg, representando respectivamente o preço por litro do álcool, o preço por litro
+da gasolina, o rendimento (km1) do carro utilizando álcool e o rendimento (km/1) do carro utilizando
+gasolina.
+
+A entrada deve ser lida do dispositivo de entrada padrão (normalmente o teclado).
+
+Saída
+
+A saída deve ser composta por uma única linha contendo o caractere “A” se é mais econômico abastecer
+a frota com álcool ou o caractere “G” se é mais econômico ou indiferente abastecer a frota com gasolina.
+
+A saída deve ser escrita no dispositivo de saída padrão (normalmente a tela).
+
+Restrições
+
+0.01 < A< 10.00
+0.01 < G < 10.00
+0.01 < Rá < 20.00
+0.01 < Rg < 20.00
+ Olimpíada Brasileira de Informática - OBI2005 - Modalidade Programação Nível 1
+
+Exemplos de entrada e saída
+
 Exemplo 1
-Entrada1.20 2.30 10.00 15.00 Sa´ıdaA
+Entrada Saída
+1.20 2.30 10.00 15.00 A
 Exemplo 2
-Entrada1.00 1.00 9.00 9.01 Sa´ıdaG
+Entrada Saída
+1.00 1.00 9.00 9.01 G
 Exemplo 3
-Entrada1.00 1.00 11.00 11.00 Sa´ıdaG
+Entrada Saída
+1.00 1.00 11.00 11.00 G
+

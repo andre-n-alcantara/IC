@@ -1,16 +1,45 @@
-Olimpíada Brasileira de Informática – OBI2014 4
+Olimpíada Brasileira de Informática - OBI2014 4
+
 Língua do P
-Nome do arquivo fonte:lingua.c,lingua.cpp,lingua.pas,lingua.java,oulingua.py
-Uma brincadeira que crianças adoram é se comunicar nalíngua do P, acrescentandopêantes de cada sílaba,como uma forma de código para dicultar que outras pessoas entendam a conversa (pê-va pê-mos pê-no pê-cipê-ne pê-ma?).Jacy e Kátia adaptaram a língua do P para mensagens eletrônicas, acrescentando a letra P minúscula ‘p’antes de cada letra das palavras de uma mensagem. Um exemplo de mensagem codicada e a respectivamensagem decodicada é mostrada nagura abaixo.
-Mensagem codicada Mensagem decodicada
+
+Nome do arquivo fonte: lingua.c, lingua.cpp, lingua.pas, lingua.java, ou lingua.py
+
+Uma brincadeira que crianças adoram é se comunicar na língua do P, acrescentando pê antes de cada sílaba,
+como uma forma de código para dificultar que outras pessoas entendam a conversa (pê-va pê-mos pê-no pê-ci
+pê-ne pê-ma?).
+
+Jacy e Kátia adaptaram a língua do P para mensagens eletrônicas, acrescentando a letra P minúscula *p'
+antes de cada letra das palavras de uma mensagem. Um exemplo de mensagem codificada e a respectiva
+mensagem decodificada é mostrada na figura abaixo.
+
+Mensagem codificada Mensagem decodificada
 pVpapmpops papo pcpipnpepmpa Vamos ao cinema
-Sua tarefa é escrever um programa que decodique uma mensagem escrita na língua do P eletrônica de Jacye Kátia.
+
+Sua tarefa é escrever um programa que decodifique uma mensagem escrita na língua do P eletrônica de Jacy
+e Kátia.
+
 Entrada
-A entrada consiste de uma única linha, contendo uma mensagem escrita na língua do P eletrônica de Jacye Kátia.
+
+A entrada consiste de uma única linha, contendo uma mensagem escrita na língua do P eletrônica de Jacy
+e Kátia.
+
 Saída
-Seu programa deve produzir uma única linha, contendo a mensagem decodicada.
+
+Seu programa deve produzir uma única linha, contendo a mensagem decodificada.
+
 Restrições
-•A mensagem contém apenas letras maiúsculas e minúsculas e espaços em branco.•A mensagem tem entre1e 1000 caracteres.•Não há dois espaços em branco consecutivos na mensagem.
+
+e À mensagem contém apenas letras maiúsculas e minúsculas e espaços em branco.
+e A mensagem tem entre 1 e 1000 caracteres.
+
+e Não há dois espaços em branco consecutivos na mensagem.
+
 Exemplos
-EntradapUpm pfpiplpmpe plpepgpapl SaídaUm filme legal
-EntradapA pppapppa pdpo pPpapppa SaídaA papa do Papa
+
+Entrada Saída
+
+pUpm pfpiplpmpe plpepgpapl Um filme legal
+Entrada Saída
+
+PA pppapppa pdpo pPpapppa A papa do Papa
+

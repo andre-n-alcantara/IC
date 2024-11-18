@@ -1,18 +1,49 @@
-Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível Júnior – Fase Nacional6
+Olimpíada Brasileira de Informática - OBI2018 — Prog. Nível Júnior - Fase Nacional 6
+
 Pulo do Gato
-Nome do arquivo:“pulo.x”,ondexdeve serc|cpp|pas|java|js|py2|py3O gato Obinho gosta de brincar no pátio do colégio, no qual há uma sequência deClajotas, quepodem ser brancas ou pretas. Obinho está na lajota inicial da sequência (a mais à esquerda), e querir pulando até a lajotanal da sequência (a mais à direita). Mas ele só gosta de pular de uma lajotapreta para outra lajota preta, nunca pisando numa lajota branca. Além disso, ele não conseguepular muito longe. A parte esquerda dagura mostra as lajotas que o Obinho pode alcançar comum pulo: uma distância máxima de duas lajotas.
-Obinho quer chegar na lajotanal com o número mínimo de pulos possível. Por exemplo, na partedireita dagura, paraC= 14, o menor número de pulos possível é8. Seu programa deve computaro número mínimo de pulos para o Obinho chegar na lajotanal.
+
+Nome do arquivo: “pulo .x”, onde x deve ser clcpplpasljavaljslpy2Ipy3
+
+O gato Obinho gosta de brincar no pátio do colégio, no qual há uma sequência de C lajotas, que
+podem ser brancas ou pretas. Obinho está na lajota inicial da sequência (a mais à esquerda), e quer
+ir pulando até a lajota final da sequência (a mais à direita). Mas ele só gosta de pular de uma lajota
+preta para outra lajota preta, nunca pisando numa lajota branca. Além disso, ele não consegue
+pular muito longe. A parte esquerda da figura mostra as lajotas que o Obinho pode alcançar com
+um pulo: uma distância máxima de duas lajotas.
+
+Ao E DD
+
+Obinho quer chegar na lajota final com o número mínimo de pulos possível. Por exemplo, na parte
+direita da figura, para C = 14, o menor número de pulos possível é 8. Seu programa deve computar
+o número mínimo de pulos para o Obinho chegar na lajota final.
+
 Entrada
-A primeira linha da entrada contém um inteiroC, representando o número de lajotas do pátio. Asegunda linha contémCinteiros indicando a cor das lajotas, da inicial (mais à esquerda) ànal(mais à direita): o valor1indica uma lajota preta, o valor0indica uma lajota branca.
+
+A primeira linha da entrada contém um inteiro C, representando o número de lajotas do pátio. A
+segunda linha contém C inteiros indicando a cor das lajotas, da inicial (mais à esquerda) à final
+(mais à direita): o valor 1 indica uma lajota preta, o valor O indica uma lajota branca.
+
 Saída
-Imprima uma linha contendo o número mínimo de pulos que o gato Obinho precisa dar para ir dalajota inicial até a lajotanal. Se não for possível pular até a lajotanal, imprima−1.
+
+Imprima uma linha contendo o número mínimo de pulos que o gato Obinho precisa dar para ir da
+lajota inicial até a lajota final. Se não for possível pular até a lajota final, imprima —1.
+
 Restrições
-•1≤C≤104;•As lajotas inicial enal são sempre pretas.
+
+s1<C<10!;
+e As lajotas inicial e final são sempre pretas.
 Informações sobre a pontuação
-•Para um conjunto de casos de teste valendo 10 pontos, todas as lajotas são pretas;•Para um conjunto de casos de teste valendo 20 pontos,C≤1000.
-Exemplo de entrada 1
-141 1 0 1 1 1 0 1 1 0 1 0 1 1Exemplo de saída 1
-8
-Exemplo de entrada 2
-141 0 0 1 1 1 0 0 1 0 1 1 0 1Exemplo de saída 2
--1
+e Para um conjunto de casos de teste valendo 10 pontos, todas as lajotas são pretas;
+
+e Para um conjunto de casos de teste valendo 20 pontos, C < 1000.
+
+Exemplo de entrada 1 Exemplo de saída 1
+
+14 8
+11011101101011
+
+Exemplo de entrada 2 Exemplo de saída 2
+
+14 -1
+10011100101101
+

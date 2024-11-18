@@ -1,15 +1,73 @@
-20Meteoros
-Arquivo fonte: meteoro.c, meteoro.cc, meteoro.cpp ou meteoro.pasEm noites sem nuvens pode-se muitas vezes observar pontos brilhantes no céu que se deslocamcom grande velocidade, e em poucos segundos desaparecem de vista: são as chamadas estrelascadentes, oumeteoros. Meteoros são na verdade partículas de poeira de pequenas dimensões que,ao penetrar na atmosfera terrestre, queimam-se rapidamente (normalmente a uma altura entre 60 e120 quilômetros). Se os meteoros são suﬁcientemente grandes, podem não queimar-se completa-mente na atmosfera e dessa forma atingem a superfície terrestre: nesse caso são chamados demeteoritos.Zé Felício é um fazendeiro que adora astronomia e descobriu um portal na Internet que forneceuma lista das posições onde caíram meteoritos. Com base nessa lista, e conhecendo a localizaçãode sua fazenda, Zé Felício deseja saber quantos meteoritos caíram dentro de sua propriedade. Eleprecisa de sua ajuda para escrever um programa de computador que faça essa veriﬁcação automa-ticamente.
+Meteoros
+
+Arquivo fonte: meteoro.c, meteoro.cc, meteoro.cpp ou meteoro.pas
+
+Em noites sem nuvens pode-se muitas vezes observar pontos brilhantes no céu que se deslocam
+com grande velocidade, e em poucos segundos desaparecem de vista: são as chamadas estrelas
+cadentes, ou meteoros. Meteoros são na verdade partículas de poeira de pequenas dimensões que,
+ao penetrar na atmosfera terrestre, queimam-se rapidamente (normalmente a uma altura entre 60 e
+120 quilômetros). Se os meteoros são suficientemente grandes, podem não queimar-se completa-
+mente na atmosfera e dessa forma atingem a superfície terrestre: nesse caso são chamados de
+meteoritos.
+
+Zé Felício é um fazendeiro que adora astronomia e descobriu um portal na Internet que fornece
+uma lista das posições onde caíram meteoritos. Com base nessa lista, e conhecendo a localização
+de sua fazenda, Zé Felício deseja saber quantos meteoritos caíram dentro de sua propriedade. Ele
+precisa de sua ajuda para escrever um programa de computador que faça essa verificação automa-
+ticamente.
+
 1. Tarefa
-São dados:• uma lista de pontos no plano cartesiano, onde cada ponto corresponde à posição onde caiu ummeteorito;• as coordenadas de um retângulo que delimita uma fazenda.As linhas que delimitam a fazenda são paralelas aos eixos cartesianos. Sua tarefa é escrever umprograma que determine quantos meteoritos caíram dentro da fazenda (incluindo meteoritos quecaíram exatamente sobre as linhas que delimitam a fazenda).
+São dados:
+
+* uma lista de pontos no plano cartesiano, onde cada ponto corresponde à posição onde caiu um
+meteorito;
+* as coordenadas de um retângulo que delimita uma fazenda.
+
+As linhas que delimitam a fazenda são paralelas aos eixos cartesianos. Sua tarefa é escrever um
+programa que determine quantos meteoritos caíram dentro da fazenda (incluindo meteoritos que
+caíram exatamente sobre as linhas que delimitam a fazenda).
+
 2. Entrada
-Seu programa deve ler vários conjuntos de testes. A primeira linha de um conjunto de testes qua-tro números inteiros X
-1, Y1, X2 e Y2, onde (X1, Y1) é a coordenada do canto superior esquerdo e(X
-2, Y2) é a coordenada do canto inferior direito do retângulo que delimita a fazenda. A segundalinha contém um inteiro, N, que indica o número de meteoritos. Seguem-se N linhas, cada umacontendo dois números inteiros X e Y, correspondendo às coordenadas de cada meteorito. O ﬁnalda entrada é indicado por X
-1 = Y1 = X2 =Y2 = 0.3Exemplo de Entrada2 4 5 121 23 32 4 3 231 12 23 30 0 0 0
+
+Seu programa deve ler vários conjuntos de testes. A primeira linha de um conjunto de testes qua-
+tro números inteiros X,, Y,, X, e Y,, onde (X,, Y,) é a coordenada do canto superior esquerdo e
+(X>, Y5) é a coordenada do canto inferior direito do retângulo que delimita a fazenda. A segunda
+
+linha contém um inteiro, N, que indica o número de meteoritos. Seguem-se N linhas, cada uma
+contendo dois números inteiros X e Y, correspondendo às coordenadas de cada meteorito. O final
+da entrada é indicado por X, = Y, = X,=Y,=0.
+ Exemplo de Entrada
+451
+
+SWONHONWGHNN
+BON
+
+Own
+
+00
+
 3. Saída
-Para cada conjunto de teste da entrada seu programa deve produzir três linhas na saída. A primeiralinha deve conter um identiﬁcador do conjunto de teste, no formato “Teste n”, onde n é numeradoa partir de 1. A segunda linha deve conter o número de meteoritos que caíram dentro da fazenda.A terceira linha deve ser deixada em branco. A graﬁa mostrada no Exemplo de Saída, abaixo,deve ser seguida rigorosamente. Exemplo de SaídaTeste 11Teste 22(esta saída corresponde ao exemplo de entrada acima)
+
+Para cada conjunto de teste da entrada seu programa deve produzir três linhas na saída. A primeira
+linha deve conter um identificador do conjunto de teste, no formato “Teste n”, onde n é numerado
+a partir de 1. A segunda linha deve conter o número de meteoritos que caíram dentro da fazenda.
+A terceira linha deve ser deixada em branco. A grafia mostrada no Exemplo de Saída, abaixo,
+deve ser seguida rigorosamente.
+
+Exemplo de Saída
+
+Teste 1
+1
+
+Teste 2
+2
+
+(esta saída corresponde ao exemplo de entrada acima)
+
 4. Restrições
-0≤N≤10.0000 ≤ X ≤ 10.0000 ≤ Y ≤ 10.0000 ≤ X
-1 < X2 ≤ 10.0000 ≤ Y
-2 < Y1 ≤ 10.000
+
+0<N< 10.000
+0<X< 10.000
+0<Y< 10.000
+0<X; <X< 10.000
+0<Y,<Y,< 10.000

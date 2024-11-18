@@ -1,19 +1,91 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2005 – Modalidade Programa¸ c˜ ao N´ıvel 25
+[ol
+
+Olimpíada Brasileira de Informática - OBI2005 - Modalidade Programação Nível 2
+
 Vivo ou Morto
-Arquivo fonte: vivo.c, vivo.cc, vivo.cpp ou vivo.pasToda crian¸ ca certamente j´ a brincou de “vivo ou morto”. A brincadeira ´ e dirigida por um “chefe” (umadulto), que comanda dois ou mais participantes (crian¸ cas). A brincadeira ´ e composta de rodadas.No in´ıcio, os participantes s˜ ao organizados pelo chefe emla ´ unica. A cada rodada o chefe grita“vivo” ou “morto” e todos os participantes tentam seguir sua ordem, levantando-se ao ouvir a palavra“vivo” ou abaixando-se ao ouvir a palavra “morto”. Um participante que n˜ ao segue a ordem do chefe ´ eeliminado, deixando o seu lugar nala. Os participantes remanescentes agrupam-se novamente emla´ unica, preenchendo as posi¸ c˜ oes dos participantes eliminados, mas mantendo suas posi¸ c˜ oes relativas. Ojogo continua at´ e que uma rodada seja composta por exatamente um participante. Tal participante ´ edito o vencedor do jogo.Por exemplo, considere que a brincadeira inicie com cinco participantes, identicados por n´ umerosinteiros de 1 a 5, e que o chefe organize ala na ordem 3→2→1→4→5. Se na primeira rodadaforem eliminados os participantes 2 e 4, ala da segunda rodada ser´ a formada por 3→1→5; se nasegunda rodada for eliminado o participante 1, ala da terceira rodada ser´ a formada por 3→5. Sena terceira rodada o participante 3 for eliminado, o vencedor da brincadeira ser´ a o participante 5.
+
+Arquivo fonte: vivo.c, vivo.cc, vivo.cpp ou vivo.pas
+
+Toda criança certamente já brincou de “vivo ou morto”. A brincadeira é dirigida por um “chefe” (um
+adulto), que comanda dois ou mais participantes (crianças). A brincadeira é composta de rodadas.
+No início, os participantes são organizados pelo chefe em fila única. A cada rodada o chefe grita
+“vivo” ou “morto” e todos os participantes tentam seguir sua ordem, levantando-se ao ouvir a palavra
+“vivo” ou abaixando-se ao ouvir a palavra “morto”. Um participante que não segue a ordem do chefe é
+eliminado, deixando o seu lugar na fila. Os participantes remanescentes agrupam-se novamente em fila
+única, preenchendo as posições dos participantes eliminados, mas mantendo suas posições relativas. O
+jogo continua até que uma rodada seja composta por exatamente um participante. Tal participante é
+dito o vencedor do jogo.
+
+Por exemplo, considere que a brincadeira inicie com cinco participantes, identificados por números
+inteiros de 1 a 5, e que o chefe organize a fila na ordem 3 > 2515455. Sena primeira rodada
+forem eliminados os participantes 2 e 4, a fila da segunda rodada será formada por 3 > 1 > 5; se na
+segunda rodada for eliminado o participante 1, a fila da terceira rodada será formada por 3 > 5. Se
+na terceira rodada o participante 3 for eliminado, o vencedor da brincadeira será o participante 5.
+
 Tarefa
-Sua tarefa ´ e escrever um programa que determine o vencedor de uma partida de “vivo ou morto”, apartir da informa¸ c˜ ao das ordens dadas pelo chefe e das a¸ c˜ oes executadas pelos participantes em cadarodada.
+
+Sua tarefa é escrever um programa que determine o vencedor de uma partida de “vivo ou morto”, a
+partir da informação das ordens dadas pelo chefe e das ações executadas pelos participantes em cada
+rodada.
+
 Entrada
-A entrada ´ e constitu´ıda de v´ arios casos de teste, cada um representando uma partida. A primeiralinha de um caso de teste cont´ em dois n´ umeros inteirosPeRindicando respectivamente a quantidadeinicial de participantes (2≤P≤100) e quantidade de rodadas da partida (1≤R≤100). Osparticipantes s˜ ao identicados por n´ umeros de 1 aP. A segunda linha de um caso de teste descreveala organizada pelo chefe, contendoPn´ umeros inteiros distintosx
-1, x2, . . . x P, ondex 1representa oidenticador do participante no primeiro lugar nala,x
-2representa o identicador do participante nosegundo lugar nala, e assim por diante (1≤x
-i≤P). Cada uma dasRlinhas seguintes representauma rodada, contendo um n´ umero inteiro inteiroNindicando o n´ umero de participantes da rodada(2≤N≤P), um n´ umero inteiro inteiroJrepresentando a ordem dada pelo chefe (0≤J≤1)eNn´ umeros inteirosA
-irepresentando a a¸ c˜ ao do participante colocado nai-´ esima posi¸ c˜ ao nala(0≤A
-i≤1). Ordens e a¸ c˜ oes “vivo” s˜ ao representadas pelo valor 1, ordens e a¸ c˜ oes “morto” pelo valorzero. Cada partida tem exatamente um vencedor, determinado somente na ´ ultima rodada fornecidano caso de teste correspondente. Onal da entrada ´ e indicado porP=R= 0.A entrada deve ser lida do dispositivo de entrada padr˜ ao (normalmente o teclado).
-Sa´ıda
-Para cada caso de teste seu programa deve produzir trˆ es linhas. A primeira identica o conjuntode teste no formato “Teste n”, onden´ e numerado a partir de 1. A segunda linha deve contero identicador do vencedor. A terceira linha deve ser deixada em branco. A graa mostrada noExemplo de Sa´ıda, abaixo, deve ser seguida rigorosamente.A sa´ıda deve ser escrita no dispositivo de sa´ıda padr˜ ao (normalmente a tela).Olimp´ıada Brasileira de Inform´ atica – OBI2005 – Modalidade Programa¸ c˜ ao N´ıvel 26
-Restri¸ c˜ oes
-2≤P≤100 (P= 0 apenas para indicar om da entrada)1≤R≤100 (R= 0 apenas para indicar om da entrada)1≤x
-i≤P, para 1≤i≤P2≤N≤P0≤J≤10≤A
-i≤1, para 1≤i≤N
-Exemplo de Entrada2 22 12 1 1 12 1 1 05 43 2 1 4 55 1 1 1 1 1 15 0 0 1 0 1 03 0 0 1 02 1 0 10 0Sa´ıda para o Exemplo de EntradaTeste 12Teste 25
+
+A entrada é constituída de vários casos de teste, cada um representando uma partida. A primeira
+linha de um caso de teste contém dois números inteiros P e R indicando respectivamente a quantidade
+inicial de participantes (2 < P < 100) e quantidade de rodadas da partida (1 < R < 100). Os
+participantes são identificados por números de 1 a P. A segunda linha de um caso de teste descreve
+a fila organizada pelo chefe, contendo P números inteiros distintos 71, 19,. p, onde x representa o
+identificador do participante no primeiro lugar na fila, x» representa o identificador do participante no
+segundo lugar na fila, e assim por diante (1 < x; < P). Cada uma das R linhas seguintes representa
+uma rodada, contendo um número inteiro inteiro N indicando o número de participantes da rodada
+(2 < N <P), um número inteiro inteiro J representando a ordem dada pelo chefe (0 < J < 1)
+e N números inteiros A; representando a ação do participante colocado na i-ésima posição na fila
+(0< A; < 1). Ordens e ações “vivo” são representadas pelo valor 1, ordens e ações “morto” pelo valor
+zero. Cada partida tem exatamente um vencedor, determinado somente na última rodada fornecida
+no caso de teste correspondente. O final da entrada é indicado por P= R=0.
+
+A entrada deve ser lida do dispositivo de entrada padrão (normalmente o teclado).
+
+Saída
+
+Para cada caso de teste seu programa deve produzir três linhas. A primeira identifica o conjunto
+de teste no formato “Teste n”, onde n é numerado a partir de 1. A segunda linha deve conter
+o identificador do vencedor. A terceira linha deve ser deixada em branco. A grafia mostrada no
+Exemplo de Saída, abaixo, deve ser seguida rigorosamente.
+
+A saída deve ser escrita no dispositivo de saída padrão (normalmente a tela).
+ Olimpíada Brasileira de Informática - OBI2005 - Modalidade Programação Nível 2
+
+Restrições
+
+2< P<100(P=0 apenas para indicar o fim da entrada)
+1<R<100(R=o0 apenas para indicar o fim da entrada)
+I<x;<P,paral<i<P
+
+2<N<P
+
+O<J<1
+
+0O<A;<l,paral<i<N
+
+Exemplo de Entrada Saída para o Exemplo de Entrada
+
+Teste 1
+2
+
+H
+(o)
+
+Teste 2
+5
+
+Soon
+
+oor-a
+HH
+om
+
+ONO ATO ANINNAIN
+OHOOH-HNEHAHAN
+RH
+

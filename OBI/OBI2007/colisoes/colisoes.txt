@@ -1,12 +1,36 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2007 – Programa¸ c˜ ao N´ıvel 1, Fase 1 1
-Detectando Colis˜ oes
-Nome do arquivo fonte:colisoes.c,colisoes.cpp,oucolisoes.pasDetec¸ c˜ ao de colis˜ ao ´ e uma das opera¸ c˜ oes mais comuns (e importantes) em jogos eletrˆ onicos. O objetivo,basicamente, ´ e vericar se dois objetos quaisquer colidiram, ou seja, se a interse¸ c˜ ao entre eles ´ e diferente devazio. Isso pode ser usado para saber se duas naves colidiram, se um monstro bateu numa parede, se umpersonagem pegou um item, etc.Para facilitar as coisas, muitas vezes os objetos s˜ ao aproximados porguras geom´ etricas simples (esferas,paralelep´ıpedos, triˆ angulos etc). Neste problema, os objetos s˜ ao aproximados por retˆ angulos num plano 2D.
+Olimpíada Brasileira de Informática — OBI2007 — Programação Nível 1, Fase 1 1
+
+Detectando Colisões
+Nome do arquivo fonte: colisoes.c, colisoes.cpp, ou colisoes.pas
+
+Detecção de colisão é uma das operações mais comuns (e importantes) em jogos eletrônicos. O objetivo,
+basicamente, é verificar se dois objetos quaisquer colidiram, ou seja, se a interseção entre eles é diferente de
+vazio. Isso pode ser usado para saber se duas naves colidiram, se um monstro bateu numa parede, se um
+personagem pegou um item, etc.
+
+Para facilitar as coisas, muitas vezes os objetos são aproximados por figuras geométricas simples (esferas,
+paralelepípedos, triângulos etc). Neste problema, os objetos são aproximados por retângulos num plano 2D.
+
 Tarefa
-Escreva um programa que, dados dois retˆ angulos, determine se eles se interceptam ou n˜ ao.
+
+Escreva um programa que, dados dois retângulos, determine se eles se interceptam ou não.
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). Cada caso de teste cont´ em duas linhas. Cada linha cont´ em quatro inteiros (x
-0, y0, x1, y1, sendo 0≤x
-0< x 1≤1.000.000 e 0≤y 0< y 1≤1.000.000) separados por um espa¸ co em branco representando umretˆ angulo. Os lados do retˆ angulo s˜ ao sempre paralelos aos eixosxey.
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, uma ´ unica linha para cada caso de teste, contendo o n´ umero 0(zero) caso n˜ ao haja interse¸ c˜ ao ou o n´ umero 1 (um) caso haja.
-Entrada0 0 1 10 0 1 1Sa´ıda1Entrada0 0 2 21 1 3 3Sa´ıda1Entrada0 0 1 12 2 3 3Sa´ıda0
+
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado). Cada caso de teste contém duas linhas. Cada linha contém quatro inteiros (x0,yo, 1,1, sendo
+0O<ao <a <1.000.000e0<gy <yj < 1.000.000) separados por um espaço em branco representando um
+retângulo. Os lados do retângulo são sempre paralelos aos eixos x e y.
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, uma única linha para cada caso de teste, contendo o número O
+(zero) caso não haja interseção ou o número 1 (um) caso haja.
+
+Entrada Entrada Entrada
+0011 0022 0011
+0011 1133 22383
+Saída Saída Saída
+
+1 1 0
+

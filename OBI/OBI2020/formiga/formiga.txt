@@ -1,23 +1,94 @@
-Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 1 – Fase Estadual2
+Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível 1 — Fase Estadual 2
+
 Dona Formiga
-Nome do arquivo:“formiga.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3Dona Formiga é uma ótima trabalhadora e todos os dias coleta muitas folhas para seu formigueiro.Mas nonal de semana, quando todas as outras formigas estão descansando, ela gosta de se divertirescorregando pelos túneis do formigueiro.O formigueiro de Dona Formiga tem muitos túneis e salões. Cada túnel conecta exatamente doissalões diferentes. Cada salão está a uma altura no formigueiro. Se existe um túnel ligando um salãoIa um salãoJe o salãoIestá a uma altura maior do que o salãoJ, então Dona Formiga podeescorregar do salãoIpara o salãoJusando esse túnel.Dados o mapa dos túneis do formigueiro, as alturas em que estão os salões e o salão de onde DonaFormiga quer partir, escreva um programa para determinar o maior número de salões que ela podevisitar (não contando o salão do qual ela parte), usando túneis exclusivamente para escorregar entreos salões.
+
+Nome do arquivo: “formiga.x”, onde x deve ser c, cpp, pas, java, js, py2 ou py3
+
+Dona Formiga é uma ótima trabalhadora e todos os dias coleta muitas folhas para seu formigueiro.
+Mas no final de semana, quando todas as outras formigas estão descansando, ela gosta de se divertir
+escorregando pelos túneis do formigueiro.
+
+O formigueiro de Dona Formiga tem muitos túneis e salões. Cada túnel conecta exatamente dois
+salões diferentes. Cada salão está a uma altura no formigueiro. Se existe um túnel ligando um salão
+1 a um salão J e o salão 1 está a uma altura maior do que o salão J, então Dona Formiga pode
+escorregar do salão 1 para o salão J usando esse túnel.
+
+Dados o mapa dos túneis do formigueiro, as alturas em que estão os salões e o salão de onde Dona
+Formiga quer partir, escreva um programa para determinar o maior número de salões que ela pode
+visitar (não contando o salão do qual ela parte), usando túneis exclusivamente para escorregar entre
+os salões.
 Entrada
-A primeira linha da entrada contém três inteirosS,TeP, respectivamente o número de salões,o número de túneis e o salão do formigueiro do qual Dona Formiga quer partir. Os salões sãonumerados de 1 aS. A segunda linha contémSnúmeros inteirosA
-i, a altura em que o salãoiestáno formigueiro. Cada uma dasTlinhas seguintes contém dois inteirosIeJ, indicando que há umtúnel entre o salãoIe o salãoJ.
+
+A primeira linha da entrada contém três inteiros S, T e P, respectivamente o número de salões,
+o número de túneis e o salão do formigueiro do qual Dona Formiga quer partir. Os salões são
+numerados de 1 a S. A segunda linha contém S números inteiros A;, a altura em que o salão à está
+no formigueiro. Cada uma das T' linhas seguintes contém dois inteiros 1 e J, indicando que há um
+túnel entre o salão 1 e o salão J.
+
 Saída
-Seu programa deve produzir uma única linha, contendo um único inteiro, o maior número de sa-lões que Dona Formiga pode visitar (não contando o salão do qual ela parte), usando os túneisexclusivamente para escorregar entre os salões do formigueiro.
+
+Seu programa deve produzir uma única linha, contendo um único inteiro, o maior número de sa-
+lões que Dona Formiga pode visitar (não contando o salão do qual ela parte), usando os túneis
+exclusivamente para escorregar entre os salões do formigueiro.
+
 Restrições
-•1≤S≤200•1≤T≤S×(S−1)/2•1≤P≤S•−1000≤A
-i≤1000para1≤i≤S•1≤I < J≤S
+e1<S<200
+
+si<T<Sx(S-—1)/2
+elI<P<s
+
+—1000 < 4; < 1000 paral <i<S
+
+I<I<J<s
+
 Informações sobre a pontuação
-•Para um conjunto de casos de testes valendo 20 pontos,1≤S≤10.•Para um conjunto de casos de testes valendo 80 pontos adicionais, nenhuma restrição adicional.
+
+e Para um conjunto de casos de testes valendo 20 pontos, 1 < S < 10.
+
+e Para um conjunto de casos de testes valendo 80 pontos adicionais, nenhuma restrição adicional.
+
 Exemplos
-Exemplo de entrada 1
-4 5 2100 150 -50 2001 22 41 43 41 3Exemplo de saída 1
-2Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 1 – Fase Estadual3
-Exemplo de entrada 2
-4 5 3100 150 -50 2001 22 41 43 41 3Exemplo de saída 2
-0
-Exemplo de entrada 3
-4 5 4100 150 -50 2001 22 41 43 41 3Exemplo de saída 3
+Exemplo de entrada 1 Exemplo de saída 1
+452 2
+100 150 -50 200
+12
+
+[0
+
+2
+1
 3
+1
+
+ Olimpíada Brasileira de Informática
+
+O0BD020 - Prog. Nível 1 — Fase Estadual
+
+Exemplo de entrada 2
+
+4583
+100 150 -50 200
+12
+24
+14
+34
+13
+
+Exemplo de saída 2
+
+0
+
+Exemplo de entrada 3
+
+454
+100 150 -50 200
+12
+24
+14
+34
+13
+
+Exemplo de saída 3
+
+3
+

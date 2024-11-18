@@ -1,18 +1,92 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2009 5
-Cadeiras do audit´ orio
-Nome do arquivo fonte:cadeiras.c,cadeiras.cpp,oucadeiras.pasAs cadeiras do audit´ orio da escola s˜ ao organizadas em um quadriculado comLlinhas eCcolunas. As linhass˜ ao numeradas de 1 aL, as colunas s˜ ao numeradas de 1 aC, e as cadeiras s˜ ao numeradas de 1 aL×C, de talmodo que uma cadeira na linhaicolunajtem o n´ umero (i−1)×C+j.Durante a aula de teatro, a professora fez com que os alunos executassem uma sequˆ encia de mudan¸ cas nacongura¸ c˜ ao da sala. Cada uma dessas mudan¸ cas intercambiou ou duas colunas ou duas linhas. Agura abaixoilustra uma congura¸ c˜ ao original com trˆ es linhas e quatro colunas, a posi¸ c˜ ao das cadeiras ap´ os uma mudan¸ ca(intercˆ ambio das colunas 1 e 4), e a posi¸ c˜ ao das cadeiras ap´ os mais uma mudan¸ ca (intercˆ ambio das linhas 2 e3).
-12 3 456 7 8910 11 124 2 3 1
-8 6 7 5
-12 10 11 9423112 10 1198 6 75Configuração inicialdas cadeirasApós intercâmbio das colunas 1 e 4Após intercâmbio daslinhas 2 e 3
-Aonal da aula, como era de se esperar, a numera¸ c˜ ao das cadeirascou bem bagun¸ cada. O problema ´ eque a pr´ oxima aula ´ e de Matem´ atica, e o professor ´ e muito exigente, e quer come¸ car a aula com as cadeirasperfeitamente posicionadas da maneira original.
+Olimpíada Brasileira de Informática —- OBI2009
+
+[o]
+
+Cadeiras do auditório
+
+Nome do arquivo fonte: cadeiras.c, cadeiras.cpp, ou cadeiras.pas
+
+As cadeiras do auditório da escola são organizadas em um quadriculado com L linhas e C colunas. As linhas
+são numeradas de 1 a L, as colunas são numeradas de 1 a C, e as cadeiras são numeradas dela Lx C, de tal
+modo que uma cadeira na linha i coluna j tem o número (i —- 1) x C+j.
+
+Durante a aula de teatro, a professora fez com que os alunos executassem uma sequência de mudanças na
+configuração da sala. Cada uma dessas mudanças intercambiou ou duas colunas ou duas linhas. A figura abaixo
+ilustra uma configuração original com três linhas e quatro colunas, a posição das cadeiras após uma mudança
+(intercâmbio das colunas 1 e 4), e a posição das cadeiras após mais uma mudança (intercâmbio das linhas 2 e
+
+3).
+
+DOOU
+ONONORO
+ORDRORO
+
+Configuração inicial
+das cadeiras
+
+ONONORO
+DODO
+ORDRORO
+
+Após intercâmbio das
+colunas 1 e 4
+
+DO O
+O 6) 6) (O)
+DODO
+
+Após intercâmbio das
+linhas 2 e 3
+
+Ao final da aula, como era de se esperar, a numeração das cadeiras ficou bem bagunçada. O problema é
+que a próxima aula é de Matemática, e o professor é muito exigente, e quer começar a aula com as cadeiras
+perfeitamente posicionadas da maneira original.
+
 Tarefa
-Sua tarefa ´ e escrever um programa que, dada a posi¸ c˜ ao de cada cadeira aonal da aula de teatro, determinequal ´ e a menor sequˆ encia de mudan¸ cas que devem ser executadas para retornar as cadeiras aos seus devidoslugares, considerando que cada mudan¸ ca fa¸ ca o intercˆ ambio ou de duas linhas ou de duas colunas de cadeiras.
+
+Sua tarefa é escrever um programa que, dada a posição de cada cadeira ao final da aula de teatro, determine
+qual é a menor sequência de mudanças que devem ser executadas para retornar as cadeiras aos seus devidos
+lugares, considerando que cada mudança faça o intercâmbio ou de duas linhas ou de duas colunas de cadeiras.
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado).A primeira linha da entrada cont´ em dois n´ umeros inteirosLeC, representando respectivamente o n´ umero delinhas e o n´ umero de colunas de cadeiras do audit´ orio (1≤L≤200 e 1≤C≤200). Cada uma dasLlinhasseguintes cont´ emCn´ umeros inteiros entre 1 eL×C, separados por um espa¸ co em branco, indicando a posi¸ c˜ aodas cadeiras aonal da aula de teatro. Oj-´ esimo n´ umero dado na linhai´ e o n´ umero da cadeira que se encontrana linhaie colunaj.
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, na primeira linha um inteiroKrepresentando o n´ umero demudan¸ cas necess´ arias para retornar as cadeiras para sua posi¸ c˜ ao original. Cada uma dasKlinhas seguintescont´ em a descri¸ c˜ ao de uma mudan¸ ca, na forma de um caractereM(que pode ser ‘L’ ou ‘C’), seguido de umespa¸ co em branco, seguido de um inteiroX, seguido de um espa¸ co em branco, seguido de um inteiroY. Se ocaractere descrevendo a mudan¸ ca ´ e ‘L’,XeYrepresentam linhas que devem ser intercambiadas; se o caracteredescrevendo a mudan¸ ca ´ e ‘C’,XeYrepresentam colunas que devem ser intercambiadas.Olimp´ıada Brasileira de Inform´ atica – OBI2009 6 Para todos os casos testes existe solu¸ c˜ ao comK≤1000. Se mais de uma solu¸ c˜ ao existe com o mesmo n´ umerode mudan¸ cas, imprima qualquer uma delas.
-Informa¸ c˜ oes sobre a pontua¸ c˜ ao
-•Em um conjunto de casos de teste que totaliza 30 pontos,L≤10 eC≤10.•Em um conjunto de casos de teste que totaliza 70 pontos,L≤100 eC≤100.
+
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado).
+
+A primeira linha da entrada contém dois números inteiros L e C, representando respectivamente o número de
+linhas e o número de colunas de cadeiras do auditório (1 <L<200e1<C< 200). Cadauma das L linhas
+seguintes contém C' números inteiros entre le L x C, separados por um espaço em branco, indicando a posição
+das cadeiras ao final da aula de teatro. O j-ésimo número dado na linha à é o número da cadeira que se encontra
+na linha i e coluna j.
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, na primeira linha um inteiro K representando o número de
+mudanças necessárias para retornar as cadeiras para sua posição original. Cada uma das K linhas seguintes
+contém a descrição de uma mudança, na forma de um caractere M (que pode ser *L' ou *C”), seguido de um
+espaço em branco, seguido de um inteiro X, seguido de um espaço em branco, seguido de um inteiro Y. Se o
+caractere descrevendo a mudança é 'L', X e Y representam linhas que devem ser intercambiadas; se o caractere
+descrevendo a mudança é *C', X e Y representam colunas que devem ser intercambiadas.
+
+ Olimpíada Brasileira de Informática - OBI2009 6
+
+Para todos os casos testes existe solução com K < 1000. Se mais de uma solução existe com o mesmo número
+de mudanças, imprima qualquer uma delas.
+
+Informações sobre a pontuação
+
+e Em um conjunto de casos de teste que totaliza 30 pontos, L< 10e €C <10.
+
+e Em um conjunto de casos de teste que totaliza 70 pontos, L < 100 e € < 100.
+
 Exemplos
-Entrada2 24 32 1 Sa´ıda2L 1 2C 1 2
-Entrada3 41 2 3 45 6 7 89 10 11 12 Sa´ıda0
+Entrada Saída
+22 2
+43 L1i2
+21 ci1i2
+Entrada Saída
+34 (o)
+1234
+5678
+9 10 11 12
+

@@ -1,23 +1,93 @@
-Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível 2 – Fase Estadual4
+Olimpíada Brasileira de Informática - OBI2018 — Prog. Nível 2 — Fase Estadual 4
+
 Elevador
-Nome do arquivo:“elevador.x”,ondexdeve serc|cpp|pas|java|js|py2|py3Uma fábrica instalou um elevador composto de duas cabines ligadaspor uma roldana, como nagura. Quando uma cabine sobe, aoutra desce. No primeiro andar da fábrica existem algumas caixasde pesos diversos e precisamos levar todas as caixas para o segundoandar, usando o elevador. Apenas uma caixa pode ser colocadapor vez dentro de uma cabine. Além disso, existe uma restrição desegurança importante: durante uma viagem do elevador, a diferençade peso entre as cabines pode ser no máximo de 8 unidades. Deforma mais rigorosa,P−Q≤8, ondePé o peso da cabine maispesada eQ, o peso da cabine mais leve. O gerente da fábrica nãoestá preocupado com o número de viagens que o elevador vai fazer.Ele apenas precisa saber se é possível ou não levar todas as caixaspara o segundo andar. No exemplo dagura, podemos levar todas astrês caixas usando a seguinte sequência de seis viagens do elevador:
-1. Sobe a caixa de peso 4, desce a outra cabine vazia;(diferença de 4)2. Sobe a caixa de peso 10, desce a caixa de peso 4;(diferença de 6)3. Sobe a caixa de peso 15, desce a caixa de peso 10;(diferença de 5)4. Sobe a caixa de peso 4, desce a outra cabine vazia;(diferença de 4)5. Sobe a caixa de peso 10, desce a caixa de peso 4;(diferença de 6)6. Sobe a caixa de peso 4, desce a outra cabine vazia.(diferença de 4)Dados os pesos deNcaixas no primeiro andar, seu programa deve dizer se é possível ou não levartodas asNcaixas para o segundo andar.
+
+Nome do arquivo: “elevador .x”, onde x deve ser clcpplpasljavaljslpy2Ipy3
+
+Uma fábrica instalou um elevador composto de duas cabines ligadas
+por uma roldana, como na figura. Quando uma cabine sobe, a [)
+outra desce. No primeiro andar da fábrica existem algumas caixas '
+
+de pesos diversos e precisamos levar todas as caixas para o segundo
+andar, usando o elevador. Apenas uma caixa pode ser colocada
+
+por vez dentro de uma cabine. Além disso, existe uma restrição de ——— ==
+segurança importante: durante uma viagem do elevador, a diferença
+de peso entre as cabines pode ser no máximo de 8 unidades. De
+forma mais rigorosa, P— Q < 8, onde P é o peso da cabine mais
+pesada e Q, o peso da cabine mais leve. O gerente da fábrica não
+está preocupado com o número de viagens que o elevador vai fazer.
+Ele apenas precisa saber se é possível ou não levar todas as caixas
+para o segundo andar. No exemplo da figura, podemos levar todas as
+três caixas usando a seguinte sequência de seis viagens do elevador:
+
+1. Sobe a caixa de peso 4, desce a outra cabine vazia; (diferença de 4)
+
+ad
+
+Sobe a caixa de peso 10, desce a caixa de peso 4; (diferença de 6)
+
+Sobe a caixa de peso 15, desce a caixa de peso 10; (diferença de 5)
+
+E
+
+Sobe a caixa de peso 4, desce a outra cabine vazia; (diferença de 4)
+
+Sobe a caixa de peso 10, desce a caixa de peso 4; (diferença de 6)
+
+=
+
+6. Sobe a caixa de peso 4, desce a outra cabine vazia. (diferença de 4)
+
+Dados os pesos de N caixas no primeiro andar, seu programa deve dizer se é possível ou não levar
+todas as N caixas para o segundo andar.
 Entrada
-A primeira linha da entrada contém um inteiroNindicando o número de caixas. A segunda linhada entrada contémNinteiros representando os pesos das caixas.
+
+A primeira linha da entrada contém um inteiro N indicando o número de caixas. A segunda linha
+
+da entrada contém N inteiros representando os pesos das caixas.
+
 Saída
-Imprima uma linha na saída. A linha deve conter o caracterScaso seja possível, ouNcaso não sejapossível levar todas as caixas até o segundo andar da fábrica.
+
+Imprima uma linha na saída. À linha deve conter o caracter S caso seja possível, ou N caso não seja
+
+possível levar todas as caixas até o segundo andar da fábrica.
+
 Restrições
-•1≤N≤104
-•O peso das caixas está entre1e105, inclusive.
-Exemplo de entrada 1
-315 4 10Exemplo de saída 1
-S
-Exemplo de entrada 2
-825 2 6 15 40 35 35 20Exemplo de saída 2
-NOlimpíada Brasileira de Informática – OBI2018 – Prog. Nível 2 – Fase Estadual5
+eI<N<I0
+
+e O peso das caixas está entre 1 e 10º, inclusive.
+
+Exemplo de entrada 1 Exemplo de saída 1
+3 s
+
+15 4 10
+
+Exemplo de entrada 2 Exemplo de saída 2
+8 N
+
+25 2 6 15 40 35 35 20
+
+ Olimpíada Brasileira de Informática
+
+OBI2018
+
+Prog. Nível 2 — Fase Estadual
+
 Exemplo de entrada 3
-414 10 23 20Exemplo de saída 3
+
+4
+14 10 23 20
+
+Exemplo de saída 3
+
 N
+
 Exemplo de entrada 4
-18Exemplo de saída 4
-S
+
+1
+
+Exemplo de saída 4
+
+s
+

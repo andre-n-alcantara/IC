@@ -1,14 +1,44 @@
-Olimpíada Brasileira de Informática – OBI2012 4
+Olimpíada Brasileira de Informática — OBI2012 4
+
 Consecutivos
-Nome do arquivo fonte:iguais.c,iguais.cpp,iguais.pas,iguais.java,ouiguais.pyNum sorteio que distribui prêmios, um participante inicialmente sorteia um inteiroNe depoisNvalores. Onúmero de pontos do participante é o tamanho da maior sequência de valores consecutivos iguais. Por exemplo,suponhamos que um participante sorteiaN= 11e, nesta ordem, os valores30,30,30,30,40,40,40,40,40,30,30Então, o participante ganha 5 pontos, correspondentes aos 5 valores 40 consecutivos. Note que o participantesorteou 6 valores iguais a 30, mas nem todos são consecutivos.Sua tarefa é ajudar a organização do evento, escrevendo um programa que determina o número de pontos deum participante.
+
+Nome do arquivo fonte: iguais.c, iguais.cpp, iguais.pas, iguais.java, ou iguais.py
+
+Num sorteio que distribui prêmios, um participante inicialmente sorteia um inteiro N e depois N valores. O
+número de pontos do participante é o tamanho da maior sequência de valores consecutivos iguais. Por exemplo,
+suponhamos que um participante sorteia N = 11 e, nesta ordem, os valores
+
+30,30,30, 30, 40, 40, 40, 40, 40,30, 30
+
+Então, o participante ganha 5 pontos, correspondentes aos 5 valores 40 consecutivos. Note que o participante
+sorteou 6 valores iguais a 30, mas nem todos são consecutivos.
+
+Sua tarefa é ajudar a organização do evento, escrevendo um programa que determina o número de pontos de
+um participante.
+
 Entrada
-A primeira linha da entrada contém um inteiroN, o número de valores sorteados. A segunda linha contémNvalores,V
-1, V2, . . . , V N, na ordem de sorteio, separados por um espaço em branco.
+
+A primeira linha da entrada contém um inteiro N, o número de valores sorteados. A segunda linha contém N
+valores, Vi, Vo,..., Vw, na ordem de sorteio, separados por um espaço em branco.
+
 Saída
-Seu programa deve imprimir apenas uma linha, contendo apenas um inteiro, indicando o número de pontos doparticipante.
+
+Seu programa deve imprimir apenas uma linha, contendo apenas um inteiro, indicando o número de pontos do
+participante.
 Restrições
-•1≤N≤104
-•−231≤V I≤231−1, paraI= 1,2, . . . , N
+
+ec1I<N<10!
+
+e-DPI<V;<2] 1, paral=1,2,...,N
+
 Exemplos
-Entrada1130 30 30 40 40 40 40 40 30 30 30 Saída5
-Entrada141 1 1 20 20 20 20 3 3 3 3 3 3 3 Saída7
+Entrada Saída
+11 5
+
+30 30 30 40 40 40 40 40 30 30 30
+
+Entrada Saída
+
+14 7
+1112020202033333383
+

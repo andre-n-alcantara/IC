@@ -1,22 +1,72 @@
-Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível Júnior – Fase 26
+Olimpíada Brasileira de Informática - OBI2022 — Prog. Nível Júnior - Fase 2 6
 Pirâmide
-Nome do arquivo:piramide.c,piramide.cpp,piramide.pas,piramide.java,piramide.jsoupiramide.pyO rei da Nlogônia decidiu construir uma pirâmide no jardim do Palácio Real, usando cubos de pedrade mesmo tamanho. Adimensãode uma pirâmide é o número de cubos de pedra num dos ladosda base (primeira camada) da pirâmide. A base da pirâmide é quadrada, ou seja, cada lado tem omesmo número de cubos de pedra.Na pirâmide, a partir da segunda camada, cada cubo de pedra deve ser empilhado exatamente emcima de outro cubo de pedra que não esteja na borda da camada abaixo. Além disso, o número decamadas deve ser o maior possível para uma dada dimensão, e em cada camada deve ser usado omaior número de cubos de pedra possível.Agura abaixo à esquerda mostra uma pirâmide de dimensão 3; agura à direita mostra oplanode contruçãopara essa pirâmide, indicando quantos cubos de pedra devem ser empilhados em cadaposição.
-1
-1 1 111 121
-O rei ainda não decidiu qual a dimensão da pirâmide que vai construir, mas como é muito detalhistajá avisou os Arquitetos Reais que antes de iniciar a contrução eles devem produzir um plano decontrução para a dimensão escolhida.Ajude os Arquitetos Reais, escrevendo um programa que, dada a dimensão da pirâmide, produza oseu plano de construção.
+
+Nome do arquivo: piramide.c, piramide.cpp, piramide.pas, piramide. java, piramide.js ou
+piramide.py
+
+O rei da Nlogônia decidiu construir uma pirâmide no jardim do Palácio Real, usando cubos de pedra
+de mesmo tamanho. A dimensão de uma pirâmide é o número de cubos de pedra num dos lados
+da base (primeira camada) da pirâmide. A base da pirâmide é quadrada, ou seja, cada lado tem o
+mesmo número de cubos de pedra.
+
+Na pirâmide, a partir da segunda camada, cada cubo de pedra deve ser empilhado exatamente em
+cima de outro cubo de pedra que não esteja na borda da camada abaixo. Além disso, o número de
+camadas deve ser o maior possível para uma dada dimensão, e em cada camada deve ser usado o
+maior número de cubos de pedra possível.
+
+A figura abaixo à esquerda mostra uma pirâmide de dimensão 3; a figura à direita mostra o plano
+de contrução para essa pirâmide, indicando quantos cubos de pedra devem ser empilhados em cada
+posição.
+
+A VAVA 1 1
+DI 1|2 1
+NENE
+
+O rei ainda não decidiu qual a dimensão da pirâmide que vai construir, mas como é muito detalhista,
+já avisou os Arquitetos Reais que antes de iniciar a contrução eles devem produzir um plano de
+contrução para a dimensão escolhida.
+
+Ajude os Arquitetos Reais, escrevendo um programa que, dada a dimensão da pirâmide, produza o
+seu plano de construção.
+
 Entrada
-A primeira e única linha da entrada contém um número inteiroN, a dimensão da pirâmide.
+A primeira e única linha da entrada contém um número inteiro N, a dimensão da pirâmide.
+
 Saída
-Seu programa deve produzir o plano de contrução da pirâmide, constituído porNlinhas, cada linhacontendoNnúmeros inteiros.
+
+Seu programa deve produzir o plano de contrução da pirâmide, constituído por N linhas, cada linha,
+contendo N números inteiros.
+
 Restrições
-•1≤N≤100
+
+e1<N<h100
+
 Informações sobre a pontuação
-•Para um conjunto de casos de testes valendo 10 pontos,1≤N≤3.
+
+e Para um conjunto de casos de testes valendo 10 pontos, 1I< N <3.
+
 Exemplos
-Exemplo de entrada 1
-3Exemplo de saída 1
-1 1 11 2 11 1 1Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível Júnior – Fase 27Explicação do exemplo 1:Para uma pirâmide de dimensão 3, o maior número de camadaspossível é 2.
-Exemplo de entrada 2
-8Exemplo de saída 2
-1 1 1 1 1 1 1 11 2 2 2 2 2 2 11 2 3 3 3 3 2 11 2 3 4 4 3 2 11 2 3 4 4 3 2 11 2 3 3 3 3 2 11 2 2 2 2 2 2 11 1 1 1 1 1 1 1
-Explicação do exemplo 2:Para uma pirâmide de dimensão 8, o maior número de camadaspossível é 4.
+
+Exemplo de entrada 1 Exemplo de saída 1
+
+3 111
+121
+111
+
+ Olimpíada Brasileira de Informática - OBI2022 — Prog. Nível Júnior - Fase 2
+
+Explicação do exemplo 1: Para uma pirâmide de dimensão 3, o maior número de camadas
+possível é 2.
+
+Exemplo de entrada 2 Exemplo de saída 2
+8 11111111
+12222221
+12333321
+12344321
+12344321
+12333321
+12222221
+11111111
+
+Explicação do exemplo 2: Para uma pirâmide de dimensão 8, o maior número de camadas
+possível é 4.

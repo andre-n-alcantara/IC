@@ -1,23 +1,82 @@
-Olimpíada Brasileira de Informática – OBI2017 – Prog. Nível 2 – Fase Nacional9
+Olimpíada Brasileira de Informática - OBI2017 — Prog. Nível 2 — Fase Nacional 9
+
 Código
-Nome do arquivo:codigo.c,codigo.cpp,codigo.pas,codigo.java,codigo.js,codigo.py2oucodigo.py3A professora Maryam está tentando construir um código constituído de uma sequência deNstringsde10letras minúsculas,S
-1, S2, S3, . . . , S N. Essas strings da sequência serão, no futuro, concatenadasde diversas maneiras para formar strings maiores. Mas, para que o código seja válido, a sequência destrings tem que satifazer uma propriedade bastante especíca: nenhuma string da sequência podeser substring de uma concatenação de duas strings anteriores na sequência. De forma mais rigorosa,o código seráinválidose existirem três inteirosa, bek, tais que:•1≤a < k≤N,1≤b < k≤N(apode ser igual ab); e•S
-ké substring da concatenaçãoS aSb.Por exemplo, o códigoS={aaaaaaabbb,yyuudiwwkl,kkfidaaooa}é válido. Mas se adicionarmosa stringaooaaaaaaanonal da sequência, o código resultante,S
-′={aaaaaaabbb,yyuudiwwkl,kkfidaaooa,aooaaaaaaa}, será inválido, poisS
-′4é substring da concatenaçãoS′3S′1.Dada a sequência de strings, seu programa deve determinar se o código é válido, ou não.
+
+Nome do arquivo: codigo.c, codigo.cpp, codigo.pas, codigo. java, codigo. js, codigo.py2 ou
+codigo.py3
+
+A professora Maryam está tentando construir um código constituído de uma sequência de N strings
+de 10 letras minúsculas, $1, 95, 93,..., Sn. Essas strings da sequência serão, no futuro, concatenadas
+de diversas maneiras para formar strings maiores. Mas, para que o código seja válido, a sequência de
+strings tem que satifazer uma propriedade bastante específica: nenhuma string da sequência pode
+ser substring de uma concatenação de duas strings anteriores na sequência. De forma mais rigorosa,
+o código será inválido se existirem três inteiros a,b e k, tais que:
+
+elI<a<k<N,I<b<k<N (apodeser igualab); e
+e Sy é substring da concatenação Sa Sh.
+
+Por exemplo, o código S = (aaaaaaabbb, yyuudiwwkl, kkfidaaooa) é válido. Mas se adicionarmos
+a string aooaaaaaaa no final da sequência, o código resultante, Sº = (aaaaaaabbb, yyuudiwwkl,
+kkfidaaooa, aooaaaaaaa;, será inválido, pois 54 é substring da concatenação S3 51.
+
+Dada a sequência de strings, seu programa deve determinar se o código é válido, ou não.
 Entrada
-A primeira linha da entrada contém um inteiroN, representando o número de strings na sequência.AsNlinhas seguintes contêm, cada uma, uma string de 10 letras minúsculas, denindo a sequênciade strings do código.
+
+A primeira linha da entrada contém um inteiro N, representando o número de strings na sequência.
+As N linhas seguintes contêm, cada uma, uma string de 10 letras minúsculas, definindo a sequência
+de strings do código.
+
 Saída
-Seu programa deve imprimir uma linha contendo a string “ok” caso o código seja válido, ou contendoa primeira string na sequência que invalida o código. Quer dizer, contendoS
-kondeké o menorpossível tal queS
-kseja substring de uma concatenação de duas strings anteriores na sequência.
+
+Seu programa deve imprimir uma linha contendo a string “ok” caso o código seja válido, ou contendo
+a primeira string na sequência que invalida o código. Quer dizer, contendo Sy onde k é o menor
+possível tal que Sy seja substring de uma concatenação de duas strings anteriores na sequência.
+
 Restrições
-•1≤N≤10000
+e 1<N< 10000
 Informações sobre a pontuação
-•Em um conjunto de casos de teste somando 40 pontos,N≤100
+
+e Em um conjunto de casos de teste somando 40 pontos, N < 100
+
 Exemplos
-Entrada3aaaaaaabbbyyuudiwwklkkfidaaooa Saídaok
-Entrada4aaaaaaabbbyyuudiwwklkkfidaaooaaooaaaaaaaSaídaaooaaaaaaaOlimpíada Brasileira de Informática – OBI2017 – Prog. Nível 2 – Fase Nacional10
-Entrada1jfjshiddds Saídaok
-Entrada2abcdefghijabcdefghij Saídaabcdefghij
-Entrada8xfwvijuydqhcprvezofghwykagqawugivfzndqpyyvfiqgadfcwuhcprvezoqaswiksscluchskpkcitSaídawuhcprvezo
+
+Entrada Saída
+
+3 ok
+aaaaaaabbb
+yyuudiwwkl
+kkfidaaooa
+
+Entrada Saída
+
+4 aooaaaaaaa
+aaaaaaabbb
+yyuudiwwkl
+kkfidaaooa
+aooaaaaaaa
+
+ Olimpíada Brasileira de Informática - OBI2017 — Prog. Nível 2 — Fase Nacional
+
+Entrada Saída
+
+1 ok
+jfjshiddads
+
+Entrada Saída
+
+2 abcdefghij
+abcdefghij
+abcdefghij
+
+Entrada Saída
+
+8 wuhcprvezo
+xfwvijuydq
+hcprvezofg
+hwykagqgawu
+givfzndagpy
+yvfiggadfc
+wuhcprvezo
+qaswiksscl
+uchskpkcit
+

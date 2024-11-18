@@ -1,26 +1,83 @@
-Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 2 – Fase Estadual6
+Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível 2 — Fase Estadual 6
+
 Quebra-cabeças
-Nome do arquivo:“quebra.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3Um quebra-cabeças é composto por um tabuleiro composto por células quadradas organizadas emduas linhas deNcolunas. Cada célula do tabuleiro pode conter umacha numerada, como nagura abaixo.
-Aschas podem ser deslizadas para uma célula não ocupada à direita ou à esquerda da posiçãocorrente dacha, mas a ordem daschas, da esquerda para a direita, não pode ser alterada. Assim,nagura acima aschas−3e5podem ser movidas no máximo uma célula para a direita ou paraa esquerda; já acha3pode ser movida somente para a esquerda, uma ou duas células. Aguraabaixo ilustra algumas congurações possíveis para o quebra-cabeça dagura acima.
-5 2 -3 5
-3 2 -12 -3 5
-3 2 -1 3 2 -1
-(a)(b)(c)-3 2
-Ovalorde uma conguração é a soma das multiplicações entre aschas da primeira e da segundalinha do tabuleiro, para cada coluna (a ausência decha em uma célula é equivalente à presençade umacha de valor zero). Ou seja, para a conguração (a) acima, o valor é2×−1 +−3×0 +5×2 + 0×3 = 8; para a conguração (b), o valor é2×−1 +−3×0 + 0×2 + 5×3 = 13; para aconguração (c), o valor é0×−1 + 0×2 + 2×3 +−3×0 + 5×0 = 6. O objetivo do quebra-cabeçaé encontrar uma conguração com o maior valor possível.Dada a descrição do tabuleiro e daschas do quebra-cabeças, escreva um programa para determinaro maior valor possível que uma conguração pode ter.
+
+Nome do arquivo: “quebra.x”, onde x deve ser c, cpp, pas, java, js, py2 ou py3
+
+Um quebra-cabeças é composto por um tabuleiro composto por células quadradas organizadas em
+duas linhas de N colunas. Cada célula do tabuleiro pode conter uma ficha numerada, como na
+figura abaixo.
+
+As fichas podem ser deslizadas para uma célula não ocupada à direita ou à esquerda da posição
+corrente da ficha, mas a ordem das fichas, da esquerda para a direita, não pode ser alterada. Assim,
+na figura acima as fichas —3 e 5 podem ser movidas no máximo uma célula para a direita ou para
+a esquerda; já a ficha 3 pode ser movida somente para a esquerda, uma ou duas células. A figura
+abaixo ilustra algumas configurações possíveis para o quebra-cabeça da figura acima.
+
+oba E hoo
+(3) eo)
+b)
+
+O valor de uma configuração é a soma das multiplicações entre as fichas da primeira e da segunda
+linha do tabuleiro, para cada coluna (a ausência de ficha em uma célula é equivalente à presença
+de uma ficha de valor zero). Ou seja, para a configuração (a) acima, o valor é 2x —1 + -3x 0+
+5x2+0x3=8; para a configuração (b),o valoré2x —1+-3x0+0x2+5x3=13;paraa
+configuração (c), o valor é 0x —1+0x2+2x34+-3x0+5x0=6. O objetivo do quebra-cabeça
+é encontrar uma configuração com o maior valor possível.
+
+Dada a descrição do tabuleiro e das fichas do quebra-cabeças, escreva um programa para determinar
+o maior valor possível que uma configuração pode ter.
+
 Entrada
-A primeira linha da entrada contém um inteiroN, o número de colunas do tabuleiro. Cada umadas duas linhas seguintes descreve aschas de uma linha do tabuleiro. A linha da entrada iniciacom um inteiroMindicando o número dechas na linha do tabuleiro, seguido deMinteirosX i
-indicando o valor e ordem daschas.
+
+A primeira linha da entrada contém um inteiro N, o número de colunas do tabuleiro. Cada uma
+das duas linhas seguintes descreve as fichas de uma linha do tabuleiro. A linha da entrada inicia
+com um inteiro M indicando o número de fichas na linha do tabuleiro, seguido de M inteiros X;
+indicando o valor e ordem das fichas.
+
 Saída
-Seu programa deve produzir uma única linha, contendo um único número inteiro, o valor máximode uma conguração para o quebra-cabeças da entrada.
+
+Seu programa deve produzir uma única linha, contendo um único número inteiro, o valor máximo
+de uma configuração para o quebra-cabeças da entrada.
+
 Restrições
-•1≤N≤500•1≤M≤N•−100≤X
-i≤100eX i6= 0para1≤i≤MOlimpíada Brasileira de Informática – OBI2020 – Prog. Nível 2 – Fase Estadual7
+s1<N<õ500
+C1I<M<N
+
+e —100< X;<100eX;£0paral<i<M
+ Olimpíada Brasileira de Informática
+
 Informações sobre a pontuação
-•Para um conjunto de casos de testes valendo 20 pontos,1≤N≤10eM=N−1.•Para um conjunto adicional de casos de testes valendo 30 pontos,1≤N≤200.•Para um conjunto adicional de casos de testes valendo 50 pontos, nenhuma restrição adicional.
+
+O0BD020 - Prog. Nível 2 — Fase Estadual
+
+e Para um conjunto de casos de testes valendo 20 pontos, 1I< N<10eM=N-1.
+
+e Para um conjunto adicional de casos de testes valendo 30 pontos, 1 < N < 200.
+
+e Para um conjunto adicional de casos de testes valendo 50 pontos, nenhuma restrição adicional.
+
 Exemplos
+
 Exemplo de entrada 1
-53 2 -3 53 -1 2 3Exemplo de saída 1
+
+o wa
+9)
+'
+ND wO
+wa
+
+Exemplo de saída 1
+
 19
+
 Exemplo de entrada 2
-64 -20 7 13 -25 1 -2 7 1 -1Exemplo de saída 2
+
+6
+4 -20 713 -2
+51-271-1
+
+Exemplo de saída 2
+
 133
+

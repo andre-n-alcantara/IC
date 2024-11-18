@@ -1,19 +1,46 @@
-Olimpíada Brasileira de Informática – OBI2016 4
+Olimpíada Brasileira de Informática - OBI2016 4
+
 Lâmpadas
-Nome do arquivo:lampadas.c,lampadas.cpp,lampadas.pas,lampadas.java,lampadas.js,lampadas.py2oulampadas.py3Você está de volta em seu hotel na Tailândia depois de um dia de mergulhos. O seu quarto temduas lâmpadas. Vamos chamá-las deAeB. No hotel há dois interruptores, que chamaremos deI
-1
-eI2. Ao apertarI 1, a lâmpadaAtroca de estado, ou seja, acende se estiver apagada e apaga seestiver acesa. Se apertarI
-2, ambas as lâmpadasAeBtrocam de estado.As lâmpadas inicialmente estão ambas apagadas. Seu amigo resolveu bolar um desao para você.Ele irá apertar os interruptores em uma certa sequência, e gostaria que você respondesse o estadonal das lâmpadasAeB.
+
+Nome do arquivo: lampadas.c, lampadas .cpp, lampadas.pas, lampadas. java, lampadas. js,
+lampadas .py2 ou lampadas .py3
+
+Você está de volta em seu hotel na Tailândia depois de um dia de mergulhos. O seu quarto tem
+duas lâmpadas. Vamos chamá-las de A e B. No hotel há dois interruptores, que chamaremos de 1;
+e Db. Ao apertar 14, a lâmpada A troca de estado, ou seja, acende se estiver apagada e apaga se
+estiver acesa. Se apertar 15, ambas as lâmpadas A e B trocam de estado.
+
+As lâmpadas inicialmente estão ambas apagadas. Seu amigo resolveu bolar um desafio para você.
+Ele irá apertar os interruptores em uma certa sequência, e gostaria que você respondesse o estado
+final das lâmpadas 4 e B.
+
 Entrada
-A primeira linha contém um númeroNque representa quantas vezes seu amigo irá apertar alguminterruptor. Na linha seguinte seguirãoNnúmeros, que pode ser1, se o interruptorI
-1foi apertado,ou2, se o interruptorI
-2foi apertado.
+
+A primeira linha contém um número N que representa quantas vezes seu amigo irá apertar algum
+interruptor. Na linha seguinte seguirão N números, que pode ser 1, se o interruptor 1 foi apertado,
+ou 2, se o interruptor 1o foi apertado.
+
 Saída
-Seu programa deve imprimir dois valores, em linhas separadas.Na primeira linha, imprima1se a lâmpadaAestiver acesa nonal das operações e0caso contrário.Na segunda linha, imprima1se a lâmpadaBestiver acesa nonal das operações e0caso contrário.
+Seu programa deve imprimir dois valores, em linhas separadas.
+
+Na primeira linha, imprima 1 se a lâmpada A estiver acesa no final das operações e O caso contrário.
+Na segunda linha, imprima 1 se a lâmpada B estiver acesa no final das operações e O caso contrário.
+
 Restrições
-•1≤N≤105
+
+s1<N<I10
+
 Informações sobre a pontuação
-•Em um conjunto de casos de teste equivalente a 20 pontos,N= 3.
+
+e Em um conjunto de casos de teste equivalente a 20 pontos, N = 3.
+
 Exemplos
-Entrada31 2 2 Saída10
-Entrada42 1 2 2 Saída01
+
+Entrada Saída
+3 1
+122
+
+Entrada Saída
+4 (o)
+2122 1
+

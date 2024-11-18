@@ -1,13 +1,83 @@
-Olimpíada Brasileira de Informática – OBI2017 – Prog. Nível 2 – Fase 2 6
+Olimpíada Brasileira de Informática - OBI2017 — Prog. Nível 2 — Fase 2 6
+
 Frete
-Nome do arquivo:frete.c,frete.cpp,frete.pas,frete.java,frete.js,frete.py2oufrete.py3O senhor Satoshi passou anos reclamando da empresa de correios do seu país, porque ela sempretransportava suas encomendas usando um caminho que passava pelo número mínimo de cidadesentre a cidade onde o senhor Satoshi mora e a cidade destino da encomenda. A empresa alegavaque essa estratégia levava ao menor tempo para a entreganal da encomenda. O problema é queele notou que essa estratégia da empresa nem sempre levava ao menor preço para o frete total. Seele pudesse escolher o caminho por onde a encomenda deveria passar para ir da sua cidade para acidade destino, ele poderia economizar bastante com o frete, já que não havia muita urgência paraa maioria de suas encomendas.Depois de muita reclamação, a empresanalmente está dando aos clientes a opção de determinaro caminho por onde a encomenda deve passar. O senhor Satoshi, feliz da vida, agora quer a suaajuda para implementar um programa que, dado o custo de transporte de uma encomenda entrevários pares de cidades pelo país, para os quais a empresa realiza entregas diretas, determine qualé o preço total mínimo para o frete entre a cidade onde ele mora e a cidade destino da encomenda.
-12 435425361custocidadeO país temNcidades, identicadas pelos números de1aN. O senhor Satoshi mora na cidade1eo destino da encomenda será sempre a cidadeN. É garantido que sempre haverá um caminho de1atéN. No exemplo dagura, paraN= 5, o custo mínimo será7, para o caminho1!2!4!5.
+
+Nome do arquivo: frete.c, frete.cpp, frete.pas, frete. java, frete. js, frete.py2 ou
+frete.py3
+
+O senhor Satoshi passou anos reclamando da empresa de correios do seu país, porque ela sempre
+transportava suas encomendas usando um caminho que passava pelo número mínimo de cidades
+entre a cidade onde o senhor Satoshi mora e a cidade destino da encomenda. A empresa alegava
+que essa estratégia levava ao menor tempo para a entrega final da encomenda. O problema é que
+ele notou que essa estratégia da empresa nem sempre levava ao menor preço para o frete total. Se
+ele pudesse escolher o caminho por onde a encomenda deveria passar para ir da sua cidade para a
+cidade destino, ele poderia economizar bastante com o frete, já que não havia muita urgência para
+a maioria de suas encomendas.
+
+Depois de muita reclamação, a empresa finalmente está dando aos clientes a opção de determinar
+o caminho por onde a encomenda deve passar. O senhor Satoshi, feliz da vida, agora quer a sua
+ajuda para implementar um programa que, dado o custo de transporte de uma encomenda entre
+vários pares de cidades pelo país, para os quais a empresa realiza entregas diretas, determine qual
+é o preço total mínimo para o frete entre a cidade onde ele mora e a cidade destino da encomenda.
+
+custo 1
+
+O país tem N cidades, identificadas pelos números de 1 a N. O senhor Satoshi mora na cidade 1 e
+o destino da encomenda será sempre a cidade N. É garantido que sempre haverá um caminho de 1
+até N. No exemplo da figura, para N = 5, o custo mínimo será 7, para o caminho 15254565.
+
 Entrada
-A primeira linha da entrada contém dois números inteirosNeM, representando o número decidades e quantos pares de cidades possuem entrega direta de encomenda pela empresa. AsMlinhas seguintes contêm, cada uma, três inteirosA,BeC, indicando que a empresa realiza aentrega de uma encomenda diretamente entre as cidadesAeB, cobrando o preçoC.
+
+A primeira linha da entrada contém dois números inteiros N e M, representando o número de
+cidades e quantos pares de cidades possuem entrega direta de encomenda pela empresa. As M
+linhas seguintes contêm, cada uma, três inteiros 4, Be C, indicando que a empresa realiza a
+entrega de uma encomenda diretamente entre as cidades 4 e B, cobrando o preço €.
+
 Saída
-Seu programa deve imprimir uma linha contendo um inteiro representando o preço mínimo totalpara o frete entre a cidade onde o senhor Satoshi mora, a cidade1, e a cidade destino da encomenda,a cidadeN.
+
+Seu programa deve imprimir uma linha contendo um inteiro representando o preço mínimo total
+para o frete entre a cidade onde o senhor Satoshi mora, a cidade 1, e a cidade destino da encomenda,
+a cidade N.
+
 Restrições
-•2N100e1M1000•1A,BNeA6=B•1C1000Olimpíada Brasileira de Informática – OBI2017 – Prog. Nível 2 – Fase 2 7
+
+e2<N<100C1<M<1000
+CI<AB<NeALZB
+e1<C<1000
+ Olimpíada Brasileira de Informática - OBI2017 — Prog. Nível 2 — Fase 2
+
 Exemplos
-Entrada5 61 2 41 3 34 3 64 5 22 4 13 5 5Saída7
-Entrada7 101 2 53 1 321 4 32 3 42 6 206 3 16 4 96 5 63 7 185 7 2Saída18
+
+Entrada Saída
+5 6 7
+124
+
+1383
+
+436
+
+452
+
+241
+
+355
+
+Entrada Saída
+
+H
+o
+
+18
+
+32
+
+w
+
+20
+
+18
+
+WO DOIONNAHWHN
+NNE OWEN
+H
+

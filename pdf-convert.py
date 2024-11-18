@@ -1,22 +1,19 @@
-import PyPDF2
 import os
 
+from multilingual_pdf2text.pdf2text import PDF2Text
+from multilingual_pdf2text.models.document_model.document import Document
+
 def pdf_to_text(pdf_path, output_path):
-    # Open the PDF file in read-binary mode
-    with open(pdf_path, 'rb') as pdf_file:
-        # Create a PdfReader object instead of PdfFileReader
-        pdf_reader = PyPDF2.PdfReader(pdf_file)
-
-        # Initialize an empty string to store the text
-        text = ''
-
-        for page_num in range(len(pdf_reader.pages)):
-            page = pdf_reader.pages[page_num]
-            text += page.extract_text()
-
-    # Write the extracted text to a text file
-    with open(output_path, 'w', encoding='utf-8') as txt_file:
-        txt_file.write(text)
+    ## create document for extraction with configurations
+    pdf_document = Document(
+        document_path=pdf_path,
+        language='por'
+        )
+    pdf2text = PDF2Text(document=pdf_document)
+    content = [page['text'] for page in pdf2text.extract()]
+    text = ' '.join(content)
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write(text)
 
 def get_pdf(path):
     for file in os.listdir(path):
@@ -36,3 +33,4 @@ for root, dirs, files in os.walk('./OBI'):
     for sub in dirs:
         sub_path = os.path.join(root, sub)
         list_subfolders(sub_path)
+

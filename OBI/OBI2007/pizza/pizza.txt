@@ -1,10 +1,55 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2007 –Modalidade Programa¸ c˜ ao, N´ıvel 2, Fase 23
+Olimpíada Brasileira de Informática — OBI2007 — Modalidade Programação, Nível 2, Fase 2 3
+
 Pizza
-Nome do arquivo fonte:pizza.c,pizza.cpp,oupizza.pasRodrigo pediu uma pizza de mussarela deNfatias, uma parte somente com cebola e o resto somente comazeitonas. Entretanto, ao receber a pizza em casa, notou que o motoqueiro que a entregou n˜ ao foi cuidadoso osuciente, pois tanto as tiras de cebola quanto as azeitonas estavam espalhadas por toda a pizza. Para piorar,como a pizza era de mussarela, as tiras de cebola e as azeitonas estavam grudadas na pizza.Como gosta mais de cebola do que de azeitona, Rodrigo deseja pegar fatias consecutivas da pizza de talforma que estas contenham a maior diferen¸ ca poss´ıvel entre tiras de cebola e azeitonas. Para isso, ele contouquantas tiras e quantas azeitonas tinham em cada fatia e subtraiu os dois valores, nessa ordem. Assim, sempreque uma fatia contiver mais cebolas que azeitonas, ela recebe um n´ umero positivo, e caso contr´ ario, um n´ umeronegativo. Uma fatia cujo n´ umero seja zero cont´ em o mesmo n´ umero de tiras de cebolas e azeitonas.
-PizzaPor exemplo, supondo que as fatias contenham as seguintes diferen¸ cas: 5,−3,−3,2,−1,3, pode-se pegar umafatia consecutiva com 9 cebolas a mais que azeitonas, utilizando as fatias com as diferen¸ cas 2,−1,3,5 (lembre-sede que estamos tratando de um c´ırculo e, portanto, a fatia com diferen¸ ca 5 ´ e vizinha da fatia com diferen¸ ca 3 evice-versa).Como Rodrigo n˜ ao entende de programa¸ c˜ ao, ele resolveu contar com seus servi¸ cos.OBS: repare que ´ e melhor n˜ ao escolher nenhuma fatia caso somente seja poss´ıvel escolher fatias consecutivascom mais azeitonas que cebolas.Tarefa
-Escreva um programa que, dados as diferen¸ cas entre as quantidades de cebolas e azeitonas em cada fatia depizza, retorne a maior quantidade poss´ıvel de cebolas que Rodrigo pode comer a mais do que a quantidade deazeitonas utilizando somente fatias consecutivas de pizza. (lembrando que a primeira fatia ´ e adjacente ` a ´ ultimae vice-versa).
+
+Nome do arquivo fonte: pizza.c, pizza.cpp, ou pizza.pas
+
+Rodrigo pediu uma pizza de mussarela de N fatias, uma parte somente com cebola e o resto somente com
+azeitonas. Entretanto, ao receber a pizza em casa, notou que o motoqueiro que a entregou não foi cuidadoso o
+suficiente, pois tanto as tiras de cebola quanto as azeitonas estavam espalhadas por toda a pizza. Para piorar,
+como a pizza era de mussarela, as tiras de cebola e as azeitonas estavam grudadas na pizza.
+
+Como gosta mais de cebola do que de azeitona, Rodrigo deseja pegar fatias consecutivas da pizza de tal
+forma que estas contenham a maior diferença possível entre tiras de cebola e azeitonas. Para isso, ele contou
+quantas tiras e quantas azeitonas tinham em cada fatia e subtraiu os dois valores, nessa ordem. Assim, sempre
+que uma fatia contiver mais cebolas que azeitonas, ela recebe um número positivo, e caso contrário, um número
+negativo. Uma fatia cujo número seja zero contém o mesmo número de tiras de cebolas e azeitonas.
+
+Pizza
+
+Por exemplo, supondo que as fatias contenham as seguintes diferenças: 5, —-3, 3,2, —1,3, pode-se pegar uma
+fatia consecutiva com 9 cebolas a mais que azeitonas, utilizando as fatias com as diferenças 2, —1,3,5 (lembre-se
+de que estamos tratando de um círculo e, portanto, a fatia com diferença 5 é vizinha da fatia com diferença 3 e
+vice-versa).
+
+Como Rodrigo não entende de programação, ele resolveu contar com seus serviços.
+
+OBS: repare que é melhor não escolher nenhuma fatia caso somente seja possível escolher fatias consecutivas
+com mais azeitonas que cebolas.
+
+Tarefa
+
+Escreva um programa que, dados as diferenças entre as quantidades de cebolas e azeitonas em cada fatia de
+pizza, retorne a maior quantidade possível de cebolas que Rodrigo pode comer a mais do que a quantidade de
+azeitonas utilizando somente fatias consecutivas de pizza. (lembrando que a primeira fatia é adjacente à última
+e vice-versa).
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). A primeira linha da entrada cont´ em um inteiroNque indica o n´ umero de fatias de pizza (1≤N≤100.000). A segunda linha cont´ emNinteirosK(−100≤K≤100) separados por um espa¸ co em branco comas diferen¸ cas entre as quantidades de cebolas e de azeitonas.
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, uma ´ unica linha, contendo a maior quantidade de cebolas queRodrigo pode comer a mais do que azeitonas.
-Entrada65 -3 -3 2 -1 3Sa´ıda9Entrada71 -2 2 -1 4 1 -5Sa´ıda6Entrada2-3 -10Sa´ıda0
+
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado). A primeira linha da entrada contém um inteiro N que indica o número de fatias de pizza (1 < N <
+100.000). A segunda linha contém N inteiros K (-100 < K < 100) separados por um espaço em branco com
+as diferenças entre as quantidades de cebolas e de azeitonas.
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, uma única linha, contendo a maior quantidade de cebolas que
+Rodrigo pode comer a mais do que azeitonas.
+
+Entrada Entrada Entrada
+6 7 2
+5-3-32-183 1-22-141-5 -3 -10
+Saída Saída Saída
+
+9 6 0
+

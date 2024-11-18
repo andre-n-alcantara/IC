@@ -1,10 +1,102 @@
-r−1,1,3,55,6,8,9,106−5 = 18−6 = 25,6,8,9,10685,68,9,10
-NNai
-•1≤N≤105
-•−105≤a i≤105−2,0,2,3,3,4,62−0= 3−23−2,0,2 3,3 4,63
-−2,0,3,6•41−2 0 3 6
-•33−2,0 3 6
-−2 0,3 6
-−2 0 3,6
-•22−2,0 3,6
-−2 0,3,6
+Olimpíada Brasileira de Informática —- OBD011 4
+
+Progressões Aritméticas
+
+Nome do arquivo fonte: pas.c, pas.cpp, pas.pas, pas. java, ou pas.py
+
+Bob é um aluno do ensino médio que gosta muito de matemática. Na última aula ele aprendeu o que são
+Progressões Aritméticas (PAs) e ficou fascinado por elas. Pelo que Bob entendeu, Progressões Aritméticas são
+sequências de números nas quais a diferença entre dois elementos consecutivos é sempre igual a uma constante r,
+chamada de razão da PA.
+
+Um exemplo de Progressão Aritmética de razão 2 é —1,1,3,5. Além disso, toda sequência com um ou dois
+elementos é sempre uma Progressão Aritmética. Por outro lado, 5, 6,8,9,10 não é uma PA porque a diferença
+entre elementos consecutivos não é constante: a diferença entre os dois primeiros elementos é 6—5 = 1, enquanto
+a diferença entre o terceiro e o segundo elementos é 8 — 6 = 2.
+
+Bob percebeu que qualquer sequência, mesmo que a mesma não seja uma Progressão Aritmética, pode ser
+quebrada em sequências menores que são PAs. Por exemplo, vimos que a sequência 5, 6,8,9,10 não é uma PA,
+mas podemos quebrar ela entre o 6 e o 8 para obtermos as sequências 5,6 e 8,9, 10, que são PAs. Note que não
+existe como quebrar a sequência em menos partes se quisermos ter apenas PAs no fim do procedimento.
+
+Bob é fascinado por programação mas ainda não sabe programar muito bem, e por isso pediu sua ajuda: ele
+não está conseguindo descobrir como quebrar sequências muito grandes de um jeito eficiente; por isso, pediu
+que você escrevesse um programa para, dada uma sequência qualquer, imprimir o número mínimo de partes em
+que precisamos quebrar a sequência para termos apenas Progressões Aritméticas no término do processo. Caso
+a sequência original já seja uma PA, podemos terminar o processo com uma única parte, e portanto a resposta
+para esse caso é 1.
+
+Entrada
+
+A primeira linha da entrada é composta por um inteiro N, o número de elementos da sequência. Na segunda
+linha existem N inteiros a;, os elementos da sequência.
+
+Saída
+
+A saída deve conter uma única linha, indicando o número mínimo de partes em que Bob precisa quebrar a
+sequência original para que ele termine apenas com PAs.
+
+Restrições
+
+scI<N<IO
+
+e IO <a,< 10º
+ Olimpíada Brasileira de Informática — OBD011
+
+Exemplos
+
+Entrada Saída
+5 1
+123465
+
+Entrada Saída
+7 3
+-2023346
+
+E fácil verificar que a sequência —2,0,2,3,3,4,6 (do exemplo acima) não é uma PA, pois 2-0 £ 3-2.
+Verificando manualmente, você pode constatar que não é possível particionar a sequência em duas de
+tal forma que ambas as partes sejam PAs. Entretanto, existe uma maneira de particionar a sequência
+
+em 3 PAs: | -2,0,2 || 3,3 || 4,6 |. Portanto, temos que a resposta para este exemplo é 3.
+Entrada Saída
+4 2
+-2036
+
+A sequência —2,0,3,6 (do exemplo acima) pode ser particionada de várias formas. As únicas ma-
+am em PAs são as seguintes:
+
+neiras que
+
+e Com
+
+resu.
+
+4 par
+
+es temos
+
+possibilidade:
+
+—2
+
+01|3
+
+6
+
+e Com 3 partes temos 3 possibilidades:
+
+-2,0
+
+3/6
+
+0,3 || 6
+
+0 || 3,6
+
+es temos 2 possibilidades:
+
+3,6
+
+0,3,6
+
+[od

@@ -1,11 +1,58 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2006 –Modalidade Programa¸ c˜ ao N´ıvel 13
+Olimpíada Brasileira de Informática — OB12006 —- Modalidade Programação Nível 1 3
+
 Margaridas
-Nome do arquivo fonte:marg.c,marg.cpp,oumarg.pasLeopoldo ´ e gerente de uma planta¸ c˜ ao deores da Associa¸ c˜ ao de Cultivo de Margaridas (ACM), um grupo quecultiva margaridas em grandes propriedades para abasteceroriculturas em grandes cidades.As margaridas s˜ ao plantadas em vasos dispostos em linhas e colunas, formando uma esp´ ecie de grade. Naplanta¸ c˜ ao administrada por Leopoldo existemLlinhas de vasos de margaridas, cada uma formada porCvasos.Para facilitar o gerenciamento, os vasos s˜ ao organizados em lotes deMlinhas eNcolunas de vasos, sendo quen˜ ao existem sobreposi¸ c˜ oes entre os lotes (n˜ ao existe nenhuma linha ou coluna comum a mais de um lote) e todosos lotes tˆ em exatamenteMlinhas eNcolunas.A colheita ´ e sempre feita em um ´ unico lote, coletando-se todas as margaridas daquele lote que estejamprontas para a venda. Uma semana antes de fazer a colheita, os funcion´ arios da planta¸ c˜ ao analisaram cadavaso e anotaram quantas margaridas estar˜ ao prontas para venda na semana seguinte. Leopoldo agora precisada sua ajuda para determinar qual o n´ umero m´ aximo de margaridas que poder´ a ser colhido em um ´ unico lotedeM×Nvasos.
+Nome do arquivo fonte: marg.c, marg.cpp, ou marg.pas
+
+Leopoldo é gerente de uma plantação de flores da Associação de Cultivo de Margaridas (ACM), um grupo que
+cultiva margaridas em grandes propriedades para abastecer floriculturas em grandes cidades.
+
+As margaridas são plantadas em vasos dispostos em linhas e colunas, formando uma espécie de grade. Na
+plantação administrada por Leopoldo existem L linhas de vasos de margaridas, cada uma formada por C vasos.
+Para facilitar o gerenciamento, os vasos são organizados em lotes de M linhas e N colunas de vasos, sendo que
+não existem sobreposições entre os lotes (não existe nenhuma linha ou coluna comum a mais de um lote) e todos
+os lotes têm exatamente M linhas e N colunas.
+
+A colheita é sempre feita em um único lote, coletando-se todas as margaridas daquele lote que estejam
+prontas para a venda. Uma semana antes de fazer a colheita, os funcionários da plantação analisaram cada
+vaso e anotaram quantas margaridas estarão prontas para venda na semana seguinte. Leopoldo agora precisa
+da sua ajuda para determinar qual o número máximo de margaridas que poderá ser colhido em um único lote
+de M x N vasos.
+
 Tarefa
-Sua tarefa ´ e escrever um programa que, dado um mapa da planta¸ c˜ ao contendo o n´ umero de margaridas prontaspara venda em cada vaso, encontre qual o n´ umero m´ aximo de margaridas que podem ser colhidos por Leopoldo.
+
+Sua tarefa é escrever um programa que, dado um mapa da plantação contendo o número de margaridas prontas
+para venda em cada vaso, encontre qual o número máximo de margaridas que podem ser colhidos por Leopoldo.
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). A primeira linha da entrada cont´ em quatro n´ umeros inteiros,L,C,MeN.LeCrepresentamrespectivamente o n´ umero de linhas (1≤L≤1000) e de colunas (1≤C≤1000) de vasosexistentes naplanta¸ c˜ ao.MeNrepresentam respectivamente o n´ umero de linhas (1≤M≤L) e de colunas (1≤N≤C) doslotes. AsLlinhas seguintes contˆ emCinteiros cada, representando n´ umero de margaridas prontas para colheitano vaso localizado naquela linha e coluna. Note que
-LMeCNs˜ ao sempre inteiros, pois n˜ ao h´ a linha ou coluna devasos que perten¸ ca a mais de um lote.
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, uma ´ unica linha que cont´ em o n´ umero m´ aximo de margaridasque podem ser colhidos em um lote deM×N. Esse n´ umero n˜ ao pode ser superior a 1000000.
-Entrada3 3 1 11 2 31 3 31 10 1Sa´ıda10Entrada4 4 2 11 2 3 45 6 7 81 10 5 21 5 9 10Sa´ıda15Entrada6 6 2 21 1 1 1 1 11 2 2 1 1 21 2 2 1 1 11 1 1 1 1 11 3 1 1 3 11 1 1 1 2 1Sa´ıda7
+
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado). A primeira linha da entrada contém quatro números inteiros, L, C, Me N. Le C representam
+respectivamente o número de linhas (1 < L < 1000) e de colunas (1 < C < 1000) de vasos existentes na
+plantação. M e N representam respectivamente o número de linhas (1 < M < L) e de colunas (1 < N <C) dos
+lotes. As L linhas seguintes contêm C inteiros cada, representando número de margaridas prontas para colheita
+
+no vaso localizado naquela linha e coluna. Note que + e e são sempre inteiros, pois não há linha ou coluna de
+vasos que pertença a mais de um lote.
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, uma única linha que contém o número máximo de margaridas
+que podem ser colhidos em um lote de M x N. Esse número não pode ser superior a 1000000.
+
+Entrada Entrada Entrada
+3311 4421 6622
+123 1234 111111
+133 5678 122112
+1101 11052 122111
+
+15910 111111
+. 131131
+Saída 111121
+
+Saída
+10
+
+16 Saída
+
+7
+

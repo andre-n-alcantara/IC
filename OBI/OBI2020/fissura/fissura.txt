@@ -1,21 +1,119 @@
-Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 1 – Fase Local3
+Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível 1 — Fase Local 3
+
 Fissura Perigosa
-Nome do arquivo:“fissura.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3A erupção do vulcão Kilauea em 2018 no Havaí atraiu a atenção de todo o mundo. Inicialmentea força da erupção era menor e a lava avançou para o sul com relativamente poucos danos. Apósalgumas semanas, porém, assura 8 começou a jorrar com mais força e a lava avançou tambémpara o norte trazendo muita destruição.Você está ajudando na implementação de um sistema para simular a área por onde a lava avançaria,em função da força da erupção. O mapa será representado simplicadamente por uma matrizquadrada de caracteres, de1a9, indicando a altitude do terreno em cada posição da matriz. Vamosconsiderar que assura 8, por onde a erupção se inicia, está sempre na posição do canto superioresquerdo da matriz. Dada a força da erupção, que será um valor inteiro, de0a9, seu programa deveimprimir a matriz de caracteres representando o avançonal da lava. Se a lava consegue invadiruma posição da matriz, o caractere naquela posição deve ser trocado por um asterisco (‘*’). Umaposição será invadida pela lava se seu valor for menor ou igual à força da erupção e•for a posição inicial; ou•estiver adjacente, ortogonalmente (abaixo, acima, à esquerda ou à direita), a uma posiçãoinvadida.Agura abaixo mostra um exemplo de mapa e o avançonal da lava para quatro forças de erupção:1,3,6e8, respectivamente da esquerda para a direita.27755478 *7755478 *7755478 ********29985439 *9985439 *9985439 *99****934899989 *4899989 **899989 ***999*922115569 ****5569 *******9 *******966736689 667*6689 **7***89 *******999886555 99886555 9988**** 99******44433399 44433399 ******99 ******9999986991 99986991 9998*991 999**991
+
+Nome do arquivo: “fissura.x”, onde x deve ser c, cpp, pas, java, js, py2 ou py3
+
+A erupção do vulcão Kilauea em 2018 no Havaí atraiu a atenção de todo o mundo. Inicialmente
+a força da erupção era menor e a lava avançou para o sul com relativamente poucos danos. Após
+algumas semanas, porém, a fissura 8 começou a jorrar com mais força e a lava avançou também
+para o norte trazendo muita destruição.
+
+Você está ajudando na implementação de um sistema para simular a área por onde a lava avançaria,
+em função da força da erupção. O mapa será representado simplificadamente por uma matriz
+quadrada de caracteres, de 1 a 9, indicando a altitude do terreno em cada posição da matriz. Vamos
+considerar que a fissura 8, por onde a erupção se inicia, está sempre na posição do canto superior
+esquerdo da matriz. Dada a força da erupção, que será um valor inteiro, de O a 9, seu programa deve
+imprimir a matriz de caracteres representando o avanço final da lava. Se a lava consegue invadir
+uma posição da matriz, o caractere naquela posição deve ser trocado por um asterisco ('*'). Uma
+posição será invadida pela lava se seu valor for menor ou igual à força da erupção e
+
+e for a posição inicial; ou
+e estiver adjacente, ortogonalmente (abaixo, acima, à esquerda ou à direita), a uma posição
+
+invadida.
+
+A figura abaixo mostra um exemplo de mapa e o avanço final da lava para quatro forças de erupção:
+1,3,6e8, respectivamente da esquerda para a direita.
+
+27755478 *7755478 *7755478 ettetototoor
+29985439 *9985439 *9985439 *99++4+9
+34899989 *4899989 **899989 *4*+999x9
+22115569 *+++5569 eta eta
+66736689 667x6689 **7++489 eta
+99886555 99886555 998844 99
+44433399 44433399 tt DO tt DO
+99986991 99986991 9998*991 999+*991
+
 Entrada
-A primeira linha da entrada contém dois inteirosNeFrepresentando, respectivamente o númerode linhas (que é igual ao de colunas) da matriz e a força da erupção. Cada uma dasNlinhasseguintes contém uma string deNcaracteres, entre1e9, indicando o mapa de entrada.
+
+A primeira linha da entrada contém dois inteiros N e F representando, respectivamente o número
+de linhas (que é igual ao de colunas) da matriz e a força da erupção. Cada uma das N linhas
+seguintes contém uma string de N caracteres, entre 1 e 9, indicando o mapa de entrada.
+
 Saída
-Seu programa deve imprimirNlinhas contendo, cada uma,Ncaracteres representando o avançonal da lava de acordo com o enunciado.
+
+Seu programa deve imprimir N linhas contendo, cada uma, N caracteres representando o avanço
+final da lava de acordo com o enunciado.
+
 Restrições
-•1≤N≤500•0≤F≤9
+e1<N<õ500
+e0O<F<y
+
 Informações sobre a pontuação
-•Em um conjunto de casos de teste somando 20 pontos,N≤10.•Em um conjunto de casos de teste somando 20 pontos,10< N≤100.•Em um conjunto de casos de teste somando 60 pontos, nenhuma restrição adicional.Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 1 – Fase Local4
+
+e Em um conjunto de casos de teste somando 20 pontos, N < 10.
+e Em um conjunto de casos de teste somando 20 pontos, 10 < N < 100.
+
+e Em um conjunto de casos de teste somando 60 pontos, nenhuma restrição adicional.
+ Olimpíada Brasileira de Informática
+
 Exemplos
+
+OB12020
+
+Prog. Nível 1 — Fase Local
+
 Exemplo de entrada 1
-8 62775547829985439348999892211556966736689998865554443339999986991Exemplo de saída 1
-*7755478*9985439**899989*******9**7***899988**********999998*991
+
+8 6
+
+27755478
+29985439
+34899989
+22115569
+66736689
+99886555
+44433399
+99986991
+
+Exemplo de saída 1
+
+*7755478
+*9985439
+**899989
+eta
+**7++489
+9988++xx
+et DO
+9998*991
+
 Exemplo de entrada 2
-5 42567935234171823999311223Exemplo de saída 2
-*5679*5****7*8**999******
+
+54
+
+25679
+35234
+17182
+39993
+11223
+
+Exemplo de saída 2
+
+*5679
+* Dk
+*7x8%
+*999x
+etook
+
 Exemplo de entrada 3
-2 89111Exemplo de saída 3
-9111
+
+28
+91
+11
+
+Exemplo de saída 3
+
+91
+11
+

@@ -1,18 +1,101 @@
-Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível 1 – Fase Fase 13
+Olimpíada Brasileira de Informática - OBI2021 — Prog. Nível 1 — Fase Fase 1 3
+
 Tempo de resposta
-Nome do arquivo:“tempo.x”,ondexdeve serc,cpp,pas,java,jsoupySara adora trocar mensagens com amigos. Como ela recebe e envia muitas mensagens, está preo-cupada com o tempo que seus amigos esperam para receber respostas das mensagens.As seguintes regras de etiqueta são sempre obedecidas:•as únicas mensagens que Sara envia são respostas a mensagens que ela recebeu.•Sara envia no máximo uma mensagem como reposta a uma mensagem que recebeu.•um amigo de Sara nunca envia uma nova mensagem para Sara até que tenha recebido respostada mensagem que enviou anteriormente.O aplicativo de mensagens que Sara e seus amigos usam recebe e envia mensagens instantaneamente.O envio e o recebimento de mensagens são chamados deeventos. O aplicativo registra cada eventona ordem em que os eventos ocorrem, usando dois tipos de registro:•R Xindica que uma mensagem foi recebida do amigoX.•E Xindica que uma mensagem foi enviada ao amigoX.O aplicativo usa ainda um outro tipo de registro, para indicar o tempo que se passou entre doiseventos consecutivos, na forma•T Xindicando queXsegundos se passaram entre o evento anterior e o evento posterior aesse registro.Se não há registro do tipoT Xentre dois registros de eventos consecutivos signica que exatamente1 segundo se passou entre esses dois eventos.OTempo de Respostade uma mensagem é o tempo que se passa entre o recebimento da mensagempor Sara e o envio da resposta a essa mensagem por Sara. Se um amigo recebeu respostas para todasas suas mensagens, oTempo de Resposta Totalpara esse amigo é a soma dos Tempos de Respostaspara as mensagens desse amigo; caso contrário o Tempo de Resposta Total para esse amigo é−1.Dada a lista de registros do aplicativo de Sara, sua tarefa é determinar o Tempo de Resposta Totalpara cada amigo.
+
+Nome do arquivo: “tempo .x”, onde x deve ser c, cpp, pas, java, js ou py
+
+Sara adora trocar mensagens com amigos. Como ela recebe e envia muitas mensagens, está preo-
+cupada com o tempo que seus amigos esperam para receber respostas das mensagens.
+
+As seguintes regras de etiqueta são sempre obedecidas:
+
+e as únicas mensagens que Sara envia são respostas a mensagens que ela recebeu.
+e Sara envia no máximo uma mensagem como reposta a uma mensagem que recebeu.
+
+e um amigo de Sara nunca envia uma nova mensagem para Sara até que tenha recebido resposta.
+da mensagem que enviou anteriormente.
+
+O aplicativo de mensagens que Sara e seus amigos usam recebe e envia mensagens instantaneamente.
+O envio e o recebimento de mensagens são chamados de eventos. O aplicativo registra cada evento
+na ordem em que os eventos ocorrem, usando dois tipos de registro:
+
+e R X indica que uma mensagem foi recebida do amigo X.
+
+e E X indica que uma mensagem foi enviada ao amigo X.
+
+O aplicativo usa ainda um outro tipo de registro, para indicar o tempo que se passou entre dois
+eventos consecutivos, na forma
+
+e T X indicando que X segundos se passaram entre o evento anterior e o evento posterior a
+esse registro.
+
+Se não há registro do tipo T X entre dois registros de eventos consecutivos significa que exatamente
+1 segundo se passou entre esses dois eventos.
+
+O Tempo de Resposta de uma mensagem é o tempo que se passa entre o recebimento da mensagem
+por Sara e o envio da resposta a essa mensagem por Sara. Se um amigo recebeu respostas para todas
+as suas mensagens, o Tempo de Resposta Total para esse amigo é a soma dos Tempos de Respostas
+para as mensagens desse amigo; caso contrário o Tempo de Resposta Total para esse amigo é —1.
+Dada a lista de registros do aplicativo de Sara, sua tarefa é determinar o Tempo de Resposta Total
+para cada amigo.
+
 Entrada
-A primeira linha da entrada contém um inteiroN, o número de registros. Os amigos de Sara sãoidenticados por números inteiros. Cada uma dasNlinhas seguintes descreve um registro e contémum caractere (R, EouT) seguido de um número inteiroX. No caso de registros dos tiposReEo valor deXindica um amigo de Sara; no caso do registro de tipoT, o valor deXindica o númerode segundos que se passaram entre o evento anterior e o posterior.
+
+A primeira linha da entrada contém um inteiro N, o número de registros. Os amigos de Sara são
+identificados por números inteiros. Cada uma das N linhas seguintes descreve um registro e contém
+um caractere (R, E ou T) seguido de um número inteiro X. No caso de registros dos tipos Re E
+
+o valor de X indica um amigo de Sara; no caso do registro de tipo T, o valor de X indica o número
+de segundos que se passaram entre o evento anterior e o posterior.
+
 Saída
-Para cada amigo de Sara seu programa deve produzir uma linha na saída contendo dois inteiros: onúmero do amigo e o Tempo de Resposta Total para esse amigo, em ordem crescente dos númerosdos amigos.
+
+Para cada amigo de Sara seu programa deve produzir uma linha na saída contendo dois inteiros: o
+número do amigo e o Tempo de Resposta Total para esse amigo, em ordem crescente dos números
+dos amigos.
+
 Restrições
-•1≤N≤20•1≤X≤100Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível 1 – Fase Fase 14
+
+e1<N<920
+e1<X<100
+ Olimpíada Brasileira de Informática - OBI2021 — Prog. Nível 1 — Fase Fase 1
+
 Informações sobre a pontuação
-•Para um conjunto de casos de testes valendo 20 pontos,1≤N≤10.•Para um conjunto de casos de testes valendo 80 pontos, nenhuma restrição adicional.
+
+e Para um conjunto de casos de testes valendo 20 pontos, 1< N < 10.
+
+e Para um conjunto de casos de testes valendo 80 pontos, nenhuma restrição adicional.
+
 Exemplos
-Exemplo de entrada 1
-5R 2R 3T 5E 2E 3Exemplo de saída 1
-2 63 6
-Exemplo de entrada 2
-14R 12T 2R 23T 3R 45E 45R 45E 23R 23T 2E 23R 34E 12E 34Exemplo de saída 2
-12 1323 834 245 -1
+
+Exemplo de entrada 1 Exemplo de saída 1
+
+26
+3 6
+
+magoa
+ChNaAwN
+
+Exemplo de entrada 2 Exemplo de saída 2
+
+IN
+Hs
+
+12 13
+12 238
+2 34 2
+23 45 1
+3
+45
+45
+45
+23
+23
+2
+23
+34
+12
+34
+
+[52 O <= Da = o > o o o o = o =)
+

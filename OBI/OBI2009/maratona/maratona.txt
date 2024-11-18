@@ -1,16 +1,64 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2009 1
+Olimpíada Brasileira de Informática —- OBI2009 1
+
 Maratona
-Nome do arquivo fonte:maratona.c,maratona.cpp,oumaratona.pasA maratona ´ e talvez a prova mais desgastante entre as modalidades ol´ımpicas: s˜ ao quarenta e dois mil, centoe noventa e cinco metros de percurso. Por isso, os organizadores sempre posicionam v´ arios postos de ´ agua aolongo do trajeto da prova, onde copos de ´ agua s˜ ao distribu´ıdos aos competidores.Jo˜ ao Saci ´ e um jovem atleta que tem boas chances de se tornar um maratonista de primeira linha. No entanto,Jo˜ ao Saci descobriu que somente consegue terminar uma maratona se ingerir alguns copos de ´ agua duranteo percurso. O Laborat´ orio de Biomecˆ anica da universidade local, atrav´ es de experimentos, determinou queJo˜ ao Saci consegue percorrer exatamente mais dois mil metros ap´ os o instante em que ingere um copo de´ agua. A distˆ ancia que Jo˜ ao Saci consegue percorrer ap´ os ingerir um copo de ´ agua ´ e denominada dedistˆ anciaintermedi´ aria m´ axima. Assim, se a distˆ ancia entre dois postos de ´ agua consecutivos no percurso da maratonafor sempre menor ou igual do que a distˆ ancia intermedi´ aria m´ axima de Jo˜ ao Saci, ele consegue terminar a prova.Caso contr´ ario ele n˜ ao consegue terminar a prova.O Laborat´ orio de Biomecˆ anica quer agora realizar estudos similares com outros maratonistas, que tˆ em valor dedistˆ ancias intermedi´ arias m´ aximas distintas, e precisa de sua ajuda.
+
+Nome do arquivo fonte: maratona.c, maratona.cpp, ou maratona.pas
+
+A maratona é talvez a prova mais desgastante entre as modalidades olímpicas: são quarenta e dois mil, cento
+e noventa e cinco metros de percurso. Por isso, os organizadores sempre posicionam vários postos de água ao
+longo do trajeto da prova, onde copos de água são distribuídos aos competidores.
+
+João Saci é um jovem atleta que tem boas chances de se tornar um maratonista de primeira linha. No entanto,
+João Saci descobriu que somente consegue terminar uma maratona se ingerir alguns copos de água durante
+o percurso. O Laboratório de Biomecânica da universidade local, através de experimentos, determinou que
+João Saci consegue percorrer exatamente mais dois mil metros após o instante em que ingere um copo de
+água. A distância que João Saci consegue percorrer após ingerir um copo de água é denominada de distância
+intermediária máxima. Assim, se a distância entre dois postos de água consecutivos no percurso da maratona
+for sempre menor ou igual do que a distância intermediária máxima de João Saci, ele consegue terminar a prova.
+Caso contrário ele não consegue terminar a prova.
+
+O Laboratório de Biomecânica quer agora realizar estudos similares com outros maratonistas, que têm valor de
+distâncias intermediárias máximas distintas, e precisa de sua ajuda.
+
 Tarefa
-Sua tarefa ´ e escrever um programa que, dada a posi¸ c˜ ao dos postos de ´ agua ao longo do percurso, e a distˆ anciaintermedi´ aria m´ axima de um atleta, determine se o atleta consegue ou n˜ ao completar a prova.
+
+Sua tarefa é escrever um programa que, dada a posição dos postos de água ao longo do percurso, e a distância
+intermediária máxima de um atleta, determine se o atleta consegue ou não completar a prova.
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado).A primeira linha da entrada cont´ em dois n´ umeros inteirosNeM, separados por um espa¸ co em branco, indicandorespectivamente o n´ umero de postos de ´ agua (2≤N≤10000) e a distˆ ancia intermedi´ aria m´ axima de um atleta,em metros (1≤M≤42195). A segunda linha cont´ emNn´ umeros inteirosP i, separados por um espa¸ co embranco, representando a posi¸ c˜ ao dos postos de ´ agua ao longo do trajeto da maratona. A posi¸ c˜ ao de um postode ´ agua ´ e dada pela distˆ ancia, em metros, do in´ıcio do percurso at´ e o posto de ´ agua (0≤P
-i≤42195 para 1≤i≤N). O primeiro posto de ´ agua est´ a sempre localizado no ponto de partida (ou seja,P
-1= 0) e todos os postos est˜ ao em posi¸ c˜ oes distintas. Al´ em disso, os postos de ´ agua s˜ ao dados na ordem crescente de sua distˆ anciaao in´ıcio do percurso.Note que a distˆ ancia total da prova ´ e a ocial para a maratona, ou seja, 42195 metros.
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, uma ´ unica linha contendo o caractere ‘S’ se o atleta consegueterminar a prova, ou o caractere ‘N’ caso contr´ ario.
-Informa¸ c˜ oes sobre a pontua¸ c˜ ao
-•Em um conjunto de casos de teste que totaliza 30 pontos,N≤100.•Em um conjunto de casos de teste que totaliza 70 pontos,N≤2000.Olimp´ıada Brasileira de Inform´ atica – OBI2009 2
+
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado).
+
+A primeira linha da entrada contém dois números inteiros N e M, separados por um espaço em branco, indicando
+respectivamente o número de postos de água (2 < N < 10000) e a distância intermediária máxima de um atleta,
+em metros (1 < M < 42195). A segunda linha contém N números inteiros P;, separados por um espaço em
+branco, representando a posição dos postos de água ao longo do trajeto da maratona. A posição de um posto
+de água é dada pela distância, em metros, do início do percurso até o posto de água (0 < P; < 42195 para
+1<i<N). O primeiro posto de água está sempre localizado no ponto de partida (ou seja, P; = 0) e todos os
+postos estão em posições distintas. Além disso, os postos de água são dados na ordem crescente de sua distância
+ao início do percurso.
+
+Note que a distância total da prova é a oficial para a maratona, ou seja, 42195 metros.
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, uma única linha contendo o caractere 'S' se o atleta consegue
+terminar a prova, ou o caractere 'N' caso contrário.
+
+Informações sobre a pontuação
+
+e Em um conjunto de casos de teste que totaliza 30 pontos, N < 100.
+
+e Em um conjunto de casos de teste que totaliza 70 pontos, N < 2000.
+ Olimpíada Brasileira de Informática - OBI2009
+
 Exemplos
-Entrada3 200000 20000 33333 Sa´ıdaS
-Entrada8 60000 6000 12000 18000 24000 32000 37000 40000 Sa´ıdaN
+Entrada Saída
+3 20000 8
+O 20000 33333
+Entrada Saída
+8 6000 N
+
+O 6000 12000 18000 24000 32000 37000 40000
+

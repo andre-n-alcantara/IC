@@ -1,21 +1,61 @@
-Olimpíada Brasileira de Informática – OBI2016 6
+Olimpíada Brasileira de Informática - OBI2016 6
+
 Quase primo
-Nome do arquivo:primo.c,primo.cpp,primo.pas,primo.java,primo.jsouprimo.pyO jovem César está aprendendo sobre números primos: um númeroX >1éprimose for divisívelapenas por 1 e porX.A primeira tarefa de casa de César consiste em dizer, para um dado númeroN, quantos númerosmenores ou iguais aNsão primos. Acontece que os números são muito grandes e César tem preguiça.Ele suspeita que seu professor é tão preguiçoso quanto ele, e acha que, seu professor, para testarse um número é primo, vai testar só uma pequena quantidade de divisores primos. Com isso emmente, ele compilou uma lista deKnúmeros primos que acha que o professor vai usar.Mesmo assim, César ainda está com preguiça. DadosNe a lista comKnúmeros primos, digaquantos números inteiros positivos menores ou iguais aNnão são divisíveis por nenhum númeroprimo na lista.
+
+Nome do arquivo: primo.c, primo.cpp, primo.pas, primo.java, primo.js ou primo.py
+
+O jovem César está aprendendo sobre números primos: um número X > 1 é primo se for divisível
+apenas por le por X.
+
+A primeira tarefa de casa de César consiste em dizer, para um dado número N, quantos números
+menores ou iguais a N são primos. Acontece que os números são muito grandes e César tem preguiça.
+Ele suspeita que seu professor é tão preguiçoso quanto ele, e acha que, seu professor, para testar
+se um número é primo, vai testar só uma pequena quantidade de divisores primos. Com isso em
+mente, ele compilou uma lista de K números primos que acha que o professor vai usar.
+
+Mesmo assim, César ainda está com preguiça. Dados N e a lista com K números primos, diga
+quantos números inteiros positivos menores ou iguais a N não são divisíveis por nenhum número
+primo na lista.
+
 Entrada
-A primeira linha da entrada contém dois inteiros,NeK. A linha seguinte contémKprimosdistintosk
-i, (1≤i≤K), que são os primos que César acha que o professor irá considerar.
+
+A primeira linha da entrada contém dois inteiros, N e K. A linha seguinte contém K primos
+distintos k;, (| <i < K), que são os primos que César acha que o professor irá considerar.
+
 Saída
-Imprima um único inteiro, a quantidade de números inteiros positivos menores ou iguais aNquenão são divisíveis por nenhum número na lista.
+
+Imprima um único inteiro, a quantidade de números inteiros positivos menores ou iguais a N que
+não são divisíveis por nenhum número na lista.
+
 Restrições
-•1≤N≤109
-•1≤K≤40•k
-ié primo e2≤k i≤N
+
+. ki; é primo e2<k<N
 Informações sobre a pontuação
-•Em um conjunto de testes valendo20pontos,N≤105eK= 1•Em um conjunto de testes valendo40pontos,N≤10
-5eK≤20•Em um conjunto de testes valendo80pontos,N≤10
-9eK≤20
+
+e Em um conjunto de testes valendo 20 pontos, N< 10 eK=1
+e Em um conjunto de testes valendo 40 pontos, N < 10º e K < 20
+e Em um conjunto de testes valendo 80 pontos, N < 10º e K < 20
+
 Exemplos
-Entrada10 12 Saída5
-Entrada10 22 3 Saída3
-Entrada20 32 5 7 Saída7Olimpíada Brasileira de Informática – OBI2016 7
-Entrada29 32 5 7 Saída10
+
+Entrada Saída
+10 1 5
+
+2
+
+Entrada Saída
+10 2 3
+
+283
+
+Entrada Saída
+20 3 7
+257
+
+ Olimpíada Brasileira de Informática - OBI2016
+
+Entrada Saída
+
+29 3 10
+257
+

@@ -1,31 +1,70 @@
-Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível Sênior – Fase Estadual6
+Olimpíada Brasileira de Informática - OBI2018 — Prog. Nível Sênior — Fase Estadual 6
+
 Sequência
-Nome do arquivo:“sequencia.x”,ondexdeve serc|cpp|pas|java|js|py2|py3O professor da importante disciplina de Indução Matemática está tentando resolver uma versãogeneralizada de um problema muito tradicional: encontrar o valor máximo possível para a soma doselementos de uma subsequência contígua de uma sequência de números inteiros quaisquer. Maisrigorosamente, dado uma sequênciaS= [s
-1, s2, . . . , s N], ondes ié um número inteiro qualquer, para1≤i≤N, maximizarsoma(i, j) =s
-i+si+1+· · ·+s jentre todos os possíveis pares(i, j), onde1≤i≤j≤N.Na versão do professor, entretanto, alguns elementos da sequência são especiais e estão marcados.Além da sequência marcada, são dadas como entrada duas cotas:LeH, comL≤H. O objetivoagora é encontrar o valor máximo possível para a soma dos elementos de uma subsequência contígua,que contenha pelo menosLe no máximoHelementos marcados.Por denição, uma subsequência vazia (de zero elementos) tem soma igual a zero. Mas note que,como podemos ter uma cota inferior para o número de elementos marcados, a subsequência contíguade soma máxima pode ter soma negativa!
+
+Nome do arquivo: “sequencia. x”, onde x deve ser clcpplpasljavaljslpy2lpy3
+
+O professor da importante disciplina de Indução Matemática está tentando resolver uma versão
+generalizada de um problema muito tradicional: encontrar o valor máximo possível para a soma dos
+elementos de uma subsequência contígua de uma sequência de números inteiros quaisquer. Mais
+rigorosamente, dado uma sequência S = [s1,82,...,sn], onde s; é um número inteiro qualquer, para
+1<i<N, maximizar soma(i, j) = s; + siyi +--- + s; entre todos os possíveis pares (i, j), onde
+I<i<j<N.
+
+Na versão do professor, entretanto, alguns elementos da sequência são especiais e estão marcados.
+Além da sequência marcada, são dadas como entrada duas cotas: Le H, com L<H. O objetivo
+agora é encontrar o valor máximo possível para a soma dos elementos de uma subsequência contígua,
+que contenha pelo menos L e no máximo H elementos marcados.
+
+Por definição, uma subsequência vazia (de zero elementos) tem soma igual a zero. Mas note que,
+como podemos ter uma cota inferior para o número de elementos marcados, a subsequência contígua
+de soma máxima pode ter soma negativa!
+
 Entrada
-A primeira linha da entrada contém três inteirosN,LeH, indicando respectivamente o número deelementos na sequência, a cota inferiorLe a cota superiorH. A segunda linha contémNinteiross
-i, para1≤i≤N, denindo os elementos da sequência. A terceira linha contémNinteirosm i, para1≤i≤N, indicando as marcas. Se oi-ésimo elemento está marcado, o valor ém
-i= 1. Senão estiver marcado,m
-i= 0.
+
+A primeira linha da entrada contém três inteiros N, Le H, indicando respectivamente o número de
+elementos na sequência, a cota inferior L e a cota superior H. A segunda linha contém N inteiros
+s; para l <i< N, definindo os elementos da sequência. A terceira linha contém N inteiros mi,
+paral <i<N, indicando as marcas. Se o i-ésimo elemento está marcado, o valor é m; = 1. Se
+não estiver marcado, m; = 0.
+
 Saída
-Imprima um inteiro, representando o valor máximo possível para a soma dos elementos de umasubsequência contígua, que contenha pelo menosLe no máximoHelementos marcados.
+
+Imprima um inteiro, representando o valor máximo possível para a soma dos elementos de uma
+subsequência contígua, que contenha pelo menos L e no máximo H elementos marcados.
+
 Restrições
-•1≤N≤105
-•0≤L≤H≤20•−10
-3≤si≤103, para1≤i≤N•O número de elementos marcados na sequência é maior ou igual aL; portanto sempre existesolução.
+c1<N<IG
+eO<L<H<9
+e IO <s;<10,paral<i<N
+e O número de elementos marcados na sequência é maior ou igual a L; portanto sempre existe
+
+solução.
+
 Informações sobre a pontuação
-•Para um conjunto de casos de testes valendo 15 pontos,N≤102
-•Para um conjunto de casos de testes valendo 30 pontos,N≤104
-Exemplo de entrada 1
-14 3 49 0 -23 -12 7 1 -13 2 -1 9 -16 -1 14 121 0 0 1 0 1 0 0 1 1 0 0 1 1Exemplo de saída 1
-19Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível Sênior – Fase Estadual7
-Exemplo de entrada 2
-14 7 209 0 -23 -12 7 1 -13 2 -1 9 -16 -1 14 121 0 0 1 0 1 0 0 1 1 0 0 1 1Exemplo de saída 2
--12
-Exemplo de entrada 3
-14 5 59 0 -23 -12 7 1 -13 2 -1 9 -16 -1 14 121 0 0 1 0 1 0 0 1 1 0 0 1 1Exemplo de saída 3
-14
-Exemplo de entrada 4
-14 0 209 0 -23 -12 7 1 -13 2 -1 9 -16 -1 14 121 0 0 1 0 1 0 0 1 1 0 0 1 1Exemplo de saída 4
-26
+
+e Para um conjunto de casos de testes valendo 15 pontos, N < 102
+
+e Para um conjunto de casos de testes valendo 30 pontos, N < 10!
+
+Exemplo de entrada 1 Exemplo de saída 1
+
+14 3 4 19
+90-23-1271 -132-19-16-114 12
+10010100110011
+
+ Olimpíada Brasileira de Informática - OBI2018 — Prog. Nível Sênior — Fase Estadual
+Exemplo de entrada 2 Exemplo de saída 2
+14 7 20 -12
+90-23-1271 -132-19-16-114 12
+10010100110011
+Exemplo de entrada 3 Exemplo de saída 3
+14 5 5 14
+90-23-1271 -132-19-16-114 12
+10010100110011
+Exemplo de entrada 4 Exemplo de saída 4
+14 0 20 26
+90-23-1271 -132-19-16-114 12
+
+10010100110011
+

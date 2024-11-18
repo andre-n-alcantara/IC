@@ -1,10 +1,73 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2008 – Programa¸ c˜ ao N´ıvel 2 Fase 2 5
-Ortograa
-Nome do arquivo fonte:ortografia.c,ortografia.cppouortografia.pasUm servi¸ co de busca na Internet est´ a preocupado com a crescente taxa de erros de ortograa de seus usu´ arios,tornando mais dif´ıceis as buscas por palavras chaves, que constantemente contˆ em erros de algumas letras,devidos a m´ a digita¸ c˜ ao ou m´ a ortograa.O servi¸ co funciona com base num dicion´ ario de palavras. O usu´ ario deve inserir uma palavra num campo deum formul´ ario; o servi¸ co ent˜ ao procura esta palavra no dicion´ ario e retorna conte´ udo que tenha rela¸ c˜ ao com apalavra.Para contornar o problema de ortograa, vocˆ e foi contratado para fazer um programa que tenta adivinhar qualpalavra o usu´ ario pretendia procurar, independente de haver erros de ortograa nela.Para este problema vamos denir adistˆ anciaentre duas palavrasAeBcomo sendo o n´ umero de opera¸ c˜ oes,descritas abaixo, necess´ arias para transformarAemB:1. Retirar uma letra deA.2. Adicionar uma letra aA, em qualquer posi¸ c˜ ao.3. Trocar qualquer letra deApor outra letra, na mesma posi¸ c˜ ao.O servi¸ co de busca deniu que a palavraPfornecida pelo usu´ ario pode se referir a uma palavraDdo dicion´ ariose est´ a a uma distˆ ancia de no m´ aximo 2 deD.Exemplos:•A palavra ‘tu’ pode se referir ` a palavra do dicion´ ario ‘tubo’, realizando duas vezes a opera¸ c˜ ao 2.•A palavra ‘crto’ pode se referir ` a palavra do dicion´ ario ‘corte’, realizando uma vez a opera¸ c˜ ao 2 e uma veza opera¸ c˜ ao 3.•A palavra ‘crto’ pode se referir ` a palavra do dicion´ ario ‘curto’, realizando uma vez a opera¸ c˜ ao 2.•A palavra ‘hortgrafea’ n˜ ao pode se referir ` a palavra do dicion´ ario ‘ortograa’.Vocˆ e deve escrever um programa que, dado um dicion´ ario de palavras, descubra para cada palavra fornecidapelo usu´ ario a quais palavras do dicion´ ario ela pode se referir, nas condi¸ c˜ oes descritas acima.
+Olimpíada Brasileira de Informática — OBI2008 — Programação Nível 2 Fase 2
+
+[o]
+
+Ortografia
+
+Nome do arquivo fonte: ortografia.c, ortografia.cpp ou ortografia.pas
+
+Um serviço de busca na Internet está preocupado com a crescente taxa de erros de ortografia de seus usuário:
+tornando mais difíceis as buscas por palavras chaves, que constantemente contêm erros de algumas letras,
+devidos a má digitação ou má ortografia.
+
+O serviço funciona com base num dicionário de palavras. O usuário deve inserir uma palavra num campo de
+um formulário; o serviço então procura esta palavra no dicionário e retorna conteúdo que tenha relação com a
+palavra.
+
+Para contornar o problema de ortografia, você foi contratado para fazer um programa que tenta adivinhar qual
+palavra o usuário pretendia procurar, independente de haver erros de ortografia nela.
+
+Para este problema vamos definir a distância entre duas palavras 4 e B como sendo o número de operações,
+descritas abaixo, necessárias para transformar A em B:
+1. Retirar uma letra de 4.
+2. Adicionar uma letra a 4, em qualquer posição.
+3. Trocar qualquer letra de 4 por outra letra, na mesma posição.
+O serviço de busca definiu que a palavra P fornecida pelo usuário pode se referir a uma palavra D do dicionário
+se está a uma distância de no máximo 2 de D.
+Exemplos:
+e À palavra “tu” pode se referir à palavra do dicionário “tubo”, realizando duas vezes a operação 2.
+
+e À palavra “crto' pode se referir à palavra do dicionário 'corte', realizando uma vez a operação 2 e uma vez
+a operação 3.
+
+e À palavra “crto” pode se referir à palavra do dicionário “curto”, realizando uma vez a operação 2.
+
+e À palavra “hortgrafea” não pode se referir à palavra do dicionário “ortografia”.
+
+Você deve escrever um programa que, dado um dicionário de palavras, descubra para cada palavra fornecida
+pelo usuário a quais palavras do dicionário ela pode se referir, nas condições descritas acima.
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). A primeira linha cont´ em 2 inteirosN,M, representando respectivamente o n´ umero de palavrascontidas no dicion´ ario (1≤N≤1000) e o n´ umero de palavras a serem analisadas (1≤M≤100). Cada uma dasNlinhas seguintes conter´ a uma palavra pertencente ao dicion´ ario. Cada uma dasMlinhas seguintes conter´ a uma palavra a ser analisada, fornecida pelo usu´ ario. Cada palavra pode ter de 1 a 20 letras, contendoapenas letras de ‘a’ a ‘z’, min´ usculas.
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao,Mlinhas, sendo uma linha para cada palavra fornecido pelousu´ ario. Cada linha deve conter todas palavras do dicion´ ario ` as quais a palavra fornecida pode se referir. No casode haver mais de uma palavra em uma linha da resposta, elas devem ser separadas por um espa¸ co em branco,apare¸ cendo na ordem que elas foram dadas na entrada, como pode ser visto no exemplo de sa´ıda abaixo. Nocaso de n˜ ao haver nenhuma palavra em uma linha da resposta, deixe-a em branco.Olimp´ıada Brasileira de Inform´ atica – OBI2008 – Programa¸ c˜ ao N´ıvel 2 Fase 2 6
-Exemplo de entrada3 3patopatetacanecapatccanecospataExemplo de sa´ıdapatopato pateta
-Informa¸ c˜ oes sobre a pontua¸ c˜ ao
-•Em um conjunto de casos de teste que totaliza 30 pontos,N≤10 eM≤10.•Em um conjunto de casos de teste que totaliza 55 pontos,N≤50 eM≤500.
+
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado). A primeira linha contém 2 inteiros N, M, representando respectivamente o número de palavras
+contidas no dicionário (1 < N < 1000) e o número de palavras a serem analisadas (1 < M < 100). Cada
+uma das N linhas seguintes conterá uma palavra pertencente ao dicionário. Cada uma das M linhas seguintes
+
+conterá uma palavra a ser analisada, fornecida pelo usuário. Cada palavra pode ter de 1 a 20 letras, contendo
+apenas letras de “a” a 'z', minúsculas.
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, M linhas, sendo uma linha para cada palavra fornecido pelo
+usuário. Cada linha deve conter todas palavras do dicionário às quais a palavra fornecida pode se referir. No caso
+de haver mais de uma palavra em uma linha da resposta, elas devem ser separadas por um espaço em branco,
+apareçendo na ordem que elas foram dadas na entrada, como pode ser visto no exemplo de saída abaixo. No
+caso de não haver nenhuma palavra em uma linha da resposta, deixe-a em branco.
+
+ Olimpíada Brasileira de Informática — OB12008 — Programação Nível 2 Fase 2
+
+Exemplo de entrada Exemplo de saída
+
+33 pato
+pato
+pateta pato pateta
+caneca
+pat
+ccanecos
+pata
+
+Informações sobre a pontuação
+e Em um conjunto de casos de teste que totaliza 30 pontos, N < 10e M < 10.
+
+e Em um conjunto de casos de teste que totaliza 55 pontos, N <50e M < 500.

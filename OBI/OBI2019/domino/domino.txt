@@ -1,17 +1,48 @@
-Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível Júnior – Fase Local2
+Olimpíada Brasileira de Informática - OBI2019 — Prog. Nível Júnior — Fase Local 2
+
 Dominó
-Nome do arquivo:“domino.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3O jogo de dominó tradicional, conhecido como duplo-6, possui28peças. Cada peça está dividida em dois quadrados e dentrode cada quadrado há entre0e6círculos. O jogo é chamado deduplo-6justamente porque esse é o maior número de círculos queaparece num quadrado de uma peça. Agura ao lado mostra umaforma de organizar as28peças do jogo duplo-6em7linhas. Essagura permite ver claramente quantas peças haveria num jogode dominó, por exemplo, do tipo duplo-4: seriam todas as peçasdas5primeiras linhas,15peças no total. Também poderíamosver, seguindo o padrão dagura, quantas peças possui o jogo dedominó conhecido como mexicano, que é o duplo-12. Seriam91peças, correspondendo a13linhas.
-Para a nossa sorte, existe uma fórmula com a qual podemos calcular facilmente o número de peças deum jogo do tipo duplo-N, para um númeroNnatural qualquer:((N+1)*(N+2))/2. Neste problema,estamos precisando da sua ajuda para escrever um programa que, dado o valorN, use esta fórmulapara calcular e imprimir quantas peças existem num jogo de dominó do tipo duplo-N.
+
+Nome do arquivo: “domino .x”, onde x deve ser c, cpp, pas, java, js, py2 ou py3
+
+O jogo de dominó tradicional, conhecido como duplo-6, possui [
+28 peças. Cada peça está dividida em dois quadrados e dentro
+
+de cada quadrado há entre O e 6 círculos. O jogo é chamado de HH
+duplo-6 justamente porque esse é o maior número de círculos que mm
+aparece num quadrado de uma peça. A figura ao lado mostra uma GIO E
+forma de organizar as 28 peças do jogo duplo-6 em 7 linhas. Essa ] [7 [5
+figura permite ver claramente quantas peças haveria num jogo [Lao
+
+de dominó, por exemplo, do tipo duplo-4: seriam todas as peças
+das 5 primeiras linhas, 15 peças no total. Também poderíamos
+ver, seguindo o padrão da figura, quantas peças possui o jogo de
+dominó conhecido como mexicano, que é o duplo-12. Seriam 91
+peças, correspondendo a 13 linhas.
+
+EE ELI
+
+Para a nossa sorte, existe uma fórmula com a qual podemos calcular facilmente o número de peças de
+um jogo do tipo duplo-N, para um número N natural qualquer: ((N+1)*(N+2))/2. Neste problema,
+estamos precisando da sua ajuda para escrever um programa que, dado o valor N, use esta fórmula
+para calcular e imprimir quantas peças existem num jogo de dominó do tipo duplo-N.
+
 Entrada
-A primeira linha da entrada contém um número naturalNrepresentando o tipo do jogo de dominó:duplo-N.
+
+A primeira linha da entrada contém um número natural N representando o tipo do jogo de dominó:
+duplo-N.
+
 Saída
-Seu programa deve imprimir uma linha contendo um número natural representando quantas peçasexistem num jogo de dominó do tipo duplo-N.
+
+Seu programa deve imprimir uma linha contendo um número natural representando quantas peças
+existem num jogo de dominó do tipo duplo-N.
+
 Restrições
-•0≤N≤10000
+
+e 0<N<10000
+
 Exemplos
-Exemplo de entrada 1
-6Exemplo de saída 1
-28
-Exemplo de entrada 2
-12Exemplo de saída 2
-91
+Exemplo de entrada 1 Exemplo de saída 1
+6 28
+Exemplo de entrada 2 Exemplo de saída 2
+12 91
+

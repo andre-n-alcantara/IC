@@ -1,25 +1,80 @@
-Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível Júnior – Fase Nacional4
+Olimpíada Brasileira de Informática - OBI2019 — Prog. Nível Júnior - Fase Nacional 4
+
 Manchas de pele
-Nome do arquivo:manchas.c,manchas.cpp,manchas.pas,manchas.java,manchas.js,manchas_py2.pyoumanchas_py3.py
-O laboratório de dermatologia da Linearlândia está implementando um software para contar onúmero de manchas presentes numa imagem digital deNporMpixels. Cada pixel na imagem épreto ou branco e dois pixels pretos distintosAeBpertencem à mesma mancha se e somente se:existir uma sequência de pixels[P
-1, P2, . . . , P k], ondek≥2,A=P 1,B=P ke para todo1≤i < k,P
-ié ortogonalmente adjacente aP i+1(Piimediatamente acima, abaixo, à esquerda ou à direita deP
-i+1).
-Agura acima, paraN= 8eM= 9, ilustra uma imagem digital onde existem oito manchas. Dadaa imagem, seu programa deve contar o número de manchas presentes.
+
+Nome do arquivo: manchas .c, manchas.cpp, manchas .pas, manchas. java, manchas. js, manchas py2.py ou
+
+manchas py3.py
+
+O laboratório de dermatologia da Linearlândia está implementando um software para contar o
+número de manchas presentes numa imagem digital de N por M pixels. Cada pixel na imagem é
+preto ou branco e dois pixels pretos distintos 4 e B pertencem à mesma mancha se e somente se:
+existir uma sequência de pixels [P,, P,...,P;]),ondek>2,A=P, B=P,eparatodol<i<ãk,
+P; é ortogonalmente adjacente a Pi (P; imediatamente acima, abaixo, à esquerda ou à direita de
+Pia).
+
+A figura acima, para N = 8e M = 9, ilustra uma imagem digital onde existem oito manchas. Dada
+a imagem, seu programa deve contar o número de manchas presentes.
+
 Entrada
-A primeira linha da entrada contém dois inteirosNeM, representando, respectivamente, o númerode linhas e colunas da imagem. AsNlinhas seguintes contêm, cada uma,MinteirosPrepresentandoos pixels da imagem.
+
+A primeira linha da entrada contém dois inteiros N e M, representando, respectivamente, o número
+de linhas e colunas da imagem. As N linhas seguintes contêm, cada uma, M inteiros P representando
+os pixels da imagem.
+
 Saída
 Seu programa deve imprimir uma linha contendo um inteiro, o número de manchas na imagem.
 Restrições
-•1≤N≤1000•1≤M≤1000•O valor dePé1, representando um pixel preto, ou0, representando um pixel branco.
+
+e 1<N< 1000
+
+ei1i<M< 1000
+
+e O valor de P é 1, representando um pixel preto, ou 0, representando um pixel branco.
+
 Informações sobre a pontuação
-•Para um conjunto de casos de testes valendo10pontos,N=M= 2.•Para um conjunto de casos de testes valendo outros20pontos,N= 1.•Para um conjunto de casos de testes valendo outros20pontos,N, M≤100.•Para um conjunto de casos de testes valendo outros50pontos, nenhuma restrição adicional(Atenção, para essa parcial, não é recomendada uma implementação recursiva!)Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível Júnior – Fase Nacional5
+
+e Para um conjunto de casos de testes valendo 10 pontos, N=M =2.
+e Para um conjunto de casos de testes valendo outros 20 pontos, N = 1.
+e Para um conjunto de casos de testes valendo outros 20 pontos, N,M < 100.
+
+e Para um conjunto de casos de testes valendo outros 50 pontos, nenhuma restrição adicional
+(Atenção, para essa parcial, não é recomendada uma implementação recursiva!)
+ Olimpíada Brasileira de Informática
+
+OBN2019 - Prog. Nível Júnior - Fase Nacional
+
 Exemplo de entrada 1
-8 91 0 0 0 0 0 1 1 11 1 0 1 1 1 0 1 11 0 0 0 0 1 0 1 00 0 1 0 0 1 1 1 00 1 1 0 0 0 0 1 00 1 0 0 1 1 0 0 00 0 0 1 0 1 0 0 11 1 1 0 0 0 0 1 0Exemplo de saída 1
+
+89
+
+100000111
+110111011
+100001010
+001001110
+011000010
+010011000
+000101001
+111000010
+
+Exemplo de saída 1
+
 8
+
 Exemplo de entrada 2
-1 10Exemplo de saída 2
+
+11
+
+Exemplo de saída 2
+
 0
+
 Exemplo de entrada 3
-1 100 0 1 0 1 1 1 0 1 0Exemplo de saída 3
+
+110
+0010111010
+
+Exemplo de saída 3
+
 3
+

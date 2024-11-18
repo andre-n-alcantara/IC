@@ -1,21 +1,94 @@
-Olimpíada Brasileira de Informática – OBI2017 – Prog. Nível 2 – Fase 2 3
+Olimpíada Brasileira de Informática - OBI2017 — Prog. Nível 2 — Fase 2 3
+
 Mapa
-Nome do arquivo:mapa.c,mapa.cpp,mapa.pas,mapa.java,mapa.js,mapa.py2oumapa.py3Harry ganhou um mapa mágico no qual ele pode visualizar o trajeto realizado por seus amigos.Ele agora precisa de sua colaboração para, com a ajuda do mapa, determinar onde Hermione seencontra.O mapa temLlinhas eCcolunas de caracteres, que podem ser ‘.’ (ponto), a letra ‘o’ ( minúscula)ou a letra ‘H’ (maiúscula). A posição inicial de Hermione no mapa é indicada pela letra ‘o’, queaparece exatamente uma vez no mapa. A letra ‘H’ indica uma posição em que Hermione pode terpassado – o mapa é impreciso, e nem toda letra ‘H’ no mapa representa realmente uma posição pelaqual Hermione passou. Mas todas as posições pelas quais Hermione passou são representadas pelaletra ‘H’ no mapa.A partir da posição inicial de Hermione, Harry sabe determinar a posição atual de sua amiga, apesarda imprecisão do mapa, porque eles combinaram que Hermione somente se moveria de forma queseu movimento apareceria no mapa como estritamente horizontal ou estritamente vertical (nuncadiagonal). Além disso, Hermione combinou que não se moveria de forma a deixar que Harry tivessedúvidas sobre seu caminho (por exemplo, Hermione não passa duas vezes pela mesma posição).Considere o mapa abaixo, com 6 linhas e 7 colunas:
-1 2 3 4 5 671
-. . .H H H.
-2H H H . . .H
-3H . H H H . .
-4H . . . H H .
-5H . o . . . .
-6H H H . .H HA posição inicial de Hermione no mapa é (5,3), e sua posição atual é (4,6). As posições marcadasem negrito (‘H’) são erros no mapa.Dado um mapa e a posição inicial de Herminone, você deve escrever um programa para determinara posição atual de Herminone.
+
+Nome do arquivo: mapa.c, mapa.cpp, mapa.pas, mapa. java, mapa. js, mapa.py2 oumapa.py3
+
+Harry ganhou um mapa mágico no qual ele pode visualizar o trajeto realizado por seus amigos.
+Ele agora precisa de sua colaboração para, com a ajuda do mapa, determinar onde Hermione se
+encontra.
+
+O mapa tem L linhas e C colunas de caracteres, que podem ser *.” (ponto), a letra “o” ( minúscula)
+ou a letra 'H” (maiúscula). A posição inicial de Hermione no mapa é indicada pela letra “o”, que
+aparece exatamente uma vez no mapa. À letra “H” indica uma posição em que Hermione pode ter
+passado — o mapa é impreciso, e nem toda letra 'H' no mapa representa realmente uma posição pela
+qual Hermione passou. Mas todas as posições pelas quais Hermione passou são representadas pela
+letra “H” no mapa.
+
+A partir da posição inicial de Hermione, Harry sabe determinar a posição atual de sua amiga, apesar
+da imprecisão do mapa, porque eles combinaram que Hermione somente se moveria de forma que
+seu movimento apareceria no mapa como estritamente horizontal ou estritamente vertical (nunca
+diagonal). Além disso, Hermione combinou que não se moveria de forma a deixar que Harry tivesse
+dúvidas sobre seu caminho (por exemplo, Hermione não passa duas vezes pela mesma posição).
+Considere o mapa abaixo, com 6 linhas e 7 colunas:
+
+1 2.3 4 5 6 7
+2HHH£o o. H
+3 H HH HH...
+
+4 H H H
+cHHHO.o HH
+
+A posição inicial de Hermione no mapa é (5,3), e sua posição atual é (4,6). As posições marcadas
+em negrito ('H”) são erros no mapa.
+
+Dado um mapa e a posição inicial de Herminone, você deve escrever um programa para determinar
+a posição atual de Herminone.
+
 Entrada
-A primeira linha contém dois números inteirosLeC, indicando respectivamente o número de linhase o número de colunas. Cada uma das seguintesLlinhas contémCcaracteres.
+
+A primeira linha contém dois números inteiros L e C, indicando respectivamente o número de linhas
+e o número de colunas. Cada uma das seguintes L linhas contém C caracteres.
+
 Saída
-Seu programa deve produzir uma única linha na saída, contendo dois números inteiros: o númeroda linha e o número da coluna da posição atual de Hermione.
+
+Seu programa deve produzir uma única linha na saída, contendo dois números inteiros: o número
+da linha e o número da coluna da posição atual de Hermione.
+
 Restrições
-•2L100•2C100•Apenas os caracteres ‘.’, ‘o’ e ‘H’ aparecem no mapa.•A letra ‘o’ aparece exatamente uma vez no mapa.•A letra ‘H’ aparece ao menos uma vez no mapa.•O caminho de Hermione está totalmente contido no mapa.•Na posição da letra ‘o’ no mapa, há apenas uma letra ‘H’ como vizinho imediato na verticalou horizontal.Olimpíada Brasileira de Informática – OBI2017 – Prog. Nível 2 – Fase 2 4•Na posição atual de Hermione no mapa, há apenas uma letra ‘H’ como vizinho imediato navertical ou horizontal.•Em cada uma das posições intermediárias do caminho de Hermione, há exatamente duas letras‘H’ como vizinhas imediatas na vertical ou horizontal.
+
+2<L<100
+
+2<C<100
+
+Apenas os caracteres “”, “o” e “H” aparecem no mapa.
+
+A letra 'o' aparece exatamente uma vez no mapa.
+
+A letra 'H” aparece ao menos uma vez no mapa.
+
+O caminho de Hermione está totalmente contido no mapa.
+
+Na posição da letra 'o' no mapa, há apenas uma letra “H” como vizinho imediato na vertical
+ou horizontal.
+ Olimpíada Brasileira de Informática - OBI2017 — Prog. Nível 2 — Fase 2 4
+
+e Na posição atual de Hermione no mapa, há apenas uma letra *H' como vizinho imediato na
+vertical ou horizontal.
+
+e Em cada uma das posições intermediárias do caminho de Hermione, há exatamente duas letras
+“H' como vizinhas imediatas na vertical ou horizontal.
+
 Informações sobre a pontuação
-•Em um conjunto de casos de teste somando 20 pontos,N8
+
+e Em um conjunto de casos de teste somando 20 pontos, N <8
+
 Exemplos
-Entrada3 4HHHHH...o.HH Saída1 4
-Entrada6 7...HHH.HHH....H.HHH..H...HH.H.o....HHH.HH.Saída4 6
+
+Entrada Saída
+
+34 14
+HHHH
+H...
+o.HH
+
+Entrada Saída
+
+67 4 6
++. HHH.
+HHH....
+H.HHH..
+H...HH.
+H.o....
+HHH.HH.
+

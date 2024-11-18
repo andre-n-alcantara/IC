@@ -1,23 +1,91 @@
-Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 2 – Fase Local3
+Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível 2 — Fase Local 3
+
 Promoção de Primeira
-Nome do arquivo:“promocao.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3O reino da Linearlândia possuiNcidades espalhadas por seu vasto território, sendo queN−1pares distintos de cidades estão ligados diretamente por uma rodovia bi-direcional. Esses pares foramescolhidos de forma que existe exatamente um caminho entre qualquer par de cidades, possivelmentepassando por outras cidades no meio do caminho. Cada rodovia da Linearlândia é servida por umalinha de ônibus, que faz viagens de ida e volta entre as duas cidades, operada por apenas umaempresa, como manda a lei determinada pelo Rei. O problema é que existem apenas duas empresasde ônibus: a RoyalBus e a ImperialBus.Cada viagem entre duas cidades ligadas diretamente por uma rodovia custa uma passagem daempresa que opera aquela linha. Ao chegar numa cidade, se o passageiro quiser prosseguir viagempara outra cidade, ele tem que desembarcar, entrar em outro ônibus e pagar outra passagem. Só queo Rei determinou, para o feriadão anual de celebração da Linearidade Real, uma estranha promoção:sempre que o passageiro entrar no ônibus de uma empresa ele não precisa pagar a passagem se suaviagem imediatamente anterior foi pela outra empresa. Quer dizer, se o caminho alterna entre aRoyalBus e a ImperialBus, só é preciso pagar uma passagem, a primeira.Neste problema, dada a descrição da malha de rodovias da Linearlândia, seu programa deve com-putar o número máximo de cidades num caminho, começando em qualquer cidade, para o qual épreciso pagar apenas uma passagem para ir da cidade inicial até a cidadenal do caminho. Onúmero de cidades no caminho inclui a cidade inicial e a cidadenal.
+
+Nome do arquivo: “promocao .x”, onde x deve ser c, cpp, pas, java, js, py2 ou py3
+
+O reino da Linearlândia possui N cidades espalhadas por seu vasto território, sendo que N — 1
+pares distintos de cidades estão ligados diretamente por uma rodovia bi-direcional. Esses pares foram
+escolhidos de forma que existe exatamente um caminho entre qualquer par de cidades, possivelmente
+passando por outras cidades no meio do caminho. Cada rodovia da Linearlândia é servida por uma
+linha de ônibus, que faz viagens de ida e volta entre as duas cidades, operada por apenas uma
+empresa, como manda a lei determinada pelo Rei. O problema é que existem apenas duas empresas
+de ônibus: a RoyalBus e a ImperialBus.
+
+Cada viagem entre duas cidades ligadas diretamente por uma rodovia custa uma passagem da
+empresa que opera aquela linha. Ao chegar numa cidade, se o passageiro quiser prosseguir viagem
+para outra cidade, ele tem que desembarcar, entrar em outro ônibus e pagar outra passagem. Só que
+o Rei determinou, para o feriadão anual de celebração da Linearidade Real, uma estranha promoção:
+sempre que o passageiro entrar no ônibus de uma empresa ele não precisa pagar a passagem se sua
+viagem imediatamente anterior foi pela outra empresa. Quer dizer, se o caminho alterna entre a
+RoyalBus e a ImperialBus, só é preciso pagar uma passagem, a primeira.
+
+Neste problema, dada a descrição da malha de rodovias da Linearlândia, seu programa deve com-
+putar o número máximo de cidades num caminho, começando em qualquer cidade, para o qual é
+preciso pagar apenas uma passagem para ir da cidade inicial até a cidade final do caminho. O
+número de cidades no caminho inclui a cidade inicial e a cidade final.
+
 Entrada
-A primeira linha da entrada contém um inteiroN, representando o número de cidades da Linear-lândia. As cidades são numeradas de1atéN. AsN−1linhas seguintes contêm, cada uma, trêsinteirosA,BeE, indicando que existe uma rodovia entre as cidadesAeBe que a linha de ônibusentre elas é operado pela empresaE(0para RoyalBus,1para ImperialBus).
+
+A primeira linha da entrada contém um inteiro N, representando o número de cidades da Linear-
+lândia. As cidades são numeradas de 1 até N. As N — 1 linhas seguintes contêm, cada uma, três
+inteiros 4, Be E, indicando que existe uma rodovia entre as cidades A e B e que a linha de ônibus
+entre elas é operado pela empresa E (0 para RoyalBus, 1 para ImperialBus).
+
 Saída
-Seu programa deve imprimir uma linha contendo um inteiro representando o número máximo decidades num caminho para o qual é preciso pagar apenas uma passagem durante a celebração daLinearidade Real.
+
+Seu programa deve imprimir uma linha contendo um inteiro representando o número máximo de
+cidades num caminho para o qual é preciso pagar apenas uma passagem durante a celebração da
+Linearidade Real.
+
 Restrições
-•2≤N≤50000•1≤A≤N•1≤B≤N•0≤E≤1
+e 2<N< 50000
+e1I<A<N
+eI<B<N
+
+e0O<E<l
+
 Informações sobre a pontuação
-•Em um conjunto de casos de teste somando 20 pontos, o número máximo de rodovias chegandoem qualquer cidade é dois. Quer dizer, a malha é um longo caminho passando por todas ascidades.•Em um conjunto de casos de teste somando 20 pontos,N≤10
-3.•Em um conjunto de casos de teste somando 20 pontos,10
-3< N≤104.•Em um conjunto de casos de teste somando 40 pontos, nenhuma restrição adicional.Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 2 – Fase Local4
+
+e Em um conjunto de casos de teste somando 20 pontos, o número máximo de rodovias chegando
+em qualquer cidade é dois. Quer dizer, a malha é um longo caminho passando por todas as
+cidades.
+
+e Em um conjunto de casos de teste somando 20 pontos, N < 10º.
+e Em um conjunto de casos de teste somando 20 pontos, 10º < N < 10º.
+
+e Em um conjunto de casos de teste somando 40 pontos, nenhuma restrição adicional.
+ Olimpíada Brasileira de Informática
+
 Exemplos
+
+0BD020 - Prog. Nível 2 — Fase Local
+
 Exemplo de entrada 1
-83 1 02 7 06 8 11 4 15 4 14 7 17 6 0Exemplo de saída 1
+
+JEBOTHON WO
+O NR ONH
+onnnhHoo
+
+Exemplo de saída 1
+
 4
+
 Exemplo de entrada 2
-21 2 0Exemplo de saída 2
+
 2
+120
+
+Exemplo de saída 2
+
+2
+
 Exemplo de entrada 3
-1813 16 016 15 116 12 014 12 012 8 11 18 01 3 02 3 13 8 111 17 117 10 18 17 06 7 09 7 05 7 14 5 08 5 1Exemplo de saída 3
+
+18
+13 16 0
+
+Exemplo de saída 3
+
 6
+

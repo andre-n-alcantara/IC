@@ -1,12 +1,87 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2007 –Modalidade Programa¸ c˜ ao, N´ıvel 1, Fase 24
-Uiquip´ edia
-Nome do arquivo fonte:uiqui.c,uiqui.cpp,ouuiqui.pasA Uiquip´ edia (Wikipedia em inglˆ es), fundada em 2001 por Jimmy Wales e Larry Sanger, ´ e um site onde qualquerpessoa pode editar os artigos, fazendo corre¸ c˜ oes ou ampliando seu conte´ udo.Uma das grandes vantagens da Uiquip´ edia sobre enciclop´ edias de papel ´ e a facilidade de seguirreferˆ encias;com um simples clique, ´ e poss´ıvel ir de um artigo para outro relacionado. Essas referˆ encias s˜ ao chamadas dereferˆ encias diretas. Tamb´ em ´ e poss´ıvel navegar a Uiquip´ edia seq¨ uencialmente: cada artigo possui referˆ enciapara o artigo anterior e para o posterior, na ordem alfab´ etica. Essas referˆ encias s˜ ao chamadas de referˆ enciassequenciais.Por exemplo, um artigo para o termo “Elefante” pode ter uma referencia direta para “Mamiferos” em seutexto, desta forma pode-se chegar de “Elefante” a “Mamiferos” em um clique. Observe que pode n˜ ao existir areferˆ encia direta contr´ aria, ou seja, de “Mamiferos” para “Elefante”. Adicionalmente se “Elevador” ´ e o pr´ oximoartigo depois de “Elefante”, na ordem alfabetica, pode-se ir com um clique de “Elefante” para “Elevador” e de“Elevador” para “Elefante”, pois h´ a uma referencia sequencial entre eles.Paulo e Andr´ e s˜ ao dois amigos que contribuem para a Uiquip´ edia. Muitas vezes, Andr´ e edita um artigo equer que Paulo o ajude a revisar a modica¸ c˜ ao. A conex˜ ao de Paulo ` a Internet ´ e discada, e por isso ele querchegar na p´ agina que Andr´ e editou usando o menor n´ umero de cliques poss´ıvel, comecando do artigo em queest´ a, e navegando apenas por referencias, diretas ou sequenciais.
+Olimpíada Brasileira de Informática — OBI2007 — Modalidade Programação, Nível 1, Fase 2 4
+
+Uiquipédia
+Nome do arquivo fonte: uiqui.c, uiqui.cpp, ou uiqui.pas
+
+A Uiquipédia (Wikipedia em inglês), fundada em 2001 por Jimmy Wales e Larry Sanger, é um site onde qualquer
+pessoa pode editar os artigos, fazendo correções ou ampliando seu conteúdo.
+
+Uma das grandes vantagens da Uiquipédia sobre enciclopédias de papel é a facilidade de seguir referências;
+com um simples clique, é possível ir de um artigo para outro relacionado. Essas referências são chamadas de
+referências diretas. Também é possível navegar a Uiquipédia sequencialmente: cada artigo possui referência
+para o artigo anterior e para o posterior, na ordem alfabética. Essas referências são chamadas de referências
+sequenciais.
+
+Por exemplo, um artigo para o termo “Elefante” pode ter uma referencia direta para amiferos” em seu
+texto, desta forma pode-se chegar de “Elefante” a “Mamiferos” em um clique. Observe que pode não existir a
+referência direta contrária, ou seja, de “Mamiferos” para “Elefante”. Adicionalmente se “Elevador” é o próximo
+artigo depois de “Elefante”, na ordem alfabetica, pode-se ir com um clique de “Elefante” para “Elevador” e de
+“Elevador” para “Elefante”, pois há uma referencia sequencial entre eles.
+
+Paulo e André são dois amigos que contribuem para a Uiquipédia. Muitas vezes, André edita um artigo e
+quer que Paulo o ajude a revisar a modificação. A conexão de Paulo à Internet é discada, e por isso ele quer
+chegar na página que André editou usando o menor número de cliques possível, comecando do artigo em que
+está, e navegando apenas por referencias, diretas ou sequenciais.
+
+&
+
 Tarefa
-Escreva um programa que, dados todas as referˆ encias diretas existentes na Uiquip´ edia, a p´ agina onde Pauloest´ a, e a p´ agina editada por Andr´ e, determina de quantos cliques Paulo precisa, no m´ınimo, para ver a p´ aginaque foi modicada por Andr´ e, utilizando as referˆ encias diretas e sequenciais.
+
+Escreva um programa que, dados todas as referências diretas existentes na Uiquipédia, a página onde Paulo
+está, e a página editada por André, determina de quantos cliques Paulo precisa, no mínimo, para ver a página
+que foi modificada por André, utilizando as referências diretas e sequenciais.
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). A primeira linha cont´ em um ´ unico inteiro,N, que ´ e o n´ umero de referˆ encias da Uiquip´ edia (1≤N≤1.000). AsNlinhas cont´ em cada uma duas stringsXeY, separadas por um espa¸ co, que s˜ ao os nomesde duas p´ aginas da Uiquip´ edia conectadas por uma referˆ encia direta (deXparaY). Todo artigo existentena Uiquip´ edia aparece pelo menos uma vez na descricao das referencias diretas, permitindo que as referenciassequenciais sejam extraidas das informacoes dadas. Note que uma referˆ encia direta pode ligar duas p´ aginas queestariam ligadas tamb´ em por uma referˆ encia sequencial.Depois da descri¸ c˜ ao das referˆ encias, h´ a uma linha em branco, e a linha seguinte cont´ em duas cadeias decaracteres,PeA, que s˜ ao a p´ agina atual de Paulo e a p´ agina editada por Andr´ e. O nome de cada p´ agina ´ elimitado a 100 caracteres e cont´ em somente letras ma´ıusculas, letras minusculas e o s´ımbolo ’
-’. Observe que na ordem alfabetica o simbolo ’
-’ ´ e anterior ` as letras maiusculas, que por sua vez sao anteriores ` as letras minusculas.
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, uma ´ unica linha, contendo um ´ unico inteiro, que diz o n´ umerom´ınimo de cliques que s˜ ao necess´ arios para ir da p´ agina atual de Paulo at´ e a p´ agina editada por Andr´ e. Sempre´ e poss´ıvel navegar de um artigo a outro.Olimp´ıada Brasileira de Inform´ atica – OBI2007 –Modalidade Programa¸ c˜ ao, N´ıvel 1, Fase 25
-Entrada3Pink_Floyd O_Lado_Escuro_Da_LuaPink_Floyd O_MuroO_Muro Muro_de_BerlimO_Muro O_Lado_Escuro_Da_LuaSa ´ıda1Entrada4Chaves QuicoQuico ChiquinhaProfessor_Girafales Dona_FlorindaChaves Dona_ClotildeChaves ChiquinhaSa ´ıda2
+
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado). A primeira linha contém um único inteiro, N, que é o número de referências da Uiquipédia (1 <
+N < 1.000). As N linhas contém cada uma duas strings X e Y, separadas por um espaço, que são os nomes
+de duas páginas da Uiquipédia conectadas por uma referência direta (de X para Y). Todo artigo existente
+na Uiquipédia aparece pelo menos uma vez na descricao das referencias diretas, permitindo que as referencias
+sequenciais sejam extraidas das informacoes dadas. Note que uma referência direta pode ligar duas páginas que
+estariam ligadas também por uma referência sequencial.
+
+Depois da descrição das referências, há uma linha em branco, e a linha seguinte contém duas cadeias de
+caracteres, P e 4, que são a página atual de Paulo e a página editada por André. O nome de cada página é
+limitado a 100 caracteres e contém somente letras maíusculas, letras minusculas e o símbolo ?.*. Observe que na
+ordem alfabetica o simbolo '” é anterior às letras maiusculas, que por sua vez sao anteriores às letras minusculas.
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, uma única linha, contendo um único inteiro, que diz o número
+mínimo de cliques que são necessários para ir da página atual de Paulo até a página editada por André. Sempre
+é possível navegar de um artigo a outro.
+ Olimpíada Brasileira de Informática - OBI2007 - Modalidade Programação, Nível 1, Fase 2
+
+Entrada
+
+3
+
+Pink Floyd O Lado Escuro Da Lua
+Pink Floyd O Muro
+
+O Muro Muro de Berlim
+
+O Muro O Lado Escuro Da Lua
+
+Saída
+
+1
+
+Entrada
+
+4
+
+Chaves Quico
+
+Quico Chiquinha
+
+Professor Girafales Dona Florinda
+Chaves Dona Clotilde
+
+Chaves Chiquinha
+
+Saída
+
+2
+

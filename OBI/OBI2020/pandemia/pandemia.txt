@@ -1,23 +1,108 @@
-Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 1 – Fase Local5
+Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível 1 — Fase Local 5
+
 Pandemia
-Nome do arquivo:“pandemia.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3Um grupo de amigos, preocupados por ter que prestar o ENEM este ano, resolveu iniciar o anofazendo reuniões de estudo. Mas eles não esperavam que uma epidemia com um novo vírus ocorressena região em que moravam. Nessa epidemia especíca, os sintomas da doença aparecem muitos diasdepois do contágio, mas mesmo sem sintomas uma pessoa infectada infecta todos com quem tenhao mínimo contato.O grupo de amigos também não sabia que um deles havia sido infectado, sem saber, por pessoas defora do grupo, o que fez a infecção se espalhar pelos amigos do grupo. Felizmente todos os amigosinfectados se recuperaram e passam bem.Muitas reuniões de estudo aconteceram, mas nem todos os amigos participaram de todas as reuniões.Você receberá a informação de quais amigos participaram de cada reunião. Além disso, você receberátambém a informação de qual amigo participou de reunião do grupo após ter sido infectado porpessoas de fora do grupo, e em qual reunião isso ocorreu. Você deve assumir que:1. todos os amigos que participaram de reunião em que ao menos um deles estava infectadotambém foram infectados.2. o único amigo infectado por pessoas de fora do grupo é o que foi informado. No caso de todosos outros amigos que foram infectados a infecção aconteceu em reunião do grupo.Escreva um programa para determinar quantos amigos, aonal da sequência de reuniões, foraminfectados.
+
+Nome do arquivo: “pandemia.x”, onde x deve ser c, cpp, pas, java, js, py2 ou py3
+
+Um grupo de amigos, preocupados por ter que prestar o ENEM este ano, resolveu iniciar o ano
+fazendo reuniões de estudo. Mas eles não esperavam que uma epidemia com um novo vírus ocorresse
+na região em que moravam. Nessa epidemia específica, os sintomas da doença aparecem muitos dias
+depois do contágio, mas mesmo sem sintomas uma pessoa infectada infecta todos com quem tenha
+o mínimo contato.
+
+O grupo de amigos também não sabia que um deles havia sido infectado, sem saber, por pessoas de
+fora do grupo, o que fez a infecção se espalhar pelos amigos do grupo. Felizmente todos os amigos
+infectados se recuperaram e passam bem.
+
+Muitas reuniões de estudo aconteceram, mas nem todos os amigos participaram de todas as reuniões.
+Você receberá a informação de quais amigos participaram de cada reunião. Além disso, você receberá
+também a informação de qual amigo participou de reunião do grupo após ter sido infectado por
+pessoas de fora do grupo, e em qual reunião isso ocorreu. Você deve assumir que:
+
+1. todos os amigos que participaram de reunião em que ao menos um deles estava infectado
+também foram infectados.
+
+2. o único amigo infectado por pessoas de fora do grupo é o que foi informado. No caso de todos
+os outros amigos que foram infectados a infecção aconteceu em reunião do grupo.
+
+Escreva um programa para determinar quantos amigos, ao final da sequência de reuniões, foram
+infectados.
+
 Entrada
-A primeira linha da entrada contém dois números inteirosN,M, respectivamente o total de amigosdo grupo e o total de dias em que houve reunião. Os amigos são identicados por números inteirosde 1 aN, as reuniões são identicadas por números inteiros de 1 (primeira reunião) aM(últimareunião). A segunda linha contém dois números inteirosIeR, respectivamente o identicador doamigo que foi infectado por pessoas de fora do grupo e o número da primeira reunião em que eleparticipou infectado. Cada uma dasMlinhas seguintes contém a informação dos participantesde uma reunião, em sequência; ou seja, a primeira linha descreve os participantes da reunião 1, asegunda linha descreve os participantes da reunião 2 e assim por diante. Cada uma dessas linhasinicia com um númeroA, o total de amigos que participaram dessa reunião, seguido deAinteirosP
-iidenticando cada amigo participante da reunião.
+
+A primeira linha da entrada contém dois números inteiros N, M, respectivamente o total de amigos
+do grupo e o total de dias em que houve reunião. Os amigos são identificados por números inteiros
+de 1 a N, as reuniões são identificadas por números inteiros de 1 (primeira reunião) a M (última
+reunião). A segunda linha contém dois números inteiros 1 e R, respectivamente o identificador do
+amigo que foi infectado por pessoas de fora do grupo e o número da primeira reunião em que ele
+participou infectado. Cada uma das M linhas seguintes contém a informação dos participantes
+de uma reunião, em sequência; ou seja, a primeira linha descreve os participantes da reunião 1, a
+segunda linha descreve os participantes da reunião 2 e assim por diante. Cada uma dessas linhas
+inicia com um número 4, o total de amigos que participaram dessa reunião, seguido de A inteiros
+P; identificando cada amigo participante da reunião.
+
 Saída
-Seu programa deve produzir um inteiro representando o número total de amigos infectados aonaldo mês.
+
+Seu programa deve produzir um inteiro representando o número total de amigos infectados ao final
+do mês.
+
 Restrições
-•2≤N≤1000•2≤M≤1000•1≤I≤N•1≤R≤M•1≤A≤N•1≤P
-i≤Npara1≤i≤AOlimpíada Brasileira de Informática – OBI2020 – Prog. Nível 1 – Fase Local6
+
+e2<N<h1000
+e2<M<h1000
+el<I<N
+
+I<R<M
+e1I<A<N
+
+e1I<P<Nparal<i<A
+ Olimpíada Brasileira de Informática
+
 Informações sobre a pontuação
-•Para um conjunto de casos de testes valendo 20 pontos,N≤10eM≤10.•Para um conjunto de casos de testes valendo 60 pontos,10< N≤500e10<M≤500.•Para um conjunto de casos de testes valendo 20 pontos, nenhuma restrição adicional.
+
+0BD2020 - Prog. Nível 1 - Fase Local
+
+e Para um conjunto de casos de testes valendo 20 pontos, N <10e M <10.
+
+e Para um conjunto de casos de testes valendo 60 pontos, 10< N <500e 10<M < õ500.
+
+e Para um conjunto de casos de testes valendo 20 pontos, nenhuma restrição adicional.
+
 Exemplos
+
 Exemplo de entrada 1
-4 32 12 1 23 3 1 22 2 1Exemplo de saída 1
+
+ND ON NAS
+DO HH w
+
+Exemplo de saída 1
+
 3
+
 Exemplo de entrada 2
-5 63 42 1 34 1 2 3 52 1 32 1 32 4 52 2 4Exemplo de saída 2
+
+NV NNE DO qa
+[6 E e e e = 6»)
+BOTO wN Ow
+
+Exemplo de saída 2
+
 2
+
 Exemplo de entrada 3
-10 52 16 7 5 1 9 6 23 9 4 63 2 9 53 8 5 72 8 9Exemplo de saída 3
+
+10 5
+
+1
+751962
+94 6
+2965
+857
+89
+
+NO ww N
+
+Exemplo de saída 3
+
 8
+

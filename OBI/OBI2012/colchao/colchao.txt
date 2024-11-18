@@ -1,13 +1,52 @@
-Olimpíada Brasileira de Informática – OBI2012 2
+Olimpíada Brasileira de Informática — OBI2012 2
+
 Colchão
-Nome do arquivo fonte:colchao.c,colchao.cpp,colchao.pas,colchao.java,oucolchao.pyJoão está comprando móveis novos para sua casa. Agora é a vez de comprar um colchão novo, de molas, parasubstituir o colchão velho. As portas de sua casa têm alturaHe larguraLe existe um colchão que está empromoção com dimensõesA×B×C.O colchão tem a forma de um paralelepípedo reto retângulo e João só consegue arrastá-lo através de uma portacom uma de suas faces paralelas ao chão, mas consegue virar e rotacionar o colchão antes de passar pela porta.Entretanto, de nada adianta ele comprar o colchão se ele não passar através das portas de sua casa. Portantoele quer saber se consegue passar o colchão pelas portas e para isso precisa de sua ajuda.
+
+Nome do arquivo fonte: colchao.c, colchao.cpp, colchao.pas, colchao. java, ou colchao.py
+
+João está comprando móveis novos para sua casa. Agora é a vez de comprar um colchão novo, de molas, para
+substituir o colchão velho. As portas de sua casa têm altura H e largura L e existe um colchão que está em
+promoção com dimensões A x BxC.
+
+rés de uma porta
+sar pela porta.
+
+O colchão tem a forma de um paralelepípedo reto retângulo e João só consegue arrastá-lo atrz
+com uma de suas faces paralelas ao chão, mas consegue virar e rotacionar o colchão antes de pe
+
+Entretanto, de nada adianta ele comprar o colchão se ele não passar através das portas de sua casa. Portanto
+ele quer saber se consegue passar o colchão pelas portas e para isso precisa de sua ajuda.
+
 Entrada
-A primeira linha da entrada contém três números inteirosA,BeC, as três dimensões do colchão, em centímetros.A segunda linha contém dois inteirosHeL, respectivamente a altura e a largura das portas em centímetros.
+
+A primeira linha da entrada contém três números inteiros 4, Be C, as três dimensões do colchão, em centímetros.
+A segunda linha contém dois inteiros H e L, respectivamente a altura e a largura das portas em centímetros.
+
 Saída
-Se programa deve escrever uma única linha, contendo apenas a letra ‘S’ se o colchão passa pelas portas e apenasa letra ‘N’ em caso contrário.
+
+Se programa deve escrever uma única linha, contendo apenas a letra “S' se o colchão passa pelas portas e apenas
+a letra “Nº em caso contrário.
+
 Restrições
-•1≤A, B, C≤300•1≤H, L≤250Olimpíada Brasileira de Informática – OBI2012 3
+
+c1<4,B,C<300
+e1I<HL<250
+ Olimpíada Brasileira de Informática —- OBI2012
+
 Exemplos
-Entrada25 120 220200 100 SaídaS
-Entrada25 205 220200 100 SaídaN
-Entrada25 200 220200 100 SaídaS
+
+Entrada Saída
+25 120 220 s
+
+200 100
+
+Entrada Saída
+25 205 220 N
+
+200 100
+
+Entrada Saída
+25 200 220 s
+
+200 100
+

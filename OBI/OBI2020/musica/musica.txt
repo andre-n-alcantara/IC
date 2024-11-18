@@ -1,22 +1,86 @@
-Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível Sênior – Fase Local6
+Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível Sênior - Fase Local 6
+
 Música para Todos
-Nome do arquivo:“musica.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3Uma empresa destreamingde músicas lançou uma nova funcionalidade, para grupos de amigosouvirem em seus aparelhos a mesma música ao mesmo tempo, compartilhando assim um momentode alegria nestes tempos difíceis de pandemia.Cada amigo no grupo tem que declarar uma música que adora e uma música que detesta. Umamigocasatisfeitose a música que está sendo compartilhada não é a música que ele detesta. Sea música que está sendo compartilhada é detestada por um dos amigos, ele pode trocar a músicasendo compartilhada pela música que ele adora. Se há mais de um amigo que detesta a música queestá sendo compartilhada, somente o amigo que é cliente há mais tempo da empresa é que podetrocar a música (e troca pela música que adora).Obviamente, após a troca da música compartilhada pode ser que outro amigo deteste a nova música,e uma nova troca pode ocorrer. E as trocas podem ser intermináveis!Dadas as preferências de um grupo de amigos e a música sendo compartilhada, e considerando quesempre ocorre troca enquanto houver cliente não satisfeito, escreva um programa para determinarquantas trocas ocorrem até que todos os amigos estejam satisfeitos.
+
+Nome do arquivo: “musica.x”, onde x deve ser c, cpp, pas, java, js, py2 ou py3
+
+Uma empresa de streaming de músicas lançou uma nova funcionalidade, para grupos de amigos
+ouvirem em seus aparelhos a mesma música ao mesmo tempo, compartilhando assim um momento
+de alegria nestes tempos difíceis de pandemia.
+
+Cada amigo no grupo tem que declarar uma música que adora e uma música que detesta. Um
+amigo fica satisfeito se a música que está sendo compartilhada não é a música que ele detesta. Se
+
+a música que está sendo compartilhada é detestada por um dos amigos, ele pode trocar a música
+sendo compartilhada pela música que ele adora. Se há mais de um amigo que detesta a música que
+está sendo compartilhada, somente o amigo que é cliente há mais tempo da empresa é que pode
+trocar a música (e troca pela música que adora).
+
+Obviamente, após a troca da música compartilhada pode ser que outro amigo deteste a nova música,
+e uma nova troca pode ocorrer. E as trocas podem ser intermináveis!
+
+Dadas as preferências de um grupo de amigos e a música sendo compartilhada, e considerando que
+sempre ocorre troca enquanto houver cliente não satisfeito, escreva um programa para determinar
+quantas trocas ocorrem até que todos os amigos estejam satisfeitos.
+
 Entrada
-A primeira linha da entrada contém três inteirosN,MeC, respectivamente o número de amigos,o número de músicas e a música que está sendo compartilhada. As músicas são identicadas porinteiros de 1 aM. Cada uma dasNlinhas seguintes descreve as escolhas de um amigo e contémdois inteirosAeD, identicando respetivamente a música adorada e a música detestada. A ordemdos amigos na entrada obedece à ordem em que os amigos se tornaram clientes da empresa (o amigoque aparece antes é cliente há mais tempo).
+
+A primeira linha da entrada contém três inteiros N, M e C, respectivamente o número de amigos,
+o número de músicas e a música que está sendo compartilhada. As músicas são identificadas por
+inteiros de 1 a M. Cada uma das N linhas seguintes descreve as escolhas de um amigo e contém
+dois inteiros A e D, identificando respetivamente a música adorada e a música detestada. A ordem
+dos amigos na entrada obedece à ordem em que os amigos se tornaram clientes da empresa (o amigo
+que aparece antes é cliente há mais tempo).
+
 Saída
-Seu programa deve produzir uma única linha na saída, contendo um único inteiro, o número de trocasaté que todos os amigosquem satisfeitos ou o número-1se as trocas continuam indenidamente.
+
+Seu programa deve produzir uma única linha na saída, contendo um único inteiro, o número de trocas
+até que todos os amigos fiquem satisfeitos ou o número -1 se as trocas continuam indefinidamente.
+
 Restrições
-•1≤N≤105
-•1≤M≤105
-•1≤C≤M•1≤A,D≤MeA6=D
+
+s1<N<I10
+c1I<M<I10
+e1<C<M
+
+CI<AD<MeALD
+
 Informações sobre a pontuação
-•Para um conjunto de casos de testes valendo 40 pontos,1≤N,M≤1000.
-Exemplo de entrada 1
-3 4 21 22 33 2Exemplo de saída 1
-1Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível Sênior – Fase Local7
+
+e Para um conjunto de casos de testes valendo 40 pontos, 1 < N,M < 1000.
+
+Exemplo de entrada 1 Exemplo de saída 1
+
+2 1
+
+CNH w
+ND wO NB
+
+ Olimpíada Brasileira de Informática
+
+OB12020
+
+Prog. Nível Sênior - Fase Local
+
 Exemplo de entrada 2
-4 5 21 32 33 25 1Exemplo de saída 2
+
+2
+
+qw NH
+Ho O wa
+
+Exemplo de saída 2
+
 3
+
 Exemplo de entrada 3
-3 3 11 22 33 1Exemplo de saída 3
+
+1
+
+CNH w
+HH OMNw
+
+Exemplo de saída 3
+
 -1
+

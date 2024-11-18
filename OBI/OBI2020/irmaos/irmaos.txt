@@ -1,15 +1,33 @@
-Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 2 – Fase Local •TurnoB2
+Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível 2 — Fase Local e Turno B 2
+
 Irmãos
-Nome do arquivo:“irmaos.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3Otávio tem dois irmãos, um mais velho (Orlando) e um mais novo do que ele (Oscar). As idadesdos três irmãos formam umaprogressão aritmética: a diferença de idade dos dois irmãos mais novos(Otávio e Oscar) é igual à diferença de idade dos dois irmãos mais velhos (Orlando e Otávio).Dadas as idades de Otávio e de seu irmão mais novo, escreva um programa para determinar a idadedo irmão mais velho.
+
+Nome do arquivo: “irmaos .x”, onde x deve ser c, cpp, pas, java, js, py2 ou py3
+
+Otávio tem dois irmãos, um mais velho (Orlando) e um mais novo do que ele (Oscar). As idades
+dos três irmãos formam uma progressão aritmética: a diferença de idade dos dois irmãos mais novos
+(Otávio e Oscar) é igual à diferença de idade dos dois irmãos mais velhos (Orlando e Otávio).
+
+Dadas as idades de Otávio e de seu irmão mais novo, escreva um programa para determinar a idade
+do irmão mais velho.
+
 Entrada
-A primeira linha da entrada contém um inteiroN, a idade do irmão mais novo de Otávio. A segundalinha contém um inteiroM, a idade de Otávio.
+
+A primeira linha da entrada contém um inteiro N, a idade do irmão mais novo de Otávio. A segunda
+linha contém um inteiro M, a idade de Otávio.
+
 Saída
-Seu programa deve produzir na saída uma única linha, contendo um único número inteiro, a idadedo irmão mais velho de Otávio.
+
+Seu programa deve produzir na saída uma única linha, contendo um único número inteiro, a idade
+do irmão mais velho de Otávio.
+
 Restrições
-•1≤N≤40•N≤M≤40
-Exemplo de entrada 1
-1316Exemplo de saída 1
-19
-Exemplo de entrada 2
-1414Exemplo de saída 2
+e1I<N<40
+eN<M<40
+Exemplo de entrada 1 Exemplo de saída 1
+13 19
+16
+Exemplo de entrada 2 Exemplo de saída 2
+14 14
 14
+

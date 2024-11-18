@@ -1,20 +1,85 @@
-Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível Júnior – Fase Estadual4
+Olimpíada Brasileira de Informática - OBI2019 — Prog. Nível Júnior — Fase Estadual 4
+
 Jogo dos copos
-Nome do arquivo:copos.c,copos.cpp,copos.pas,copos.java,copos.js,copos_py2.pyoucopos_py3.py
-Uma brincadeira muito comum e divertida entre dois jogadores usa uma moeda e três copos opacos(ou seja, não é possível ver o que está dentro do copo olhando pela lateral do copo). Os três copossão colocados com a boca para baixo, em uma linha, um ao lado do outro, em posições que vamoschamar de A, B e C. Uma moeda é colocada embaixo de um dos copos.Na brincadeira, um jogador chamado banca realiza um movimento para trocar a posição de doiscopos, arrastando os copos de tal modo que se a moeda está em baixo de um dos copos envolvidosno movimento, ela continua embaixo do mesmo copo após a troca de posição. O jogador bancapode realizar três tipos de movimento, ilustrados nagura abaixo:1. Trocar o copo na posição A com o copo na posição B.2. Trocar o copo na posição B com o copo na posição C.3. Trocar o copo na posição A com o copo na posição C.
-O jogador banca realiza vários movimentos de troca tentando confundir o outro jogador, chamadoespectador. Aonal o jogador espectador deve dizer em qual posição está a moeda.Por exemplo, considere que inicialmente a moeda está embaixo do copo na posição A e que o jogadorbanca realiza uma sequência de apenas três trocas, executando um movimento do tipo 1, após oqual moeda termina embaixo do copo na posição B, seguido de um movimento do tipo 2, após oqual a moeda termina embaixo do copo na posição C, seguido de um movimento do tipo 3, após oqual a moeda termina embaixo do copo na posição A.Nesta tarefa, dadas a descrição da sequência de movimentos e a posição inicial da moeda, você deveescrever um programa que determine a posiçãonal da moeda após todos os movimentos.
+
+Nome do arquivo: copos.c, copos.cpp, copos.pas, copos. java, copos. js, copos py2.py ou copos py3.py
+
+Uma brincadeira muito comum e divertida entre dois jogadores usa uma moeda e três copos opacos
+(ou seja, não é possível ver o que está dentro do copo olhando pela lateral do copo). Os três copos
+são colocados com a boca para baixo, em uma linha, um ao lado do outro, em posições que vamos
+chamar de A, Be C. Uma moeda é colocada embaixo de um dos copos.
+
+Na brincadeira, um jogador chamado banca realiza um movimento para trocar a posição de dois
+copos, arrastando os copos de tal modo que se a moeda está em baixo de um dos copos envolvidos
+no movimento, ela continua embaixo do mesmo copo após a troca de posição. O jogador banca
+pode realizar três tipos de movimento, ilustrados na figura abaixo:
+
+1. Trocar o copo na posição À com o copo na posição B.
+
+2. Trocar o copo na posição B com o copo na posição C.
+
+3. Trocar o copo na posição À com o copo na posição C.
+
+500 000 0Om
+
+vw w-s wo A
+Movimento de tipo 1: Movimento de tipo 2: Movimento de tipo 3:
+troca os copos nas posições A e B troca os copos nas posições Be C troca os copos nas posições A e C
+
+O jogador banca realiza vários movimentos de troca tentando confundir o outro jogador, chamado
+espectador. Ao final o jogador espectador deve dizer em qual posição está a moeda.
+
+Por exemplo, considere que inicialmente a moeda está embaixo do copo na posição À e que o jogador
+banca realiza uma sequência de apenas três trocas, executando um movimento do tipo 1, após o
+qual moeda termina embaixo do copo na posição B, seguido de um movimento do tipo 2, após o
+qual a moeda termina embaixo do copo na posição C, seguido de um movimento do tipo 3, após o
+qual a moeda termina embaixo do copo na posição A.
+
+Nesta tarefa, dadas a descrição da sequência de movimentos e a posição inicial da moeda, você deve
+escrever um programa que determine a posição final da moeda após todos os movimentos.
+
 Entrada
-A primeira linha contém um inteiroN, o número de movimentos que o jogador banca realiza. Asegunda linha contém um caractere, entreA,BeC, indicando a posição inicial da moeda. Cada umadasNlinhas seguintes contém um inteiro, indicando o tipo de movimento efetuado pelo jogadorbanca na sequência.
+
+A primeira linha contém um inteiro N, o número de movimentos que o jogador banca realiza. A
+segunda linha contém um caractere, entre A, Be C, indicando a posição inicial da moeda. Cada uma
+das N linhas seguintes contém um inteiro, indicando o tipo de movimento efetuado pelo jogador
+banca na sequência.
+
 Saída
-Seu programa deve produzir uma única linha, com um único caractere entreA,BeC, a posição emque a moeda se encontra aonal da sequência de movimentos.
+
+Seu programa deve produzir uma única linha, com um único caractere entre A, Be C, a posição em
+que a moeda se encontra ao final da sequência de movimentos.
+
 Restrições
-•1≤N≤1000Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível Júnior – Fase Estadual5
+
+e1<N<1000
+ Olimpíada Brasileira de Informática
+
+OBI2019
+
+Prog. Nível Júnior - Fase Estadual
+
 Exemplo de entrada 1
-3A123Exemplo de saída 1
+
+CNE w
+
+Exemplo de saída 1
+
 A
+
 Exemplo de entrada 2
-6C123311Exemplo de saída 2
+
+RR OwONHOO
+
+Exemplo de saída 2
+
 B
+
 Exemplo de entrada 3
-1B3Exemplo de saída 3
+
+1
+
+Exemplo de saída 3
+
 B
+

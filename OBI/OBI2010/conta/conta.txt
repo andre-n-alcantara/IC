@@ -1,26 +1,59 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2010 2
-Conta de ´ agua
-Nome do arquivo fonte:conta.c,conta.cpp,ouconta.pasA empresa local de abastecimento de ´ agua, a Saneamento B´ asico da Cidade (SBC), est´ a promovendo umacampanha de conserva¸ c˜ ao de ´ agua, distribuindo cartilhas e promovendo a¸ c˜ oes demonstrando a importˆ ancia da´ agua para a vida e para o meio ambiente.Para incentivar mais ainda a economia de ´ agua, a SBC alterou os pre¸ cos de seu fornecimento de forma que,proporcionalmente, aqueles clientes que consumirem menos ´ agua paguem menos pelo metro c´ ubico. Todo clientepaga mensalmente uma assinatura de R$ 7, que inclui uma franquia de 10 m
-3de ´ agua. Isto ´ e, para qualquerconsumo entre 0 e 10 m
-3, o consumidor paga a mesma quantia de R$ 7 reais (note que o valor da assinatura deveser pago mesmo que o consumidor n˜ ao tenha consumido ´ agua). Acima de 10 m
-3, cada metro c´ ubico subsequentetem um valor diferente, dependendo da faixa de consumo. A SBC cobra apenas por quantidades inteiras demetros c´ ubicos consumidos. A tabela abaixo especica o pre¸ co por metro c´ ubico para cada faixa de consumo:
-Faixa de consumo (m3) Pre¸ co (por m3)
-at´ e 10 inclu´ıdo na franquia
-11 a 30 R$ 1
+Olimpíada Brasileira de Informática — OBI2010 2
+
+Conta de água
+
+Nome do arquivo fonte: conta.c, conta.cpp, ou conta.pas
+
+A empresa local de abastecimento de água, a Saneamento Básico da Cidade (SBC), está promovendo uma
+campanha de conservação de água, distribuindo cartilhas e promovendo ações demonstrando a importância da
+água para a vida e para o meio ambiente.
+
+Para incentivar mais ainda a economia de água, a SBC alterou os preços de seu fornecimento de forma que,
+proporcionalmente, aqueles clientes que consumirem menos água paguem menos pelo metro cúbico. Todo cliente
+paga mensalmente uma assinatura de R$ 7, que inclui uma franquia de 10 m? de água. Isto é, para qualquer
+consumo entre O e 10 m?, o consumidor paga a mesma quantia de R$ 7 reais (note que o valor da assinatura deve
+ser pago mesmo que o consumidor não tenha consumido água). Acima de 10 m?, cada metro cúbico subsequente
+tem um valor diferente, dependendo da faixa de consumo. A SBC cobra apenas por quantidades inteiras de
+metros cúbicos consumidos. A tabela abaixo especifica o preço por metro cúbico para cada faixa de consumo:
+
+Faixa de consumo (m?) Preço (por m?)
+até 10 incluído na franquia
+11 a30 R$1
 31 a 100 R$ 2
 101 em diante R$ 5
-Assim, por exemplo, se o consumo foi de 120 m3, o valor da conta ´ e:•7 reais da assinatura b´ asica;•20 reais pelo consumo no intervalo 11 – 30 m
-3;•140 reais pelo consumo no intervalo 31 – 100 m
-3;•100 reais pelo consumo no intervalo 101 – 120 m
-3.Logo o valor total da conta de ´ agua ´ e R$ 267.
+
+Assim, por exemplo, se o consumo foi de 120 m?, o valor da conta é:
+
+7 reais da assinatura básica;
+
+20 reais pelo consumo no intervalo 11 — 30 mº;
+e 140 reais pelo consumo no intervalo 31 — 100 m?;
+
+e 100 reais pelo consumo no intervalo 101 — 120 m?.
+
+Logo o valor total da conta de água é R$ 267.
+
 Tarefa
-Escreva um programa que, dado o consumo de uma residˆ encia em m3, calcula o valor da conta de ´ agua daquelaresidˆ encia.
+
+Escreva um programa que, dado o consumo de uma residência em m?, calcula o valor da conta de água daquela
+residência.
+
 Entrada
-A ´ unica linha da entrada cont´ em um ´ unico inteiroN, indicando o consumo de ´ agua da residˆ encia, em m3
-(0≤N≤103).
-Sa´ıda
-Seu programa deve imprimir uma ´ unica linha, contendo o valor da conta de ´ agua daquela residˆ encia.Olimp´ıada Brasileira de Inform´ atica – OBI2010 3
+
+A única linha da entrada contém um único inteiro N, indicando o consumo de água da residência, em m?
+
+(0<N<a10).
+
+Saída
+
+Seu programa deve imprimir uma única linha, contendo o valor da conta de água daquela residência.
+ Olimpíada Brasileira de Informática - OBD010
+
 Exemplos
-Entrada8 Sa´ıda7
-Entrada14 Sa´ıda11
-Entrada42 Sa´ıda51
+Entrada Saída
+8 7
+Entrada Saída
+14 11
+Entrada Saída
+42 51
+

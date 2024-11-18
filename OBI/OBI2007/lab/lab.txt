@@ -1,10 +1,78 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2007 –Modalidade Programa¸ c˜ ao, N´ıvel 2, Fase 24
+Olimpíada Brasileira de Informática — OBI2007 — Modalidade Programação, Nível 2, Fase 2 4
+
 Labirinto
-Nome do arquivo fonte:lab.c,lab.cpp,oulab.pasUm amigo seu est´ a muito empolgado com um novo joguinho que baixou em seu celular. O jogo consiste emuma esp´ ecie de labirinto que pode ser representado por um quadriculado de c´ elulas quadradas comNlinhas eMcolunas. Cada c´ elula do labirinto cont´ em uma plataforma que est´ a a uma determinada altura do ch˜ ao, quepode ser representada por um inteiroaque varia de 0 (a mais baixa) a 9 (a mais alta). Vocˆ e inicia na c´ elula(1,1) (canto superior esquerdo) e o objetivo ´ e chegar na sa´ıda do labirinto queca na c´ elula (N,M) (canto inferior direito).Para sair do labirinto, vocˆ e deve fazer movimentos entre c´ elulas adjacentes. O problema ´ e que seu bonequinhon˜ ao consegue pular muito alto, ent˜ ao se a c´ elula destino estiver duas ou mais unidades acima da sua alturaatual, vocˆ e n˜ ao consegue movˆ e-lo. Mais especicamente, a cada turno vocˆ e pode mover para uma das 4 c´ elulasadjacentes (cima, baixo, direita, esquerda)caso a altura da c´ elula destino seja menor ou igual ` a altura da suac´ elula atual mais uma unidade. Ou seja, se a altura da sua c´ elula forA, vocˆ e s´ o pode mover a uma c´ elulaadjacente caso a altura dela seja menor ou igual aA+ 1.Para complicar um pouco mais o jogo, a cada turno,ap´ os o jogador realizar sua a¸ c˜ ao, cada c´ elula aumentaem uma unidade sua altura, at´ e o valor m´ aximo de 9. Caso a altura de uma determinada c´ elula seja 9, ela passaa ser 0.Note que, em um dado turno, o jogador n˜ ao ´ e obrigado a se mover, ele pode simplesmente esperar asplataformas subirem ou descerem. Al´ em disso, repare que nem todas as c´ elulas tˆ em 4 vizinhos, uma vez quen˜ ao ´ e permitido ao jogador se mover para fora dos limites do labirinto.Vocˆ e, como bom programador que ´ e, resolve escrever um programa que calcule a menor quantidade de turnosposs´ıvel para chegar ` a sa´ıda de um dado labirinto.
+
+Nome do arquivo fonte: lab.c, lab.cpp, ou lab.pas
+
+Um amigo seu está muito empolgado com um novo joguinho que baixou em seu celular. O jogo consiste em
+uma espécie de labirinto que pode ser representado por um quadriculado de células quadradas com N linhas e
+M colunas. Cada célula do labirinto contém uma plataforma que está a uma determinada altura do chão, que
+pode ser representada por um inteiro a que varia de O (a mais baixa) a 9 (a mais alta). Você inicia na célula
+(1,1) (canto superior esquerdo) e o objetivo é chegar na saída do labirinto que fica na célula (N, M) (canto
+inferior direito).
+
+Para sair do labirinto, você deve fazer movimentos entre células adjacentes. O problema é que seu bonequinho
+não consegue pular muito alto, então se a célula destino estiver duas ou mais unidades acima da sua altura
+atual, você não consegue movê-lo. Mais especificamente, a cada turno você pode mover para uma das 4 células
+adjacentes (cima, baixo, direita, esquerda) caso a altura da célula destino seja menor ou igual à altura da sua
+célula atual mais uma unidade. Ou seja, se a altura da sua célula for 4, você só pode mover a uma célula
+adjacente caso a altura dela seja menor ou iguala A+1.
+
+Para complicar um pouco mais o jogo, a cada turno, após o jogador realizar sua ação, cada célula aumenta
+
+em uma unidade sua altura, até o valor máximo de 9. Caso a altura de uma determinada célula seja 9, ela passa
+a ser O.
+
+Note que, em um dado turno, o jogador não é obrigado a se mover, ele pode simplesmente esperar as
+plataformas subirem ou descerem. Além disso, repare que nem todas as células têm 4 vizinhos, uma vez que
+não é permitido ao jogador se mover para fora dos limites do labirinto.
+
+Você, como bom programador que é, resolve escrever um programa que calcule a menor quantidade de turnos
+possível para chegar à saída de um dado labirinto.
+
 Tarefa
-Escreva um programa que, dado um labirinto, retorne a menor quantidade de turnos necess´ aria para chegar ` asa´ıda, de acordo com as restri¸ c˜ oes dadas.
+Escreva um programa que, dado um labirinto, retorne a menor quantidade de turnos necessária para chegar à
+
+saída, de acordo com as restrições dadas.
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). A primeira linha da entrada cont´ em dois inteirosNeM(2≤N,M≤50) separados por um espa¸ coem branco, que representam, respectivamente, a quantidade de linhas e colunas do labirinto. AsNlinhasseguintes contˆ em, cada uma,Minteiros que representam a altura inicial (no turno 0) da respectiva plataforma.As alturas est˜ ao sempre entre 0 e 9 (inclusive).
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, uma ´ unica linha, contendo a menor quantidade de turnos poss´ıvelpara sair do labirinto.Olimp´ıada Brasileira de Inform´ atica – OBI2007 –Modalidade Programa¸ c˜ ao, N´ıvel 2, Fase 25
-Entrada4 30 0 00 0 00 0 00 0 0Sa´ıda5Entrada3 31 2 34 5 67 8 9Sa´ıda12Entrada3 51 3 1 1 11 3 1 3 11 1 1 3 1Sa´ıda10
+
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado). A primeira linha da entrada contém dois inteiros Ne M (2< N,M < 50) separados por um espaço
+em branco, que representam, respectivamente, a quantidade de linhas e colunas do labirinto. As N linhas
+seguintes contêm, cada uma, M inteiros que representam a altura inicial (no turno 0) da respectiva plataforma.
+As alturas estão sempre entre 0 e 9 (inclusive).
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, uma única linha, contendo a menor quantidade de turnos possível
+para sair do labirinto.
+ Olimpíada Brasileira de Informática — OB1I2007 —- Modalidade Programação, Nível 2, Fase 2
+
+Entrada
+
+S000%W
+oo0oouw
+o0o0oo
+
+Saída
+
+Entrada
+
+V$BHw
+o NaN w
+oow
+
+Saída
+
+12
+
+Entrada
+35
+13111
+13131
+11131
+Saída
+
+10
+

@@ -1,16 +1,69 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2009 3
+Olimpíada Brasileira de Informática —- OBI2009 3
+
 Simulador
-Nome do arquivo fonte:simulador.c,simulador.cpp,ousimulador.pasUm novo processador, denominado Fa´ıska, est´ a sendo desenvolvido para a empresa SBC. Este novo processadortem apenas duas instru¸ c˜ oes:invers˜ aoesoma, descritas a seguir.•Invers˜ ao: dados dois endere¸ cos de mem´ oriaXeY, a opera¸ c˜ aoinverte(X,Y)inverte a posi¸ c˜ ao de palavrasda mem´ oria de forma que–a palavra no endere¸ coXtroca de posi¸ c˜ ao com a palavra de mem´ oria da posi¸ c˜ aoY;–a palavra no endere¸ coX+ 1 troca de posi¸ c˜ ao com a palavra de mem´ oria da posi¸ c˜ aoY−1;–a palavra no endere¸ coX+ 2 troca de posi¸ c˜ ao com a palavra de mem´ oria da posi¸ c˜ aoY−2;–e assim por diante, at´ e queX≥Y.•Soma: dados dois endere¸ cos de mem´ oriaXeY, a opera¸ c˜ aosoma(X,Y)imprime a soma das palavras demem´ oria entre os endere¸ cosXeY(inclusive).Por exemplo, se a mem´ oria cont´ em inicialmente, a partir da primeira posi¸ c˜ ao de mem´ oria (endere¸ co igual a 1) osvalores[1,2,3,4,5,6,7,8], a opera¸ c˜ aoinverte(3,7)deixa a mem´ oria igual a[1,2,7,6,5,4,3,8]. Ent˜ ao,nesse estado, a execu¸ c˜ ao desoma(1,3)produz a sa´ıda10.
+
+Nome do arquivo fonte: simulador.c, simulador.cpp, ou simulador. pas
+
+Um novo processador, denominado Faíska, está sendo desenvolvido para a empresa SBC. Este novo processador
+tem apenas duas instruções: inversão e soma, descritas a seguir.
+
+e Inversão: dados dois endereços de memória X e Y, a operação inverte(X,Y) inverte a posição de palavras
+da memória de forma que
+
+a palavra no endereço X troca de posição com a palavra de memória da posição Y';
+
+a palavra no endereço X + 1 troca de posição com a palavra de memória da posição Y — 1;
+— a palavra no endereço X + 2 troca de posição com a palavra de memória da posição Y — 2:
+
+— e assim por diante, até que X >Y.
+
+e Soma: dados dois endereços de memória X e Y, a operação soma(X,Y) imprime a soma das palavras de
+memória entre os endereços X e Y (inclusive).
+
+Por exemplo, se a memória contém inicialmente, a partir da primeira posição de memória (endereço igual a 1) os
+valores [1,2,3,4,5,6,7,8], a operação inverte(3,7) deixa a memória igual a [1,2,7,6,5,4,3,8]. Então,
+nesse estado, a execução de soma(1,3) produz a saída 10.
+
 Tarefa
-Sua tarefa ´ e escever um programa que, dada uma sequˆ encia de instru¸ c˜ oes do Fa´ıska, simule a execu¸ c˜ ao e produzao mesmo resultado que o Fa´ıska produziria.
+
+Sua tarefa é escever um programa que, dada uma sequência de instruções do Faíska, simule a execução e produza
+o mesmo resultado que o Faíska produziria.
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado).A primeira linha da entrada cont´ em dois n´ umeros inteirosNeM, representando respectivamente o n´ umeropalavras na mem´ oria (1≤N≤10
-9) e o n´ umero de instru¸ c˜ oes do programa (1≤M≤3000). Cada uma dasMlinhas seguintes cont´ em uma instru¸ c˜ ao do Fa´ıska. Cada instru¸ c˜ ao ´ e composta de um caratere descrevendoa instru¸ c˜ ao (‘I’ para invers˜ ao e ‘S’ para soma), seguido de um espa¸ co, seguido de dois inteiros indicando osargumentos da instru¸ c˜ ao.Inicialmente a congura¸ c˜ ao da mem´ oria ´ e tal que cada palavra tem como conte´ udo o seu pr´ oprio endere¸ co. Emoutras palavras, o conte´ udo inicial da mem´ oria ´ e[1,2,3,...,N]. H´ a pelo menos uma instru¸ c˜ aosomaem cadacaso de teste.
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, uma sequˆ encia de n´ umeros inteiros, um em cada linha, indicandoa sa´ıda gerada pelo Fa´ıska.
-Informa¸ c˜ oes sobre a pontua¸ c˜ ao
-•Em um conjunto de casos de teste que totaliza 30 pontos,N≤100 eM≤100.•Em um conjunto de casos de teste que totaliza 70 pontos,N≤10
-4eM≤103.Olimp´ıada Brasileira de Inform´ atica – OBI2009 4
+
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado).
+
+A primeira linha da entrada contém dois números inteiros N e M, representando respectivamente o número
+palavras na memória (1 < N < 10º) e o número de instruções do programa (1 < M < 3000). Cada uma das
+M linhas seguintes contém uma instrução do Faíska. Cada instrução é composta de um caratere descrevendo
+a instrução (*I” para inversão e *S” para soma), seguido de um espaço, seguido de dois inteiros indicando os
+argumentos da instrução.
+Inicialmente a configuração da memória é tal que cada palavra tem como conteúdo o seu próprio endereço. Em
+outras palavras, o conteúdo inicial da memória é [1,2,3,...,N]. Há pelo menos uma instrução soma em cada
+caso de teste.
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, uma sequência de números inteiros, um em cada linha, indicando
+a saída gerada pelo Faíska.
+
+Informações sobre a pontuação
+
+e Em um conjunto de casos de teste que totaliza 30 pontos, N < 100 e M < 100.
+
+e Em um conjunto de casos de teste que totaliza 70 pontos, N < 10! e M < 10º.
+ Olimpíada Brasileira de Informática - OBI2009
+
 Exemplos
-Entrada10 2I 1 5S 3 7 Sa´ıda19
-Entrada15 4S 2 11I 10 15I 1 10S 5 10Sa´ıda6521
+Entrada Saída
+10 2 19
+115
+Ss37
+Entrada Saída
+15 4 65
+Ss211 21
+I 10 15
+I 110
+Ss 5 10
+

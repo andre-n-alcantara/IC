@@ -1,21 +1,71 @@
-Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível Júnior – Fase Estadual5
+Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível Júnior — Fase Estadual 5
+
 Jogo dos Pinos
-Nome do arquivo:“pinos.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3O Jogo dos Pinos é um quebra-cabeças que utiliza pinos e um tabuleiro com furos em forma decruz. Inicialmente há apenas um furo vago, no centro do tabuleiro, e todos os outros furos contémum pino como mostragura abaixo.
-O objetivo do jogo é remover os pinos do tabuleiro de forma que reste apenas um pino. Para removerum pino é necessário fazer ummovimento válido, que é denido da seguinte maneira. O jogadordeve escolher um pino, chamadopivô, e uma das quatro direções (acima, abaixo, esquerda, direita)de tal forma que o pivô tenha um outro pino, chamadoalvo, como vizinho imediato na direçãoescolhida e que o pino alvo seja seguido, também na direção escolhida, por um furo vago (chamadodedestino). Agura abaixo mostra os quatro possíveis pivôs da conguração inicial do jogo.
-O jogador pode então fazer o pino pivô pular sobre o pino alvo e ocupar o furo destino, removendoo pino alvo do tabuleiro. Agura abaixo mostra um exemplo (a) antes, (b) durante e (c) depois deum movimento válido.
-PivôAlvo DestinoPivôAlvo Destino PivôAlvo Destino
-(a)(b)(c)
-Dada uma conguração de pinos em um tabuleiro, escreva um programa para determinar o númerode movimentos válidos possíveis na conguração dada.
+
+Nome do arquivo: “pinos .x”, onde x deve ser c, cpp, pas, java, js, py2 ou py3
+
+O Jogo dos Pinos é um quebra-cabeças que utiliza pinos e um tabuleiro com furos em forma de
+cruz. Inicialmente há apenas um furo vago, no centro do tabuleiro, e todos os outros furos contém
+um pino como mostra figura abaixo.
+
+O objetivo do jogo é remover os pinos do tabuleiro de forma que reste apenas um pino. Para remover
+um pino é necessário fazer um movimento válido, que é definido da seguinte maneira. O jogador
+deve escolher um pino, chamado pivô, e uma das quatro direções (acima, abaixo, esquerda, direita)
+de tal forma que o pivô tenha um outro pino, chamado alvo, como vizinho imediato na direção
+escolhida e que o pino alvo seja seguido, também na direção escolhida, por um furo vago (chamado
+de destino). A figura abaixo mostra os quatro possíveis pivôs da configuração inicial do jogo.
+
+O jogador pode então fazer o pino pivô pular sobre o pino alvo e ocupar o furo destino, removendo
+o pino alvo do tabuleiro. A figura abaixo mostra um exemplo (a) antes, (b) durante e (c) depois de
+
+5 B. der ..B
+
+Destino Pivô Alvo Destino Pivô Alvo Destino
+
+um movimento válido.
+
+Pivô | Alvo
+
+(a) (b) (c)
+
+Dada uma configuração de pinos em um tabuleiro, escreva um programa para determinar o número
+de movimentos válidos possíveis na configuração dada.
+
 Entrada
-A entrada é composta por sete linhas, cada linha com exatamente sete caracteres. A linhas sãoidenticadas por números de 1 a 7. Os dois primeiros caracteres e os dois últimos caracteresdas linhas 1, 2, 6 e 7 são ‘-’ (hífen). Todos os outros caracteres são ou ‘o’ (letra o minúscula)representando um pino, ou ‘.’ (ponto) representando um furo.Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível Júnior – Fase Estadual6
+
+A entrada é composta por sete linhas, cada linha com exatamente sete caracteres. A linhas são
+identificadas por números de 1 a 7. Os dois primeiros caracteres e os dois últimos caracteres
+das linhas 1, 2, 6 e 7 são “-' (hífen). Todos os outros caracteres são ou *o' (letra o minúscula)
+
+representando um pino, ou *.” (ponto) representando um furo.
+ Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível Júnior — Fase Estadual 6
+
 Saída
-Seu programa deve produzir uma única linha, contendo um único inteiro, o número de movimentosválidos na conguração da entrada.
+
+Seu programa deve produzir uma única linha, contendo um único inteiro, o número de movimentos
+válidos na configuração da entrada.
+
 Restrições
-•A seção Entrada descreve as restrições.
+
+e A seção Entrada descreve as restrições.
+
 Exemplos
-Exemplo de entrada 1
---ooo----ooo--oooooooooo.oooooooooo--ooo----ooo--Exemplo de saída 1
-4
-Exemplo de entrada 2
---.o.----o.o--....o......o..o.o.o..--o.o----o.o--Exemplo de saída 2
-2
+
+Exemplo de entrada 1 Exemplo de saída 1
+
+--000-— 4
+--000-—
+0000000
+000.000
+0000000
+--000-—
+--000-—
+
+Exemplo de entrada 2 Exemplo de saída 2
+
+--.0.-— 2
+
+0.0.0...
+--0.0--
+--0.0--
+

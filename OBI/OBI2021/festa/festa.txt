@@ -1,32 +1,111 @@
-Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível 1 – Fase Fase 36
+Olimpíada Brasileira de Informática - OBI2021 — Prog. Nível 1 — Fase Fase 3 6
+
 Festa olímpica
-Nome do arquivo:“festa.x”,ondexdeve serc,cpp,pas,java,jsoupyOs atletas da Nlogônia obtiveram o melhor resultado do país em olimpíadas, e para comemorar orei decidiu dar uma grande festa no Palácio Real. Todos os atletas foram convidados, mas o reiquer também convidar alguns de seus súditos.Como não é possível convidar todos os súditos, o rei determinou que a seguinte Lei seja utilizadapara calcular a lista de convidados:
-lei especial sobre comemoração das olimpíadasPor ordem de Sua Majestade,quem todos sabendo que:•OsNsúditos de Nlogônia serão numerados1,2,3, . . . , Ne uma lista ordenada será criadacom os números dos súditos. A primeira posição da lista será 1.•Um númeroMde turnos serão então executados; em cada turnoi, será sorteado um númeroT
-ique será usado para remover súditos da lista, da seguinte forma: no turnoi, devem serremovidos da lista todos os súditos que ainda continuam na lista e que ocupam posiçõesque são múltiplas deT
-i; ou seja, devem ser removidos os súditos que estão nas posições(T
-i,2T i,3T i, . . .)da lista corrente. Aonal do turno, para não haver posições vazias na lista(cujos súditos foram removidos) a lista é reagrupada, mantendo-se a mesma ordem relativa, econtendo apenas os números dos súditos remanescentes.•Os súditos que permanecerem na lista aonal dosMturnos serão convidados para a grandefesta de comemoração do resultado das olimpíadas.
-Dados o número de súditos e os números sorteados em cada turno, sua tarefa é determinar os súditosque serão convidados de acordo com a Lei Especial.
+
+Nome do arquivo: “festa.x”, onde x deve ser c, cpp, pas, java, js ou py
+
+Os atletas da Nlogônia obtiveram o melhor resultado do país em olimpíadas, e para comemorar o
+rei decidiu dar uma grande festa no Palácio Real. Todos os atletas foram convidados, mas o rei
+quer também convidar alguns de seus súditos.
+
+Como não é possível convidar todos os súditos, o rei determinou que a seguinte Lei seja utilizada
+para calcular a lista de convidados:
+
+LEI ESPECIAL SOBRE COMEMORAÇÃO DAS OLIMPÍADAS
+
+Por ordem de Sua Majestade, fiquem todos sabendo que:
+
+e Os N súditos de Nlogônia serão numerados 1,2,3,..., N e uma lista ordenada será criada
+
+com os números dos súditos. A primeira posição da lista será 1.
+
+e Um número M de turnos serão então executados; em cada turno 1, será sorteado um número
+T; que será usado para remover súditos da lista, da seguinte forma: no turno %, devem ser
+removidos da lista todos os súditos que ainda continuam na lista e que ocupam posições
+que são múltiplas de T;; ou seja, devem ser removidos os súditos que estão nas posições
+(Ti, 2Ti, 3Ti, ...) da lista corrente. Ao final do turno, para não haver posições vazias na lista
+(cujos súditos foram removidos) a lista é reagrupada, mantendo-se a mesma ordem relativa, e
+contendo apenas os números dos súditos remanescentes.
+
+e Os súditos que permanecerem na lista ao final dos M turnos serão convidados para a grande
+festa de comemoração do resultado das olimpíadas.
+
+Dados o número de súditos e os números sorteados em cada turno, sua tarefa é determinar os súditos
+que serão convidados de acordo com a Lei Especial.
+
 Entrada
-A primeira linha da entrada contém um número inteiroN, o número de súditos de Nlogôgina. Asegunda linha contém um inteiroM, o número de turnos. Cada uma dasMlinhas seguintes contémum inteiroT
-i, o número que foi sorteado para o turnoi.
+
+A primeira linha da entrada contém um número inteiro N, o número de súditos de Nlogôgina. A
+segunda linha contém um inteiro M, o número de turnos. Cada uma das M linhas seguintes contém
+um inteiro T;, o número que foi sorteado para o turno 2.
+
 Saída
-Seu programa deve produzir a lista de convidados de acordo com a Lei Especial, com uma linha paracada convidado, cada linha contendo somente o número de um convidado. Como a lista total dosconvidados pode ser muito grande, o rei ordenou que, caso o número de convidados seja maior que10.000, você deve listar apenas os 10.000 primeiros (ou seja, os com menores números) convidados.
+
+Seu programa deve produzir a lista de convidados de acordo com a Lei Especial, com uma linha para
+cada convidado, cada linha contendo somente o número de um convidado. Como a lista total dos
+convidados pode ser muito grande, o rei ordenou que, caso o número de convidados seja maior que
+10.000, você deve listar apenas os 10.000 primeiros (ou seja, os com menores números) convidados.
+
 Restrições
-•2≤N≤1 000 000 000•1≤M≤5 000•2≤T
-i≤100 000para1≤i≤MInformações sobre a pontuação
-•Para um conjunto de casos de testes valendo 17 pontos,N≤100eM≤10.•Para um conjunto de casos de testes valendo outros 22 pontos,N≤400 000eM≤5 000.•Para um conjunto de casos de testes valendo outros 21 pontos,T
-i= 2para1≤i≤M.Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível 1 – Fase Fase 37•Para um conjunto de casos de testes valendo outros 40 pontos, nenhuma restrição adicional.
-Exemplo de entrada 1
-10223Exemplo de saída 1
+
+e 2<N<1 000000000
+ei<M<s5000
+
+e 2<T;< 100000 paral <i<M
+
+Informações sobre a pontuação
+
+e Para um conjunto de casos de testes valendo 17 pontos, N < 100e M < 10.
+e Para um conjunto de casos de testes valendo outros 22 pontos, N < 400 000 e M < 5 000.
+
+e Para um conjunto de casos de testes valendo outros 21 pontos, T;=2 paral<i<mM.
+ Olimpíada Brasileira de Informática - OBI2021 — Prog. Nível 1 — Fase Fase 3
+
+e Para um conjunto de casos de testes valendo outros 40 pontos, nenhuma restrição adicional.
+
+Exemplo de entrada 1 Exemplo de saída 1
+10 1
+2 3
+2 7
+3 9
+
+Explicação do exemplo 1: A lista inicial é
+12345678910
+Após remover todos os que ocupam posições múltiplas de 2 a lista é
+13579
+Após remover todos os que ocupam posições múltiplas de 3 a lista é
+
 1379
-Explicação do exemplo 1:A lista inicial é1 2 3 4 5 6 7 8 9 10Após remover todos os que ocupam posições múltiplas de 2 a lista é1 3 5 7 9Após remover todos os que ocupam posições múltiplas de 3 a lista é1 3 7 9
-Exemplo de entrada 2
-63222Exemplo de saída 2
+
+Exemplo de entrada 2 Exemplo de saída 2
+
 1
-Explicação do exemplo 2:A lista inicial é1 2 3 4 5 6Após remover todos os que ocupam posições múltiplas de 2 a lista é1 3 5Após remover todos os que ocupam posições múltiplas de 2 a lista é1 5Após remover todos os que ocupam posições múltiplas de 2 a lista é1
-Exemplo de entrada 3
-5110Exemplo de saída 3
-12345Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível 1 – Fase Fase 38
-Exemplo de entrada 4
-100000032153Exemplo de saída 4
-1379...3213732139
+
+NV wo
+
+Explicação do exemplo 2: A lista inicial é
+123456
+Após remover todos os que ocupam posições múltiplas de 2 a lista é
+135
+Após remover todos os que ocupam posições múltiplas de 2 a lista é
+15
+Após remover todos os que ocupam posições múltiplas de 2 a lista é
+
+1
+
+Exemplo de entrada 3 Exemplo de saída 3
+
+10
+
+a WIN
+
+ Olimpíada Brasileira de Informática - OBI2021 — Prog. Nível 1 — Fase Fase 3
+
+Exemplo de entrada 4 Exemplo de saída 4
+1000000 1
+3 3
+2 7
+15 9
+32137
+32139
+

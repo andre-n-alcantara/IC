@@ -1,21 +1,56 @@
-Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível 1 – Fase Local2
+Olimpíada Brasileira de Informática - OBI2018 — Prog. Nível 1 — Fase Local 2
+
 Xadrez
-Nome do arquivo:“xadrez.x”,ondexdeve sercpp,pas,java,js,py2oupy3No tabuleiro de xadrez, a casa na linha 1, coluna 1 (cantosuperior esquerdo) é sempre branca e as cores das casasse alternam entre branca e preta, de acordo com o padrãoconhecido como... xadrez! Dessa forma, como o tabuleirotradicional tem oito linhas e oito colunas, a casa na linha 8,coluna 8 (canto inferior direito) será também branca. Nesteproblema, entretanto, queremos saber a cor da casa no cantoinferior direito de um tabuleiro com dimensões quaisquer:Llinhas eCcolunas. No exemplo dagura, paraL= 6eC= 9, a casa no canto inferior direito será preta!
+
+Nome do arquivo: “xadrez .x”, onde x deve ser cpp, pas, java, js, py2 ou py3
+
+No tabuleiro de xadrez, a casa na linha 1, coluna 1 (canto
+superior esquerdo) é sempre branca e as cores das casas
+se alternam entre branca e preta, de acordo com o padrão
+conhecido como... xadrez! Dessa forma, como o tabuleiro
+tradicional tem oito linhas e oito colunas, a casa na linha 8,
+coluna 8 (canto inferior direito) será também branca. Neste
+problema, entretanto, queremos saber a cor da casa no canto
+inferior direito de um tabuleiro com dimensões quaisquer:
+L linhas e C colunas. No exemplo da figura, para L = 6 e
+C =9,a casa no canto inferior direito será preta!
+
 Entrada
-A primeira linha da entrada contém um inteiroLindicando o número de linhas do tabuleiro. Asegunda linha da entrada contém um inteiroCrepresentando o número de colunas.
+
+1234567809
+
+ou e wnNm
+
+A primeira linha da entrada contém um inteiro L indicando o número de linhas do tabuleiro. A
+segunda linha da entrada contém um inteiro C representando o número de colunas.
+
 Saída
-Imprima uma linha na saída. A linha deve conter um inteiro, representando a cor da casa no cantoinferior direito do tabuleiro:1, se for branca; e0, se for preta.
+
+Imprima uma linha na saída. A linha deve conter um inteiro, representando a cor da casa no canto
+
+inferior direito do tabuleiro: 1, se for branca; e 0, se for preta.
+
 Restrições
-•1≤L, C≤1000
-Exemplo de entrada 1
-69Exemplo de saída 1
-0
-Exemplo de entrada 2
-88Exemplo de saída 2
-1
-Exemplo de entrada 3
-591Exemplo de saída 3
-1
-Exemplo de entrada 4
-401322Exemplo de saída 4
-0
+
+e1<LC<1000
+
+Exemplo de entrada 1 Exemplo de saída 1
+6 0
+
+9
+
+Exemplo de entrada 2 Exemplo de saída 2
+8 1
+
+8
+
+Exemplo de entrada 3 Exemplo de saída 3
+5 1
+
+91
+
+Exemplo de entrada 4 Exemplo de saída 4
+401 0
+
+322
+

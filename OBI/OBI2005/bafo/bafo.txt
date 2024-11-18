@@ -1,12 +1,69 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2005 – Modalidade Programa¸ c˜ ao N´ıvel 21
+Olimpíada Brasileira de Informática - OBI2005 - Modalidade Programação Nível 2 1
+
 Bafo
-Arquivo fonte: bafo.c, bafo.cc, bafo.cpp ou bafo.pas´Albuns degurinhas – sejam de times de futebol, princesas ou super-her´ ois – tˆ em marcado gera¸ c˜ oes decrian¸ cas e adolescentes. Conseguir completar um ´ album ´ e uma tarefa muitas vezes ´ ardua, envolvendonegocia¸ c˜ oes com colegas para a troca degurinhas. Mas a existˆ encia dasgurinhas propicia umaoutra brincadeira, que foi muito popular entre crian¸ cas no s´ eculo passado: o jogo debatergurinhas(o famoso “Bafo”). O jogo ´ e muito simples, mas divertido (e muito competitivo). No in´ıcio de umapartida, cada crian¸ ca coloca em uma pilha um certo n´ umero degurinhas. Uma partida ´ e compostade rodadas; a cada rodada as crian¸ cas batem com a m˜ ao sobre a pilha degurinhas, tentando vir´ a-lascom o v´ acuo formado pelo movimento da m˜ ao. As crian¸ cas jogam em turnos, at´ e que a pilha degurinhas esteja vazia. Ganha a partida a crian¸ ca que conseguir virar maisgurinhas.Aldo e Beto est˜ ao jogando bafo com todas as suasgurinhas e pediram sua ajuda para calcularquem ´ e o vencedor.
+
+Arquivo fonte: bafo.c, bafo.cc, bafo.cpp ou bafo.pas
+
+Álbuns de figurinhas — sejam de times de futebol, princesas ou super-heróis — têm marcado gerações de
+crianças e adolescentes. Conseguir completar um álbum é uma tarefa muitas vezes árdua, envolvendo
+negociações com colegas para a troca de figurinhas. Mas a existência das figurinhas propicia uma
+outra brincadeira, que foi muito popular entre crianças no século passado: o jogo de bater figurinhas
+(o famoso “Bafo”). O jogo é muito simples, mas divertido (e muito competitivo). No início de uma
+partida, cada criança coloca em uma pilha um certo número de figurinhas. Uma partida é composta
+de rodadas; a cada rodada as crianças batem com a mão sobre a pilha de figurinhas, tentando virá-las
+com o vácuo formado pelo movimento da mão. As crianças jogam em turnos, até que a pilha de
+figurinhas esteja vazia. Ganha a partida a criança que conseguir virar mais figurinhas.
+
+Aldo e Beto estão jogando bafo com todas as suas figurinhas e pediram sua ajuda para calcular
+quem é o vencedor.
+
 Tarefa
-Vocˆ e deve escrever um programa que, dada a quantidade degurinhas que Aldo e Beto viraram emcada rodada, determine qual dos dois ´ e o vencedor.
+
+Você deve escrever um programa que, dada a quantidade de figurinhas que Aldo e Beto viraram em
+cada rodada, determine qual dos dois é o vencedor.
+
 Entrada
-A entrada ´ e composta de v´ arios casos de teste, cada um correspondendo a uma partida entre Aldoe Beto. A primeira linha de um caso de teste cont´ em um n´ umero inteiroRque indica quantasrodadas ocorreram na partida. Cada uma dasRlinhas seguintes cont´ em dois inteiros,AeB, quecorrespondem, respectivamente, ao n´ umero degurinhas que Aldo e Beto conseguiram virar naquelarodada. Em todos os casos de teste h´ a um ´ unico vencedor (ou seja, n˜ ao ocorre empate). Onal daentrada ´ e indicado porR= 0.A entrada deve ser lida do dispositivo de entrada padr˜ ao (normalmente o teclado).
-Sa´ıda
-Para cada caso de teste da entrada, seu programa deve produzir trˆ es linhas na sa´ıda. A primeira linhadeve conter um identicador do caso de teste, no formato “Teste n”, onden´ e numerado seq¨ uenci-almente a partir de 1. A segunda linha deve conter o nome do vencedor (Aldo ou Beto). A terceiralinha deve ser deixada em branco. A graa mostrada no Exemplo de Sa´ıda, abaixo, deve ser seguidarigorosamente.A sa´ıda deve ser escrita no dispositivo de sa´ıda padr˜ ao (normalmente a tela).
-Restri¸ c˜ oes
-1≤R≤1000 (R= 0 apenas para indicar onal da entrada)0≤A≤1000≤B≤100Olimp´ıada Brasileira de Inform´ atica – OBI2005 – Modalidade Programa¸ c˜ ao N´ıvel 22
-Exemplo de Entrada21 52 330 04 710 00Sa´ıda para o Exemplo de EntradaTeste 1BetoTeste 2Aldo
+
+A entrada é composta de vários casos de teste, cada um correspondendo a uma partida entre Aldo
+e Beto. A primeira linha de um caso de teste contém um número inteiro R que indica quantas
+rodadas ocorreram na partida. Cada uma das R linhas seguintes contém dois inteiros, 4 e B, que
+correspondem, respectivamente, ao número de figurinhas que Aldo e Beto conseguiram virar naquela
+rodada. Em todos os casos de teste há um único vencedor (ou seja, não ocorre empate). O final da
+entrada é indicado por R = 0.
+
+A entrada deve ser lida do dispositivo de entrada padrão (normalmente o teclado).
+
+Saída
+
+Para cada caso de teste da entrada, seu programa deve produzir três linhas na saída. A primeira linha
+deve conter um identificador do caso de teste, no formato “Teste n”, onde n é numerado sequenci-
+almente a partir de 1. A segunda linha deve conter o nome do vencedor (Aldo ou Beto). A terceira
+linha deve ser deixada em branco. A grafia mostrada no Exemplo de Saída, abaixo, deve ser seguida
+rigorosamente.
+
+A saída deve ser escrita no dispositivo de saída padrão (normalmente a tela).
+
+Restrições
+
+I<R<t1000(R=õo0 apenas para indicar o final da entrada)
+0O<A<100
+0O<B<ã100
+ Olimpíada Brasileira de Informática - OBI2005 - Modalidade Programação Nível 2
+
+Exemplo de Entrada Saída para o Exemplo de Entrada
+2 Teste 1
+
+15 Beto
+
+23
+
+3 Teste 2
+
+oo Aldo
+
+47
+
+10 0
+
+0
+

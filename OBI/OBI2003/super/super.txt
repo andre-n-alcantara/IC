@@ -1,11 +1,75 @@
-OBI2003 - página 100Supermercado
-Arquivo fonte: super.c, super.cc, super.cpp ou super.pasA rede de supermercados BemBom, da cidade de Planalto, decidiu reformular o armazenamentode seus estoques. No sistema atual, cada uma das lojas da rede possui espaço para armazenar umpequeno estoque, sendo freqüentemente necessário transportar mercadorias de uma loja paraoutra. Para racionalizar o transporte e aumentar a capacidade de estoque, a direção da rede Bem-Bom decidiu instalar um depósito central. De forma a diminuir os custos com transporte, ﬁcoudeﬁnido que o novo depósito deve ser localizado em um quarteirão que minimize a soma das dis-tâncias dele até todas as lojas da rede.Por ser uma cidade planejada, Planalto possui uma característica muito peculiar. Todas as suasruas são orientadas na direção leste-oeste ou norte-sul, e todos os quarteirões são do mesmo tama-nho. Veja uma parte do mapa de Planalto na ﬁgura abaixo. Os quarteirões em Planalto são identi-ﬁcados pelo número de quadras, em cada direção, que os separam da localização da prefeitura(0,0). Localizações a leste e a norte da prefeitura são identiﬁcadas por coordenadas positivas, elocalizações a oeste e a sul por coordenadas negativas.Parte do mapa de Planalto
+Supermercado
+
+Arquivo fonte: super.c, super.cc, super.cpp ou super.pas
+
+A rede de supermercados BemBom, da cidade de Planalto, decidiu reformular o armazenamento
+de seus estoques. No sistema atual, cada uma das lojas da rede possui espaço para armazenar um
+pequeno estoque, sendo frequentemente necessário transportar mercadorias de uma loja para
+outra. Para racionalizar o transporte e aumentar a capacidade de estoque, a direção da rede Bem-
+Bom decidiu instalar um depósito central. De forma a diminuir os custos com transporte, ficou
+definido que o novo depósito deve ser localizado em um quarteirão que minimize a soma das dis-
+tâncias dele até todas as lojas da rede.
+
+Por ser uma cidade planejada, Planalto possui uma característica muito peculiar. Todas as suas
+ruas são orientadas na direção leste-oeste ou norte-sul, e todos os quarteirões são do mesmo tama-
+nho. Veja uma parte do mapa de Planalto na figura abaixo. Os quarteirões em Planalto são identi-
+ficados pelo número de quadras, em cada direção, que os separam da localização da prefeitura
+(0,0). Localizações a leste e a norte da prefeitura são identificadas por coordenadas positivas, e
+localizações a oeste e a sul por coordenadas negativas.
+
+-2,2/-1,2/0,2/1,2]2,2
+
+-2,1/-1,1/0,1/1,1/2,1
+
+Parte do mapa de Planalto
+
 1. Tarefa
-A sua tarefa é, dadas as coordenadas dos quarteirões onde estão localizados todos os supermerca-dos da rede, determinar o quarteirão onde deve ser instalado o novo depósito. A localização destedepósito deve ser tal que a soma das distâncias entre o depósito e as lojas, em número de quartei-rões em ambas as direções, seja a menor possível. A distância entre dois quarteirões é dada peladistância entre eles na direção leste-oeste mais a distância na direção norte-sul. Por exemplo, adistância entre os quarteirões (2,-1) e (4, 3) é 2 + 4 = 6.
+
+A sua tarefa é, dadas as coordenadas dos quarteirões onde estão localizados todos os supermerca-
+dos da rede, determinar o quarteirão onde deve ser instalado o novo depósito. A localização deste
+depósito deve ser tal que a soma das distâncias entre o depósito e as lojas, em número de quartei-
+rões em ambas as direções, seja a menor possível. A distância entre dois quarteirões é dada pela
+distância entre eles na direção leste-oeste mais a distância na direção norte-sul. Por exemplo, a
+distância entre os quarteirões (2,-1) e (4,3) €2 + 4= 6.
+
 2. Entrada
-A entrada é composta de vários conjuntos de teste. A primeira linha de cada conjunto de teste con-tém um número inteiro S que é o número de supermercados da rede. A seguir, são dadas S linhas,cada uma contendo dois números inteiros X e Y, representando as coordenadas do quarteirão ondese situa um dos supermercados. X representa a coordenada na direção leste-oeste e Y represetna acoordenada na direção norte-sul. Oﬁnal da entrada é dado por um conjunto de teste comS= 0.
--2, 2 -1, 2 0, 2 1, 2 2, 2-2, 1 -1, 1 0, 1 1, 1 2, 1-2, 0 -1, 0 0, 0 1, 0 2, 0-2, -1 -1, -1 0, -1 1, -1 2, -1-2, -2 -1, -2 0, -2 1, -2 2, -2OBI2003 - página 11Exemplo de Entrada41 2-3 -34 -1-5 051 37 1325 1315 1425 10
+
+A entrada é composta de vários conjuntos de teste. A primeira linha de cada conjunto de teste con-
+tém um número inteiro S que é o número de supermercados da rede. A seguir, são dadas S linhas,
+cada uma contendo dois números inteiros X e Y, representando as coordenadas do quarteirão onde
+se situa um dos supermercados. X representa a coordenada na direção leste-oeste e Y represetna a
+coordenada na direção norte-sul. O final da entrada é dado por um conjunto de teste com S = 0.
+
+OB12003 - página 10
+ Exemplo de Entrada
+
+15 14
+25 1
+(o)
+
 3. Saída
-Para cada conjunto de teste, o seu programa deve escrever três linhas na saída. A primeira linhadeve conter um identiﬁcador do conjunto de teste, no formato “Teste n”, onde n é numeradoseqüencialmente a partir de 1. A segunda linha deve conter as coordenadas X e Y do quarteirãoonde deve ser instalado o novo depósito, separadas por um espaço em branco. Se mais de umquarteirão puder ser escolhido como localização do depósito, seu programa pode imprimir qual-quer um deles. A terceira linha deve ser deixada em branco. O formato do exemplo de saídaabaixo deve ser seguido rigorosamente.Exemplo de SaídaTeste 1-2 0Teste 215 13(esta saída corresponde ao exemplo de entrada acima)
+
+Para cada conjunto de teste, o seu programa deve escrever três linhas na saída. A primeira linha
+deve conter um identificador do conjunto de teste, no formato “Teste n”, onde n é numerado
+sequencialmente a partir de 1. A segunda linha deve conter as coordenadas X e Y do quarteirão
+onde deve ser instalado o novo depósito, separadas por um espaço em branco. Se mais de um
+quarteirão puder ser escolhido como localização do depósito, seu programa pode imprimir qual-
+quer um deles. A terceira linha deve ser deixada em branco. O formato do exemplo de saída
+abaixo deve ser seguido rigorosamente.
+
+Exemplo de Saída
+Teste 1
+-2 0
+
+Teste 2
+15 13
+
+(esta saída corresponde ao exemplo de entrada acima)
+
 4. Restrições
-0 ≤ S ≤ 1000 (S = 0 apenas para indicar o ﬁnal da entrada)-1000 ≤ X ≤ 1000-1000≤Y≤1000
+
+0<S< 1000 (S = O apenas para indicar o final da entrada)
+-1000 <X< 1000
+-1000 < Y < 1000
+
+OB12003 - página 11

@@ -1,31 +1,103 @@
-Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível Júnior – Fase Fase 36
+Olimpíada Brasileira de Informática - OBI2021 — Prog. Nível Júnior — Fase Fase 3 6
+
 Sr. Sapo
-Nome do arquivo:“sapo.x”,ondexdeve serc,cpp,pas,java,jsoupyO Sr. Sapo mora num lago de formato retangular dividido em um reticulado de células quadradasde um metro de lado. Algumas das células são pedras que estão acima do nível da água.O Sr. Sapo é muito atlético e pode saltar a distâncias de até três metros, mas curiosamente ele sópode saltar nas direções paralelas aos lados do lago. Agura (a) abaixo mostra um lago, e agura(b) uma sequência de pulos do Sr. Sapo.
-1
-(a)(b)122334águapedra54123541 2 3 4
-RS
-O Sr. Sapo está em uma pedra e quer ir visitar sua namorada que está em outra pedra. Ele estácom pressa e não quer se molhar, portanto quer chegar ao seu destino pulando de pedra em pedra,sem cair na água.Dados o mapa do lago, a pedra em que o Sr. Sapo está e a pedra em que a sua namorada está,determine se é possível ele chegar ao seu destino sem se molhar.
+
+Nome do arquivo: “sapo.x”, onde x deve ser c, cpp, pas, java, js ou py
+
+O Sr. Sapo mora num lago de formato retangular dividido em um reticulado de células quadradas
+de um metro de lado. Algumas das células são pedras que estão acima do nível da água.
+
+O Sr. Sapo é muito atlético e pode saltar a distâncias de até três metros, mas curiosamente ele só
+pode saltar nas direções paralelas aos lados do lago. A figura (a) abaixo mostra um lago, e a figura
+(b) uma sequência de pulos do Sr. Sapo.
+
+1 2 3 4
+
+(a)
+
+O Sr. Sapo está em uma pedra e quer ir visitar sua namorada que está em outra pedra. Ele está
+com pressa e não quer se molhar, portanto quer chegar ao seu destino pulando de pedra em pedra,
+sem cair na água.
+
+Dados o mapa do lago, a pedra em que o Sr. Sapo está e a pedra em que a sua namorada está,
+determine se é possível ele chegar ao seu destino sem se molhar.
+
 Entrada
-A primeira contém dois inteirosN,M, respectivamente a largura e o comprimento do lago emmetros (ou seja, o lago é composto porNcolunas eMlinhas de células quadradas de 1m de lado).As colunas são numeradas de 1 aNe as linhas são numeradas de 1 aM. A segunda linha contémum inteiroP, o número de células que são pedras. Cada uma dasPlinhas seguintes contém doisinteirosC
-ieLi, respectivamente o número da coluna e o número da linha de uma célula que épedra. A linha seguinte descreve a célula em que o Sr. Sapo está e contém dois inteirosS
-CeS
-L, respectivamente a coluna e a linha da célula. A linha seguinte descreve a célula em que estáa namorada do Sr. Sapo e contém dois inteirosR
-CeRL, respectivamente a coluna e a linha dacélula.
+
+A primeira contém dois inteiros N, M, respectivamente a largura e o comprimento do lago em
+metros (ou seja, o lago é composto por N colunas e M linhas de células quadradas de Im de lado).
+As colunas são numeradas de 1 à N e as linhas são numeradas de 1 a M. A segunda linha contém
+um inteiro P, o número de células que são pedras. Cada uma das P linhas seguintes contém dois
+inteiros C; e Li, respectivamente o número da coluna e o número da linha de uma célula que é
+pedra. A linha seguinte descreve a célula em que o Sr. Sapo está e contém dois inteiros Sc e
+SL, respectivamente a coluna e a linha da célula. A linha seguinte descreve a célula em que está
+a namorada do Sr. Sapo e contém dois inteiros Rc e Rr, respectivamente a coluna e a linha da
+célula.
+
 Saída
-Seu programa deve produzir uma única linha na saída, contendo um único caractere, que deve ser‘S’ se for possível o Sr. Sapo chegar ao destino sem se molhar, ou ‘N’ caso contrário.
+
+Seu programa deve produzir uma única linha na saída, contendo um único caractere, que deve ser
+*'S” se for possível o Sr. Sapo chegar ao destino sem se molhar, ou “Nº caso contrário.
+
 Restrições
-•3≤N≤100•1≤M≤100•2≤P≤N×M•1≤C i≤Me1≤L i≤Mpara1≤i≤P•1≤S
-C≤Ne1≤S L≤M•1≤R C≤Ne1≤R L≤M•As posições do Sr. Sapo e da sua namorada são distintas e ambas são posições de pedrasespecicadas na entrada.Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível Júnior – Fase Fase 37
+e3<N<h100
+
+ei<M<aI100
+
+e2<P<NxM
+eI<C<Mel<L;<Mparal<i<P
+eiI<So<Nel<S<M
+
+CI<RC<NeI<RL<M
+
+e As posições do Sr. Sapo e da sua namorada são distintas e ambas são posições de pedras
+especificadas na entrada.
+ Olimpíada Brasileira de Informática - OBI2021 — Prog. Nível Júnior — Fase Fase 3 7
+
 Informações sobre a pontuação
-•Para um conjunto de casos de testes valendo 14 pontos,M= 1•Para um conjunto de casos de testes valendo outros 16 pontos, para a pedra em que o Sr.Sapo está inicialmente, há no máximo uma outra pedra para a qual ele pode saltar, e paratodas as outras pedras, há no máximo duas para a qual ele pode saltar (ou seja, se o Sr. Sapoconsegue chegar ao destino, há um único caminho de pedras que podem ser usadas, e essecaminho não tem "bifurcações").•Para um conjunto de casos de testes valendo outros 70 pontos, nenhuma restrição adicional.
-Exemplo de entrada 1
-4 561 12 21 43 43 54 51 14 5Exemplo de saída 1
-S
-Explicação do exemplo 1:este exemplo corresponde àgura do enunciado. O Sr. Sapo podeusar as pedras(1,1)→(1,4)→(3,4)→(3,5)→(4,5)e assim consegue chegar ao destino.
-Exemplo de entrada 2
-4 562 12 53 44 14 34 53 42 1Exemplo de saída 2
-N
-Explicação do exemplo 2:este exemplo corresponde à seguintegura:
-112233454
-RS
+
+e Para um conjunto de casos de testes valendo 14 pontos, M = 1
+
+e Para um conjunto de casos de testes valendo outros 16 pontos, para a pedra em que o Sr.
+Sapo está inicialmente, há no máximo uma outra pedra para a qual ele pode saltar, e para
+todas as outras pedras, há no máximo duas para a qual ele pode saltar (ou seja, se o Sr. Sapo
+consegue chegar ao destino, há um único caminho de pedras que podem ser usadas, e esse
+caminho não tem "bifurcações").
+
+e Para um conjunto de casos de testes valendo outros 70 pontos, nenhuma restrição adicional.
+
+Exemplo de entrada 1 Exemplo de saída 1
+
+5 o)
+
+BARSWOUANHOSR
+[oa SOS
+
+Explicação do exemplo 1: este exemplo corresponde à figura do enunciado. O Sr. Sapo pode
+usar as pedras (1,1) > (1,4) > (3,4) > (3,5) > (4,5) e assim consegue chegar ao destino.
+
+Exemplo de entrada 2 Exemplo de saída 2
+45 N
+6
+
+21
+
+25
+
+34
+
+41
+
+43
+
+45
+
+34
+
+21
+
+Explicação do exemplo 2: este exemplo corresponde à seguinte figura:
+
+1 2 3 4
+
 O Sr. Sapo não consegue dar nenhum pulo e não consegue chegar ao seu destino.

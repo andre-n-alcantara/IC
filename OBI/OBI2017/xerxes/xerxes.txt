@@ -1,13 +1,52 @@
-Olimpíada Brasileira de Informática – OBI2017 – Prog. Nível 2 – Fase 2 2
+Olimpíada Brasileira de Informática - OBI2017 — Prog. Nível 2 — Fase 2 2
+
 Dario e Xerxes
-Nome do arquivo:xerxes.c,xerxes.cpp,xerxes.pas,xerxes.java,xerxes.js,xerxes.py2ouxerxes.py3A brincadeira da Pedra, Papel e Tesoura, muita gente co-nhece. Mas dá para fazer uma mais legal com cinco opçõese não só três! Dois jogadores,darioexerxes, jogam umapartida comNrodadas. Em cada rodada os jogadoresescolhem uma “mão” entre cinco opções, que vamos repre-sentar aqui com os números0,1,2,3e4. Agura deneexatamente quem ganha a rodada. Por exemplo, sedarioescolheu0exerxesescolheu3, entãoxerxesganha a ro-dada, pois existe uma seta nagura indo de3para0.0 1234
-Depois deNrodadas, o vencedor da partida é o jogador que ganhou mais rodadas. O númeroNserá sempre ímpar, para não haver empate na partida. Vamos também considerar que os jogadoresnunca escolhem a mesma mão numa rodada, para não haver empate na rodada. Você deve escreverum programa que determine quem venceu a partida, se foidarioouxerxes.
+
+Nome do arquivo: xerxes.c, xerxes.cpp, xerxes.pas, xerxes. java, xerxes.js, xerxes.py2 ou
+xerxes.py3
+
+A brincadeira da Pedra, Papel e Tesoura, muita gente co-
+nhece. Mas dá para fazer uma mais legal com cinco opções
+e não só três! Dois jogadores, dario e xerxes, jogam uma
+partida com N rodadas. Em cada rodada os jogadores
+escolhem uma “mão” entre cinco opções, que vamos repre-
+sentar aqui com os números 0, 1, 2,3 e 4. A figura define
+exatamente quem ganha a rodada. Por exemplo, se dario
+escolheu 0 e xerxes escolheu 3, então xerxes ganha a ro-
+dada, pois existe uma seta na figura indo de 3 para 0.
+
+Depois de N rodadas, o vencedor da partida é o jogador que ganhou mais rodadas. O número N
+será sempre ímpar, para não haver empate na partida. Vamos também considerar que os jogadores
+nunca escolhem a mesma mão numa rodada, para não haver empate na rodada. Você deve escrever
+um programa que determine quem venceu a partida, se foi dario ou xerxes.
+
 Entrada
-A primeira linha da entrada contém um inteiroN, o número de rodadas na partida. Cada umadasNlinhas seguintes contém dois inteirosDeX, representando a mão que os jogadoresdarioexerxes, respectivamente, jogaram em uma rodada.
+
+A primeira linha da entrada contém um inteiro N, o número de rodadas na partida. Cada uma
+das N linhas seguintes contém dois inteiros D e X, representando a mão que os jogadores dario e
+xerxes, respectivamente, jogaram em uma rodada.
+
 Saída
-Seu programa deve imprimir uma linha contendo o nome do jogador que venceu a partida:darioouxerxes. Todas as letras devem ser minúsculas, sem nenhum acento!
+
+Seu programa deve imprimir uma linha contendo o nome do jogador que venceu a partida: dario
+ou xerxes. Todas as letras devem ser minúsculas, sem nenhum acento!
+
 Restrições
-•1N999,Né impar•0D,X4eD6=X
+
+e1<N<999, N é impar
+cO<DX<4eD£X
+
 Exemplos
-Entrada31 34 20 2 Saídadario
-Entrada13 1 Saídaxerxes
+
+Entrada Saída
+3 dario
+13
+
+42
+
+02
+
+Entrada Saída
+1 xerxes
+31
+

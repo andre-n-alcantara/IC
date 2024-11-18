@@ -1,20 +1,52 @@
-Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível Sênior – Fase Local3
+Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível Sênior - Fase Local 3
+
 Garamana
-Nome do arquivo:“garamana.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3Umanagramade uma palavra é um rearranjo das letras da palavra. Por exemplo,1. “rota” é um anagrama de “ator”;2. “amor” é um anagrama de “roma”; e3. os anagramas de “aab” são “aab”, “aba” e “baa”.Umanagrama curingade uma palavra é um anagrama em que algumas das letras podem ter sidosubstituídas pelo caractere ‘*’ (asterisco). Por exemplo, três possíveis anagramas curingas de “amor”são “*mor”, “a**r” e “r**a”.Dadas duas palavras, escreva um programa para determinar se a segunda palavra é um anagramacuringa da primeira palavra.
+
+Nome do arquivo: “garamana.x”, onde x deve ser c, cpp, pas, java, js, py2 ou py3
+
+Um anagrama de uma palavra é um rearranjo das letras da palavra. Por exemplo,
+
+1. “rota” é um anagrama de “ator”;
+2. “amor” é um anagrama de “roma”; e
+3. os anagramas de “aab” são “aab”, “aba” e “baa”.
+Um anagrama curinga de uma palavra é um anagrama em que algumas das letras podem ter sido
+
+substituídas pelo caractere “* (asterisco). Por exemplo, três possíveis anagramas curingas de “amor”
+
+são “mor”, “a**r” e “r*Ha),
+
+Dadas duas palavras, escreva um programa para determinar se a segunda palavra é um anagrama
+curinga da primeira palavra.
 Entrada
-A primeira linha da entrada contémP, a primeira palavra. A segunda linha contémA, a segundapalavra.
+
+A primeira linha da entrada contém P, a primeira palavra. A segunda linha contém A, a segunda
+palavra.
+
 Saída
-Seu programa deve produzir uma única linha, contendo um único caractere, que deve ser ‘S’ seAéum anagrama curinga deP, ou ‘N’ caso contrário.
+
+Seu programa deve produzir uma única linha, contendo um único caractere, que deve ser “S' se A é
+um anagrama curinga de P, ou “N' caso contrário.
+
 Restrições
-•1≤comprimento deP≤100•comprimento deA=comprimento deP•Pé composta por letras minúsculas não acentuadas•Aé composta por letras minúsculas não acentuadas e o caractere ‘*’ (asterisco)
+
+e 1< comprimento de P < 100
+e comprimento de 4 = comprimento de P
+e Pé composta por letras minúsculas não acentuadas
+
+e A é composta por letras minúsculas não acentuadas e o caractere “*” (asterisco)
+
 Informações sobre a pontuação
-•Para um conjunto de casos de testes valendo 50 pontos,Acontém apenas letras minúsculasnão acentuadas.
-Exemplo de entrada 1
-romaatorExemplo de saída 1
-N
-Exemplo de entrada 2
-olimpiadapoliamidaExemplo de saída 2
-S
-Exemplo de entrada 3
-microfone*conform*Exemplo de saída 3
-S
+
+e Para um conjunto de casos de testes valendo 50 pontos, A contém apenas letras minúsculas
+não acentuadas.
+
+Exemplo de entrada 1 Exemplo de saída 1
+roma N
+ator
+Exemplo de entrada 2 Exemplo de saída 2
+olimpiada o)
+poliamida
+Exemplo de entrada 3 Exemplo de saída 3
+microfone s
+*conformx
+

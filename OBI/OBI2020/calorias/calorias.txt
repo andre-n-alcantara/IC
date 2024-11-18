@@ -1,41 +1,119 @@
-Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível Júnior – Fase Nacional2
+Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível Júnior - Fase Nacional 2
+
 Aplicativo de Calorias
-Nome do arquivo:“calorias.x”,ondexdeve serc,cpp,pas,java,js,py2.pyoupy3.pyUm aplicativo de celular está sendo desenvolvido para, a partir da foto de um prato contendo umarefeição, estimar a quantidade de calorias da refeição.O algoritmo de inteligência articial (IA) utilizado no aplicativo produz três números inteiros,E
-1,E
-2eE3.E1é a quantidade mínima de calorias estimada eE 2a quantidade máxima de caloriasestimada para a refeição da fotograa.E
-3só tem signicado se a diferença entre as quantidadesestimadas mínima e máxima são maiores do que um valor pré-denidoX; nesse caso,E3é aquantidade de calorias estimada por um método alternativo.Depois de vários testes, os desenvolvedores do aplicativo determinaram que os melhores resultadossão obtidos usando as estimativas produzidas pelo algoritmo de IA da seguinte forma:•se a diferença entreE
-1eE2for menor ou igual ao valor deX, o aplicativo deve mostrar aousuário o valor deE
-2como o número de calorias;•se a diferença entreE
-1eE2for maior do que o valor deX, o aplicativo deve mostrar aousuário o valor deE
-3como o número de calorias;Dados o valor deXe as três estimativas produzidas pelo algoritmo de IA, escreva um programaque determine o resultado que deve ser mostrado para o usuário.
+
+Nome do arquivo: “calorias.x”, onde x deve ser c, cpp, pas, java, js, py2.Ppy ou py3.py
+
+Um aplicativo de celular está sendo desenvolvido para, a partir da foto de um prato contendo uma
+refeição, estimar a quantidade de calorias da refeição.
+
+O algoritmo de inteligência artificial (IA) utilizado no aplicativo produz três números inteiros, E1,
+E, e E3. E, é a quantidade mínima de calorias estimada e E a quantidade máxima de calorias
+estimada para a refeição da fotografia. Es só tem significado se a diferença entre as quantidades
+estimadas mínima e máxima são maiores do que um valor pré-definido X; nesse caso, E3 é a
+quantidade de calorias estimada por um método alternativo.
+
+Depois de vários testes, os desenvolvedores do aplicativo determinaram que os melhores resultados
+são obtidos usando as estimativas produzidas pelo algoritmo de IA da seguinte forma:
+
+e se a diferença entre E, e Es for menor ou igual ao valor de X, o aplicativo deve mostrar ao
+usuário o valor de E, como o número de calorias;
+
+e se a diferença entre E, e Es for maior do que o valor de X, o aplicativo deve mostrar ao
+usuário o valor de E3 como o número de calorias;
+
+Dados o valor de X e as três estimativas produzidas pelo algoritmo de IA, escreva um programa
+que determine o resultado que deve ser mostrado para o usuário.
+
 Entrada
-A primeira linha da entrada contém um inteiro, o valor deE 1. A segunda linha contém um inteiro,o valor deE
-2. A terceira linha contém um inteiro, o valor deE 3. A quarta linha contém um inteiro,o valor deX.
+
+A primeira linha da entrada contém um inteiro, o valor de E. A segunda linha contém um inteiro,
+o valor de E». À terceira linha contém um inteiro, o valor de Es. A quarta linha contém um inteiro,
+o valor de X.
+
 Saída
-Seu programa deve produzir uma única linha, contendo um único inteiro, o resultado que deve sermostrado para o usuário do aplicativo.
+
+Seu programa deve produzir uma única linha, contendo um único inteiro, o resultado que deve ser
+mostrado para o usuário do aplicativo.
+
 Restrições
-•0≤E 1≤E 2≤10000•0≤E
-3≤10000•0≤X≤10000
+e 0O<E,<tE<10000
+
+e 0< E; <10000
+e 0<X<10000
+
 Exemplos
-Exemplo de entrada 1
-1500200025001000Exemplo de saída 1
+
+Exemplo de entrada 1 Exemplo de saída 1
+
+1500 2000
 2000
-Exemplo de entrada 2
-100013001050200Exemplo de saída 2
-1050Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível Júnior – Fase Nacional3
+2500
+1000
+
+Exemplo de entrada 2 Exemplo de saída 2
+
+1000 1050
+1300
+1050
+200
+
+ Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível Júnior - Fase Nacional 3
+
 Cobertura para Celular
-Nome do arquivo:“celular.x”,ondexdeve serc,cpp,pas,java,js,py2.pyoupy3.pyPara atrair mais turistas, o governo decidiu permitir a instalação de uma rede de telefonia celularno paradisíaco arquipélago de Logarium. O arquipélago tem muitas ilhas no formato circular, todascom no máximo 1 km de diâmetro.Exatamente uma torre de celular será instalada no centro de cada uma das ilhas. Todas as torresserão idênticas e terão o mesmo alcance; oalcanceé a distância máxima da torre que um equipamento(telefone ou outra torre) pode estar de forma que a comunição seja possível.O governo deseja que a rede de telefonia celular garanta acobertura totaldo arquipélago, ou seja,deve ser possível a um usuário comunicar-se com qualquer outro usuário no arquipélago, mesmoque a comunicação tenha que passar por mais de uma torre.Há vários tipos de torres disponíveis no mercado, cada tipo com um alcance. O governo recebeuuma proposta atrativa de uma empresa e deseja saber se o alcance da torre ofertada permitirá acobertura total do arquipélago.Dadas a localização das torres e o alcance da torre ofertada, escreva um programa para determinarse a torre ofertada permite a cobertura total do arquipélago.
+
+Nome do arquivo: “celular .x”, onde x deve ser c, cpp, pas, java, js, py2.Py ou py3.py
+
+Para atrair mais turistas, o governo decidiu permitir a instalação de uma rede de telefonia celular
+no paradisíaco arquipélago de Logarium. O arquipélago tem muitas ilhas no formato circular, todas
+com no máximo 1 km de diâmetro.
+
+Exatamente uma torre de celular será instalada no centro de cada uma das ilhas. Todas as torres
+serão idênticas e terão o mesmo alcance; o alcance é a distância máxima da torre que um equipamento
+(telefone ou outra torre) pode estar de forma que a comunição seja possível.
+
+O governo deseja que a rede de telefonia celular garanta a cobertura total do arquipélago, ou seja,
+deve ser possível a um usuário comunicar-se com qualquer outro usuário no arquipélago, mesmo
+que a comunicação tenha que passar por mais de uma torre.
+
+Há vários tipos de torres disponíveis no mercado, cada tipo com um alcance. O governo recebeu
+uma proposta atrativa de uma empresa e deseja saber se o alcance da torre ofertada permitirá a
+cobertura total do arquipélago.
+
+Dadas a localização das torres e o alcance da torre ofertada, escreva um programa para determinar
+se a torre ofertada permite a cobertura total do arquipélago.
+
 Entrada
-A primeira linha da entrada contém um inteiroNindicando o número de ilhas do arquipélago.Cada uma dasNlinhas seguintes contém dois inteirosX
-ieYi, as coordenadas da i-ésima torre.Não existem duas torres com as mesmas coordenadas. A última linha da entrada contém um inteiroAindicando o alcance da torre.
+
+A primeira linha da entrada contém um inteiro N indicando o número de ilhas do arquipélago.
+Cada uma das N linhas seguintes contém dois inteiros X; e Y;, as coordenadas da i-ésima torre.
+Não existem duas torres com as mesmas coordenadas. A última linha da entrada contém um inteiro
+A indicando o alcance da torre.
+
 Saída
-Seu programa deve produzir uma única linha na saída, contendo um único caractere, que deve serSse a torre permite a cobertura total ouNcaso contrário.
+
+Seu programa deve produzir uma única linha na saída, contendo um único caractere, que deve ser
+S se a torre permite a cobertura total ou N caso contrário.
+
 Restrições
-•2≤N≤10000•0≤X
-i, Yi≤1000, para1≤i≤N•1≤A≤10000
+
+e 2<N<10000
+e 0<X,Y;< 1000, paral<i<N
+
+e 1<A< 10000
+
 Informações sobre a pontuação
-•Para um conjunto de casos de testes valendo 20 pontos,Y i= 0para1≤i≤N.•Para um conjunto de casos de testes valendo 80 pontos adicionais, nenhuma outra restrição.
+e Para um conjunto de casos de testes valendo 20 pontos, Y = 0 paral <i<N.
+
+e Para um conjunto de casos de testes valendo 80 pontos adicionais, nenhuma outra restrição.
+
 Exemplos
-Exemplo de entrada 1
-3200 200400 400600 600200Exemplo de saída 1
-N
+
+Exemplo de entrada 1 Exemplo de saída 1
+
+3 N
+200 200
+400 400
+600 600
+200
+

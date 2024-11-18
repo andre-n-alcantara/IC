@@ -1,21 +1,76 @@
-Olimpíada Brasileira de Informática – OBI2015 7
+Olimpíada Brasileira de Informática - OBI2015 7
+
 Cálculo
-Nome do arquivo:calculo.c,calculo.cpp,calculo.pas,calculo.java,calculo.jsoucalculo.pyOs computadores armazenam todas as informações usando representações binárias, ou seja, repre-sentações que utilizam apenas 0’s e 1’s. Há vários padrões para a representação de informaçãona forma binária, como por exemplo“complemento-de-dois”(usado para números inteiros),“ascii”(usado para caracteres e letras sem acentos), ou“ieee-754”(usado para números reais).Neste problema vamos usar a representação“obi-2015”para certos valores positivos e menores doque 1. Na“obi-2015”, o número é representado por uma sequência de 0’s e 1’s de comprimentoarbitrário. Lendo a representação da esquerda para a direita, o primeiro dígito binário representao valor2
-−1, o segundo representa2−2, o terceiro2−3, e assim por diante. A representação utilizasempre o menor número de dígitos possível (ou seja, desta forma o dígito mais à direita é sempre1).Por exemplo, a sequência de dígitos binários 0 1 representa o seguinte valor:0∗2
-−1+ 1∗2−2= 0.25Já a sequência de dígitos binários 1 0 1 0 1 1 representa o seguinte valor:1∗2
-−1+ 0∗2−2+ 1∗2−3+ 0∗2−4+ 1∗2−5+ 1∗2−6= 0.671875Sua tarefa é, dados dois númerosXeY, representados no padrãoobi-2015, determinar a represen-tação da somaX+Y, também no padrãoobi-2015.
+
+Nome do arquivo: calculo.c, calculo.cpp, calculo.pas, calculo. java, calculo.js ou
+calculo.py
+
+Os computadores armazenam todas as informações usando representações binárias, ou seja, repre-
+sentações que utilizam apenas 0's e 1's. Há vários padrões para a representação de informação
+na forma binária, como por exemplo “complemento-de-dois” (usado para números inteiros), “ascii”
+
+(usado para caracteres e letras sem acentos), ou “ieee-754” (usado para números reais).
+
+Neste problema vamos usar a representação “obi-2015” para certos valores positivos e menores do
+que 1. Na “obi-2015”, o número é representado por uma sequência de 0's e 1's de comprimento
+arbitrário. Lendo a representação da esquerda para a direita, o primeiro dígito binário representa
+o valor 2!, o segundo representa 272, o terceiro 23, e assim por diante. A representação utiliza
+sempre o menor número de dígitos possível (ou seja, desta forma o dígito mais à direita é sempre
+
+Por exemplo, a sequência de dígitos binários O 1 representa o seguinte valor:
+042141422 =0.25
+
+Já a sequência de dígitos binários 1 0 101 1 representa o seguinte valor:
+
+142140422 41429340429141495 414928 = 0.671875
+
+Sua tarefa é, dados dois números X e Y, representados no padrão obi-2015, determinar a represen-
+tação da soma X + Y, também no padrão obi-2015.
+
 Entrada
-A primeira linha contém os inteirosMeN, representando respectivamente o número de dígitosbinários deXe deY. A segunda linha contémMnúmerosX i, representandoXno padrãoobi-2015. A terceira linha contémNnúmerosY
-j, representandoYno padrãoobi-2015.
+
+A primeira linha contém os inteiros M e N, representando respectivamente o número de dígitos
+binários de X e de Y. A segunda linha contém M números X;, representando X no padrão obi-
+2015. A terceira linha contém N números Y;, representando Y no padrão obi-2015.
+
 Saída
-Seu programa deve produzir uma única linha, contendo a representação do valorX+Yno padrãoobi-2015.
+
+Seu programa deve produzir uma única linha, contendo a representação do valor X + Y no padrão
+obi-2015.
+
 Restrições
-•1≤M, N≤103
-•0< X, Y <1•X
-i∈{0,1}, para0≤i≤M•Yj∈{0,1}, para0≤j≤N•X+Y <1
+
+1<M,N<I10
+0O<X,Y<l
+
+X;€e (0,1), paraO<i<M
+Y, e (0,1), para0<j<N
+X+Y<l
+
 Informações sobre a pontuação
-•Em um conjunto de casos de teste somando 20 pontos,N≤5eM≤5.Olimpíada Brasileira de Informática – OBI2015 8
+
+e Em um conjunto de casos de teste somando 20 pontos, N<5eM <s5.
+ Olimpíada Brasileira de Informática
+
+OBI2015
+
 Exemplos
-Entrada2 30 10 0 1 Saída0 1 1
-Entrada5 41 0 1 1 10 0 0 1 Saída1 1 0 0 1
-Entrada4 50 1 1 10 0 1 1 1 Saída1 0 1 0 1
+
+Entrada Saída
+283 011
+01
+
+001
+
+Entrada Saída
+54 11001
+10111
+
+0001
+
+Entrada Saída
+45 10101
+0111
+
+00111
+

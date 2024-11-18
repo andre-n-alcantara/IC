@@ -1,18 +1,93 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2008 – Programa¸ c˜ ao N´ıvel 2 Fase 1 4
-Avi˜ ao
-Nome do arquivo fonte:aviao.c,aviao.cppouaviao.pasSu Zuki ´ e um empres´ ario japonˆ es acostumado a fazer viagens de avi˜ ao, sempre na classe econˆ omica, e quer saberqual seu assento com base no novo sistema da companhia a´ erea.Todos os avi˜ oes cont´ em uma classe executiva e uma econˆ omica, de forma que as primeirasleiras do avi˜ aopertencem ` a classe executiva e as restantes ` a classe econˆ omica.Cada assento do avi˜ ao ´ e indicado por um n´ umero correspondente a sualeira e por uma letra que indica a suaposi¸ c˜ ao naleira, sendoAa posi¸ c˜ ao mais ` a esquerda daleira,Ba posi¸ c˜ ao ` a direita do assentoA,Co assento` a direita do assentoB, e assim por diante, seguindo o alfabeto de 26 letras. Por exemplo, a assento 9Best´ alocalizado na nonaleira, logo ` a direita do assento 9A. Agura abaixo mostra a numera¸ c˜ ao utilizada em umavi˜ ao com noveleiras de trˆ es assentos cada.
-3A 3B 3C
-6A 6B 6C
-9B 9A 9C2A 2B 2C
-5A 5B 5C
-8B 8A 8C1A 1B 1C
+Olimpíada Brasileira de Informática — OBI2008 — Programação Nível 2 Fase 1 4
+
+Avião
+
+Nome do arquivo fonte: aviao.c, aviao.cpp ou aviao.pas
+
+Su Zuki é um empresário japonês acostumado a fazer viagens de avião, sempre na classe econômica, e quer saber
+qual seu assento com base no novo sistema da companhia aérea.
+
+Todos os aviões contém uma classe executiva e uma econômica, de forma que as primeiras fileiras do avião
+pertencem à classe executiva e as restantes à classe econômica.
+
+Cada assento do avião é indicado por um número correspondente a sua fileira e por uma letra que indica a sua
+posição na fileira, sendo A a posição mais à esquerda da fileira, B a posição à direita do assento 4, C o assento
+à direita do assento B, e assim por diante, seguindo o alfabeto de 26 letras. Por exemplo, a assento 9B está
+localizado na nona fileira, logo à direita do assento 94. A figura abaixo mostra a numeração utilizada em um
+avião com nove fileiras de três assentos cada.
+
+1A 1B 1C
+
+2A 2B 2C
+
+3A 3B 3c
+
 4A 4B 4C
-7B 7A 7C
-A companhia a´ erea adotou, para a classe econˆ omica, um sistema no qual o bilhete indica a posi¸ c˜ ao do passageironala de embarque e n˜ ao seu assento no vˆ oo. Ala de embarque cont´ em apenas passageiros da classe econˆ omica.Su Zuki descobriu que o primeiro passageiro dala de embarque deve sempre sentar-se no assento localizadona primeiraleira da classe econˆ omica, posi¸ c˜ aoA. O segundo passageiro deve sentar-se nesta mesmaleira,posi¸ c˜ aoB, e assim por diante, at´ e que todos os assentos dessaleira estejam ocupados. Esse processo ´ e repetidoa cadaleira da classe econˆ omica, at´ e que acabem os assentos desta classe ou todos os passageiros dala j´ atenham embarcado.Caso a classe econˆ omica j´ a esteja lotada e ainda haja passageiros nala, esses passageiros embarcar˜ ao somenteno pr´ oximo vˆ oo.Como viajante freq¨ uente, Su Zuki conhece bem os diversos modelos de avi˜ oes e ´ e capaz de dizer o n´ umero totaldeleiras no avi˜ ao, o n´ umero de posi¸ c˜ oes porleira, e a partir de queleira come¸ ca a classe econˆ omica. Combase nessas informa¸ c˜ oes, ele pediu a sua ajuda para descobrir, a partir de sua posi¸ c˜ ao nala, se ele tem assentogarantido neste vˆ oo e, caso tenha, qual seu assento.
+
+5A 5B 5C
+
+6A 6B 6C
+
+TA 7B 7C
+
+8A 8B 8c
+
+9A 9B 9C
+
+A companhia aérea adotou, para a classe econômica, um sistema no qual o bilhete indica a posição do passageiro
+na fila de embarque e não seu assento no vôo. A fila de embarque contém apenas passageiros da classe econômica.
+
+Su Zuki descobriu que o primeiro passageiro da fila de embarque deve sempre sentar-se no assento localizado
+na primeira fileira da classe econômica, posição 4. O segundo passageiro deve sentar-se nesta mesma fileira,
+posição B, e assim por diante, até que todos os assentos dessa fileira estejam ocupados. Esse processo é repetido
+
+a cada fileira da classe econômica, até que acabem os assentos desta classe ou todos os passageiros da fila já
+tenham embarcado.
+
+Caso a classe econômica já esteja lotada e ainda haja passageiros na fila, esses passageiros embarcarão somente
+no próximo vôo.
+Como viajante frequente, Su Zuki conhece bem os diversos modelos de aviões e é capaz de dizer o número total
+de fileiras no avião, o número de posições por fileira, e a partir de que fileira começa a classe econômica. Com
+base ness
+
+s informações, ele pediu a sua ajuda para descobrir, a partir de sua posição na fila, se ele tem assento
+garantido neste vôo e, caso tenha, qual seu assento.
+
 Entrada
-A entrada cont´ em um ´ unico teste, a ser lido daentrada padr˜ ao. O teste cont´ em uma linha com quatro inteirosF,C,E,B(2≤F≤1.000, 1≤C≤26, 1≤E≤F, 2≤B≤50.000) indicando, respectivamente, o n´ umerototal deleiras no avi˜ ao, o n´ umero de posi¸ c˜ oes porleira, o n´ umero da primeiraleira da classe econˆ omica e aposi¸ c˜ ao nala de embarque do Sr. Zuki.Olimp´ıada Brasileira de Inform´ atica – OBI2008 – Programa¸ c˜ ao N´ıvel 2 Fase 1 5
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, uma ´ unica linha, contendo um inteiro e uma letra mai´ uscula,indicando aleira e a posi¸ c˜ ao em que o Su Zuki ir´ a sentar-se, ou a frase “PROXIMO VOO” (em mai´ usculas esem acentos) caso n˜ ao haja assentos sucientes para o Sr. Zuki no vˆ oo.
-Exemplo de entrada5 5 2 12 Exemplo de sa´ıda4 B
-Exemplo de entrada50 12 13 185 Exemplo de sa´ıda28 E
-Exemplo de entrada12 10 6 100 Exemplo de sa´ıdaPROXIMO VOO
+
+A entrada contém um único teste, a ser lido da entrada padrão. O teste contém uma linha com quatro inteiros
+F,C E, B(2<F<1000,1<C<261<E<F,2<B< 50.000) indicando, respectivamente, o número
+total de fileiras no avião, o número de posições por fileira, o número da primeira fileira da classe econômica e a
+posição na fila de embarque do Sr. Zuki.
+ Olimpíada Brasileira de Informática — OB12008 — Programação Nível 2 Fase 1 5
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, uma única linha, contendo um inteiro e uma letra maiúscula,
+indicando a fileira e a posição em que o Su Zuki irá sentar-se, ou a frase “PROXIMO VOO” (em maiúsculas e
+sem acentos) caso não haja assentos suficientes para o Sr. Zuki no vôo.
+
+Exemplo de entrada
+
+55212
+
+Exemplo de saída
+
+4B
+
+Exemplo de entrada
+
+50 12 13 185
+
+Exemplo de saída
+
+28 E
+
+Exemplo de entrada
+
+12 10 6 100
+
+Exemplo de saída
+
+PROXIMO VOO
+

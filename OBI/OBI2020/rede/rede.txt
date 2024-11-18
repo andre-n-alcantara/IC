@@ -1,23 +1,80 @@
-Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 1 – Fase Nacional2
+Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível 1 — Fase Nacional 2
+
 Rede Social
-Nome do arquivo:“rede.x”,ondexdeve serc,cpp,pas,java,js,py2.pyoupy3.pyUma nova rede social foi lançada e fez sucesso imediato. Nessa nova rede é possívelpostarmensagensque são recebidas porseguidores; um seguidor pode decidirrepostaruma mensagem que recebeu eseus seguidores também receberão a mensagem e poderão por sua vez repostá-la.Para medir ainuênciade um usuário na nova rede foi criado um novo critério, chamado de Fatorde Inuência, descrito a seguir.•Inicialmente vamos denir oíndice de repostagemde uma mensagem M de um usuário U comosendo o número de usuários diferentes de U que repostaram M.•O Fator de Inuência de um usuário U é o máximo valor deFItal que U postouFImensagensque, cada uma, tem um índice de repostagem de pelo menosFI.Por exemplo, se João postou quatro mensagens, com índices de repostagem 1, 1, 5, 6, seu Fator deInuência é 2, pois postou duas mensagens com índice de repostagem maior ou igual a 2.Dada uma lista com os índices de repostagens de todas as mensagens postadas por um usuário,escreva um programa para calcular o Fator de Inuência do usuário.
+
+Nome do arquivo: “rede .x”, onde x deve ser c, cpp, pas, java, js, py2.py ou py3.py
+
+Uma nova rede social foi lançada e fez sucesso imediato. Nessa nova rede é possível postar mensagens
+que são recebidas por seguidores; um seguidor pode decidir repostar uma mensagem que recebeu e
+seus seguidores também receberão a mensagem e poderão por sua vez repostá-la.
+
+Para medir a influência de um usuário na nova rede foi criado um novo critério, chamado de Fator
+de Influência, descrito a seguir.
+
+e Inicialmente vamos definir o índice de repostagem de uma mensagem M de um usuário U como
+sendo o número de usuários diferentes de U que repostaram M.
+
+e O Fator de Influência de um usuário U é o máximo valor de FI tal que U postou FI mensagens
+que, cada uma, tem um índice de repostagem de pelo menos FT.
+
+Por exemplo, se João postou quatro mensagens, com índices de repostagem 1, 1, 5, 6, seu Fator de
+Influência é 2, pois postou duas mensagens com índice de repostagem maior ou igual a 2.
+
+Dada uma lista com os índices de repostagens de todas as mensagens postadas por um usuário,
+escreva um programa para calcular o Fator de Influência do usuário.
+
 Entrada
-A primeira linha da entrada contém um inteiroN, o número de mensagens postadas pelo usuário.Cada uma dasNlinhas seguintes contém um inteiroR
-i, o índice de repostagem de uma mensagem.
+
+A primeira linha da entrada contém um inteiro N, o número de mensagens postadas pelo usuário.
+Cada uma das N linhas seguintes contém um inteiro R;, o índice de repostagem de uma mensagem.
+
 Saída
-Seu programa deve produzir uma única linha, contendo um único número inteiro, o Fator de In-uência para o usuário.
+
+Seu programa deve produzir uma única linha, contendo um único número inteiro, o Fator de In-
+fluência para o usuário.
+
 Restrições
-•1≤N≤5×105
-•0≤R i≤106para1≤i≤N
+
+“1<N<5x10
+
+c0<R;<10paral<i<N
+
 Informações sobre a pontuação
-•Para um conjunto de casos de testes valendo 20 pontos,1≤N≤1000.•Para um conjunto adicional de casos de testes valendo 80 pontos, nenhuma restrição adicional.
+
+e Para um conjunto de casos de testes valendo 20 pontos, 1 < N < 1000.
+
+e Para um conjunto adicional de casos de testes valendo 80 pontos, nenhuma restrição adicional.
+
 Exemplos
-Exemplo de entrada 1
-514171Exemplo de saída 1
-2Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 1 – Fase Nacional3
+
+Exemplo de entrada 1 Exemplo de saída 1
+
+2
+
+RN HaRH O
+
+ Olimpíada Brasileira de Informática - OBI2020
+
+Prog. Nível 1 - Fase Nacional
+
 Exemplo de entrada 2
-51253515Exemplo de saída 2
-4
-Exemplo de entrada 3
-43333Exemplo de saída 3
+
+5
+12
+5
 3
+5
+15
+
+Exemplo de saída 2
+
+4
+
+Exemplo de entrada 3
+
+OU w was
+
+Exemplo de saída 3
+
+3
+

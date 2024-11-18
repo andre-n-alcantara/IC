@@ -1,15 +1,78 @@
-Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível 2 – Fase Nacional10
+Olimpíada Brasileira de Informática
+
 Bolas
-Nome do arquivo:“bolas.x”,ondexdeve serc|cpp|pas|java|js|py2|py3Temos oito bolas, colocadas lado a lado em umasequência. Cada bola tem um número impresso, quepode ter valor de0até9. Queremos trocar algumasbolas de posição na sequência de modo que nenhumpar de bolas vizinhas na sequência tenha o mesmo nú-mero. Quer dizer, não pode haver duas bolas, uma aolado da outra, com o mesmo número. Agura ao ladomostra um exemplo para o qual isso foi possível. Masserá que sempre é possível? Seu programa deve decidirse é ou não possível obter uma sequência em que nãohaja bolas vizinhas com o mesmo número.
+
+OBN018 - Prog. Nível 2 — Fase Nacional 10
+
+Nome do arquivo: “bolas .x”, onde x deve ser clcpplpasljavaljslpy2lpy3
+
+Temos oito bolas, colocadas lado a lado em uma
+
+seg
+
+uência. Cada bola tem um número impresso, que
+
+pode ter valor de O até 9. Queremos trocar algumas
+
+bo
+
+as de posição na sequência de modo que nenhum
+
+par de bolas vizinhas na sequência tenha o mesmo nú-
+
+me:
+lad
+
+mo;
+
+ser:
+se
+
+ro. Quer dizer, não pode haver duas bolas, uma ao
+o da outra, com o mesmo número. À figura ao lado
+stra um exemplo para o qual isso foi possível. Mas
+á que sempre é possível? Seu programa deve decidir
+
+é ou não possível obter uma sequência em que não
+
+ha,
+
+ja bolas vizinhas com o mesmo número.
+
 Entrada
-A única linha da entrada contém uma sequência de oito inteirosB i, para1≤i≤8, representandoos números impressos em cada bola da sequência.
+
+DOI)
+
+III)
+
+A única linha da entrada contém uma sequência de oito inteiros B;, para 1 <i <8, representando
+
+os
+
+números impressos em cada bola da sequência.
+
 Saída
-Imprima uma linha contendo o caractere “S” se for possível trocar bolas de posição e obter asequência sem bolas vizinhas com o mesmo número; ou o caracter “N” se não for possível.
+
+Imprima uma linha contendo o caractere “S” se for possível trocar bolas de posição e obter a
+sequência sem bolas vizinhas com o mesmo número; ou o caracter “N” se não for possível.
+
 Restrições
-•B ié um inteiro entre0e9, inclusive.
+
+e B; é um inteiro entre O e 9, inclusive.
+
 Exemplo de entrada 1
-3 7 3 3 5 5 5 9Exemplo de saída 1
-S
+
+37335559
+
+Exemplo de saída 1
+
+s
+
 Exemplo de entrada 2
-8 3 8 8 8 8 8 0Exemplo de saída 2
+
+s3888880
+
+Exemplo de saída 2
+
 N
+

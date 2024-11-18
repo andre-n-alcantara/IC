@@ -1,19 +1,69 @@
-Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível 2 – Fase Estadual6
+Olimpíada Brasileira de Informática - OBI2019 — Prog. Nível 2 — Fase Estadual 6
+
 Supermercado
-Nome do arquivo:super.c,super.cpp,super.pas,super.java,super.js,super_py2.pyousuper_py3.py
-Maria está participando de um programa de intercâmbio no reino da Nlogônia. Ela está gostandomuito da experiência, e decidiu fazer um churrasco para suas novas amigas da escola. Como nãotem muito dinheiro, Maria vai fazer uma pesquisa para comprar carne no supermercado mais baratoque encontrar.No entanto ela está um pouco confusa para saber qual supermercado tem o menor preço. O dinheirona Nlogônia é o Bit, abreviado por B$, mas não é esse o problema. O problema é que o costume naNlogônia é informar o preço de uma maneira diferente do que Maria está acostumada. Os preçossão anunciados como “XBits porYgramas do produto”.Por exemplo o preço de um dado produto é anunciado como sendo B$ 24,00 por 250 gramas emum supermercado, B$ 16,00 por 100 gramas em outro supermercado, B$ 19,00 por 120 gramas emoutro supermercado, e assim por diante.Você pode ajudar Maria?Dados os preços anunciados pelos supermercados no bairro em que Maria mora, determine o menorvalor que Maria deve gastar para comprar 1 kilograma (1000 gramas) de carne.
+
+Nome do arquivo: super.c, super.cpp, super.pas, super. java, super.js, super py2.py ou super py3.py
+
+Maria está participando de um programa de intercâmbio no reino da Nlogônia. Ela está gostando
+muito da experiência, e decidiu fazer um churrasco para suas novas amigas da escola. Como não
+tem muito dinheiro, Maria vai fazer uma pesquisa para comprar carne no supermercado mais barato
+que encontrar.
+
+No entanto ela está um pouco confusa para saber qual supermercado tem o menor preço. O dinheiro
+na Nlogônia é o Bit, abreviado por B$, mas não é esse o problema. O problema é que o costume na
+Nlogônia é informar o preço de uma maneira diferente do que Maria está acostumada. Os preços
+são anunciados como “X Bits por Y gramas do produto”.
+
+Por exemplo o preço de um dado produto é anunciado como sendo B$ 24,00 por 250 gramas em
+um supermercado, B$ 16,00 por 100 gramas em outro supermercado, B$ 19,00 por 120 gramas em
+outro supermercado, e assim por diante.
+
+Você pode ajudar Maria?
+
+Dados os preços anunciados pelos supermercados no bairro em que Maria mora, determine o menor
+valor que Maria deve gastar para comprar 1 kilograma (1000 gramas) de carne.
+
 Entrada
-A primeira linha contém um número inteiroN, o número de supermercados próximos à casa deMaria. Cada uma dasNlinhas seguintes indica o preço da carne em um supermercado e contémum número realPe um número inteiroG, indicando queGgramas de carne custamPBits.
+
+A primeira linha contém um número inteiro N, o número de supermercados próximos à casa de
+Maria. Cada uma das N linhas seguintes indica o preço da carne em um supermercado e contém
+um número real P e um número inteiro G, indicando que G gramas de carne custam P Bits.
+
 Saída
-Seu programa deve produzir uma única linha, com apenas um número real, o menor preço paracomprar 1 kilograma de carne. O resultado deve ser escrito com exatamente dois dígitos após oponto decimal.
+
+Seu programa deve produzir uma única linha, com apenas um número real, o menor preço para
+comprar 1 kilograma de carne. O resultado deve ser escrito com exatamente dois dígitos após o
+ponto decimal.
+
 Restrições
-•1≤N≤100•0< P≤1000.00, representado com dois dígitos após o ponto decimal.•1≤G≤1000
-Exemplo de entrada 1
-33.0 1002.0 1005.0 100Exemplo de saída 1
-20.00
-Exemplo de entrada 2
-4100.00 500190.00 1000200.00 900110.00 550Exemplo de saída 2
-190.00Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível 2 – Fase Estadual7
-Exemplo de entrada 3
-546.50 79425.72 13066.00 80022.45 11038.99 453Exemplo de saída 3
-58.56
+ei1I<N<100
+e 0O< P< 1000.00, representado com dois dígitos após o ponto decimal.
+
+e 1<G<1000
+
+Exemplo de entrada 1 Exemplo de saída 1
+
+3 20.00
+3.0 100
+2.0 100
+5.0 100
+
+Exemplo de entrada 2 Exemplo de saída 2
+
+4 190.00
+100.00 500
+190.00 1000
+200.00 900
+110.00 550
+
+ Olimpíada Brasileira de Informática - OBI2019 — Prog. Nível 2 — Fase Estadual
+
+Exemplo de entrada 3 Exemplo de saída 3
+
+5 58.56
+46.50 794
+25.72 130
+66.00 800
+22.45 110
+38.99 453
+

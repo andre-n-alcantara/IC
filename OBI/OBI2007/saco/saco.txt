@@ -1,13 +1,55 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2007 – Programa¸ c˜ ao N´ıvel 2 Fase 1 4
+Olimpíada Brasileira de Informática — OBI2007 — Programação Nível 2 Fase 1 4
+
 Sacoleiro
-Nome do arquivo fonte:saco.c,saco.cpp,ousaco.pasSeu amigo sacoleiro pediu sua ajuda num problema que ele est´ a enfrentando. Ele tem um mapa de cidadesque ele j´ a conhece e que s˜ ao interessantes para ele, al´ em das rotas entre as mesmas. Ele pretende fazer umaviagem para comprar presentes para seulho e para sualha. O problema ´ e que nem todos os presentes tˆ em omesmo pre¸ co, alguns s˜ ao obviamente mais caros que os outros, e ele n˜ ao quer ser injusto dando presentes maiscaros para um ou para outro. O objetivo ´ e fazer com que diferen¸ ca entre a soma dos valores dos presentes sejaa menor poss´ıvel (de preferˆ encia que sejam iguais, naturalmente). H´ a, tamb´ em, um limite de quanto ele podegastar na viagem.O sacoleiro tem um mapa comNcidades e as rotas que as ligam. Al´ em disso, cada cidade pertence aogrupoAou ao grupoB. No grupoAest˜ ao as cidades em que h´ a presentes para olho, enquanto que no grupoBest˜ ao as cidades com presentes para alha. Sempre que ele p´ ara numa cidade ele pode comprar ou n˜ ao opresente,mesmo que ele j´ a tenha estado l´ a antes, inclusive pode comprar mais de uma unidade do mesmopresente (enquanto tiver dinheiro dispon´ıvel, naturalmente). As cidades s˜ ao numeradas de 0 aN−1. O trajetodeve sempre come¸ ca na cidade 0. O tamanho do percurso n˜ ao importa para o sacoleiro. O total dispon´ıvelde dinheiro para os presentes ´ eT. O sacoleiro n˜ ao pode terminar a viagem sem ter comprado pelo menos umpresente para algum doslhos.
+
+Nome do arquivo fonte: saco.c, saco.cpp, ou saco.pas
+
+Seu amigo sacoleiro pediu sua ajuda num problema que ele está enfrentando. Ele tem um mapa de cidades
+que ele já conhece e que são interessantes para ele, além das rotas entre as mesmas. Ele pretende fazer uma
+viagem para comprar presentes para seu filho e para sua filha. O problema é que nem todos os presentes têm o
+mesmo preço, alguns são obviamente mais caros que os outros, e ele não quer ser injusto dando presentes mais
+caros para um ou para outro. O objetivo é fazer com que diferença entre a soma dos valores dos presentes seja
+a menor possível (de preferência que sejam iguais, naturalmente). Há, também, um limite de quanto ele pode
+gastar na viagem.
+
+O sacoleiro tem um mapa com N cidades e as rotas que as ligam. Além disso, cada cidade pertence ao
+grupo 4 ou ao grupo B. No grupo 4 estão as cidades em que há presentes para o filho, enquanto que no grupo
+B estão as cidades com presentes para a filha. Sempre que ele pára numa cidade ele pode comprar ou não o
+presente, mesmo que ele já tenha estado lá antes, inclusive pode comprar mais de uma unidade do mesmo
+presente (enquanto tiver dinheiro disponível, naturalmente). As cidades são numeradas de 0a N—1. O trajeto
+deve sempre começa na cidade 0. O tamanho do percurso não importa para o sacoleiro. O total disponível
+de dinheiro para os presentes é T. O sacoleiro não pode terminar a viagem sem ter comprado pelo menos um
+presente para algum dos filhos.
+
 Tarefa
-Escreva um programa que, dadasNcidades, as rotas entre elas e os valores de presentes de cada cidade, retornequal a diferen¸ ca m´ınima poss´ıvel entre a soma dos presentes do grupoAe a soma dos presentes do grupoB.
+
+Escreva um programa que, dadas N cidades, as rotas entre elas e os valores de presentes de cada cidade, retorne
+qual a diferença mínima possível entre a soma dos presentes do grupo 4 e a soma dos presentes do grupo B.
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). A primeira linha da entrada cont´ em um inteiroN(2≤N≤30) que indica a quantidade de cidades.A segunda linha cont´ em um inteiroT(10≤T≤100) que indica a quantidade de dinheiro que o sacoleiro tempara gastar. AsNlinhas seguintes contˆ em a descri¸ c˜ ao cada cidade. Cada uma dessas linhas tem o formatoXPCKV
-0V1...VK−1, ondeX´ e um inteiro que representa a cidade (numeradas de 0 aN−1);P´ e um inteiro(1≤P≤10) que indica o valor do presente da cidadeX;C´ e um caracterAouB, indicando a que grupo acidadeXpertence;K´ e um inteiro (0≤K < N) que indica quantas rotas saem da cidadeX; e cadaV
-i´ e um inteiro indicando um dos poss´ıveis destinos a partir da cidadeX. Note que as rotasn˜ aos˜ ao bidirecionais. Umacidade nunca ter´ a rota para ela mesma e pode-se assumir quei=j⇒V
-i=Vj.
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, uma ´ unica linha com um inteiro representando a menor diferen¸ caposs´ıvel de valores entre os presentes comprados para o grupoAe para o grupoB.
-Entrada4200 9 A 2 1 21 8 B 1 22 7 A 1 33 6 B 1 1Sa´ıda1
+
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado). A primeira linha da entrada contém um inteiro N (2 < N < 30) que indica a quantidade de cidades.
+A segunda linha contém um inteiro T (10 <T < 100) que indica a quantidade de dinheiro que o sacoleiro tem
+para gastar. As N linhas seguintes contêm a descrição cada cidade. Cada uma dessas linhas tem o formato
+XPCKVoVi...Vk-1, onde X é um inteiro que representa a cidade (numeradas de O a N — 1); P é um inteiro
+(1< P< 10) que indica o valor do presente da cidade X; C é um caracter A ou B, indicando a que grupo a
+cidade X pertence; K é um inteiro (0 < K < N) que indica quantas rotas saem da cidade X; e cada V; é um
+inteiro indicando um dos possíveis destinos a partir da cidade X. Note que as rotas não são bidirecionais. Uma
+cidade nunca terá rota para ela mesma e pode-se assumir que i Lj > V; + V;.
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, uma única linha com um inteiro representando a menor diferença
+possível de valores entre os presentes comprados para o grupo 4 e para o grupo B.
+
+Entrada
+
+wrNHo
+[o o o Ro)
+v>UWw =
+E)
+O
+
+Saída
+

@@ -1,26 +1,98 @@
-Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 1 – Fase Nacional4
+Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível 1 — Fase Nacional 4
+
 Jogo do Preto e Branco
-Nome do arquivo:“jogo.x”,ondexdeve serc,cpp,pas,java,js,py2.pyoupy3.pyVocê gosta de quebra-cabeças? O jogo do Preto e Branco é um quebra-cabeças que usa um tabuleiroretangular comLlinhas eCcolunas, formandoL×Ccasas. No tabuleiro são posicionadas algumaspeças pretas, cada peça em uma casa diferente.O objetivo do jogo é colocar o maior número possível de peças brancas no tabuleiro, obedecendo àsseguintes restrições:•cada casa do tabuleiro pode conter no máximo uma peça;•uma peça branca deve ter ao menos uma peça preta como vizinha, à direita, à esquerda, acimaou abaixo;•uma peça branca não pode ter outra peça branca como vizinha, à direita, à esquerda, acimaou abaixo;Agura abaixo mostra dois exemplos de jogos, com as respectivas soluções, um com um tabuleiro3×3e outro com um tabuleiro3×5.
-(a)(b)
-Sua tarefa é escrever um programa que, dadas as descrições do tabuleiro e das peças pretas posici-onadas, determine o maior número de peças brancas que podem ser colocadas.
+
+Nome do arquivo: “jogo.x”, onde x deve
+
+er c, CPP, pas, java, js, Py2.Py ou py3.Py
+
+Você gosta de quebra-cabeças? O jogo do Preto e Branco é um quebra-cabeças que usa um tabuleiro
+retangular com L linhas e € colunas, formando L x C casas. No tabuleiro são posicionadas algumas
+peças pretas, cada peça em uma casa diferente.
+
+O objetivo do jogo é colocar o maior número possível de peças brancas no tabuleiro, obedecendo às
+seguintes restrições:
+e cada casa do tabuleiro pode conter no máximo uma peça;
+
+e uma peça branca deve ter ao menos uma peça preta como vizinha, à direita, à esquerda, acima
+ou abaixo;
+
+e uma peça branca não pode ter outra peça branca como vizinha, à direita, à esquerda, acima
+ou abaixo;
+
+A figura abaixo mostra dois exemplos de jogos, com as respectivas soluções, um com um tabuleiro
+3x 3 e outro com um tabuleiro 3 x 5.
+
+Sua tarefa é escrever um programa que, dadas as descrições do tabuleiro e das peças pretas posici-
+onadas, determine o maior número de peças brancas que podem ser colocadas.
+
 Entrada
-A primeira linha contém dois inteirosLeC, o número de linhas e o número de colunas do tabuleiro.As linhas são numeradas de 1 aLe as colunas são numeradas de 1 aC. A segunda linha contémum inteiroP, o número de peças pretas colocadas no tabuleiro. Cada uma dasPlinhas seguintesdescreve a posição de uma peça preta e contém dois inteirosX
-ieYi, indicando a linha e a colunaem que a peça foi colocada.
+
+A primeira linha contém dois inteiros L e C, o número de linhas e o número de colunas do tabuleiro.
+As linhas são numeradas de 1 à L e as colunas são numeradas de 1 a C. A segunda linha contém
+um inteiro P, o número de peças pretas colocadas no tabuleiro. Cada uma das P linhas seguintes
+descreve a posição de uma peça preta e contém dois inteiros X; e Y;, indicando a linha e a coluna
+em que a peça foi colocada.
+
 Saída
-Seu programa deve produzir uma única linha, contendo um único inteiro, o maior número de peçasbrancas que podem ser colocadas no tabuleiro.
+
+Seu programa deve produzir uma única linha, contendo um único inteiro, o maior número de peças
+brancas que podem ser colocadas no tabuleiro.
+
 Restrições
-•1≤L≤6•1≤C≤6•1≤P≤10•1≤X
-i≤Lpara1≤i≤L•1≤Y
-i≤Cpara1≤i≤COlimpíada Brasileira de Informática – OBI2020 – Prog. Nível 1 – Fase Nacional5
+
+c1I<L<6
+
+“1<C<6
+
+e“1<P<10
+“1I<X<Lpaal<i<L
+
+ei1I<Y<Cparal<i<Cl
+ Olimpíada Brasileira de Informática
+
 Informações sobre a pontuação
-•Para um conjunto de casos de testes valendo 20 pontos,L= 1.•Para um conjunto adicional de casos de testes valendo 80 pontos, nenhuma restrição adicional.
+
+0BD2020 - Prog. Nível 1 - Fase Nacional 5
+
+e Para um conjunto de casos de testes valendo 20 pontos, L = 1.
+
+e Para um conjunto adicional de casos de testes valendo 80 pontos, nenhuma restrição adicional.
+
 Exemplos
+
 Exemplo de entrada 1
-3 331 11 33 2Exemplo de saída 1
+
 3
+
+How
+DN w nm
+
+Exemplo de saída 1
+
+3
+
 Exemplo de entrada 2
-1 621 21 5Exemplo de saída 2
+
+16
+2
+1
+1
+
+[61]
+
+Exemplo de saída 2
+
 3
+
 Exemplo de entrada 3
-3 532 22 33 5Exemplo de saída 3
+
 5
+
+CNN UOw
+UN
+
+Exemplo de saída 3
+
+5
+

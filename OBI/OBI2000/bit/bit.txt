@@ -1,10 +1,51 @@
-60Bits Trocados
-Arquivo fonte: bit.c, bit.cc, bit.cpp ou bit.pasAs Ilhas Weblands formam um reino independente nos mares do Pacíﬁco. Como é um reinorecente, a sociedade é muito inﬂuenciada pela informática. A moeda oﬁcial é o Bit; existem notasde B$ 50,00, B$10,00, B$5,00 e B$1,00. Você foi contratado(a) para ajudar na programação doscaixas automáticos de um grande banco das Ilhas Weblands.
+Bits Trocados
+
+Arquivo fonte: bit.c, bit.cc, bit.cpp ou bit.pas
+
+As Ilhas Weblands formam um reino independente nos mares do Pacífico. Como é um reino
+recente, a sociedade é muito influenciada pela informática. A moeda oficial é o Bit; existem notas
+de B$ 50,00, B$10,00, B$5,00 e B$1,00. Você foi contratado(a) para ajudar na programação dos
+caixas automáticos de um grande banco das Ilhas Weblands.
+
 1. Tarefa
-Os caixas eletrônicos das Ilhas Weblands operam com todos os tipos de notas disponíveis, man-tendo um estoque de cédulas para cada valor (B$ 50,00, B$10,00, B$5,00 e B$1,00). Os clientesdo banco utilizam os caixas eletrônicos para efetuar retiradas de um certo número inteiro de Bits. Sua tarefa é escrever um programa que, dado o valor de Bits desejado pelo cliente, determine onúmero de cada uma das notas necessário para totalizar esse valor, de modo a minimizar a quanti-dade de cédulas entregues. Por exemplo, se o cliente deseja retirar B$50,00, basta entregar umaúnica nota de cinquenta Bits. Se o cliente deseja retirar B$72,00, é necessário entregar uma notade B$50,00, duas de B$10,00 e duas de B$1,00.
+
+Os caixas eletrônicos das Ilhas Weblands operam com todos os tipos de notas disponíveis, man-
+tendo um estoque de cédulas para cada valor (B$ 50,00, B$10,00, B$5,00 e B$1,00). Os clientes
+do banco utilizam os caixas eletrônicos para efetuar retiradas de um certo número inteiro de Bits.
+
+Sua tarefa é escrever um programa que, dado o valor de Bits desejado pelo cliente, determine o
+número de cada uma das notas necessário para totalizar esse valor, de modo a minimizar a quanti-
+dade de cédulas entregues. Por exemplo, se o cliente deseja retirar B$50,00, basta entregar uma
+única nota de cinquenta Bits. Se o cliente deseja retirar B$72,00, é necessário entregar uma nota
+de B$50,00, duas de B$10,00 e duas de B$1,00.
+
 2. Entrada
-A entrada é composta de vários conjuntos de teste. Cada conjunto de teste é composto por umaúnica linha, que contém um número inteiro positivoV, que indica o valor solicitado pelo cliente. Oﬁnal da entrada é indicado por V = 0.Exemplo de Entrada1720
+
+A entrada é composta de vários conjuntos de teste. Cada conjunto de teste é composto por uma
+única linha, que contém um número inteiro positivo V, que indica o valor solicitado pelo cliente. O
+final da entrada é indicado por V = 0.
+
+Exemplo de Entrada
+
+1
+72
+(o)
+
 3. Saída
-Para cada conjunto de teste da entrada seu programa deve produzir três linhas na saída. A primeiralinha deve conter um identiﬁcador do conjunto de teste, no formato “Teste n”, onde n é numeradoa partir de 1. Na segunda linha devem aparecer quatro inteirosI,J,KeLque representam o resul-tado encontrado pelo seu programa: I indica o número de cédulas de B$50,00, J indica o númerode cédulas de B$10,00, K indica o número de cédulas de B$5,00 e L indica o número de cédulasde B$1,00. A terceira linha deve ser deixada em branco. A graﬁa mostrada no Exemplo de Saída,abaixo, deve ser seguida rigorosamente.7Exemplo de SaídaTeste 10 0 0 1Teste 21 2 0 2(esta saída corresponde ao exemplo de entrada acima)
+
+Para cada conjunto de teste da entrada seu programa deve produzir três linhas na saída. A primeira
+linha deve conter um identificador do conjunto de teste, no formato “Teste n”, onde n é numerado
+a partir de 1. Na segunda linha devem aparecer quatro inteiros I, J, K e L que representam o resul-
+tado encontrado pelo seu programa: I indica o número de cédulas de B$50,00, J indica o número
+de cédulas de B$10,00, K indica o número de cédulas de B$5,00 e L indica o número de cédulas
+de B$1,00. A terceira linha deve ser deixada em branco. A grafia mostrada no Exemplo de Saída,
+abaixo, deve ser seguida rigorosamente.
+ Exemplo de Saída
+
+Teste 1
+0001
+
+(esta saída corresponde ao exemplo de entrada acima)
+
 4. Restrições
-0 ≤ V ≤ 10000 (V= 0 apenas para indicar o ﬁm da entrada)
+0 <V< 10000 (V= 0 apenas para indicar o fim da entrada)

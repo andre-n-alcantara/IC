@@ -1,29 +1,92 @@
-Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível Sênior – Fase Nacional6
+Olimpíada Brasileira de Informática - OBI2019 — Prog. Nível Sênior - Fase Nacional 6
+
 Computador
-Nome do arquivo:computador.c,computador.cpp,computador.pas,computador.java,computador.js,computador_py2.pyoucomputador_py3.py
-Uma grande empresa está construindo uma nova arquitetura de computadores que permita a exe-cução eciente de duas instruções especiais de soma. O computador possuiNposições de memória,endereçadas de1aN, e cada posição pode guardar um inteiro maior ou igual a zero. Inicialmente,todas as posições contêm o valor zero. As instruções especiais de soma são:•FRENTEi V:Dado o endereçoi,1≤i≤N, e um valor positivoV, o computador devesomarVna posiçãoi,V−1emi+ 1,V−2emi+ 2, etc, enquanto o valor a ser somandofor maior do que zero e a posição for menor ou igual aN;•TRÁSi V:Dado o endereçoi,1≤i≤N, e um valor positivoV, o computador deve somarVna posiçãoi,V−1emi−1,V−2emi−2, etc, enquanto o valor a ser somando for maiordo que zero e a posição for maior ou igual a1.Por exemplo, paraN= 16, uma possível sequência de instruções é dada abaixo:
-0000000000000000
-FRENTE 4 8
-0008765432100000
+
+Nome do arquivo: computador.c, computador .cpp, computador .pas, computador. java, computador. js,
+
+computador py2.py ou computador py3.py
+
+Uma grande empresa está construindo uma nova arquitetura de computadores que permita a exe-
+cução eficiente de duas instruções especiais de soma. O computador possui N posições de memória,
+endereçadas de 1 à N, e cada posição pode guardar um inteiro maior ou igual a zero. Inicialmente,
+todas as posições contêm o valor zero. As instruções especiais de soma são:
+
+e FRENTE i V: Dado o endereço i, 1 <i < N, e um valor positivo V, o computador deve
+somar V na posição i, V-—-lemi+1l,V —-2emi+2, etc, enquanto o valor a ser somando
+for maior do que zero e a posição for menor ou igual a N;
+
+e TRÁS i V: Dado o endereço i, 1 <i < N, e um valor positivo V, o computador deve somar
+
+Vnaposiçãoi,V-lemi-l,V-2emi-?2, etc, enquanto o valor a ser somando for maior
+do que zero e a posição for maior ou igual a 1.
+
+Por exemplo, para N = 16, uma possível sequência de instruções é dada abaixo:
+
+tofofofofofo[fofofofofofofofo/o7o]
+FRENTE 48
+
+fofofols[7|e[5[|4|3[2]1fofofofofo]
 TRÁS 16 3
-0008765432100123
+
+tofofofs[7|els[4[3]2[1/ofo/1/273|]
 TRÁS 2 12
-11 12 08765432100123
+
+tufifofs[r|o[5[4[3[2[1ofo[1[27[3]
 FRENTE 8 7
-11 12 0876511 97532223
-Além disso, o computador possui a instruçãoIMPRIMEi, que deve imprimir na saída o valor atualarmazenado na posiçãoida memória.DadosNe uma sequência deMinstruções, seu programa deve imprimir, para cada instrução dotipoIMPRIMEi, uma linha contendo o valor armazenado na posição de memóriaino instante daexecução da instrução.
+
+M/122/0]8|T|6|5/11 /9|7/5/3/2]2]2]3
+
+Além disso, o computador possui a instrução IMPRIME +, que deve imprimir na saída o valor atual
+armazenado na posição i da memória.
+
+Dados N e uma sequência de M instruções, seu programa deve imprimir, para cada instrução do
+tipo IMPRIME i, uma linha contendo o valor armazenado na posição de memória i no instante da
+execução da instrução.
+
 Entrada
-A primeira linha da entrada contém dois inteirosNeM, representando o número de posições dememória e o número de instruções, respectivamente. AsMlinhas seguintes contêm, cada uma, adescrição de uma instrução em uma de três formas possíveis:1I V, representandoFRENTEI V;2I V, representandoTRÁSI V; e3I, representandoIMPRIMEI.
+
+A primeira linha da entrada contém dois inteiros N e M, representando o número de posições de
+memória e o número de instruções, respectivamente. As M linhas seguintes contêm, cada uma, a
+descrição de uma instrução em uma de três formas possíveis: 1 1 V, representando FRENTE T V;
+2 IV, representando TRÁS 1 V; e 3 T, representando IMPRIME 1.
+
 Saída
-Para cada instrução do tipoIMPRIMEi, seu programa deve imprimir uma linha contendo uminteiro representando o valor armazenado na posição de memóriaino instante da execução dainstrução.Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível Sênior – Fase Nacional7
+
+Para cada instrução do tipo IMPRIME i, seu programa deve imprimir uma linha contendo um
+inteiro representando o valor armazenado na posição de memória à no instante da execução da
+instrução.
+ Olimpíada Brasileira de Informática - OBI2019 — Prog. Nível Sênior - Fase Nacional 7
+
 Restrições
-•1≤N≤200000;•1≤M≤200000;•1≤I≤N;•1≤V≤200000;•Ao menos uma instrução será do tipo3.
+e 1<N<200000;
+e 1<M < 200000;
+elI<I<N;
+e 1<V<200000;
+
+e Ao menos uma instrução será do tipo 3.
+
 Informações sobre a pontuação
-•Em um conjunto de casos de teste somando20pontos,N≤10000,M≤10000eV≤10000;
+
+e Em um conjunto de casos de teste somando 20 pontos, N < 10000, M < 10000 e V < 10000;
+
 Exemplos
-Exemplo de entrada 1
-16 71 4 82 16 33 142 2 121 8 73 103 14Exemplo de saída 1
-172
-Exemplo de entrada 2
-200000 21 2345 1932903 112230Exemplo de saída 2
-83405
+
+Exemplo de entrada 1 Exemplo de saída 1
+
+16 7 1
+48
+16 3 2
+14
+212
+87
+10
+14
+
+Ow HAN WON
+
+Exemplo de entrada 2 Exemplo de saída 2
+
+200000 2 83405
+1 2345 193290
+3 112230
+

@@ -1,19 +1,77 @@
-Olimpíada Brasileira de Informática – OBI2017 – Prog. Nível 2 – Fase Nacional2
+Olimpíada Brasileira de Informática - OBI2017 — Prog. Nível 2 — Fase Nacional 2
+
 Taxa
-Nome do arquivo:taxa.c,taxa.cpp,taxa.pas,taxa.java,taxa.js,taxa.py2outaxa.py3Uma empresa está construindo um condomínio de casas ao redor de um lago. As casas serãoconstruídas em lotes de terra de diferentes tamanhos, mas todos os lotes serão às margens do lago.Além disso, cada lote de terra terá exatamente dois vizinhos no condomínio, um vizinho à direita eum vizinho à esquerda.
-300500100100100200Lago
-A empresa é dona de todo o terreno do condomínio e necessita dividir o terreno em lotes, de acordocom o projeto do condomínio. No entanto, a Prefeitura tem uma lei curiosa de imposto sobre divisãode terra, criada para inibir a criação de lotes de terra muito pequenos:1. um terreno pode ser dividido apenas usando uma sequência dedivisões de terreno;2. uma divisão de terreno é uma operação que divide um terreno em duas partes; e3. para cada divisão de terreno deve ser pago um imposto.Chamando deAa área da maior parte de terreno resultante da divisão, o valor do imposto sobrea divisão de terra éA×F, ondeFé ofator de divisão, denido anualmente pela Prefeitura. Noteque devido a (2), para dividir um terreno emNlotes, são necessáriasN−1divisões de terra, eportantoN−1pagamentos devem ser feitos à Prefeitura.Por exemplo, considerando agura acima, se o fator de divisão é 2.5 e a primeira divisão de terrenosepara o lote com 500 unidades de área dos outros lotes, o imposto a ser pago nesta primeira divisão é2.5×(300+200+100+100+100). Se a próxima divisão de terreno separa dos lotes restantes o lote de300 unidades junto com seu lote vizinho de 100 unidades, um imposto adicional de2.5×(300 + 100)deve ser pago; e assim por diante. Note também que algumas divisões de terra não são possíveis,devido a (2). Por exemplo, após a primeira divisão de terreno mencionada anteriormente não épossível fazer uma divisão para separar a área formada pelo lote de 300 unidades e o lote de 200unidades da área formada pelos três lotes restantes, porque mais do que duas partes resultariamdessa operação.Dadas as áreas de todos os lotes ao redor do lago e o valor corrente do fator de divisão, escreva umprograma para determinar o menor valor de imposto total que deve ser pago para dividir a terra deacordo com o projeto de condomínio.
+
+Nome do arquivo: taxa.c, taxa.cpp, taxa.pas, taxa. java, taxa. js, taxa.py2 ou taxa.py3
+
+Uma empresa está construindo um condomínio de casas ao redor de um lago. Às casas serão
+construídas em lotes de terra de diferentes tamanhos, mas todos os lotes serão às margens do lago.
+Além disso, cada lote de terra terá exatamente dois vizinhos no condomínio, um vizinho à direita e
+um vizinho à esquerda.
+
+Ira
+
+A empresa é dona de todo o terreno do condomínio e necessita dividir o terreno em lotes, de acordo
+com o projeto do condomínio. No entanto, a Prefeitura tem uma lei curiosa de imposto sobre divisão
+de terra, criada para inibir a criação de lotes de terra muito pequenos:
+
+1. um terreno pode ser dividido apenas usando uma sequência de divisões de terreno;
+2. uma divisão de terreno é uma operação que divide um terreno em duas partes; e
+
+3. para cada divisão de terreno deve ser pago um imposto.
+
+Chamando de 4 a área da maior parte de terreno resultante da divisão, o valor do imposto sobre
+
+a divi
+
+o de terra é Ax F, onde Fé o fator de divisão, definido anualmente pela Prefeitura. Note
+que devido a (2), para dividir um terreno em N lotes, são necessárias N — 1 divisões de terra, e
+portanto N — 1 pagamentos devem ser feitos à Prefeitura.
+
+Por exemplo, considerando a figura acima, se o fator de divisão é 2.5 e a primeira divisão de terreno
+separa o lote com 500 unidades de área dos outros lotes, o imposto a ser pago nesta primeira divisão é
+2.5x (300+200+100+100+100). Se a próxima divisão de terreno separa dos lotes restantes o lote de
+300 unidades junto com seu lote vizinho de 100 unidades, um imposto adicional de 2.5 x (300 + 100)
+deve ser pago; e assim por diante. Note também que algumas divisões de terra não são possíveis,
+devido a (2). Por exemplo, após a primeira divisão de terreno mencionada anteriormente não é
+possível fazer uma divisão para separar a área formada pelo lote de 300 unidades e o lote de 200
+unidades da área formada pelos três lotes restantes, porque mais do que duas partes resultariam
+dessa operação.
+
+Dadas as áreas de todos os lotes ao redor do lago e o valor corrente do fator de divisão, escreva um
+programa para determinar o menor valor de imposto total que deve ser pago para dividir a terra de
+acordo com o projeto de condomínio.
+
 Entrada
-A primeira linha contém um número inteiroNe um número realF, indicando respectivamente onúmero de lotes no condomínio e o fator de divisão (com precisão de dois dígitos). A segunda linhacontémNnúmeros inteirosX
-i, representando as áreas de lotes vizinhos no projeto do condomínio,para1≤i≤N, sendo queX
-ké vizinho deX k+1para1≤k≤N−1, eX Né vizinho deX 1.Olimpíada Brasileira de Informática – OBI2017 – Prog. Nível 2 – Fase Nacional3
+
+A primeira linha contém um número inteiro N e um número real F, indicando respectivamente o
+número de lotes no condomínio e o fator de divisão (com precisão de dois dígitos). A segunda linha
+contém N números inteiros X;, representando as áreas de lotes vizinhos no projeto do condomínio,
+paral<i<aN, sendo que X; é vizinho de Xp, paral<k< N-1,e Xy é vizinho de X.
+ Olimpíada Brasileira de Informática - OBI2017 — Prog. Nível 2 — Fase Nacional 3
+
 Saída
-Seu programa deve produzir uma única linha na saída, contendo o valor mínimo do imposto a serpago, como um número real com precisão de dois dígitos decimais.
+
+Seu programa deve produzir uma única linha na saída, contendo o valor mínimo do imposto a ser
+pago, como um número real com precisão de dois dígitos decimais.
+
 Restrições
-•1≤N≤200•0≤F≤5.00•0< X
-i≤500, para1≤i≤N
+
+e1<N<200
+e0O<F<s500
+e0<X,;<500, paral<i<N
+
 Informações sobre a pontuação
-•Em um conjunto de casos de teste somando 20 pontos,N≤8
+
+e Em um conjunto de casos de teste somando 20 pontos, N <8
+
 Exemplos
-Entrada4 1.502 1 4 1 Saída13.50
-Entrada6 2.50300 100 500 100 100 200 Saída4500.00
+
+Entrada Saída
+4 1.50 13.50
+2141
+
+Entrada Saída
+6 2.50 4500.00
+300 100 500 100 100 200
+

@@ -1,10 +1,87 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2006 –Modalidade Programa¸ c˜ ao N´ıvel 11
-Monop´ olio
-Nome do arquivo fonte:mono.c,mono.cpp,oumono.pasMonop´ olio (conhecido no Brasil como Banco Imobili´ ario) ´ e um dos jogos mais famosos do mundo, com 750milh˜ oes de c´ opias vendidas. Durante o jogo, os jogadores podem comprar propriedades que estejam dispon´ıveis,vendˆ e-las para que elas voltem acar dispon´ıveis, e cobrar aluguel pelo uso de uma determinada propriedadepor outro jogador. O objetivo do jogo ´ e acumular a maior quantidade de dinheiro poss´ıvel.O jogo ´ e composto por um tabuleiro e um conjunto de c´ edulas de dinheiro. Trˆ es amigos, D´ alia, El´ oi e F´ elix,querem jogar uma partida de Monop´ olio, mas o irm˜ aozinho menor de D´ alia escondeu as c´ edulas de dinheiro. Ostrˆ es amigos decidiram jogar a partida assim mesmo, anotando em um papel todas as opera¸ c˜ oes que ocorreramdurante o jogo (compras, vendas e pagamentos de alugu´ eis). Assim que eles pararam de jogar, perceberam quelevaria muito tempo para descobrir quanto dinheiro cada um acumulou. Eles ent˜ ao pediram sua ajuda paradeterminar esses valores.
+Olimpíada Brasileira de Informática — OB12006 —- Modalidade Programação Nível 1 1
+
+Monopólio
+
+Nome do arquivo fonte: mono.c, mono.cpp, ou mono.pas
+
+Monopólio (conhecido no Brasil como Banco Imobiliário) é um dos jogos mais famosos do mundo, com 750
+
+milhões de cópias vendidas. Durante o
+vendê-las para que elas voltem a ficar
+por outro jogador. O objetivo do jogo
+
+jogo, os jogadores podem comprar propriedades que estejam disponíveis,
+disponíveis, e cobrar aluguel pelo uso de uma determinada propriedade
+é acumular a maior quantidade de dinheiro possível.
+
+O jogo é composto por um tabuleiro e um conjunto de cédulas de dinheiro. Três amigos, Dália, Elói e Félix,
+
+querem jogar uma partida de Monopólio, mas o irmãozinho menor de Dália escondeu as cédulas de dinheiro. Os
+
+três amigos decidiram jogar a partida
+
+assim mesmo, anotando em um papel todas as operações que ocorreram
+
+durante o jogo (compras, vendas e pagamentos de aluguéis). Assim que eles pararam de jogar, perceberam que
+levaria muito tempo para descobrir quanto dinheiro cada um acumulou. Eles então pediram sua ajuda para
+
+determinar esses valores.
+
 Tarefa
-Sua tarefa ´ e escrever um programa que, a partir dos registros de jogadas realizados pelos trˆ es jogadores, deter-mine a quantidade de dinheiro acumulada por cada um dos jogadores.
+
+Sua tarefa é escrever um programa qu
+mine a quantidade de dinheiro acumu
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). A primeira linha da entrada cont´ em dois inteiros,IeNque indicam respectivamente as quantias dedinheiro que D´ alia, El´ oi e F´ elix possuem no in´ıcio do jogo (1≤I≤1000000) e o n´ umero de opera¸ c˜ oes realizadasdurante o jogo (1≤N≤10000). Note que os trˆ es jogadores iniciam a partida com a mesma quantidade dedinheiro. Os jogadores s˜ ao representados na entrada sempre pela letra inicial de seu nome (‘D’, ‘E’ ou ‘F’). AsNlinhas cont´ em as opera¸ c˜ oes ocorridas durante o jogo. Cada linha pode ter um dos formatos abaixo:•Compra — a letraC, seguida da letra inicial de um jogadorJe de um inteiroXque representa o valorgasto porJna compra (0< X≤1000000). Exemplo: ‘C D 1000’.•Venda — a letraV, seguida da letra inicial de um jogadorJe de um inteiroXque representa o valorrecebido porJna venda (0< X≤1000000). Exemplo: ‘V E 200’.•Aluguel — a letraA, seguida da letra inicial de um jogadorJque recebe o aluguel, da letra inicial do jogadorKque paga o aluguel e de um inteiroXque representa o valor do aluguel (J=Ke 0≤X≤1000000).Exemplo: ‘A F D 500’.Os valores intermedi´ arios e totais acumulados por cada jogador est˜ ao entre 0 e 1000000.
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, uma ´ unica linha composta de trˆ es inteiros que correspondem ` aquantidade de dinheiro acumulada por D´ alia, El´ oi e F´ elix, nesta ordemOlimp´ıada Brasileira de Inform´ atica – OBI2006 –Modalidade Programa¸ c˜ ao N´ıvel 12
-Entrada1000 1C D 500Sa´ıda500 1000 1000Entrada1000 3C D 100V E 200A D F 1000Sa´ıda1900 1200 0Entrada10000 5C D 5000C E 3000A D F 1000V E 4000A F E 1000Sa´ıda6000 10000 10000
+
+e, a partir dos registros de jogadas realizados pelos três jogadores, deter-
+ada por cada um dos jogadores.
+
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+
+o teclado). A primeira linha da entrad.
+
+a contém dois inteiros, 1 e N que indicam respectivamente as quantias de
+
+dinheiro que Dália, Elói e Félix possuem no início do jogo (1 < 1 < 1000000) e o número de operações realizadas
+durante o jogo (1 < N < 10000). Note que os três jogadores iniciam a partida com a mesma quantidade de
+
+dinheiro. Os jogadores são representa
+
+os na entrada sempre pela letra inicial de seu nome ('D”, “E” ou “F”). As
+
+N linhas contém as operações ocorridas durante o jogo. Cada linha pode ter um dos formatos abaixo:
+
+e Compra — a letra C, seguida da letra inicial de um jogador J e de um inteiro X que representa o valor
+gasto por J na compra (0 < X < 1000000). Exemplo: “c D 1000”.
+
+e Venda — a letra V, seguida da letra inicial de um jogador J e de um inteiro X que representa o valor
+
+recebido por J na venda (0 < X
+
+< 1000000). Exemplo: V E 200”.
+
+e Aluguel — a letra A, seguida da letra inicial de um jogador J que recebe o aluguel, da letra inicial do jogador
+K que paga o aluguel e de um inteiro X que representa o valor do aluguel (J £4 K e 0 < X < 1000000).
+
+Exemplo: “A F D 500”.
+
+Os valores intermediários e totais acumulados por cada jogador estão entre O e 1000000.
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, uma única linha composta de três inteiros que correspondem à
+quantidade de dinheiro acumulada por Dália, Elói e Félix, nesta ordem
+ Olimpíada Brasileira de Informática — OB12006 —- Modalidade Programação Nível 1
+
+Entrada Entrada Entrada
+1000 1 1000 3 10000 5
+CD 500 CD 100 Cc D 5000
+VE 200 CE 3000
+. A DF 1000 A DF 1000
+Saída v E 4000
+AF E 1000
+500 1000 1000 Saída
+1900 1200 O Saída
+6000 10000 10000
+

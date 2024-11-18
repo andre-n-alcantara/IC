@@ -1,10 +1,45 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2007 – Programa¸ c˜ ao N´ıvel 1, Fase 1 3
-Quadrado M´ agico
-Nome do arquivo fonte:magico.c,magico.cpp,oumagico.pasChama-se dequadrado m´ agicoum arranjo, na forma de um quadrado, deN×Nn´ umeros inteiros tal que todasas linhas, colunas e diagonais tˆ em a mesma soma.Por exemplo, o quadrado abaixo2 7 69 5 14 3 8´ e um quadrado m´ agico de soma 15, pois todas as linhas (2 + 7 + 6 = 15, 9 + 5 + 1 = 15 e 4 + 3 + 8 = 15), colunas(2 + 9 + 4 = 15, 7 + 5 + 3 = 15 e 6 + 1 + 8 = 15) e diagonais (2 + 5 + 8 = 15 e 6 + 5+ 4 = 15) tˆ em a mesmasoma (15).
+Olimpíada Brasileira de Informática — OBI2007 — Programação Nível 1, Fase 1 3
+
+7.
+Quadrado Mágico
+Nome do arquivo fonte: magico.c, magico.cpp, ou magico.pas
+Chama-se de quadrado mágico um arranjo, na forma de um quadrado, de N x N números inteiros tal que todas
+
+as linhas, colunas e diagonais têm a mesma soma.
+Por exemplo, o quadrado abaixo
+
+276
+
+951
+
+438
+é um quadrado mágico de soma 15, pois todas as linhas (2+7+6 = 15,9+5+1 = 15e4+3+8 = 15), colunas
+2+9+4=15,74+5+3=15e6+1+8= 15)e diagonais (2+5+8=15e6+5+4= 15) têm a mesma
 Tarefa
-Escreva um programa que, dado um quadrado, determine se ele ´ e magico ou n˜ ao e qual a soma dele (caso sejam´ agico).
+
+Escreva um programa que, dado um quadrado, determine se ele é magico ou não e qual a soma dele (caso seja
+mágico).
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). A primeira linha da entrada de cada caso de teste cont´ em um inteiroN(2< N <10). AsNlinhas seguintes contˆ emNinteiros cada, separados por exatamente um espa¸ co em branco. Os inteiros dentrodo quadrado s˜ ao todos maiores que 0 (zero) e menores que 1.000.
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, uma ´ unica linha com um inteiro representando a soma doquadrado m´ agico ou−1 caso o quadrado n˜ ao seja m´ agico.
-Entrada32 7 69 5 14 3 8Sa´ıda15Entrada31 2 34 5 67 8 9Sa´ıda-1Entrada416 3 2 135 10 11 89 6 7 124 15 14 1Sa´ıda34
+
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado). A primeira linha da entrada de cada caso de teste contém um inteiro N (2 < N < 10). As N
+linhas seguintes contêm N inteiros cada, separados por exatamente um espaço em branco. Os inteiros dentro
+do quadrado são todos maiores que O (zero) e menores que 1.000.
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, uma única linha com um inteiro representando a soma do
+quadrado mágico ou —1 caso o quadrado não seja mágico.
+
+Entrada Entrada Entrada
+3 3 4
+276 1283 16 3 2 13
+951 45 6 5 10 11 8
+438 789 9 6712
+4 15 14 1
+Saída Saída
+Saída
+15 -1
+34
+

@@ -1,25 +1,123 @@
-Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível 2 – Fase Fase 23
+Olimpíada Brasileira de Informática - OBI2021 — Prog. Nível 2 — Fase Fase 2 3
+
 Passatempo
-Nome do arquivo:“passatempo.x”,ondexdeve serc,cpp,pas,java,jsoupyDesaos de lógica e matemática são um ótimo passatempo, atraindo um grande número de prati-cantes, e um mercado que envolve aplicativos para celular, atividades on-line, revistas especializadase até mesmo cursos na internet para melhorar o desempenho!Neste problema sua tarefa é escrever um programa que resolva um novo passatempo, mostrado nagura abaixo. O passatempo é composto por um quadriculado com letras dentro de cada célulae números ao lado de cada linha ou coluna do quadriculado. As letras dentro de cada célularepresentam variáveis, e os números representam as somas dos valores das variáveis em cada linhaou coluna.
-df bb cg df dfaz cg az eecg cg df dfaz cg az az116106eedfaz
-6 6 8 7 6
-O objetivo desse passatempo é determinar o valor de cada variável de modo a satisfazer as somasdas linhas e colunas mostradas. Para permitir que um número maior de pessoas consiga resolver opassatempo, ele tem uma propriedade que facilita a sua solução: sempre é possível encontrar umalinha ou coluna em que há apenas uma variável cujo valor ainda é desconhecido. Assim, uma possívelmaneira de resolver o problema é, a cada passo da solução, encontrar o valor de uma variável.Sua tarefa é, dado um passatempo, determinar os valores das variáveis que o solucionam.
+
+Nome do arquivo: “passatempo .x”, onde x deve ser c, cpp, pas, java, js ou py
+
+Desafios de lógica e matemática são um ótimo passatempo, atraindo um grande número de prati-
+cantes, e um mercado que envolve aplicativos para celular, atividades on-line, revistas especializadas
+e até mesmo cursos na internet para melhorar o desempenho!
+
+Neste problema sua tarefa é escrever um programa que resolva um novo passatempo, mostrado na
+figura abaixo. O passatempo é composto por um quadriculado com letras dentro de cada célula
+e números ao lado de cada linha ou coluna do quadriculado. As letras dentro de cada célula
+representam variáveis, e os números representam as somas dos valores das variáveis em cada linha
+ou coluna.
+
+by
+
+OIGTOTOTO
+
+O objetivo desse passatempo é determinar o valor de cada variável de modo a satisfazer as somas
+das linhas e colunas mostradas. Para permitir que um número maior de pessoas consiga resolver o
+passatempo, ele tem uma propriedade que facilita a sua solução: sempre é possível encontrar uma
+linha ou coluna em que há apenas uma variável cujo valor ainda é desconhecido. Assim, uma possível
+maneira de resolver o problema é, a cada passo da solução, encontrar o valor de uma variável.
+
+Sua tarefa é, dado um passatempo, determinar os valores das variáveis que o solucionam.
 Entrada
-A primeira linha contém dois inteirosLeCindicando o número de linhas e o número de colunasdo passatempo. Cada uma dasLlinhas seguintes contémCnomes de variáveis, seguidos de uminteiroS, a soma resultante das variáveis dessa linha. A última linha contémCinteirosX
-i, indicandorespectivamente a soma das variáveis na colunai. Nomes de variáveis são formados por precisamenteduas letras minúsculas, de ’a’ a ’z’. Todos os passatempos têm solução única, em que todas asvariáveis são números inteiros.
+
+A primeira linha contém dois inteiros L e C indicando o número de linhas e o número de colunas
+do passatempo. Cada uma das L linhas seguintes contém C nomes de variáveis, seguidos de um
+inteiro S, a soma resultante das variáveis dessa linha. A última linha contém C inteiros X;, indicando
+respectivamente a soma das variáveis na coluna i. Nomes de variáveis são formados por precisamente
+duas letras minúsculas, de 'a” a '7'. Todos os passatempos têm solução única, em que todas as
+variáveis são números inteiros.
+
 Saída
-Seu programa deve produzir uma linha para cada variável do passatempo, contendo o nome davariável e o seu valor inteiro. As variáveis devem ser escritas em ordem alfabética crescente, ou seja,respeitando a ordemaa,ab, . . . ,az,ba,bb, . . . ,za,zb, . . . ,zz.
+
+Seu programa deve produzir uma linha para cada variável do passatempo, contendo o nome da
+variável e o seu valor inteiro. As variáveis devem ser escritas em ordem alfabética crescente, ou seja,
+respeitando a ordem
+
+aa,ab,.
+
+.«,az,ba,bb,...,za,zb,...,Zzz.
+
 Restrições
-•1≤L≤100•2≤C≤100•−10
-8≤S≤108
-•−108≤X i≤108Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível 2 – Fase Fase 24
+
+e1<L<100
+e2<C<100
+e IDE <S<I10
+
+e IDE <X,< 108
+ Olimpíada Brasileira de Informática
+
 Exemplos
+
+OB12021
+
+Prog. Nível 2 — Fase Fase 2
+
 Exemplo de entrada 1
-4 5df bb cg df df 11ee az cg az ee 6df cg cg df df 10az az cg az az 66 7 8 6 6Exemplo de saída 1
-az 1bb 3cg 2df 2ee 1
+
+45
+
+df bb cg df df 11
+ee az cg az ee 6
+df cg cg df df 10
+az az cg az az 6
+67866
+
+Exemplo de saída 1
+
+az
+bb
+cg
+af
+ee
+
+HEM DD O
+
 Exemplo de entrada 2
-3 4aa bb cc dd 10aa bb cc dd 10aa bb cc dd 103 6 9 12Exemplo de saída 2
-aa 1bb 2cc 3dd 4
+
+34
+
+aa bb cc dd 10
+aa bb cc dd 10
+aa bb cc dd 10
+36912
+
+Exemplo de saída 2
+
+aa
+bb
+cc
+dd
+
+1
+2
+3
+4
+
 Exemplo de entrada 3
-3 3aa zz aa 27vv zz aa -5kk kk aa 4015 -7 54Exemplo de saída 3
-aa 18kk 11vv -14zz -9
+
+33
+
+aa zz aa 27
+vv zz aa -5
+kk kk aa 40
+15 -7 54
+
+Exemplo de saída 3
+
+aa
+kk
+vv
+zz
+
+18
+11
+-14
+-9
+

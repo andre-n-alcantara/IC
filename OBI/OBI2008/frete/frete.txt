@@ -1,13 +1,110 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2008 – Programa¸ c˜ ao N´ıvel 2 Fase 2 7
-Frete da Fam ´ılia Silva
-Nome do arquivo fonte:frete.c,frete.cppoufrete.pasHouve uma determinada ´ epoca no planeta Terra em que a popula¸ c˜ ao estava grande demais, e determinadasmedidas foram tomadas para sanar esse problema. Uma vez que as primeiras colˆ onias j´ a haviam se estabelecidono planeta Marte, todos os pa´ıses concordaram em mandar para l´ a algumas pessoas. O presidente de Pizzalˆ andia,Lagosta da Silva, era uma pessoa que valorizava a fam´ılia, e decidiu que n˜ ao ia separar fam´ılias em nome dessaatitude. Resolveu, ent˜ ao, mandar uma fam´ılia inteira para Marte. No caso, a dele mesmo, a fam´ılia Silva,provavelmente a mais numerosa do planeta.Tal fam´ılia estabeleceu-se em Marte sem problemas, ainda mais com novas inven¸ c˜ oes que havia por l´ a. Uma delasera a p´ılula de nanicolina, substˆ ancia descoberta naquele planeta, pr´ oximo ` a uma regi˜ ao onde existem pedrasvoadoras, pedras macias e at´ e pedras falantes. Lendas dizem que algum outro ser extra-terrestre depositou ananicolina ali num passado distante, enquanto visitava o planeta. O efeito da p´ılula de nanicolina ´ e a diminui¸ c˜ aode tamanho de quem a toma, por um determinado tempo. Tal p´ılula foi, ent˜ ao, produzida em escala industriale hoje em dia ´ e distribu´ıda pelos governos marcianos aos colonos que l´ a residem.A fam´ılia Silva, todos os anos, encontra-se em alguma das muitas colˆ onias em Marte para celebrar o anivers´ arioda chegada deles ao planeta. O chefe da fam´ılia ´ e quem sempre paga o transporte de todos. O transporte ´ e feitoatrav´ es de ˆ onibus-utuadores fretados. Como todos podem tomar p´ılulas da nanicolina ecarem min´ usculos,podemos dizer que dentro de cada ˆ onibus-utuador cabem innitas pessoas, e que o efeito da p´ılula vai durardurante toda a viagem.Assim, o pre¸ co de uma viagem de ˆ onibus-utuador entre duas colˆ onias n˜ ao depende do n´ umero de pessoas queviajam, sendo um pre¸ coxo. Isso permite que algumas economias sejam feitas. Suponha que existam quatrocolˆ onias dos Silvas em Marte, ilustrados abaixo:
-ABCD10105432
-Os c´ırculos representam as colˆ onias, e as conex˜ oes entre elas representam as estradas existentes.O n´ umero nas conex˜ oes representa o pre¸ co de uma viagem de ˆ onibus-utuador em qualquer dire¸ c˜ ao. Ou seja,Uma viagem da colˆ oniaAdireto para a colˆ oniaC(ou deCparaA), custa 5 moedas de sil´ıcio, n˜ ao importa on´ umero de passageiros.Suponha que o grande encontro seja na colˆ oniaA. Se o chefe da fam´ılia pagar o frete deBparaA, deCparaAe deDparaA, vai acabar gastando 25 moedas.Mas uma coisa que poderia ser feita, tamb´ em, ´ e: os Silvas das colˆ oniasBeDv˜ ao para aC. DaC, todos v˜ aopara a colˆ oniaA. Isso tudo teria um gasto de somente 10 moedas.Este ano o n´ umero de colˆ onias dos Silvas aumentou muito em Marte, e o chefe da fam´ılia est´ a muito preocupadocom o dinheiro que vai gastar para pagar todas as viagens. Ent˜ ao ele contratou vocˆ e, que ´ e o melhor programadordaquele planeta, a fazer um programa que recebe as informa¸ c˜ oes a respeito das colˆ onias, das estradas e dos fretesde ˆ onibus-utuadores, e determine qual ´ e a menor quantidade de dinheiro necess´ aria para custear o transportede todos os Silvas para o encontro. O desespero do chefe da fam´ılia ´ e tanto que ele n˜ ao se importa em qualcolˆ onia ser´ a o encontro, desde que os custos sejam minimizados.Vocˆ e pode assumir que:•Entre duas colˆ onias diferentes existe no m´ aximo uma estrada direta.Olimp´ıada Brasileira de Inform´ atica – OBI2008 – Programa¸ c˜ ao N´ıvel 2 Fase 2 8 •Sempre existe um caminho (de uma ou mais estradas) entre quaisquer duas colˆ onias.
+Olimpíada Brasileira de Informática — OBI2008 — Progr.
+
+amação Nível 2 Fase 2
+
+Frete da Família Silva
+
+Nome do arquivo fonte: frete.c, frete.cpp ou frete.pas
+
+Houve uma determinada época no planeta Terra em que a população estava grande demais, e determinadas
+medidas foram tomadas para sanar esse problema. Uma vez que as primeiras colônias já haviam se estabelecido
+
+no planeta Marte, todos os países concordaram em man
+Lagosta da Silva, era uma pessoa que valorizava a famí
+atitude. Resolveu, então, mandar uma família inteira
+
+ar para lá algumas pessoas. O presidente de Pizzalândia,
+ia, e decidiu que não ia separar famílias em nome dessa
+para Marte. No caso, a dele mesmo, a família Silva,
+
+provavelmente a mais numerosa do planeta.
+
+Tal família estabeleceu-se em Marte sem problemas, ainda mais com novas invenções que havia por lá. Uma delas
+era a pílula de nanicolina, substância descoberta naquele planeta, próximo à uma região onde existem pedras
+voadoras, pedras macias e até pedras falantes. Lend:
+nanicolina ali num p
+
+s dizem que algum outro ser extra-terrestre depositou a
+ado distante, enquanto visitava o planeta. O efeito da pílula de nanicolina é a diminuição
+de tamanho de quem a toma, por um determinado tempo. Tal pílula foi, então, produzida em esca
+e hoje em dia é distribuída pelos governos marcianos aos colonos que lá residem.
+
+a industrial
+
+aniversário
+orte é feito
+através de ônibus-flutuadores fretados. Como todos podem tomar pílulas da nanicolina e ficarem minúsculos,
+podemos dizer que dentro de cada ônibus-flutuador cabem infinitas pessoas, e que o efeito da pílu
+durante toda a viagem.
+
+Assim, o preço de uma viagem de ônibus-flutuador entre duas colônias não depende do número de pessoas que
+viajam, sendo um preço fixo. Isso permite que algumas economias sejam feitas. Suponha que existam quatro
+colônias dos Silvas em Marte, ilustrados abaixo:
+
+A família Silva, todos os anos, encontra-se em alguma das muitas colônias em Marte para celebrar o
+da chegada deles ao planeta. O chefe da família é quem sempre paga o transporte de todos. O trans
+
+a vai durar
+
+Os círculos representam as colônias, e as conexões entre elas representam as estradas existentes.
+
+O número nas conexões representa o preço de uma viagem de ônibus-flutuador em qualquer direção. Ou seja,
+Uma viagem da colônia A direto para a colônia C (ou de C para 4), custa 5 moedas de silício, não importa o
+número de passageiros.
+
+Suponha que o grande encontro seja na colônia 4. Se o chefe da família pagar o frete de B para 4, de C para
+Ae de D para 4, vai acabar gastando 25 moedas.
+
+Mas uma coisa que poderia ser feita, também, é: os Silvas das colônias Be D vão para a C. Da C, todos vão
+para a colônia A. Isso tudo teria um gasto de somente 10 moedas.
+
+Este ano o número de colônias dos Silvas aumentou muito em Marte, e o chefe da família está muito preocupado
+com o dinheiro que vai gastar para pagar todas as viagens. Então ele contratou você, que é o melhor programador
+daquele planeta, a fazer um programa que recebe as informações a respeito das colônias, das estradas e dos fretes
+de ônibus-flutuadores, e determine qual é a menor quantidade de dinheiro necessária para custear o transporte
+de todos os Silvas para o encontro. O desespero do chefe da família é tanto que ele não se importa em qual
+colônia será o encontro, desde que os custos sejam minimizados.
+
+Você pode assumir que:
+
+e Entre duas colônias diferentes existe no máximo uma estrada direta.
+ Olimpíada Brasileira de Informática — OBI2008 — Programação Nível 2 Fase 2 8
+
+e Sempre existe um caminho (de uma ou mais estradas) entre quaisquer duas colônias.
+
 Entrada
-A entrada cont´ em um ´ unico teste, a ser lido daentrada padr˜ ao. A primeira linha cont´ em dois inteiros:NeM(2≤N≤1000, 1≤M≤10.000), que representam, respectivamente, o n´ umero de colˆ onias e o n´ umero deestradas existentes. Depois, seguemMlinhas com 3 inteiros:P,QeU(0≤P,Q≤N−1, 1≤U≤1000),indicando que existe uma estrada de m˜ ao dupla entre as colˆ oniasPeQ, cujo custo do frete de viagem entreessas duas colˆ onias ´ eUmoedas.
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, um ´ unico inteiro, representando o n´ umero m´ınimo de moedasnecess´ arias para custear o transporte de todos os Silvas ` a colˆ onia onde ser´ a realizada o encontro.
-Exemplo de entrada4 60 1 100 2 50 3 101 2 31 3 42 3 2Exemplo de sa´ıda10
-Exemplo de entrada4 60 1 10 2 10 3 11 2 31 3 42 3 2Exemplo de sa´ıda3
-Informa¸ c˜ oes sobre a pontua¸ c˜ ao
-•Em um conjunto de casos de teste que totaliza 30 pontos,N≤10 eM≤100.•Em um conjunto de casos de teste que totaliza 55 pontos,N≤100 eM≤1000.
+
+A entrada contém um único teste, a ser lido da entrada padrão. A primeira linha contém dois inteiros: N e
+M (2< N<1000,1<M <j10.000), que representam, respectivamente, o número de colônias e o número de
+estradas existentes. Depois, seguem M linhas com 3 inteiros: P,QeU(0O<PQ<N-1,I1I<U< 1000),
+indicando que existe uma estrada de mão dupla entre as colônias P e Q, cujo custo do frete de viagem entre
+essas duas colônias é U moedas.
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, um único inteiro, representando o número mínimo de moedas
+necessárias para custear o transporte de todos os Silvas à colônia onde será realizada o encontro.
+
+Exemplo de entrada Exemplo de saída
+
+10
+10
+
+10
+
+NHHooo gs
+OUNUWUúNHO
+ES
+
+Exemplo de entrada Exemplo de saída
+
+3
+
+NHHOoOoom
+VWNWUNHO
+VEOH
+
+Informações sobre a pontuação
+e Em um conjunto de casos de teste que totaliza 30 pontos, N <10e M < 100.
+
+e Em um conjunto de casos de teste que totaliza 55 pontos, N < 100 e M < 1000.

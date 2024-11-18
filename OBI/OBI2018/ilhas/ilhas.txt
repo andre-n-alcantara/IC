@@ -1,21 +1,85 @@
-Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível Sênior – Fase Local5
+Olimpíada Brasileira de Informática - OBI2018 — Prog. Nível Sênior - Fase Local 5
+
 Ilhas
-Nome do arquivo:“ilhas.x”,ondexdeve sercpp,pas,java,js,py2oupy3Os moradores das Ilhas Brasileiras Ocidentais (IBO) são assíduos jogadores do mais recente jogoonline,Magos e Guerreiros. Tão competitivas se tornaram as partidas de Magos e Guerreiros naIBO, que a empresa criadora do jogo decidiu instalar em uma das ilhas um servidor dedicado apenasaos jogadores da IBO.Entretanto, a empresa sabe que, se os jogadores acharem que o novo servidor éinjusto, eles irãoparar de jogar Magos e Guerreiros, gerando incontáveis perdas. Para avaliar se o novo servidor éjusto, os jogadores vão comparar o desempenho do jogo na ilha que tem a conexão mais rápida e odesempenho na ilha que tem a conexão mais lenta com o novo servidor. Se a diferença de desempenhofor muito grande, os residentes da ilha mais distante se sentirão injustiçados e abandonarão o jogo.A conexão de internet da IBO funciona através de um sistema de cabos debra ótica. Pares de ilhassão conectados por cabos, e cada cabo toma um certo tempo (chamado deping) para comunicarinformação entre as duas partes. Quando duas ilhas se comunicam através de uma série de cabos(portanto, através de ilhas intermediárias), opingentre elas é a soma dospingsde cada cabo nocaminho. A rede da IBO foi implementada por ótimos programadores e, portanto, um par de ilhassempre se comunica através do caminho com menorpingpossível.Dada a conguração da rede da IBO e a ilha em que a empresa deseja instalar o novo servidor,determine a diferença entre ospingsda ilha com menor e maiorpingsaté o servidor.
+
+Nome do arquivo: “ilhas .x”, onde x deve ser cpp, pas, java, js, py2 ou py3
+
+Os moradores das Ilhas Brasileiras Ocidentais (IBO) são assíduos jogadores do mais recente jogo
+online, Magos e Guerreiros. Tão competitivas se tornaram as partidas de Magos e Guerreiros na
+IBO, que a empresa criadora do jogo decidiu instalar em uma das ilhas um servidor dedicado apenas
+aos jogadores da IBO.
+
+Entretanto, a empresa sabe que, se os jogadores acharem que o novo servidor é injusto, eles irão
+parar de jogar Magos e Guerreiros, gerando incontáveis perdas. Para avaliar se o novo servidor é
+justo, os jogadores vão comparar o desempenho do jogo na ilha que tem a conexão mais rápida e o
+desempenho na ilha que tem a conexão mais lenta com o novo servidor. Se a diferença de desempenho
+for muito grande, os residentes da ilha mais distante se sentirão injustiçados e abandonarão o jogo.
+A conexão de internet da IBO funciona através de um sistema de cabos de fibra ótica. Pares de ilhas
+são conectados por cabos, e cada cabo toma um certo tempo (chamado de ping) para comunicar
+informação entre as duas partes. Quando duas ilhas se comunicam através de uma série de cabos
+(portanto, através de ilhas intermediárias), o ping entre elas é a soma dos pings de cada cabo no
+caminho. A rede da IBO foi implementada por ótimos programadores e, portanto, um par de ilhas
+sempre se comunica através do caminho com menor ping possível.
+
+Dada a configuração da rede da IBO e a ilha em que a empresa deseja instalar o novo servidor,
+determine a diferença entre os pings da ilha com menor e maior pings até o servidor.
+
 Entrada
-A primeira linha contémNeM, o número de ilhas e o número de cabos debra ótica, respectiva-mente. As ilhas são numeradas de1aN. Cada uma dasMlinhas seguintes contém três inteirosU
-i,ViePie descreve um cabo entre as ilhasU ieVicompingP i(note que cabos transmiteminformação em ambas as direções). Finalmente, a última linha contém um inteiroS, o número dailha em que o servidor será instalado.Cada par de ilhas é conectado por no máximo um cabo debra ótica, e nenhum cabo conecta umailha a si mesma. É garantido que qualquer ilha consegue se comunicar com qualquer outra atravésde algum caminho de cabos debra ótica.
+
+A primeira linha contém N e M, o número de ilhas e o número de cabos de fibra ótica, respectiva-
+mente. As ilhas são numeradas de 1 a N. Cada uma das M linhas seguintes contém três inteiros
+U;, V; e P; e descreve um cabo entre as ilhas U; e V; com ping P; (note que cabos transmitem
+informação em ambas as direções). Finalmente, a última linha contém um inteiro S, o número da
+ilha em que o servidor será instalado.
+
+Cada par de ilhas é conectado por no máximo um cabo de fibra ótica, e nenhum cabo conecta uma
+ilha a si mesma. E garantido que qualquer ilha consegue se comunicar com qualquer outra através
+de algum caminho de cabos de fibra ótica.
+
 Saída
-Seu programa deve produzir um inteiro representando a diferença entre opingda ilha com maiorpingaté o servidor, e o da ilha com menorpingaté o servidor. Note que a ilha em que o servidorse encontra não é considerada no cálculo do menorping.
+
+Seu programa deve produzir um inteiro representando a diferença entre o ping da ilha com maior
+ping até o servidor, e o da ilha com menor ping até o servidor. Note que a ilha em que o servidor
+se encontra não é considerada no cálculo do menor ping.
+
 Restrições
-•2≤N≤1000•N−1≤M≤105
-•1≤U i≤N•1≤V
-i≤N•1≤S≤N•1≤P
-i≤1000
+e2<N<1000
+eN-1<M<I0
+sI<U;<N
+eiI<V<N
+sI<5<N
+
+e1<P;<1000
+
 Informações sobre a pontuação
-•Para um conjunto de casos de testes valendo 30 pontos,2≤N≤100eN−1≤M≤1000.Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível Sênior – Fase Local6
-Exemplo de entrada 1
-4 52 1 51 3 42 3 64 2 83 4 121Exemplo de saída 1
-9
-Exemplo de entrada 2
-6 111 2 36 1 92 6 102 3 85 3 34 3 22 4 126 4 14 5 91 5 165 6 55Exemplo de saída 2
+
+e Para um conjunto de casos de testes valendo 30 pontos, 2< N<100eN-1<M ã< 1000.
+ Olimpíada Brasileira de Informática - OBI2018 — Prog. Nível Sênior - Fase Local
+
+Exemplo de entrada 1 Exemplo de saída 1
+
+5 9
+15
+34
+3 6
+28
+412
+
+OS NANA
+
+Exemplo de entrada 2 Exemplo de saída 2
+
+H
+
 11
+
+vw O + ow
+[o]
+
+norma
+o O
+
+A HRONEUANNO HO
+DOT MPE HO
+q 9)
+

@@ -1,15 +1,69 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2009 1
-Avi˜ oes de papel
-Nome do arquivo fonte:papel.c,papel.cpp,oupapel.pasPara descontrair os alunos ap´ os as provas da OBI, a Diretora da escola organizou um campeonato de avi˜ oesde papel. Cada aluno participante receber´ a uma certa quantidade de folhas de um papel especial para fazer osseus modelos de avi˜ oes. A quantidade de folhas que cada aluno dever´ a receber ainda n˜ ao foi determinada: elaser´ a decidida pelos ju´ızes do campeonato.A diretora convidou, para atuarem como ju´ızes, engenheiros da Embraer, uma das mais bem sucedidas empresasbrasileiras, que vende avi˜ oes com tecnologia brasileira no mundo todo. O campeonato est´ a programado paracome¸ car logo ap´ os a prova da OBI, mas os ju´ızes ainda n˜ ao chegaram ` a escola. A diretora est´ a aita, poiscomprou uma boa quantidade de folhas de papel especial, mas n˜ ao sabe se a quantidade comprada vai sersuciente.Considere, por exemplo, que a Diretora comprou 100 folhas de papel especial, e que h´ a 33 competidores. Se osju´ızes decidirem que cada competidor tem direito a trˆ es folhas de papel, a quantidade comprada pela diretora ´ esuciente. Mas se os ju´ızes decidirem que cada competidor tem direito a quatro folhas, a quantidade compradapela diretora n˜ ao seria suciente.
+Olimpíada Brasileira de Informática —- OBI2009
+
+Aviões de papel
+
+Nome do arquivo fonte: papel
+
+-c, papel.cpp, ou papel.pas
+
+Para descontrair os alunos após as provas da OBI, a Diretora da escola organizou um campeonato de aviões
+
+de papel. Cada aluno participante receberá uma certa
+seus modelos de aviões. A quantidade de folhas que ca
+será decidida pelos juízes do campeonato.
+
+uantidade de folhas de um papel especial para fazer os
+a aluno deverá receber ainda não foi determinada: ela
+
+A diretora convidou, para atuarem como juízes, engenheiros da Embraer, uma das mais bem sucedidas empresas
+brasileiras, que vende aviões com tecnologia brasileira no mundo todo. O campeonato está programado para
+começar logo após a prova da OBI, mas os juízes ainda não chegaram à escola. A diretora está aflita, pois
+comprou uma boa quantidade de folhas de papel especial, mas não sabe se a quantidade comprada vai ser
+
+suficiente.
+
+Considere, por exemplo, que a Diretora comprou 100 fo.
+juízes decidirem que cada competidor tem direito a três
+suficiente. Mas se os juízes decidirem que cada competi
+
+has de papel especial, e que há 33 competidores. Se os
+folhas de papel, a quantidade comprada pela diretora é
+or tem direito a quatro folhas, a quantidade comprada
+
+pela diretora não seria suficiente.
+
 Tarefa
-Vocˆ e deve escrever um programa que, dados o n´ umero de competidores, o n´ umero de folhas de papel especialcompradas pela Diretora e o n´ umero de folhas que cada competidor deve receber, determine se o n´ umero defolhas comprado pela Diretora ´ e suciente.
+
+Você deve escrever um programa que, dados o número de competidores, o número de folhas de papel especial
+compradas pela Diretora e o número de folhas que cada competidor deve receber, determine se o número de
+folhas comprado pela Diretora é suficiente.
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). O arquivo de entrada cont´ em trˆ es n´ umeros inteirosC(1≤C≤1000),P(1≤P≤1000) eF(1≤F≤1000) representando respectivamente o n´ umero de competidores, a quantidade de folhas de papelespecial compradas pela Diretora e a quantidade de folhas de papel especial que cada competidor deve receber.
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, o caractere ‘S’ se a quantidade de folhas compradas pela Diretora´ e suciente, ou o caractere ‘N’ caso contr´ ario. Note que os caracteres devem ser letras mai´ usculas.
-Informa¸ c˜ oes sobre a pontua¸ c˜ ao
-•Em um conjunto de casos de teste que totaliza 30 pontos,C≤10,P≤10 eF≤10.•Em um conjunto de casos de teste que totaliza 80 pontos,C≤100,P≤100 eF≤100.
+
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado). O arquivo de entrada contém três números inteiros C (1 < C < 1000), P(1< P< 1000)eF
+(1 < F < 1000) representando respectivamente o número de competidores, a quantidade de folhas de papel
+especial compradas pela Diretora e a quantidade de folhas de papel especial que cada competidor deve receber.
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, o caractere *S” se a quantidade de folhas compradas pela Diretora
+é suficiente, ou o caractere “Nº caso contrário. Note que os caracteres devem ser letras maiúsculas.
+
+Informações sobre a pontuação
+
+e Em um conjunto de casos de teste que totaliza 30 pontos, C < 10, P<10eF<ãh10.
+
+e Em um conjunto de casos de teste que totaliza 80 pontos, C < 100, P< 100e F < 100.
+
 Exemplos
-Entrada10 100 10 Sa´ıdaSOlimp´ıada Brasileira de Inform´ atica – OBI2009 2
-Entrada10 90 10 Sa´ıdaN
-Entrada5 40 2 Sa´ıdaS
+Entrada Saída
+10 100 10 s
+
+ Olimpíada Brasileira de Informática - OBI2009
+
+Entrada Saída
+10 90 10 N
+Entrada Saída
+5 40 2 8
+

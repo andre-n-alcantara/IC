@@ -1,17 +1,66 @@
-Olimpíada Brasileira de Informática – OBI2015 4
+Olimpíada Brasileira de Informática - OBI2015 4
+
 Chocolate em barra
-Nome do arquivo:chocolate.c,chocolate.cpp,chocolate.pas,chocolate.java,chocolate.jsouchocolate.pyVô Quico comprou uma barra de chocolate para suas duas netas Lúcia e Beatriz. A barra é compostadeNlinhas eNcolunas de quadrados, ondeNé sempre um número par. Em exatamente doisquadrados, que podem estar em qualquer posição na barra, há umagurinha colada. Vô Quicogostaria de dar dois pedaços de tamanhos iguais, um para cada neta, cada pedaço contendo umagurinha. Mais precisamente, ele gostaria de dividir a barra bem na metade, com um único cortevertical ou horizontal, deixando umagurinha em cada pedaço.
-612341 2 3 41234561234 5
-Agura acima mostra dois exemplos. A barra da esquerda, comN= 4, vô Quico pode dividir nametade com um corte horizontal, e cada metade contém umagurinha. Mas a barra da direita,comN= 6, ele não consegue dividir em dois pedaços iguais, separando asgurinhas, com um únicocorte horizontal ou vertical.DadosNe as posições das duasgurinhas, seu programa deve dizer se é, ou não, possível dividira barra em dois pedaços de tamanhos iguais, com um único corte horizontal ou vertical, deixandoumagurinha em cada pedaço.
+
+Nome do arquivo: chocolate.c, chocolate. cpp, chocolate. pas, chocolate. java,
+chocolate. js ou chocolate.py
+
+Vô Quico comprou uma barra de chocolate para suas duas netas Lúcia e Beatriz. A barra é composta
+de N linhas e N colunas de quadrados, onde N é sempre um número par. Em exatamente dois
+quadrados, que podem estar em qualquer posição na barra, há uma figurinha colada. Vô Quico
+gostaria de dar dois pedaços de tamanhos iguais, um para cada neta, cada pedaço contendo uma
+figurinha. Mais precisamente, ele gostaria de dividir a barra bem na metade, com um único corte
+vertical ou horizontal, deixando uma figurinha em cada pedaço.
+
+1234 5 6
+
+on
+uq pon
+
+A figura acima mostra dois exemplos. A barra da esquerda, com N = 4, vô Quico pode dividir na
+metade com um corte horizontal, e cada metade contém uma figurinha. Mas a barra da direita,
+
+com N = 6, ele não consegue dividir em dois pedaços iguais, separando as figurinhas, com um único
+corte horizontal ou vertical.
+
+Dados N e as posições das duas figurinhas, seu programa deve dizer se é, ou não, possível dividir
+a barra em dois pedaços de tamanhos iguais, com um único corte horizontal ou vertical, deixando
+uma figurinha em cada pedaço.
+
 Entrada
-A primeira linha da entrada contém um inteiroN, representando as dimensões da barra (número delinhas e de colunas). A segunda linha contém dois inteirosX
-1eY1, representando as coordenadasda primeiragurinha. A terceira linha contém dois inteirosX
-2eY2, representando as coordenadasda segundagurinha.
+
+A primeira linha da entrada contém um inteiro N, representando as dimensões da barra (número de
+linhas e de colunas). A segunda linha contém dois inteiros X, e Y,, representando as coordenadas
+da primeira figurinha. A terceira linha contém dois inteiros X» e Y5, representando as coordenadas
+da segunda figurinha.
+
 Saída
-Seu programa deve imprimir apenas uma linha contendo um único caractere: “S”, caso seja possíveldividir a barra em pedaços iguais com um único corte horizontal ou vertical, separando asgurinhas,ou “N” caso não seja possível.
+
+Seu programa deve imprimir apenas uma linha contendo um único caractere: “S”, caso seja possível
+dividir a barra em pedaços iguais com um único corte horizontal ou vertical, separando as figurinhas,
+ou “N” caso não seja possível.
+
 Restrições
-•2≤N≤1000,Né sempre par;•1≤X
-1, Y1, X2, Y2≤N.
+
+e 2<N<h1000, Né sempre par;
+“1< XY, X,Y <N.
+
 Exemplos
-Entrada41 24 2 SaídaSOlimpíada Brasileira de Informática – OBI2015 5
-Entrada63 42 6 SaídaN
+
+Entrada Saída
+
+BB
+NV
+
+ Olimpíada Brasileira de Informática
+
+OBI2015
+
+Entrada
+
+6
+34
+26
+
+Saída
+

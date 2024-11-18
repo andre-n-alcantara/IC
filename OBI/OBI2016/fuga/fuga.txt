@@ -1,15 +1,48 @@
-Olimpíada Brasileira de Informática – OBI2016 6
+Olimpíada Brasileira de Informática - OBI2016
+
 Fuga com helicóptero
-Nome do arquivo:fuga.c,fuga.cpp,fuga.pas,fuga.java,fuga.jsoufuga.pyUm fugitivo, um helicóptero e um policial estão em posiçõesdistintas numa pista circular, exatamente como a mostrada nagura ao lado, com dezesseis posições numeradas de 0 a 15 emdireção anti-horária. O helicóptero e o policialcam sempre pa-rados. O objetivo do fugitivo é chegar no helicóptero sem passarpelo policial antes, claro. Ele pode decidir correr na direçãohorária, ou na direção anti-horária. Neste problema, dadas asposições do helicóptero, do policial e do fugitivo, e a direção emque o fugitivo decide correr, seu programa deve dizer se ele vaiou não conseguir fugir! Nagura, se o fugitivo decidir correr nadireção horária, ele consegue fugir; se decidir correr na direçãoanti-horária, ele vai ser preso antes de chegar no helicóptero!
-P123467891151012 131415F0H
+
+Nome do arquivo: fuga.c, fuga.cpp, fuga.pas, fuga. java, fuga. js ou fuga.py
+
+Um fugitivo, um helicóptero e um policial estão em posições
+distintas numa pista circular, exatamente como a mostrada na
+figura ao lado, com dezesseis posições numeradas de O a 15 em
+direção anti-horária. O helicóptero e o policial ficam sempre pa-
+rados. O objetivo do fugitivo é chegar no helicóptero sem passar
+pelo policial antes, claro. Ele pode decidir correr na direção
+horária, ou na direção anti-horária. Neste problema, dadas as
+posições do helicóptero, do policial e do fugitivo, e a direção em
+que o fugitivo decide correr, seu programa deve dizer se ele vai
+ou não conseguir fugir! Na figura, se o fugitivo decidir correr na
+direção horária, ele consegue fugir; se decidir correr na direção
+anti-horária, ele vai ser preso antes de chegar no helicóptero!
+
 Entrada
-A entrada consiste de uma linha com quatro inteiros:H, P, FeD, representando, respectivamente,as posições do helicóptero, do policial e do fugitivo, e a direção em que o fugitivo corre,−1parahorário e1para anti-horário.
+
+A entrada consiste de uma linha com quatro inteiros: H,P,F e D, representando, respectivamente,
+
+as posições do helicóptero, do policial e do fugitivo, e a direção em que o fugitivo corre, —1 para
+
+horário e 1 para anti-horário.
+
 Saída
-Seu programa deve imprimir uma linha contendo o caracter “S” se o fugitivo consegue fugir, ou “N”caso contrário.
+
+Seu programa deve imprimir uma linha contendo o caracter “S” se o fugitivo consegue fugir, ou “N”
+
+caso contrário.
+
 Restrições
-•Os inteirosH, PeFsão distintos e estão entre0e15, inclusive.
+
+e Osinteiros H,P e F são distintos e estão entre O e 15, inclusive.
+
 Exemplos
-Entrada4 14 7 -1 SaídaS
-Entrada4 14 7 1 SaídaN
-Entrada15 9 8 -1 SaídaS
-Entrada0 14 15 -1 SaídaN
+
+Entrada Saída
+414 7-1 s
+Entrada Saída
+41471 N
+Entrada Saída
+15 98 -1 s
+Entrada Saída
+014 15 -1 N
+

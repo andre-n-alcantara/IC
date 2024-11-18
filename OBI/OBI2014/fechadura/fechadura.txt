@@ -1,13 +1,56 @@
-Olimpíada Brasileira de Informática – OBI2014 7
+Olimpíada Brasileira de Informática - OBI2014 7
+
 Fechadura
-Nome do arquivo fonte:fechadura.c,fechadura.cpp,fechadura.pas,fechadura.java,oufechadura.py
-Joãozinho estava um dia chegando em casa quando percebeu que havia perdido a chave da porta. Desespe-rado, ele resolveu pedir ajuda a seu amigo Roberto, que em poucos segundos conseguiu abrir a porta usandosuas ferramentas.Admirado com a velocidade em que seu amigo conseguiu abrir a porta de sua casa sem a chave, ele decidiuperguntar como ele tinha conseguido aquilo. Roberto explicou que a fechadura da casa de Joãozinho ébaseada em um sistema de pinos de tamanhos diferentes que, uma vez alinhados na mesma alturaM, possibilitam a abertura da porta.Uma fechadura é um conjunto deNpinos dispostos horizontalmente que podem ser movimentados paracima ou para baixo com o auxílio de uma chave de metal que, ao ser inserida dentro da fechadura, podeaumentar ou diminuir em 1mm, simultaneamente, a altura de quaisquer dois pinos consecutivos.Joãozinho como um exemplar perfeccionista decidiu desbloquear sua fechadura na menor quantidade demovimentos, onde cada movimento consiste em escolher dois pinos consecutivos da fechadura e aumentar oudiminuir a altura dos dois pinos em 1mm. Após todos os pinos possuírem altura exatamente igual aM, afechadura é desbloqueada.
+
+Nome do arquivo fonte: fechadura.c, fechadura.cpp, fechadura.pas, fechadura. java, ou
+fechadura.py
+
+Joãozinho estava um dia chegando em casa quando percebeu que havia perdido a chave da porta. Desespe-
+rado, ele resolveu pedir ajuda a seu amigo Roberto, que em poucos segundos conseguiu abrir a porta usando
+suas ferramentas.
+
+Admirado com a velocidade em que seu amigo conseguiu abrir a porta de sua casa sem a chave, ele decidiu
+perguntar como ele tinha conseguido aquilo. Roberto explicou que a fechadura da casa de Joãozinho é
+baseada em um sistema de pinos de tamanhos diferentes que, uma vez alinhados na mesma altura M,
+possibilitam a abertura da porta.
+
+Uma fechadura é um conjunto de N pinos dispostos horizontalmente que podem ser movimentados para
+cima ou para baixo com o auxílio de uma chave de metal que, ao ser inserida dentro da fechadura, pode
+aumentar ou diminuir em Imm, simultaneamente, a altura de quaisquer dois pinos consecutivos.
+
+Joãozinho como um exemplar perfeccionista decidiu desbloquear sua fechadura na menor quantidade de
+movimentos, onde cada movimento consiste em escolher dois pinos consecutivos da fechadura e aumentar ou
+diminuir a altura dos dois pinos em Imm. Após todos os pinos possuírem altura exatamente igual a M, a
+fechadura é desbloqueada.
+
 Entrada
-A primeira linha da entrada contém dois inteirosNeMrepresentando, respectivamente, a quantidade depinos da fechadura e a altura em que eles devemcar para a fechadura ser desbloqueada.A segunda linha da entrada contémNinteiros, representando as alturas dos pinos da fechadura.
+
+A primeira linha da entrada contém dois inteiros N e M representando, respectivamente, a quantidade de
+pinos da fechadura e a altura em que eles devem ficar para a fechadura ser desbloqueada.
+
+A segunda linha da entrada contém N inteiros, representando as alturas dos pinos da fechadura.
+
 Saída
-Seu programa deve imprimir uma linha contendo um inteiro representando a quantidade mínima de movi-mentos para desbloquear a fechadura.
+
+Seu programa deve imprimir uma linha contendo um inteiro representando a quantidade mínima de movi-
+mentos para desbloquear a fechadura.
+
 Restrições
-•1≤N≤1000•1≤M≤100•Cada altura dos pinos está entre1e100.•É garantido que os casos de testes sempre possuem uma solução.
+e 1<N< 1000
+ei<M<hI100
+e Cada altura dos pinos está entre 1 e 100.
+
+e E garantido que os casos de testes sempre possuem uma solução.
+
 Exemplos
-Entrada4 5045 45 55 55 Saída10
-Entrada5 8484 39 17 72 94 Saída77
+
+Entrada Saída
+4 50 10
+
+45 45 55 55
+
+Entrada Saída
+5 84 77
+
+84 39 17 72 94
+

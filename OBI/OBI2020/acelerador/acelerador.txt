@@ -1,20 +1,42 @@
-Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 2 – Fase Local2
+Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível 2 — Fase Local 2
+
 Acelerador de Partículas
-Nome do arquivo:“acelerador.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3A universidade está inaugurando um grande acelerador de partículas, com um emissor e três sensores,numerados1,2e3. Uma partícula, após sair do emissor, entra no acelerador onde pode dar váriasvoltas sendo acelerada a velocidades muito altas. Num determinado momento, a partícula sai doacelerador por uma das três saídas, atingindo um dos sensores. Agura mostra o caminho poronde as partículas trafegam, com uma graduação de1quilômetro. Por exemplo, do emissor até oacelerador são3quilômetros e a circunferência do acelerador tem8quilômetros.
-Neste problema, será dada a distância total, em quilômetros, percorrida por uma certa partículatrafegando do emissor até algum sensor e seu programa deve determinar qual sensor foi atingidopela partícula. Por exemplo, veja que se a distância total for23quilômetros, então a partícula temque ter atingido o sensor2.
+
+Nome do arquivo: “acelerador .x”, onde x deve ser c, cpp, pas, java, js, py2 ou py3
+
+A universidade está inaugurando um grande acelerador de partículas, com um emissor e três sensores,
+numerados 1, 2 e 3. Uma partícula, após sair do emissor, entra no acelerador onde pode dar várias
+voltas sendo acelerada a velocidades muito altas. Num determinado momento, a partícula sai do
+acelerador por uma das três saídas, atingindo um dos sensores. A figura mostra o caminho por
+onde as partículas trafegam, com uma graduação de 1 quilômetro. Por exemplo, do emissor até o
+acelerador são 3 quilômetros e a circunferência do acelerador tem 8 quilômetros.
+
+emissor
+
+Neste problema, será dada a distância total, em quilômetros, percorrida por uma certa partícula
+trafegando do emissor até algum sensor e seu programa deve determinar qual sensor foi atingido
+pela partícula. Por exemplo, veja que se a distância total for 23 quilômetros, então a partícula tem
+que ter atingido o sensor 2.
+
 Entrada
-A entrada consiste de apenas uma linha contendo um inteiroD, representando a distância totalpercorrida pela partícula.
+
+A entrada consiste de apenas uma linha contendo um inteiro D, representando a distância total
+percorrida pela partícula.
+
 Saída
-Seu programa deve imprimir uma linha contendo um inteiro, representando o número do sensor quea partícula atingiu.
+
+Seu programa deve imprimir uma linha contendo um inteiro, representando o número do sensor que
+a partícula atingiu.
+
 Restrições
-•6≤D≤800008.Dsempre será a distância total percorrida entre o emissor e algum sensor.
+
+e 6< D< 800008. D sempre será a distância total percorrida entre o emissor e algum sensor.
+
 Exemplos
-Exemplo de entrada 1
-23Exemplo de saída 1
-2
-Exemplo de entrada 2
-6Exemplo de saída 2
-1
-Exemplo de entrada 3
-9192Exemplo de saída 3
-3
+Exemplo de entrada 1 Exemplo de saída 1
+23 2
+Exemplo de entrada 2 Exemplo de saída 2
+6 1
+Exemplo de entrada 3 Exemplo de saída 3
+9192 3
+

@@ -1,4 +1,58 @@
-•90◦•90◦•90◦
-ABCABC•••••1≤A≤104
-•1≤B≤104
-•1≤C≤104
+Olimpíada Brasileira de Informática — OBD011 8
+
+Triângulos
+
+Nome do arquivo fonte: triangulos.c, triangulos.cpp, triangulos.pas, triangulos. java, ou
+triangulos.py
+
+Caio estava brincando de construir triângulos com palitos de diferentes tamanhos. Ele fazia isso juntando as
+pontas de três palitos sobre uma mesa. Ele notou que podia agrupar os triângulos formados em três grupos:
+
+e Triângulos acutângulos, que são aqueles em que todos os ângulos internos medem menos de 90º;
+e Triângulos retângulos, que são aqueles que possuem um ângulo interno que mede exatamente 90º;
+
+e Triângulos obtusângulos, que são aqueles que possuem um ângulo interno que mede mais de 90º.
+
+Ele também percebeu que nem sempre é possível formar um triângulo com três palitos.
+
+Um triângulo acutângulo | Um triângulo retângulo | Um triângulo obtusângulo
+
+Sua tarefa é, dados os comprimentos 4, Be C de três palitos, dizer se é possível formar um triângulo com esses
+palitos e, em caso afirmativo, dizer a qual grupo o triângulo formado pertence.
+
+Entrada
+
+A entrada consiste de uma única linha, contendo três inteiros 4, Be C separados por espaço.
+
+Saída
+
+Imprima uma linha contendo apenas uma letra minúscula:
+
+e “n” se não for possível formar um triângulo;
+
+ca? :a A .
+e “a' se o triângulo formado for acutângulo;
+e “r' se o triângulo formado for retângulo;
+
+e “o' se o triângulo formado for obtusângulo.
+
+Restrições
+
+cI<A<I0!
+e1I<B<10!
+
+e1<0C<10!
+ Olimpíada Brasileira de Informática — OBD011
+
+Exemplos
+
+Entrada Saída
+111 a
+Entrada Saída
+121 n
+Entrada Saída
+543 r
+Entrada Saída
+
+634
+

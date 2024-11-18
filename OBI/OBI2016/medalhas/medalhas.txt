@@ -1,16 +1,67 @@
-Olimpíada Brasileira de Informática – OBI2016 2
+Olimpíada Brasileira de Informática - OBI2016 2
+
 Medalhas
-Nome do arquivo:medalhas.c,medalhas.cpp,medalhas.pas,medalhas.java,medalhas.jsoumedalhas.pyA natação foi um dos esportes mais emocionantes das Olimpíadas do Rio.Houve até uma prova na qual três atletas chegaram empatados, cada umrecebendo uma medalha de prata! Normalmente, porém, os três primei-ros colocados terminam a prova em tempos distintos e, portanto, temos adistribuição mais comum de medalhas: o nadador que terminou no menortempo recebe medalha de ouro; o nadador que terminou com o segundo me-nor tempo recebe medalha de prata; e o que terminou com o terceiro menortempo recebe medalha de bronze. Neste problema, dados os três tempos dis-tintos denalização da prova, dos três nadadores que ganharam medalhas,seu programa deve dizer quem ganhou medalha de ouro, quem ganhou pratae quem ganhou bronze.
-PRATABRONZEOURO
+
+Nome do arquivo: medalhas.c, medalhas.cpp, medalhas.pas, medalhas. java, medalhas. js ou
+medalhas .py
+
+A natação foi um dos esportes mais emocionantes das Olimpíadas do Rio.
+
+K
+
+Houve até uma prova na qual três atletas chegaram empatados, cada um
+recebendo uma medalha de prata! Normalmente, porém, os três primei-
+ros colocados terminam a prova em tempos distintos e, portanto, temos a
+
+K
+
+distribuição mais comum de medalhas: o nadador que terminou no menor
+tempo recebe medalha de ouro; o nadador que terminou com o segundo me- PRATA
+nor tempo recebe medalha de prata; e o que terminou com o terceiro menor
+
+tempo recebe medalha de bronze. Neste problema, dados os três tempos dis-
+
+K
+
+tintos de finalização da prova, dos três nadadores que ganharam medalhas,
+seu programa deve dizer quem ganhou medalha de ouro, quem ganhou prata BRONZE
+e quem ganhou bronze.
+
 Entrada
-A primeira linha da entrada contém um inteiroT 1, indicando o tempo em que o nadador1terminoua prova. A segunda linha da entrada contém um inteiroT
-2, indicando o tempo denalização donadador2. Porm, a terceira linha da entrada contém um inteiroT
-3, indicando o tempo em que onadador3terminou a prova.
+
+A primeira linha da entrada contém um inteiro T1, indicando o tempo em que o nadador 1 terminou
+a prova. A segunda linha da entrada contém um inteiro T», indicando o tempo de finalização do
+nadador 2. Por fim, a terceira linha da entrada contém um inteiro T3, indicando o tempo em que o
+nadador 3 terminou a prova.
+
 Saída
-Seu programa deve imprimir três linhas na saída. A primeira linha deve conter o número do nadadorque ganhou medalha de ouro; a segunda linha, o número do nadador que ganhou prata; e a terceiralinha, o número do nadador que levou bronze.
+
+Seu programa deve imprimir três linhas na saída. A primeira linha deve conter o número do nadador
+que ganhou medalha de ouro; a segunda linha, o número do nadador que ganhou prata; e a terceira
+linha, o número do nadador que levou bronze.
+
 Restrições
-•Os temposT 1, T2eT 3são inteiros distintos, com valores entre1e1000, inclusive.
+
+e Os tempos 71, T) e T3 são inteiros distintos, com valores entre 1 e 1000, inclusive.
+
 Exemplos
-Entrada230183234 Saída213
-Entrada464748 Saída123
-Entrada11217 Saída312
+
+Entrada Saída
+230 2
+
+183 1
+
+234 3
+Entrada Saída
+46 1
+
+47
+
+48 3
+Entrada Saída
+11 3
+
+21 1
+
+7 2
+

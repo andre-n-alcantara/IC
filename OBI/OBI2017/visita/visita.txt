@@ -1,26 +1,64 @@
-Olimpíada Brasileira de Informática – OBI2017 – Prog. Nível 1 – Fase Nacional6
+Olimpíada Brasileira de Informática - OBI2017 — Prog. Nível 1 - Fase Nacional 6
+
 Visita entre cidades
-Nome do arquivo:visita.c,visita.cpp,visita.pas,visita.java,visita.js,visita.py2ouvisita.py3A Linearlândia é composta deNcidades, numera-das de1atéN. Para alguns pares de cidades existeexatamente uma estrada bidirecional entre as duascidades do par. Os pares de cidades ligados direta-mente por uma estrada são escolhidos de forma quesempre é possível ir de qualquer cidade para qual-quer outra cidade por um, e somente um, caminho(um caminho é uma sequência de estradas, sem re-petição).Dada a lista de pares de cidades ligados diretamentepor estradas, as distâncias entre os pares de cida-des, uma cidade origem e uma cidade destino, seuprograma deve computar qual a distância entre acidade de origem e a cidade destino, usando as es-tradas. Por exemplo, nagura, a distância para irda cidade12para a cidade7é 23; a distância dacidade15para a cidade12é 16; e a distância dacidade7para a cidade15é 33.
-53333671063
-8
-75
-310
-12
-4
-6
-7
-14133
-51210
-11
-16
-1589
+
+Nome do arquivo: visita.c, visita.cpp, visita.pas, visita. java, visita.js, visita.py2 ou
+visita.py3
+
+A Linearlândia é composta de N cidades, numera-
+das de 1 até N. Para alguns pares de cidades existe
+exatamente uma estrada bidirecional entre as duas
+cidades do par. Os pares de cidades ligados direta-
+mente por uma estrada são escolhidos de forma que
+sempre é possível ir de qualquer cidade para qual-
+quer outra cidade por um, e somente um, caminho
+(um caminho é uma sequência de estradas, sem re-
+petição).
+Dada a lista de pares de cidades ligados diretamente
+por estradas, as distâncias entre os pares de cida-
+des, uma cidade origem e uma cidade destino, seu
+
+programa deve computar qual a distância entre a
+cidade de origem e a cidade destino, usando as es-
+tradas. Por exemplo, na figura, a distância para ir
+da cidade 12 para a cidade 7 é 23; a distância da
+cidade 15 para a cidade 12 é 16; e a distância da
+cidade 7 para a cidade 15 é 33.
+
 Entrada
-A primeira linha da entrada contém três inteirosN,AeB, representando o número de cidades naLinearlândia, a cidade origem e a cidade destino, respectivamente. As cidades são identicadas porinteiros de1aN. AsN−1linhas seguintes contém, cada uma, três inteirosP,QeD, indicandoque existe uma estrada ligando diretamente as cidadesPeQ, com distânciaD.
+
+A primeira linha da entrada contém três inteiros N, A e B, representando o número de cidades na
+Linearlândia, a cidade origem e a cidade destino, respectivamente. As cidades são identificadas por
+inteiros de 1 a N. As N — 1 linhas seguintes contém, cada uma, três inteiros P, Q e D, indicando
+que existe uma estrada ligando diretamente as cidades P e Q, com distância D.
+
 Saída
-Seu programa deve imprimir uma linha contendo um inteiro representando a distância para ir deAatéBpelas estradas de Linearlândia.
+
+Seu programa deve imprimir uma linha contendo um inteiro representando a distância para ir de A
+até B pelas estradas de Linearlândia.
+
 Restrições
-•2≤N≤10000•1≤A≤N,1≤B≤N,A6=B•1≤P≤N,1≤Q≤N•1≤D≤100
+
+e 2<N<10000
+CI<XA<XNI<SB<NALB
+eI<P<NI<SQ<N
+e1<D<100
+
 Exemplos
-Entrada4 2 41 2 102 3 113 4 12 Saída23Olimpíada Brasileira de Informática – OBI2017 – Prog. Nível 1 – Fase Nacional7
-Entrada16 15 73 5 812 3 35 1 52 1 54 1 106 1 37 1 712 8 312 9 312 10 312 11 33 13 613 14 615 13 715 16 10
-Saída33
+
+Entrada Saída
+
+424 23
+1210
+2311
+3412
+
+ Olimpíada Brasileira de Informática - OBI2017 — Prog. Nível 1 — Fase Nacional
+
+Entrada Saída
+
+16 15 7 33
+358
+
+15 16 10
+

@@ -1,24 +1,82 @@
-Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível 2 – Fase Estadual6
-Wi
-Nome do arquivo:“wifi.x”,ondexdeve serc|cpp|pas|java|js|py2|py3A arquitetura do novo museu de ciências é bastante peculiar. O prédio do museu é uma grandesala retangular. Dentro dessa sala existem outras salas retangulares, e dentro delas existem outrassalas retangulares, e assim recursivamente, como se fossem caixas dentro de caixas... As paredesdas salas não se tocam. Veja um exemplo na parte esquerda dagura, com oito salas.
-O diretor quer instalar uma rede wique funcione em todo o museu. Para economizar, ele quercomprar o número mínimo possível de antenas. O problema é que, pela forma como foram construí-das as paredes das salas, ocorre uma coisa interessante: o sinal wié capaz de atravessar as paredesquando vem de dentro para fora, mas estranhamente não atravessa as paredes quando vem de forapara dentro das salas! Agura mostra duas posições possíveis para uma antena, mostrada comoum círculo, e a área que o respectivo sinal wida antena alcançaria.Neste problema, dadosNretângulos cujos lados são paralelos aos eixos cartesianos, que descrevemas salas do museu, seu programa deve computar o número mínimo possível de antenas que o diretordeve comprar para que a rede wifuncione em todo o museu.
+Olimpíada Brasileira de Informática - OBI2018 — Prog. Nível 2 — Fase Estadual 6
+
+Wifi
+
+, onde x deve ser clcpplpasljavaljslpy2lpy3
+
+Nome do arquivo: “wifi.
+
+A arquitetura do novo museu de ciências é bastante peculiar. O prédio do museu é uma grande
+sala retangular. Dentro dessa sala existem outras salas retangulares, e dentro delas existem outras
+salas retangulares, e « As paredes
+
+ssim recursivamente, como se fossem caixas dentro de caixas..
+das salas não se tocam. Veja um exemplo na parte esquerda da figura, com oito salas.
+
+[] [1] [|
+
+LI] LI] LI]
+
+O diretor quer instalar uma rede wifi que funcione em todo o museu. Para economizar, ele quer
+comprar o número mínimo possível de antenas. O problema é que, pela forma como foram construí-
+das as paredes das salas, ocorre uma coisa interessante: o sinal wifi é capaz de atravessar as paredes
+quando vem de dentro para fora, mas estranhamente não atravessa as paredes quando vem de fora
+para dentro das salas! A figura mostra duas posições possíveis para uma antena, mostrada como
+um círculo, e a área que o respectivo sinal wifi da antena alcançaria.
+
+Neste problema, dados N retângulos cujos lados são paralelos aos eixos cartesianos, que descrevem
+as salas do museu, seu programa deve computar o número mínimo possível de antenas que o diretor
+deve comprar para que a rede wifi funcione em todo o museu.
+
 Entrada
-A primeira linha da entrada contém um inteiroNindicando o número de salas. Cada uma dasNlinhas seguintes contém quatro inteiros,X
-1, Y1, X2eY2, denindo as coordenadas do canto superioresquerdo(X
-1, Y1)e inferior direito(X 2, Y2)de uma sala. Não há nenhum tipo de interseção entreos retângulos que denem as salas. Um dos retângulos contém todos os demais e representa a salamais externa (as paredes externas do prédio do museu).
+
+A primeira linha da entrada contém um inteiro N indicando o número de salas. Cada uma das N
+linhas seguintes contém quatro inteiros, X4,Y1, X» e Y5, definindo as coordenadas do canto superior
+esquerdo (X1,Y1) e inferior direito (X»,Y>) de uma sala. Não há nenhum tipo de interseção entre
+os retângulos que definem as salas. Um dos retângulos contém todos os demais e representa a sala
+mais externa (as paredes externas do prédio do museu).
+
 Saída
-Imprima um inteiro, representando o número mínimo possível de antenas de wipara que a redefuncione em todo o museu.
+
+Imprima um inteiro, representando o número mínimo possível de antenas de wifi para que a rede
+funcione em todo o museu.
+
 Restrições
-•1≤N≤105
-•−109≤X 1, Y1, X2, Y2≤109;X1< X 2eY2< Y1
+
+s1<N<I10
+
+º —10º < X1,Y1, Xo,Y» < 10º; X<Xeh<Nh
+
 Informações sobre a pontuação
-•Para um conjunto de casos de testes valendo 20 pontos,1≤N≤104.Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível 2 – Fase Estadual7
-Exemplo de entrada 1
-45 19 8 175 15 15 50 20 20 08 10 10 8Exemplo de saída 1
-2
-Exemplo de entrada 2
-1-10000000 10000000 10000000 -10000000Exemplo de saída 2
-1
-Exemplo de entrada 3
-750 80 90 7545 30 50 205 98 6 970 100 100 020 60 98 525 50 70 1030 45 65 15Exemplo de saída 3
-3
+
+e Para um conjunto de casos de testes valendo 20 pontos, 1 < N < 10º.
+ Olimpíada Brasileira de Informática - OBI2018 — Prog. Nível 2 — Fase Estadual
+
+Exemplo de entrada 1 Exemplo de saída 1
+4 2
+
+5 19 8 17
+
+5 15 15 5
+
+020 20 0
+
+8 10 10 8
+
+Exemplo de entrada 2 Exemplo de saída 2
+1 1
+
+-10000000 10000000 10000000 -10000000
+
+Exemplo de entrada 3 Exemplo de saída 3
+
+7 3
+50 80 90 75
+45 30 50 20
+5 98 6 97
+
+O 100 100 O
+20 60 98 5
+25 50 70 10
+30 45 65 15
+

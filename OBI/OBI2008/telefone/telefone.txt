@@ -1,28 +1,60 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2008 – Programa¸ c˜ ao N´ıvel 1 Fase 1 3
+Olimpíada Brasileira de Informática — OB12008 — Programação Nível 1 Fase 1 3
+
 Telefone
-Nome do arquivo fonte:telefone.c,telefone.cppoutelefone.pasAs primeiras redes p´ ublicas de telefonia foram constru´ıdas pela AT&T no come¸ co do s´ eculo XX. Elas permitiamque seus assinantes conversassem com a ajuda de umatelefonista, que conectava as linhas dos assinantes comum cabo especial.Essas redes evolu´ıram muito desde ent˜ ao, com a ajuda de v´ arios avan¸ cos tecnol´ ogicos. Hoje em dia, essasredes atendem centenas de milh˜ oes de assinantes; ao inv´ es de falar diretamente com uma telefonista, vocˆ e podesimplesmente discar o n´ umero da pessoa desejada no telefone.Cada assinante recebe um n´ umero de telefone — por exemplo, 55–98–234–5678. Qualquer pessoa que discaresse n´ umero consegue ent˜ ao falar com a pessoa do outro lado da linha. Os h´ıfens no n´ umero de telefone s˜ ao s´ opara facilitar a leitura, e n˜ ao s˜ ao discados no telefone.Para queque mais f´ acil de se lembrar de um n´ umero de telefone, muitas companhias divulgam n´ umeros quecont´ em letras no lugar de d´ıgitos. Para convertˆ e-los de volta para d´ıgitos, a maioria dos telefones tem letras nassuas teclas:
-1
-4
-GHI
-7
-PQRS
-*2
-ABC
-5
-JKL
-8
-TUV
-03
-DEF
-6
-MNO
-9
-WXYZ
-#Ao inv´ es de discar uma letra, disca-se a tecla que cont´ em aquela letra. Por exemplo, se vocˆ e quiser discar on´ umero 0800–FALE–SBC, vocˆ e na realidade discaria 0800–3253–722.A sua av´ o tem reclamado de problemas de vista — em particular, ela n˜ ao consegue mais enxergar as letrinhasnas teclas do telefone, e por isso queria que vocˆ ezesse um programa que convertesse as letras em um n´ umerode telefone para d´ıgitos.
+
+Nome do arquivo fonte: telefone.c, telefone. cpp ou telefone.pas
+
+As primeiras redes públicas de telefonia foram construídas pela AT&T no começo do século XX. Elas permitiam
+que seus assinantes conversassem com a ajuda de uma telefonista, que conectava as linhas dos assinantes com
+um cabo especial.
+Essas redes evoluíram muito desde então, com a ajuda de vários avanços tecnológicos. Hoje em dia, essas
+redes atendem centenas de milhões de assinantes; ao invés de falar diretamente com uma telefonista, você pode
+simplesmente discar o número da pessoa desejada no telefone.
+
+Cada assinante recebe um número de telefone — por exemplo, 55-98-234-5678. Qualquer pessoa que discar
+esse número consegue então falar com a pessoa do outro lado da linha. Os hífens no número de telefone são só
+para facilitar a leitura, e não são discados no telefone.
+
+Para que fique mais fácil de se lembrar de um número de telefone, muitas companhias divulgam números que
+contém letras no lugar de dígitos. Para convertê-los de volta para dígitos, a maioria dos telefones tem letras nas
+suas teclas:
+
+O (ED)
+OC
+
+(EIS
+
+Ao invés de discar uma letra, disca-se a tecla que contém aquela letra. Por exemplo, se você quiser discar o
+número 0800-FALE-SBC, você na realidade discaria 0800-3253-722.
+
+A sua avó tem reclamado de problemas de vista — em particular, ela não consegue mais enxergar as letrinhas
+nas teclas do telefone, e por isso queria que você fizesse um programa que convertesse as letras em um número
+de telefone para dígitos.
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). A entrada ´ e composta de apenas uma linha, contendo o n´ umero de telefone que deve ser traduzido.O n´ umero de telefone cont´ em entre 1 e 15 caracteres, que podem ser d´ıgitos e ‘0’ a ‘9’, letras de ‘A’ a ‘Y’ e h´ıfens(‘-’).
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, uma ´ unica linha, contendo o n´ umero de telefone com as letrasconvertidas para d´ıgitos. H´ıfens no n´ umero telefone devem ser mantidos no n´ umero de telefone de sa´ıda.
-Exemplo de entrada55-98-234-5678 Exemplo de sa´ıda55-98-234-5678
-Exemplo de entrada0800-FALE-SBC Exemplo de sa´ıda0800-3253-722Olimp´ıada Brasileira de Inform´ atica – OBI2008 – Programa¸ c˜ ao N´ıvel 1 Fase 1 4
-Exemplo de entradaM1S-TU-R4 Exemplo de sa´ıda617-88-74
+
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado). A entrada é composta de apenas uma linha, contendo o número de telefone que deve ser traduzido.
+O número de telefone contém entre 1 e 15 caracteres, que podem ser dígitos e '0” a '9”, letras de 'A” a 'Y' e hífens
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, uma única linha, contendo o número de telefone com as letras
+convertidas para dígitos. Hífens no número telefone devem ser mantidos no número de telefone de saída.
+
+Exemplo de entrada Exemplo de saída
+55-98-234-5678 55-98-234-5678
+Exemplo de entrada Exemplo de saída
+0800-FALE-SBC 0800-3253-722
+
+ Olimpíada Brasileira de Informática — OB12008 — Programação Nível 1 Fase 1
+
+Exemplo de entrada
+
+M1S-TU-R4
+
+Exemplo de saída
+
+617-88-74
+
+4

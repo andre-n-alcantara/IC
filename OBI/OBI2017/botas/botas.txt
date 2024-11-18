@@ -1,13 +1,54 @@
-Olimpíada Brasileira de Informática – OBI2017 6
+Olimpíada Brasileira de Informática - OBI2017 6
+
 Botas Trocadas
-Nome do arquivo:botas.c,botas.cpp,botas.pas,botas.java,botas.jsoubotas.pyA divisão de Suprimentos de Botas e Calçados do Exército comprou um grande número de paresde botas de vários tamanhos para seus soldados. No entanto, por uma falha de empacotamento dafábrica contratada, nem todas as caixas entregues continham um par de botas correto, com duasbotas do mesmo tamanho, uma para cada pé. O sargento mandou que os recrutas retirassem todasas botas de todas as caixas para reembalá-las, desta vez corretamente.Quando o sargento descobriu que você sabia programar, ele solicitou com a gentileza habitualque você escrevesse um programa que, dada a lista contendo a descrição de cada bota entregue,determina quantos pares corretos de botas poderão ser formados no total.
+
+Nome do arquivo: botas.c, botas.cpp, botas.pas, botas. java, botas. js ou botas.py
+
+A divisão de Suprimentos de Botas e Calçados do Exército comprou um grande número de pares
+de botas de vários tamanhos para seus soldados. No entanto, por uma falha de empacotamento da
+fábrica contratada, nem todas as caixas entregues continham um par de botas correto, com duas
+botas do mesmo tamanho, uma para cada pé. O sargento mandou que os recrutas retirassem todas
+as botas de todas as caixas para reembalá-las, desta vez corretamente.
+
+Quando o sargento descobriu que você sabia programar, ele solicitou com a gentileza habitual
+que você escrevesse um programa que, dada a lista contendo a descrição de cada bota entregue,
+determina quantos pares corretos de botas poderão ser formados no total.
+
 Entrada
-A primeira linha da entrada contém um inteiroNindicando o número de botas individuais entregues.Cada uma dasNlinhas seguintes descreve uma bota, contendo um número inteiroMe uma letraL, separados por um espaço em branco.Mindica o número do tamanho da bota eLindica o pé dabota:L=‘D’ indica que a bota é para o pé direito,L=‘E’ indica que a bota é para o pé esquerdo.
+
+A primeira linha da entrada contém um inteiro N indicando o número de botas individuais entregues.
+Cada uma das N linhas seguintes descreve uma bota, contendo um número inteiro M e uma letra
+L, separados por um espaço em branco. M indica o número do tamanho da bota e L indica o pé da
+bota: L = 'D' indica que a bota é para o pé direito, L = “E' indica que a bota é para o pé esquerdo.
+
 Saída
-Seu programa deve imprimir uma única linha contendo um único número inteiro indicando o númerototal de pares corretos de botas que podem ser formados.
+
+Seu programa deve imprimir uma única linha contendo um único número inteiro indicando o número
+total de pares corretos de botas que podem ser formados.
+
 Restrições
-•2≤N≤104
-•Né par•30≤M≤60•Lé o caractere ‘D’ ou o caractere ‘E’
+
+2<N<10!
+
+Né par
+
+30<M<60
+
+Léo caractere 'D' ou o caractere “E”
+
 Exemplos
-Entrada440 D41 E41 D40 ESaída2
-Entrada638 E39 E40 D38 D40 D37 ESaída1
+
+Entrada Saída
+4 2
+
+Entrada Saída
+
+38
+39
+40
+38
+40
+37
+
+MOO oOmm
+

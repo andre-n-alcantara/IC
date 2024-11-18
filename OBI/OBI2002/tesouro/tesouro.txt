@@ -1,11 +1,84 @@
-40Caça ao Tesouro
-Arquivo fonte: tesouro.c, tesouro.cc, tesouro.cpp ou tesouro.pasQuando limpavam o porão da casa recentemente herdada, os primos João e José descobriram umantigo mapa guardado no baú que havia sido de seu bisavô. O mapa parecia descrever uma ilha,era muito antigo, e em meio a indicações de caminhos pela ilha, continha apenas um nome: HuynChong Chong. Curiosos, João e José pesquisaram o nome na bilbioteca do colégio e na Internet.Para sua surpresa e excitação, o nome era relacionado a uma antiga lenda de um tesouro escon-dido por piratas no século XVIII.Encantados com a lenda, os primos acreditaram ter encontrado o mapa que os levaria ao tesouro,escondido na ilha de Huyn Chong Chong, próximo à Coréia do Sul. O tesouro, dizia a lenda, con-tinha uma arca cheia de pedras preciosas muito raras e valiosas. Certos de que encontrariam otesouro, os primos embarcaram rumo à ilha. Cada um dos primos se imaginava mais esperto doque o outro, e acreditava que encontraria o tesouro primeiro. Assim, eles combinaram que cadaum ﬁcaria com a parte do tesouro que encontrasse. Os primos então se separaram, e começaram aprocurar o tesouro, especialmente a arca. Cada um dos primos tomou o caminho que imaginavaque o levaria até a arca, e seguindo a indicação do mapa, ambos foram encontrando várias jóiaspelo caminho. Coincidentemente, os dois primos cheragam ao mesmo tempo no local onde a arcaestava escondida. Como os dois encontraram a arca ao mesmo tempo, eles tinham agora que deci-dir como dividir o tesouro. Depois de analisar algumas alternativas, os primos concordaram emfazer a divisão da seguinte forma. Cada um ﬁcaria com a parte do tesouro que encontrou antes dechegar à arca, e o conteúdo da arca seria dividido de forma que os dois ﬁcassem com partes dotesouro total de mesmo valor. Para fazer a divisão desta forma, ao chegar de volta ao Brasil, os pri-mos mandaram avaliar cada jóia do tesouro. Contudo, eles estão agora em dúvida se é possívelfazer a divisão conforme eles haviam combinado. Você, como amigo dos dois primos (agora mili-onários), e esperando receber alguma recompensa, dispôs-se a ajudá-los a descobrir se é possívelfazer tal divisão.
+Caça ao Tesouro
+
+Arquivo fonte: tesouro.c, tesouro.cc, tesouro.cpp ou tesouro.pas
+
+Quando limpavam o porão da casa recentemente herdada, os primos João e José descobriram um
+antigo mapa guardado no baú que havia sido de seu bisavô. O mapa parecia descrever uma ilha,
+era muito antigo, e em meio a indicações de caminhos pela ilha, continha apenas um nome: Huyn
+Chong Chong. Curiosos, João e José pesquisaram o nome na bilbioteca do colégio e na Internet.
+Para sua surpresa e excitação, o nome era relacionado a uma antiga lenda de um tesouro escon-
+dido por piratas no século XVIII.
+
+Encantados com a lenda, os primos acreditaram ter encontrado o mapa que os levaria ao tesouro,
+escondido na ilha de Huyn Chong Chong, próximo à Coréia do Sul. O tesouro, dizia a lenda, con-
+tinha uma arca cheia de pedras preciosas muito raras e valiosas. Certos de que encontrariam o
+tesouro, os primos embarcaram rumo à ilha. Cada um dos primos se imaginava mais esperto do
+que o outro, e acreditava que encontraria o tesouro primeiro. Assim, eles combinaram que cada
+um ficaria com a parte do tesouro que encontrasse. Os primos então se separaram, e começaram a
+procurar o tesouro, especialmente a arca. Cada um dos primos tomou o caminho que imaginava
+que o levaria até a arca, e seguindo a indicação do mapa, ambos foram encontrando várias jóias
+pelo caminho. Coincidentemente, os dois primos cheragam ao mesmo tempo no local onde a arca
+estava escondida. Como os dois encontraram a arca ao mesmo tempo, eles tinham agora que deci-
+dir como dividir o tesouro. Depois de analisar algumas alternativas, os primos concordaram em
+fazer a divisão da seguinte forma. Cada um ficaria com a parte do tesouro que encontrou antes de
+chegar à arca, e o conteúdo da arca seria dividido de forma que os dois ficassem com partes do
+tesouro total de mesmo valor. Para fazer a divisão desta forma, ao chegar de volta ao Brasil, os pri-
+mos mandaram avaliar cada jóia do tesouro. Contudo, eles estão agora em dúvida se é possível
+fazer a divisão conforme eles haviam combinado. Você, como amigo dos dois primos (agora mili-
+onários), e esperando receber alguma recompensa, dispôs-se a ajudá-los a descobrir se é possível
+fazer tal divisão.
+
 1. Tarefa
-São dados:• o valor dos objetos coletados por João e por José antes de encontrarem a arca;• uma lista de valores, correspondentes aos objetos encontrados dentro da arca.Como as jóias são muito valiosas, estes valores são dados em unidades de R$ 1.000,00, ou seja, ovalor 10 signiﬁca R$ 10.000,00. Você deve escrever um programa que determina se é possíveldividir os objetos da arca de forma que, considerados também os valores dos objetos encontradosanteriormente (que ﬁcarão com quem os encontrou), os primos recebam partes do tesouro com omesmo valor.
+
+São dados:
+* o valor dos objetos coletados por João e por José antes de encontrarem a arca;
+* uma lista de valores, correspondentes aos objetos encontrados dentro da arca.
+
+Como as jóias são muito valiosas, estes valores são dados em unidades de R$ 1.000,00, ou seja, o
+valor 10 significa R$ 10.000,00. Você deve escrever um programa que determina se é possível
+dividir os objetos da arca de forma que, considerados também os valores dos objetos encontrados
+anteriormente (que ficarão com quem os encontrou), os primos recebam partes do tesouro com o
+mesmo valor.
+
 2. Entrada
-Seu programa deve ler vários conjuntos de testes. A primeira linha de um conjunto de testes con-tém três números inteiros X, Y e N. Os valores X eY representam respectivamente a soma dos valo-res encontrados por João e por José antes de chegarem à arca. O valorNindica o número deobjetos encontrados na arca. Seguem-se N linhas, cada uma contendo um número inteiro V, cor-respondendo ao valor de um dos objetos da arca. O ﬁnal da entrada é indicado por X = Y
- = N = 0.5Exemplo de Entrada10 20 438721 1 627712530 0 0
+
+Seu programa deve ler vários conjuntos de testes. A primeira linha de um conjunto de testes con-
+tém três números inteiros X, Ye N. Os valores X eY representam respectivamente a soma dos valo-
+res encontrados por João e por José antes de chegarem à arca. O valor N indica o número de
+objetos encontrados na arca. Seguem-se N linhas, cada uma contendo um número inteiro V, cor-
+respondendo ao valor de um dos objetos da arca. O final da entrada é indicado por X = Y= N=0.
+ Exemplo de Entrada
+
+H
+o
+DY
+(O)
+NS
+
+SONHA NINNHNNO O O
+
+00
+
 3. Saída
-Para cada conjunto de teste da entrada seu programa deve produzir três linhas na saída. A primeiralinha deve conter um identiﬁcador do conjunto de teste, no formato “Teste n”, onde n é numeradoa partir de 1. A segunda linha deve conter o caractere ‘S’ caso seja possível dividir o tesouro comocombinado pelos dois primos, ou o caractere ‘N’ caso contrário. A terceira linha deve ser deixadaem branco. A graﬁa mostrada no Exemplo de Saída, abaixo, deve ser seguida rigorosamente. Exemplo de SaídaTeste 1STeste 2N(esta saída corresponde ao exemplo de entrada acima)
+
+Para cada conjunto de teste da entrada seu programa deve produzir três linhas na saída. A primeira
+linha deve conter um identificador do conjunto de teste, no formato “Teste n”, onde n é numerado
+a partir de 1. A segunda linha deve conter o caractere *S? caso seja possível dividir o tesouro como
+combinado pelos dois primos, ou o caractere “Nº” caso contrário. A terceira linha deve ser deixada
+em branco. A grafia mostrada no Exemplo de Saída, abaixo, deve ser seguida rigorosamente.
+
+Exemplo de Saída
+Teste 1
+s
+
+Teste 2
+N
+
+(esta saída corresponde ao exemplo de entrada acima)
+
 4. Restrições
-0 ≤ X ≤ 50 (X = 0 apenas para indicar o ﬁnal da entrada)0 ≤ Y ≤ 50 (Y = 0 apenas para indicar o ﬁnal da entrada)0 ≤ N ≤ 100 (N = 0 apenas para indicar o ﬁnal da entrada)1 ≤ V ≤ 100
+
+0<X<50 (X= 0 apenas para indicar o final da entrada)
+0<Y<50 (Y=o0 apenas para indicar o final da entrada)
+0<N< 100 (N=o0 apenas para indicar o final da entrada)
+1I<V<100

@@ -1,17 +1,49 @@
-Olimpíada Brasileira de Informática – OBI2017 – Prog. Nível 2 – Fase 2 5
+Olimpíada Brasileira de Informática - OBI2017 — Prog. Nível 2 — Fase 2 5
+
 Cortando o Papel
-Nome do arquivo:papel.c,papel.cpp,papel.pas,papel.java,papel.js,papel.py2oupapel.py3Uma folha de papel é composta de uma sequência de retângulos com diferentes alturas mas comlargurasxas, tal que as bases dos retângulos estão assentadas em uma linha horizontal. Agurailustra uma folha exemplo com33retângulos. Nós gostaríamos de fazer um único corte horizontal,com a ajuda de um estilete e uma régua, que maximize o número resultante de pedaços separadospelo corte. Agura mostra quatro diferentes cortes que resultariam, respectivamente, em4,11,10e3pedaços.
-1411103
-33Entrada
-A primeira linha da entrada contém um inteiroN, representando o número de retângulos na folhade papel. A segunda linha contémNinteirosA
-i,1iN, representando a sequência de alturasdos retângulos.
+
+Nome do arquivo: papel.c, papel.cpp, papel.pas, papel.java, papel.js, papel.py2 ou
+papel.py3
+
+Uma folha de papel é composta de uma sequência de retângulos com diferentes alturas mas com
+larguras fixas, tal que as bases dos retângulos estão assentadas em uma linha horizontal. A figura
+ilustra uma folha exemplo com 33 retângulos. Nós gostaríamos de fazer um único corte horizontal,
+com a ajuda de um estilete e uma régua, que maximize o número resultante de pedaços separados
+pelo corte. A figura mostra quatro diferentes cortes que resultariam, respectivamente, em 4,11,10
+e 3 pedaços.
+
+10
+
+11
+
+Entrada
+
+A primeira linha da entrada contém um inteiro N, representando o número de retângulos na folha
+de papel. A segunda linha contém N inteiros 4;, 1 <i < N, representando a sequência de alturas
+dos retângulos.
+
 Saída
-Seu programa deve imprimir uma linha contendo um inteiro representando o número máximo depedaços possível, com um único corte horizontal.
+
+Seu programa deve imprimir uma linha contendo um inteiro representando o número máximo de
+pedaços possível, com um único corte horizontal.
+
 Restrições
-•1N105
-•1A i109, para1iN
+
+s1<N<I10
+“1<4;<10,paral<i<N
+
 Informações sobre a pontuação
-•Em um conjunto de casos de teste somando 40 pontos,N1000
+
+e Em um conjunto de casos de teste somando 40 pontos, N < 1000
+
 Exemplos
-Entrada1020 5 10 5 15 15 15 5 6 22 Saída5
-Entrada510 20 30 40 50 Saída2
+Entrada Saída
+10 5
+
+20 5 10 5 15 15 15 5 6 22
+
+Entrada Saída
+
+5 2
+10 20 30 40 50
+

@@ -1,16 +1,61 @@
-Olimpíada Brasileira de Informática – OBI2015 4
+Olimpíada Brasileira de Informática - OBI2015 4
+
 Capitais
-Nome do arquivo:capitais.c,capitais.cpp,capitais.pas,capitais.java,capitais.jsoucapitais.pyA Linearlândia construiu uma rede de ferrovias de alta velocidade,ligando certos pares de cidades, de modo que: é possível viajarentre qualquer par de cidades usando apenas ferrovias; e há apenasum caminho de ferrovias (sequência de ferrovias) entre qualquerpar de cidades. Existe muita disputa entre as capitais dos estadosda Linearlândia e, por isso,cou decidido que cada capital serialigada por ferrovia a apenas uma outra cidade, e que toda cidadeque não é capital seria ligada a outras cidades por duas ou maisferrovias. Dessa forma, nenhuma viagem entre um par de capitaisusando apenas ferrovias passa por uma terceira capital.
-512
-Vamos denir comodistância-ferroviaentre duas cidades o número de ferrovias que é necessárioutilizar para viajar entre essas duas cidades. Dada apenas a informação sobre quais pares decidades estão ligados por uma ferrovia, você deve escrever um programa para computar a menordistância-ferrovia entre todos os pares de capitais. Nagura acima, há nove capitais e a menordistância-ferrovia entre qualquer par de capitais é3, entre as capitais5e12.
+
+Nome do arquivo: capitais.c, capitais.cpp, capitais.pas, capitais. java, capitais. js ou
+capitais.py
+
+A Linearlândia construiu uma rede de ferrovias de alta velocidade, 12
+ligando certos pares de cidades, de modo que: é possível viajar
+
+entre qualquer par de cidades usando apenas ferrovias; e há apenas
+
+um caminho de ferrovias (sequência de ferrovias) entre qualquer 3
+
+par de cidades. Existe muita disputa entre as capitais dos estados
+
+da Linearlândia e, por isso, ficou decidido que cada capital seria
+
+ligada por ferrovia a apenas uma outra cidade, e que toda cidade
+
+que não é capital seria ligada a outras cidades por duas ou mais
+ferrovias. Dessa forma, nenhuma viagem entre um par de capitais
+
+usando apenas ferrovias passa por uma terceira capital.
+
+Vamos definir como distância-ferrovia entre duas cidades o número de ferrovias que é necessário
+utilizar para viajar entre essas duas cidades. Dada apenas a informação sobre quais pares de
+cidades estão ligados por uma ferrovia, você deve escrever um programa para computar a menor
+distância-ferrovia entre todos os pares de capitais. Na figura acima, há nove capitais e a menor
+distância-ferrovia entre qualquer par de capitais é 3, entre as capitais 5 e 12.
+
 Entrada
-A primeira linha da entrada contém um inteiroN, o número de cidades. As cidades são identicadaspor inteiros de1aN. AsN−1linhas seguintes contém, cada uma, dois inteirosUeV, representandoum par de cidades ligadas por uma ferrovia.
+
+A primeira linha da entrada contém um inteiro N, o número de cidades. As cidades são identificadas
+por inteiros de 1 a N. As N-—1 linhas seguintes contém, cada uma, dois inteiros U e V, representando
+um par de cidades ligadas por uma ferrovia.
+
 Saída
-Seu programa deve produzir uma única linha, contendo um único inteiro, a menor distância-ferroviaentre todos os pares capitais.
+
+Seu programa deve produzir uma única linha, contendo um único inteiro, a menor distância-ferrovia,
+entre todos os pares capitais.
+
 Restrições
-•2≤N≤105
+
+“2<N<I10
+
 Informações sobre a pontuação
-•Em um conjunto de casos de teste cuja soma é 40 pontos,N≤104;
+
+e Em um conjunto de casos de teste cuja soma é 40 pontos, N < 10º;
+
 Exemplos
-Entrada81 22 33 45 36 56 78 7Saída3
-Entrada21 2 Saída1
+
+Entrada Saída
+
+Now o
+NNJNOQwEwnN
+
+Entrada Saída
+
+12
+

@@ -1,17 +1,94 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2009 5
+[o]
+
+Olimpíada Brasileira de Informática —- OBI2009
+
 Caminho das Pontes
-Nome do arquivo fonte:pontes.c,pontes.cpp,oupontes.pasPedrinho ´ e um rapaz muito aventureiro, que nas f´ erias viaja pelo mundo em busca de lugares afastados e combonitas vistas.Na sua viagem atual, Pedrinho est´ a andando por uma escuraoresta quando se depara com um perigosodesladeiro. Do outro lado do desladeiro ele sabe que existe um acampamento onde poder´ a descansar durantea noite para continuar suas aventuras no dia seguinte.Para chegar at´ e o acampamento, ele ter´ a que utilizar pontes que est˜ ao suspensas sobre o desladeiro. As pontesforam constru´ıdas interligando altos pilares cravados no fundo do desladeiro.
-Acampamento
+
+Nome do arquivo fonte: pontes.c, pontes.cpp, ou pontes .pas
+
+Pedrinho é um rapaz muito aventureiro, que nas férias viaja pelo mundo em busca de lugares afastados e com
+bonitas vistas.
+
+Na sua viagem atual, Pedrinho está andando por uma escura floresta quando se depara com um perigoso
+desfiladeiro. Do outro lado do desfiladeiro ele sabe que existe um acampamento onde poderá descansar durante
+a noite para continuar suas aventuras no dia seguinte.
+
+Para chegar até o acampamento, ele terá que utilizar pontes que estão suspensas sobre o desfiladeiro. As pontes
+foram construídas interligando altos pilares cravados no fundo do desfiladeiro.
+
+A EU o
+AS A
+DA
+
 Pedrinho
-O piso das pontes ´ e feita de t´ abuas de tamanhos iguais. Mas as pontes s˜ ao velhas, e algumas t´ abuas ca´ıram.Felizmente, todas as t´ abuas que sobraram est˜ ao em perfeitas condi¸ c˜ oes, ou seja, n˜ ao existe o perigo de Pedrinhopisar em uma delas e a t´ abua cair. Al´ em disso, em nenhuma das pontes duas t´ abuas consecutivas ca´ıram, deforma que os buracos deixados pelas t´ abuas que ca´ıram podem ser pulados com seguran¸ ca.No local onde Pedrinho se encontra existe uma placa mostrando as liga¸ c˜ oes entre as pontes e tamb´ em quantast´ abuas est˜ ao faltando em cada uma das pontes. Pedrinho est´ a cansado e n˜ ao h´ a muita visibilidade durante anoite. Ele precisa, portanto, tomar muito cuidado para n˜ ao cair em algum dos buracos.Pedrinho possui um laptop na mochila, mas s´ o o usa para comunicar-se com os amigos. Ele liga sua internetvia sat´ elite, encontra vocˆ e on-line, e pede sua ajuda.
+
+O piso das pontes é feita de tábuas de tamanhos iguais. Mas as pontes são velhas, e algumas tábuas caíram.
+Felizmente, todas as tábuas que sobraram estão em perfeitas condições, ou seja, não existe o perigo de Pedrinho
+pisar em uma delas e a tábua cair. Além disso, em nenhuma das pontes duas tábuas consecutivas caíram, de
+forma que os buracos deixados pelas tábuas que caíram podem ser pulados com segurança.
+
+No local onde Pedrinho se encontra existe uma placa mostrando as ligações entre as pontes e também quantas
+tábuas estão faltando em cada uma das pontes. Pedrinho está cansado e não há muita visibilidade durante a
+noite. Ele precisa, portanto, tomar muito cuidado para não cair em algum dos buracos.
+
+Pedrinho possui um laptop na mochila, mas só o usa para comunicar-se com os amigos. Ele liga sua internet
+via satélite, encontra você on-line, e pede sua ajuda.
+
 Tarefa
-Sua tarefa ´ e escrever um programa que receba as informa¸ c˜ oes sobre as pontes (as liga¸ c˜ oes entre elas e a quantidadede t´ abuas faltando em cada uma) e calcule qual ´ e o menor n´ umero de buracos que Pedrinho precisa pular parachegar ao outro lado do desladeiro.
+
+Sua tarefa é escrever um programa que receba as informações sobre as pontes (as ligações entre elas e a quantidade
+de tábuas faltando em cada uma) e calcule qual é o menor número de buracos que Pedrinho precisa pular para
+chegar ao outro lado do desfiladeiro.
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado).A primeira linha da entrada cont´ em dois n´ umero inteirosNeM(1≤N≤1.000, 2≤M≤10.000) representandoo n´ umero de pilares no desladeiro e o n´ umero de pontes, respectivamente. Cada uma dasMlinhas seguintesOlimp´ıada Brasileira de Inform´ atica – OBI2009 6 cont´ em 3 inteirosS,T,B(0≤S≤N+ 1,0≤T≤N+ 1 e 0≤B≤1.000), indicando que existe uma ponteligando os pilaresSeT, e que possuiBburacos. N˜ ao existe linha representando ponte comS=T. O valorde pilar 0 representa a borda do desladeiro onde Pedrinho est´ a, e o valor de pilarN+ 1 representa a bordado desladeiro onde est´ a o acampamento. N˜ ao existem duas pontes distintas ligando o mesmo par de locais(pilares ou bordas do desladeiro).Vocˆ e pode supor que sempre existir´ a um caminho de pontes entre o lado do desladeiro em que Pedrinho seencontra at´ e o lado do desladeiro onde est´ a o acampamento.
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, um n´ umero inteiro representando a menor quantidade de buracosque Pedrinho ter´ a que pular para conseguir chegar ao acampamento.
-Informa¸ c˜ oes sobre a pontua¸ c˜ ao
-•Em um conjunto de casos de teste que totaliza 30 pontos,N≤100 eM≤100.•Em um conjunto de casos de teste que totaliza 70 pontos,N≤500 eM≤5.000.
+
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado).
+
+A primeira linha da entrada contém dois número inteiros Ne M (1 < N < 1.000,2 < M < 10.000) representando
+o número de pilares no desfiladeiro e o número de pontes, respectivamente. Cada uma das M linhas seguintes
+ Olimpíada Brasileira de Informática —- OBI2009 6
+
+contém 3 inteiros S,T,B(0<S<N+10<T<N+1e0<B< 1.000), indicando que existe uma ponte
+ligando os pilares S e T, e que possui B buracos. Não existe linha representando ponte com S = 7. O valor
+de pilar O representa a borda do desfiladeiro onde Pedrinho está, e o valor de pilar N + 1 representa a borda
+do desfiladeiro onde está o acampamento. Não existem duas pontes distintas ligando o mesmo par de locais
+(pilares ou bordas do desfiladeiro).
+
+Você pode supor que sempre existirá um caminho de pontes entre o lado do desfiladeiro em que Pedrinho se
+encontra até o lado do desfiladeiro onde está o acampamento.
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, um número inteiro representando a menor quantidade de buracos
+que Pedrinho terá que pular para conseguir chegar ao acampamento.
+
+Informações sobre a pontuação
+
+e Em um conjunto de casos de teste que totaliza 30 pontos, N < 100 e M < 100.
+
+e Em um conjunto de casos de teste que totaliza 70 pontos, N < 500 e M < 5.000.
+
 Exemplos
-Entrada2 50 1 10 2 30 3 91 3 22 3 2Sa´ıda3
-Entrada4 90 1 10 3 40 4 21 2 51 5 32 5 53 4 23 5 54 5 8Sa´ıda4
+
+Entrada Saída
+
+25 3
+
+011
+
+023
+
+039
+
+132
+
+232
+
+Entrada Saída
+4
+
+BWUwNHHOOCO OW
+TORTA NNA WHO
+DANNI
+

@@ -1,16 +1,76 @@
-Olimpíada Brasileira de Informática – OBI2017 – Prog. Nível 2 – Fase Nacional7
+Olimpíada Brasileira de Informática - OBI2017 — Prog. Nível 2 — Fase Nacional 7
+
 Arranha-céu
-Nome do arquivo:arranhaceu.c,arranhaceu.cpp,arranhaceu.pas,arranhaceu.java,arranhaceu.js,arranhaceu.py2ouarranhaceu.py3Um arranha-céu residencial possuiNandares, numerados de1aN. O síndico do arranha-céu estátendo muito trabalho com uma nova regra do corpo de bombeiros. Ele não sabe o porquê, masos bombeiros apontam um andarke exigem que o síndico informe o total de pessoas que moramno arranha-céu do andar1até o andark, inclusive. Talvez seja alguma medida de segurança dosbombeiros! O problema é que o prédio tem muitos andares e toda hora tem gente se mudando,passando a morar no arranha-céu, ou indo embora. O síndico precisa cuidar de dois eventos:•Mudança: alterar o número de pessoas que moram num determinado andar;•Bombeiro: informar o total de pessoas que moram do andar1até um determinado andar,inclusive.Dados o número de pessoas que moram em cada andar do arranha-céu inicialmente, e uma sequênciade eventos (do tipoMudançaouBombeiro), seu programa deve imprimir, para cada evento do tipoBombeiro, o total de pessoas exigido, no momento do evento!
+
+Nome do arquivo: arranhaceu.c, arranhaceu.cpp, arranhaceu.pas, arranhaceu. java,
+arranhaceu.js, arranhaceu.py2 ou arranhaceu.py3
+
+Um arranha-céu residencial possui N andares, numerados de 1 à N. O síndico do arranha-céu está
+tendo muito trabalho com uma nova regra do corpo de bombeiros. Ele não sabe o porquê, mas
+os bombeiros apontam um andar k e exigem que o síndico informe o total de pessoas que moram
+no arranha-céu do andar 1 até o andar k, inclusive. Talvez seja alguma medida de segurança dos
+bombeiros! O problema é que o prédio tem muitos andares e toda hora tem gente se mudando,
+passando a morar no arranha-céu, ou indo embora. O síndico precisa cuidar de dois eventos:
+
+e Mudanç
+e Bombeiro: informar o total de pessoas que moram do andar 1 até um determinado andar,
+
+alterar o número de pessoas que moram num determinado andar;
+inclusive.
+
+Dados o número de pessoas que moram em cada andar do arranha-céu inicialmente, e uma sequência
+de eventos (do tipo Mudança ou Bombeiro), seu programa deve imprimir, para cada evento do tipo
+Bombeiro, o total de pessoas exigido, no momento do evento!
+
 Entrada
-A primeira linha da entrada contém dois inteirosNeQ, representando, respectivamente, o númerode andares e o número de eventos. A segunda linha contémNinteirosA
-i,1≤i≤N, indicandoo número de pessoas que moram noi-ésimo andar inicialmente. Cada uma dasQlinhas seguintesrepresenta um evento e tem uma de duas formas:•“0K P”,Mudança, alterar o número de pessoas que moram noK-ésimo andar paraPpessoas;•“1K”,Bombeiro, informar o total de pessoas que moram do andar1até o andarK, inclusive.
+
+A primeira linha da entrada contém dois inteiros N e Q, representando, respectivamente, o número
+de andares e o número de eventos. A segunda linha contém N inteiros 4;, 1<i < N, indicando
+o número de pessoas que moram no i-ésimo andar inicialmente. Cada uma das Q linhas seguintes
+representa um evento e tem uma de duas formas:
+
+e “OK P”, Mudança, alterar o número de pessoas que moram no K-ésimo andar para P pessoas;
+e “1 K”, Bombeiro, informar o total de pessoas que moram do andar 1 até o andar K, inclusive.
+
 Saída
-Para cada evento do tipoBombeiro, seu programa deve imprimir uma linha contendo um inteirorepresentando o total de pessoas correspondente aquele evento.
+
+Para cada evento do tipo Bombeiro, seu programa deve imprimir uma linha contendo um inteiro
+representando o total de pessoas correspondente aquele evento.
+
 Restrições
-•1≤N≤105e1≤Q≤N•Há pelo menos um evento do tipoBombeiro•1≤K≤N•0≤A
-i≤1000e0≤P≤1000
+
+I<N<IGelI<Q<N
+
+Há pelo menos um evento do tipo Bombeiro
+I<K<N
+
+0O<4;<1000e0<pP<h1000
+
 Informações sobre a pontuação
-•Em um conjunto de casos de teste somando 20 pontos,N≤20000
+
+e Em um conjunto de casos de teste somando 20 pontos, N < 20000
+
 Exemplos
-Entrada8 430 2 0 42 10 11 11 91 50 4 121 51 1Saída845430Olimpíada Brasileira de Informática – OBI2017 – Prog. Nível 2 – Fase Nacional8
-Entrada1 101 1 Saída0
+
+Entrada Saída
+84 84
+30204210 11 119 54
+
+30
+
+1
+(o) 12
+1
+1
+
+[o 6]
+
+ Olimpíada Brasileira de Informática - OBI2017 — Prog. Nível 2 — Fase Nacional
+
+Entrada Saída
+11 (o)
+
+(o)
+
+11
+

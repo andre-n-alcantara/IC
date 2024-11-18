@@ -1,25 +1,89 @@
-Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível 2 – Fase Fase 38
+Olimpíada Brasileira de Informática - OBI2021 — Prog. Nível 2 — Fase Fase 3 8
+
 Falha de segurança
-Nome do arquivo:“falha.x”,ondexdeve serc,cpp,pas,java,jsoupyRafael foi contratado como programador por um grande banco que está atualizando todo o sistemacomputacional. O novo sistema vai ser instalado amanhã, mas Rafael acabou de descobrir uma falhagrave na nova autenticação para acesso às contas do banco: se um usuário digitar como senha umacadeia de caracteres que contenha, como sub-cadeia contígua, a senha correta para esse usuário, osistema se confunde e permite o acesso.Por exemplo, se a senha correta é ’senhafraca’ e o usuário digitar‘quesenhafracameu’ ou ‘senhafraca123’,o sistema permite o acesso. Note que nesse caso o sistema não permite o acesso se o usuário digitar‘senha’ ou ‘nhafra’ ou ‘senha123fraca’.O chefe de Rafael chamou um programador mais experiente para alterar a autenticação do novosistema, mas solicitou que Rafael determinasse, para o conjunto de senhas existentes, quantos paresordenados(A, B)de usuários distintos existem tal que o usuárioA, usando sua senha, consegueacesso à conta do usuárioB. Você poderia por favor ajudar Rafael?
+
+Nome do arquivo: “falha.x”, onde x deve ser c, cpp, pas, java, js ou py
+
+Rafael foi contratado como programador por um grande banco que está atualizando todo o sistema
+computacional. O novo sistema vai ser instalado amanhã, mas Rafael acabou de descobrir uma falha
+grave na nova autenticação para acesso às contas do banco: se um usuário digitar como senha uma
+cadeia de caracteres que contenha, como sub-cadeia contígua, a senha correta para esse usuário, O
+sistema se confunde e permite o acesso.
+
+Por exemplo, se a senha correta é 'senhafraca” e o usuário digitar
+“quesenhafracameu' ou 'senhafracal23”,
+
+o sistema permite o acesso. Note que nesse caso o sistema não permite o acesso se o usuário digitar
+“senha” ou “nhafra' ou 'senhal23fraca'.
+
+O chefe de Rafael chamou um programador mais experiente para alterar a autenticação do novo
+sistema, mas solicitou que Rafael determinasse, para o conjunto de senhas existentes, quantos pares
+ordenados (A, B) de usuários distintos existem tal que o usuário 4, usando sua senha, consegue
+acesso à conta do usuário B. Você poderia por favor ajudar Rafael?
+
 Entrada
-A primeira linha da entrada contém um número inteiroN, o número de usuários no sistema. Cadauma dasNlinhas seguintes contém uma senhaS
-i, a senha doi-ésimo usuário.
+
+A primeira linha da entrada contém um número inteiro N, o número de usuários no sistema. Cada
+uma das N linhas seguintes contém uma senha S;, a senha do i-ésimo usuário.
+
 Saída
-Seu programa deve produzir uma única linha, contendo um único inteiro, o número de pares orde-nados(A, B)de usuários distintos tal que o usuárioA, usando sua senha, consegue acesso à contado usuárioB.
+
+Seu programa deve produzir uma única linha, contendo um único inteiro, o número de pares orde-
+nados (A, B) de usuários distintos tal que o usuário A, usando sua senha, consegue acesso à conta
+
+do usuário B.
 Restrições
-•1≤N≤20000•S
-iinicia com letra minúscula sem acento e contém apenas letras minúsculas sem acento edígitos de 0 a 9, para1≤i≤N•1≤comprimento deS
-i≤10
+
+e 1<N<h20000
+
+e S; inicia com letra minúscula sem acento e contém apenas letras minúsculas sem acento e
+dígitos de 0a 9, paral <i< N
+
+e 1< comprimento de S; < 10
+
 Informações sobre a pontuação
-•Para um conjunto de casos de testes valendo 12 pontos, comprimento deS i= 1eN≤1000.•Para um conjunto de casos de testes valendo outros 28 pontos,N≤2000.•Para um conjunto de casos de testes valendo outros 60 pontos, nenhuma restrição adicional.
-Exemplo de entrada 1
-3xxxx23xxExemplo de saída 1
-1Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível 2 – Fase Fase 39Explicação do exemplo 1:o primeiro usuário consegue acesso à conta do terceiro usuário.
-Exemplo de entrada 2
-3aaa8Exemplo de saída 2
-4
-Explicação do exemplo 2:o primeiro usuário consegue acesso à conta do segundo usuário, o se-gundo usuário consegue acesso à conta do primeiro usuário, e o terceiro usuário consegue acessoà contas tanto do primeiro como do segundo usuário, totalizando quatro pares de usuários comfalha de acesso.
-Exemplo de entrada 3
-5jusjustataustExemplo de saída 3
-6
-Explicação do exemplo 3:o primeiro usuário consegue acesso à conta do quarto usuário, o se-gundo usuário consegue acesso às contas dos outros quatro usuários, o terceiro usuário consegueacesso à conta do quinto usuário, totalizando seis pares de usuários com falha de acesso.
+
+e Para um conjunto de casos de testes valendo 12 pontos, comprimento de S;=1 e N < 1000.
+e Para um conjunto de casos de testes valendo outros 28 pontos, N < 2000.
+
+e Para um conjunto de casos de testes valendo outros 60 pontos, nenhuma restrição adicional.
+
+Exemplo de entrada 1 Exemplo de saída 1
+3 1
+
+XXX
+
+x23
+
+xx
+
+ Olimpíada Brasileira de Informática - OBI2021 — Prog. Nível 2 — Fase Fase 3
+
+Explicação do exemplo 1: o primeiro usuário consegue acesso à conta do terceiro usuário.
+
+Exemplo de entrada 2 Exemplo de saída 2
+3 4
+
+a
+
+a8
+
+Explicação do exemplo 2: o primeiro usuário consegue acesso à conta do segundo usuário, o se-
+gundo usuário consegue acesso à conta do primeiro usuário, e o terceiro usuário consegue acesso
+à contas tanto do primeiro como do segundo usuário, totalizando quatro pares de usuários com
+falha de acesso.
+
+Exemplo de entrada 3 Exemplo de saída 3
+
+5 6
+jus
+justa
+ta
+
+us
+
+t
+
+Explicação do exemplo 3: o primeiro usuário consegue acesso à conta do quarto usuário, o se-
+gundo usuário consegue acesso às contas dos outros quatro usuários, o terceiro usuário consegue
+acesso à conta do quinto usuário, totalizando seis pares de usuários com falha de acesso.

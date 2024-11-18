@@ -1,17 +1,47 @@
-Olimpíada Brasileira de Informática – OBI2015 6
+Olimpíada Brasileira de Informática - OBI2015 6
+
 O Banco Inteligente
-Nome do arquivo:banco.c,banco.cpp,banco.pas,banco.java,banco.jsoubanco.pyCaixas automáticos nos bancos são uma invenção ótima mas, às vezes, a gente precisa de dinheirotrocado e a máquina entrega notas de R$100,00. Outras vezes, a gente quer sacar um valor umpouco maior e por questões de segurança gostaria de receber tudo em notas de R$100,00, mas amáquina entrega um monte de notas de R$20,00. O Banco Inteligente está tentando minimizaresse problema dando aos clientes a possibilidade de escolher o valor das notas na hora do saque.Para isso, eles precisam da sua ajuda para saber, dado o valorSdo saque e quantas notas de cadavalor a máquina tem, quantas formas distintas existem de entregar o valorS. O banco disponibilizanotas de2,5,10,20,50e100. Por exemplo, seS= 22e o número de notas de cada valor éN
-2= 5, N 5= 4, N 10= 3, N 20= 10, N 50= 0eN 100= 10, então há4formas distintas da máquinaentregar o valor do saque:20 + 2,10 + 10 + 2,10 + 5 + 5 + 2e5 + 5 + 5 + 5 + 2.
+
+Nome do arquivo: banco.c, banco.cpp, banco.pas, banco. java, banco. js ou banco.py
+
+Caixas automáticos nos bancos são uma invenção ótima mas, às vezes, a gente precisa de dinheiro
+trocado e a máquina entrega notas de R$100,00. Outras vezes, a gente quer sacar um valor um
+pouco maior e por questões de segurança gostaria de receber tudo em notas de R$100,00, mas a
+máquina entrega um monte de notas de R$20,00. O Banco Inteligente está tentando minimizar
+esse problema dando aos clientes a possibilidade de escolher o valor das notas na hora do saque.
+Para isso, eles precisam da sua ajuda para saber, dado o valor S do saque e quantas notas de cada
+valor a máquina tem, quantas formas distintas existem de entregar o valor S. O banco disponibiliza
+notas de 2, 5, 10, 20, 50 e 100. Por exemplo, se S = 22 e o número de notas de cada valor é
+No = 5, N5 = 4, Nio = 3, No = 10, N50o = 0 e Nioo = 10, então há 4 formas distintas da máquina
+entregar o valor do saque: 20 +2,10+10+2,10+5+5+2e5+5+5+5+2.
+
 Entrada
-A primeira linha da entrada contém um inteiroS, o valor do saque. A segunda linha contém seisinteirosN
-2, N5, N10, N20, N50eN 100, respectivamente, o número de notas de valores2,5,10,20,50e100, disponíveis na máquina.
+
+A primeira linha da entrada contém um inteiro S, o valor do saque. A segunda linha contém seis
+inteiros No, N5, No, No0, N50 e N100; respectivamente, o número de notas de valores 2,5, 10,20,50
+e 100, disponíveis na máquina.
+
 Saída
+
 Seu programa deve imprimir um inteiro, o número de formas distintas da máquina entregar o saque.
+
 Restrições
-•0≤S≤5000eN i≤500
+
+e 0<S<õ5000eN;<õ500
+
 Informações sobre a pontuação
-•Em um conjunto de casos de teste somando 20 pontos,N≤1000eN i≤30•Em um conjunto de casos de teste somando 40 pontos,N≤1000eN
-i≤50
+e Em um conjunto de casos de teste somando 20 pontos, N < 1000 e N; < 30
+
+e Em um conjunto de casos de teste somando 40 pontos, N < 1000 e N; < 50
+
 Exemplos
-Entrada225 4 3 10 0 10 Saída4
-Entrada100020 20 20 20 20 20 Saída34201
+Entrada Saída
+22 4
+
+543100 10
+
+Entrada Saída
+
+1000 34201
+20 20 20 20 20 20
+

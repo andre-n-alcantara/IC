@@ -1,16 +1,81 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2009 3
-Ca¸ cadores de Mitos
-Nome do arquivo fonte:mito.c,mito.cpp,oumito.pasJorge ´ e um apresentador de televis˜ ao que comanda a vers˜ ao brasileira do grande sucesso Ca¸ cadores de Mitos,onde se estuda um mito para descobrir se ´ e fato ou apenas um boato.No pr´ oximo epis´ odio, Jorge dever´ a apresentar o mito que diz que ”os raios n˜ ao caem duas vezes no mesmolugar”, referindo-se aos raios das tempestades de chuva.Para isso, foi at´ e a cidade de Eletrolˆ andia, que ´ e a cidade com maior ocorrˆ encia de raios no mundo. O prefeitotem tanto orgulho desse t´ıtulo que mandou criar um sistema para registrar os raios. Jorge conseguiu um relat´ oriocom as ocorrˆ encias de cada raio que caiu na cidade nos ´ ultimos anos.O mapa de Eletrolˆ andia ´ e um retˆ angulo. Para o sistema de registro a cidade ´ e subdividida em quadrados de ummetro de lado, denominados quadrantes. Assim, se a cidade tem 300 metros de largura e 1000 de comprimento,ela ser´ a subdividida em 300.000 quadrantes. O sistema de registro armazena o quadrante em que o raio caiu.Cada quadrante ´ e identicado pelas suas coordenadas X e Y, conforme ilustra agura abaixo, que exemplicaum mapa de uma cidade com oito metros de comprimento por cinco metros de largura (quarenta quadrantes).
-012340 1 2 3 4 5 6 7
-Como os quadrantes s˜ ao relativamente pequenos, Jorge decidiu que se dois raios ca´ıram no mesmo quadrante,pode-se considerar que ca´ıram no mesmo lugar.
+Olimpíada Brasileira de Informática —- OBI2009 3
+
+Caçadores de Mitos
+
+Nome do arquivo fonte: mito.c, mito.cpp, oumito.pas
+
+Jorge é um apresentador de televisão que comanda a versão brasileira do grande sucesso Caçadores de Mitos,
+onde se estuda um mito para descobrir se é fato ou apenas um boato.
+
+No próximo episódio, Jorge deverá apresentar o mito que diz que ”os raios não caem duas vezes no mesmo
+lugar”, referindo-se aos raios das tempestades de chuva.
+
+Para isso, foi até a cidade de Eletrolândia, que é a cidade com maior ocorrência de raios no mundo. O prefeito
+tem tanto orgulho desse título que mandou criar um sistema para registrar os raios. Jorge conseguiu um relatório
+com as ocorrências de cada raio que caiu na cidade nos últimos anos.
+
+O mapa de Eletrolândia é um retângulo. Para o sistema de registro a cidade é subdividida em quadrados de um
+metro de lado, denominados quadrantes. Assim, se a cidade tem 300 metros de largura e 1000 de comprimento,
+ela será subdividida em 300.000 quadrantes. O sistema de registro armazena o quadrante em que o raio caiu.
+Cada quadrante é identificado pelas suas coordenadas X e Y, conforme ilustra a figura abaixo, que exemplifica
+um mapa de uma cidade com oito metros de comprimento por cinco metros de largura (quarenta quadrantes).
+
+BB wo nNHÃãgoOoO
+
+Como os quadrantes são relativamente pequenos, Jorge decidiu que se dois raios caíram no mesmo quadrante,
+pode-se considerar que caíram no mesmo lugar.
+
 Tarefa
-Sua miss˜ ao ´ e escrever um programa que receba as coordenadas dos raios que ca´ıram em Eletrolˆ andia nos ´ ultimosanos e determine se o mito estudado ´ e realmente apenas um mito ou pode ser considerado verdade.
+
+Sua missão é escrever um programa que receba as coordenadas dos raios que caíram em Eletrolândia nos últimos
+anos e determine se o mito estudado é realmente apenas um mito ou pode ser considerado verdade.
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado).A primeira linha da entrada cont´ em um n´ umero inteiroN(2≤N≤500.000) representando o n´ umero deregistros de raios no relat´ orio. Cada uma dasNlinhas seguintes cont´ em 2 n´ umeros inteirosX,Y(0≤X, Y≤500), representando o registro de um raio que caiu no quadrante cujas coordenadas s˜ ao (X, Y).
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, o n´ umero 0 se nenhum raio caiu no mesmo lugar, ou o n´ umero 1caso contr´ ario. Note que vocˆ e deve imprimir o n´ umero 1 mesmo que haja mais do que 1 par de raios que ca´ıramno mesmo lugar.Olimp´ıada Brasileira de Inform´ atica – OBI2009 4
-Informa¸ c˜ oes sobre a pontua¸ c˜ ao
-•Em um conjunto de casos de teste que totaliza 30 pontos,N≤1.000.•Em um conjunto de casos de teste que totaliza 70 pontos,N≤100.000.
+
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado).
+
+A primeira linha da entrada contém um número inteiro N (2 < N < 500.000) representando o número de
+registros de raios no relatório. Cada uma das N linhas seguintes contém 2 números inteiros X,Y (0< X,Y <
+500), representando o registro de um raio que caiu no quadrante cujas coordenadas são (X,Y).
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, o número O se nenhum raio caiu no mesmo lugar, ou o número 1
+caso contrário. Note que você deve imprimir o número 1 mesmo que haja mais do que 1 par de raios que caíram
+no mesmo lugar.
+ Olimpíada Brasileira de Informática - OBI2009
+
+Informações sobre a pontuação
+
+e Em um conjunto de casos de teste que totaliza 30 pontos, N < 1.000.
+
+e Em um conjunto de casos de teste que totaliza 70 pontos, N < 100.000.
+
 Exemplos
-Entrada51 12 33 34 24 4Sa´ıda0
-Entrada81 12 22 34 42 36 59 1110 10Sa´ıda1
+
+Entrada Saída
+
+5 (o)
+
+11
+
+23
+
+383
+
+42
+
+44
+
+Entrada Saída
+1
+
+OONNENhH Oo
+HO OWN
+
+H
+o
+nH
+o
+

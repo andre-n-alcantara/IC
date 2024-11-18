@@ -1,11 +1,68 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2008 – Programa¸ c˜ ao N´ıvel 2 Fase 1 6
+Olimpíada Brasileira de Informática — OB12008 — Programação Nível 2 Fase 1 6
+
 Lanche na empresa
-Nome do arquivo fonte:lanche.c,lanche.cppoulanche.pasAtualmente, uma empresa precisa oferecer mais que altos sal´ arios para manter seus melhores funcion´ arios.Um dos benef´ıcios comumente oferecidos ´ e acesso a um suprimento innito de comida e bebida dispon´ıvel emcozinhas, onde os funcion´ arios podem preparar lanches e refei¸ c˜ oes.Uma empresa de tecnologia decidiu posicionar uma cozinha em suas instala¸ c˜ oes; entretanto, essa tarefa requerum certo planejamento. Analisando a planta do pr´ edio ´ e poss´ıvel criar um diagrama contendo todas as salas,todos os corredores que as ligam e os seus respectivos comprimentos, em metros. A cozinha deve ser posicionadaem uma das salas de tal forma que a distˆ ancia entre a cozinha e a sala mais distante da cozinha seja a menorposs´ıvel.Obviamente, a empresa deseja utilizar esse fato para anunciar que “nenhum de seus funcion´ arios est´ a a mais de
-Xmetros de uma cozinha”. Eles contrataram o seu escrit´ orio de arquitetura para posicionar a cozinha na salaque minimizaXe vocˆ e, como programador, deve escrever um programa que informa qual ser´ a essa distˆ ancia.
+
+Nome do arquivo fonte: lanche.c, lanche.cpp ou lanche.pas
+
+Atualmente, uma empresa precisa oferecer mais que altos salários para manter seus melhores funcionários.
+Um dos benefícios comumente oferecidos é acesso a um suprimento infinito de comida e bebida disponível em
+cozinhas, onde os funcionários podem preparar lanches e refeições.
+
+Uma empresa de tecnologia decidiu posicionar uma cozinha em suas instalações; entretanto, essa tarefa requer
+um certo planejamento. Analisando a planta do prédio é possível criar um diagrama contendo todas as salas,
+todos os corredores que as ligam e os seus respectivos comprimentos, em metros. A cozinha deve ser posicionada
+em uma das salas de tal forma que a distância entre a cozinha e a sala mais distante da cozinha seja a menor
+possível.
+
+2
+
+Obviamente, a empresa deseja utilizar esse fato para anunciar que “nenhum de seus funcionários está a mais
+X metros de uma cozinha”. Eles contrataram o seu escritório de arquitetura para posicionar a cozinha na sala
+que minimiza X e você, como programador, deve escrever um programa que informa qual será essa distância.
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). A primeira linha da entrada cont´ em dois inteiros,SeC, (1≤S≤250, 1≤C≤50.000) indicando,respectivamente, o n´ umero de salas e o n´ umero de corredores. AsClinhas seguintes contˆ em, cada uma, trˆ esinteiros,A,BeD(1≤A≤N, 1≤B≤N, 1≤D≤100,A=B) indicando que existe um corredor deDmetros ligando a salaA` a salaB. Cada corredor ´ e informado uma ´ unica vez na entrada. Note que um corredorligando as salasAeBpode ser percorrido nos dois sentidos (da salaApara a salaBe da salaBpara a salaA).
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, uma ´ unica linha, contendo um inteiro indicando a distˆ anciaentre a cozinha e a sala mais distante, considerando que a cozinha foi posicionada na sala onde essa distˆ ancia ´ em´ınima.
-Exemplo de entrada4 61 2 12 3 12 4 23 4 11 4 13 1 4Exemplo de sa´ıda2
-Exemplo de entrada4 41 2 102 3 13 4 42 4 3Exemplo de sa´ıda10Olimp´ıada Brasileira de Inform´ atica – OBI2008 – Programa¸ c˜ ao N´ıvel 2 Fase 1 7
-Exemplo de entrada5 61 2 102 3 102 4 112 5 113 4 104 5 10Exemplo de sa´ıda11
+
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado). A primeira linha da entrada contém dois inteiros, Se C,(1< S <250,1<C < 50.000) indicando,
+respectivamente, o número de salas e o número de corredores. As C linhas seguintes contêm, cada uma, três
+inteiros, 4 BeD(I<A<N,1I<B<N,1I<D< 100,4 B) indicando que existe um corredor de D
+metros ligando a sala A à sala B. Cada corredor é informado uma única vez na entrada. Note que um corredor
+ligando as salas 4 e B pode ser percorrido nos dois sentidos (da sala A para a sala B e da sala B para a sala
+
+Saída
+Seu programa deve imprimir, na saída padrão, uma única linha, contendo um inteiro indicando a distância
+
+entre a cozinha e a sala mais distante, considerando que a cozinha foi posicionada na sala onde essa distância é
+mínima.
+
+Exemplo de entrada Exemplo de saída
+
+2
+
+HRWUNNHA
+SBPN O
+sARNHH
+
+Exemplo de entrada Exemplo de saída
+
+10
+
+ND ON HAB
+BB WINS
+[0 ul
+
+ Olimpíada Brasileira de Informática — OB12008 — Programação Nível 2 Fase 1
+
+Exemplo de entrada Exemplo de saída
+
+11
+10
+10
+11
+11
+10
+10
+
+BUWUNNhNHaO
+Qu CMRE wNO
+

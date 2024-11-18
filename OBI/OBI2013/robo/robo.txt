@@ -1,13 +1,57 @@
-Olimpíada Brasileira de Informática – OBI2013 6
+Olimpíada Brasileira de Informática - OBI2018 6
+
 Robô
-Nome do arquivo fonte:robo.c,robo.cpp,robo.pas,robo.java,ourobo.py
-Um novo robô de limpeza para um grande salão retangular está sendo desenvolvido. O robô vai percorrer ocaminho denido por uma linha marcada no chão, que é coberto com ladrilhos quadrados, brancos e pretos:ladrilhos pretos indicam o caminho que o robô deve percorrer. Ao movimentar-se, o robô pode andar apenasem linha reta, para a frente. Parado, o robô pode girar para as quatro direções (Norte, Sul, Leste e Oeste).Dados um mapa indicando a cor de cada ladrilho no chão e a posição inicial do robô, você deve escrever umprograma que determine a posiçãonal do robô.
+
+Nome do arquivo fonte: robo.c, robo.cpp, robo.pas, robo. java, ou robo.py
+
+Um novo robô de limpeza para um grande salão retangular está sendo desenvolvido. O robô vai percorrer o
+caminho definido por uma linha marcada no chão, que é coberto com ladrilhos quadrados, brancos e pretos:
+ladrilhos pretos indicam o caminho que o robô deve percorrer. Ao movimentar-se, o robô pode andar apenas
+em linha reta, para a frente. Parado, o robô pode girar para as quatro direções (Norte, Sul, Leste e Oeste).
+
+Dados um mapa indicando a cor de cada ladrilho no chão e a posição inicial do robô, você deve escrever um
+programa que determine a posição final do robô.
+
 Entrada
-A primeira linha contém dois inteirosLeCindicando as dimensões do salão (número de linhas e númerode colunas), medidas em ladrilhos. A segunda linha contém dois inteirosAeBindicando respectivamentea linha e a coluna da posição inicial do robô (as linhas são numeradas de1aL, de cima para baixo; ascolunas são numeradas de1aC, da esquerda para a direita). Cada uma dasLlinhas seguintes contémCinteiros, zeros ou uns. Nessa representação, o valor ‘1’ indica que o ladrilho corresponte é preto. O ladrilhoda linhaAe colunaBsempre é preto. O caminho do robô é denido unicamente: em nenhum momento orobô necessita fazer uma escolha sobre em qual direção ir (em outras palavras, todo ladrilho preto tem nomáximo dois vizinhos pretos e o ladrilho inicial tem um vizinho preto).
+
+A primeira linha contém dois inteiros L e C indicando as dimensões do salão (número de linhas e número
+de colunas), medidas em ladrilhos. A segunda linha contém dois inteiros 4 e B indicando respectivamente
+a linha e a coluna da posição inicial do robô (as linhas são numeradas de 1 a L, de cima para baixo; as
+colunas são numeradas de 1 a C, da esquerda para a direita). Cada uma das L linhas seguintes contém C
+inteiros, zeros ou uns. Nessa representação, o valor '1' indica que o ladrilho corresponte é preto. O ladrilho
+da linha 4 e coluna B sempre é preto. O caminho do robô é definido unicamente: em nenhum momento o
+robô necessita fazer uma escolha sobre em qual direção ir (em outras palavras, todo ladrilho preto tem no
+máximo dois vizinhos pretos e o ladrilho inicial tem um vizinho preto).
+
 Saída
-Seu programa deve imprimir apenas uma linha, contendo dois números inteiros, respectivamente a linha e acoluna da posiçãonal do robô.
+
+Seu programa deve imprimir apenas uma linha, contendo dois números inteiros, respectivamente a linha e a
+coluna da posição final do robô.
+
 Restrições
-•1≤L, C≤1000•1≤A≤L,1≤B≤C•A posiçãonal é diferente da posição inicial.
+
+e1<L,C<1000
+CI<A<LI<B<C
+
+e À posição final é diferente da posição inicial.
+
 Exemplos
-Entrada3 51 11 0 0 0 11 0 0 1 11 1 1 1 0Saída1 5
-Entrada4 73 40 0 1 1 1 1 11 1 1 0 0 0 11 0 0 1 0 1 11 1 0 1 1 1 0Saída4 2
+
+Entrada Saída
+
+nana
+noor
+noo
+nmno
+om
+
+Entrada Saída
+
+HRHHoOw
+nonrow
+oonm
+nnHnon
+noonr
+nnHnon
+onHn
+

@@ -1,11 +1,100 @@
-OBI2003 - página 120Número de Erdos
-arquivo fonte: erdos.pas, erdos.c, erdos.cc ou erdos.cppO matemático húngaro Paul Erdos (1913-1996), um dos mais brilhantes do século XX, é conside-rado o mais prolíﬁco matemático da história. Erdos publicou mais de 1500 artigos, em colabora-ção com cerca de outros 450 matemáticos. Em homenagem a este gênio húngaro, os matemáticoscriaram um número, denominado "número de Erdos". Toda pessoa que escreveu um artigo comErdos tem o número 1. Todos que não possuem número 1, mas escreveram algum artigo junta-mente com alguém que possui número 1, possuem número 2. E assim por diante. Quandonenhuma ligação pode ser estabelecida entre Erdos e uma pessoa, diz-se que esta possui númerode Erdos inﬁnito. Por exemplo, o número de Erdos de Albert Einstein é 2. E, talvez surpreenden-temente, o número de Erdos de Bill Gates é 4.
+Número de Erdos
+
+arquivo fonte: erdos.pas, erdos.c, erdos.cc ou erdos.cpp
+
+O matemático húngaro Paul Erdos (1913-1996), um dos mais brilhantes do século XX, é conside-
+rado o mais prolífico matemático da história. Erdos publicou mais de 1500 artigos, em colabora-
+ção com cerca de outros 450 matemáticos. Em homenagem a este gênio húngaro, os matemáticos
+criaram um número, denominado "número de Erdos". Toda pessoa que escreveu um artigo com
+Erdos tem o número 1. Todos que não possuem número 1, mas escreveram algum artigo junta-
+mente com alguém que possui número 1, possuem número 2. E assim por diante. Quando
+nenhuma ligação pode ser estabelecida entre Erdos e uma pessoa, diz-se que esta possui número
+de Erdos infinito. Por exemplo, o número de Erdos de Albert Einstein é 2. E, talvez surpreenden-
+temente, o número de Erdos de Bill Gates é 4.
+
 1. Tarefa
-Sua tarefa é escrever um programa que, a partir de uma lista de autores de artigos, determine onúmero de Erdos dos autores.
+
+Sua tarefa é escrever um programa que, a partir de uma lista de autores de artigos, determine o
+número de Erdos dos autores.
+
 2. Entrada
-A entrada é constituída por vários conjuntos de teste. A primeira linha de um conjunto de testecontém um número inteiro A (1 ≤ A ≤ 100), que indica o número de artigos. Cada uma das Alinhas seguintes contém a lista de autores de um artigo. Cada autor é identiﬁcado pela inicial deseu nome (em maiúscula), seguida de um ponto e de um espaço em branco (indicando que o nomeestá abreviado), seguida de seu último sobrenome (‘P. Erdos’, por exemplo). O sobrenome deum autor possui, no máximo, 15 letras, e apenas a letra inicial aparece em maiúscula. Os autoressão separados por vírgulas, e a lista de autores de um artigo termina com um ponto (veja os exem-plos abaixo). Um único espaço em branco separa a abreviatura do nome do sobrenome, bem comoo nome de um autor do anterior. Espaços em branco não são usados em outros locais. Um artigopossui, no máximo, 10 autores, e o total de autores não excede 100. Oﬁnal da entrada é indicadopor A = 0.Exemplo de Entrada5P. Erdos, A. Selberg. P. Erdos, J. Silva, M. Souza. M. Souza, A. Selberg, A. Oliveira.J. Ninguem, M. Ninguem. P. Duarte, A. Oliveira.2Z. Silva, P. Erdos.Z. Souza.0
+
+A entrada é constituída por vários conjuntos de teste. A primeira linha de um conjunto de teste
+contém um número inteiro A (1 < A < 100), que indica o número de artigos. Cada uma das A
+linhas seguintes contém a lista de autores de um artigo. Cada autor é identificado pela inicial de
+seu nome (em maiúscula), seguida de um ponto e de um espaço em branco (indicando que o nome
+está abreviado), seguida de seu último sobrenome ('P. Erdos”, por exemplo). O sobrenome de
+um autor possui, no máximo, 15 letras, e apenas a letra inicial aparece em maiúscula. Os autores
+são separados por vírgulas, e a lista de autores de um artigo termina com um ponto (veja os exem-
+plos abaixo). Um único espaço em branco separa a abreviatura do nome do sobrenome, bem como
+o nome de um autor do anterior. Espaços em branco não são usados em outros locais. Um artigo
+possui, no máximo, 10 autores, e o total de autores não excede 100. O final da entrada é indicado
+por A = 0.
+
+Exemplo de Entrada
+
+5
+
+P. Erdos, A. Selberg.
+
+P. Erdos, J. Silva, M. Souza.
+M. Souza, A. Selberg, A. Oliveira.
+J. Ninguem, M. Ninguem.
+
+P. Duarte, A. Oliveira.
+
+2
+
+Z. Silva, P. Erdos.
+
+Z. Souza.
+
+0
+
 3. Saída
-Para cada conjunto de teste da entrada seu programa deve produzir um conjunto de linhas nasaída. A primeira linha deve conter um identiﬁcador do conjunto de teste, no formato “Testen”,onde n é numerado seqüencialmente a partir de 1. A seguir devem aparecer uma linha para cadaOBI2003 - página 13autor do conjunto de testes (exceto o próprio P. Erdos). Cada linha deve conter o nome do autorseguido pelo caractere ‘:’, um espaço em branco e o seu número de Erdos. Caso o número deErdos de um determinado autor seja inﬁnito, escreva ‘
-infinito’. A saída deve ser ordenada alfa-beticamente pelo sobrenome do autor, e, em caso de mesmo sobrenome, o desempate deve serfeito pela inicial do primeiro nome. Imprima uma linha em branco ao ﬁnal de cada conjunto deteste. A graﬁa mostrada no Exemplo de Saída, abaixo, deve ser seguida rigorosamente.Exemplo de SaídaTeste 1P. Duarte: 3 J. Ninguem: infinito M. Ninguem: infinitoA. Oliveira: 2 A. Selberg: 1 J. Silva: 1 M. Souza: 1Teste 2Z. Silva: 1Z. Souza: infinito(esta saída corresponde ao exemplo de entrada acima)
+
+Para cada conjunto de teste da entrada seu programa deve produzir um conjunto de linhas na
+saída. A primeira linha deve conter um identificador do conjunto de teste, no formato “Teste n”,
+onde n é numerado seqiiencialmente a partir de 1. A seguir devem aparecer uma linha para cada
+
+OB12003 - página 12
+ autor do conjunto de testes (exceto o próprio P. Erdos). Cada linha deve conter o nome do autor
+seguido pelo caractere *:”, um espaço em branco e o seu número de Erdos. Caso o número de
+Erdos de um determinado autor seja infinito, escreva “infinito”. A saída deve ser ordenada alfa-
+beticamente pelo sobrenome do autor, e, em caso de mesmo sobrenome, o desempate deve ser
+feito pela inicial do primeiro nome. Imprima uma linha em branco ao final de cada conjunto de
+teste. A grafia mostrada no Exemplo de Saída, abaixo, deve ser seguida rigorosamente.
+
+Exemplo de Saída
+
+Teste 1
+
+P. Duarte: 3
+
+J. Ninguem: infinito
+M. Ninguem: infinito
+A. Oliveira: 2
+
+A. Selberg: 1
+
+J. Silva: 1
+
+M. Souza: 1
+
+Teste 2
+
+Z. Silva: 1
+
+Z. Souza: infinito
+(esta saída corresponde ao exemplo de entrada acima)
+
 4. Restrições
-0 ≤ A ≤ 100 (número de artigos de um caso de teste; A = 0 apenas para indicar ﬁnal da entrada)1≤tamanho, em número de letras, do sobrenome de um autor≤151 ≤ número de autores de um artigo ≤ 10 1 ≤ número total de autores em um conjunto de teste ≤ 100 
+
+O<A< 100 (número de artigos de um caso de teste; A = O apenas para indicar final da entrada)
+1 < tamanho, em número de letras, do sobrenome de um autor < 15
+
+1 < número de autores de um artigo < 10
+
+1 < número total de autores em um conjunto de teste < 100
+
+OB12003 - página 13

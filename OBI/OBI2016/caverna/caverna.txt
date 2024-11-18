@@ -1,18 +1,88 @@
-Olimpíada Brasileira de Informática – OBI2016 4
+Olimpíada Brasileira de Informática - OBI2016 4
+
 Caverna de Ordinskaya
-Nome do arquivo:caverna.c,caverna.cpp,caverna.pas,caverna.java,caverna.jsoucaverna.pyAlguns de seus amigos decidiram viajar até a Russia para explorar Ordinskaya, a caverna subaquá-tica mais comprida do país. Apesar da boa visibilidade das águas da caverna sempre é possívelencontrar novas passagens e túneis que levam para longe da gruta principal, o que poderia fazercom que alguém se perdesse e provavelmente congelasse nas frias temperaturas observadas ali. Paraevitar que algo assim ocorresse durante os mergulhos, o grupo usou umata métrica para marcaro caminho feito e garantir um retorno seguro. Além disso aproveitaram para medir quanto haviamexplorado, sempre que retornavam à superfície alguém do grupo anotava num caderno o quão longehaviam ido.O único problema com essa estratégia é que a cada mergulho pessoas diferentescavam responsáveispor vericar ata métrica e anotar quanto havia sido explorado. Assim, se o comprimento data era10 metros, após um mergulho em que o grupo explorou 3 metros da caverna, um dos amigos poderiater desenrolado ata do começo para om e anotar que 3 metros foram explorados, enquanto outromais desatento, sem perceber que havia desenrolado ata no sentido contrário, poderia anotar que7 metros foram explorados.Apenas nonal da viagem seus amigos perceberam a bagunça feita e agora pediram sua ajudapara reconstruir as distâncias de fato exploradas. Você foi informado que antes da viagem o grupocomprou umata com
-Mmetros e que no total eleszeramNmergulhos. Outra informaçãoimportante é que a cada novo mergulho pelo menos a mesma distância do mergulho anterior eraexplorada, então se o comprimento data fosse de 10 metros e as anotações feitas fossem 3 e 8metros, nessa ordem, os únicos cenários que realmente poderiam ter acontecido são:•3 metros no primeiro mergulho e 8 no segundo;•7 metros no primeiro mergulho e 8 no segundo.Mas se os valores anotados foram 2 e 8, existem três possibilidades:•2 metros no primeiro mergulho e 8 no segundo;•2 metros no primeiro mergulho e 2 no segundo;•8 metros no primeiro mergulho e 8 no segundo.Como pode ter ocorrido algum engano nas anotações, pode ser impossível reconstruir a sequênciaoriginal, não se preocupe, todos vão entender caso isso aconteça.
+
+Nome do arquivo: caverna.c, caverna.cpp, caverna.pas, caverna. java, caverna.js ou
+caverna.py
+
+Alguns de seus amigos decidiram viajar até a Russia para explorar Ordinskaya, a caverna subaquá-
+tica mais comprida do país. Apesar da boa visibilidade das águas da caverna sempre é possível
+encontrar novas passagens e túneis que levam para longe da gruta principal, o que poderia fazer
+com que alguém se perdesse e provavelmente congelasse nas frias temperaturas observadas ali. Para
+evitar que algo assim ocorresse durante os mergulhos, o grupo usou uma fita métrica para marcar
+o caminho feito e garantir um retorno seguro. Além disso aproveitaram para medir quanto haviam
+explorado, sempre que retornavam à superfície alguém do grupo anotava num caderno o quão longe
+haviam ido.
+
+O único problema com essa estratégia é que a cada mergulho pessoas diferentes ficavam responsáveis
+por verificar a fita métrica e anotar quanto havia sido explorado. Assim, se o comprimento da fita era
+10 metros, após um mergulho em que o grupo explorou 3 metros da caverna, um dos amigos poderia
+ter desenrolado a fita do começo para o fim e anotar que 3 metros foram explorados, enquanto outro
+mais desatento, sem perceber que havia desenrolado a fita no sentido contrário, poderia anotar que
+7 metros foram explorados.
+
+Apenas no final da viagem seus amigos perceberam a bagunça feita e agora pediram sua ajuda
+para reconstruir as distâncias de fato exploradas. Você foi informado que antes da viagem o grupo
+comprou uma fita com M metros e que no total eles fizeram N mergulhos. Outra informação
+importante é que a cada novo mergulho pelo menos a mesma distância do mergulho anterior era
+explorada, então se o comprimento da fita fosse de 10 metros e as anotações feitas fossem 3 e 8
+metros, nessa ordem, os únicos cenários que realmente poderiam ter acontecido são:
+
+e 3 metros no primeiro mergu!
+e 7 metros no primeiro mergu:
+
+Mas se os valores anotados foram
+
+e 2 metros no primeiro mergu!
+e 2 metros no primeiro mergu!
+e 8 metros no primeiro mergu:
+
+ho e 8 no segundo;
+ho e 8 no segundo.
+
+2e8, existem três possibilidades:
+
+ho e 8 no segundo;
+ho e 2 no segundo;
+ho e 8 no segundo.
+
+Como pode ter ocorrido algum engano nas anotações, pode ser impossível reconstruir a sequência,
+original, não se preocupe, todos vão entender caso isso aconteça.
+
 Entrada
-A primeira linha contém dois inteirosNeM, representando respectivamente a quantidade demergulhos que o grupo fez e o comprimento em metros data que levaram para a exploração. Asegunda linha contémNinteirosA
-1,A2, ...,A Nrepresentando as medições feitas a cada mergulho,na ordem em que foram anotadas.
+A primeira linha contém dois inteiros N e M, representando respectivamente a quantidade de
+mergulhos que o grupo fez e o comprimento em metros da fita que levaram para a exploração. A
+
+segunda linha contém N inteiros Aj, As, ..., An representando as medições feitas a cada mergulho,
+na ordem em que foram anotadas.
+
 Saída
-Seu programa deve produzir uma única linha, contendo apenas um inteiro, que representa a somadas distâncias exploradas. Caso exista mais de uma sequência possível, imprima a menor soma dassequencias possíveis. Se não existir nenuma sequência compatível com os dados, imprima apenas ointeiro -1.
+
+Seu programa deve produzir uma única linha, contendo apenas um inteiro, que representa a soma
+das distâncias exploradas. Caso exista mais de uma sequência possível, imprima a menor soma das
+sequencias possíveis. Se não existir nenuma sequência compatível com os dados, imprima apenas o
+inteiro -1.
+
 Restrições
-•1≤N≤104.Olimpíada Brasileira de Informática – OBI2016 5•1≤M≤5∗105.•0≤A
-i≤M.
+
+c1<N<10!.
+ Olimpíada Brasileira de Informática - OBI2016
+
+c1<M<5+10.
+CO<A<M.
+
 Informações sobre a pontuação
-•Em um conjunto de casos de teste equivalente a 20 pontos,N≤20eM≤5∗103.•Em um conjunto de casos de teste equivalente a 60 pontos,N≤10
-3eM≤5∗103.
+
+e Em um conjunto de casos de teste equivalente a 20 pontos, N <20e M <5+ 102.
+e Em um conjunto de casos de teste equivalente a 60 pontos, N < 10º e M <5+ 102.
+
 Exemplos
-Entrada5 72 5 3 6 0 Saída20
-Entrada3 52 1 2 Saída-1
+
+Entrada Saída
+57 20
+25360
+
+Entrada Saída
+35 -1
+212
+

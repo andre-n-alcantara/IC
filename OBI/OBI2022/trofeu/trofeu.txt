@@ -1,22 +1,86 @@
-Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível Júnior – Fase 22
+Olimpíada Brasileira de Informática - OBI2022 — Prog. Nível Júnior - Fase 2 2
+
 Troféu
-Nome do arquivo:trofeu.c,trofeu.cpp,trofeu.pas,trofeu.java,trofeu.jsoutrofeu.pyCinco alunos e alunas da escola conseguiram classicar-se para a Final da prestigiosa e muito difícilCompetição Estadual de Programação, que será realizada no próximo mês.Independentemente da classicação que os alunos da escola conseguirem na Final, a direção da escoladecidiu que vai fazer uma premiação para os seus alunos. Quem conseguir a maior pontuação naFinal, entre os alunos da escola, vai receber um troféu. E quem receber a segunda maior pontuação,entre os alunos da escola, vai receber uma placa comemorativa.O problema é que pode haver alunos com as mesmas pontuações, de forma que dependendo dosresultados muitas combinações de prêmios são possíveis, como por exemplo, entre outros:•cinco troféus (empate, todos com a mesma pontuação)•um troféu (maior pontuação) e duas placas (empate na segunda maior pontuação)•dois troféus (empate na maior pontuação) e duas placas (empate na segunda maior pontuação)Dadas as pontuações dos cinco alunos e alunas, determine quantos troféus e placas deverão serentregues.
+
+Nome do arquivo: trofeu.c, trofeu.cpp, trofeu.pas, trofeu. java, trofeu.js ou trofeu.py
+
+Cinco alunos e alunas da escola conseguiram classificar-se para a Final da prestigiosa e muito difícil
+Competição Estadual de Programação, que será realizada no próximo mês.
+
+Independentemente da classificação que os alunos da escola conseguirem na Final, a direção da escola
+decidiu que vai fazer uma premiação para os seus alunos. Quem conseguir a maior pontuação na
+Final, entre os alunos da escola, vai receber um troféu. E quem receber a segunda maior pontuação,
+entre os alunos da escola, vai receber uma placa comemorativa.
+
+O problema é que pode haver alunos com as mesmas pontuações, de forma que dependendo dos
+resultados muitas combinações de prêmios são possíveis, como por exemplo, entre outros:
+
+e cinco troféus (empate, todos com a mesma pontuação)
+
+e um troféu (maior pontuação) e duas placas (empate na segunda maior pontuação)
+
+e dois troféus (empate na maior pontuação) e duas placas (empate na segunda maior pontuação)
+Dadas as pontuações dos cinco alunos e alunas, determine quantos troféus e placas deverão ser
+entregues.
+
 Entrada
-A entrada consiste de cinco linhas, cada uma contendo um inteiroP ia pontuação de um alunoou aluna. As pontuações serão dadas em ordem decrescente (ou seja, da maior para a menorpontuação).
+
+A entrada consiste de cinco linhas, cada uma contendo um inteiro P; a pontuação de um aluno
+ou aluna. Ás pontuações serão dadas em ordem decrescente (ou seja, da maior para a menor
+pontuação).
+
 Saída
-Seu programa deve produzir uma única linha, contendo dois inteiros. O primeiro inteiro deve ser onúmero de troféus e o segundo inteiro o número de placas comemorativas a serem entregues.
+
+Seu programa deve produzir uma única linha, contendo dois inteiros. O primeiro inteiro deve ser o
+número de troféus e o segundo inteiro o número de placas comemorativas a serem entregues.
+
 Restrições
-•1≤P i≤100
+
+e1<P,<100
+
 Exemplos
-Exemplo de entrada 1
-10090807060Exemplo de saída 1
-1 1
-Explicação do exemplo 1:A maior pontuação (100) ganha o troféu. A segunda maior pontuação(90) ganha a placa comemorativa.Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível Júnior – Fase 23
+
+Exemplo de entrada 1 Exemplo de saída 1
+
+100 11
+90
+80
+TO
+60
+
+Explicação do exemplo 1: A maior pontuação (100) ganha o troféu. A segunda maior pontuação
+(90) ganha a placa comemorativa.
+ Olimpíada Brasileira de Informática - OBI2022
+
+Prog. Nível Júnior - Fase 2 3
+
 Exemplo de entrada 2
-100100908977Exemplo de saída 2
-2 1
-Explicação do exemplo 2:Há um empate na maior pontuação (100), portanto os dois ganhamtroféus. A segunda maior pontuação (90) ganha a placa comemorativa.
+
+100
+100
+90
+89
+77
+
+Exemplo de saída 2
+
+21
+
+Explicação do exemplo 2: Há um empate na maior pontuação (100), portanto os dois ganham
+troféus. A segunda maior pontuação (90) ganha a placa comemorativa.
+
 Exemplo de entrada 3
-9999999999Exemplo de saída 3
-5 0
-Explicação do exemplo 3:Há um empate na maior pontuação (99), portanto os cinco ganhamtroféus. Não há entrega de placa comemorativa neste caso.
+
+99
+99
+99
+99
+99
+
+Exemplo de saída 3
+
+50
+
+Explicação do exemplo 3: Há um empate na maior pontuação (99), portanto os cinco ganham
+
+troféus. Não há entrega de placa comemorativa neste caso.

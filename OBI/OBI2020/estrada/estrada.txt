@@ -1,22 +1,62 @@
-Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 1 – Fase Estadual4
+Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível 1 — Fase Estadual 4
+
 Estrada
-Nome do arquivo:“estrada.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3Para melhorar a integração com os países vizinhos, o Rei da Nlogônia decidiu que uma nova estradaserá construída cruzando o país, da fronteira oeste à fronteira leste. O formato da estrada é umaúnica reta, que passará pelo centro de algumas cidades.O Rei também decidiu que a construção será paga pelo Tesouro Real, mas cada cidade pela quala estrada passar será responsável pela manutenção do trecho da estrada que constitui avizinhançada estradapara aquela cidade. Avizinhança da estradade uma cidadeAé denida como todos ospontos da estrada que são mais próximos do centro da cidadeAdo que do centro de qualquer outracidade.Dados o comprimento total da estrada, de fronteira a fronteira, e as distâncias da fronteira oesteaté os centros de cada cidade ao longo da nova estrada, escreva um programa para determinar quala menor vizinhança de estrada entre as cidades pelas quais a estrada vai passar.
+
+Nome do arquivo: “estrada.x”, onde x deve ser c, cpp, pas, java, js, py2 ou py3
+
+Para melhorar a integração com os países vizinhos, o Rei da Nlogônia decidiu que uma nova estrada
+será construída cruzando o país, da fronteira oeste à fronteira leste. O formato da estrada é uma
+única reta, que passará pelo centro de algumas cidades.
+
+O Rei também decidiu que a construção será paga pelo Tesouro Real, mas cada cidade pela qual
+a estrada passar será responsável pela manutenção do trecho da estrada que constitui a vizinhança
+da estrada para aquela cidade. A vizinhança da estrada de uma cidade A é definida como todos os
+pontos da estrada que são mais próximos do centro da cidade A do que do centro de qualquer outra
+cidade.
+
+Dados o comprimento total da estrada, de fronteira a fronteira, e as distâncias da fronteira oeste
+até os centros de cada cidade ao longo da nova estrada, escreva um programa para determinar qual
+a menor vizinhança de estrada entre as cidades pelas quais a estrada vai passar.
+
 Entrada
-A primeira linha da entrada contém um inteiroT, o comprimento total da estrada. A segunda linhacontém um inteiroN, o número de cidades pelas quais a estrada vai passar. Cada uma dasNlinhasseguintes contém um inteiroX
-i, indicando a distância da fronteira oeste até o centro da cidadei.Não há cidades nas fronteiras e cada centro de cidade tem uma localização distinta.
+
+A primeira linha da entrada contém um inteiro T, o comprimento total da estrada. A segunda linha
+contém um inteiro N, o número de cidades pelas quais a estrada vai passar. Cada uma das N linhas
+seguintes contém um inteiro X;, indicando a distância da fronteira oeste até o centro da cidade à.
+Não há cidades nas fronteiras e cada centro de cidade tem uma localização distinta.
+
 Saída
-Seu programa deve produzir uma única linha, contendo um número real com duas casas após oponto decimal, a menor vizinhança de estrada entre as cidades pelas quais a estrada vai passar.
+
+Seu programa deve produzir uma única linha, contendo um número real com duas casas
+ponto decimal, a menor vizinhança de estrada entre as cidades pelas quais a estrada vai passar.
+
+após o
+
 Restrições
-•3≤T≤106
-•2≤N≤104
-•0< X i< T, para1≤i≤N•X
-i6=X j, para todo par1≤i, j≤N.
+
+e3<T<I10
+e2<N<10!
+e0O<X;<T,paral<i<N
+
+e X; £ X;, paratodo parl<1,j<N.
+
 Informações sobre a pontuação
-•Para um conjunto de casos de testes valendo 10 pontos,N= 2.•Para um conjunto de casos de testes valendo 90 pontos adicionais, nenhuma outra restrição.
+
+e Para um conjunto de casos de testes valendo 10 pontos, N = 2.
+
+e Para um conjunto de casos de testes valendo 90 pontos adicionais, nenhuma outra restrição.
+
 Exemplos
-Exemplo de entrada 1
-10285Exemplo de saída 1
-3.50Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 1 – Fase Estadual5
-Exemplo de entrada 2
-103768Exemplo de saída 2
-1.00
+Exemplo de entrada 1 Exemplo de saída 1
+10 3.50
+
+o nN
+
+ Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível 1 — Fase Estadual
+
+Exemplo de entrada 2 Exemplo de saída 2
+
+10 1.00
+
+(o o E o) a 06)
+

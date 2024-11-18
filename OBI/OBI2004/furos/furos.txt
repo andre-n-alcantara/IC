@@ -1,50 +1,70 @@
- 
-4 0 Cubra os Furos Arquivo fonte: furos.c, furos.cc, furos.cpp ou furos.pas Uma placa de aço retangular contém  N  furos circulares de 5 mm de diâmetro, localizados em pon-tos distintos, não sobrepostos – ou seja, o centro de cada furo está a uma distância maior ou iguala 5 mm do centro de todos os outros furos.Uma peça de forma circular, tendo em seu centro um eixo de 5 mm de diâmetro, deve ser colo-cada sobre a placa, de modo que o eixo encaixe-se em um de seus furos. 
-1. Tarefa 
-V ocê deve escrever um programa para determinar o diâmetro mínimo que a peça deve ter de talforma que, com seu eixo encaixado em um dos furos da placa, a parte circular cubra completa-mente todos os outros furos da placa. 
-2. Entrada 
-A entrada é composta de vários conjuntos de teste. A primeira linha de um conjunto de teste con-tém um inteiro  
-N 
-, que indica o número de furos na placa de aço (1 ≤ 
-  
-N 
- ≤ 
- 1000). As  
-N 
- linhasseguintes contêm cada uma dois inteiros  
-X 
- e  
-Y 
-, separados por um espaço em branco, que descre-vem a posição do centro de um furo (-10000 ≤ 
-  
-X 
- ≤ 
- 10000 e -10000 ≤ 
-  
-Y 
- ≤ 
- 10000). A unidade demedida das coordenadas dos furos é 1 mm. O ﬁnal da entrada é indicado por  
-N =  
-0. 
-Exemplo de Entrada 
-320 2510 510 103placapeçavista frontalda placavista frontalda peça
-vista frontalda peça encaixada
-na placa 
-5 0 510 00 100 3. Saída 
-Para cada conjunto de teste da entrada seu programa deve produzir três linhas na saída. A primeiralinha deve conter um identiﬁcador do conjunto de teste, no formato “Teste  
-n 
-”, onde  
-n 
- é numeradoseqüencialmente a partir de 1. A segunda linha deve conter o diâmetro mínimo que a peça deveter, como um número inteiro. A terceira linha em deve ser deixada em branco. A graﬁa mostradano Exemplo de Saída, abaixo, deve ser seguida rigorosamente. 
-Exemplo de Saída 
-Teste 141Teste 227 
-(esta saída corresponde ao exemplo de entrada acima) 
-4. Restrições 
-0 ≤ 
- N 
- ≤ 
- 1000 (N 
- = 0 apenas para indicar o ﬁm da entrada)-10000≤ 
-X≤ 
-10000-10000 ≤  
-Y ≤ 10000ERRATA:Exemplo de SaídaTeste 142Teste 228Na correção, as várias pos-sibilidades de arredonda-mento foram consideradascorretas.
+Cubra os Furos
+
+Arquivo fonte: furos.c, furos.cc, furos.cpp ou furos.pas
+
+Uma placa de aço retangular contém N furos circulares de 5 mm de diâmetro, localizados em pon-
+tos distintos, não sobrepostos — ou seja, o centro de cada furo está a uma distância maior ou igual
+a 5 mm do centro de todos os outros furos.
+
+Uma peça de forma circular, tendo em seu centro um eixo de 5 mm de diâmetro, deve ser colo-
+cada sobre a placa, de modo que o eixo encaixe-se em um de seus furos.
+
+/
+
+AS
+A
+vista frontal
+da peça encaixada
+na placa
+
+vista frontal vista frontal
+da placa da peça
+
+1. Tarefa
+
+Você deve escrever um programa para determinar o diâmetro mínimo que a peça deve ter de tal
+forma que, com seu eixo encaixado em um dos furos da placa, a parte circular cubra completa-
+mente todos os outros furos da placa.
+
+2. Entrada
+
+A entrada é composta de vários conjuntos de teste. A primeira linha de um conjunto de teste con-
+tém um inteiro N, que indica o número de furos na placa de aço (1 < N < 1000). As N linhas
+seguintes contêm cada uma dois inteiros X e Y, separados por um espaço em branco, que descre-
+vem a posição do centro de um furo (-10000 = X = 10000 e -10000 = Y < 10000). A unidade de
+medida das coordenadas dos furos é 1 mm. O final da entrada é indicado por N = 0.
+
+Exemplo de Entrada
+
+3
+20 25
+10 5
+10 10
+3
+ 3. Saída
+
+Para cada conjunto de teste da entrada seu programa deve produzir três linhas na saída. A primeira
+linha deve conter um identificador do conjunto de teste, no formato “Teste n”, onde n é numerado
+sequencialmente a partir de 1. A segunda linha deve conter o diâmetro mínimo que a peça deve
+ter, como um número inteiro. A terceira linha em deve ser deixada em branco. A grafia mostrada
+no Exemplo de Saída, abaixo, deve ser seguida rigorosamente.
+
+Exemplo de Saída ERRATA:
+Teste 1 Exemplo de Saída
+41
+Teste 1
+ao]
+Teste 2 42
+27
+Teste 2
+(esta saída corresponde ao exemplo de entrada acima) 28
+
+Na correção, as várias pos-
+sibilidades de arredonda-
+O <= N= 1000 (N = 0 apenas para indicar o fim da entrada) mento foram consideradas
+-10000 < X = 10000 corretas.
+
+-10000 <= Y < 10000
+
+4. Restrições
+

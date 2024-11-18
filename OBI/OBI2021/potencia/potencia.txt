@@ -1,28 +1,88 @@
-Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível Júnior – Fase Fase 2 (Turno B)5
+Olimpíada Brasileira de Informática - OBI2021 — Prog. Nível Júnior - Fase Fase 2 (Turno B) 5
+
 Potência
-Nome do arquivo:“potencia.x”,ondexdeve serc,cpp,pas,java,jsoupyA profa. Vilma preparou uma tarefa de programação sobre aoperação de potenciação. Paralembrar, seja um número realne um número inteiropigual ou maior do que zero, então a operaçãode potenciaçãon
-ptem o valor denmultiplicado por ele mesmopvezes (sep= 0o resultado daoperação de potenciação é 1). Por exemplo,2
-3= 2×2×2 = 8e1020= 1.A tarefa preparada pela profa. Vilma foi a seguinte:Escreva um programa para calcular o valor dasseguintes expressões contendo operações de potenciação:2
-4+ 123
-3003+ 152+ 42
-Veja que cada termo das expressões tem a formanpondenepsão números inteiros eptem apenasum dígito decimal.No entanto, quando a profa. Vilma colocou o enunciado da tarefa na Internet, a formatação doenunciado foi corrompida, fazendo com que as expressões aparecessem assim para os alunos:24 + 1233003 + 152 + 42Note que por exemplo2
-4virou24,123virou123,3003virou3003e assim por diante, ou seja, asoperações de potenciação desapareceram!Nesta tarefa, você deve escrever um programa para calcular o valor das expressões da tarefa originalda profa. Vilma, sabendo que a formatação do enunciado foi corrompida conforme explicado acima.
+
+Nome do arquivo: “potencia.x”, onde x deve ser c, cpp, pas, java, js ou py
+
+A profa. Vilma preparou uma tarefa de programação sobre a operação de potenciação. Para
+lembrar, seja um número real n e um número inteiro p igual ou maior do que zero, então a operação
+de potenciação n? tem o valor de n multiplicado por ele mesmo p vezes (se p = 0 o resultado da
+operação de potenciação é 1). Por exemplo, 22 =2x2x2-8€e102º=1.
+
+A tarefa preparada pela profa. Vilma foi a seguinte: Escreva um programa para calcular o valor das
+seguintes expressões contendo operações de potenciação:
+
+24 + 128
+300º + 152 4 42
+
+Veja que cada termo das expressões tem a forma nº? onde n e p são números inteiros e p tem apenas
+um dígito decimal.
+
+No entanto, quando a profa. Vilma colocou o enunciado da tarefa na Internet, a formatação do
+enunciado foi corrompida, fazendo com que as expressões aparecessem assim para os alunos:
+
+24 + 128
+3003 + 152 + 42
+
+Note que por exemplo 2º virou 24, 12º virou 123, 300? virou 3003 e assim por diante, ou seja, as
+operações de potenciação desapareceram!
+
+Nesta tarefa, você deve escrever um programa para calcular o valor das expressões da tarefa original
+da profa. Vilma, sabendo que a formatação do enunciado foi corrompida conforme explicado acima.
+
 Entrada
-A primeira linha da entrada contém um número inteiroN, o número de termos da expressão. Cadauma dasNlinhas seguintes contém um inteiroT
-i, indicando um termo da expressão com formataçãocorrompida.
+
+A primeira linha da entrada contém um número inteiro N, o número de termos da expressão. Cada
+uma das N linhas seguintes contém um inteiro T;, indicando um termo da expressão com formatação
+corrompida.
+
 Saída
-Seu programa deve produzir uma linha, contendo um único número inteiro, o valor da soma dostermos da expressão, sabendo que a formatação dos termos foi corrompida como explicado acima.
+
+Seu programa deve produzir uma linha, contendo um único número inteiro, o valor da soma dos
+termos da expressão, sabendo que a formatação dos termos foi corrompida como explicado acima.
+
 Restrições
-•1≤N≤10•10≤T
-i≤9999para1≤i≤N•O resultado é menor do que10
-9.
+
+e1<N<10
+e 10<7T;<9999 paral<i<N
+
+e O resultado é menor do que 10º.
+
 Exemplos
-Exemplo de entrada 1
-224123Exemplo de saída 1
-1744Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível Júnior – Fase Fase 2 (Turno B)6
+Exemplo de entrada 1 Exemplo de saída 1
+2 1744
+24
+123
+
+ Olimpíada Brasileira de Informática
+
+OB12021
+
+Prog. Nível Júnior — Fase Fase 2 (Turno B)
+
 Exemplo de entrada 2
-330315242Exemplo de saída 2
+
+3
+303
+152
+42
+
+Exemplo de saída 2
+
 27241
+
 Exemplo de entrada 3
-6121324203143Exemplo de saída 3
+
+6
+
+12
+13
+24
+20
+31
+43
+
+Exemplo de saída 3
+
 86
+

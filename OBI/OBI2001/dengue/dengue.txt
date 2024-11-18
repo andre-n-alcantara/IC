@@ -1,10 +1,70 @@
-60Dengue 
-Arquivo fonte: dengue.c, dengue.cc, dengue.cpp ou dengue.pasA Costa do Mosquito é um país pequeno mas paradisíaco. Todos os habitantes têm boas moradias,bons empregos, o clima é agradável, e os governantes são justos e incorruptíveis. O sistema detransporte público da Costa do Mosquito é composto de uma rede de linhas de trem. O sistema foiprojetado de forma peculiar: existe um único percurso ligando duas quaisquer vilas (esse percursopossivelmente passa por outras vilas). Por exemplo, na ﬁgura abaixo, que mostra um trecho domapa da Costa do Mosquito, há apenas um percurso entre as vilas A e C, passando pelas vilas B,G e D. Uma tarifa ﬁxa de M$ 1,00 é cobrada por cada viagem entre vilas vizinhas; assim, parauma viagem de A a C o usuário gasta M$ 4,00.Devido a um inesperado surto de dengue, o Ministério da Saúde da Costa do Mosquito resolveumontar um Posto de Vacinação. Para evitar que habitantes gastem muito dinheiro para se deslocaraté a vila onde ﬁcará o Posto de Vacinação, o Ministério da Saúde decidiu que este deverá ser ins-talado em uma vila de forma que o gasto com transporte até o Posto, para os habitantes que gasta-rem mais, seja o menor possível (para o caso da ﬁgura abaixo a vila escolhida seria G). Sete vilas interligadas por linhas de trem
+Dengue
+
+Arquivo fonte: dengue.c, dengue.cc, dengue.cpp ou dengue.pas
+
+A Costa do Mosquito é um país pequeno mas paradisíaco. Todos os habitantes têm boas moradias,
+bons empregos, o clima é agradável, e os governantes são justos e incorruptíveis. O sistema de
+transporte público da Costa do Mosquito é composto de uma rede de linhas de trem. O sistema foi
+projetado de forma peculiar: existe um único percurso ligando duas quaisquer vilas (esse percurso
+possivelmente passa por outras vilas). Por exemplo, na figura abaixo, que mostra um trecho do
+mapa da Costa do Mosquito, há apenas um percurso entre as vilas A e C, passando pelas vilas B,
+G e D. Uma tarifa fixa de M$ 1,00 é cobrada por cada viagem entre vilas vizinhas; assim, para
+uma viagem de A a C o usuário gasta M$ 4,00.
+
+Devido a um inesperado surto de dengue, o Ministério da Saúde da Costa do Mosquito resolveu
+montar um Posto de Vacinação. Para evitar que habitantes gastem muito dinheiro para se deslocar
+até a vila onde ficará o Posto de Vacinação, o Ministério da Saúde decidiu que este deverá ser ins-
+talado em uma vila de forma que o gasto com transporte até o Posto, para os habitantes que gasta-
+rem mais, seja o menor possível (para o caso da figura abaixo a vila escolhida seria G).
+
+Sete vilas interligadas por linhas de trem
+
 1. Tarefa
-Sua tarefa é escrever um programa que determine uma vila onde deve ser instalado o Posto deVacinação. Esta vila deve ser tal que o custo com transporte, para os habitantes que tiverem maiorcusto, seja o menor possível. Note que devido à característica peculiar do sistema viário, ouhaverá uma única vila que satisfaz essa restrição, ou haverá duas vilas que a satisfazem. No casode existirem duas vilas apropriadas, qualquer uma delas serve como solução.
-2.  Entrada
-A entrada é composta de vários conjuntos de teste. A primeira linha de um conjunto de testes con-tém um número inteiro N que indica a quantidade de vilas do país. As vilas são numeradas de 1 aN. As N-1 linhas seguintes contêm, cada uma, dois inteiros positivos X e Y que indicam que a vilaX tem um caminho que a liga diretamente com a vila Y, sem passar por outras vilas. O ﬁnal daentrada é indicado por N = 0.ABFEGDC7Exemplo de Entrada21 271 22 57 47 24 63 410 0
+
+Sua tarefa é escrever um programa que determine uma vila onde deve ser instalado o Posto de
+Vacinação. Esta vila deve ser tal que o custo com transporte, para os habitantes que tiverem maior
+custo, seja o menor possível. Note que devido à característica peculiar do sistema viário, ou
+haverá uma única vila que satisfaz essa restrição, ou haverá duas vilas que a satisfazem. No caso
+de existirem duas vilas apropriadas, qualquer uma delas serve como solução.
+
+2. Entrada
+
+A entrada é composta de vários conjuntos de teste. A primeira linha de um conjunto de testes con-
+tém um número inteiro N que indica a quantidade de vilas do país. As vilas são numeradas de 1 a
+N. As N-1 linhas seguintes contêm, cada uma, dois inteiros positivos X e Y que indicam que a vila
+X tem um caminho que a liga diretamente com a vila Y sem passar por outras vilas. O final da
+entrada é indicado por N = 0.
+ Exemplo de Entrada
+
+NO
+
+SHWRNINNNHNHNO
+BONARUAN
+
+(o)
+
 3. Saída
-Para cada conjunto de teste da entrada seu programa deve produzir três linhas na saída. A primeiralinha deve conter um identiﬁcador do conjunto de teste, no formato “Teste n”, onde n é numeradoa partir de 1. A segunda linha deve conter o número da vila na qual deve ser instalado o Posto deVacinação. A terceira linha deve ser deixada em branco. A graﬁa mostrada no Exemplo de Saída,abaixo, deve ser seguida rigorosamente.Exemplo de SaídaTeste 11Teste 2 7Teste 31(esta saída corresponde ao exemplo de entrada acima)
+
+Para cada conjunto de teste da entrada seu programa deve produzir três linhas na saída. A primeira
+linha deve conter um identificador do conjunto de teste, no formato “Teste n”, onde n é numerado
+a partir de 1. A segunda linha deve conter o número da vila na qual deve ser instalado o Posto de
+Vacinação. A terceira linha deve ser deixada em branco. A grafia mostrada no Exemplo de Saída,
+abaixo, deve ser seguida rigorosamente.
+
+Exemplo de Saída
+
+Teste 1
+
+1
+
+Teste 2
+7
+
+Teste 3
+1
+
+(esta saída corresponde ao exemplo de entrada acima)
+
 4. Restrições
-0 ≤ N ≤ 100 (N = 0 apenas para indicar o ﬁnal da entrada)
+
+0<N< 100 (N= 0 apenas para indicar o final da entrada)

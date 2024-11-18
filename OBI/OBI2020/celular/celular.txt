@@ -1,23 +1,79 @@
-Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível Júnior – Fase Nacional3
+Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível Júnior - Fase Nacional 3
+
 Cobertura para Celular
-Nome do arquivo:“celular.x”,ondexdeve serc,cpp,pas,java,js,py2.pyoupy3.pyPara atrair mais turistas, o governo decidiu permitir a instalação de uma rede de telefonia celularno paradisíaco arquipélago de Logarium. O arquipélago tem muitas ilhas no formato circular, todascom no máximo 1 km de diâmetro.Exatamente uma torre de celular será instalada no centro de cada uma das ilhas. Todas as torresserão idênticas e terão o mesmo alcance; oalcanceé a distância máxima da torre que um equipamento(telefone ou outra torre) pode estar de forma que a comunição seja possível.O governo deseja que a rede de telefonia celular garanta acobertura totaldo arquipélago, ou seja,deve ser possível a um usuário comunicar-se com qualquer outro usuário no arquipélago, mesmoque a comunicação tenha que passar por mais de uma torre.Há vários tipos de torres disponíveis no mercado, cada tipo com um alcance. O governo recebeuuma proposta atrativa de uma empresa e deseja saber se o alcance da torre ofertada permitirá acobertura total do arquipélago.Dadas a localização das torres e o alcance da torre ofertada, escreva um programa para determinarse a torre ofertada permite a cobertura total do arquipélago.
+
+Nome do arquivo: “celular .x”, onde x deve ser c, cpp, pas, java, js, py2.Py ou py3.py
+
+Para atrair mais turistas, o governo decidiu permitir a instalação de uma rede de telefonia celular
+no paradisíaco arquipélago de Logarium. O arquipélago tem muitas ilhas no formato circular, todas
+com no máximo 1 km de diâmetro.
+
+Exatamente uma torre de celular será instalada no centro de cada uma das ilhas. Todas as torres
+serão idênticas e terão o mesmo alcance; o alcance é a distância máxima da torre que um equipamento
+(telefone ou outra torre) pode estar de forma que a comunição seja possível.
+
+O governo deseja que a rede de telefonia celular garanta a cobertura total do arquipélago, ou seja,
+deve ser possível a um usuário comunicar-se com qualquer outro usuário no arquipélago, mesmo
+que a comunicação tenha que passar por mais de uma torre.
+
+Há vários tipos de torres disponíveis no mercado, cada tipo com um alcance. O governo recebeu
+uma proposta atrativa de uma empresa e deseja saber se o alcance da torre ofertada permitirá a
+cobertura total do arquipélago.
+
+Dadas a localização das torres e o alcance da torre ofertada, escreva um programa para determinar
+se a torre ofertada permite a cobertura total do arquipélago.
+
 Entrada
-A primeira linha da entrada contém um inteiroNindicando o número de ilhas do arquipélago.Cada uma dasNlinhas seguintes contém dois inteirosX
-ieYi, as coordenadas da i-ésima torre.Não existem duas torres com as mesmas coordenadas. A última linha da entrada contém um inteiroAindicando o alcance da torre.
+
+A primeira linha da entrada contém um inteiro N indicando o número de ilhas do arquipélago.
+Cada uma das N linhas seguintes contém dois inteiros X; e Y;, as coordenadas da i-ésima torre.
+Não existem duas torres com as mesmas coordenadas. A última linha da entrada contém um inteiro
+A indicando o alcance da torre.
+
 Saída
-Seu programa deve produzir uma única linha na saída, contendo um único caractere, que deve serSse a torre permite a cobertura total ouNcaso contrário.
+
+Seu programa deve produzir uma única linha na saída, contendo um único caractere, que deve ser
+S se a torre permite a cobertura total ou N caso contrário.
+
 Restrições
-•2≤N≤10000•0≤X
-i, Yi≤1000, para1≤i≤N•1≤A≤10000
+
+e 2<N<10000
+e 0<X,Y;< 1000, paral<i<N
+
+e 1<A< 10000
+
 Informações sobre a pontuação
-•Para um conjunto de casos de testes valendo 20 pontos,Y i= 0para1≤i≤N.•Para um conjunto de casos de testes valendo 80 pontos adicionais, nenhuma outra restrição.
+e Para um conjunto de casos de testes valendo 20 pontos, Y = 0 paral <i<N.
+
+e Para um conjunto de casos de testes valendo 80 pontos adicionais, nenhuma outra restrição.
+
 Exemplos
-Exemplo de entrada 1
-3200 200400 400600 600200Exemplo de saída 1
-NOlimpíada Brasileira de Informática – OBI2020 – Prog. Nível Júnior – Fase Nacional4
-Exemplo de entrada 2
-510 1010 3030 1030 3020 2020Exemplo de saída 2
-S
-Exemplo de entrada 3
-30 040 00 3049Exemplo de saída 3
-S
+
+Exemplo de entrada 1 Exemplo de saída 1
+
+3 N
+200 200
+400 400
+600 600
+200
+
+ Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível Júnior - Fase Nacional
+
+Exemplo de entrada 2 Exemplo de saída 2
+
+5 o)
+10 10
+10 30
+30 10
+30 30
+20 20
+20
+
+Exemplo de entrada 3 Exemplo de saída 3
+
+3 o)
+00
+40 0
+o 30
+49
+

@@ -1,20 +1,42 @@
-OBI2006 – Modalidade Programa¸ c˜ ao N´ıvel 2 – Fase Nacional 4
-Sub-seq¨ uˆ encias
-Nome do arquivo fonte:sub.c,sub.cpp,ousub.pasUmasubseq¨ uˆ enciade umaseq¨ uˆ encia de caracteresS´ e denida como uma seq¨ uˆ encia de caracteres deS, n˜ aonecessariamente consecutivos, na mesma ordem em que eles ocorrem na seq¨ uˆ encia original.Dadas duas seq¨ uˆ encias de caracteres,S
-1eS2, dizemos queS 1possui grauNde independˆ encia em rela¸ c˜ ao aS
-2se, dada qualquer subseq¨ uˆ encia de tamanhoNdeS 1, n˜ ao ´ e poss´ıvel formar tal subseq¨ uˆ encia a partir deS 2. Por exemplo, o grau de independˆ encia da seq¨ uˆ enciaS
-1=‘ababaa’ em rela¸ c˜ ao ` a seq¨ uˆ enciaS 2=‘abbaa’ ´ e igual a 3, pois todas as subseq¨ uˆ encias deS
-1de tamanho 1 (‘a’, ‘b’) e todas as subseq¨ uˆ encias de tamanho 2 (‘aa’, ‘ab’,‘ba’, ‘bb’) podem ser formadas a partir deS
-2, mas a subseq¨ uˆ encia ‘bab’, de tamanho 3, n˜ ao pode ser formadaa partir deS
-2.
+0B12006 — Modalidade Programação Nível 2 — Fase Nacional 4
+
+Sub-seguências
+Nome do arquivo fonte: sub.c, sub.cpp, ou sub.pas
+
+Uma subsegiência de uma segiência de caracteres S é definida como uma sequência de caracteres de S, não
+necessariamente consecutivos, na mesma ordem em que eles ocorrem na sequência original.
+
+Dadas duas sequências de caracteres, S1 e S2, dizemos que 54 possui grau N de independência em relação a
+So se, dada qualquer subsequência de tamanho N de 51, não é possível formar tal subsequência a partir de S5.
+
+Por exemplo, o grau de independência da sequência Sj='ababaa' em relação à sequência S9='abbaa” é igual
+a 3, pois todas as subsequências de Sj de tamanho 1 (“a”, “b”) e todas as subsegiiências de tamanho 2 ('aa”, “ab”,
+“ba”, bb”) podem ser formadas a partir de So, mas a subseqiiência “bab”, de tamanho 3, não pode ser formada
+a partir de So.
+
 Tarefa
-Escreva um programa que, dadas duas seq¨ uˆ enciasS 1eS2, determine o grauNde independˆ encia deS 1em rela¸ c˜ ao aS
-2.
+
+Escreva um programa que, dadas duas sequências Sj e S5, determine o grau N de independência de 54 em
+relação a So.
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). A entrada cont´ em trˆ es linhas. A primeira linha cont´ em dois inteirosNeMque indicam respectiva- mente o comprimento da seq¨ uˆ enciaS
-1(1<=N <= 2000) e o comprimento da seq¨ uˆ enciaS 2(1<=M<= 2000). A segunda linha cont´ em a seq¨ uˆ enciaS
-1e a terceira linha cont´ em a seq¨ uˆ enciaS 2. As seq¨ uˆ encias s˜ ao formadassomente pelas letras min´ usculas sem acento (’a’ - ’z’). As seq¨ uˆ encias possuem no m´ aximo 2000 caracteres.Sempre existe uma solu¸ c˜ ao para os casos de teste fornecidos.
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, uma ´ unica linha, cont´ endo o grauNde indepedˆ encia deS 1em rela¸ c˜ ao aS
-2.
-EntradaababaaabbaaSa´ıda3EntradabababbabbaSa´ıda3EntradabananaanbnaanbaanSa´ıda5
+
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado). A entrada contém três linhas. A primeira linha contém dois inteiros N e M que indicam respectiva-
+mente o comprimento da sequência S4 (1 <= N <= 2000) e o comprimento da seqiiência S> (1 <= M <= 2000).
+A segunda linha contém a sequência Sj e a terceira linha contém a sequência S5. As sequências são formadas
+somente pelas letras minúsculas sem acento ('a' - 'z'). As sequências possuem no máximo 2000 caracteres.
+Sempre existe uma solução para os casos de teste fornecidos.
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, uma única linha, conténdo o grau N de indepedência de Sj em
+relação a So.
+
+Entrada Entrada Entrada
+ababaa babab banana
+abbaa babba anbnaanbaan
+Saída Saída Saída
+
+3 3 5
+

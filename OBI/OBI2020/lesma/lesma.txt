@@ -1,19 +1,45 @@
-Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível Júnior – Fase Estadual2
+Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível Júnior — Fase Estadual 2
+
 Dona Lesma
-Nome do arquivo:“lesma.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3Dona Lesma é esportista e aventureira e deniu como objetivo deste verão alcançar o topo domuro do jardim em que vive. A cada dia, valente e metodicamente ela sobe exatamente uma certadistância (sempre a mesma a cada dia). Mas a cada noite enquanto dorme Dona Lesma escorregapara baixo uma outra distância (sempre a mesma a cada noite)...Dadas a altura do muro, a distância que ela sobe a cada dia e a distância que ela desce a cada noite,ajude Dona Lesma a calcular quantos dias ela levará para chegar ao topo do muro.
+
+Nome do arquivo: “lesma.x”, onde x deve ser c, cpp, pas, java, js, py2 ou py3
+
+Dona Lesma é esportista e aventureira e definiu como objetivo deste verão alcançar o topo do
+muro do jardim em que vive. À cada dia, valente e metodicamente ela sobe exatamente uma certa
+distância (sempre a mesma a cada dia). Mas a cada noite enquanto dorme Dona Lesma escorrega
+para baixo uma outra distância (sempre a mesma a cada noite)...
+
+Dadas a altura do muro, a distância que ela sobe a cada dia e a distância que ela desce a cada noite,
+ajude Dona Lesma a calcular quantos dias ela levará para chegar ao topo do muro.
+
 Entrada
-A primeira linha contém um inteiroA, a altura do muro. A segunda linha contém um inteiroS,distância que Dona Lesma sobe a cada dia. A terceira linha contém um inteiroD, a distância queDona Lesma escorrega para baixo a cada noite.
+
+A primeira linha contém um inteiro 4, a altura do muro. A segunda linha contém um inteiro S,
+distância que Dona Lesma sobe a cada dia. A terceira linha contém um inteiro D, a distância que
+Dona Lesma escorrega para baixo a cada noite.
+
 Saída
-Seu programa deve produzir uma única linha, contendo um único inteiro, o número de dias queDona Lesma demorará para chegar ao topo do muro.
+
+Seu programa deve produzir uma única linha, contendo um único inteiro, o número de dias que
+Dona Lesma demorará para chegar ao topo do muro.
+
 Restrições
-•1≤A≤10000•1≤D < S≤10000
+
+e 1<A< 10000
+
+e1<D<S<10000
+
 Exemplos
-Exemplo de entrada 1
-421Exemplo de saída 1
-3
-Exemplo de entrada 2
-1252Exemplo de saída 2
-4
-Exemplo de entrada 3
-1000010050Exemplo de saída 3
-199
+Exemplo de entrada 1 Exemplo de saída 1
+4 3
+2
+1
+Exemplo de entrada 2 Exemplo de saída 2
+12 4
+5
+2
+Exemplo de entrada 3 Exemplo de saída 3
+10000 199
+100
+50
+

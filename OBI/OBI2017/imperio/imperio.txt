@@ -1,18 +1,88 @@
-Olimpíada Brasileira de Informática – OBI2017 – Prog. Nível 2 – Fase Nacional5
+Olimpíada Brasileira de Informática - OBI2017 — Prog. Nível 2 — Fase Nacional 5
+
 Dividindo o império
-Nome do arquivo:imperio.c,imperio.cpp,imperio.pas,imperio.java,imperio.js,imperio.py2ouimperio.py3Um grande Império é composto porNcidades, nu-meradas de1atéN. Alguns pares de cidades estãoligados diretamente por estradas bidirecionais e, poruma antiga tradição, esses pares são escolhidos demaneira que sempre é possível ir de qualquer cidadepara qualquer outra cidade porexatamenteum ca-minho (um caminho é uma sequência de estradas).O imperador quer dividir seu império em dois paradeixar de herança para seus doislhos. Ele percebeuque basta destruir exatamente uma estrada, qual-quer estrada, para dividir seu império em dois me-nores que, separadamente, preservam a antiga tradi-ção. Ele agora precisa da sua ajuda para computar amenor diferença possível no número de cidades entreos dois impérios resultantes.
-1253
-Por exemplo, nagura, se o imperador destruir a estrada entre as cidades3e12, os impériosresultantes terão5e11cidades, uma diferença de6cidades. Porém, se ele destruir a estrada entreas cidades3e5, a diferença será de apenas4cidades. Você consegue ver que essa é a menordiferença possível para esse exemplo dagura?
+
+Nome do arquivo: imperio.c, imperio.cpp, imperio.pas, imperio. java, imperio.js,
+imperio.py2 ou imperio.py3
+
+Um grande Império é composto por N cidades, nu-
+
+meradas de 1 até N. Alguns pares de cidades estão
+
+ligados diretamente por estradas bidirecionais e, por
+
+uma antiga tradição, esses pares são escolhidos de
+
+maneira que sempre é possível ir de qualquer cidade
+
+para qualquer outra cidade por exatamente um ca- 12
+minho (um caminho é uma sequência de estradas).
+
+O imperador quer dividir seu império em dois para 3
+deixar de herança para seus dois filhos. Ele percebeu 5
+
+que basta destruir exatamente uma estrada, qual-
+
+quer estrada, para dividir seu império em dois me-
+
+nores que, separadamente, preservam a antiga tradi-
+
+ção. Ele agora precisa da sua ajuda para computar a
+
+menor diferença possível no número de cidades entre
+
+os dois impérios resultantes.
+
+Por exemplo, na figura, se o imperador destruir a estrada entre as cidades 3 e 12, os impérios
+resultantes terão 5 e 11 cidades, uma diferença de 6 cidades. Porém, se ele destruir a estrada entre
+as cidades 3 e 5, a diferença será de apenas 4 cidades. Você consegue ver que essa é a menor
+diferença possível para esse exemplo da figura?
+
 Entrada
-A primeira linha da entrada contém um inteiroN, representando o número de cidades no império.AsN−1linhas seguintes contém, cada uma, dois inteirosAeB, indicando que existe uma estradabidirecional ligando diretamente as cidadesAeB.
+
+A primeira linha da entrada contém um inteiro N, representando o número de cidades no império.
+As N —1 linhas seguintes contém, cada uma, dois inteiros 4 e B, indicando que existe uma estrada
+bidirecional ligando diretamente as cidades A e B.
+
 Saída
-Seu programa deve imprimir uma linha contendo um inteiro representando a menor diferença pos-sível no número de cidades entre os dois impérios resultantes.
+
+Seu programa deve imprimir uma linha contendo um inteiro representando a menor diferença pos-
+sível no número de cidades entre os dois impérios resultantes.
+
 Restrições
-•2≤N≤105
-•1≤A≤N,1≤B≤N
+
+“2<N<I10
+CI<A<N,I<B<N
+
 Informações sobre a pontuação
-•Em um conjunto de casos de teste somando 40 pontos,N≤10000
+
+e Em um conjunto de casos de teste somando 40 pontos, N < 10000
+
 Exemplos
-Entrada41 22 33 4 Saída0Olimpíada Brasileira de Informática – OBI2017 – Prog. Nível 2 – Fase Nacional6
-Entrada163 512 35 12 14 16 17 112 812 912 1012 113 1313 1415 1315 16
-Saída4
+
+Entrada Saída
+
+CN Hs
+BwUN
+
+ Olimpíada Brasileira de Informática - OBI2017 — Prog. Nível 2 — Fase Nacional
+
+Entrada Saída
+16 4
+
+35
+
+1283
+
+JN OB Na
+a e
+
+128
+129
+12 10
+12 11
+3 13
+13 14
+15 13
+15 16
+

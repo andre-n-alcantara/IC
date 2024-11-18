@@ -1,15 +1,79 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2010 6
+Olimpíada Brasileira de Informática — OBI2010 6
+
 Times
-Nome do arquivo fonte:times.c,times.cpp,outimes.pasAs aulas de educa¸ c˜ ao f´ısica, em muitas escolas, acontecem da seguinte maneira: O professor entrega uma bolaao alunos (geralmente de futebol) e estes se dividem em times, onde jogam partidas alternadamente.A maneira como os times s˜ ao escolhidos tamb´ em ´ e semelhante em todas as escolas: decide-se quantos timesser˜ ao formados, e uma pessoa para montar cada um dos times. Cada pessoa vai escolher, alternadamente, umdos alunos restantes para fazer parte de sua equipe. Como todos querem ter uma boa equipe, a pessoa quevai escolher o pr´ oximo membro do time escolhe aquele, dentre os ainda dispon´ıveis, que possui o melhor n´ıvelde habilidade. Assim, os times acabamcando relativamente equilibrados na soma do n´ıvel de habilidade dosjogadores.
+
+Nome do arquivo fonte: times.c, times.cpp, ou times.pas
+
+As aulas de educação física, em muitas escolas, acontecem da seguinte maneira: O professor entrega uma bola
+ao alunos (geralmente de futebol) e estes se dividem em times, onde jogam partidas alternadamente.
+
+A maneira como os times são escolhidos também é semelhante em todas as escolas: decide-se quantos times
+serão formados, e uma pessoa para montar cada um dos times. Cada pessoa vai escolher, alternadamente, um
+dos alunos restantes para fazer parte de sua equipe. Como todos querem ter uma boa equipe, a pessoa que
+vai escolher o próximo membro do time escolhe aquele, dentre os ainda disponíveis, que possui o melhor nível
+de habilidade. Assim, os times acabam ficando relativamente equilibrados na soma do nível de habilidade dos
+jogadores.
+
 Tarefa
-Dada uma lista de alunos que ser˜ ao escolhidos e seus respectivos n´ıveis de habilidade para os times e a quantidadede times que ser˜ ao formados, mostre comocar˜ ao os times aonal do processo de montagem dos mesmos.
+
+Dada uma lista de alunos que serão escolhidos e seus respectivos níveis de habilidade para os times e a quantidade
+de times que serão formados, mostre como ficarão os times ao final do processo de montagem dos mesmos.
+
 Entrada
-A primeira linha da entrada cont´ em dois inteirosN(2≤N≤10.000) eT(2≤T≤1000), representandorespectivamente a quantidade de alunos e o n´ umero de times a serem formados, sendoT≤N. AsNlinhasseguintes descrevem, cada uma, um aluno dispon´ıvel para escolha de times. Cada uma dessas linhas possui onome do aluno (composto apenas por letras min´ usculas) e um inteiroH(0≤H≤1.000.000) descrevendo seun´ıvel de habilidade).N˜ ao existem dois alunos com o mesmo n´ıvel de habilidade, e todos eles possuem nomes diferentes. ´E poss´ıvel que alguns times acabemcando com menos jogadores do que os outros.
-Sa´ıda
-Seu programa deve imprimir a lista de times que ser´ a formada aonal do processo de sele¸ c˜ ao. Para cada time,vocˆ e dever´ a mostrar o termo “Time N”, ondeN´ e o n´ umero do time (1 para o primero, 2 para o segundo, eassim por diante) seguido deKlinhas, ondeK´ e a quantidade de jogadores do time, mostrando o nome de cadaum dos jogadores do time, em ordem alfab´ etica. Imprima uma linha em branco ap´ os cada descri¸ c˜ ao de time(inclusive do ´ ultimo).Os times ser˜ ao escolhidos pelo computador, ent˜ ao n˜ ao ´ e necess´ ario considerar o aluno que ir´ a fazer a escolhados times.
-Informa¸ c˜ oes sobre a pontua¸ c˜ ao
-•Em um conjunto de casos de teste que totaliza 40 pontos, 2≤N≤10, 2≤T≤5.Olimp´ıada Brasileira de Inform´ atica – OBI2010 7
+
+A primeira linha da entrada contém dois inteiros N (2 < N < 10.000) eT (2 <T < 1000), representando
+respectivamente a quantidade de alunos e o número de times a serem formados, sendo T < N. As N linhas
+seguintes descrevem, cada uma, um aluno disponível para escolha de times. Cada uma dessas linhas possui o
+nome do aluno (composto apenas por letras minúsculas) e um inteiro H (0 < H < 1.000.000) descrevendo seu
+nível de habilidade).
+
+Não existem dois alunos com o mesmo nível de habilidade, e todos eles possuem nomes diferentes. E possível
+que alguns times acabem ficando com menos jogadores do que os outros.
+
+Saída
+
+Seu programa deve imprimir a lista de times que será formada ao final do processo de seleção. Para cada time,
+você deverá mostrar o termo “Time N”, onde N é o número do time (1 para o primero, 2 para o segundo, e
+assim por diante) seguido de K linhas, onde K é a quantidade de jogadores do time, mostrando o nome de cada,
+um dos jogadores do time, em ordem alfabética. Imprima uma linha em branco após cada descrição de time
+(inclusive do último).
+
+Os times serão escolhidos pelo computador, então não é necessário considerar o aluno que irá fazer a escolha
+dos times.
+
+Informações sobre a pontuação
+
+e Em um conjunto de casos de teste que totaliza 40 pontos, 2< N<10,2<T<s.
+ Olimpíada Brasileira de Informática - OBD010
+
 Exemplos
-Entrada14 3felipe 4alvaro 8thiago 1rodrigo 3robson 2fabio 9ricardo 11rodolfo 0andre 14arthur 12ronaldo 55rogerio 30lucas 7rafael 17
-Sa´ıdaTime 1andrefabiofeliperonaldothiagoTime 2alvaroarthurrodolforodrigorogerioTime 3lucasrafaelricardorobson
-Entrada4 3john 3richard 0greg 100rupert 20Sa´ıdaTime 1gregrichardTime 2rupertTime 3john
+Entrada Saída
+14 3 Time 1
+felipe 4 andre
+alvaro 8 fabio
+thiago 1 felipe
+rodrigo 3 ronaldo
+robson 2 thiago
+fabio 9
+ricardo 11 Time 2
+rodolfo O alvaro
+andre 14 arthur
+arthur 12 rodolfo
+ronaldo 55 rodrigo
+rogerio 30 rogerio
+lucas 7
+rafael 17 Time 3
+lucas
+rafael
+ricardo
+robson
+Entrada Saída
+43 Time 1
+john 3 greg
+richard O richard
+greg 100
+rupert 20 Time 2
+rupert
+Time 3
+john
+

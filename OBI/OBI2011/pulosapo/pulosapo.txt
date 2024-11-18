@@ -1,2 +1,79 @@
-NMMPDNii10•1≤N,M≤100•1≤P, D≤N5234241 2345
-8332632362,4,686,4,281 234 5678
+Olimpíada Brasileira de Informática — OBD011 6
+
+Pulo do Sapo
+
+Nome do arquivo fonte: pulosapo.c, pulosapo.cpp, pulosapo.pas, pulosapo. java, ou pulosapo.py
+
+Sebastião Bueno Coelho, apelidado de SBC pelos familiares e amigos, passou as férias de janeiro de 2011 no
+sítio de seus avós. Durante sua estadia, uma das atividades prediletas do SBC era nadar no rio que havia no
+undo da casa onde morava.
+
+Uma das características do rio que mais impressionava SBC era um belo caminho, feito inteiramente com
+vedras brancas. Há muito tempo, o avô de SBC notara que os habitantes do sítio atravessavam o rio com
+grande frequência e, por isso, construiu um caminho no rio com pedras posicionadas em linha reta; ao fazê-lo,
+tomou muito cuidado para que o espaçamento das pedras fosse de exatamente um metro.
+
+Hoje em dia, a única utilidade do caminho é servir de diversão para os sapos que vivem no rio, que pulam de uma
+jedra a outra agitadamente. Um certo dia, enquanto descansava e nadava nas águas, SBC assistiu atentamente
+às acrobacias dos bichos e notou que cada sapo sempre pulava (zero, uma ou mais vezes) uma quantidade fixa,
+de metros.
+
+SBC sabe que você participa da OBI todos os anos e, chegando na escola, resolveu desafiar-te com o seguinte
+oroblema: Dado o número de pedras no rio, o número de sapos, a pedra inicial sobre a qual cada sapo está
+(cada pedra é identificada por sua posição na sequência de pedras) e a distância que cada sapo pula, determinar
+as posições onde pode existir um sapo depois que SBC chega no rio.
+
+Entrada
+
+A primeira linha da entrada contém dois inteiros N e M representando o número de pedras no rio e o número de
+sapos, respectivamente. Cada uma das M linhas seguintes possui dois inteiros P e D representando a posição
+inicial de um sapo e a distância fixa de pulo, respectivamente.
+
+Saída
+
+A saída contém N linhas. A i-ésima linha indica a possibilidade ou não de ter um sapo na i-ésima pedra.
+Para as pedras que podem ter um sapo você deve imprimir 1, e para as pedras que com certeza não podem ter
+nenhum sapo você deve imprimir 0.
+
+Restrições
+
+“1<N,M<100
+
+e Para cada sapo, 1I< PD<N
+ Olimpíada Brasileira de Informática - OBD011
+
+Exemplos
+
+Entrada Saída
+
+wa
+BND
+nHHoRn
+
+Neste exemplo, SBC indicou a existência de 5 pedras no rio e 2 sapos. Os sapos estavam inicialmente
+nas pedras 3 e 4. SBC também lhe disse que o primeiro sapo da entrada sempre pula 2 metros, e o
+segundo sempre pula 4 metros. A figura a seguir ilustra as possíveis pedras que podem ser ocupadas
+pelos sapos quando eles começam a pular.
+
+Entrada Saída
+83 0
+33 1
+22 1
+62 1
+0
+1
+0
+1
+
+Neste exemplo, SBC indicou a existência de 8 pedras no rio e 3 sapos. Os sapos estavam inicialmente
+nas pedras 3, 2 e 6. SBC também lhe disse que o primeiro sapo da entrada sempre pula 3 metros,
+o segundo e terceiro sempre pulam 2 metros. Dessa forma, o primeiro sapo pode estar nas pedras
+3 ou 6; o segundo sapo pode estar nas pedras 2,4,6 ou 8; e o terceiro sapo pode estar nas pedras
+6,4,2e 8. A figura a seguir ilustra as possíveis pedras que podem ser ocupadas pelos sapos quando
+
+eles começam a pular.
+eee |e| |é
+2 3 6 7
+
+4 5 8
+

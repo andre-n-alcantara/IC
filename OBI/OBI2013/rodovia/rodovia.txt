@@ -1,18 +1,91 @@
-Olimpíada Brasileira de Informática – OBI2013 4
+Olimpíada Brasileira de Informática - OBI2018 4
+
 Rodovia
-Nome do arquivo fonte:rodovia.c,rodovia.cpp,rodovia.pas,rodovia.java,ourodovia.py
-As estradas da Nlogônia estão severamente danicadas, devido ao intensouxo de veículos pesados criadopelo desenvolvimento econômico do reino. Para resolver o problema, o rei da Nlogônia decretou que seriamconstruídas novas rodovias. O decreto determinou que:•todas as rodovias construídas terão mão única, e ligarão exatamente duas cidades;•nenhum par de rodovias se intersectará — serão construídos viadutos, túneis e pontes conforme ne-cessário;•por razões orçamentárias, o número de rodovias a construir será igual ao número de cidades queexistem na Nlogônia;•deve ser possível, partindo de qualquer cidade, chegar a qualquer outra cidade usando só as novasrodovias, sempre respeitando a mão das rodovias.O engenheiro-chefe do reino desenhou uma proposta de mapa viário; o rei vericou que o plano satisfaz astrês primeiras restrições, mas não conseguiu vericar a última. Por isso, ele pediu que você escrevesse umprograma que determina se o plano de rodovias permite viajar de qualquer cidade até qualquer outra cidadeda Nlogônia.
+
+Nome do arquivo fonte: rodovia.c, rodovia.cpp, rodovia.pas, rodovia. java, ou rodovia.py
+
+As estradas da Nlogônia estão severamente danificadas, devido ao intenso fluxo de veículos pesados criado
+pelo desenvolvimento econômico do reino. Para resolver o problema, o rei da Nlogônia decretou que seriam
+construídas novas rodovias. O decreto determinou que:
+
+e todas as rodovias construídas terão mão única, e ligarão exatamente duas cidades;
+
+e nenhum par de rodovias se intersectará — serão construídos viadutos, túneis e pontes conforme ne-
+cessário;
+
+e por razões orçamentárias, o número de rodovias a construir será igual ao número de cidades que
+existem na Nlogônia;
+
+e deve ser possível, partindo de qualquer cidade, chegar a qualquer outra cidade usando só as novas
+rodovias, sempre respeitando a mão das rodovias.
+
+O engenheiro-chefe do reino desenhou uma proposta de mapa viário; o rei verificou que o plano satisfaz as
+três primeiras restrições, mas não conseguiu verificar a última. Por isso, ele pediu que você escrevesse um
+programa que determina se o plano de rodovias permite viajar de qualquer cidade até qualquer outra cidade
+da Nlogônia.
+
 Entrada
-A primeira linha de cada caso de teste contém um inteiroN, indicando o número de cidades. Cada uma dasNlinhas seguintes descrevem uma estrada: a linha contém dois inteirosAeBque indicam que existe umaestrada de mão única ligando a cidadeAa outra cidade,B(as cidades são numeradas de1aN).
+A primeira linha de cada caso de teste contém um inteiro N, indicando o número de cidades. Cada uma das
+
+N linhas seguintes descrevem uma estrada: a linha contém dois inteiros 4 e B que indicam que existe uma
+estrada de mão única ligando a cidade A a outra cidade, B (as cidades são numeradas de 1 a N).
+
 Saída
-Imprima uma única linha contendo um único caractere: ‘S’ se for possível ir de qualquer cidade a qualqueroutra cidade por rodovias e ‘N’ caso contrário.
+
+Imprima uma única linha contendo um único caractere: *S' se for possível ir de qualquer cidade a qualquer
+outra cidade por rodovias e 'Nº caso contrário.
+
 Restrições
-•2≤N≤104
-•A6=B;
+
+e2<N<I10!
+“AB;
+
 Informações sobre a pontuação
-•em um conjunto de casos de teste totalizando 20 pontos,N≤3;•em um conjunto de casos de teste totalizando 40 pontos,N≤8;
+
+e em um conjunto de casos de teste totalizando 20 pontos, N < 3;
+
+e em um conjunto de casos de teste totalizando 40 pontos, N < 8;
+
 Exemplos
-Entrada31 22 33 1 SaídaSOlimpíada Brasileira de Informática – OBI2013 5
-Entrada31 22 31 3 SaídaN
-Entrada61 22 34 15 63 56 4SaídaS
-Entrada61 22 33 14 55 66 4SaídaN
+
+Entrada Saída
+
+CNH w
++ wnN
+
+ Olimpíada Brasileira de Informática
+
+OBI2013
+
+Entrada Saída
+
+3 N
+
+12
+
+283
+
+13
+
+Entrada Saída
+
+6 s
+
+12
+
+283
+
+41
+
+5 6
+
+35
+
+64
+
+Entrada Saída
+N
+
+O MB WUN HO
+BO UH WUN
+

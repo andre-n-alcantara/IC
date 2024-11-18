@@ -1,20 +1,48 @@
-Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível 2 – Fase 2 6
+Olimpíada Brasileira de Informática - OBI2022 — Prog. Nível 2 — Fase 2 6
+
 Subcadeias
-Nome do arquivo:subcadeias.c,subcadeias.cpp,subcadeias.pas,subcadeias.java,subcadeias.jsousubcadeias.pyUma cadeia de caracteres é umpalíndromose os caracteres aparecem exatamente na mesma sequên-cia quando lemos a cadeia da esquerda para a direita, ou da direita para a esquerda. Por exemplo,as cadeiasossoeararasão palíndromos, mas as cadeiasxyeabbbabnão são palíndromos.Umasubcadeiade uma dada cadeia de caracteres um é trecho contínuo da cadeia. Por exemplo,abc,bcedsão subcadeias deabcde, masabeedednão são.Ocomprimentode uma cadeia de caracteres (ou subcadeia) é o número de caracteres da cadeia (ousubcadeia).Dada uma cadeia de caracteres, determine o comprimento da maior subcadeia que é um palíndromo.
+
+Nome do arquivo: subcadeias.c, subcadeias.cpp, subcadeias.pas, subcadeias. java,
+subcadeias.js ou subcadeias.py
+
+Uma cadeia de caracteres é um palíndromo se os caracteres aparecem exatamente na mesma sequên-
+cia quando lemos a cadeia da esquerda para a direita, ou da direita para a esquerda. Por exemplo,
+as cadeias osso e arara são palíndromos, mas as cadeias xy e abbbab não são palíndromos.
+
+Uma subcadeia de uma dada cadeia de caracteres um é trecho contínuo da cadeia. Por exemplo,
+abc, bc e d são subcadeias de abcde, mas abe e ded não são.
+
+O comprimento de uma cadeia de caracteres (ou subcadeia) é o número de caracteres da cadeia (ou
+subcadeia).
+
+Dada uma cadeia de caracteres, determine o comprimento da maior subcadeia que é um palíndromo.
 Entrada
-A primeira linha da entrada contém um inteiroN, o comprimento da cadeia de caracteres. Asegunda linha da entrada contém osNcaracteresC
-ique compõem a cadeia de caracteres.
+
+A primeira linha da entrada contém um inteiro N, o comprimento da cadeia de caracteres. A
+segunda linha da entrada contém os N caracteres C; que compõem a cadeia de caracteres.
+
 Saída
-Seu programa deve produzir uma única linha, contendo um único inteiro, o comprimento da maiorsubcadeia da cadeia da entrada que é um palíndromo.
+
+Seu programa deve produzir uma única linha, contendo um único inteiro, o comprimento da maior
+subcadeia da cadeia da entrada que é um palíndromo.
+
 Restrições
-•1≤N≤500•C
-ié uma letra minúscula não acentuada, para1≤i≤N.
+e1<N<õ500
+
+e C; é uma letra minúscula não acentuada, para 1 <i <N.
+
 Exemplos
-Exemplo de entrada 1
-15vovossorirmirimExemplo de saída 1
-5
-Explicação do exemplo 1:As subcadeias que são palíndromos são: v, o, s, r, i, m, ss, vov, ovo,rir, iri, osso, mirim. A de maior comprimento é mirim, com comprimento 5.
-Exemplo de entrada 2
-8abxxxxbaExemplo de saída 2
-8
-Explicação do exemplo 2:As subcadeias que são palíndromos são: a, b, x, xx, xxx, xxxx,bxxxxb, abxxxxba. A de maior comprimento é abxxxxba, com comprimento 8.
+Exemplo de entrada 1 Exemplo de saída 1
+15 5
+vovossorirmirim
+
+Explicação do exemplo 1: As subcadeias que são palíndromos são: v, 0,8, T, i, M, SS, VOV, OVO,
+rir, iri, osso, mirim. A de maior comprimento é mirim, com comprimento 5.
+
+Exemplo de entrada 2 Exemplo de saída 2
+8 8
+abxxxxba
+
+Explicação do exemplo 2: As subcadeias que são palíndromos são: a, Db, x, XX, XXX, XXXX,
+bxxxxb, abxxxxba. A de maior comprimento é abxxxxba, com comprimento 8.
+

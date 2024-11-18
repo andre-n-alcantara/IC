@@ -1,10 +1,35 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2007 – Programa¸ c˜ ao N´ıvel 1, Fase 1 2
-Pe¸ ca Perdida
-Nome do arquivo fonte:perdida.c,perdida.cpp,ouperdida.pasJo˜ aozinho adora quebra-cabe¸ cas, essa ´ e sua brincadeira favorita. O grande problema, por´ em, ´ e que ` as vezeso jogo vem com uma pe¸ ca faltando. Isso irrita bastante o pobre menino, que tem de descobrir qual pe¸ ca est´ afaltando e solicitar uma pe¸ ca de reposi¸ c˜ ao ao fabricante do jogo. Sabendo que o quebra-cabe¸ cas temNpe¸ cas,numeradas de 1 aNe que exatamente uma est´ a faltando, ajude Jo˜ aozinho a saber qual pe¸ ca ele tem de pedir.
+Olimpíada Brasileira de Informática — OBI2007 — Programação Nível 1, Fase 1 2
+
+Peça Perdida
+
+Nome do arquivo fonte: perdida.c, perdida.cpp, ou perdida.pas
+
+Joãozinho adora quebra-cabeças, essa é sua brincadeira favorita. O grande problema, porém, é que às vezes
+o jogo vem com uma peça faltando. Isso irrita bastante o pobre menino, que tem de descobrir qual peça está
+faltando e solicitar uma peça de reposição ao fabricante do jogo. Sabendo que o quebra-cabeças tem N peças,
+numeradas de 1 a N e que exatamente uma está faltando, ajude Joãozinho a saber qual peça ele tem de pedir.
+
 Tarefa
-Escreva um programa que, dado um inteiroNeN−1 inteiros numerados de 1 aN, descubra qual inteiro est´ afaltando.
+
+Escreva um programa que, dado um inteiro N e N — 1 inteiros numerados de 1 a N, descubra qual inteiro está
+faltando.
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). A entrada cont´ em 2 linhas. A primeira linha cont´ em um inteiroN(2≤N≤1.000). A segundalinha cont´ emN−1 inteiros numerados de 1 aN(sem repeti¸ c˜ oes).
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, uma ´ unica linha, contendo o n´ umero que est´ a faltando naseq¨ uˆ encia dada.
-Entrada33 1Sa´ıda2Entrada51 2 3 5Sa´ıda4Entrada42 4 3Sa´ıda1
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+
+o teclado). A entrada contém 2 linhas. A primeira linha contém um inteiro N (2 < N < 1.000). A segunda
+linha contém N — 1 inteiros numerados de 1 a N (sem repetições).
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, uma única linha, contendo o número que está faltando na
+sequência dada.
+
+Entrada Entrada Entrada
+3 5 4
+
+31 12365 243
+Saída Saída Saída
+
+2 4 1
+

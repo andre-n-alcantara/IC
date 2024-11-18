@@ -1,14 +1,88 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2007 – Programa¸ c˜ ao N´ıvel 2 Fase 1 2
-Reposit´ orios
-Nome do arquivo fonte:repos.c,repos.cpp,ourepos.pasUma das boas pr´ aticas ao administrar um conjunto de computadores ´ e manter os aplicativoss sempre atuali-zados. Entretanto, em uma grande corpora¸ c˜ ao com milhares de aplicativos instalados, a simples verica¸ c˜ ao doque precisa ser atualizado pode tornar-se uma tarefa bem complicada. Para facilitar isso, alguns fabricantesarmazenam todos os aplicativos existentes em grandes bases de dados chamadas reposit´ orios e um programa ´ erespons´ avel por vericar esse reposit´ orio e atualizar as vers˜ oes dos aplicativos.M.V.Lzr, um administrador de sistemas e rapper nas horas vagas, trabalha em uma empresa que, infeliz-mente, n˜ ao utiliza um sistema com reposit´ orios. Para facilitar sua vida, ele decidiu que era a hora de ter o seupr´ oprio sistema e pediu a sua ajuda.Periodicamente ele varre a Internet em busca das p´ aginas que possam conter os aplicativos e constr´ oi umalista com as vers˜ oes dos aplicativos que deseja instalar dispon´ıveis em cada p´ agina. Um programa deve vericarent˜ ao qual a vers˜ ao de cada programa instalado nos computadores (todos eles possuem os mesmos aplicativosinstalados e nas mesmas vers˜ oes) e instalar todos aqueles que ainda n˜ ao foram instalados ou cuja vers˜ ao instaladaseja anterior a vers˜ ao mais recente. Como ele n˜ ao sabe programar direito, ele pediu sua ajuda.
+Olimpíada Brasileira de Informática — OBI2007 — Programação Nível 2 Fase 1 2
+
+Repositórios
+Nome do arquivo fonte: repos.c, repos.cpp, ou repos.pas
+
+Uma das boas práticas ao administrar um conjunto de computadores é manter os aplicativoss sempre atuali-
+zados. Entretanto, em uma grande corporação com milhares de aplicativos instalados, a simples verificação do
+que precisa ser atualizado pode tornar-se uma tarefa bem complicada. Para facilitar isso, alguns fabricantes
+armazenam todos os aplicativos existentes em grandes bases de dados chamadas repositórios e um programa é
+responsável por verificar esse repositório e atualizar as versões dos aplicativos.
+
+M.V.Lzr, um administrador de sistemas e rapper nas horas vagas, trabalha em uma empresa que, infeliz-
+mente, não utiliza um sistema com repositórios. Para facilitar sua vida, ele decidiu que era a hora de ter o seu
+próprio sistema e pediu a sua ajuda.
+
+Periodicamente ele varre a Internet em busca das páginas que possam conter os aplicativos e constrói uma
+lista com as versões dos aplicativos que deseja instalar disponíveis em cada página. Um programa deve verificar
+então qual a versão de cada programa instalado nos computadores (todos eles possuem os mesmos aplicativos
+instalados e nas mesmas versões) e instalar todos aqueles que ainda não foram instalados ou cuja versão instalada,
+seja anterior a versão mais recente. Como ele não sabe programar direito, ele pediu sua ajuda.
+
 Tarefa
-Dado uma lista de aplicativos instaladas nos computadores da empresa, com suas respectivas vers˜ oes e umalista de aplicativos dispon´ıveis na internet que devem ser instalados, determinar quais devem ser instalados eem quais vers˜ oes.
+
+Dado uma lista de aplicativos instaladas nos computadores da empresa, com suas respectivas versões e uma
+lista de aplicativos disponíveis na internet que devem ser instalados, determinar quais devem ser instalados e
+em quais versões.
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). A primeira linha da entrada cont´ em dois inteirosC(1≤C≤10.000) eN(1≤N≤1.000) querepresentam o n´ umero total de aplicativos e vers˜ oes dispon´ıveis na internet e o n´ umero total de programasinstalados na empresa, respectivamente. AsClinhas seguintes possuem dois inteiros cada,P
-c(1≤P c≤ 1.000.000.000) eV
-c(1≤V c≤1.000.000.000), representando o n´ umero do programa e o n´ umero da vers˜ aoinstalada nos computadores. Todo aplicativo est´ a instalado uma ´ unica vez em cada m´ aquina e em uma ´ unicavers˜ ao. Em seguida, as AsNlinhas seguintes possuem dois inteiros cada,P
-n(1≤P n≤1.000.000.000) eV n
-(1≤V n≤1.000.000.000), representando o n´ umero do programa e o n´ umero da vers˜ ao dispon´ıvel na internet.Um dado programa pode estar dispon´ıvel em mais de uma vers˜ ao na internet.
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, diversas linhas, cada uma contendo dois inteiros,P seVscom o n´ umero do programa e a vers˜ ao que deve ser instalada. Em todo caso de teste existe pelo menos um programaque deve ser instalado.Olimp´ıada Brasileira de Inform´ atica – OBI2007 – Programa¸ c˜ ao N´ıvel 2 Fase 1 3
-Entrada1 15215 15215 3Sa´ıda5215 3Entrada3 21640 12540 41870 32540 11640 4Sa´ıda1640 4Entrada2 52000 42001 52000 12001 42001 62000 22000 3Sa´ıda2001 6
+
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado). A primeira linha da entrada contém dois inteiros C (1 < C < 10.000) e N (1< N < 1.000) que
+representam o número total de aplicativos e versões disponíveis na internet e o número total de programas
+instalados na empresa, respectivamente. As C linhas seguintes possuem dois inteiros cada, P. (1 < P. <
+1.000.000.000) e Ve (1 < V. < 1.000.000.000), representando o número do programa e o número da versão
+instalada nos computadores. Todo aplicativo está instalado uma única vez em cada máquina e em uma única
+versão. Em seguida, as As N linhas seguintes possuem dois inteiros cada, P, (1 < P, < 1.000.000.000) e V,,
+(1 < Va < 1.000.000.000), representando o número do programa e o número da versão disponível na internet.
+Um dado programa pode estar disponível em mais de uma versão na internet.
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, diversas linhas, cada uma contendo dois inteiros, P, e V; com o
+número do programa e a versão que deve ser instalada. Em todo caso de teste existe pelo menos um programa
+que deve ser instalado.
+ Olimpíada Brasileira de Informática — OBI2007 — Programação Nível 2 Fase 1
+
+Entrada
+
+11
+5215 1
+5215 3
+
+Saída
+
+5215 3
+
+Entrada
+
+32
+
+1640 1
+2540 4
+1870 3
+2540 1
+1640 4
+
+Saída
+
+1640 4
+
+Entrada
+
+25
+
+2000
+2001
+2000
+2001
+2001
+2000
+2000
+
+ONODRHaAS
+
+Saída
+
+2001 6
+

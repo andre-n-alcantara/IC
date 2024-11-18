@@ -1,21 +1,50 @@
-Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível 2 – Fase Fase 34
+Olimpíada Brasileira de Informática - OBI2021 — Prog. Nível 2 — Fase Fase 3 4
+
 Cubo e quadrado
-Nome do arquivo:“cubo.x”,ondexdeve serc,cpp,pas,java,jsoupyO número 729 tem uma particularidade interessante: é ao mesmo tempo o cubo e o quadrado de umnúmero inteiro (729 = 27
-2e729 = 93). Outro número com essa particularidade é 4096 (4096 = 642
-e4096 = 163).Sua tarefa é, dados dois números inteirosAeB, determinar quantos números no intervalo entreAeBsão ao mesmo tempo cubo e quadrado de um número inteiro.
+
+“mono: .“ kh) x a or + + A
+Nome do arquivo: “cubo .x”, onde x deve ser c, cpp, pas, java, js ou py
+
+O número 729 tem uma particularidade interessante: é ao mesmo tempo o cubo e o quadrado de um
+número inteiro (729 = 272 e 729 = 9º). Outro número com essa particularidade é 4096 (4096 = 642
+e 4096 = 16º).
+
+Sua tarefa é, dados dois números inteiros 4 e B, determinar quantos números no intervalo entre A
+e B são ao mesmo tempo cubo e quadrado de um número inteiro.
+
 Entrada
-A primeira da entrada contém um inteiroA, o limite inferior do intervalo de interesse, a segundalinha contém um inteiroB, o limite superior do intervalo de interesse (AeBfazem parte do intervalode interesse).
+
+A primeira da entrada contém um inteiro A, o limite inferior do intervalo de interesse, a segunda
+linha contém um inteiro B, o limite superior do intervalo de interesse (A e B fazem parte do intervalo
+de interesse).
+
 Saída
-Seu programa deve produzir uma única linha na saída, contendo um único inteiro, a quantidade denúmeros que são ao mesmo tempo cubo e quadrado de um número inteiro, para todos os númerosdo intervalo de interesse.
+
+Seu programa deve produzir uma única linha na saída, contendo um único inteiro, a quantidade de
+números que são ao mesmo tempo cubo e quadrado de um número inteiro, para todos os números
+do intervalo de interesse.
+
 Restrições
-•1≤A < B≤100 000 000
+
+e 1<A<B< 100000000
+
 Informações sobre a pontuação
-•Para um conjunto de casos de testes valendo 30 pontos,B≤100 000.•Para um conjunto de casos de testes valendo outros 70 pontos, nenhuma restrição adicional.
-Exemplo de entrada 1
-64729Exemplo de saída 1
-2
-Explicação do exemplo 1:os números que são cubo e quadrado de um outro número no intervaloentre 64 e 729 são somente 64 e 729, portanto a resposta é 2.
-Exemplo de entrada 2
-30005000Exemplo de saída 2
-1
-Explicação do exemplo 2:4096 é o único número no intervalo entre 3000 e 5000 que é cubo equadrado de um outro número, portanto a resposta é 1.
+
+e Para um conjunto de casos de testes valendo 30 pontos, B < 100 000.
+
+e Para um conjunto de casos de testes valendo outros 70 pontos, nenhuma restrição adicional.
+
+Exemplo de entrada 1 Exemplo de saída 1
+64 2
+729
+
+Explicação do exemplo 1: os números que são cubo e quadrado de um outro número no intervalo
+entre 64 e 729 são somente 64 e 729, portanto a resposta é 2.
+
+Exemplo de entrada 2 Exemplo de saída 2
+3000 1
+5000
+
+Explicação do exemplo 2: 4096 é o único número no intervalo entre 3000 e 5000 que é cubo e
+quadrado de um outro número, portanto a resposta é 1.
+

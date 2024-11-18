@@ -1,22 +1,73 @@
-Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível 2 – Fase 39
+Olimpíada Brasileira de Informática - OBI2022 — Prog. Nível 2 — Fase 3 9
+
 Rodovia
-Nome do arquivo:rodovia.c,rodovia.cpp,rodovia.pas,rodovia.java,rodovia.jsourodovia.pyO reino de Nlogonia é composto porNcidades, numeradas de1aN, eMrodoviasdirecionadas,ou seja, é possível usar a rodovia(x, y)para ir da cidadexà cidadey, porém não na outra direção.
-Vamos denir o valor daconectividadedo reino como o número de pares ordenados(x, y), comx6=y, tais que é possível viajar dexay(talvez indiretamente, passando por outras cidadesintermediárias pelo caminho). Nagura acima, por exemplo, o valor da conectividade é11, sendoque os pares em questão são:(1,3),(1,4),(1,6),(3,1),(3,4),(3,6),(5,2),(5,4),(6,1),(6,3)e(6,4).O governo de Nlogonia está planejando construir uma única nova rodovia(A, B), também direci-onada. Muitas discussões estão sendo feitas para escolher a rodovia ideal, porém no momento, omaior receio é se há alguma possibilidade de ser feita uma escolha que seja considerada redundantepelos habitantes do reino. Em particular, foi dada a você a tarefa de descobrir se existe algum par(A, B)de cidades tal que:•A6=B•Não existe nenhuma rodovia(x, y)originalmente no reino, comx=Aey=B.•Caso adicionarmos a rodovia(A, B), o valor da conectividade do reino permanecerá o mesmo.Também foi pedido que, caso existam pares que cumpram todas as condições, você deve informaralgum deles. Caso tenha mais de um par válido, você pode escolher qualquer um deles.
+
+Nome do arquivo: rodovia.c, rodovia.cpp, rodovia.pas, rodovia. java, rodovia. js ou
+rodovia.py
+
+O reino de Nlogonia é composto por N cidades, numeradas de 1 a N, e M rodovias direcionadas,
+ou seja, é possível usar a rodovia (x,y) para ir da cidade a à cidade y, porém não na outra direção.
+
+Vamos definir o valor da conectividade do reino como o número de pares ordenados (x,y), com
+a & y, tais que é possível viajar de « a y (talvez indiretamente, passando por outras cidades
+intermediárias pelo caminho). Na figura acima, por exemplo, o valor da conectividade é 11, sendo
+que os pares em questão são: (1,3), (1,4), (1,6), (3,1), (3,4),(3,6), (5,2), (5,4), (6,1),(6,3) e (6,4).
+
+O governo de Nlogonia está planejando construir uma única nova rodovia (A, B), também direci-
+onada. Muitas discussões estão sendo feitas para escolher a rodovia ideal, porém no momento, o
+maior receio é se há alguma possibilidade de ser feita uma escolha que seja considerada redundante
+pelos habitantes do reino. Em particular, foi dada a você a tarefa de descobrir se existe algum par
+(A, B) de cidades tal que:
+
+“AB
+
+e Não existe nenhuma rodovia (x,y) originalmente no reino, com «= Ae y= B.
+
+e Caso adicionarmos a rodovia (A, B), o valor da conectividade do reino permanecerá o mesmo.
+Também foi pedido que, caso existam pares que cumpram todas as condições, você deve informar
+algum deles. Caso tenha mais de um par válido, você pode escolher qualquer um deles.
+
 Entrada
-A primeira linha da entrada contém dois inteirosNeM, indicando o número de cidades e rodovias.SeguemMlinhas contendo dois inteirosx ieyicada, indicando que existe uma rodovia que podeser usada para viajar da cidadex
-ià cidadey i.
+
+A primeira linha da entrada contém dois inteiros N e M, indicando o número de cidades e rodovias.
+Seguem M linhas contendo dois inteiros x; e y; cada, indicando que existe uma rodovia que pode
+ser usada para viajar da cidade x; à cidade y;.
+
 Saída
-Caso exista algum par que satisfaça todas as condições, seu programa deve imprimir qualquer umdesses pares, em uma única linha. Caso contrário, imprima−1.Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível 2 – Fase 310
+
+Caso exista algum par que satisfaça todas as condições, seu programa deve imprimir qualquer um
+desses pares, em uma única linha. Caso contrário, imprima —1.
+ Olimpíada Brasileira de Informática - OBI2022 — Prog. Nível 2 — Fase 3 10
+
 Restrições
-•1≤N≤200000•1≤M≤400000•x
-i6=y i
-•Nenhuma rodovia é dada mais de uma vez na entrada, ou seja,(x i, yi)6= (x j, yj), sei6=j.Note porém que é possível que ambas as rodovias(x, y)e(y, x)sejam dadas.
+e 1<N< 200000
+e 1<M < 400000
+my
+e Nenhuma rodovia é dada mais de uma vez na entrada, ou seja, (x;,y) £ (2;,Yj), sei £ j.
+Note porém que é possível que ambas as rodovias (x,y) e (y,x:) sejam dadas.
 Informações sobre a pontuação
-•Para um conjunto de casos de testes valendo 31 pontos, vale que a conectividade inicial doreino é igual aN∗(N−1). Ou seja, existe algum caminho entre todos os pares de cidades.•Para outro conjunto de casos de testes valendo 33 pontos, vale que se existe uma rodovia dexparay, então também existe uma rodovia deyparax.•Para outro conjunto de casos de testes valendo 36 pontos, nenhuma restrição adicional.
+
+e Para um conjunto de casos de testes valendo 31 pontos, vale que a conectividade inicial do
+reino é iguala Nx(N — 1). Ou seja, existe algum caminho entre todos os pares de cidades.
+
+e Para outro conjunto de casos de testes valendo 33 pontos, vale que se existe uma rodovia de
+x para y, então também existe uma rodovia de y para x.
+
+e Para outro conjunto de casos de testes valendo 36 pontos, nenhuma restrição adicional.
+
 Exemplos
-Exemplo de entrada 1
-4 31 22 41 4Exemplo de saída 1
+
+Exemplo de entrada 1 Exemplo de saída 1
+
 -1
-Exemplo de entrada 2
-4 41 22 41 44 3Exemplo de saída 2
-2 3
+
+[a O e
+Bai w
+
+Exemplo de entrada 2 Exemplo de saída 2
+
+23
+
+BANHA
+[OR
+

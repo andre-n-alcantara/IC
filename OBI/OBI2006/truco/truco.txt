@@ -1,14 +1,58 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2006 –Modalidade Programa¸ c˜ ao N´ıvel 21
+Olimpíada Brasileira de Informática — OB12006 —- Modalidade Programação Nível 2 1
+
 Truco
-Nome do arquivo fonte:truco.c,truco.cpp,outruco.pasTruco ´ e um jogo de cartas que pode ser jogado por duas ou mais pessoas. Existem diversas varia¸ c˜ oes: o TrucoCego ou Truco Espanhol (popular no sul do Brasil, Argentina, Uruguai e outros pa´ıses), o Truco Paulista,Capixaba ou Mineiro (varia¸ c˜ oes populares no Brasil), o Truco´Indio e o Truco Eteviano. Em geral, ´ e umadisputa de trˆ es rodadas (“melhor de trˆ es”) para ver quem tem as cartas mais “fortes” (de valor simb´ olico maisalto).Adalberto e Bernardete est˜ ao jogando uma varia¸ c˜ ao de truco com 40 cartas (foram retirados do baralhotodas as cartas de valor 8, 9 e 10, al´ em dos coringas), e o valor simb´ olico independente do naipe da carta. Aordem de valor simb´ olico das cartas nessa varia¸ c˜ ao de truco ´ e mostrada abaixo, ordenada da mais “fraca” (mais` a esquerda) para a mais “forte” (mais ` a direita)4 5 6 7 Q J K A 23Cada partida ´ e disputada em trˆ es rodadas. A cada rodada, os jogadores escolhem uma das cartas paramostrar, e vence aquele que tiver a carta com o maior valor simb´ olico. Em caso de empate (ou seja, os doisapresentarem cartas com os mesmos valores simb´ olicos), Adalberto vence, pois ´ e mais velho que Bernardete.Vence a partida aquele que vencer o maior n´ umero de rodadas.Depois de algumas partidas, Adalberto e Bernardete est˜ ao com diculdades para saber quem venceu maispartidas, e pediram a sua ajuda.
+
+Nome do arquivo fonte: truco.c, truco.cpp, ou truco.pas
+
+Truco é um jogo de cartas que pode ser jogado por duas ou mais pessoas. Existem diversas variações: o Truco
+Cego ou Truco Espanhol (popular no sul do Brasil, Argentina, Uruguai e outros países), o Truco Paulista,
+Capixaba ou Mineiro (variações populares no Brasil), o Truco Índio e o Truco Eteviano. Em geral, é uma
+disputa de três rodadas (“melhor de três”) para ver quem tem as cartas mais “fortes” (de valor simbólico mais
+alto).
+
+Adalberto e Bernardete estão jogando uma variação de truco com 40 cartas (foram retirados do baralho
+todas as cartas de valor 8, 9 e 10, além dos coringas), e o valor simbólico independente do naipe da carta. A
+ordem de valor simbólico das cartas nessa variação de truco é mostrada abaixo, ordenada da mais “fraca” (mais
+à esquerda) para a mais “forte” (mais à direita)
+
+45 67 QJ)JKAÕMÕS3
+
+Cada partida é disputada em três rodadas. A cada rodada, os jogadores escolhem uma das cartas para
+mostrar, e vence aquele que tiver a carta com o maior valor simbólico. Em caso de empate (ou seja, os dois
+apresentarem cartas com os mesmos valores simbólicos), Adalberto vence, pois é mais velho que Bernardete.
+Vence a partida aquele que vencer o maior número de rodadas.
+
+Depois de algumas partidas, Adalberto e Bernardete estão com dificuldades para saber quem venceu mais
+partidas, e pediram a sua ajuda.
+
 Tarefa
-Sua tarefa ´ e escrever um programa que calcule o n´ umero de partidas que cada um dos competidores (Adalbertoe Bernardete) venceram.
+
+Sua tarefa é escrever um programa que calcule o número de partidas que cada um dos competidores (Adalberto
+e Bernardete) venceram.
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). A primeira linha da sa´ıda possui um inteiroNque indica o n´ umero de partidas disputadas entreAdalberto e Bernardete (1≤N≤1000000). AsNlinhas seguintes contˆ em cada uma seis inteiros,A
-1,A2,A3,B
-1,B2eB3, que correspondem ` as trˆ es cartas apresentadas por Adalberto nas rodadas 1, 2 e 3 daquela partida(A
-1, A2, A3∈{1,2,3,4,5,6,7,11,12,13}), seguidas pelas trˆ es cartas apresentadas por Bernardete nas rodadas1, 2 e 3 da mesma partida (B
-1, B2, B3∈{1,2,3,4,5,6,7,11,12,13}). Na entrada, o n´ umero 1 representa o´As (A), 11 representa o Valete (J), 12 representa a Dama (Q) e 13 representa o Rei (K).
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, uma ´ unica linha, que cont´ em os n´ umeros de partidas vencidaspor Adalberto e por Bernadete, nessa ordem, separados por espa¸ cos.
-Entrada11 2 3 1 3 2Sa´ıda1 0Entrada21 5 6 6 3 45 6 2 11 13 12Sa´ıda1 1Entrada51 2 11 12 7 63 5 1 13 1 44 5 7 11 12 131 5 6 3 5 25 6 7 4 5 2Sa´ıda3 2
+
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado). A primeira linha da saída possui um inteiro N que indica o número de partidas disputadas entre
+Adalberto e Bernardete (1 < N < 1000000). As N linhas seguintes contêm cada uma seis inteiros, 41, A», As,
+Bi, Bo» e Bs, que correspondem às três cartas apresentadas por Adalberto nas rodadas 1, 2 e 3 daquela partida
+(Ay, Ao, Ag E (1,2,3,4,5,6,7,11,12,13)), seguidas pelas três cartas apresentadas por Bernardete nas rodadas
+1,2 e 3 da mesma partida (Bi, B5, By € (1,2,3,4,5,6,7,11,12,13)). Na entrada, o número 1 representa o Ás
+(A), 11 representa o Valete (J), 12 representa a Dama (Q) e 13 representa o Rei (K).
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, uma única linha, que contém os números de partidas vencidas
+
+por Adalberto e por Bernadete, nessa ordem, separados por espaços.
+Entrada Entrada Entrada
+2 5
+23132 156634 12111276
+5 6 2 11 13 12 3511314
+. 457111213
+Saída . 156352
+o Saída 567452
+11
+Saída
+32
+

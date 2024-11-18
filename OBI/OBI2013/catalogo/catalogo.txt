@@ -1,22 +1,100 @@
-Olimpíada Brasileira de Informática – OBI2013 5
+Olimpíada Brasileira de Informática - OBI2018 5
+
 Catálogo de Músicas
-Nome do arquivo fonte:catalogo.c,catalogo.cpp,catalogo.pas,catalogo.java,oucatalogo.py
-Joyce é uma menina que gosta muito de ouvir música, e possui uma enorme coleção de músicas numdvd.Ela é uma menina organizada e deixa suas músicas em pastas, mas como o número de músicas e de pastasé grandre, Joyce construiu um catálogo para melhor localizá-las.Para o catálogo Joyce utilizou uma convenção usual em sistemas operacionais, em que a descrição da localiza-ção de cada arquivo é formada pela sequência dos nomes das pastas no caminho da raiz dodvdaté o arquivo,separados pelo caractere barra (‘/’). Por exemplo, nagura abaixo, a descrição da músicaSampa.mp3nocatálogo éMPB/Caetano/Sampa.mp3.
-RockAngraCarryOn.mp3MPBCaetanoSampa.mp3
-CartolaAlvorada.mp3
-Utilizando essa convenção, o catálogo dodvdmostrado nagura é:Rock/AngraCarryOn.mp3MPB/Caetano/Sampa.mp3MPB/Cartola/Alvorada.mp3Como odvdde Joyce tem muitas músicas e pastas, o catálogo é muito grande. Joyce notou no entanto queo catálogo poderia ser menor (ter um número menor de caracteres) caso ela utilizasse outro conceito usualna nomeação de arquivos em sistemas operacionais: usar uma pasta como referência, ao invés da raiz.Se uma pasta diferente da raiz for escolhida como referência, então para todos os arquivos que estejamdiretamente nessa pasta ou em alguma subpasta não será mais necessário escrever o nome da pasta referênciano catálogo. Para as demais pastas, é necessário indicar o caminho utilizando as pastas acima (na direçãoda raiz) utilizando a convenção ‘../’ para a pasta imediatamente acima da pasta referência. No exemplo dagura acima, no caso de a referência ser a pastaCaetano, a músicaSampa.mp3seria simplesmente descritacomoSampa.mp3. Já a músicaAlvorada.mp3seria descrita como../Cartola/Alvorada.mp3.Assim, se a pastaCaetanofor utilizada como referência, o catálogo será:../../Rock/AngraCarryOn.mp3Sampa.mp3../Cartola/Alvorada.mp3Nesse caso, a descrição do catálogo tem 59 carateres, menor do que quando a referência utilizada é a raiz dodvd.Olimpíada Brasileira de Informática – OBI2013 6
-Seu objetivo é, dada a informação de todas as músicas do catálogo, determinar o número mínimo de caracteresnecessários para descrever o catálogo.
+
+Nome do arquivo fonte: catalogo.c, catalogo. cpp, catalogo.pas, catalogo. java, ou
+catalogo.py
+
+Joyce é uma menina que gosta muito de ouvir música, e possui uma enorme coleção de músicas num DVD.
+Ela é uma menina organizada e deixa suas músicas em pastas, mas como o número de músicas e de pastas
+é grandre, Joyce construiu um catálogo para melhor localizá-las.
+
+Para o catálogo Joyce utilizou uma convenção usual em sistemas operacionais, em que a descrição da localiza-
+ção de cada arquivo é formada pela sequência dos nomes das pastas no caminho da raiz do DVD até o arquivo,
+separados pelo caractere barra ('/). Por exemplo, na figura abaixo, a descrição da música Sampa.mp3 no
+catálogo é MPB/Caetano/Sampa.mp3.
+
+Rock MPB
+
+fp! AngraCarryOn.mp3 Caetano Cartola
+
+À Sampa.mp3 Ep Alvorada.mp3
+
+Utilizando essa convenção, o catálogo do DVD mostrado na figura é:
+
+Rock/AngraCarry0n.mp3
+MPB/Caetano/Sampa.mp3
+MPB/Cartola/Alvorada.mp3
+
+Como o DVD de Joyce tem muitas músicas e pastas, o catálogo é muito grande. Joyce notou no entanto que
+o catálogo poderia ser menor (ter um número menor de caracteres) caso ela utilizasse outro conceito usual
+na nomeação de arquivos em sistemas operacionais: usar uma pasta como referência, ao invés da raiz.
+
+Se uma pasta diferente da raiz for escolhida como referência, então para todos os arquivos que estejam
+diretamente nessa pasta ou em alguma subpasta não será mais necessário escrever o nome da pasta referência
+no catálogo. Para as demais pastas, é necessário indicar o caminho utilizando as pastas acima (na direção
+da raiz) utilizando a convenção *. ./” para a pasta imediatamente acima da pasta referência. No exemplo da
+figura acima, no caso de a referência ser a pasta Caetano, a música Sampa.mp3 seria simplesmente descrita
+como Sampa.mp3. Já a música Alvorada .mp3 seria descrita como ../Cartola/Alvorada.mp3.
+
+Assim, se a pasta Caetano for utilizada como referência, o catálogo será:
+
+«./. ./Rock/AngraCarry0On.mp3
+Sampa .mp3
+.-./Cartola/Alvorada.mp3
+
+Nesse caso, a descrição do catálogo tem 59 carateres, menor do que quando a referência utilizada é a raiz do
+DVD.
+ Olimpíada Brasileira de Informática - OBI2018 6
+
+Seu objetivo é, dada a informação de todas as músicas do catálogo, determinar o número mínimo de caracteres
+necessários para descrever o catálogo.
+
 Entrada
-A primeira linha da entrada contém um inteiroN, indicando quantos arquivos Joyce possui nodvd. Cadauma dasNlinhas seguintes contém a descrição de um arquivo, a partir da raiz.
+
+A primeira linha da entrada contém um inteiro N, indicando quantos arquivos Joyce possui no DVD. Cada
+uma das N linhas seguintes contém a descrição de um arquivo, a partir da raiz.
+
 Saída
-Seu programa deve imprimir uma única linha, contendo apenas um inteiro, o número mínimo de caracteresnecessários para descrever o catálogo.
+
+Seu programa deve imprimir uma única linha, contendo apenas um inteiro, o número mínimo de caracteres
+necessários para descrever o catálogo.
+
 Restrições
-•1N105
-•Número de pastas na entrada105
-•O nome de cada pasta e de cada arquivo é composto por no máximo20caracteres, entre letrasminúsculas, maiúsculas e ponto (.)•Cada pasta possui no máximo 100 pastas comolhas diretas.
+
+ec1<N<IO
+e Número de pastas na entrada < 10º
+
+e O nome de cada pasta e de cada arquivo é composto por no máximo 20 caracteres, entre letras
+minúsculas, maiúsculas e ponto (.)
+
+e Cada pasta possui no máximo 100 pastas como filhas diretas.
+
 Informações sobre a pontuação
-•Em um conjunto de casos de teste que totaliza 30 pontos,N1000e o número de pastas1000.
+
+e Em um conjunto de casos de teste que totaliza 30 pontos, N < 1000 e o número de pastas < 1000.
+
 Exemplos
-Entrada3Rock/AngraCarryOn.mp3MPB/Caetano/Sampa.mp3MPB/Cartola/Alvorada.mp3 Saída59
-Entrada2Preferidas/chacoalha/uia.mp3Preferidas/chacoalha/eia.mp3 Saída14
-Entrada6delta/india/juliet/limabravo/echobravo/foxtrotcharlie/hoteldelta/india/kilobravo/golfSaída76
+Entrada Saída
+3 59
+
+Rock/AngraCarry0n.mp3
+MPB/Caetano/Sampa.mp3
+MPB/Cartola/Alvorada.mp3
+
+Entrada Saída
+
+2 14
+Preferidas/chacoalha/uia.mp3
+Preferidas/chacoalha/eia.mp3
+
+Entrada Saída
+
+6 76
+delta/india/juliet/lima
+bravo/echo
+bravo/foxtrot
+charlie/hotel
+delta/india/kilo
+bravo/golf
+

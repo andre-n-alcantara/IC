@@ -1,22 +1,88 @@
-Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 2 – Fase Estadual4
-Fotograa
-Nome do arquivo:“fotografia.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3Chegou onal do ano, e os alunos resolveram dar um presente para a profa. Vilma: um quadrocom a fotograa dos alunos classe. João está pesquisando os preços de molduras em um site dainternet, e precisa de sua ajuda. Ele quer encontrar uma moldura tal que•a fotograa seja inteiramente contida dentro na moldura; e•a área da moldura que a fotograa não ocupa seja a menor possível; e•uma moldura pode ser rotacionada para acomodar a fotograa, mas a fotograa deve seracomodada de forma que seus lados sejam paralelos aos lados da moldura.Dada as dimensões da fotograa e das molduras disponíveis, escreva um programa para ajudar Joãoa escolher a melhor moldura, segundo os critérios acima.
+Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível 2 — Fase Estadual 4
+
+Fotografia
+
+Nome do arquivo: “fotografia.x”, onde x deve ser c, cpp, pas, java, js, py2 ou py3
+
+Chegou o final do ano, e os alunos resolveram dar um presente para a profa. Vilma: um quadro
+com a fotografia dos alunos classe. João está pesquisando os preços de molduras em um site da
+internet, e precisa de sua ajuda. Ele quer encontrar uma moldura tal que
+
+e a fotografia seja inteiramente contida dentro na moldura; e
+e a área da moldura que a fotografia não ocupa seja a menor possível; e
+
+e uma moldura pode ser rotacionada para acomodar a fotografia, mas a fotografia deve ser
+acomodada de forma que seus lados sejam paralelos aos lados da moldura.
+
+Dada as dimensões da fotografia e das molduras disponíveis, escreva um programa para ajudar João
+a escolher a melhor moldura, segundo os critérios acima.
+
 Entrada
-A primeira linha da entrada contém dois inteirosAeLindicando respectivamente a altura e largurada fotograa, em centímetros. A segunda linha da entrada contém um inteiroN, a quantidade demolduras disponíveis. As molduras são identicadas por números de 1 aN. Cada uma dasNlinhas seguintes contém dois inteirosX
-ieYiindicando as dimensões em centímetros da moldura denúmeroi, para1≤i≤N.
+
+A primeira linha da entrada contém dois inteiros A e L indicando respectivamente a altura e largura
+da fotografia, em centímetros. A segunda linha da entrada contém um inteiro N, a quantidade de
+molduras disponíveis. As molduras são identificadas por números de 1 a N. Cada uma das N
+linhas seguintes contém dois inteiros X; e Y; indicando as dimensões em centímetros da moldura de
+número t, paral <i<N.
+
 Saída
-Seu programa deve produzir uma única linha na saída, contendo um único número inteiro, o iden-ticador da melhor moldura de acordo com os critérios acima. Se houver mais de uma molduraque satisfaz os critérios, o programa deve produzir o menor identicador entre as molduras quesatisfazem os critérios. Se nenhuma moldura satisfaz os critérios, a linha deve conter−1.
+
+Seu programa deve produzir uma única linha na saída, contendo um único número inteiro, o iden-
+tificador da melhor moldura de acordo com os critérios acima. Se houver mais de uma moldura
+que satisfaz os critérios, o programa deve produzir o menor identificador entre as molduras que
+satisfazem os critérios. Se nenhuma moldura satisfaz os critérios, a linha deve conter —1.
+
 Restrições
-•1≤A≤100•1≤L≤100•1≤N≤100•1≤X
-i≤200para1≤i≤N•1≤Y
-i≤200para1≤i≤N•não há duas molduras com as mesmas dimensões
+
+e 1<A4<100
+
+I<L<100
+e1i<N<100
+
+e1<X;<200paral<i<N
+
+1<Y%<200paral<i<N
+
+não há duas molduras com as mesmas dimensões
+
 Exemplos
-Exemplo de entrada 1
-10 20320 2025 105 5Exemplo de saída 1
-2Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 2 – Fase Estadual5
+
+Exemplo de entrada 1 Exemplo de saída 1
+
+10 20 2
+3
+
+20 20
+25 10
+55
+
+ Olimpíada Brasileira de Informática
+
+OB12020
+
+Prog. Nível 2 — Fase Estadual
+
 Exemplo de entrada 2
-24 30125 25Exemplo de saída 2
--1
-Exemplo de entrada 3
-20 20430 3030 1035 4025 36Exemplo de saída 3
+
+24 30
 1
+25 25
+
+Exemplo de saída 2
+
+-1
+
+Exemplo de entrada 3
+
+20 20
+4
+
+30 30
+30 10
+35 40
+25 36
+
+Exemplo de saída 3
+
+1
+

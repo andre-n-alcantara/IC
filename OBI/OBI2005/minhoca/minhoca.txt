@@ -1,20 +1,90 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2005 – Modalidade Programa¸ c˜ ao N´ıvel 13
+Olimpíada Brasileira de Informática - OBI2005 - Modalidade Programação Nível 1 3
+
 Campo de Minhocas
-Arquivo fonte: minhoca.c, minhoca.cc, minhoca.cpp ou minhoca.pasMinhocas s˜ ao muito importantes para a agricultura e como insumo para produ¸ c˜ ao de ra¸ c˜ ao animal. AOrganiza¸ c˜ ao para Bioengenharia de Minhocas (OBM) ´ e uma entidade n˜ ao governamental que promoveo aumento da produ¸ c˜ ao, utiliza¸ c˜ ao e exporta¸ c˜ ao de minhocas.Uma das atividades promovidas pela OBM ´ e a manuten¸ c˜ ao de uma fazenda experimental parapesquisa de novas tecnologias de cria¸ c˜ ao de minhocas. Na fazenda, a ´ area destinada ` as pesquisas ´ e deformato retangular, dividida em c´ elulas quadrangulares de mesmo tamanho. As c´ elulas s˜ ao utilizadaspara testar os efeitos, na produ¸ c˜ ao de minhocas, de varia¸ c˜ oes de esp´ ecies de minhocas, tipos de terra,de adubo, de tratamento, etc. Os pesquisadores da OBM mantˆ em um acompanhamento constantedo desenvolvimento das minhocas em cada c´ elula, e tˆ em uma estimativa extremamente precisa daprodutividade em cada uma das c´ elulas. Agura abaixo mostra um mapa da fazenda, mostrando aprodutividade estimada de cada uma das c´ elulas.
-81 28240 10
-40 10100 240
-20180 110 35
-Um pesquisador da OBM inventou e construiu uma m´ aquina colhedeira de minhocas, e quer test´ a-la na fazenda. A m´ aquina tem a largura de uma c´ elula, e em uma passada pelo terreno de umac´ elula colhe todas as minhocas dessa c´ elula, separando-as, limpando-as e empacotando-as. Ou seja,a m´ aquina eliminar´ a uma das etapas mais intensivas de m˜ ao de obra no processo de produ¸ c˜ ao deminhocas. A m´ aquina, por´ em, ainda est´ a em desenvolvimento e tem uma restri¸ c˜ ao: n˜ ao faz curvas,podendo movimentar-se somente em linha reta.Decidiu-se ent˜ ao que seria efetuado um teste com a m´ aquina, de forma a colher o maior n´ umeroposs´ıvel de minhocas em uma ´ unica passada, em linha reta, de lado a lado do campo de minhocas.Ou seja, a m´ aquina deve colher todas as minhocas de uma ‘coluna’ ou de uma ‘linha’ de c´ elulas docampo de minhocas (a linha ou coluna cuja soma das produtividades esperadas das c´ elulas ´ e a maiorposs´ıvel).
+
+Arquivo fonte: minhoca.c, minhoca.cc, minhoca.cpp ou minhoca. pas
+
+Minhocas são muito importantes para a agricultura e como insumo para produção de ração animal. A
+Organização para Bioengenharia de Minhocas (OBM) é uma entidade não governamental que promove
+o aumento da produção, utilização e exportação de minhocas.
+
+Uma das atividades promovidas pela OBM é a manutenção de uma fazenda experimental para
+pesquisa de novas tecnologias de criação de minhocas. Na fazenda, a área destinada às pesquisas é de
+formato retangular, dividida em células quadrangulares de mesmo tamanho. As células são utilizadas
+para testar os efeitos, na produção de minhocas, de variações de espécies de minhocas, tipos de terra,
+de adubo, de tratamento, etc. Os pesquisadores da OBM mantêm um acompanhamento constante
+do desenvolvimento das minhocas em cada célula, e têm uma estimativa extremamente precisa da
+produtividade em cada uma das células. A figura abaixo mostra um mapa da fazenda, mostrando a
+produtividade estimada de cada uma das células.
+
+81 | 28 |240] 10
+
+40 | 10 |100/240
+
+20 |180/ 110] 35
+
+Um pesquisador da OBM inventou e construiu uma máquina colhedeira de minhocas, e quer testá-
+la na fazenda. A máquina tem a largura de uma célula, e em uma passada pelo terreno de uma
+célula colhe todas as minhocas dessa célula, separando-as, limpando-as e empacotando-as. Ou seja,
+a máquina eliminará uma das etapas mais intensivas de mão de obra no processo de produção de
+minhocas. A máquina, porém, ainda está em desenvolvimento e tem uma restrição: não faz curvas,
+podendo movimentar-se somente em linha reta.
+
+Decidiu-se então que seria efetuado um teste com a máquina, de forma a colher o maior número
+possível de minhocas em uma única passada, em linha reta, de lado a lado do campo de minhocas.
+Ou seja, a máquina deve colher todas as minhocas de uma “coluna” ou de uma “linha” de células do
+campo de minhocas (a linha ou coluna cuja soma das produtividades esperadas das células é a maior
+possível).
+
 Tarefa
-Escreva um programa que, fornecido o mapa do campo de minhocas, descrevendo a produtividadeestimada em cada c´ elula, calcule o n´ umero esperado total de minhocas a serem colhidas pela m´ aquinadurante o teste, conforme descrito acima.
+
+Escreva um programa que, fornecido o mapa do campo de minhocas, descrevendo a produtividade
+estimada em cada célula, calcule o número esperado total de minhocas a serem colhidas pela máquina
+durante o teste, conforme descrito acima.
+
 Entrada
-A primeira linha da entrada cont´ em dois n´ umeros inteirosNeM, representando respectivamente on´ umero de linhas (1≤N≤100) e o n´ umero de colunas (1≤M≤100) de c´ elulas existentes no campoexperimental de minhocas. Cada uma dasNlinhas seguintes cont´ emMinteiros, representando asprodutividades estimadas das c´ elulas correspondentes a uma linha do campo de minhocas.A entrada deve ser lida do dispositivo de entrada padr˜ ao (normalmente o teclado).Olimp´ıada Brasileira de Inform´ atica – OBI2005 – Modalidade Programa¸ c˜ ao N´ıvel 14
-Sa´ıda
-A sa´ıda deve ser composta por uma ´ unica linha contendo um inteiro, indicando o n´ umero esperadototal de minhocas a serem colhidas pela m´ aquina durante o teste.A sa´ıda deve ser escrita no dispositivo de sa´ıda padr˜ ao (normalmente a tela).
-Restri¸ c˜ oes
-1≤N≤1001≤M≤1000≤Produtividade de uma c´ elula≤5000≤Produtividade de uma linha ou coluna de c´ elulas≤50000
-Exemplos de entrada e sa´ıda
+
+A primeira linha da entrada contém dois números inteiros N e M, representando respectivamente o
+número de linhas (1 < N < 100) e o número de colunas (1 < M < 100) de células existentes no campo
+experimental de minhocas. Cada uma das N linhas seguintes contém M inteiros, representando as
+produtividades estimadas das células correspondentes a uma linha do campo de minhocas.
+
+A entrada deve ser lida do dispositivo de entrada padrão (normalmente o teclado).
+ Olimpíada Brasileira de Informática - OBI2005 - Modalidade Programação Nível 1 4
+
+Saída
+
+A saída deve ser composta por uma única linha contendo um inteiro, indicando o número esperado
+total de minhocas a serem colhidas pela máquina durante o teste.
+
+A saída deve ser escrita no dispositivo de saída padrão (normalmente a tela).
+
+Restrições
+
+I<N<100
+
+I<M<t100
+
+O < Produtividade de uma célula < 500
+
+0 < Produtividade de uma linha ou coluna de células < 50000
+
+Exemplos de entrada e saída
+
 Exemplo 1
-Entrada3 481 28 240 1040 10 100 24020 180 110 35 Sa´ıda450
+Entrada Saída
+34 450
+81 28 240 10
+
+40 10 100 240
+20 180 110 35
+
 Exemplo 2
-Entrada4 11001100100Sa´ıda310
+Entrada Saída
+
+41 310
+100
+110
+
+100
+

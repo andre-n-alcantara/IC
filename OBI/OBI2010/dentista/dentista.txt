@@ -1,15 +1,70 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2010 6
+Olimpíada Brasileira de Informática — OBI2010 6
+
 Dentista
-Nome do arquivo fonte:dentista.c,dentista.cpp,oudentista.pasOs dentistas s˜ ao extremamente meticulosos em seu trabalho, tendo que agir com muita precis˜ ao em todas assuas atividades. Pedro ´ e um dentista meticuloso como todos os outros. Infelizmente sua secret´ aria n˜ ao ´ e muitoorganizada e, com o intuito de ajudar sempre os pacientes, aceita que eles marquem consultas no hor´ ario quequiserem, sem se preocupar com os demais hor´ arios marcados, ocasionando v´ arios conitos de hor´ arios quemuito incomodaram Pedro e os pacientes. Por exemplo, se uma consulta come¸ car ` as 9 horas e durar 2 horas,nenhuma outra consulta deveria ser marcada para iniciar as 10 horas.Ao perceber que sua agenda tinha conito de hor´ arios, Pedro pediu sua ajuda para descobrir a maior quantidadede consultas que podem ser atendidas sem sobreposi¸ c˜ ao.
+
+Nome do arquivo fonte: dentista.c, dentista. cpp, ou dentista.pas
+
+Os dentistas são extremamente meticulosos em seu trabalho, tendo que agir com muita precisão em todas as
+suas atividades. Pedro é um dentista meticuloso como todos os outros. Infelizmente sua secretária não é muito
+organizada e, com o intuito de ajudar sempre os pacientes, aceita que eles marquem consultas no horário que
+quiserem, sem se preocupar com os demais horários marcados, ocasionando vários conflitos de horários que
+muito incomodaram Pedro e os pacientes. Por exemplo, se uma consulta começar às 9 horas e durar 2 horas,
+nenhuma outra consulta deveria ser marcada para iniciar as 10 horas.
+
+Ao perceber que sua agenda tinha conflito de horários, Pedro pediu sua ajuda para descobrir a maior quantidade
+de consultas que podem ser atendidas sem sobreposição.
+
 Tarefa
-Vocˆ e deve escrever um programa que, dados os hor´ arios de in´ıcio e t´ ermino das consultas agendadas pelasecret´ aria, responda a quantidade m´ axima de consultas que podem ser atenditas sem sobreposi¸ c˜ ao.
+
+Você deve escrever um programa que, dados os horários de início e término das consultas agendadas pela
+secretária, responda a quantidade máxima de consultas que podem ser atenditas sem sobreposição.
+
 Entrada
-A primeira linha da entrada cont´ em um inteiroN(1≤N≤10.000) que indica quantas consultas a secret´ ariamarcou. Cada uma dasNlinhas seguintes cont´ em um par de inteirosXeYseparados por um espa¸ co embranco (0≤X < Y≤1.000.000) que representam, respectivamente, o hor´ ario de in´ıcio e de t´ ermino daconsulta. Considere que se uma consulta inicia no exato instante em que outra termina n˜ ao h´ a sobreposi¸ c˜ ao. Oshor´ arios de in´ıcio s˜ ao fornecidos em ordem, podendo haver mais de uma consulta que inicie no mesmo hor´ ario.
-Sa´ıda
-Seu programa deve imprimir uma ´ unica linha, contendo um inteiro que representa a quantidade m´ axima deconsultas que podem ser atendidas sem que haja qualquer sobreposi¸ c˜ ao.
-Informa¸ c˜ oes sobre a pontua¸ c˜ ao
-•Em um conjunto de casos de teste que totaliza 40 pontos, (0≤X < Y≤1.000).
+
+A primeira linha da entrada contém um inteiro N (1 < N < 10.000) que indica quantas consultas a secretária,
+marcou. Cada uma das N linhas seguintes contém um par de inteiros X e Y separados por um espaço em
+branco (0 < X <Y < 1.000.000) que representam, respectivamente, o horário de início e de término da
+consulta. Considere que se uma consulta inicia no exato instante em que outra termina não há sobreposição. Os
+horários de início são fornecidos em ordem, podendo haver mais de uma consulta que inicie no mesmo horário.
+
+Saída
+
+Seu programa deve imprimir uma única linha, contendo um inteiro que representa a quantidade máxima de
+consultas que podem ser atendidas sem que haja qualquer sobreposição.
+
+Informações sobre a pontuação
+
+e Em um conjunto de casos de teste que totaliza 40 pontos, (0 < X <Y < 1.000).
+
 Exemplos
-Entrada310 10040 130120 200 Sa´ıda2Olimp´ıada Brasileira de Inform´ atica – OBI2010 7
-Entrada410 2020 3030 4040 50Sa´ıda4
-Entrada510 3020 4030 6040 8060 100Sa´ıda3
+
+Entrada Saída
+
+3 2
+10 100
+40 130
+120 200
+
+ Olimpíada Brasileira de Informática - OBD010
+
+Entrada
+
+10 20
+20 30
+30 40
+40 50
+
+Saída
+
+Entrada
+
+5
+
+10 30
+20 40
+30 60
+40 80
+60 100
+
+Saída
+

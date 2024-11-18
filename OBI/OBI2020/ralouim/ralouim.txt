@@ -1,20 +1,77 @@
-Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 2 – Fase Local •TurnoB7
+Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível 2 — Fase Local e Turno B 7
+
 Ralouim
-Nome do arquivo:“ralouim.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3Para a tradicional festa infantil de Ralouim, o rei da Nlogônia instalou tendas de distribuição deguloseimas no seu extenso Jardim Real, onde está também situado o Palácio Real.Cada tenda tem uma quantidade ilimitada de guloseimas. As crianças devem sair do Palácio Reale visitar as tendas para ganhar guloseimas, mas o Rei estabeleceu algumas regras:•a cada visita a uma tenda, a criança ganha exatamente uma guloseima.•uma tenda pode ser visitada mais de uma vez pela mesma criança, desde que as visitas nãosejam consecutivas (ou seja, uma imediatamente após a outra).•as distâncias que uma criança percorre para chegar à “próxima tenda” devem ser estritamentedecrescentes. Ou seja, a distância que a criança percorre do Palácio até a primeira tenda que acriança visita deve ser maior do que a distância que a criança percorre entre a primeira tendae a segunda tenda, que por sua vez deve ser maior do que a distância que a criança percorreentre a segunda tenda e a terceira tenda, e assim por diante.Pedrinho percebeu que se planejar direito suas visitas, pode ganhar muitas guloseimas! Escreva umprograma para ajudar Pedrinho a ganhar o maior número possível de guloseimas no Ralouim.
+
+Nome do arquivo: “ralouim.x”, onde x deve ser c, cpp, pas, java, js, py2 ou py3
+
+Para a tradicional festa infantil de Ralouim, o rei da Nlogônia instalou tendas de distribuição de
+guloseimas no seu extenso Jardim Real, onde está também situado o Palácio Real.
+
+Cada tenda tem uma quantidade ilimitada de guloseimas. As crianças devem sair do Palácio Real
+e visitar as tendas para ganhar guloseimas, mas o Rei estabeleceu algumas regras:
+
+e a cada visita a uma tenda, a criança ganha exatamente uma guloseima.
+
+e uma tenda pode ser visitada mais de uma vez pela mesma criança, desde que as visitas não
+sejam consecutivas (ou seja, uma imediatamente após a outra).
+
+e as distâncias que uma criança percorre para chegar à “próxima tenda” devem ser estritamente
+decrescentes. Ou seja, a distância que a criança percorre do Palácio até a primeira tenda que a
+criança visita deve ser maior do que a distância que a criança percorre entre a primeira tenda
+e a segunda tenda, que por sua vez deve ser maior do que a distância que a criança percorre
+entre a segunda tenda e a terceira tenda, e assim por diante.
+
+Pedrinho percebeu que se planejar direito suas visitas, pode ganhar muitas guloseimas! Escreva um
+programa para ajudar Pedrinho a ganhar o maior número possível de guloseimas no Ralouim.
+
 Entrada
-A primeira linha da entrada contém um inteiroN, o número de tendas. Cada uma dasNlinhasseguintes contém dois inteirosXeY, as coordenadas de uma tenda no Jardim Real. A localizaçãodo Palácio Real é (0,0) e não existe tenda com essas coordenadas, todas as tendas têm localizaçõesdistintas.
+
+A primeira linha da entrada contém um inteiro N, o número de tendas. Cada uma das N linhas
+seguintes contém dois inteiros X e Y, as coordenadas de uma tenda no Jardim Real. A localização
+do Palácio Real é (0,0) e não existe tenda com es
+distintas.
+
 Saída
-Seu programa deve produzir uma única linha, contendo um único inteiro, o maior número de gulo-seimas que Pedrinho pode ganhar.
+
+Seu programa deve produzir uma única linha, contendo um único inteiro, o maior número de gulo-
+seimas que Pedrinho pode ganhar.
+
+s coordenadas, todas as tendas têm localizações
+
 Restrições
-•1≤N≤2000•−10000≤X≤10000•−10000≤Y≤10000
+e1<N<2000
+
+e —10000 < X < 10000
+e —10000 < Y < 10000
+
 Informações sobre a pontuação
-•Para um conjunto de casos de testes valendo 20 pontos,1≤N≤50.•Para um conjunto de casos de testes valendo 40 pontos adicionais,1≤N≤200.•Para um conjunto de casos de testess valendo 40 pontos adicionais, nenhuma restrição adici-onal.
-Exemplo de entrada 1
-46 05 01 02 0Exemplo de saída 1
-5Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 2 – Fase Local •TurnoB8
-Exemplo de entrada 2
-20 33 0Exemplo de saída 2
-1
-Exemplo de entrada 3
-56 82 12 22 35 9Exemplo de saída 3
+
+e Para um conjunto de casos de testes valendo 20 pontos, 1 < N < 50.
+e Para um conjunto de casos de testes valendo 40 pontos adicionais, 1 < N < 200.
+
+e Para um conjunto de casos de testess valendo 40 pontos adicionais, nenhuma restrição adici-
+onal.
+
+Exemplo de entrada 1 Exemplo de saída 1
+
+5
+
+NH oO Os
+ooo
+
+ Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível 2 — Fase Local e Turno B
+
+Exemplo de entrada 2 Exemplo de saída 2
+2 1
+
+03
+
+30
+
+Exemplo de entrada 3 Exemplo de saída 3
+
 6
+
+MNNINO Ga
+Own HÕãgo
+

@@ -1,10 +1,42 @@
-OBI2006 – Modalidade Programa¸ c˜ ao N´ıvel 1 – Fase Nacional 5
-Quadrado M´ agico
-Nome do arquivo fonte:quadrado.c,quadrado.cpp,ouquadrado.pasSenhor Coelho ´ e conhecido mundialmente pela fabrica¸ c˜ ao de quadrados m´ agicos de dimens˜ oes 3×3. Umquadrado ´ e chamado m´ agico quando a soma dos elementos de uma determinada linha, coluna ou diagonal ´ esempre igual.Infelizmente, assaltantes invadiram recentemente a ocina do Sr. Coelho e roubaram alguns dos n´ umerosde seus quadrados m´ agicos. Felizmente os meliantes n˜ ao conseguiram roubar mais do que 3 n´ umeros de cadaquadrado. Desesperado, pois devia entregar os quadrados naquele dia, o Sr. Coelho veio procurar a sua ajudapara tentar completar os quadrados com os n´ umeros faltantes.
+[o]
+
+0B12006 — Modalidade Programação Nível 1 — Fase Nacional
+
+7a
+Quadrado Mágico
+Nome do arquivo fonte: quadrado.c, quadrado. cpp, ou quadrado.pas
+
+Senhor Coelho é conhecido mundialmente pela fabricação de quadrados mágicos de dimensões 3 x 3. Um
+quadrado é chamado mágico quando a soma dos elementos de uma determinada linha, coluna ou diagonal é
+sempre igual.
+
+Infelizmente, assaltantes invadiram recentemente a oficina do Sr. Coelho e roubaram alguns dos números
+de seus quadrados mágicos. Felizmente os meliantes não conseguiram roubar mais do que 3 números de cada
+quadrado. Desesperado, pois devia entregar os quadrados naquele dia, o Sr. Coelho veio procurar a sua ajuda
+para tentar completar os quadrados com os números faltantes.
+
 Tarefa
-Escreva um programa que, dado um quadrado m´ agico com alguns n´ umeros faltando, determine qual era oquadrado m´ agico original.
+
+Escreva um programa que, dado um quadrado mágico com alguns números faltando, determine qual era o
+quadrado mágico original.
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). A entrada cont´ em trˆ es linhas, cada uma contendo trˆ es inteirosN(0≤N≤20000). O n´ umero zerorepresenta os digitos que foram roubados. Existem no m´ aximo trˆ es n´ umeros zero na entrada.
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, trˆ es linhas, cada uma contendo trˆ es inteiros, descrevendo acongura¸ c˜ ao original do quadrado m´ agico.
-Entrada4 9 23 0 78 1 6Sa´ıda4 9 23 5 78 1 6Entrada0 12 1216 10 08 8 14Sa´ıda6 12 1216 10 48 8 14Entrada495 468 00 522 414441 0 549Sa´ıda495 468 603630 522 414441 576 549
+
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado). A entrada contém três linhas, cada uma contendo três inteiros N (0 < N < 20000). O número zero
+representa os digitos que foram roubados. Existem no máximo três números zero na entrada.
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, três linhas, cada uma contendo três inteiros, descrevendo a
+configuração original do quadrado mágico.
+
+Entrada Entrada Entrada
+492 0 12 12 495 468 O
+307 16 10 0 0 522 414
+816 88 14 441 0 549
+Saída Saída Saída
+492 6 12 12 495 468 603
+357 16 10 4 630 522 414
+816 88 14 441 576 549
+

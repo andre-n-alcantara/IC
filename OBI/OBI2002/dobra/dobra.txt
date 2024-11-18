@@ -1,11 +1,54 @@
-60Dobradura
+Dobradura
+
 arquivo fonte: dobra.pas, dobra.c, dobra.cc ou dobra.cpp
+
 1. Tarefa
-Zezinho tem aulas de Iniciação Artística em sua escola, e recentemente aprendeu a fazer dobradu-ras em papel. Ele ﬁcou fascinado com as inúmeras possibilidades de se dobrar uma simples folhade papel. Como Zezinho gosta muito de matemática, resolveu inventar um quebra-cabeça envol-vendo dobraduras. Zezinho deﬁniu uma operação de dobradura D que consiste em dobrar duasvezes uma folha de papel quadrada de forma a conseguir um quadrado com 1/4 do tamanho origi-nal, conforme ilustrado na ﬁgura.Depois de repetir N vezes esta operação de dobradura D sobre o papel, Zezinho cortou o quadradoresultante com um corte vertical e um corte horizontal, conforme a ﬁgura abaixo. Zezinho lançou então um desaﬁo aos seus colegas: quem adivinha quantos pedaços de papelforam produzidos? 
+
+Zezinho tem aulas de Iniciação Artística em sua escola, e recentemente aprendeu a fazer dobradu-
+ras em papel. Ele ficou fascinado com as inúmeras possibilidades de se dobrar uma simples folha
+de papel. Como Zezinho gosta muito de matemática, resolveu inventar um quebra-cabeça envol-
+vendo dobraduras. Zezinho definiu uma operação de dobradura D que consiste em dobrar duas
+vezes uma folha de papel quadrada de forma a conseguir um quadrado com 1/4 do tamanho origi-
+nal, conforme ilustrado na figura.
+
+Primeira dobra Segunda dobra
+
+Depois de repetir N vezes esta operação de dobradura D sobre o papel, Zezinho cortou o quadrado
+resultante com um corte vertical e um corte horizontal, conforme a figura abaixo.
+
+Zezinho lançou então um desafio aos seus colegas: quem adivinha quantos pedaços de papel
+foram produzidos?
+
 2. Entrada
-A entrada é composta de vários conjuntos de teste. Cada conjunto de teste é composto de umaúnica linha, contendo um número inteiro N que indica o número de vezes que a operação dedobradura D foi aplicada. O ﬁnal da entrada é indicado por N = -1.Exemplo de Entrada10-1
+
+A entrada é composta de vários conjuntos de teste. Cada conjunto de teste é composto de uma
+única linha, contendo um número inteiro N que indica o número de vezes que a operação de
+dobradura D foi aplicada. O final da entrada é indicado por N = -1.
+
+Exemplo de Entrada
+
+1
+(o)
+-1
+
 3. Saída
-Para cada conjunto de teste da entrada seu programa deve produzir três linhas na saída. A primeiralinha deve conter um identiﬁcador do conjunto de teste, no formato “Teste n”, onde n é numeradoPrimeira dobraSegunda dobra
-##7a partir de 1. A segunda linha deve conter o número de pedaços de papel obtidos depois de cortara dobradura, calculado pelo seu programa. A terceira linha deve ser deixada em branco. A graﬁamostrada no Exemplo de Saída, abaixo, deve ser seguida rigorosamente.Exemplo de SaídaTeste 19Teste 24(esta saída corresponde ao exemplo de entrada acima)
+
+Para cada conjunto de teste da entrada seu programa deve produzir três linhas na saída. A primeira
+linha deve conter um identificador do conjunto de teste, no formato “Teste n”, onde n é numerado
+ a partir de 1. A segunda linha deve conter o número de pedaços de papel obtidos depois de cortar
+a dobradura, calculado pelo seu programa. A terceira linha deve ser deixada em branco. A grafia
+mostrada no Exemplo de Saída, abaixo, deve ser seguida rigorosamente.
+
+Exemplo de Saída
+
+Teste 1
+9
+
+Teste 2
+4
+
+(esta saída corresponde ao exemplo de entrada acima)
+
 4. Restrições
--1 ≤ N ≤ 15 (N = -1 apenas para indicar o ﬁm da entrada)
+
+-1<N<15(N=-1 apenas para indicar o fim da entrada)

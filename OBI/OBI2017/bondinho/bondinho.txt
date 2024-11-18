@@ -1,13 +1,37 @@
-Olimpíada Brasileira de Informática – OBI2017 2
+Olimpíada Brasileira de Informática - OBI2017 2
+
 Bondinho
-Nome do arquivo:bondinho.c,bondinho.cpp,bondinho.pas,bondinho.java,bondinho.jsoubondinho.pyA turma do colégio vai fazer uma excursão na serra e todos os alunos e monitores vão tomar umbondinho para subir até o pico de uma montanha. A cabine do bondinho pode levar50pessoas nomáximo, contando alunos e monitores, durante uma viagem até o pico. Neste problema, dado comoentrada o número de alunosAe o número de monitoresM, você deve escrever um programa quediga se é possível ou não levar todos os alunos e monitores em apenas uma viagem!
+
+Nome do arquivo: bondinho.c, bondinho.cpp, bondinho.pas, bondinho. java, bondinho.js ou
+bondinho.py
+
+A turma do colégio vai fazer uma excursão na serra e todos os alunos e monitores vão tomar um
+bondinho para subir até o pico de uma montanha. A cabine do bondinho pode levar 50 pessoas no
+máximo, contando alunos e monitores, durante uma viagem até o pico. Neste problema, dado como
+entrada o número de alunos A e o número de monitores M, você deve escrever um programa que
+diga se é possível ou não levar todos os alunos e monitores em apenas uma viagem!
+
 Entrada
-A primeira linha da entrada contém um inteiroA, representando a quantidade de alunos. A segundalinha da entrada contém um inteiroM, representando o número de monitores.
+
+A primeira linha da entrada contém um inteiro 4, representando a quantidade de alunos. A segunda
+linha da entrada contém um inteiro M, representando o número de monitores.
+
 Saída
-Seu programa deve imprimir uma linha contendo o caractereSse é possível levar todos os alunos emonitores em apenas uma viagem, ou o caractereNcaso não seja possível.
+
+Seu programa deve imprimir uma linha contendo o caractere S se é possível levar todos os alunos e
+monitores em apenas uma viagem, ou o caractere N caso não seja possível.
+
 Restrições
-•1≤A≤50•1≤M≤50
+e1<4<50
+c1<M<50
 Exemplos
-Entrada1020 SaídaS
-Entrada1239 SaídaN
-Entrada491 SaídaS
+Entrada Saída
+10 s
+20
+Entrada Saída
+12 N
+39
+Entrada Saída
+49 s
+1
+

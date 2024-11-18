@@ -1,12 +1,51 @@
-Olimpíada Brasileira de Informática – OBI2013 2
+Olimpíada Brasileira de Informática - OBI2018 2
+
 Corrida
-Nome do arquivo fonte:corrida.c,corrida.cpp,corrida.pas,corrida.java,oucorrida.pyA Federação de Corridas de Charrete (FCC) organiza todo ano a Subida Brigite Cardoso (SBC),disputada nas ladeiras de paralelepípedo de Ouro Preto. A corrida é uma das mais tradicionais doesporte, completando 100 anos em 2013. Para comemorar o centenário, a FCC pretende integrardispostivos GPS às charretes, permitindo aos espectadores desfrutarem de dados de telemetria emtempo real.No mesmo viés de inovação tecnológica, a FCC transmitirá a SBC via satélite para todo o planeta, equer integrar a telemetria na transmissão, indicando qual seria o vencedor da corrida se as charretesmantivessem suas velocidades até onal da corrida; ela pediu que você escrevesse um programaque, dados as distâncias até a linha de chegada, as velocidades e os números das duas charretes quelideram a corrida, determina quem seria o vencedor da corrida (você pode supor que as charretesnão cruzam a linha de chegada simultaneamente).
+
+Nome do arquivo fonte: corrida.c, corrida.cpp, corrida.pas, corrida. java, ou corrida.py
+
+A Federação de Corridas de Charrete (FCC) organiza todo ano a Subida Brigite Cardoso (SBC),
+isputada nas ladeiras de paralelepípedo de Ouro Preto. A corrida é uma das mais tradicionais do
+esporte, completando 100 anos em 2013. Para comemorar o centenário, a FCC pretende integrar
+ispostivos GPS às charretes, permitindo aos espectadores desfrutarem de dados de telemetria em
+
++
+
+empo real.
+
+No mesmo viés de inovação tecnológica, a FCC transmitirá a SBC via satélite para todo o planeta, e
+uer integrar a telemetria na transmissão, indicando qual seria o vencedor da corrida se as charretes
+mantivessem suas velocidades até o final da corrida; ela pediu que você escrevesse um programa
+ue, dados as distâncias até a linha de chegada, as velocidades e os números das duas charretes que
+
+lideram a corrida, determina quem seria o vencedor da corrida (você pode supor que as charretes
+não cruzam a linha de chegada simultaneamente).
+
 Entrada
-A entrada consiste de duas linhas; cada linha descreve uma das charretes que lidera a corrida. Adescrição de uma charrete consiste de três inteirosN,DeVindicando, respectivamente, o númeroda charrete, a sua distância à linha de chegada em metros, e a sua velocidade, em quilômetros porhora. Os números das duas charretes são distintos.
+
+A entrada consiste de duas linhas; cada linha descreve uma das charretes que lidera a corrida. A
+descrição de uma charrete consiste de três inteiros N, D e V indicando, respectivamente, o número
+da charrete, a sua distância à linha de chegada em metros, e a sua velocidade, em quilômetros por
+hora. Os números das duas charretes são distintos.
+
 Saída
-Imprima uma única linha, contendo um único número inteiro, indicando o número da charrete queseria vencedora, conforme descrito acima.
+Imprima uma única linha, contendo um único número inteiro, indicando o número da charrete que
+seria vencedora, conforme descrito acima.
 Restrições
-•1≤N≤99•0< D≤1000•0< V≤50
+ciI<N<99
+e 0<D< 1000
+
+e0<V<s50
+
 Exemplos
-Entrada45 900 4017 300 20 Saída17
-Entrada1 1000 1002 1000 99 Saída1
+
+Entrada Saída
+45 900 40 17
+
+17 300 20
+
+Entrada Saída
+1 1000 100 1
+
+2 1000 99
+

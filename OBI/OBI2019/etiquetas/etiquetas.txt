@@ -1,18 +1,59 @@
-Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível 2 – Fase Nacional9
+Olimpíada Brasileira de Informática - OBI2019 — Prog. Nível 2 — Fase Nacional 9
+
 Etiquetas
-Nome do arquivo:etiquetas.c,etiquetas.cpp,etiquetas.pas,etiquetas.java,etiquetas.js,etiquetas_py2.pyouetiquetas_py3.py
-Umata esticada horizontalmente é composta deNquadrados de dimensão1×1, cada um delescontendo um número inteiro anotado. Temos tambémKetiquetas retangulares idênticas, de di-mensão1×C, ondeCé um inteiro. Nosso objetivo é colar todas as etiquetas sobre ata de modoque a soma dos inteiros que não estiverem cobertos por nenhuma etiqueta aonal seja a máximapossível. Cada etiqueta deve ser colada na horizontal, ao longo data. Duas etiquetas não podemestar sobrepostas e cada quadrado data deve estar ou totalmente coberto por uma etiqueta, outotalmente descoberto.
+
+Nome do arquivo: etiquetas.c, etiquetas.cpp, etiquetas.pas, etiquetas. java, etiquetas. js,
+
+etiquetas py2.py ou etiquetas py3.py
+
+Uma fita esticada horizontalmente é composta de N quadrados de dimensão 1 x 1, cada um deles
+contendo um número inteiro anotado. Temos também K etiquetas retangulares idênticas, de di-
+mensão 1 x C, onde C é um inteiro. Nosso objetivo é colar todas as etiquetas sobre a fita de modo
+que a soma dos inteiros que não estiverem cobertos por nenhuma etiqueta ao final seja a máxima
+possível. Cada etiqueta deve ser colada na horizontal, ao longo da fita. Duas etiquetas não podem
+estar sobrepostas e cada quadrado da fita deve estar ou totalmente coberto por uma etiqueta, ou
+totalmente descoberto.
+
 Entrada
-A primeira linha da entrada contém três inteirosN,KeC, representando, respectivamente, ocomprimento data, o número de etiquetas e o comprimento das etiquetas. A segunda linha daentrada contémNinteirosAindicando a sequência de números anotados nos quadrados data.
+
+A primeira linha da entrada contém três inteiros N, K e C, representando, respectivamente, o
+comprimento da fita, o número de etiquetas e o comprimento das etiquetas. A segunda linha da
+entrada contém N inteiros A indicando a sequência de números anotados nos quadrados da fita.
+
 Saída
-Seu programa deve imprimir uma linha contendo um inteiro indicando a soma máxima possível deinteiros descobertos nata depois que todas as etiquetas sejam coladas seguindo as condições doenunciado.
+
+Seu programa deve imprimir uma linha contendo um inteiro indicando a soma máxima possível de
+inteiros descobertos na fita depois que todas as etiquetas sejam coladas seguindo as condições do
+enunciado.
+
 Restrições
-•1≤N≤10000•−10000≤A≤10000•1≤K≤10000•1≤C≤10000•K×C≤N
+
+e 1<N< 10000
+
+—10000 < A < 10000
+e 1<K<h10000
+
+1<C< 10000
+
+KxC<N
+
 Informações sobre a pontuação
-•Para um conjunto de casos de testes valendo10pontos, os números no vetor estão ordenadoscrescentemente.•Para um conjunto de casos de testes valendo outros10pontos,C= 1.•Para um conjunto de casos de testes valendo outros20pontos,K= 1.•Para um conjunto de casos de testes valendo outros20pontos,K, N≤100.
-Exemplo de entrada 1
-12 2 31 22 4 -8 9 2 10 -1 5 5 32 -11Exemplo de saída 1
-58
-Exemplo de entrada 2
-1 1 110000Exemplo de saída 2
-0
+
+e Para um conjunto de casos de testes valendo 10 pontos, os números no vetor estão ordenados
+crescentemente.
+
+e Para um conjunto de casos de testes valendo outros 10 pontos, C = 1.
+e Para um conjunto de casos de testes valendo outros 20 pontos, K = 1.
+
+e Para um conjunto de casos de testes valendo outros 20 pontos, K, N < 100.
+
+Exemplo de entrada 1 Exemplo de saída 1
+
+12283 58
+1224 -89210-15532-11
+
+Exemplo de entrada 2 Exemplo de saída 2
+
+111 0
+10000
+

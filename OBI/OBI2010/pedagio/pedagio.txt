@@ -1,16 +1,55 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2010 4
-Ped´ agio
-Nome do arquivo fonte:pedagio.c,pedagio.cpp,oupedagio.pasA inven¸ c˜ ao do carro tornou muito mais r´ apido e mais barato realizar viagens de longa distˆ ancia. Realizar umaviagem rodovi´ aria tem dois tipos de custos: cada quilˆ ometro percorrido na rodovia tem um custo associado(n˜ ao s´ o devido ao consumo de combust´ıvel mas tamb´ em devido ao desgaste das pe¸ cas do carro, pneus, etc.),mas tamb´ em ´ e necess´ ario passar por v´ arios ped´ agios localizados ao longo da rodovia.Os ped´ agios s˜ ao igualmente espa¸ cados ao logo da rodovia; o come¸ co da estrada n˜ ao possui um ped´ agio, mas oseunal pode estar logo ap´ os um ped´ agio (por exemplo, se a distˆ ancia entre dois ped´ agios consecutivos for de37 km e a estrada tiver 111 km, o motorista deve pagar um ped´ agio aos 37 km, aos 74 km e aos 111 km, logoantes de terminar a sua viagem).
+Olimpíada Brasileira de Informática — OBI2010 4
+
+7
+Pedágio
+Nome do arquivo fonte: pedagio.c, pedagio.cpp, ou pedagio.pas
+
+A invenção do carro tornou muito mais rápido e mais barato realizar viagens de longa distância. Realizar uma
+viagem rodoviária tem dois tipos de custos: cada quilômetro percorrido na rodovia tem um custo associado
+(não só devido ao consumo de combustível mas também devido ao desgaste das peças do carro, pneus, etc.),
+
+mas também é necessário passar por vários pedágios localizados ao longo da rodovia.
+
+Os pedágios são igualmente espaçados ao logo da rodovia; o começo da estrada não possui um pedágio, mas o
+seu final pode estar logo após um pedágio (por exemplo, se a distância entre dois pedágios consecutivos for de
+37 km e a estrada tiver 111 km, o motorista deve pagar um pedágio aos 37 km, aos 74 km e aos 111 km, logo
+antes de terminar a sua viagem).
+
 Tarefa
-Dadas as caracter´ısticas da rodovia e os custos com gasolina e com ped´ agios, calcule o custo total da viagem.
+
+Dadas as características da rodovia e os custos com gasolina e com pedágios, calcule o custo total da viagem.
+
 Entrada
-A entrada consiste de duas linhas. A primeira linha da entrada cont´ em dois inteirosLeD(1≤L, D≤104), indicando o comprimento da estrada e a distˆ ancia entre ped´ agios, respectivamente. A segunda linha cont´ emdois inteirosKeP(1≤K, P≤10
-4), indicando o custo por quilˆ ometro percorrido e o valor de cada ped´ agio.O primeiro ped´ agio est´ a localizado no quilˆ ometroDda estrada (ou seja, a distˆ ancia do in´ıcio da estrada parao primeiro ped´ agio ´ eDquilˆ ometros).
-Sa´ıda
-Seu programa deve imprimir uma ´ unica linha contendo um ´ unico inteiro, indicando o custo total da viagem.
-Informa¸ c˜ oes sobre a pontua¸ c˜ ao
-•Em um conjunto de casos de teste que totaliza 40 pontos,L, D, K, P≤100.Olimp´ıada Brasileira de Inform´ atica – OBI2010 5
+
+A entrada consiste de duas linhas. A primeira linha da entrada contém dois inteiros Le D(I<L,D< 10º),
+indicando o comprimento da estrada e a distância entre pedágios, respectivamente. A segunda linha contém
+dois inteiros K e P(1< K,P < 10º), indicando o custo por quilômetro percorrido e o valor de cada pedágio.
+O primeiro pedágio está localizado no quilômetro D da estrada (ou seja, a distância do início da estrada para
+o primeiro pedágio é D quilômetros).
+
+Saída
+
+Seu programa deve imprimir uma única linha contendo um único inteiro, indicando o custo total da viagem.
+
+Informações sobre a pontuação
+
+e Em um conjunto de casos de teste que totaliza 40 pontos, L, D, K, P < 100.
+ Olimpíada Brasileira de Informática - OBD010
+
 Exemplos
-Entrada111 371 10 Sa´ıda141
-Entrada100 303 14 Sa´ıda342
-Entrada20 709 17 Sa´ıda180
+
+Entrada Saída
+111 37 141
+
+1 10
+
+Entrada Saída
+100 30 342
+
+3 14
+
+Entrada Saída
+20 70 180
+
+9 17
+

@@ -1,18 +1,48 @@
-Olimpíada Brasileira de Informática – OBI20153
+Olimpíada Brasileira de Informática - OBI2015 3
+
 Linhas Cruzadas
-Nome do arquivo:linhas.c,linhas.cpp,linhas.pas,linhas.java,linhas.jsoulinhas.pyUma das atividades de recreação preferidas de Letícia é compor desenhos com linhas coloridasesticadas entre preguinhos numa base de madeira. Quanto mais cruzamentos entre pares de linhas,mais interessanteca agura. Neste problema temosNpregos na vertical eNpregos na horizontal,como nagura abaixo. Os pregos na vertical possuem uma numeraçãoxa, de 1 aN, de baixo paracima. Os pregos na horizontal também são numerados de 1 aN, mas a ordem pode ser qualqueruma. Letícia vai sempre esticar uma linha entre cada par de pregos que tiverem o mesmo número.Dada a ordem dos pregos horizontais, seu programa deve computar o número total de cruzamentosentre pares de linhas no desenho de Letícia. Por exemplo, os três desenhos dagura possuem,respectivamente,0,6e15cruzamentos.
-6123456
-1 3 4123456
-5 6 26 1 5 2 4 3123456
-1 2 3 4 5
+
+Nome do arquivo: linhas.c, linhas.cpp, linhas.pas, linhas.java, linhas.js ou linhas.py
+
+Uma das atividades de recreação preferidas de Letícia é compor desenhos com linhas coloridas
+esticadas entre preguinhos numa base de madeira. Quanto mais cruzamentos entre pares de linhas,
+mais interessante fica a figura. Neste problema temos N pregos na vertical e N pregos na horizontal,
+como na figura abaixo. Os pregos na vertical possuem uma numeração fixa, de 1 a N, de baixo para
+cima. Os pregos na horizontal também são numerados de 1 a N, mas a ordem pode ser qualquer
+uma. Letícia vai sempre esticar uma linha entre cada par de pregos que tiverem o mesmo número.
+Dada a ordem dos pregos horizontais, seu programa deve computar o número total de cruzamentos
+entre pares de linhas no desenho de Letícia. Por exemplo, os três desenhos da figura possuem,
+respectivamente, 0, 6 e 15 cruzamentos.
+
+PO paia
+PO paia
+PO paia
+
 Entrada
-A primeira linha da entrada contém um número naturalN. A segunda linha contémNnúmerosnaturais distintos de1aN, representando a ordem dos pregos na horizontal.
+
+A primeira linha da entrada contém um número natural N. A segunda linha contém N números
+naturais distintos de 1 a N, representando a ordem dos pregos na horizontal.
+
 Saída
-Seu programa deve escrever uma linha na saída, contendo o número de cruzamentos entre pares delinhas, conforme a descrição anterior.
+
+Seu programa deve escrever uma linha na saída, contendo o número de cruzamentos entre pares de
+linhas, conforme a descrição anterior.
+
 Restrições
-•2≤N≤60000
+
+e 2<N< 60000
+
 Informações sobre a pontuação
-•Em um conjunto de casos de teste somando 60 pontos,N≤30000
+
+e Em um conjunto de casos de teste somando 60 pontos, N < 30000
+
 Exemplos
-Entrada61 5 3 4 6 2 Saída6
-Entrada155 8 15 12 2 1 9 7 4 11 14 10 3 6 13 Saída49
+
+Entrada Saída
+6 6
+153462
+
+Entrada Saída
+15 49
+5815 122197411 14103613
+

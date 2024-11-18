@@ -1,11 +1,56 @@
-Olimp´ıada Brasileira de Inform´ atica – OBI2007 – Programa¸ c˜ ao N´ıvel 2 Fase 1 1
+Olimpíada Brasileira de Informática — OBI2007 — Programação Nível 2 Fase 1 1
+
 Chocolate
-Nome do arquivo fonte:choc.c,choc.cpp,ouchoc.pasJuliana ´ e uma famosa doceira reconhecida internacionalmente pelos seus bombons, exportados para todo omundo. Embora n˜ ao revele a ningu´ em as suas receitas, ela j´ a deu entrevistas contando alguns de seus segredos.Sua f´ abrica de bombons utiliza somente chocolates comprados de um ´ unico produtor su´ı¸ co, que envia barrasgigantescas que s˜ ao cortadas por grandes m´ aquinas.Dada uma barra grande de chocolate, Juliana realiza divis˜ oes sucessivas da barra at´ e obter uma barraque cont´ em a quantidade exata de chocolate para aquela receita. Ap´ os cada divis˜ ao, ela seleciona um dospeda¸ cos resultantes e armazena os demais para uso futuro. As divis˜ oes s˜ ao determinadas por crit´ erios t´ ecnicosrelacionados ao tamanho das barras e aos equipamentos disponiveis em um dado momento.Por exemplo, se ela deseja obter uma barra de 100g de chocolate a partir de uma barra de 3Kg, primeiroela divide a barra ao meio. Em seguida, um dos peda¸ cos ´ e dividido em cinco partes iguais e porm, umdesses peda¸ cos de 300g ´ e dividido em 3 peda¸ cos, resultando no peda¸ co de 100g necess´ ario para a receita. Nesseprocesso, 1 peda¸ co ´ e utilizado para a receita e 7 peda¸ cos de diferentes tamanhos ser˜ ao guardados para usofuturo. Agura abaixo ilustra esse cen´ ario.
-Barra original Divis˜ oes na barra original e peda¸ cos da barradivididaO peda¸ co marcado ser´ a utilizado na receita
+
+Nome do arquivo fonte: choc.c, choc.cpp, ou choc.pas
+
+Juliana é uma famosa doceira reconhecida internacionalmente pelos seus bombons, exportados para todo o
+mundo. Embora não revele a ninguém as suas receitas, ela já deu entrevistas contando alguns de seus segredos.
+Sua fábrica de bombons utiliza somente chocolates comprados de um único produtor suíço, que envia barras
+gigantescas que são cortadas por grandes máquinas.
+
+Dada uma barra grande de chocolate, Juliana realiza di
+que contém a quantidade exata de chocolate para aquela receita. Após cada divisão, ela seleciona um dos
+pedaços resultantes e armazena os demais para uso futuro. As divisões são determinadas por critérios técnicos
+relacionados ao tamanho das barras e aos equipamentos disponiveis em um dado momento.
+
+Por exemplo, se ela deseja obter uma barra de 100g de chocolate a partir de uma barra de 3Kg, primeiro
+ela divide a barra ao meio. Em seguida, um dos pedaços é dividido em cinco partes iguais e por fim, um
+desses pedaços de 300g é dividido em 3 pedaços, resultando no pedaço de 100g necessário para a receita. Nesse
+processo, 1 pedaço é utilizado para a receita e 7 pedaços de diferentes tamanhos serão guardados para uso
+
+futuro. A figura abaixo ilustra esse cenário.
+
+Barra original Divisões na barra original e pedaços da barra
+dividida
+O pedaço marcado será utilizado na receita
+
+ões sucessivas da barra até obter uma barra
+
 Tarefa
-Dada uma sequˆ encia de divis˜ oes realizadas por Juliana em uma barra de chocolate, determinar quantos peda¸ cosser˜ ao armazenados em estoque para uso futuro.
+
+Dada uma sequência de divisões realizadas por Juliana em uma barra de chocolate, determinar quantos pedaços
+serão armazenados em estoque para uso futuro.
+
 Entrada
-A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). A primeira linha da entrada cont´ em um inteiroNque indica o n´ umero de divis˜ oes feitas na barra dechocolate original (1≤N≤1.000). A linha seguinte cont´ emNinteirosI(2≤I≤10) representando o n´ umerode peda¸ cos em que o peda¸ co atual foi dividido. Sempre que ´ e feita uma divis˜ ao, um peda¸ co ´ e utilizado para apr´ oxima divis˜ ao e os demais s˜ ao separados para serem armazenados em estoque.
-Sa´ıda
-Seu programa deve imprimir, nasa´ıda padr˜ ao, uma ´ unica linha, contendo o n´ umero de peda¸ cos de chocolateque ser˜ ao armazenados em estoque.
-Entrada32 3 5Sa´ıda7Entrada52 2 2 3 3Sa´ıda7Entrada72 3 4 5 6 7 8Sa´ıda28
+
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado). A primeira linha da entrada contém um inteiro N que indica o número de divisões feitas na barra de
+chocolate original (1 < N < 1.000). A linha seguinte contém N inteiros 1 (2 < 1 < 10) representando o número
+de pedaços em que o pedaço atual foi dividido. Sempre que é feita uma divisão, um pedaço é utilizado para a
+próxima divisão e os demais são separados para serem armazenados em estoque.
+
+Saída
+
+Seu programa deve imprimir, na saída padrão, uma única linha, contendo o número de pedaços de chocolate
+que serão armazenados em estoque.
+
+Entrada Entrada Entrada
+
+3 5 7
+
+235 222383 2345678
+Saída Saída Saída
+
+7 7 28
+

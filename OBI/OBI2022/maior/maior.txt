@@ -1,23 +1,63 @@
-Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível 2 – Fase 1 6
+Olimpíada Brasileira de Informática - OBI2022 — Prog. Nível 2 — Fase 1 6
+
 Maior valor
-Nome do arquivo:maior.c,maior.cpp,maior.pas,maior.java,maior.jsoumaior.pyNesta tarefa, dados três números inteirosN,MeSvocê deve escrever um programa para determinaro maior número inteiroItal que•Iestá dentro do intervalo[N,M](ou seja,I≥NeI≤M).•A soma dos dígitos deIé igual aS.
+
+Nome do arquivo: maior.c, maior.cpp, maior.pas, maior.java, maior.js oumaior.py
+
+Nesta tarefa, dados três números inteiros N, M e S você deve escrever um programa para determinar
+o maior número inteiro 1 tal que
+
+e 1 está dentro do intervalo [N,M] (ouseja, 1>NeI<M).
+
+e A soma dos dígitos de 1 é igual a S.
+
 Entrada
-A primeira linha contém um inteiroN, o menor valor do intervalo. A segunda linha contém uminteiroM, o maior valor do intervalo. A terceira linha contém um inteiroS, o valor da soma dosdígitos, conforme descrito.
+
+A primeira linha contém um inteiro N, o menor valor do intervalo. A segunda linha contém um
+inteiro M, o maior valor do intervalo. A terceira linha contém um inteiro S, o valor da soma dos
+dígitos, conforme descrito.
+
 Saída
-Seu programa deve produzir uma única linha, contendo um único inteiro, que deve ser o valor deIobedecendo às restrições acima, ou−1se não existir.
+
+Seu programa deve produzir uma única linha, contendo um único inteiro, que deve ser o valor de 1
+obedecendo às restrições acima, ou —1 se não existir.
+
 Restrições
-•1≤N≤M≤10 000•1≤S≤36
+eiI<N<M<ãtI0000
+
+c1<5<36
+
 Informações sobre a pontuação
-•Para um conjunto de casos de testes valendo 10 pontos,M≤100.
-Exemplo de entrada 1
-11006Exemplo de saída 1
-60
-Explicação do exemplo 1:60 é o maior inteiro no intervalo[1,100]cuja soma dos dígitos é iguala 6.
-Exemplo de entrada 2
-100010013Exemplo de saída 2
--1
-Explicação do exemplo 2:Não há número inteiro no intervalo[1000,1001]cuja soma dos dígitosé igual a 3.Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível 2 – Fase 1 7
-Exemplo de entrada 3
-8050012Exemplo de saída 3
-480
-Explicação do exemplo 3:480 é o maior inteiro no intervalo[80,500]cuja soma dos dígitos éigual a 12.
+
+e Para um conjunto de casos de testes valendo 10 pontos, M < 100.
+
+Exemplo de entrada 1 Exemplo de saída 1
+1 60
+
+100
+
+6
+
+Explicação do exemplo 1: 60 é o maior inteiro no intervalo [1, 100] cuja soma dos dígitos é igual
+a 6.
+
+Exemplo de entrada 2 Exemplo de saída 2
+1000 -1
+
+1001
+
+3
+
+Explicação do exemplo 2: Não há número inteiro no intervalo [1000, 1001] cuja soma dos dígitos
+é igual a 3.
+ Olimpíada Brasileira de Informática - OBI2022 — Prog. Nível 2 — Fase 1
+
+Exemplo de entrada 3 Exemplo de saída 3
+80 480
+
+500
+
+12
+
+Explicação do exemplo 3: 480 é o maior inteiro no intervalo [80,500] cuja soma dos dígitos é
+igual a 12.

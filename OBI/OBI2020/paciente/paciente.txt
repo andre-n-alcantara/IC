@@ -1,20 +1,87 @@
-Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível Sênior – Fase Local7
+Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível Sênior - Fase Local 7
+
 Paciente Zero
-Nome do arquivo:“paciente.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3Quando ocorre uma epidemia por uma nova espécie de vírus, uma das tarefas dos infectologistas édeterminar oPaciente Zero, ou seja, a pessoa que foi infectada primeiro pelo novo vírus. A primeirainfecção é geralmente causada por transmissão do novo vírus de algum hospedeiro não humano comomorcego, rato, ou macaco, para um humano. Esse primeiro humano infectado então infecta outraspessoas, que por sua vez infectam ainda outras pessoas, e assim surge a epidemia.A procura pelo Paciente Zero é feita através de um minucioso trabalho de entrevistas com infectadospara determinar quem contaminou quem desde o início da epidemia. Vamos chamar de “cadeiade infecção” a sequência de infecção causada por uma pessoa. Por exemplo, se as entrevistasdeterminarem que João infectou Clarisse, Clarisse infectou Silvia, e Silvia infectou Rafael, a cadeiade infecção de João é Clarisse→Silvia→Rafael. O Paciente Zero é denido como a pessoainfectada com o vírus que não foi infectada por nenhum outro humano, ou seja, não faz parte dacadeia de infeção de nenhuma outra pessoa. Às vezes não é possível determinar um único PacienteZero, e nesse caso um grupo de pessoas são designadas como Pacientes Zero.Nesta tarefa você deve determinar o Paciente ou Pacientes Zero a partir das cadeias de infecçãodeterminadas pelos infectologistas.
+
+Nome do arquivo: “paciente.x”, onde x deve ser c, cpp, pas, java, js, py2 ou py3
+
+Quando ocorre uma epidemia por uma nova espécie de vírus, uma das tarefas dos infectologistas é
+determinar o Paciente Zero, ou seja, a pessoa que foi infectada primeiro pelo novo vírus. A primeira
+infecção é geralmente causada por transmissão do novo vírus de algum hospedeiro não humano como
+morcego, rato, ou macaco, para um humano. Esse primeiro humano infectado então infecta outras
+pessoas, que por sua vez infectam ainda outras pessoas, e assim surge a epidemia.
+
+A procura pelo Paciente Zero é feita através de um minucioso trabalho de entrevistas com infectados
+para determinar quem contaminou quem desde o início da epidemia. Vamos chamar de “cadeia
+de infecção” a sequência de infecção causada por uma pessoa. Por exemplo, se as entrevistas
+determinarem que João infectou Clarisse, Clarisse infectou Silvia, e Silvia infectou Rafael, a cadeia
+de infecção de João é Clarisse — Silvia — Rafael. O Paciente Zero é definido como a pessoa
+infectada com o vírus que não foi infectada por nenhum outro humano, ou seja, não faz parte da
+cadeia de infeção de nenhuma outra pessoa. Às vezes não é possível determinar um único Paciente
+Zero, e nesse caso um grupo de pessoas são designadas como Pacientes Zero.
+
+Nesta tarefa você deve determinar o Paciente ou Pacientes Zero a partir das cadeias de infecção
+determinadas pelos infectologistas.
+
 Entrada
-A primeira linha da entrada contém dois números inteirosNeC, respectivamente o total de pessoasinfectadas e o número de cadeias de transmissão. As pessoas são identicados por números inteirosde 1 aN. Cada uma dasClinhas seguintes contém a informação sobre uma cadeia de transmissão.A linha inicia com um númeroP, o identicador da pessoa infectante, seguido de um númeroI,o total pessoas nessa cadeia de transmissão, seguido deIinteirosX
-iidenticando as pessoas nacadeia de transmissão.Cada pessoa consta, no máximo, de uma cadeia de transmissão. Em outras palavras, se um pessoaaparece uma cadeia de transmissão, ela não aparece em nenhuma outra cadeia de transmissão.
+
+A primeira linha da entrada contém dois números inteiros N e C, respectivamente o total de pessoas
+infectadas e o número de cadeias de transmissão. As pessoas são identificados por números inteiros
+de 1a N. Cada uma das C linhas seguintes contém a informação sobre uma cadeia de transmissão.
+A linha inicia com um número P, o identificador da pessoa infectante, seguido de um número T,
+o total pessoas nessa cadeia de transmissão, seguido de T inteiros X; identificando as pessoas na
+cadeia de transmissão.
+
+Cada pessoa consta, no máximo, de uma cadeia de transmissão. Em outras palavras, se um pessoa
+aparece uma cadeia de transmissão, ela não aparece em nenhuma outra cadeia de transmissão.
+
 Saída
-Se houver apenas um Paciente Zero, seu programa deve produzir na saída uma linha contendo onúmero identicador do Paciente Zero. Se houverKPacientes Zero, seu programa deve produzir nasaídaKlinhas, cada uma contendo o identicador um Paciente Zero distinto, em ordem crescentedo número de identicação dos pacientes.
+
+Se houver apenas um Paciente Zero, seu programa deve produzir na saída uma linha contendo o
+número identificador do Paciente Zero. Se houver K Pacientes Zero, seu programa deve produzir na
+saída K linhas, cada uma contendo o identificador um Paciente Zero distinto, em ordem crescente
+do número de identificação dos pacientes.
+
 Restrições
-•2≤N≤1000•1≤C≤N−1•1≤P≤N•1≤I≤N−1•1≤X
-i≤Npara1≤i≤I
+
+e2<N<1000
+eI<C<N-1
+e1<P<N
+eI<I<N-1
+
+e1I<X<Nparal<i<l
+
 Informações sobre a pontuação
-•Para um conjunto de casos de testes valendo 20 pontos,2≤N≤10e há apenas um PacienteZero.•Para um conjunto de casos de testes valendo 40 pontos,10< N≤500.•Para um conjunto de casos de testes valendo 40 pontos, nenhuma restrição adicional.Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível Sênior – Fase Local8
+
+e Para um conjunto de casos de testes valendo 20 pontos, 2 < N < 10 e há apenas um Paciente
+Zero.
+
+e Para um conjunto de casos de testes valendo 40 pontos, 10 < N < 500.
+
+e Para um conjunto de casos de testes valendo 40 pontos, nenhuma restrição adicional.
+ Olimpíada Brasileira de Informática
+
 Exemplos
+
+OB12020
+
+Prog. Nível Sênior - Fase Local
+
 Exemplo de entrada 1
-6 23 2 4 11 3 2 5 6Exemplo de saída 1
+
+62
+3241
+13256
+
+Exemplo de saída 1
+
 3
+
 Exemplo de entrada 2
-6 34 2 5 32 1 15 1 6Exemplo de saída 2
-24
+
+NRO
+RR AD W
+
+[o e 6]
+
+Exemplo de saída 2
+

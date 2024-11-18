@@ -1,20 +1,49 @@
-Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível 1 – Fase Nacional6
+Olimpíada Brasileira de Informática - OBI2018 — Prog. Nível 1 — Fase Nacional 6
+
 Recibo de Compra
-Nome do arquivo:“recibo.x”,ondexdeve serc|cpp|pas|java|js|py2|py3Flavinho acabou de chegar do supermercado comKprodutos na sacola, mas perdeu o recibo dacompra. Ele está tentando lembrar dos preços de cada um dos produtos e precisa da sua ajuda.Por enquanto ele consegue se lembrar das seguintes informações:•O valor total da compra foi deRreais;•Os valores dos produtos eram números inteiros distintos.Por exemplo, seR= 12eK= 3, temos as seguintes possíveis combinações de preços para os trêsprodutos:{1,2,9},{1,3,8},{1,4,7},{1,5,6},{2,3,7},{2,4,6}ou{3,4,5}.Seu programa deve computar a quantidade de possíveis combinações de preços para osKprodutos.
+
+Nome do arquivo: “recibo.x”, onde x deve ser clcpplpasljavaljslpy2lpy3
+
+Flavinho acabou de chegar do supermercado com K produtos na sacola, mas perdeu o recibo da
+compra. Ele está tentando lembrar dos preços de cada um dos produtos e precisa da sua ajuda.
+Por enquanto ele consegue se lembrar das seguintes informações:
+
+e O valor total da compra foi de R reais;
+
+e Os valores dos produtos eram números inteiros distintos.
+
+Por exemplo, se R= 12 e K =3, temos as seguintes possíveis combinações de preços para os três
+produtos: (1,2,9), (1,3,8), (1,4,7), (1,5,6), (2,3,7). (2,4,6) ou (3,4,5).
+
+Seu programa deve computar a quantidade de possíveis combinações de preços para os K produtos.
 Entrada
-A primeira linha da entrada contém dois inteirosReK, indicando respectivamente o valor totaldo recibo e o número de produtos comprados.
+
+A primeira linha da entrada contém dois inteiros Re K, indicando respectivamente o valor total
+do recibo e o número de produtos comprados.
+
 Saída
-Imprima uma linha contendo um inteiro representando a quantidade de possíveis combinações depreços para osKprodutos.
+
+Imprima uma linha contendo um inteiro representando a quantidade de possíveis combinações de
+preços para os K produtos.
+
 Restrições
-•1≤R≤100•1≤K≤20
+
+ei<R<ã100
+
+e1<K<20
+
 Informações sobre a pontuação
-•Para um conjunto de casos de teste valendo 10 pontos,R≤6•Para um conjunto de casos de teste valendo 20 pontos,R≤16
-Exemplo de entrada 1
-12 3Exemplo de saída 1
-7
-Exemplo de entrada 2
-10 5Exemplo de saída 2
-0
-Exemplo de entrada 3
-100 8Exemplo de saída 3
-116263
+
+e Para um conjunto de casos de teste valendo 10 pontos, R < 6
+
+e Para um conjunto de casos de teste valendo 20 pontos, R < 16
+
+Exemplo de entrada 1 Exemplo de saída 1
+12 3 7
+
+Exemplo de entrada 2 Exemplo de saída 2
+10 5 0
+
+Exemplo de entrada 3 Exemplo de saída 3
+100 8 116263
+

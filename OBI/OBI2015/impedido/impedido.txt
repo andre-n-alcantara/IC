@@ -1,14 +1,52 @@
-Olimpíada Brasileira de Informática – OBI2015 2
+Olimpíada Brasileira de Informática - OBI2015 2
+
 Impedido!
-Nome do arquivo:impedido.c,impedido.cpp,impedido.pas,impedido.java,impedido.jsouimpedido.pyA regra do impedimento no futebol pode parecer estranha, mas sem ela, se a gente pensar bem, ojogocaria muito chato! Ela funciona dadas as posições de três jogadores:Lo jogador atacanteque lança a bola;Ro jogador atacante que recebe a bola; eDo último jogador defensor. E a regravale somente se o jogadorRestá no seu campo de ataque; se o jogadorRestá no seu campo dedefesa ou na linha divisória do meio campo, ele não está em impedimento. Neste problema o campotem100metros de comprimento. Dadas as posições desses três jogadores, no momento exato dolançamento, haverá impedimento se e somente se a seguinte condição for verdadeira:(R >50)e(L < R)e(R > D)A regra parece estranha, não é mesmo? Mas a gente nem precisa entender a lógica dela. O seuprograma deve apenas determinar, dadas as três posiçõesL,ReD, se há ou não impedimento,implementando exatamente a condição acima. Agura abaixo mostra um exemplo ondenãoháimpedimento:
-1000 50 35 60 75LRD
+
+Nome do arquivo: impedido.c, impedido.cpp, impedido.pas, impedido. java, impedido. js ou
+impedido .py
+
+A regra do impedimento no futebol pode parecer estranha, mas sem ela, se a gente pensar bem, o
+jogo ficaria muito chato! Ela funciona dadas as posições de três jogadores: L o jogador atacante
+que lança a bola; R o jogador atacante que recebe a bola; e D o último jogador defensor. E a regra
+vale somente se o jogador R está no seu campo de ataque; se o jogador R está no seu campo de
+defesa ou na linha divisória do meio campo, ele não está em impedimento. Neste problema o campo
+tem 100 metros de comprimento. Dadas as posições desses três jogadores, no momento exato do
+lançamento, haverá impedimento se e somente se a seguinte condição for verdadeira:
+
+(R>50)e(L<R)e(R>D)
+
+A regra parece estranha, não é mesmo? Mas a gente nem precisa entender a lógica dela. O seu
+programa deve apenas determinar, dadas as três posições L,R e D, se há ou não impedimento,
+implementando exatamente a condição acima. A figura abaixo mostra um exemplo onde não há
+impedimento:
+
 Entrada
-A entrada é composta de apenas uma linha, contendo os três inteirosL,ReD.
+A entrada é composta de apenas uma linha, contendo os três inteiros L, Re D.
 Saída
-Seu programa deve produzir uma única linha, contendo um único caractere, que deve ser “S” casohaja impedimento, ou “N” caso contrário.
+
+Seu programa deve produzir uma única linha, contendo um único caractere, que deve ser “S” caso
+haja impedimento, ou “N” caso contrário.
+
 Restrições
-•0≤L≤100•0≤R≤100•0≤D≤100
+
+e 0<L<100
+e 0<R< 100
+e0<D<100
+
 Exemplos
-Entrada35 60 75 SaídaN
-Entrada55 68 67 SaídaSOlimpíada Brasileira de Informática – OBI2015 3
-Entrada66 80 80 SaídaN
+
+Entrada Saída
+35 60 75 N
+
+Entrada Saída
+55 68 67 s
+
+ Olimpíada Brasileira de Informática
+
+OBI2015
+
+Entrada
+66 80 80
+
+Saída
+
