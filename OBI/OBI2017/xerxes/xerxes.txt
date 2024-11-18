@@ -1,0 +1,13 @@
+Olimpíada Brasileira de Informática – OBI2017 – Prog. Nível 2 – Fase 2 2
+Dario e Xerxes
+Nome do arquivo:xerxes.c,xerxes.cpp,xerxes.pas,xerxes.java,xerxes.js,xerxes.py2ouxerxes.py3A brincadeira da Pedra, Papel e Tesoura, muita gente co-nhece. Mas dá para fazer uma mais legal com cinco opçõese não só três! Dois jogadores,darioexerxes, jogam umapartida comNrodadas. Em cada rodada os jogadoresescolhem uma “mão” entre cinco opções, que vamos repre-sentar aqui com os números0,1,2,3e4. Agura deneexatamente quem ganha a rodada. Por exemplo, sedarioescolheu0exerxesescolheu3, entãoxerxesganha a ro-dada, pois existe uma seta nagura indo de3para0.0 1234
+Depois deNrodadas, o vencedor da partida é o jogador que ganhou mais rodadas. O númeroNserá sempre ímpar, para não haver empate na partida. Vamos também considerar que os jogadoresnunca escolhem a mesma mão numa rodada, para não haver empate na rodada. Você deve escreverum programa que determine quem venceu a partida, se foidarioouxerxes.
+Entrada
+A primeira linha da entrada contém um inteiroN, o número de rodadas na partida. Cada umadasNlinhas seguintes contém dois inteirosDeX, representando a mão que os jogadoresdarioexerxes, respectivamente, jogaram em uma rodada.
+Saída
+Seu programa deve imprimir uma linha contendo o nome do jogador que venceu a partida:darioouxerxes. Todas as letras devem ser minúsculas, sem nenhum acento!
+Restrições
+•1N999,Né impar•0D,X4eD6=X
+Exemplos
+Entrada31 34 20 2 Saídadario
+Entrada13 1 Saídaxerxes

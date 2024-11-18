@@ -1,0 +1,14 @@
+Olimpíada Brasileira de Informática – OBI2014 3
+Quadrado
+Nome do arquivo fonte:quadrado.c,quadrado.cpp,quadrado.pas,quadrado.java,ouquadrado.pyUm quadrado quase mágico, de dimensõesN×N, é um quadrado que obedece à seguinte condição.Existe um número inteiro positivoMtal que: para qualquer linha, a soma dos números da linha éigual aM; e para qualquer coluna, a soma dos números da coluna é também igual aM. O quadradoseria mágico, e não apenas quase mágico, se a soma das diagonais também fosseM. Por exemplo,agura abaixo, parte (a), apresenta um quadrado quase mágico ondeM= 21.
+311488 4 96 112 66 3 647(a) (b)88
+Laura construiu um quadrado quase mágico e alterou, propositalmente, um dos números! Nestatarefa, você deve escrever um programa que, dado o quadrado quase mágico alterado por Laura,descubra qual era o número original antes da alteração e qual número foi colocado no lugar. Porexemplo, na parte (b) dagura, o número original era 1, que Laura alterou para 7.
+Entrada
+A primeira linha da entrada contém apenas um númeroN, representando a dimensão do quadrado.AsNlinhas seguintes contêm, cada uma,Nnúmeros inteiros, denindo o quadrado. A entrada égarantidamente um quadrado quase mágico onde exatamente um número foi alterado.
+Saída
+Seu programa deve imprimir apenas uma linha contendo dois números: primeiro o número originale depois o número que Laura colocou no seu lugar.
+Restrições
+•3≤N≤50; e o valor de todos os números está entre1e10000
+Exemplos
+Entrada33 6 68 6 74 3 8 Saída1 7
+Entrada416 3 2 135 10 11 88 6 7 124 15 14 1Saída9 8

@@ -1,0 +1,17 @@
+Olimpíada Brasileira de Informática – OBI20165
+Arco eecha
+Nome do arquivo:arco.c,arco.cpp,arco.pas,arco.java,arco.jsouarco.pyO comitê olímpico está testando uma nova forma de pontuaras competições de arco eecha, baseada em penalidades. Oatleta vai atirarNechas no alvo, em sequência. A penalidadedaK-ésimaecha atirada é computada imediatamente após elaatingir o alvo, antes do próximo lançamento, e é igual ao númerodeechas que estão no alvo naquele momento cuja distância aocentro do alvo é menor ou igual à distância daK-ésimaechaao centro, excluindo a própriaK-ésimaecha. Quer dizer, apenalidade é o número dasK−1echas lançadas antes daK-ésimaecha que estão mais próximas ou à mesma distância docentro do alvo, comparadas com aK-ésimaecha.A penalidade total é a soma das penalidades dasNechas. Ga-nha o atleta que tiver a menor penalidade total aonal. Vejaque a penalidade total pode ser zero, se o atleta for bom o bas-tante para acertar numa sequência estritamente decrescente dedistâncias ao centro do alvo.
+Neste problema, o centro do alvo está na origem(0,0). Dada a sequência de coordenadas dos pontosem que as sucessivasechas atingiram o alvo, seu programa deve computar a penalidade totalnaldo atleta.
+Entrada
+A primeira linha da entrada contém um inteiroN, representando a quantidade deechas lançadas.Cada uma dasNlinhas seguintes contém dois inteiros,XeY, indicando as coordenadas do pontoem que cadaecha atingiu o alvo, denindo a sequência de lançamentos.
+Saída
+Imprima uma linha contendo um inteiro representando a penalidade total do atleta.
+Restrições
+•1≤N≤105
+•−106≤X, Y≤106
+Informações sobre a pontuação
+•Em um conjunto de testes somando 20 pontos,N≤104
+Exemplos
+Entrada21 35 4 Saída1Olimpíada Brasileira de Informática – OBI20166
+Entrada4-100 85-25 -6018 330 0Saída0
+Entrada61 12 22 23 33 33 3Saída15

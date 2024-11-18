@@ -1,0 +1,25 @@
+Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível Sênior – Fase Nacional8
+Maximin
+Nome do arquivo:“maximin.x”,ondexdeve serc|cpp|pas|java|js|py2|py3Maximin é uma pessoa muito pessimista. Sempre que ele avalia um conjunto de possibilidades,assume que o pior cenário é aquele que irá se concretizar. E assim, se ele deve tomar algumadecisão, certamente escolhe a alternativa que tem o melhor dos piores resultados.Maximin e seus amigos inventaram um jogo que funciona da seguinte maneira:•No começo de cada rodada, cada um dos participantes ganha um pedaço de papel e deveescrever um número inteiro no mesmo;•Assim que todos terminam de escrever em seu papel, os números de cada participante sãoditos em voz alta, de modo que todos sabem quais números foram escritos, e os papéis sãocolocados em uma caixa;•Os jogadores discutem e denem um limite inferiorLe um limite superiorR;•Cada participante deve então escolher um número maior ou igual aLe menor ou igual aR;•Porm, um dos papéis colocados na caixa é sorteado e a pontuação de cada jogador na rodadaé a diferença entre o número escrito no papel sorteado e o número escolhido pelo jogador.Como é de se esperar, por ser pessimista Maximin assume que independente de sua escolha o númerosorteado será aquele com a menor diferença em relação ao número escolhido por ele. Sua estratégiaentão é escolher o número que tem a maior das menores diferenças.Por exemplo, considere que há três participantes (incluindo Maximin), que numa rodada escreveramos números 10, 28 e 17 nos papéis, e os limites foram denidos comoL= 7eR= 37. Então Maximinescolhe o número 37, prevendo, pessimisticamente, que o papel que será sorteado terá o número28. Assim, se sua previsão se concretizar, sua pontuação seria 9 nessa rodada (e se ela não seconcretizar, sua pontuação será maior do que 9!). Note que qualquer outro número que Maximimescolhesse, e sua previsão pessimista se concretizasse, sua pontuação seria menor do que 9.Quando a quantidade de participantes aumenta ou os limites escolhidos são muito distantes um dooutroca bem difícil avaliar todas as possibilidades e por isso Maximin precisa de sua ajuda.Neste problema, seu programa deve computar qual a pontuação esperada de Maximin.
+Entrada
+A primeira linha contém três inteirosN,LeRrepresentando respectivamente, a quantidade departicipantes (incluindo Maximin), o menor e o maior número que pode ser escolhido na rodada. Alinha seguinte contémNinteirosa
+irepresentando os números escritos nos papéis.
+Saída
+Seu programa deve produzir um inteiro representando a pontuação esperada por Maximin.
+Restrições
+•2≤N≤105.•−10
+9≤L≤R≤109.•−10
+9≤ai≤109.Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível Sênior – Fase Nacional9
+Informações sobre a pontuação
+•Para um conjunto de casos de testes valendo 20 pontos:•2≤N≤10
+2.•−1000≤L≤R≤1000.•−1000≤a
+i≤1000.•Para um conjunto de casos de testes valendo 30 pontos:•2≤N≤10
+4.•−10
+5≤L≤R≤105.•−10
+5≤ai≤105.
+Exemplo de entrada 1
+3 7 3710 17 28Exemplo de saída 1
+9
+Exemplo de entrada 2
+5 -6 68 -4 -3 6 12Exemplo de saída 2
+4

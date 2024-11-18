@@ -1,0 +1,23 @@
+Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 1 – Fase Local •TurnoB5
+Emoticons
+Nome do arquivo:“emoticons.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3Emoticons são símbolos usados para expressar o sentimento de quem escreve uma mensagem. ScottFahlman, um professor de uma universidade americana, foi o primeiro a propor o uso das sequênciasde caracteres:-)e:-(, que viraram respectivamente símbolos para “divertido” e “chateado”.Vamos denir osentimentoexpresso em uma mensagem como sendo:•neutro: se o número de símbolos “divertido” é igual ao número de símbolos “chateado”;•divertido: se o número de símbolos “divertido” é maior do que número de símbolos “chateado”;•chateado: se o número de símbolos “chateado” é maior do que número de símbolos “divertido”;Dada uma mensagem composta por uma cadeia de caracteres, escreva um programa para determinaro sentimento expresso na mensagem.
+Entrada
+A primeira e única linha da entrada contém a mensagemMcomo uma cadeia de caracteres.
+Saída
+Seu programa deve produzir uma única linha, contendo uma única palavra, o sentimento expressona mensagem da entrada.
+Restrições
+•3≤comprimento deM≤280•Mé composta por letras não acentuadas, espaços em branco e os caracteres ‘(’ (abre parên-teses), ‘)’ (fecha parênteses), ‘:’ (dois-pontos), ‘-’ (hífen), ‘.’ (ponto) e ‘,’ (vírgula).
+Informações sobre a pontuação
+•Para um conjunto de casos de testes valendo 25 pontos, há no máximo um emoticon namensagem.
+Exemplo de entrada 1
+Espero que esteja tudo bem :-)Exemplo de saída 1
+divertido
+Exemplo de entrada 2
+Achei o filme muito divertido.Exemplo de saída 2
+neutro
+Exemplo de entrada 3
+:-):-(:-(:-)Exemplo de saída 3
+neutro
+Exemplo de entrada 4
+Sonhei com a prova :-( (vou estudar).Exemplo de saída 4
+chateado

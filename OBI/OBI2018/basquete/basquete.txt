@@ -1,0 +1,19 @@
+Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível Júnior – Fase Local2
+Basquete de robôs
+Nome do arquivo:“basquete.x”,ondexdeve sercpp,pas,java,js,py2oupy3A organização da OIBR, Olimpíada Internacional deBasquete de Robô, está começando a ter problemascom dois times: osBit Warriorse osByte Bulls. Éque os robôs desses times acertam quase todos os lan-çamentos, de qualquer posição na quadra! Pensandobem, o jogo de basquetecaria mesmo sem graça sejogadores conseguissem acertar qualquer lançamento,não é mesmo? Uma das medidas que a OIBR está im-plantando é uma nova pontuação para os lançamentos,de acordo com a distância do robô para o início da qua-dra. A quadra tem2000centímetros de comprimento,como nagura.
+Dada a distânciaDdo robô até o início da quadra, onde está a cesta, a regra é a seguinte:•SeD≤800, a cesta vale1ponto;•Se800< D≤1400, a cesta vale2pontos;•Se1400< D≤2000, a cesta vale3pontos.A organização da OIBR precisa de ajuda para automatizar o placar do jogo. Dado o valor dadistânciaD, você deve escrever um programa para calcular o número de pontos do lançamento.
+Entrada
+A primeira e única linha da entrada contém um inteiroDindicando a distância do robô para oinício da quadra, em centímetros, no momento do lançamento.
+Saída
+Seu programa deve produzir uma única linha, contendo um inteiro,1,2ou3, indicando a pontuaçãodo lançamento.
+Restrições
+•0≤D≤2000
+Exemplo de entrada 1
+1720Exemplo de saída 1
+3
+Exemplo de entrada 2
+250Exemplo de saída 2
+1
+Exemplo de entrada 3
+1400Exemplo de saída 3
+2

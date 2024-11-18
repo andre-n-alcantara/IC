@@ -1,0 +1,10 @@
+OBI2006 – Modalidade Programa¸ c˜ ao N´ıvel 1 – Fase Nacional 5
+Quadrado M´ agico
+Nome do arquivo fonte:quadrado.c,quadrado.cpp,ouquadrado.pasSenhor Coelho ´ e conhecido mundialmente pela fabrica¸ c˜ ao de quadrados m´ agicos de dimens˜ oes 3×3. Umquadrado ´ e chamado m´ agico quando a soma dos elementos de uma determinada linha, coluna ou diagonal ´ esempre igual.Infelizmente, assaltantes invadiram recentemente a ocina do Sr. Coelho e roubaram alguns dos n´ umerosde seus quadrados m´ agicos. Felizmente os meliantes n˜ ao conseguiram roubar mais do que 3 n´ umeros de cadaquadrado. Desesperado, pois devia entregar os quadrados naquele dia, o Sr. Coelho veio procurar a sua ajudapara tentar completar os quadrados com os n´ umeros faltantes.
+Tarefa
+Escreva um programa que, dado um quadrado m´ agico com alguns n´ umeros faltando, determine qual era oquadrado m´ agico original.
+Entrada
+A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). A entrada cont´ em trˆ es linhas, cada uma contendo trˆ es inteirosN(0≤N≤20000). O n´ umero zerorepresenta os digitos que foram roubados. Existem no m´ aximo trˆ es n´ umeros zero na entrada.
+Sa´ıda
+Seu programa deve imprimir, nasa´ıda padr˜ ao, trˆ es linhas, cada uma contendo trˆ es inteiros, descrevendo acongura¸ c˜ ao original do quadrado m´ agico.
+Entrada4 9 23 0 78 1 6Sa´ıda4 9 23 5 78 1 6Entrada0 12 1216 10 08 8 14Sa´ıda6 12 1216 10 48 8 14Entrada495 468 00 522 414441 0 549Sa´ıda495 468 603630 522 414441 576 549

@@ -1,0 +1,26 @@
+Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível 2 – Fase Estadual2
+Detetive
+Nome do arquivo:detetive.c,detetive.cpp,detetive.pas,detetive.java,detetive.js,detetive_py2.pyoudetetive_py3.py
+Uma agência de detetives quer criar um aplicativo para ajudar a resolver os problemas dos clientes.A agência é muito eciente em coletar informações e fazer deduções muito precisas. Para cadacliente a agência monta uma base de dados contendo um conjunto deeventose um conjunto deimplicaçõesna formaA→B, ondeAeBrepresentam eventos. O signicado da implicação é que,se o eventoAocorreu, então o eventoBtambém necessariamente tem que ter ocorrido. Para essaimplicação,Aé a causa eBé a consequência. Além disso, se um evento é consequência de pelomenos uma causa, então ele só pode ocorrer se pelo menos uma de suas causas ocorrer também. Nãoexiste, na base de dados da agência, uma sequência circular de implicações (A→B→C . . .→A).Portanto, alguns eventos não possuem causa, não são consequência em nenhuma implicação.Veja que essas condições permitem deduções muito precisas. Por exemplo, considere que o conjuntode eventos seja{1,2,3,4}e o conjunto de implicações seja{1→2,1→3,2→4,3→4}. Se algumdetetive conseguir determinar que o evento4é verdadeiro, que ele ocorreu, então o evento2ou oevento3tem que ter ocorrido, mas para eles ocorrerem o evento sem causa1tem que ter ocorrido.E como1ocorreu, por implicação,2e3ocorreram também. Portanto o aplicativo da agênciapoderia concluir que todos os quatro eventos ocorreram com certeza, a partir da determinação deque o evento4ocorreu. Por um outro exemplo, considere que o conjunto de eventos seja{1,2,3}e o conjunto de implicações seja{1→3,2→3}. Se um detetive determinar que o evento3éverdadeiro, não podemos ter certeza de qual foi a causa.A agência solicita que você escreva um programa para determinar o conjunto de todos os eventosque ocorreram com certeza, considerando as informações da base de dados e um conjunto inicial deeventos determinados como verdadeiros pelos detetives.
+Entrada
+A primeira linha contém três números inteirosE, IeV, representando respectivamente o númerototal de eventos, o número de implicações e o número de eventos que a agência determinou que sãoverdadeiros.Cada evento é identicado por um número de1aE. Cada uma dasIlinhas seguintes contémdois inteirosAeB, representando dois eventos, descrevendo uma implicaçãoA→Bcoletada pelaagência. A última linha contémVinteirosX
+i, representando os eventos que a agência determinouque são verdadeiros. Os eventosX
+isão dados em ordem crescente do número de identicação.
+Saída
+Seu programa deve produzir uma única linha, com os identicadores de todos os eventos que certa-mente ocorreram, considerando o conjunto de implicações dado na entrada. Os identicadores doseventos devem ser escritos em ordem crescente, separados por um único espaço em branco.
+Restrições
+•1≤E≤103
+•1≤I≤105
+•1≤A, B, V≤E•1≤X
+i≤E, para1≤i≤V.
+Informações sobre a pontuação
+•Para um conjunto de casos de testes valendo 70 pontos,1≤E≤500.Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível 2 – Fase Estadual3
+Exemplo de entrada 1
+3 2 12 31 23Exemplo de saída 1
+1 2 3
+Exemplo de entrada 2
+4 4 11 21 32 43 44Exemplo de saída 2
+1 2 3 4
+Exemplo de entrada 3
+3 2 11 32 33Exemplo de saída 3
+3

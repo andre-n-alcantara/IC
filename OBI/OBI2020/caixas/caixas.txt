@@ -1,0 +1,26 @@
+Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível Júnior – Fase Local3
+Entrega de Caixas
+Nome do arquivo:“caixas.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3Você precisa transportar três caixas vazias usando um drone que pode levantar uma caixa por vezapenas em cada viagem. Quer dizer, sempre dá para transportar as três caixas vazias fazendo trêsviagens do drone. Mas talvez dê para fazer menos do que três viagens, se for possível colocar umacaixa dentro de outra. As caixas têm formato de cubo e a única restrição para uma caixa sercolocada dentro de outra é o tamanho, não importando o peso.Uma caixa de tamanhoXpode ser colocada dentro de uma caixa de tamanhoYseX < Y. Note,portanto, que uma caixa não cabe dentro de outra do mesmo tamanho. Além disso, duas caixasde tamanhosXeYpodem ser colocadas, lado a lado, dentro de uma caixa de tamanhoZse(X+Y)< Z.Agura ilustra as quatro congurações possíveis para o drone fazer uma viagem.
+Neste problema, os tamanhos das três caixas são dados em ordem crescente e seu programa devecomputar o número mínimo de viagens que o drone pode fazer para transportar todas as três caixas.
+Entrada
+A primeira linha da entrada contém um inteiroA. A segunda linha da entrada contém um inteiroB. A terceira linha da entrada contém um inteiroC. Os três inteiros representam os tamanhos dastrês caixas.
+Saída
+Seu programa deve imprimir uma linha contendo um inteiro, representando o número mínimo deviagens que o drone pode fazer para transportar todas as três caixas.
+Restrições
+•1≤A≤B≤C≤1000
+Exemplos
+Exemplo de entrada 1
+1245188Exemplo de saída 1
+1
+Exemplo de entrada 2
+676767Exemplo de saída 2
+3Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível Júnior – Fase Local4
+Exemplo de entrada 3
+111463463Exemplo de saída 3
+2
+Exemplo de entrada 4
+7272345Exemplo de saída 4
+1
+Exemplo de entrada 5
+303055Exemplo de saída 5
+2

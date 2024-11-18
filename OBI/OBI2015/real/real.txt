@@ -1,0 +1,12 @@
+Olimpíada Brasileira de Informática – OBI2015 4
+Família real
+Nome do arquivo:real.c,real.cpp,real.pas,real.java,real.jsoureal.pyO rei de um reino muito muito distante deu uma grande festa para reunir todas as gerações dosseus descendentes:lhos elhas, netos e netas, bisnetos e bisnetas, e assim por diante. Ele, quegosta muito de estatísticas, agora quer saber, para cada geração, qual a porcentagem de descen-dentes daquela geração que compareceu à festa. Você foi contratado para escrever um programa decomputador que calcule as porcentagens de todas as gerações!O rei temNdescendentes, identicados com os números de1aN. O próprio rei será identicadocom o número0. Será dada apenas a informação, para cada descendente, de quem é o seu pai ousua mãe, na linha de descendência que começa no rei. Além disso, claro, será dada a lista de todosque compareceram à festa.
+Entrada
+A primeira linha da entrada contém dois inteirosNeM, respectivamente, o número de descendentese o número de participantes da festa. A segunda linha contémNnúmeros, representando os paisou mães dosNdescendentes, em ordem crescente: o primeiro número indica o pai ou a mãe dodescendente de número1, o segundo número indica o pai ou a mãe do descendente de número2,e assim por diante. A terceira linha contémMnúmeros, identicando todos os descendentes quecompareceram à festa.
+Saída
+Seu programa deve imprimir uma linha com uma lista de números reais, com precisão de duascasas decimais, indicando a porcentagem, para cada geração, dos descendentes daquela geração quecompareceram à festa. O primeiro número deve ser a porcentagem doslhos elhas, o segundo dosnetos e netas, e assim por diante.
+Restrições
+•1≤M≤N≤10000
+Exemplos
+Entrada9 57 3 0 9 0 3 5 6 73 2 8 1 9 Saída50.00 33.33 100.00 0.00
+Entrada16 1115 9 2 8 6 11 0 3 0 8 12 0 9 6 16 125 14 9 12 6 2 4 10 3 11 7 Saída100.00 50.00 66.67 50.00 100.00

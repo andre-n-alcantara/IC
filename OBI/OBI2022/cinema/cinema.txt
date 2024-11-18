@@ -1,0 +1,22 @@
+Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível Júnior – Fase 12
+Cinema
+Nome do arquivo:cinema.c,cinema.cpp,cinema.pas,cinema.java,cinema.jsoucinema.pyDuas amigas estão nala para comprar ingressos para uma sessão de cinema. O preço dos ingressos,em Reais, é dado na tabela abaixo:
+Idade Preço
+até 17 anos 15
+18 a 59 anos 30
+60 anos ou mais 20
+Dadas as idades das amigas, escreva um programa para calcular o total a ser pago pelos doisingressos.
+Entrada
+A entrada contém duas linhas, cada linha contendo um inteiro, a idade de uma das amigas.
+Saída
+Seu programa deve produzir uma única linha, contendo um único inteiro, que deve ser o valor totalem Reais a ser pago pelos dois ingressos.
+Restrições
+•1≤idade≤100
+Exemplo de entrada 1
+10010Exemplo de saída 1
+35
+Explicação do exemplo 1:Os valores dos ingressos para as idades 100 e 10 são respectivamente20 e 15, portanto o total é 35.
+Exemplo de entrada 2
+1718Exemplo de saída 2
+45
+Explicação do exemplo 2:Os valores dos ingressos para as idades 17 e 18 são respectivamente15 e 30, portanto o total é 45.

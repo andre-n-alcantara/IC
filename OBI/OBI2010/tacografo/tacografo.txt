@@ -1,0 +1,15 @@
+Olimp´ıada Brasileira de Inform´ atica – OBI2010 4
+Tac´ ografo
+Nome do arquivo fonte:tacografo.c,tacografo.cpp,outacografo.pasTac´ ografos s˜ ao dispositivos instalados em determinados tipos de ve´ıculos, que registram a velocidade, tempo edistˆ ancia percorrida por tal ve´ıculo.´E utilizada principalmente em ve´ıculos de transporte coletivo e de transportede cargas, assim ajudando a evitar abusos de velocidade por parte dos motoristas.A empresa SBC (Sociedade Brasileira dos Caminhoneiros) decidiu encomendar uma vers˜ ao um pouco maisb´ asica (e barata) para seus associados n˜ ao precisarem gastar tanto na instala¸ c˜ ao desses aparelhos. Essas vers˜ oesmodicadas registram apenas os intervalos de tempo e as velocidades m´ edias do caminh˜ ao naqueles intervalos.
+Tarefa
+Apesar das restri¸ c˜ oes dos aparelhos novos, a SBC quer poder saber qual foi a distˆ ancia percorrida pelos ca-minh˜ oes. Vocˆ e dever´ a escrever um programa que recebe uma s´ erie de intervalos de tempo com suas respectivasvelocidades m´ edias e calcula qual foi a distˆ ancia total percorrida pelo caminh˜ ao de acordo com o tac´ ografo.
+Entrada
+A primeira linha da entrada cont´ em um inteiroN(1≤N≤1000) representando a quantidade de intervalosde tempo registrados no tac´ ografo. AsNlinhas seguintes descrevem os intervalos de tempo. Cada uma dessaslinhas possui dois inteirosTeV(1≤T≤100, 0≤V≤120), que representam, respectivamente o tempodecorrido (em horas) e a velocidade m´ edia (em quilˆ ometros por hora) no intervalo de tempo.
+Sa´ıda
+Seu programa deve imprimir uma ´ unica linha, contendo um ´ unico n´ umero inteiro representando a distˆ anciatotal percorrida, em quilˆ ometros.
+Informa¸ c˜ oes sobre a pontua¸ c˜ ao
+•Em um conjunto de casos de teste que totaliza 20 pontos,N≤10.
+Exemplos
+Entrada310 055 1275 120 Sa´ıda9660Olimp´ıada Brasileira de Inform´ atica – OBI2010 5
+Entrada1045 4646 1017 295 10412 10778 2910 2652 8613 791 107Sa´ıda26022
+Entrada837 2468 6928 2679 836 050 7113 6887 113Sa´ıda21205

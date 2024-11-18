@@ -1,0 +1,16 @@
+Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível Júnior – Fase Local3
+A idade de Dona Mônica
+Nome do arquivo:“idade.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3Dona Mônica é mãe de trêslhos que têm idades diferentes. Ela notou que, neste ano, a soma dasidades dos seus trêslhos é igual à idade dela. Neste problema, dada a idade de dona Mônica e asidades de dois doslhos, seu programa deve computar e imprimir a idade dolho mais velho.Por exemplo, se sabemos que dona Mônica tem52anos e as idades conhecidas de dois doslhossão14e18anos, então a idade do outrolho, que não era conhecida, tem que ser20anos, poisa soma das três idades tem que ser52. Portanto, a idade dolho mais velho é20. Em mais umexemplo, se dona Mônica tem47anos e as idades de dois doslhos são21e9anos, então o outrolho tem que ter17anos e, portanto, a idade dolho mais velho é21.
+Entrada
+A primeira linha da entrada contém um inteiroMrepresentando a idade de dona Mônica. Asegunda linha da entrada contém um inteiroArepresentando a idade de um doslhos. A terceiralinha da entrada contém um inteiroBrepresentando a idade de outrolho.
+Saída
+Seu programa deve imprimir uma linha, contendo um número inteiro, representando a idade dolhomais velho de dona Mônica.
+Restrições
+•40≤M≤110•1≤A <M•1≤B <M•A6=B
+Exemplos
+Exemplo de entrada 1
+521418Exemplo de saída 1
+20
+Exemplo de entrada 2
+47219Exemplo de saída 2
+21

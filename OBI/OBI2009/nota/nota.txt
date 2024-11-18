@@ -1,0 +1,22 @@
+Olimp´ıada Brasileira de Inform´ atica – OBI2009 1
+Notas da Prova
+Nome do arquivo fonte:nota.c,nota.cpp,ounota.pasRosy ´ e uma talentosa professora do Ensino M´ edio que j´ a ganhou muitos prˆ emios pela qualidade de sua aula.Seu reconhecimento foi tamanho que foi convidada a dar aulas em uma escola da Inglaterra. Mesmo falandobem inglˆ es, Rosycou um pouco apreensiva com a responsabilidade, mas resolveu aceitar a proposta e encar´ a-lacomo um bom desao.Tudo ocorreu bem para Rosy at´ e o dia da prova. Acostumada a dar notas de 0 (zero) a 100 (cem), ela fez omesmo na primeira prova dos alunos da Inglaterra. No entanto, os alunos acharam estranho, pois na Inglaterrao sistema de notas ´ e diferente: as notas devem ser dadas como conceitos de A a E. O conceito A ´ e o mais alto,enquanto o conceito E ´ e o mais baixo.Conversando com outros professores, ela recebeu a sugest˜ ao de utilizar a seguinte tabela, relacionando as notasnum´ ericas com as notas de conceitos:
+Nota Conceito
+0 E
+1 a 35 D
+36 a 60 C
+61 a 85 B
+86 a 100 A
+O problema ´ e que Rosy j´ a deu as notas no sistema num´ erico, e ter´ a que converter as notas para o sistema deletras. Por´ em, Rosy precisa preparar as pr´ oximas aulas (para manter a qualidade que a tornou reconhecida), en˜ ao tem tempo suciente para fazer a convers˜ ao das notas manualmente.
+Tarefa
+Vocˆ e deve escrever um programa que recebe uma nota no sistema num´ erico e determina o conceito correspon-dente.
+Entrada
+A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). A entrada cont´ em uma ´ unica linha com um n´ umero inteiroN(0≤N≤100), representando umanota de prova no sistema num´ erico.
+Sa´ıda
+Seu programa deve imprimir, nasa´ıda padr˜ ao, uma letra (A, B, C, D, ou E em mai´ usculas) representando oconceito correspondente ` a nota dada na entrada.
+Informa¸ c˜ oes sobre a pontua¸ c˜ ao
+•Em um conjunto de casos de teste que totaliza 35 pontos,N≤10.•Em um conjunto de casos de teste que totaliza 70 pontos,N≤50.Olimp´ıada Brasileira de Inform´ atica – OBI2009 2
+Exemplos
+Entrada12 Sa´ıdaD
+Entrada87 Sa´ıdaA
+Entrada0 Sa´ıdaE

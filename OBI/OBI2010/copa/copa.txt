@@ -1,0 +1,25 @@
+Olimp´ıada Brasileira de Inform´ atica – OBI2010 8
+Copa do Mundo
+Nome do arquivo fonte:copa.c,copa.cpp,oucopa.pasEste ano tem Copa do Mundo! O pa´ıs inteiro se prepara para torcer para a equipe canarinho conquistar maisum t´ıtulo, tornando-se hexacampe˜ a.Na Copa do Mundo, depois de uma fase de grupos, dezesseis equipes disputam a Fase Final, composta de quinzejogos eliminat´ orios. Agura abaixo mostra a tabela de jogos da Fase Final:
+M N
+7K L
+6I J
+5G H
+4E F
+3C D
+2A B
+1
+12O P
+8
+11 10 9
+13 14
+15
+Campeão
+Oitavas-de-finalQuartas-de-finalSemifinaisFinal
+Na tabela de jogos, as dezesseis equipesnalistas s˜ ao representadas por letras mai´ usculas (deAaP), e os jogoss˜ ao numerados de 1 a 15. Por exemplo, o jogo 3 ´ e entre as equipes identicadas porEeF; o vencedor dessejogo enfrentar´ a o vencedor do jogo 4, e o perdedor ser´ a eliminado. A equipe que vencer os quatro jogos da FaseFinal ser´ a a campe˜ a (por exemplo, para a equipeKser campe˜ a ela deve vencer os jogos 6, 11, 14 e 15.
+Tarefa
+Dados os resultados dos quinze jogos da Fase Final, escreva um programa que determine a equipe campe˜ a.
+Entrada
+A entrada ´ e composta de quinze linhas, cada uma contendo o resultado de um jogo. A primeira linha cont´ emo resultado do jogo de n´ umero 1, a segunda linha o resultado do jogo de n´ umero 2, e assim por diante. Oresultado de um jogo ´ e representado por dois n´ umeros inteirosMeNseparados por um espa¸ co em branco,indicando respectivamente o n´ umero de gols da equipe representada ` a esquerda e ` a direita na tabela de jogos(0≤M≤20, 0≤N≤20 eM=N).
+Sa´ıda
+Seu programa deve imprimir uma ´ unica linha, contendo a letra identicadora da equipe campe˜ a.

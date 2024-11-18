@@ -1,0 +1,16 @@
+Olimp´ıada Brasileira de Inform´ atica – OBI2009 1
+Maratona
+Nome do arquivo fonte:maratona.c,maratona.cpp,oumaratona.pasA maratona ´ e talvez a prova mais desgastante entre as modalidades ol´ımpicas: s˜ ao quarenta e dois mil, centoe noventa e cinco metros de percurso. Por isso, os organizadores sempre posicionam v´ arios postos de ´ agua aolongo do trajeto da prova, onde copos de ´ agua s˜ ao distribu´ıdos aos competidores.Jo˜ ao Saci ´ e um jovem atleta que tem boas chances de se tornar um maratonista de primeira linha. No entanto,Jo˜ ao Saci descobriu que somente consegue terminar uma maratona se ingerir alguns copos de ´ agua duranteo percurso. O Laborat´ orio de Biomecˆ anica da universidade local, atrav´ es de experimentos, determinou queJo˜ ao Saci consegue percorrer exatamente mais dois mil metros ap´ os o instante em que ingere um copo de´ agua. A distˆ ancia que Jo˜ ao Saci consegue percorrer ap´ os ingerir um copo de ´ agua ´ e denominada dedistˆ anciaintermedi´ aria m´ axima. Assim, se a distˆ ancia entre dois postos de ´ agua consecutivos no percurso da maratonafor sempre menor ou igual do que a distˆ ancia intermedi´ aria m´ axima de Jo˜ ao Saci, ele consegue terminar a prova.Caso contr´ ario ele n˜ ao consegue terminar a prova.O Laborat´ orio de Biomecˆ anica quer agora realizar estudos similares com outros maratonistas, que tˆ em valor dedistˆ ancias intermedi´ arias m´ aximas distintas, e precisa de sua ajuda.
+Tarefa
+Sua tarefa ´ e escrever um programa que, dada a posi¸ c˜ ao dos postos de ´ agua ao longo do percurso, e a distˆ anciaintermedi´ aria m´ axima de um atleta, determine se o atleta consegue ou n˜ ao completar a prova.
+Entrada
+A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado).A primeira linha da entrada cont´ em dois n´ umeros inteirosNeM, separados por um espa¸ co em branco, indicandorespectivamente o n´ umero de postos de ´ agua (2≤N≤10000) e a distˆ ancia intermedi´ aria m´ axima de um atleta,em metros (1≤M≤42195). A segunda linha cont´ emNn´ umeros inteirosP i, separados por um espa¸ co embranco, representando a posi¸ c˜ ao dos postos de ´ agua ao longo do trajeto da maratona. A posi¸ c˜ ao de um postode ´ agua ´ e dada pela distˆ ancia, em metros, do in´ıcio do percurso at´ e o posto de ´ agua (0≤P
+i≤42195 para 1≤i≤N). O primeiro posto de ´ agua est´ a sempre localizado no ponto de partida (ou seja,P
+1= 0) e todos os postos est˜ ao em posi¸ c˜ oes distintas. Al´ em disso, os postos de ´ agua s˜ ao dados na ordem crescente de sua distˆ anciaao in´ıcio do percurso.Note que a distˆ ancia total da prova ´ e a ocial para a maratona, ou seja, 42195 metros.
+Sa´ıda
+Seu programa deve imprimir, nasa´ıda padr˜ ao, uma ´ unica linha contendo o caractere ‘S’ se o atleta consegueterminar a prova, ou o caractere ‘N’ caso contr´ ario.
+Informa¸ c˜ oes sobre a pontua¸ c˜ ao
+•Em um conjunto de casos de teste que totaliza 30 pontos,N≤100.•Em um conjunto de casos de teste que totaliza 70 pontos,N≤2000.Olimp´ıada Brasileira de Inform´ atica – OBI2009 2
+Exemplos
+Entrada3 200000 20000 33333 Sa´ıdaS
+Entrada8 60000 6000 12000 18000 24000 32000 37000 40000 Sa´ıdaN

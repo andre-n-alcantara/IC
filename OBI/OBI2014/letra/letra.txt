@@ -1,0 +1,13 @@
+Olimpíada Brasileira de Informática – OBI2014 6
+Letras
+Nome do arquivo fonte:letra.c,letra.cpp,letra.pas,letra.java,ouletra.pyConsidere as denições abaixo:•Umapalavraé uma sequência de letras consecutivas.•Umtextoé um conjunto de palavras separadas pelo caractereespaço em branco.Você foi contratado pela empresa Booble para escrever um programa que, dados uma letra e umtexto, determina a porcentagem de palavras do texto que contém a letra dada.
+Entrada
+A primeira linha da entrada contém um único caractere, a letra de interesse na pesquisa. A segundalinha contém um texto, como denido acima.
+Saída
+Seu programa deve produzir uma única linha, contendo um único número real, a porcentagem depalavras do texto que contêm a letra dada, com precisão de uma casa decimal.
+Restrições
+•O texto é composto apenas por letras minúsculas e o caractere espaço em branco.•O texto é formado por no mínimo um caractere, e no máximo 1000 caracteres.•O texto não contém dois espaços em branco consecutivos.
+Exemplos
+Entradappapagaio Saída100.0
+Entradaono meio do caminho tinha uma pedra tinha uma pedra no meio do caminho Saída57.1
+Entradabnunca me esquecerei que no meio do caminho tinha uma pedra Saída0.0

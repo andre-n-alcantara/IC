@@ -1,0 +1,15 @@
+Olimpíada Brasileira de Informática – OBI2016 4
+Tacos de bilhar
+Nome do arquivo:tacos.c,tacos.cpp,tacos.pas,tacos.java,tacos.js,tacos.py2outacos.py3Jogos de bilhar, em que tacos são usados para arremessar uma bola contra outras em uma mesa, têmmuitas variantes, como sinunca, mata-mata, bilhar francês e outras. São muito antigos, havendorelatos sobre jogos similares desde 1340. O Sr. Jorge é um renomado artesão que fabrica tacos debilhar sob encomenda. Jogadores de todo o mundo procuram o Sr. Jorge, para confeccionar tacosnos mais diversos comprimentos, pois seus tacos são perfeitos, bem balanceados e muito bonitos.Cada vez que um cliente pede um taco de um dado comprimento, o Sr. Jorge primeiro verica seele tem um taco com esse comprimento no estoque. Se tem, ele envia o taco para o cliente. Se nãotem, ele faz duas cópias do taco, envia uma para o cliente e guarda a outra no estoque. Assim, elenunca tem no estoque mais do que um taco com um determinado comprimento.O estoque do Sr. Jorge está muito grande, e ele tem perdido muito tempo procurando por tacos.Ele pensa em usar um sistema computadorizado para manter o seu estoque de tacos, e precisa desua ajuda. Dadas as consultas ao estoque calcule o número total de tacos fabricados, supondo queinicialmente o estoque esteja vazio..
+Entrada
+A primeira linha da entrada contém um inteiroCque indica o número de consultas ao estoque.A segunda linha contémCnúmeros inteiros, indicando as consultas ao estoque. Cada valor deconsulta indica o comprimento de um taco desejado. As consultas são dadas na entrada na ordemem que o Sr. Jorge as executa. Assuma que o estoque está vazio inicialmente.
+Saída
+Seu programa deverá imprimir um único número, o número de tacos fabricados.
+Restrições
+•1≤C≤105
+•1≤comprimento dos tacos≤106
+Informações sobre a pontuação
+•Em um conjunto de casos de teste equivalente a 40 pontos,C≤1000.
+Exemplos
+Entrada480 100 80 50 Saída6
+Entrada11000 Saída2

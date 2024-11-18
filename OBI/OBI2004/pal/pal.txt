@@ -1,0 +1,10 @@
+60Palíndrome
+Arquivo fonte: pal.c, pal.cc, pal.cpp ou pal.pasUma cadeia de caracteres é chamada de palíndrome se seqüência de caracteres da esquerda para adireita é igual à seqüência de caracteres da direita para a esquerda (uma outra deﬁnição é que oprimeiro caractere da cadeia deve ser igual ao último caractere, o segundo caractere seja igual aopenúltimo caractere, o terceiro caractere seja igual ao antepenúltimo caractere, e assim pordiante). Por exemplo, as cadeias de caracteres ‘mim’, ‘axxa’ e ‘ananaganana’ são exemplos depalíndromes.Se uma cadeia não é palíndrome, ela pode ser dividida em cadeias menores que são palíndromes.Por exemplo, a cadeia ‘aaxyx’ pode ser dividida de quatro maneiras distintas, todas elas contendoapenas cadeias palíndromes: {‘aa’, ‘xyx’}, {‘aa’, ‘x’, ‘y’, ‘x’}, {‘a’, ‘a’, ‘xyx’} e {‘a’, ‘a’, ‘x’, ‘y’,‘x’}.
+1. Tarefa
+Escreva um programa que determine qual o menor número de partes em que uma cadeia deve serdividida de forma que todas as partes sejam palíndromes.
+2. Entrada
+A  entrada é constituída de vários conjuntos de teste. A primeira linha de um conjunto de testescontém um inteiroNque indica o número de caracteres da cadeia (1≤N≤2000). A segunda linhacontém a cadeia de caracteres, composta por letras minúsculas (de ‘a’ a ‘z’), sem espaços embranco. O ﬁnal da entrada é indicado por N = 0.Exemplo de Entrada3axa6xyzyyx10bbabcbbaab0
+3. Saída
+Para cada conjunto de teste da entrada seu programa deve produzir três linhas na saída. A primeiralinha deve conter um identiﬁcador do conjunto de teste, no formato “Teste n”, onde n é numeradoa partir de 1. A segunda linha deve conter um inteiro indicando o menor número de partes que acadeia de entrada deve ser dividida de forma que todas as partes sejam palíndromes. A terceiralinha deve ser deixada em branco. O formato mostrado no exemplo de saída abaixo deve serseguido rigorosamente.7Exemplo de SaídaTeste 11Teste 24Teste 34(esta saída corresponde ao exemplo de entrada acima)
+4. Restrições
+0 ≤ N ≤ 2000 (N = 0 apenas para indicar o ﬁm da entrada)

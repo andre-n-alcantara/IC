@@ -1,0 +1,16 @@
+Olimp´ıada Brasileira de Inform´ atica – OBI2009 3
+Simulador
+Nome do arquivo fonte:simulador.c,simulador.cpp,ousimulador.pasUm novo processador, denominado Fa´ıska, est´ a sendo desenvolvido para a empresa SBC. Este novo processadortem apenas duas instru¸ c˜ oes:invers˜ aoesoma, descritas a seguir.•Invers˜ ao: dados dois endere¸ cos de mem´ oriaXeY, a opera¸ c˜ aoinverte(X,Y)inverte a posi¸ c˜ ao de palavrasda mem´ oria de forma que–a palavra no endere¸ coXtroca de posi¸ c˜ ao com a palavra de mem´ oria da posi¸ c˜ aoY;–a palavra no endere¸ coX+ 1 troca de posi¸ c˜ ao com a palavra de mem´ oria da posi¸ c˜ aoY−1;–a palavra no endere¸ coX+ 2 troca de posi¸ c˜ ao com a palavra de mem´ oria da posi¸ c˜ aoY−2;–e assim por diante, at´ e queX≥Y.•Soma: dados dois endere¸ cos de mem´ oriaXeY, a opera¸ c˜ aosoma(X,Y)imprime a soma das palavras demem´ oria entre os endere¸ cosXeY(inclusive).Por exemplo, se a mem´ oria cont´ em inicialmente, a partir da primeira posi¸ c˜ ao de mem´ oria (endere¸ co igual a 1) osvalores[1,2,3,4,5,6,7,8], a opera¸ c˜ aoinverte(3,7)deixa a mem´ oria igual a[1,2,7,6,5,4,3,8]. Ent˜ ao,nesse estado, a execu¸ c˜ ao desoma(1,3)produz a sa´ıda10.
+Tarefa
+Sua tarefa ´ e escever um programa que, dada uma sequˆ encia de instru¸ c˜ oes do Fa´ıska, simule a execu¸ c˜ ao e produzao mesmo resultado que o Fa´ıska produziria.
+Entrada
+A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado).A primeira linha da entrada cont´ em dois n´ umeros inteirosNeM, representando respectivamente o n´ umeropalavras na mem´ oria (1≤N≤10
+9) e o n´ umero de instru¸ c˜ oes do programa (1≤M≤3000). Cada uma dasMlinhas seguintes cont´ em uma instru¸ c˜ ao do Fa´ıska. Cada instru¸ c˜ ao ´ e composta de um caratere descrevendoa instru¸ c˜ ao (‘I’ para invers˜ ao e ‘S’ para soma), seguido de um espa¸ co, seguido de dois inteiros indicando osargumentos da instru¸ c˜ ao.Inicialmente a congura¸ c˜ ao da mem´ oria ´ e tal que cada palavra tem como conte´ udo o seu pr´ oprio endere¸ co. Emoutras palavras, o conte´ udo inicial da mem´ oria ´ e[1,2,3,...,N]. H´ a pelo menos uma instru¸ c˜ aosomaem cadacaso de teste.
+Sa´ıda
+Seu programa deve imprimir, nasa´ıda padr˜ ao, uma sequˆ encia de n´ umeros inteiros, um em cada linha, indicandoa sa´ıda gerada pelo Fa´ıska.
+Informa¸ c˜ oes sobre a pontua¸ c˜ ao
+•Em um conjunto de casos de teste que totaliza 30 pontos,N≤100 eM≤100.•Em um conjunto de casos de teste que totaliza 70 pontos,N≤10
+4eM≤103.Olimp´ıada Brasileira de Inform´ atica – OBI2009 4
+Exemplos
+Entrada10 2I 1 5S 3 7 Sa´ıda19
+Entrada15 4S 2 11I 10 15I 1 10S 5 10Sa´ıda6521

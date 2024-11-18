@@ -1,0 +1,19 @@
+Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível 2 – Fase Fase 17
+Cifra da Nlogônia
+Nome do arquivo:“cifra.x”,ondexdeve serc,cpp,pas,java,jsoupyO rei da Nlogônia ordenou que todos os documentos importantes sejam “cifrados”, para que apenasquem tem conhecimento da cifra possa lê-los (cifrarum documento signica alterar o originalmodicando as letras de acordo com algum algoritmo de cifra).O rei decretou que o seguinte algotimo deve ser usado para cifrar os documentos:•Cada consoante deve ser substituída por exatamente três letras, na seguinte ordem:1. a própria consoante (vamos chamar deconsoante original);2. a vogal mais próxima da consoante original no alfabeto, com a regra adicional de que sea consoante original está à mesma distância de duas vogais, então a vogal mais próximado início do alfabeto é usada. Por exemplo, se a consoante original éd, a vogal que deveser usada ée, pois esta é a vogal mais próxima; se a consoante original éc, a vogal quedeve ser utilizada éa, porquecestá à mesma distância deaee, eaé mais próxima doinício do alfabeto.3. a consoante que segue a consoante original, na ordem do início aom do alfabeto. Porexemplo, se a consoante original éd, a consoante a ser utilizada éf. No caso de aconsoante original serz, deve ser utilizada a própria letraz.•As vogais não são modicadas.Nesta tarefa, o alfabeto éa b c d e f g h i j k l m n o p q r s t u v x ze as vogais sãoa e i o uPor exemplo, a cifra da palavra “ter” é “tuveros” (tuv-e-ros) e a cifra da palavra “paz” é “poqazuz”(poq-a-zuz).O rei da Nlogônia procura por alguém que saiba escrever um programa que produza a cifra de umapalavra dada. Você pode ajudá-lo?
+Entrada
+A primeira e única linha da entrada contém uma palavraPformada por letras minúsculas semacentuação.
+Saída
+Seu programa deve produzir uma única linha, contendo a palavra cifrada.
+Restrições
+•A palavraPtem no mínimo uma e no máximo 30 letras, todas minúsculas e sem acentuação.
+Exemplos
+Exemplo de entrada 1
+terExemplo de saída 1
+tuverosOlimpíada Brasileira de Informática – OBI2021 – Prog. Nível 2 – Fase Fase 18
+Exemplo de entrada 2
+reiExemplo de saída 2
+rosei
+Exemplo de entrada 3
+arteiroExemplo de saída 3
+arostuveiroso

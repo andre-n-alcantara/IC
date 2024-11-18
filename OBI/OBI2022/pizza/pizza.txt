@@ -1,0 +1,23 @@
+Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível 1 – Fase 3 2
+Restaurante de pizza
+Nome do arquivo:pizza.c,pizza.cpp,pizza.pas,pizza.java,pizza.jsoupizza.pyUm amigo seu acabou de se mudar para Linearlandia. Apesar de recém chegado, ele decidiu montarum negócio, um restaurante de Pizza.Seu amigo está muito feliz na nova empreitada, contudo, com muito medo de errar. Além dopreparo da pizza, o restaurante deve se preocupar com a caixa para entrega (que são retangulares),que deverá ser a mesma para todas as pizzas, e com o corte das fatias, que será automatizado eigual para todas as pizzas produzidas.No momento seu amigo está planejando qual será o tamanho das pizzas (que serão todas círculosperfeitos de um único tamanho), e também qual será o ângulo interno de cada fatia (em graus).Além disso, ele encontrou uma loja de caixas de pizza com ótimos preços, mas não sabe se as caixassão adequadas para as pizzas que ele vai produzir.A restrição para a caixa de pizza é que a pizza caiba dentro da caixa (mesmo que com algumafolga); a restrição para o ângulo de corte é que todas as fatias sejam de mesmo tamanho (mesmoque seja uma só fatia).Dados as dimensões da caixa de pizza, o raio da pizza e o ângulo interno da fatia em graus, vocêdeve escrever um programa para determinar se a caixa e o ângulo escolhidos satisfazem às restrições.
+Entrada
+A entrada é composta por quatro linhas, contendo respectivamente os números inteirosA,B,ReG. Os inteirosAeBsão as dimensões da caixa de pizza, o inteiroRé o raio da pizza e o inteiroGé o angulo interno das fatias de pizza.
+Saída
+Seu programa deve produzir uma única linha na saída, contendo um único caractere, que deve serSse os dados satisfazem às restrições ouNcaso contrário.
+Restrições
+•1≤A, B, R≤109;•1≤G≤360.
+Informações sobre a pontuação
+•Para um conjunto de testes valendo 13 pontos,A=B;•Para um conjunto de testes valendo 26 pontos,G= 60;•Para um conjunto de casos de testes valendo outros 61 pontos, nenhuma restrição adicional.
+Exemplos
+Exemplo de entrada 1
+410260Exemplo de saída 1
+SOlimpíada Brasileira de Informática – OBI2022 – Prog. Nível 1 – Fase 3 3 Explicação do exemplo 1:A pizza cabe na caixa e a escolha de ângulo divide a mesma igual-mente.
+Exemplo de entrada 2
+44360Exemplo de saída 2
+N
+Explicação do exemplo 2:O raio da pizza é 3, logo, não cabe em uma caixa de lados de tamanho4.
+Exemplo de entrada 3
+1010525Exemplo de saída 3
+N
+Explicação do exemplo 3:O ângulo da fatia é 25, logo, não resulta em fatias iguais.

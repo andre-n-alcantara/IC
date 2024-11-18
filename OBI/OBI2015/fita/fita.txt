@@ -1,0 +1,15 @@
+Olimpíada Brasileira de Informática – OBI2015 3
+Fita Colorida
+Nome do arquivo:fita.c,fita.cpp,fita.pas,fita.java,fita.jsoufita.pyRoberto tem um conjunto de lápis com 10 tons diferentes de uma mesma cor, numerados de0a9. Numata quadriculada, alguns quadrados foram coloridos inicialmente com o tom0. Robertoprecisa determinar, para cada quadradoQnão colorido, qual é a distância dele para o quadradomais próximo de tom0. A distância entre dois quadrados é denida com o número mínimo demovimentos para a esquerda, ou para a direita, para ir de um quadrado para o outro. O quadradoQ, então, deve ser colorido com o tom cuja numeração corresponde à distância determinada. Se adistância for maior ou igual a9, o quadrado deve ser colorido com o tom9. Seu programa devecolorir e imprimir ata quadriculada dada na entrada.
+Entrada
+A primeira linha da entrada contém apenas um inteiroN, indicando o número de quadrados data. A segunda linha contémNnúmeros inteiros: “-1” se o quadrado não está colorido, e “0” seestá colorido com o tom0.
+Saída
+Seu programa deve escrever na saída ata totalmente colorida, de acordo com a regra denidaacima.
+Restrições
+•3≤N≤10000;•Sempre existe pelo menos um “0” inicialmente nata.
+Informações sobre a pontuação
+•Em um conjunto de casos de teste somando 80 pontos,N≤1000
+Exemplos
+Entrada8-1 -1 0 -1 -1 -1 0 -1 Saída2 1 0 1 2 1 0 1
+Entrada13-1 0 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 Saída1 0 1 2 3 4 4 3 2 1 0 1 2
+Entrada60 -1 -1 -1 -1 -1 Saída0 1 2 3 4 5

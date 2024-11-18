@@ -1,0 +1,19 @@
+Olimpíada Brasileira de Informática – OBI2013 7
+Vende-se
+Nome do arquivo fonte:vende.c,vende.cpp,vende.pas,vende.java,ouvende.py
+A Otacílio Busílis Imóveis (OBI) é a maior imobiliária de Nlogópolis, especializada no aluguel de prédioscomerciais; todas as suas propriedades se localizam na Avenida Doutor Otacílio Busílis, assim chamada emhomenagem ao fundador da OBI.Devido à crise econômica mundial, a OBI precisa venderKde seus imóveis para levantar capital de giro.Dr. Otacílio quer que os prédios restantes após a venda sejam o mais próximos possível — ou seja, a distânciaentre o primeiro e o último prédios restantes deve ser a menor possível.Infelizmente, a OBI é proprietária de tantos prédios que o Dr. Otacílio não sabe quais prédios ele deve vender;ele lhe contratou para que você escreva um programa que determina qual é a mínima distância possível entreo primeiro e o último prédios da OBI na avenida, após a venda deKprédios.
+Entrada
+A primeira linha da entrada contém os inteirosNeK, indicando, respectivamente, quantos prédios a OBIpossui, e quantos prédios ela pretende vender. A linha seguinte contémNinteirosX
+i, indicando a distânciade cada um dosNprédios ao início da avenida, em metros.
+Saída
+A saída deve conter um único inteiro indicando a menor distância possível entre o primeiro e o último prédiopossuídos pela OBI após a venda.
+Restrições
+•3N105
+•NK2•1X
+i106
+•todos osX isão distintos
+Informações sobre a pontuação
+•Em um conjunto de casos de teste que totaliza 30 pontos,N10•Em um conjunto de casos de teste que totaliza 70 pontos,N2000
+Exemplos
+Entrada5 210 7 4 8 2 Saída3
+Entrada8 616 11 1 7 29 4 22 2 Saída1

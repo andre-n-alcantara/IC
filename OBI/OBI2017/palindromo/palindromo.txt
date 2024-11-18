@@ -1,0 +1,15 @@
+Olimpíada Brasileira de Informática – OBI2017 3
+Palíndromo
+Nome do arquivo:palindromo.c,palindromo.cpp,palindromo.pas,palindromo.java,palindromo.jsoupalindromo.pyUma cadeia de caracteres é chamada de palíndromo se a sequência de caracteres da esquerda paraa direita é igual à sequência de caracteres da direita para a esquerda (uma outra denição é que oprimeiro caractere da cadeia deve ser igual ao último caractere da cadeia, o segundo caractere deveser igual ao penúltimo caractere, o terceiro caractere deve ser igual ao antepenúltimo caractere, eassim por diante).Por exemplo, as cadeias de caracteres ‘mim’, ‘axxa’ e ‘ananaganana’ são exemplos de palíndromos.Se uma cadeia não é palíndroma, ela pode ser dividida em cadeias menores que são palíndromas.Por exemplo, a cadeia ‘aaxyx’ pode ser dividida de quatro maneiras distintas, todas elas contendoapenas cadeias palíndromas: {‘aa’, ‘xyx’}, {‘aa’, ‘x’, ‘y’, ‘x’}, {‘a’, ‘a’, ‘xyx’} e {‘a’, ‘a’, ‘x’, ‘y’, ‘x’}.Dada uma cadeia de caracteres, escreva um programa que determine qual o menor número de partesem que a dada cadeia deve ser dividida de forma que todas as partes sejam palíndromos.
+Entrada
+A primeira linha contém um número inteiroNque indica o número de caracteres da cadeia. Asegunda linha contém a cadeia de caracteres, composta por letras minúsculas, de ‘a’ a ‘z’, semespaços em branco.
+Saída
+Seu programa deve produzir uma única linha, contendo um número inteiro, o menor número departes em que a cadeia de entrada deve ser dividida de forma que todas as partes sejam palíndromes.
+Restrições
+•1≤N≤2000•A cadeia de caracteres contém apenas letras minúsculas não acentuadas (‘a’ a ‘z’).
+Informações sobre a pontuação
+•Em um conjunto de casos de teste somando 20 pontos,N≤8•Em um conjunto de casos de teste somando 40 pontos,N≤300
+Exemplos
+Entrada3axa Saída1
+Entrada6xyzyyx Saída4
+Entrada10bbabcbbaab Saída4

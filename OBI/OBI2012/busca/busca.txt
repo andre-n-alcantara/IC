@@ -1,0 +1,12 @@
+Olimpíada Brasileira de Informática – OBI2012 3
+Busca na Internet
+Nome do arquivo fonte:busca.c,busca.cpp,busca.pas,busca.java,oubusca.pyJoão fez uma pesquisa em seu site de busca predileto, e encontrou a resposta que estava procurando no terceirolink listado. Além disso, ele viu, pelo site, quetpessoas já haviam clicado neste link antes. João havia lidoanteriormente, também na Internet, que o número de pessoas que clicam no segundo link listado é o dobro denúmero de pessoas que clicam no terceiro link listado. Nessa leitura, ele também descobriu que o número depessoas que clicam no segundo link é a metade do número de pessoas que clicam no primeiro link.João está intrigado para saber quantas pessoas clicaram no primeiro link da busca, e, como você é amigo dele,quer sua ajuda nesta tarefa.
+Entrada
+Cada caso de teste possui apenas um número,t, que representa o número de pessoas que clicaram no terceirolink da busca.
+Saída
+Para cada caso de teste imprima apenas uma linha, contendo apenas um inteiro, indicando quantas pessoasclicaram no primeiro link, nessa busca.
+Restrições
+•1≤t≤1000
+Exemplos
+Entrada2 Saída8
+Entrada25 Saída100

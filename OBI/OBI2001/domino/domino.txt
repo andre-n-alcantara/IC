@@ -1,0 +1,10 @@
+40Dominó
+Arquivo fonte: domino.c, domino.cc, domino.cpp ou domino.pasTodos conhecem o jogo de dominós, em que peças com dois valores devem ser colocadas na mesaem seqüência, de tal forma que os valores de peças imediatamente vizinhas sejam iguais. O obje-tivo desta tarefa é determinar se é possível colocar todas as peças de um conjunto dado em umaformação válida.Conjunto de seis peças (a) e uma formação utilizando todas as seis peças (b)
+1. Tarefa
+É dado um conjuto de peças de dominó. Cada peça tem dois valores X e Y, com X e Y variando de0 a 6 (X pode ser igual a Y). Sua tarefa é escrever um programa que determine se é possível orga-nizar todas as peças recebidas em seqüência, obedecendo as regras do jogo de dominó.
+2.  Entrada
+A entrada é composta de vários conjuntos de teste. A primeira linha de um conjunto de testes con-tém um número inteiro N que indica a quantidade de peças do conjunto. As N linhas seguintescontêm, cada uma, a descrição de uma peça. Uma peça é descrita por dois inteiros X e Y (0 ≤ X ≤6 e 0 ≤ Y ≤ 6) que representam os valores de cada lado da peça. O ﬁnal da entrada é indicado porN = 0.Exemplo de Entrada3 0 12 12 121 10 06(b)(a)53 00 01 64 10 62 30
+3. Saída
+Para cada conjunto de teste da entrada seu programa deve produzir três linhas na saída. A primeiralinha deve conter um identiﬁcador do conjunto de teste, no formato “Testen”, ondené numeradoa partir de 1. A segunda linha deve conter a expressão “sim” se for possível organizar todas aspeças em uma formação válida ou a expressão “nao” (note a ausência de acento) caso contrário. Aterceira linha deve ser deixada em branco. A graﬁa mostrada no Exemplo de Saída, abaixo, deveser seguida rigorosamente. Exemplo de SaídaTeste 1simTeste 2 naoTeste 3sim(esta saída corresponde ao exemplo de entrada acima)
+4. Restrições
+0 ≤ N ≤ 100 (N = 0 apenas para indicar o ﬁnal da entrada)

@@ -1,0 +1,12 @@
+Olimp´ıada Brasileira de Inform´ atica – OBI2008 – Programa¸ c˜ ao N´ıvel 2 Fase 1 8
+Ogros
+Nome do arquivo fonte:ogros.c,ogros.cppouogros.pasOgros marcianos, como todos sabem, s˜ ao extremamente fortes. Numa feira de circo marciano, ogros s˜ ao chama-dos para bater um martelo num aparelho que mede sua for¸ ca. O ogro ganha um determinado prˆ emio dependendoda faixa de for¸ ca que alcan¸ cou (por exemplo, se a for¸ ca alcan¸ cada foi entre 0 e 5, ganha 10 pontos. Se for entre6 e 10, ganha 30). S˜ ao poss´ıveisNpremia¸ c˜ oes, paraNfaixas de for¸ ca alcan¸ cadas.Vocˆ e deve escrever um programa que recebe quais s˜ ao as faixas de for¸ cas e suas respectivas premia¸ c˜ oes. Emseguida, o programa recebe a for¸ ca alcan¸ cada por M ogros, e deve calcular quanto cada ogro recebeu de pre-mia¸ c˜ ao.
+Entrada
+A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). A primeira linha cont´ em dois inteirosNeM(2≤N≤10.000, 1<=M<= 10.000), representandorespectivamente o n´ umero de faixas de premia¸ c˜ oes e o n´ umero de ogros cuja for¸ ca foi medida.A segunda linha de um caso de teste contemN−1 inteirosA i(Ai−1< Ai< Ai+1, 1≤A i≤1.000.000.000). A primeira faixa de premia¸ c˜ ao ´ e dada por for¸ cas menores queA
+1. A i-´ esima faixa de premia¸ c˜ ao ´ e composta dasfor¸ cas que s˜ ao maiores ou iguais aA
+i−1e menores queA i. A n-´ esima pontua¸ c˜ ao ´ e composta das for¸ cas maioresou iguais aAN−1.A terceira linha contemNinteirosF i(1≤F i≤1.000.000.000,F i−1< F i< F i+1) em ordem crescente,representando a premia¸ c˜ ao de cada faixa de premia¸ c˜ ao, nesta ordem.A quarta e ´ ultima linha de um caso de teste contˆ emMinteirosO i(1≤O i≤1.000.000.000), um para cadaogro, representando qual for¸ ca cada ogro alcan¸ cou.
+Sa´ıda
+Seu programa deve imprimir, nasa´ıda padr˜ ao, uma ´ unica linha, contendoMinteiros, um para cada ogro, naordem dada pela entrada, representando qual premia¸ c˜ ao cada ogro recebeu pela sua for¸ ca alcan¸ cada.
+Exemplo de entrada3 43 51 4 72 3 9 4 Exemplo de sa´ıda1 4 7 4
+Exemplo de entrada2 1045 2001 3 4 5 5 6 2 1 3 4 Exemplo de sa´ıda5 5 200 200 200 200 5 5 5 200
+Exemplo de entrada10 11 2 3 4 5 6 7 8 91 10 100 101 102 103 104 105 106 2005 Exemplo de sa´ıda103

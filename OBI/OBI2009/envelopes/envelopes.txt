@@ -1,0 +1,16 @@
+Olimp´ıada Brasileira de Inform´ atica – OBI2009 5
+N´ umero de Envelopes
+Nome do arquivo fonte:envelopes.c,envelopes.cpp,ouenvelopes.pasAldo ´ e um garoto muito esperto que adora promo¸ c˜ oes e sorteios. Como j´ a participou de muitas promo¸ c˜ oes daforma “para participar, envienr´ otulos de produtos ...”, Aldo tem o costume de guardar o r´ otulo de todos osprodutos que compra. Dessa forma, sempre que uma empresa faz uma promo¸ c˜ ao ele j´ a tem um monte de r´ otulospara mandar.A SBC (Super Balas e Caramelos) est´ a fazendo uma nova promo¸ c˜ ao, e, como era de se esperar, Aldo querparticipar. Para participar da promo¸ c˜ ao ´ e preciso enviar um envelope contendo um r´ otulo de cada tipo de balaque a SBC produz. Por exemplo, se a SBC produz 3 tipos de balas, A, B, C, e uma pessoa tem 3 r´ otulos de A,3 de B e 2 de C, ela pode enviar no m´ aximo 2 envelopes, j´ a que falta um r´ otulo de C para compor o terceiroenvelope. N˜ ao h´ a limite para o n´ umero de envelopes que uma pessoa pode enviar.Balas s˜ ao a segunda coisa de que Aldo mais gosta (a primeira como vocˆ e sabe s˜ ao promo¸ c˜ oes). Por causa disso aquantidade de r´ otulos de balas que ele tem ´ e muito grande, e ele n˜ ao est´ a conseguindo determinar a quantidadem´ axima de envelopes que ele pode enviar.Como vocˆ e ´ e o melhor amigo de Aldo ele pediu sua ajuda para fazer o c´ alculo, de modo que ele compre o n´ umeroexato de envelopes.
+Tarefa
+Vocˆ e deve escrever um programa que, a partir da lista de r´ otulos de Aldo, calcula o n´ umero m´ aximo de envelopesv´ alidos que ele pode enviar.
+Entrada
+A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado).A primeira linha cont´ em dois n´ umeros inteirosN(1≤N≤1000000) eK(1≤K≤1000) representandorespectivamente a quantidade de r´ otulos de balas que Aldo possui e o n´ umero de tipos diferentes de bala quea SBC produz. Os tipos de balas s˜ ao identicados por inteiros de 1 aK. A segunda linha cont´ emNn´ umerosinteirosX
+i, cada um representando um r´ otulo de bala que Aldo possui (1≤X i≤K, para 1≤i≤N).
+Sa´ıda
+Seu programa deve imprimir, nasa´ıda padr˜ ao, o n´ umero m´ aximo de envelopes v´ alidos que Aldo pode enviar.
+Informa¸ c˜ oes sobre a pontua¸ c˜ ao
+•Em um conjunto de casos de teste que totaliza 30 pontos,N≤10 eX i≤10.•Em um conjunto de casos de teste que totaliza 80 pontos,N≤100 eX
+i≤100.Olimp´ıada Brasileira de Inform´ atica – OBI2009 6
+Exemplos
+Entrada10 21 1 1 1 1 2 2 2 2 2 Sa´ıda5
+Entrada20 51 2 3 4 1 2 3 4 1 2 3 4 5 1 2 3 4 5 44 Sa´ıda2

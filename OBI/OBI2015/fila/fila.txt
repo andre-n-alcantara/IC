@@ -1,0 +1,19 @@
+Olimpíada Brasileira de Informática – OBI2015 9
+Fila
+Nome do arquivo:fila.c,fila.cpp,fila.pas,fila.java,fila.jsoufila.pyNa cerimônia de encerramento da IOI, os competidores formam umala à medida que vão chegandoao local. Os competidores são desorganizados e entram nala perto de seus novos amigos, ou seja,cada competidor escolhe uma posição arbitrária dala para entrar. Logo na entrada do local háum telão que mostra fotograas e vídeos dos competidores durante a competição. Há uma grandediferença entre as alturas dos competidores, inclusive pelas diferenças de idade, e para que todospossam ver o telão, deve-se evitar que um competidor muito altoque na frente de um competidormuito baixo, a não ser que esse competidor mais alto esteja longe, mais à frente nala.A organização da IOI está monitorando ala e pediu que você faça um programa que inicialmentereceba a descrição dala inicial (númeroNde pessoas e suas alturasA
+1, A2, . . . , A N, pela ordemnala, ondeA
+1é a altura do primeiro dala). Em seguida, seu programa deve processar dois tiposde operações:•na operação tipo 0, seu programa recebe a informação que um novo competidor, de alturaH,acabou de entrar nala, exatamente atrás doI-ésimo competidor nala (paraI= 0o novocompetidor entrou no começo dala)•na operação tipo 1, seu programa recebe dois inteiros,IeD, e deve responder a uma consulta:considere aI-ésima pessoa nala, digamos,P, e determine a posição nala da pessoa maispróxima dePque está à frente dePe cuja altura é maior do queH
+I+D(ondeH Ié a alturadeP).
+Entrada
+A primeira linha da entrada contém um único número inteiroN, indicando o número de pessoas nala inicial. A segunda linha da entrada contém osNnúmeros inteirosA
+1, A2, . . . , A N, as alturas decada pessoa dala. A terceira linha contém um único inteiroQindicando o número de operações.Cada uma dasQlinhas seguintes contém três números inteiros númerosT,IeX, descrevendo umaoperação:Tindica o tipo da operação,Irepresenta uma posição nala eXé a alturaHdo novocompetidor (na operação tipo 0) ou o parâmetroD(na operação do tipo 1).
+Restrições
+•0≤N≤6×105
+•1≤Q≤6×105
+•1≤A i≤109para todoi,1≤i≤N•1≤X≤10
+9
+Informações sobre a pontuação
+•Em um conjunto de casos de testes somando 40 pontos,N≤2×105,Q≤2×105e todas asoperações são do tipo1;•Em um conjunto de casos de testes somando 80 pontos,N≤2×10
+5eQ≤2×105.Olimpíada Brasileira de Informática – OBI2015 10
+Exemplos
+Entrada510 5 7 8 261 5 60 1 111 6 60 0 131 6 41 6 5Saída1210

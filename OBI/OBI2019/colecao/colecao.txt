@@ -1,0 +1,19 @@
+Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível 1 – Fase Nacional2
+Coleção de Upas
+Nome do arquivo:colecao.c,colecao.cpp,colecao.pas,colecao.java,colecao.js,colecao_py2.pyoucolecao_py3.py
+Mayuri é uma jovem que adora colecionar Upas. Ela está sempre procurando pelos melhores Upaspara melhorar sua coleção. Cada Upa possui uma cor única e como Mayuri é muito perfeccionistaela não acha que todas cores combinam juntas, então ela resolveu escrever uma lista com pares decores que não combinam. No entanto, ela está muito confusa em como organizar sua coleção, poisexistem Upas mais raros que outros e por isso ela também precisa manter sempre os Upas maisraros.Sua coleção é composta porNUpas e ela possui exatamente um Upa de cada cor entre1eN. UmUpa de coripossui raridade igual a2
+i. Dada a coleção atual de Upas de Mayuri, informe quaisUpas ela deve manter na sua coleção de modo que todos os Upas possuem cores que combinamentre si e tal que a soma das raridades de todos os Upas é maior possível.
+Entrada
+A primeira linha da entrada contém dois números inteirosNeM, indicando respectivamente onúmero de Upas e o tamanho da lista de pares de cores que não combinam. As próximasMlinhascontêm, cada uma, dois inteirosUeV, indicando que as coresUeVnão combinam.
+Saída
+Seu programa deve produzir duas linhas de saída. A primeira linha da saída é composta por uminteiroQindicando a quantidade de Upas que Mayuri deve manter na coleção. A segunda linha dasaída deve ser composta porQinteiros, indicando quais Upas ela manter na coleção,em ordemcrescente de cor.
+Restrições
+•1≤N,M≤105.•1≤U, V≤NeU6=V•Mayuri possui exatamente um Upa para cada cor entre1eN•É garantido que existe exatamente uma única resposta
+Informações sobre a pontuação
+•Para um conjunto de casos de testes valendo 20 pontos,1≤N≤10e1≤M≤15.•Para um conjunto de casos de testes valendo outros 20 pontos,1≤N≤15e1≤M≤30.•Para um conjunto de casos de testes valendo outros 20 pontos,1≤N,M≤1000.•Para um conjunto de casos de testes valendo outros 40 pontos, não existem restrições adicio-nais.
+Exemplo de entrada 1
+10 410 98 78 61 2Exemplo de saída 1
+62 3 4 5 8 10Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível 1 – Fase Nacional3
+Exemplo de entrada 2
+13 1912 112 212 312 410 513 63 71 81 911 107 1112 131 59 136 28 118 711 37 12Exemplo de saída 2
+52 4 5 11 13

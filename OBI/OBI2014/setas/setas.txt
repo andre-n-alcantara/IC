@@ -1,0 +1,17 @@
+Olimpíada Brasileira de Informática – OBI2014 3
+Setas
+Nome do arquivo fonte:setas.c,setas.cpp,setas.pas,setas.java,ousetas.pyGabriel é um garoto que gosta muito de um jogo onde há várias letras em um tabuleiro e o jogadorprecisa rapidamente pisar nas letras corretas, de acordo com as instruções na tela, seguindo umamúsica. Cansado de vencer, Gabriel inventou um novo jogo: agora temos um tabuleiro quadrado,comNcélulas de cada lado, em que cada célula possui umasetaque aponta para uma das quatroposições vizinhas. O jogador primeiro escolhe uma célula inicial para se posicionar e, quando amúsica começa, ele deve caminhar na direção para onde a seta em que ele está aponta. Ganha ojogo quem pisar em mais setas corretas durante um período de tempo.O problema é que Gabriel joga tão rápido que quando a seta atual manda ele sair do tabuleiro,ele segue a orientação, muitas vezes quebrando alguns objetos próximos. Quando isso acontece,dizemos que a célula inicial deste jogo não é segura, pois leva a um caminho que termina fora dotabuleiro. Agura abaixo mostra dois tabuleiros.
+Tabuleiro 3x3 com oitocélulas seguras
+Tabuleiro 4x4 com onzecélulas seguras
+Ajude Gabriel: dada a conguração do tabuleiro, determine quantas células são seguras para eleiniciar o jogo.
+Entrada
+A primeira linha da entrada contém um inteiroN, o tamanho do tabuleiro. Cada uma dasNlinhasseguintes contémNcaracteres, com as direções das setas. As direções válidas são:•‘V’ Aponta para a célula da linha abaixo, na mesma coluna•‘<’ (sinal menor-que) aponta para a célula à esquerda, na mesma linha•‘>’ (sinal maior-que) aponta para a célula à direita, na mesma linha•‘A’ Aponta para a célula da linha acima, na mesma coluna
+Saída
+Seu programa deve produzir um único inteiro, o número de células seguras.
+Restrições
+•1≤N≤500Olimpíada Brasileira de Informática – OBI2014 4
+Informações sobre a pontuação
+•Em um subconjunto dos casos totalizando 50 pontos,1≤N≤50.
+Exemplos
+Entrada3>>VAV<A<> Saída8
+Entrada4>>V<A<<<AAA>>>>ASaída11

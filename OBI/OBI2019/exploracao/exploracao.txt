@@ -1,0 +1,32 @@
+Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível 2 – Fase Nacional5
+Exploração do Capitão Levi
+Nome do arquivo:exploracao.c,exploracao.cpp,exploracao.pas,exploracao.java,exploracao.js,exploracao_py2.pyouexploracao_py3.py
+O Capitão Levi está indo para mais uma expedição pela tropa de exploração e, como sempre, eleresolveu olhar o mapa do local que ele e sua equipe estavam a caminho para que pudessem criar amelhor estratégia possível. Como todos sabem, a tropa de exploração é responsável por enfrentartitãs e deixar os habitantes da cidade mais protegidos.O mapa do local pode ser resumido a um plano cartesiano e os titãs podem ser representados comopontos nesse plano. No entanto, seu dispositivo de manobra bidimensional(DMB) está defeituoso eagora Levi só consegue se locomover de um titã para outro titã durante o combate se eles estão emuma determinada direção, um em relação ao outro.Se existe um titã no pontoA= (X
+a,Ya)e um outro titã no pontoB= (X b,Yb)ele consegue ir de Apra B se o coeciente angular da reta que passa pelos pontosAeBfor maior ou igual a
+P
+Q. Observeque os pontosAeBdevem ser distintos e que não existem pontos com a mesma coordenadaX.Levi quer contar quantos pares de pontos distintosAeBexistem, tais que há um titã em A e emB e ele consegue ir de A para B, ou seja
+Ya−Yb
+Xa−Xb≥P
+Q.No entanto, existem muitos titãs no mapa e por isso Levi pediu sua ajuda para contabilizar ospares, lembrando que o par (A,B) e (B,A) são o mesmo par, ou seja, a ordem dos pontos não fazdiferença.
+Entrada
+A primeira linha da entrada contém três números inteirosN,PeQ, indicando respectivamente aquantidade de titãs, e os dois inteiros descritos no enunciado. Cada uma dasNlinhas seguintescontém dois inteirosXeY, indicando as coordenadas de um titã.
+Saída
+A saída consiste em um único número inteiro, representando a quantidade de pares de titãs entreos quais Levi pode se locomover respeitando as condições do enunciado.
+Restrições
+•2≤N≤5∗105
+•−109≤P,Q≤109
+•P6= 0eQ6= 0•1≤X,Y≤10
+7
+•Não existem dois titãs com a mesma coordenadaX
+Informações sobre a pontuação
+•Para um conjunto de casos de testes valendo 15 pontos,2≤N≤103,P= 1eQ= 1.•Para um conjunto de casos de testes valendo 20 pontos,2≤N≤6∗10
+4,P= 1eQ= 1.•Para um conjunto de casos de testes valendo 15 pontos, todos os titãs estão sobre uma mesmareta.•Para um conjunto de casos de testes valendo 20 pontos,P >0eQ >0.•Para um conjunto de casos de testes valendo 30 pontos, não há restrições adicionais.Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível 2 – Fase Nacional6
+Exemplo de entrada 1
+6 1 11 14 62 58 27 16 10Exemplo de saída 1
+6
+Exemplo de entrada 2
+6 1 17 71 12 216 1611 11200 200Exemplo de saída 2
+15
+Exemplo de entrada 3
+8 418732 64193660693 2859515649 5708977335 9215857291 2524221420 5659962278 5810652009 1236241982 64916Exemplo de saída 3
+11

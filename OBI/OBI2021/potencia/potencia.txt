@@ -1,0 +1,28 @@
+Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível Júnior – Fase Fase 2 (Turno B)5
+Potência
+Nome do arquivo:“potencia.x”,ondexdeve serc,cpp,pas,java,jsoupyA profa. Vilma preparou uma tarefa de programação sobre aoperação de potenciação. Paralembrar, seja um número realne um número inteiropigual ou maior do que zero, então a operaçãode potenciaçãon
+ptem o valor denmultiplicado por ele mesmopvezes (sep= 0o resultado daoperação de potenciação é 1). Por exemplo,2
+3= 2×2×2 = 8e1020= 1.A tarefa preparada pela profa. Vilma foi a seguinte:Escreva um programa para calcular o valor dasseguintes expressões contendo operações de potenciação:2
+4+ 123
+3003+ 152+ 42
+Veja que cada termo das expressões tem a formanpondenepsão números inteiros eptem apenasum dígito decimal.No entanto, quando a profa. Vilma colocou o enunciado da tarefa na Internet, a formatação doenunciado foi corrompida, fazendo com que as expressões aparecessem assim para os alunos:24 + 1233003 + 152 + 42Note que por exemplo2
+4virou24,123virou123,3003virou3003e assim por diante, ou seja, asoperações de potenciação desapareceram!Nesta tarefa, você deve escrever um programa para calcular o valor das expressões da tarefa originalda profa. Vilma, sabendo que a formatação do enunciado foi corrompida conforme explicado acima.
+Entrada
+A primeira linha da entrada contém um número inteiroN, o número de termos da expressão. Cadauma dasNlinhas seguintes contém um inteiroT
+i, indicando um termo da expressão com formataçãocorrompida.
+Saída
+Seu programa deve produzir uma linha, contendo um único número inteiro, o valor da soma dostermos da expressão, sabendo que a formatação dos termos foi corrompida como explicado acima.
+Restrições
+•1≤N≤10•10≤T
+i≤9999para1≤i≤N•O resultado é menor do que10
+9.
+Exemplos
+Exemplo de entrada 1
+224123Exemplo de saída 1
+1744Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível Júnior – Fase Fase 2 (Turno B)6
+Exemplo de entrada 2
+330315242Exemplo de saída 2
+27241
+Exemplo de entrada 3
+6121324203143Exemplo de saída 3
+86

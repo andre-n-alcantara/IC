@@ -1,0 +1,23 @@
+Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível Júnior – Fase Estadual4
+Pesos
+Nome do arquivo:“pesos.x”,ondexdeve serc|cpp|pas|java|js|py2|py3Uma fábrica instalou um elevador composto de duas cabines ligadaspor uma roldana, como nagura. Quando uma cabine sobe, aoutra desce. No primeiro andar da fábrica existem algumas caixasde pesos diversos e precisamos levar todas as caixas para o segundoandar, usando o elevador. Apenas uma caixa pode ser colocadapor vez dentro de uma cabine. Além disso, existe uma restrição desegurança importante: durante uma viagem do elevador, a diferençade peso entre as cabines pode ser no máximo de 8 unidades. Deforma mais rigorosa,P−Q≤8, ondePé o peso da cabine maispesada eQ, o peso da cabine mais leve. O gerente da fábrica nãoestá preocupado com o número de viagens que o elevador vai fazer.Ele apenas precisa saber se é possível ou não levar todas as caixaspara o segundo andar. No exemplo dagura, podemos levar todas astrês caixas usando a seguinte sequência de seis viagens do elevador:
+1. Sobe a caixa de peso 4, desce a outra cabine vazia;(diferença de 4)2. Sobe a caixa de peso 10, desce a caixa de peso 4;(diferença de 6)3. Sobe a caixa de peso 15, desce a caixa de peso 10;(diferença de 5)4. Sobe a caixa de peso 4, desce a outra cabine vazia;(diferença de 4)5. Sobe a caixa de peso 10, desce a caixa de peso 4;(diferença de 6)6. Sobe a caixa de peso 4, desce a outra cabine vazia.(diferença de 4)Dados os pesos deNcaixas no primeiro andar, em ordem crescente, seu programa deve determinarse é possível ou não levar todas asNcaixas para o segundo andar.
+Entrada
+A primeira linha da entrada contém um inteiroNindicando o número de caixas. A segunda linhada entrada contémNinteiros representando os pesos das caixas, em ordem crescente.
+Saída
+Imprima uma linha na saída. A linha deve conter o caracterScaso seja possível, ouNcaso não sejapossível levar todas as caixas até o segundo andar da fábrica.
+Restrições
+•1≤N≤104
+•O peso das caixas está entre1e105, inclusive.
+Exemplo de entrada 1
+34 10 15Exemplo de saída 1
+S
+Exemplo de entrada 2
+82 6 15 20 25 35 35 40Exemplo de saída 2
+NOlimpíada Brasileira de Informática – OBI2018 – Prog. Nível Júnior – Fase Estadual5
+Exemplo de entrada 3
+410 14 20 23Exemplo de saída 3
+N
+Exemplo de entrada 4
+18Exemplo de saída 4
+S

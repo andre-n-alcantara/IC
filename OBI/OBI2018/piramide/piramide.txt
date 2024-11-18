@@ -1,0 +1,17 @@
+Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível 1 – Fase Local4
+Pirâmide
+Nome do arquivo:“piramide.x”,ondexdeve sercpp,pas,java,js,py2oupy3No depósito da fábrica, encostada numa parede, existe uma matriz deNlinhas porNcolunas decaixas empilhadas. Cada caixa possui um peso inteiro positivo associado. O inspetor da fábricaprecisa retirar algumas caixas da matriz de modo a deixar uma espécie de pirâmide de caixassatisfazendo as seguintes restrições:•Se uma caixa está na pirâmide, a caixa imediatamente abaixo dela também deve estar napirâmide;•Nai-ésima linha de caixas (a linha1é a do topo da matriz), a pirâmide deve ter exatamenteicaixas consecutivas.Dados os pesos de todas as caixas na matriz, seu programa deve calcular o peso total mínimo queuma pirâmide poderá ter, se o inspetor retirar algumas caixas segundo as restrições acima.
+Entrada
+A primeira linha da entrada contém um inteiroN, indicando a dimensão da matriz. AsNlinhasseguintes contêm, cada uma,Ninteiros representando os pesos das caixas em cada linha da matrizde caixas.
+Saída
+Seu programa deve produzir uma única linha, contendo um inteiro, indicando o peso total mínimoque a pirâmide poderá ter.
+Restrições
+•1≤N≤100•Os valor dos elementos da matriz está entre1e100, inclusive.
+Informações sobre a pontuação
+•Para um conjunto de casos de testes valendo 20 pontos,N≤20.
+Exemplo de entrada 1
+35 2 43 6 710 5 10Exemplo de saída 1
+36
+Exemplo de entrada 2
+445 8 3 11 10 5 674 4 3 1810 4 7 12Exemplo de saída 2
+62

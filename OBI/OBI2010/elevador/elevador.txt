@@ -1,0 +1,13 @@
+Olimp´ıada Brasileira de Inform´ atica – OBI2010 5
+Elevador
+Nome do arquivo fonte:elevador.c,elevador.cpp,ouelevador.pasA Subindo Bem Confortavelmente (SBC) ´ e uma empresa tradicional, com mais de 50 anos de experiˆ enciana fabrica¸ c˜ ao de elevadores. Todos os projetos da SBC seguem as mais estritas normas de seguran¸ ca, masinfelizmente uma s´ erie de acidentes com seus elevadores manchou a reputa¸ c˜ ao da empresa.Ao estudar os acidentes, os engenheiros da companhia conclu´ıram que, em v´ arios casos, o acidente foi causadopelo excesso de passageiros no elevador. Por isso, a SBC decidiuscalizar com mais rigor o uso de seus elevadores:foi instalado um sensor em cada porta que detecta a quantidade de pessoas que saem e entram em cada andardo elevador.A SBC tem os registros do sensor de todo um dia de funcionamento do elevador (que sempre come¸ ca vazio).Eles sabem que as pessoas s˜ ao educadas e sempre deixam todos os passageiros que ir˜ ao sair em um andar sa´ıremantes de outros passageiros entrarem no elevador, mas ainda assim eles tˆ em tido diculdade em decidir se acapacidade m´ axima do elevador foi excedida ou n˜ ao.
+Tarefa
+Escreva um programa que, dada uma sequˆ encia de leituras do sensor e a capacidade m´ axima do elevador,determina se a capacidade m´ axima do elevador foi excedida em algum momento.
+Entrada
+A primeira linha da entrada cont´ em dois inteirosNeC, indicando o n´ umero de leituras realizadas pelo sensore a capacidade m´ axima do elevador, respectivamente (1≤N≤1000 e 1≤C≤1000). AsNlinhas seguintescontˆ em, cada uma, uma leitura do sensor. Cada uma dessas linhas cont´ em dois inteirosSeE, indicando quantaspessoas sa´ıram e quantas pessoas entraram naquele andar, respectivamente (0≤S≤1000 e 0≤E≤1000).
+Sa´ıda
+Seu programa deve imprimir uma ´ unica linha contendo o caractere ‘S’, caso a capacidade do elevador tenha sidoexcedida em algum momento, ou o caractere ‘N’ caso contr´ ario.Olimp´ıada Brasileira de Inform´ atica – OBI2010 6
+Exemplos
+Entrada5 100 52 73 35 27 0Sa´ıdaN
+Entrada5 100 30 50 23 46 4Sa´ıdaS
+Entrada6 40 53 54 51 01 11 1Sa´ıdaS

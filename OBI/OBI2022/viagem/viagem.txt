@@ -1,0 +1,30 @@
+Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível 2 – Fase 2 7
+Viagem
+Nome do arquivo:viagem.c,viagem.cpp,viagem.pas,viagem.java,viagem.jsouviagem.pyVocê está viajando pelo arquipélago de Kiri, que é composto por um grande número de ilhas. Nãohá pontes entre as ilhas, de modo que a única maneira de viajar entre as ilhas é por navio.Há várias rotas de navios disponíveis. Cada rota conecta duas ilhas distintasAeBe pode ser usadanas duas direções (deAparaBou deBparaA). Cada rota tem um certo tempo de percurso (omesmo nas duas direções) e um custo (o mesmo nas duas direções).No momento você quer ir da ilhaXpara outra ilhaY, mas quer gastar no máximo um certo valorcom a viagem. Você também está com pressa e gostaria de chegar o mais rapidamente possível aoseu destino.Dados a lista das rotas disponíveis, com seus custos e tempos de percurso, escreva um programapara determinar se é possível chegar ao destino gastando no máximo o valor previsto para a viagem,e nesse caso qual o menor tempo para chegar ao destino. Note que pode não ser possível chegar aodestino, seja porque não há rota disponível ou porque o valor alocado para a viagem não é suciente.Por exemplo, considere o caso mostrado nagura abaixo, em que você está na ilha 1 e quer ir paraa ilha 4:
+T= 6, P=12T= 1, P= 6
+T= 4, P= 4
+T= tempo do percursoP = custo da passagem T= 7, P= 2
+T= 1, P= 1T= 8, P= 141
+32
+T= 2, P= 2
+1. Se o valor previsto é 10, a resposta é 5 e o caminho ótimo é1→2→4. Note que este caminhocusta4 + 6 = 10e demora tempo4 + 1 = 5.2. Se o valor previsto é 7, a resposta é 7 e o caminho ótimo é1→2→3→4, que custa4 + 2 + 1 = 7e demora tempo4 + 2 + 1 = 7.3. Se o valor previsto é 3, a resposta é 8 e o caminho ótimo é1−>3−>4, usando a arestaentre 1 e 3 que demora tempo 7 e tem custo 2. Note que este caminho custa2 + 1 = 3edemora tempo7 + 1 = 8.4. Se o valor previsto é 2, a resposta é 9 e o caminho ótimo é1−>3−>4, usando a aresta entre1 e 3 que demora tempo 8 e tem custo 1, note que este caminho custa1 + 1 = 2e demoratempo8 + 1 = 9.5. Se o valor previsto é 1, não existe caminho que satisfaça as restrições, por isso a resposta é−1.
+Entrada
+A primeira linha da entrada contém três inteirosV,NeM, respectivamente o valor disponível paraa viagem, o número de ilhas e o número de rotas. As ilhas são identicadas por inteiros de 1 aN.Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível 2 – Fase 2 8 Cada uma dasMlinhas seguintes descreve uma rota e contém quatro inteirosA i,Bi,TiePi, ondeA
+ieBirepresentam ilhas,T io tempo de percurso eP io custo de uma passagem para essa rota. Aúltima linha da entrada contém dois inteirosXeY, o início e o destino da sua viagem.
+Saída
+Seu programa deve produzir uma única linha na saída, que deve conter um único inteiro, o menortempo necessário para chegar ao destino, ou o valor−1caso não seja possível chegar ao destino.
+Restrições
+•2≤N≤10 000•1≤M≤2 000•1≤V≤200•1≤A
+i, Bi≤N,A i6=B i, para1≤i≤M.•Pode haver mais de uma rota entre o mesmo par de ilhas.•1≤T
+i≤100 000, para1≤i≤M.•0≤P
+i≤200, para1≤i≤M.•1≤X, Y≤N
+Informações sobre a pontuação
+•Para um conjunto de casos de testes valendo 20 pontos,N≤200eP i= 0para1≤i≤M.•Para um conjunto de casos de testes valendo outros 10 pontos,N≤10 000eP
+i= 0para1≤i≤M.•Para um conjunto de casos de testes valendo outros 30 pontos,N≤100eV≤10.•Para um conjunto de casos de testes valendo outros 40 pontos, nenhuma restrição adicional.
+Exemplos
+Exemplo de entrada 1
+10 4 71 2 4 41 3 7 23 1 8 13 2 2 24 2 1 63 4 1 11 4 6 121 4Exemplo de saída 1
+5
+Exemplo de entrada 2
+3 3 31 2 5 23 2 8 21 3 1 41 3Exemplo de saída 2
+-1

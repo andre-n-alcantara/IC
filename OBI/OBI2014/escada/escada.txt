@@ -1,0 +1,17 @@
+Olimpíada Brasileira de Informática – OBI2014 8
+Matriz Escada
+Nome do arquivo fonte:escada.c,escada.cpp,escada.pas,escada.java,ouescada.py
+Joãozinho está aprendendo sobre matrizes. Hoje ele aprendeu como deixar matrizes na forma escada, e estáexercitando. Para ajudá-lo, você deve escrever um programa que determine se o resultado dele realmenteestá no formato correto.Uma matriz está na forma escada quando, para cada linha, as condições a seguir forem satisfeitas:•Se a linha só possuir zeros, então todas as linhas abaixo desta também só possuem zeros.•Caso contrário, seja X o elemento diferente de zero mais à esquerda da linha; então, para todas aslinhas abaixo da linha de X, todos os elementos nas colunas à esquerda de X e na coluna de X sãoiguais a zero.
+Entrada
+A primeira linha possui dois inteirosNeM, as dimensões da matriz. Cada uma dasNlinhas seguintescontémMinteiros não-negativos, os elementos da matriz.
+Saída
+Seu programa deve produzir uma única linha, contendo o caractere ‘S’ caso a matriz esteja no formatoescada, ou ‘N’, caso contrário.
+Restrições
+•1≤N≤500e1≤M≤500.•Cada elemento da matriz está entre 0 e10
+5.
+Informações sobre a pontuação
+•Em um conjunto de casos de teste equivalente a 80 pontos,N≤50eM≤50.
+Exemplos
+Entrada4 61 2 9 9 9 90 0 3 9 9 90 0 0 0 5 90 0 0 0 0 6SaídaS
+Entrada5 80 5 1 0 3 2 2 00 0 0 0 4 0 1 20 0 0 0 0 0 3 20 0 0 0 0 0 0 00 0 0 0 0 0 0 0SaídaSOlimpíada Brasileira de Informática – OBI2014 9
+Entrada5 51 1 2 3 40 1 1 4 50 1 2 3 60 0 0 2 00 0 0 0 0SaídaN

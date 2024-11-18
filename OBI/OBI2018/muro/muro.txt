@@ -1,0 +1,30 @@
+Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível 2 – Fase Nacional4
+Muro
+Nome do arquivo:“muro.x”,ondexdeve serc|cpp|pas|java|js|py2|py3Nós temos dois tipos de tijolos, como mostrado na parte esquerda dagura abaixo. A ideia éconstruir uma mureta de altura2e comprimentoN. A parte direita dagura ilustra uma formade usar os dois tipos de tijolos para construir uma mureta de comprimentoN= 12.
+Precisamos saber quantas formas distintas existem de construir a mureta com esses dois tipos detijolos. Para isso, já temos duas observações: qualquer mureta de comprimentoNvai terminar deuma das sete maneiras ilustradas abaixo e; o número de formas distintas de construir uma muretade comprimento2,1e0é, respectivamente,5,1e1(Sim! Existe uma forma de construir a muretade comprimento0: usar nenhum tijolo).
+DadoN, seu programa deve computar o número de formas distintas de construir uma mureta decomprimentoN. Como esse número pode ser muito grande, seu programa deve imprimir o resto dadivisão dele por10
+9+ 7.
+Entrada
+A única linha da entrada contém um inteiroN, representando o comprimento da mureta.
+Saída
+Imprima uma linha contendo um inteiro, o número de formas distintas de construir a mureta comos dois tipos de tijolos. Imprima o resto da divisão desse número por10
+9+ 7.
+Restrições
+•0≤N≤104.Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível 2 – Fase Nacional5
+Informações sobre a pontuação
+•Para um conjunto de casos de teste valendo 20 pontos,N≤16.
+Exemplo de entrada 1
+2Exemplo de saída 1
+5
+Exemplo de entrada 2
+11Exemplo de saída 2
+36543
+Exemplo de entrada 3
+6Exemplo de saída 3
+241
+Exemplo de entrada 4
+0Exemplo de saída 4
+1
+Exemplo de entrada 5
+8712Exemplo de saída 5
+844673301

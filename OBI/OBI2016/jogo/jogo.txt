@@ -1,0 +1,17 @@
+Olimpíada Brasileira de Informática – OBI2016 3
+Jogo de par ou ímpar
+Nome do arquivo:jogo.c,jogo.cpp,jogo.pas,jogo.java,jogo.js,jogo.py2oujogo.py3Dois amigos, Alice e Bob, estão jogando um jogo muito simples, em que um deles grita ou “par”ou “ímpar” e o outro imediatamente responde ao contrário, respectivamente “ímpar” ou “par”. Emseguida, ambos exibem ao mesmo tempo uma mão cada um, em que alguns dedos estão estendidose outros dobrados. Então eles contam o número total de dedos estendidos. Se a soma for par, quemgritou “par” ganha. Se a soma for ímpar, quem gritou “ímpar” ganha.Por exemplo, suponhamos que a Alice gritou “par” e o Bob respondeu “ímpar”. Em seguida, Alicenão deixou nenhum dos seus dedos estendidos, ao passo que Bob deixou três dedos estendidos. Asoma então é três, que é ímpar, portanto Bob ganhou.Seu programa deve determinar quem ganhou, tendo a informação de quem gritou par e o númerode dedos estendidos de cada um.
+Entrada
+A entrada contém três linhas, cada uma com um número inteiro,P,D 1eD2, nesta ordem. SeP= 0então Alice gritou “par”, ao passo que seP= 1então Bob gritou “par”. Os númerosD
+1eD2
+indicam, respectivamente, o número de dedos estendidos da Alice e do Bob.
+Saída
+Seu programa deverá imprimir uma única linha, contendo um único número inteiro, que deve ser 0se Alice foi a ganhadora, ou 1 se Bob foi o ganhador.
+Restrições
+•P= 0ouP= 1•0≤D
+1≤5•0≤D
+2≤5
+Exemplos
+Entrada003 Saída1
+Entrada103 Saída0
+Entrada015 Saída0

@@ -1,0 +1,13 @@
+Olimpíada Brasileira de Informática – OBI2015 2
+Cobra coral
+Nome do arquivo:coral.c,coral.cpp,coral.pas,coral.java,coral.jsoucoral.pyO professor Rui está desenvolvendo um sistema automático para identicar se uma cobra é uma coralverdadeira ou uma falsa coral. A cobra coral verdadeira é venenosa e os anéis coloridos no seu corposeguem o padrão...BVBPBVBPBVBP..., ondeB,VePrepresentam as cores branco, vermelho e preto,respectivamente. Já a falsa coral não é venenosa e os anéis seguem o padrão...BVPBVPBVPBVP....O problema é que os sensores do sistema do professor Rui produzem apenas uma sequência dequatro números representando um pedaço do padrão de cores. Só que ele não sabe qual númerorepresenta qual cor. Mas, por exemplo, se a sequência for5 3 9 3, podemos dizer com certeza queé uma coral verdadeira, mesmo sem saber qual número representa qual cor! Você deve ajudar oprofessor Rui e escrever um programa que diga se a coral é verdadeira ou falsa.
+Entrada
+A entrada consiste de apenas uma linha, contendo quatro números inteiros.
+Saída
+Seu programa deve imprimir na saída uma linha com a letra “V” se a coral for verdadeira ou com aletra “F”, caso seja falsa.
+Restrições
+•Os quatro números têm valores entre 1 e 9, inclusive, e a sequência sempre representa umacoral verdadeira, ou uma coral falsa.
+Exemplos
+Entrada5 3 9 3 SaídaV
+Entrada7 1 4 7 SaídaF
+Entrada6 2 6 8 SaídaV

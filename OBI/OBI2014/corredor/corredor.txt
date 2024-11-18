@@ -1,0 +1,21 @@
+Olimpíada Brasileira de Informática – OBI2014 4
+Corredor
+Nome do arquivo fonte:corredor.c,corredor.cpp,corredor.pas,corredor.java,oucorredor.pyBruninho está programando um personagem virtual para o próximo desao de um jogo de aventuraem que, numa das fases, o personagem tem que entrar em um corredor, percorrer algumas salase depois sair do corredor. Ele pode entrar apenas uma vez, e passar por cada sala apenas umavez. Todas as salas possuem uma porta de entrada e uma de saída, como ilustra a parte (a) dagura abaixo. Ao passar por uma sala o jogador ganha um certo número de vidas (que pode sernegativo!). O objetivo é passar pelo corredor coletando a maior quantidade possível de vidas! Porsorte, sempre existe ao menos uma sala onde se ganha um número positivo de vidas.
+−111 2 3 45 6
+8−1 5−27
+7 31 2 3 45 6
+8−1 5−27
+7 3
+(b) (a)−11
+No exemplo acima, o personagem de Bruninho pode ganhar, no máximo,12vidas, por exemplo,entrando pela sala2e saindo pela sala4, como mostrado na parte (b) dagura. Nesta tarefa,você deve escrever um programa que, dados os números de vidas correspondentes a cada sala docorredor, calcule a quantidade máxima de vidas que será possível ganhar.
+Entrada
+A entrada é composta por duas linhas. A primeira linha contém um inteiroN, o número de salasno corredor. A segunda linha contémNnúmeros inteiros, positivos ou negativos, indicando aquantidade de vidas que se ganha em cada sala.
+Saída
+Seu programa deve imprimir uma linha, com o número máximo de vidas que é possível ganhar.
+Restrições
+•1≤N≤50000; e o número de vidas nas salas está entre−100e100
+Informações sobre a Pontuação
+•Em um conjunto de casos de teste totalizando 30 pontos,N≤1000
+Exemplos
+Entrada7-2 5 -1 8 -11 7 3 Saída12
+Entrada1050 42 -35 2 -60 5 30 -1 40 31 Saída105

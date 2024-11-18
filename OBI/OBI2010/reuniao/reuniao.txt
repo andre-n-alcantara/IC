@@ -1,0 +1,16 @@
+Olimp´ıada Brasileira de Inform´ atica – OBI2010 7
+Reuni˜ ao
+Nome do arquivo fonte:reuniao.c,reuniao.cpp,oureuniao.pasTodos os anos, a SBC (Sociedade Brasileira de Caminhoneiros) re´ une seus membros em alguma cidade paradiscutir sobre a pross˜ ao. Nessas reuni˜ oes s˜ ao discutidos os problemas da categoria e s˜ ao apresentadas sugest˜ oessobre como melhorar as condi¸ c˜ oes de trabalho.O grande problema desse tipo de encontro ´ e que os membros est˜ ao espalhados pelo pa´ıs, uma vez que a pross˜ aoexige que eles viajem para diversos lugares todos os dias. Por isso, a escolha da cidade onde ser´ a feita a reuni˜ aosempre ´ e feita de modo que n˜ ao prejudique demais nenhum dos caminhoneiros. O crit´ erio para tal ´ e que a maiordas distˆ ancias percorridas pelos caminhoneiros para chegar ao local da reuni˜ ao deve ser a menor poss´ıvel. Ouseja, a distˆ ancia percorrida pelo caminhoneiro que vai percorrer a maior distˆ ancia entre todos os caminhoneirospara chegar ` a reuni˜ ao deve ser a menor poss´ıvel.
+Tarefa
+Dadas as cidades onde se encontram os caminhoneiros e a descri¸ c˜ ao das estradas que interligam essas cidades,escreva um programa que determina qual ser´ a a menor distˆ ancia m´ axima percorrida por um caminhoneiro parachegar at´ e o local da reuni˜ ao. Os caminhoneiros conhecem bem as estradas, e portando sempre fazem o menorcaminho poss´ıvel at´ e a cidade da reuni˜ ao. Sempre existe um caminho ligando quaisquer duas cidades.
+Entrada
+A primeira linha da entrada possui dois n´ umeros inteirosN(2≤N≤100) eM(N−1≤M≤10000), que representam, respectivamente, o n´ umero de cidades e o n´ umero de estradas que as interligam. As cidades s˜ aoidenticadas por n´ umeros inteiros entre 0 eN−1. As pr´ oximasMlinhas da entrada possuem, cada uma, adescri¸ c˜ ao de uma estrada. Cada descri¸ c˜ ao de entrada ´ e composta por trˆ es n´ umeros inteiros:U,VeW, ondeU eVrepresentam cidades (0≤U≤N−1 e 0≤V≤N−1) eWrepresenta o comprimento da estrada que uneessas duas cidades (todas as estradas s˜ ao m˜ ao dupla, 1≤W≤100).´E sempre poss´ıvel viajar entre qualquerduas cidades com as estradas existentes, mas pode haver mais de uma estrada ligando o mesmo par de cidades.
+Sa´ıda
+Seu programa deve imprimir uma ´ unica linha contendo um n´ umero inteiro, a distˆ ancia m´ axima percorrida porum caminhoneiro para ir at´ e a reuni˜ ao, obedecidas as restri¸ c˜ oes estabelecidas (ou seja, essa distˆ ancia m´ aximadeve ser a menor poss´ıvel).
+Informa¸ c˜ oes sobre a pontua¸ c˜ ao
+•Em um conjunto de casos de teste que totaliza 30 pontos,N≤4.Olimp´ıada Brasileira de Inform´ atica – OBI2010 8
+Exemplos
+Entrada4 40 1 20 2 41 3 12 3 5Sa´ıda4
+Entrada4 50 1 20 2 41 3 12 3 53 2 2Sa´ıda3
+Entrada7 120 1 220 2 300 5 351 5 111 6 301 2 252 3 152 6 103 4 153 5 104 5 205 6 33
+Sa´ıda30

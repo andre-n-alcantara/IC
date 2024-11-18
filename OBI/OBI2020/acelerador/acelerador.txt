@@ -1,0 +1,20 @@
+Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 2 – Fase Local2
+Acelerador de Partículas
+Nome do arquivo:“acelerador.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3A universidade está inaugurando um grande acelerador de partículas, com um emissor e três sensores,numerados1,2e3. Uma partícula, após sair do emissor, entra no acelerador onde pode dar váriasvoltas sendo acelerada a velocidades muito altas. Num determinado momento, a partícula sai doacelerador por uma das três saídas, atingindo um dos sensores. Agura mostra o caminho poronde as partículas trafegam, com uma graduação de1quilômetro. Por exemplo, do emissor até oacelerador são3quilômetros e a circunferência do acelerador tem8quilômetros.
+Neste problema, será dada a distância total, em quilômetros, percorrida por uma certa partículatrafegando do emissor até algum sensor e seu programa deve determinar qual sensor foi atingidopela partícula. Por exemplo, veja que se a distância total for23quilômetros, então a partícula temque ter atingido o sensor2.
+Entrada
+A entrada consiste de apenas uma linha contendo um inteiroD, representando a distância totalpercorrida pela partícula.
+Saída
+Seu programa deve imprimir uma linha contendo um inteiro, representando o número do sensor quea partícula atingiu.
+Restrições
+•6≤D≤800008.Dsempre será a distância total percorrida entre o emissor e algum sensor.
+Exemplos
+Exemplo de entrada 1
+23Exemplo de saída 1
+2
+Exemplo de entrada 2
+6Exemplo de saída 2
+1
+Exemplo de entrada 3
+9192Exemplo de saída 3
+3

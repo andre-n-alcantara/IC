@@ -1,0 +1,15 @@
+Olimpíada Brasileira de Informática – OBI2014 2
+Copa do Mundo
+Nome do arquivo fonte:copa.c,copa.cpp,copa.pas,copa.java,oucopa.pyA Nlogônia é atualmente um dos países com maior crescimento econômico no mundo, e seus go-vernantes têm se esforçado para que o país seja mais conhecido e respeitado internacionalmente.Recentemente a Nlogônia foi escolhida para ser a sede da Copa do Mundo de Futebol Amador, eestá se preparando para receber os milhares de torcedores que o evento atrai.Como parte da preparação para a Copa, o governo planeja realizar uma reforma em todo o sistema detransporte intermunicipal, que é hoje composto de uma malha de rodovias e ferrovias, cada rodoviaou ferrovia interligando um par de cidades. Com as rodovias e ferrovias existentes já é possívelviajar entre qualquer par de cidades (possivelmente passando por outras cidades no caminho), maso governo quer oferecer melhores condições de transporte para os visitantes e a população.Como não há recursos para reformar todas as rodovias e ferrovias, o governo quer escolher umconjunto de rodovias e ferrovias para ser reformado, e já realizou um estudo para estabelecer ocusto de reforma de cada rodovia e ferrovia. A escolha deve obedecer aos seguintes critérios:1. aonal da reforma, deve ser possível viajar entre qualquer par de cidades (possivelmentepassando por outras cidades) utilizando apenas rodovias ou ferrovias reformadas;2. para priorizar o transporte público, dentre as escolhas que satisfazem a restrição 1, deve-seescolher uma que minimize o número de rodovias reformadas;3. dentre as escolhas que satisfazem as restrições 1 e 2, deve-se escolher uma que minimize ocusto total.Você foi contratado para escrever um programa que, conhecidos os custos de reforma de cada rodoviae ferrovia, determine o menor custo possível para a reforma, obedecidos os critérios estabelecidos.
+Entrada
+A primeira linha da entrada contém três inteirosN,FeR, indicando respectivamente o númerode cidades, de ferrovias e de rodovias. As cidades são identicadas por inteiros de1aN. Cadauma dasFlinhas seguintes descreve uma ferrovia e contém três inteirosA,BeC, ondeAeBrepresentam cidades eCrepresenta o custo da reforma da ferrovia que interligaAeB. Cada umadasRlinhas seguintes descreve uma rodovia e contém três inteirosI,JeK, ondeIeJrepresentamcidades eKrepresenta o custo da reforma da rodovia que interligaIeJ.
+Saída
+Seu programa deve produzir uma única linha, contendo o menor custo possível para o conjunto dereformas de ferrovias e rodovias, obedecendo aos critérios estabelecidos.
+Restrições
+•2≤N≤100;1≤F≤N(N−1)/2;1≤R≤N(N−1)/2•1≤A < B≤Ne1≤I < J≤N•1≤C≤1000e1≤K≤1000Olimpíada Brasileira de Informática – OBI2014 3
+Informações sobre a pontuação
+•Para um conjunto de casos de testes totalizando 20 pontos,2≤N≤6.
+Exemplos
+Entrada3 3 21 2 10001 3 10002 3 9001 3 8002 3 700Saída1900
+Entrada5 4 53 4 3001 2 1002 4 3001 3 2504 5 6003 4 2002 3 1002 5 4001 5 450Saída1050
+Entrada5 2 34 5 602 3 601 2 501 4 503 4 50Saída220

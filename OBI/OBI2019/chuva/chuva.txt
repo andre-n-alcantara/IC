@@ -1,0 +1,22 @@
+Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível 2 – Fase Local6
+Chuva
+Nome do arquivo:“chuva.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3Está chovendo tanto na Obilândia que começaram a aparecer goteiras dentro da casa do prefeito.Uma dessas goteiras está fazendo escorrer água verticalmente, a partir de um ponto no teto, numaparede onde há várias prateleiras horizontais. Quando a água bate em uma prateleira, ela começaa escorrer horizontalmente para os dois lados, direita e esquerda, até as extremidades da prateleira,quando volta a escorrer verticalmente.Vamos representar a parede por uma matriz deNlinhas e
+Mcolunasde caracteres, como mostrado ao lado. As prateleiras serão represen-tadas por “#” e a parede por “.”. Só existem prateleiras nas linhaspares e elas nunca encostam na borda da parede. Há apenas um pontode vazamento representado pelo caractere “o” na primeira linha........o.......###...####.#.................######.....................#.####....##....................####...................
+Para deixar mais rigorosa a forma como a água vai escorrer, sejac(i, j)o caractere na linhaicolunaj. Sec(i, j)= “.”, então ele deve virar“o” sempre que:•c(i−1, j)= “o”; ou•c(i, j−1)= “o” ec(i+ 1, j−1)= “#”; ou•c(i, j+ 1)= “o” ec(i+ 1, j+ 1)= “#”.......oooooo...###..o####o#..oooooooo..o...o######o..o..ooo.....o.ooooo#o####.o.o##oo.o.ooooooo..oo.o.o####oo..oo.o.o....oo..o
+Neste problema, dada a matriz representando a parede no início do vazamento, seu programadeve imprimir na saída uma matriz representando a parede usando o caractere “o” exatamente nasposições que serão molhadas pelo vazamento, como ilustrado acima.
+Entrada
+A primeira linha da entrada contém dois inteirosNeM, respectivamente o número de linhas ecolunas da matriz. AsNlinhas seguintes da entrada contêm, cada uma, uma sequência deMcaracteres entre três possíveis: “.”, “#” ou “o”.
+Saída
+Seu programa deve imprimirNlinhas, cada uma contendo uma sequência deMcaracteres, repre-sentando a matriz da entrada usando o caractere “o” exatamente nas posições que serão molhadaspelo vazamento.
+Restrições
+•3≤N≤500e3≤M≤500;•O número de linhasNé ímpar;•Há exatamente um caractere “o” na primeira linha;•As linhas ímpares, a primeira coluna e a última coluna não possuem o caractere “#”.Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível 2 – Fase Local7
+Exemplos
+Exemplo de entrada 1
+9 14.......o.......###...####.#.................######.....................#.####....##....................####...................Exemplo de saída 1
+......oooooo...###..o####o#..oooooooo..o...o######o..o..ooo.....o.ooooo#o####.o.o##oo.o.ooooooo..oo.o.o####oo..oo.o.o....oo..o
+Exemplo de entrada 2
+7 5.o....#....................#.......Exemplo de saída 2
+ooo..o#o..o.o..o.o..oooo.oo#o.oo.o.
+Exemplo de entrada 3
+3 3..o.#....Exemplo de saída 3
+..o.#o..o

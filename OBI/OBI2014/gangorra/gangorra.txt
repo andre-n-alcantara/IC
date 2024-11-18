@@ -1,0 +1,16 @@
+Olimpíada Brasileira de Informática – OBI2014 3
+Gangorra
+Nome do arquivo fonte:gangorra.c,gangorra.cpp,gangorra.pas,gangorra.java,ougangorra.pyJoãozinho acaba de mudar de escola e a primeira coisa que percebeu na nova escola é que a gangorrado parquinho não é simétrica, uma das extremidades é mais longa que a outra. Após brincar algumasvezes com um amigo de mesmo peso, ele percebeu que quando está em uma extremidade, a gangorrase desequilibra para o lado dele (ou seja, eleca na parte de baixo, e o amigo na parte de cima),mas quando eles trocam de lado, a gangorra se desequilibra para o lado do amigo. Sem entender asituação, Joãozinho pediu ajuda a outro amigo de outra série, que explicou que o comprimento dolado interfere no equilíbrio da gangorra, pois a gangorra estará equilibrada quandoP
+1∗C1=P2∗C2
+ondeP 1eP2são os pesos da criança no lado esquerdo e direito, respectivamente, eC 1eC2são os comprimentos da gangorra do lado esquerdo e direito, respectivamente.Com a equação, Joãozinho já consegue dizer se a gangorra está equilibrada ou não mas, além disso,ele quer saber para qual lado a gangorra descerá caso esteja desequilibrada.
+Entrada
+A primeira e única linha da entrada contém4inteiros,P 1,C1,P2eC2, nesta ordem.
+Saída
+Se a gangorra estiver equilibrada, imprima ‘0’. Se ela estiver desequilibrada de modo que a criançaesquerda esteja na parte de baixo, imprima ‘-1’, senão, imprima ‘1’.
+Restrições
+•10≤P 1≤100e10≤C 1≤100•10≤P
+2≤100e10≤C 2≤100
+Exemplos
+Entrada30 100 60 50 Saída0
+Entrada40 40 38 60 Saída1
+Entrada35 80 35 75 Saída-1

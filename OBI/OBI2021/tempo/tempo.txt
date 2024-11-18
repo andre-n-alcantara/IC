@@ -1,0 +1,18 @@
+Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível 1 – Fase Fase 13
+Tempo de resposta
+Nome do arquivo:“tempo.x”,ondexdeve serc,cpp,pas,java,jsoupySara adora trocar mensagens com amigos. Como ela recebe e envia muitas mensagens, está preo-cupada com o tempo que seus amigos esperam para receber respostas das mensagens.As seguintes regras de etiqueta são sempre obedecidas:•as únicas mensagens que Sara envia são respostas a mensagens que ela recebeu.•Sara envia no máximo uma mensagem como reposta a uma mensagem que recebeu.•um amigo de Sara nunca envia uma nova mensagem para Sara até que tenha recebido respostada mensagem que enviou anteriormente.O aplicativo de mensagens que Sara e seus amigos usam recebe e envia mensagens instantaneamente.O envio e o recebimento de mensagens são chamados deeventos. O aplicativo registra cada eventona ordem em que os eventos ocorrem, usando dois tipos de registro:•R Xindica que uma mensagem foi recebida do amigoX.•E Xindica que uma mensagem foi enviada ao amigoX.O aplicativo usa ainda um outro tipo de registro, para indicar o tempo que se passou entre doiseventos consecutivos, na forma•T Xindicando queXsegundos se passaram entre o evento anterior e o evento posterior aesse registro.Se não há registro do tipoT Xentre dois registros de eventos consecutivos signica que exatamente1 segundo se passou entre esses dois eventos.OTempo de Respostade uma mensagem é o tempo que se passa entre o recebimento da mensagempor Sara e o envio da resposta a essa mensagem por Sara. Se um amigo recebeu respostas para todasas suas mensagens, oTempo de Resposta Totalpara esse amigo é a soma dos Tempos de Respostaspara as mensagens desse amigo; caso contrário o Tempo de Resposta Total para esse amigo é−1.Dada a lista de registros do aplicativo de Sara, sua tarefa é determinar o Tempo de Resposta Totalpara cada amigo.
+Entrada
+A primeira linha da entrada contém um inteiroN, o número de registros. Os amigos de Sara sãoidenticados por números inteiros. Cada uma dasNlinhas seguintes descreve um registro e contémum caractere (R, EouT) seguido de um número inteiroX. No caso de registros dos tiposReEo valor deXindica um amigo de Sara; no caso do registro de tipoT, o valor deXindica o númerode segundos que se passaram entre o evento anterior e o posterior.
+Saída
+Para cada amigo de Sara seu programa deve produzir uma linha na saída contendo dois inteiros: onúmero do amigo e o Tempo de Resposta Total para esse amigo, em ordem crescente dos númerosdos amigos.
+Restrições
+•1≤N≤20•1≤X≤100Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível 1 – Fase Fase 14
+Informações sobre a pontuação
+•Para um conjunto de casos de testes valendo 20 pontos,1≤N≤10.•Para um conjunto de casos de testes valendo 80 pontos, nenhuma restrição adicional.
+Exemplos
+Exemplo de entrada 1
+5R 2R 3T 5E 2E 3Exemplo de saída 1
+2 63 6
+Exemplo de entrada 2
+14R 12T 2R 23T 3R 45E 45R 45E 23R 23T 2E 23R 34E 12E 34Exemplo de saída 2
+12 1323 834 245 -1

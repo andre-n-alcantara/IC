@@ -1,0 +1,14 @@
+Olimpíada Brasileira de Informática – OBI2014 2
+Flíper
+Nome do arquivo fonte:fliper.c,fliper.cpp,fliper.pas,fliper.java,oufliper.pyFlíper é um tipo de jogo onde uma bolinha de metal cai por um labirinto de caminhos até chegar naparte de baixo do labirinto. A quantidade de pontos que o jogador ganha depende do caminho quea bolinha seguir. O jogador pode controlar o percurso da bolinha mudando a posição de algumasportinhas do labirinto. Cada portinha pode estar na posição 0, que signica virada para a esquerda,ou na posição 1 que quer dizer virada para a direita. Considere oíper dagura abaixo, que temduas portinhas. A portinhaPestá na posição 1 e a portinhaR, na posição 0. Desse jeito, a bolinhavai cair pelo caminhoB.
+0110
+ABCPRVocê deve escrever um programa que, dadas as posições das portinhasPeR, nesteíper dagura,diga por qual dos três caminhos,A,BouC, a bolinha vai cair!
+Entrada
+A entrada é composta por apenas uma linha contendo dois númerosPeR, indicando as posiçõesdas duas portinhas doíper dagura.
+Saída
+A saída do seu programa deve ser também apenas uma linha, contendo uma letra maiúscula queindica o caminho por onde a bolinha vai cair: ‘A’, ‘B’ ou ‘C’.
+Restrições
+•O númeroPpode ser 0 ou 1. O númeroRpode ser 0 ou 1.
+Exemplos
+Entrada1 0 SaídaB
+Entrada0 0 SaídaC

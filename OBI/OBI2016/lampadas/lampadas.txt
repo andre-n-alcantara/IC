@@ -1,0 +1,19 @@
+Olimpíada Brasileira de Informática – OBI2016 4
+Lâmpadas
+Nome do arquivo:lampadas.c,lampadas.cpp,lampadas.pas,lampadas.java,lampadas.js,lampadas.py2oulampadas.py3Você está de volta em seu hotel na Tailândia depois de um dia de mergulhos. O seu quarto temduas lâmpadas. Vamos chamá-las deAeB. No hotel há dois interruptores, que chamaremos deI
+1
+eI2. Ao apertarI 1, a lâmpadaAtroca de estado, ou seja, acende se estiver apagada e apaga seestiver acesa. Se apertarI
+2, ambas as lâmpadasAeBtrocam de estado.As lâmpadas inicialmente estão ambas apagadas. Seu amigo resolveu bolar um desao para você.Ele irá apertar os interruptores em uma certa sequência, e gostaria que você respondesse o estadonal das lâmpadasAeB.
+Entrada
+A primeira linha contém um númeroNque representa quantas vezes seu amigo irá apertar alguminterruptor. Na linha seguinte seguirãoNnúmeros, que pode ser1, se o interruptorI
+1foi apertado,ou2, se o interruptorI
+2foi apertado.
+Saída
+Seu programa deve imprimir dois valores, em linhas separadas.Na primeira linha, imprima1se a lâmpadaAestiver acesa nonal das operações e0caso contrário.Na segunda linha, imprima1se a lâmpadaBestiver acesa nonal das operações e0caso contrário.
+Restrições
+•1≤N≤105
+Informações sobre a pontuação
+•Em um conjunto de casos de teste equivalente a 20 pontos,N= 3.
+Exemplos
+Entrada31 2 2 Saída10
+Entrada42 1 2 2 Saída01

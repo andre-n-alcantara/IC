@@ -1,0 +1,7 @@
+ABCXYZX
+Y≤Z
+A
+BC
+ABCXYZ
+•1≤A, B, C, X, Y, Z≤106
+•106

@@ -1,0 +1,15 @@
+Olimpíada Brasileira de Informática – OBI2017 – Prog. Nível Júnior – Fase 24
+Jogo de Tabuleiro
+Nome do arquivo:tabuleiro.c,tabuleiro.cpp,tabuleiro.pas,tabuleiro.java,tabuleiro.js,tabuleiro.py2outabuleiro.py3Flavinho não se cansa de bolar joguinhos para passar o tempo.Ele diz que é uma boa forma de treinar a memória e a capa-cidade de resolver problemas. Dessa vez ele inventou umaforma de preencher um tabuleiro deNlinhas eNcolunascom pedras brancas e pretas. Inicialmente ele coloca, alea-toriamente, pedras brancas e pretas em todas as células daprimeira coluna e da primeira linha. Agura ao lado dá umexemplo de tabuleiro comN= 6. Ele chama essas pedras ini-ciais de sementes. Uma vez colocadas as sementes, as demaiscélulas do tabuleiro serão preenchidas com uma pedra brancaou preta de acordo com a seguinte regra.
+(N,N)(i,j)(i,j−1)(i−1,j)(i−1,j−1)213456
+1 2 3 4 56
+Considere a célula na posição(i, j), parai >1ej >1. Para saber a cor da pedra nessa célula,Flavinho precisa saber a cor das pedras nas três células{(i, j−1),(i−1, j−1),(i−1, j)}. Aguratambém ilustra quais células são usadas para determinar a cor da pedra na célula(i, j). Se houvermais pedras brancas do que pretas nessas três células, a cor da pedra na célula(i, j)será preta. Sehouver mais pedras pretas do que brancas, a cor será branca.Note que, por essa denição, a primeira célula a ser preenchida será a(2,2), pois será a única vaziapara a qual já saberemos a cor das três pedras necessárias. No exemplo dagura, a pedra na célula(2,2)será da cor preta, pois há duas brancas e uma preta entre as células{(2,1),(1,1),(1,2)}.Neste problema, dadoNe a cor das sementes, seu programa deve computar a cor da pedra queserá colocada na célula(N, N).
+Entrada
+A primeira linha da entrada contém um inteiroN, representando o número de linhas e colunas dotabuleiro. AsNlinhas seguintes contêm, cada uma,Ninteiros denindo o tabuleiro inicial. Osinteiros na primeira linha e na primeira coluna do tabuleiro serão sempre0ou1, representando umapedra branca ou preta, respectivamente. Os demais inteiros serão sempre9, indicando que a célulacorrespondente está vazia inicialmente.
+Saída
+Seu programa deve imprimir uma linha contendo um inteiro representando a cor da pedra que serácolocada na célula(N, N): 0 se for branca, 1 se for preta.
+Restrições
+•2≤N≤100
+Exemplos
+Entrada20 11 9 Saída0Olimpíada Brasileira de Informática – OBI2017 – Prog. Nível Júnior – Fase 25
+Entrada60 0 1 0 0 01 9 9 9 9 90 9 9 9 9 90 9 9 9 9 91 9 9 9 9 91 9 9 9 9 9Saída1

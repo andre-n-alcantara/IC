@@ -1,0 +1,19 @@
+Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível 2 – Fase Local2
+Calçada Imperial
+Nome do arquivo:“imperial.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3Na calçada em frente ao Palácio Imperial, não se sabe a razão, existeuma sequência deNnúmeros desenhados no chão. A sequência écomposta apenas pelos números de1aN. Veja um exemplo na coluna(a) dagura ao lado, paraN= 12.Ninguém sabe o signicado da sequência e, justamente por isso, váriasteorias malucas surgiram. Uma delas diz que a sequência representa,na verdade, apenas um valor que estaria relacionado a um grande se-gredo dos imperadores. Esse valor é a quantidademáximade númerosda sequência que poderiam ser marcados com um círculo, de modo quea sequência de números marcados não contenha dois números iguaisconsecutivos e seja composta de no máximo dois números distintos.A coluna (b) dagura ilustra uma sequência de4números marcadosque obedece a restrição acima. Você consegue vericar que essa é,de fato, a quantidade máxima possível de números numa sequênciamarcada?
+Neste problema, dada a sequência original de números desenhados no chão da calçada, seu pro-grama deve computar e imprimir a quantidade máxima de números da sequência que poderiam sermarcados com um círculo sem que haja dois números iguais consecutivos na sequência marcada etal que ela seja composta de no máximo dois números distintos.
+Entrada
+A primeira linha da entrada contém um inteiroNrepresentando o tamanho da sequência. AsNlinhas seguintes contêm, cada uma, um inteiroV
+i, para1≤i≤N, denindo a sequência de númerosdesenhados no chão da calçada imperial.
+Saída
+Seu programa deve imprimir uma linha contendo um número inteiro representando a quantidademáxima de números da sequência que poderiam ser marcados com um círculo sem que haja doisnúmeros iguais consecutivos na sequência marcada e tal que ela seja composta de no máximo doisnúmeros distintos.
+Restrições
+•1≤N≤500•1≤V
+i≤N, para1≤i≤N
+Exemplos
+Exemplo de entrada 1
+11Exemplo de saída 1
+1Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível 2 – Fase Local3
+Exemplo de entrada 2
+12325210447122810Exemplo de saída 2
+4

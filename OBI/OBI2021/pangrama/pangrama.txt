@@ -1,0 +1,19 @@
+Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível Júnior – Fase Fase 23
+Pangrama
+Nome do arquivo:“pangrama.x”,ondexdeve serc,cpp,pas,java,jsoupyUmpangramaé uma frase que contém todas as letras de um determinado alfabeto.Em português, um pangrama pode incluir também letras acentuadas, mas neste problema vamosdesconsiderar os acentos (mesmo que isso torne a frase mal escrita!)Veja alguns exemplos de pangramas em português (sem acentos):•grave e cabisbaixo, olho justo zelava pela querida mae doente•hoje a noite, sem luz, decidi xeretar a quinta gaveta de vovo: achei linguica, pao e fuba•marta foi a cozinha pois queria ver belo jogo de xicarasNote que para os pangramas acima consideramos o alfabeto composto pelas letrasa b c d e f g h i j l m n o p q r s t u v x z(ou seja, não consideramos as letras k, w ou y). Note ainda que as frases não contêm letrasacentuadas mas podem conter símbolos grácos como espaço em branco, vírgula e dois pontos.
+Entrada
+A primeira e única linha da entrada contém uma cadeia de caracteresC.
+Saída
+Seu programa deve produzir uma única linha, contendo um único caractere, que deve serSse afrase for um pangram ouNcaso contrário.
+Restrições
+•A cadeia de caracteresCtem no mínimo um e no máximo 200 caracteres. Os únicos caracteresemCsão as letras minúsculas do alfabeto mostrado acima, espaços em branco, vírgulas e ocaractere dois pontos.
+Exemplos
+Exemplo de entrada 1
+gazeta publica hoje: breve anuncio de faxina na quermesseExemplo de saída 1
+S
+Exemplo de entrada 2
+esta frase nao usa todas as letras, estao faltando algumasExemplo de saída 2
+N
+Exemplo de entrada 3
+abcdefghijlmnopqrstuvxzExemplo de saída 3
+S

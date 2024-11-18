@@ -1,0 +1,26 @@
+Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível 1 – Fase 2 2
+Tanque de combustível
+Nome do arquivo:tanque.c,tanque.cpp,tanque.pas,tanque.java,tanque.jsoutanque.pyCássio alugou um carro para a viagem de férias. O carro tem consumo de combustível constante(em kilometros rodados por litro de combustível), independente da velocidade com que trafega. Aom da viagem, Cássio deve devolver o carro no aeroporto.Cássio está terminando sua viagem de férias e está no momento na rodovia que leva ao aeroporto,em direção ao aeroporto para devolver o carro. Mais precisamente Cássio está no último posto decombustível existente na rodovia em que ele pode abastecer o carro antes de devolvê-lo.Para economizar o máximo possível em combustível, Cássio quer devolver o carro com o menornúmero de litros possível no tanque – idealmente, com o tanquezerado, ou seja, sem combustível.Dados o consumo do carro, a distância em que se encontra do aeroporto e a quantidade de combus-tível presente no tanque antes do abastecimento, determine qual deve ser a menor quantidade decombustível que Cássio deve comprar.
+Entrada
+A primeira linha contém um inteiro,C, o consumo do carro em kilômetros rodados por litro decombustível. A segunda linha contém um inteiroD, a distância do aeroporto, em kilometros. Aterceira linha contém um inteiroT, o número de litros de combustível presente no tanque antes doabastecimento. Você pode assumir que o tanque tem capacidade suciente para armazenar todo ocombustível que Cássio comprar.
+Saída
+Seu programa deve produzir uma única linha, contendo um único valor, com um dígito de precisão,indicando a quantidade de combustível que Cássio deve comprar, para chegar ao aeroporto com otanque contendo a menor quantidade de combustível possível.
+Restrições
+•1≤C≤50•1≤D≤1000•0≤T≤100
+Exemplos
+Exemplo de entrada 1
+2100Exemplo de saída 1
+5.0
+Explicação do exemplo 1:O consumo é 2 km/l, Cássio está a 10 km do aeroporto e o tanquenão tem combustível. Para chegar ao aeroporto o carro vai gastar 5.0 litros de combustível.Como o tanque não tem combustível, Cássio precisa comprar 5.0 litros de combustível.Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível 1 – Fase 2 3
+Exemplo de entrada 2
+301002Exemplo de saída 2
+1.3
+Explicação do exemplo 2:O consumo é 30 km/l, Cássio está a 100 km do aeroporto e o tanquetem 2 litros combustível. Para chegar ao aeroporto o carro vai gastar 3.33 litros de combustível.Como o tanque já tem 2 litros de combustível, Cássio precisa comprar 1.3 litros de combustível(note o arredondamento).
+Exemplo de entrada 3
+501203Exemplo de saída 3
+0.0
+Explicação do exemplo 3:O consumo é 50 km/l, Cássio está a 120 km do aeroporto e o tanquetem 3 litros combustível. Para chegar ao aeroporto o carro vai gastar 2.4 litros de combustível.Como o tanque já tem 3 litros de combustível, Cássio não precisa comprar combustível.
+Exemplo de entrada 4
+50730Exemplo de saída 4
+1.5
+Explicação do exemplo 4:O consumo é 50 km/l, Cássio está a 73 km do aeroporto e o tanquenão tem combustível. Para chegar ao aeroporto o carro vai gastar 1.46 litros de combustível.Como o tanque não tem combustível, Cássio precisa comprar 1.5 litros de combustível (note oarredondamento).

@@ -1,0 +1,15 @@
+Olimpíada Brasileira de Informática – OBI2017 – Prog. Nível 1 – Fase Nacional8
+Bits
+Nome do arquivo:bits.c,bits.cpp,bits.pas,bits.java,bits.js,bits.py2oubits.py3Duas sequências deNbits são distintas se, para alguma posiçãoi,1≤i≤N, o bit na posiçãoide uma sequência é distinto do bit na posiçãoida outra sequência. As duas sequências deN= 10bits abaixo são distintas pois, por exemplo, os bits na posição 7, da esquerda para a direita, sãodistintos:0 1 0 0 0 1 1 0 1 01 0 0 1 0 1 0 0 1 0Mas veja que as duas sequências acima, apesar de distintas, têm uma característica em comum:não há três bits 1 consecutivos nelas. Neste problema, dado o número de bitsNe umK, seuprograma deve computar quantas sequências distintas deNbits existem, nas quais não háKbits1 consecutivos.
+Entrada
+A entrada consiste de uma linha contendo os dois inteirosNeK.
+Saída
+Imprima uma linha contendo um inteiro, representando o número de sequências distintas deNbits,nas quais não háKbits 1 consecutivos. Porque esse número pode ser muito grande, você deveimprimir o resto da divisão dele por10
+9+ 7.
+Restrições
+•1≤N≤1000•1≤K≤N+ 1
+Informações sobre a pontuação
+•Em um conjunto de casos de teste somando 20 pontos,N≤20
+Exemplos
+Entrada4 2 Saída8
+Entrada10 3 Saída504

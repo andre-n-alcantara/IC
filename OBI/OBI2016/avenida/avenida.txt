@@ -1,0 +1,16 @@
+Olimpíada Brasileira de Informática – OBI20167
+Nova avenida
+Nome do arquivo:avenida.c,avenida.cpp,avenida.pas,avenida.java,avenida.js,avenida.py2ouavenida.py3O bairro Boa Vista é formado por um conjunto de quadras de mesmo tamanho, dispostas em umquadriculado deNporMquadras, com ruas no sentido Norte-Sul e no sentido Leste-Oeste. Assim,o comprimento de cada rua no sentido Norte-Sul é igual aNquadras e o comprimento de cadarua no sentido Leste-Oeste é igual aMquadras. A atual administração da prefeitura decidiu queé necessário escolher uma rua do bairro, no sentido Norte-Sul, para ser alargada. Para isso, seránecessário desapropriar todas as quadras de um dos lados da rua escolhida.As quadras têm construções diferentes, de forma que cada quadra tem um valor diferente no mer-cado. Para desapropriar as quadras, a prefeitura tem que pagar o valor do mercado aos proprietários.Agura abaixo mostra um exemplo dos valores das quadras, em milhões de reais, ondeN= 3eM= 4.
+NSO L312 4
+5 4 7 2
+5 1 10 55
+Sua tarefa é escrever um programa que, dados os valores das quadras, em milhões de reais, determinequal o menor valor que a prefeitura terá que desembolsar.
+Entrada
+A primeira linha da entrada contém dois inteiroNeMque indicam respectivamente o númerode quadras no sentido Norte-Sul e no sentido Leste-Oeste. Cada uma dasNlinhas seguintescorresponde a uma dasNleiras de quadras no sentido Leste-Oeste e contémMinteiros, que sãoos valores das quadras daquelaleira de quadras, visualizada no sentido Leste-Oeste.
+Saída
+Seu programa deve imprimir uma única linha, contendo um único inteiro, que é o menor valor, emmilhões de reais, que a prefeitura vai precisar desembolsar.
+Restrições
+A entrada obedece às seguintes restrições:•2≤N≤1000•2≤M≤1000•cada quadra tem valor entre 1 e 100 milhões de reaisOlimpíada Brasileira de Informática – OBI20168
+Exemplos
+Entrada3 45 3 12 45 4 7 25 1 10 5 Saída8
+Entrada4 520 30 10 10 5020 30 10 10 5020 30 10 10 5020 30 10 10 50Saída40

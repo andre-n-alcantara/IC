@@ -1,0 +1,15 @@
+Olimp´ıada Brasileira de Inform´ atica – OBI2010 5
+Lista de Chamada
+Nome do arquivo fonte:chamada.c,chamada.cpp,ouchamada.pasTia Joana ´ e uma respeitada professora e tem v´ arios alunos. Em sua ´ ultima aula, ela prometeu que iria sortearum aluno para ganhar um bˆ onus especial na notanal: ela colocouNpeda¸ cos de papel numerados de 1 aNemum saquinho e sorteou um determinado n´ umeroK; o aluno premiado foi oK-´ esimo aluno na lista de chamada.O problema ´ e que a Tia Joana esqueceu o di´ ario de classe, ent˜ ao ela n˜ ao tem como saber qual n´ umero correspondea qual aluno. Ela sabe os nomes de todos os alunos, e que os n´ umeros deles, de 1 at´ eN, s˜ ao atribu´ıdos de acordocom a ordem alfab´ etica, mas os alunos dela est˜ ao muito ansiosos e querem logo saber quem foi o vencedor.
+Tarefa
+Dado os nomes dos alunos da Tia Joana e o n´ umero sorteado, determine o nome do aluno que deve receber obˆ onus.
+Entrada
+A primeira linha cont´ em dois inteirosNeKseparados por um espa¸ co em branco (1≤K≤N≤100). Cadauma dasNlinhas seguintes cont´ em uma cadeia de caracteres de tamanho m´ınimo 1 e m´ aximo 20 representandoos nomes dos alunos. Os nomes s˜ ao compostos apenas por letras min´ usculas de ‘a’ a ‘z’.
+Sa´ıda
+Seu programa deve imprimir uma ´ unica linha, contendo o nome do aluno que deve receber o bˆ onus.
+Informa¸ c˜ oes sobre a pontua¸ c˜ ao
+•Em um conjunto de casos de teste que totaliza 30 pontos,N≤3.Olimp´ıada Brasileira de Inform´ atica – OBI2010 6
+Exemplos
+Entrada5 1mariajoaocarlosvanessajoseSa´ıdacarlos
+Entrada5 5mariajoaocarlosvanessajoseSa´ıdavanessa
+Entrada5 3mariajoaocarlosvanessajoseSa´ıdajose

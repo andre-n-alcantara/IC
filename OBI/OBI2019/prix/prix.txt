@@ -1,0 +1,21 @@
+Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível 2 – Fase Nacional7
+Grand Prix da Nlogônia
+Nome do arquivo:prix.c,prix.cpp,prix.pas,prix.java,prix.js,prix_py2.pyouprix_py3.py
+A Nlogônia irá realizar o Grand Prix de corrida de carros. Foram dados planos de construção deum circuito para a realização do evento e vocêcou responsável pela avaliação do plano. Um grafodirecionado deNvertices eMarestas é considerado um Grand Prix se existe algum ciclo direcionado,ou seja, existe um verticePe um caminho direcionado saindo dePque chega novamente emP.A Nlogônia pode ser representada como um grafo direcionado que contêmNesquinas, numeradasde1aN. Foram dados para vocêMplanos de construção, cada um contendo três inteirosU, LeR, que signica o seguinte: caso esse plano seja aceito, será construída uma estrada direcionada daesquinaUpara a esquinai, para todoL≤i≤R. Sua tarefa é computar o menor inteiroXtal queaceitando todos os planos de1atéX, teremos um Grand Prix em Nlogônia.
+Entrada
+A primeira linha da entrada contém dois inteirosNeM, representando, respectivamente, o númerode esquinas e o número de planos. AsMlinhas seguintes contêm, cada uma, três inteirosU, LeR,descrevendo um plano de construção.
+Saída
+Imprima um inteiroX, o menor inteiro tal que aceitando todos os planos de 1 atéX, inclusive,conseguiremos um Grand Prix. Caso Nlogônia não consiga realizar o Grand Prix, imprima−1.
+Restrições
+•2≤N≤200000•1≤M≤200000•1≤L≤R≤N•1≤U≤N•É garantido que não existe uma aresta de um vertice indo para ele mesmo.
+Informações sobre a pontuação
+•Em um conjunto de casos de teste valendo10pontos,N≤200000,M≤200000e L = R paratodo plano.•Em um conjunto de casos de teste valendo10pontos,N≤1000,M≤500.•Em um conjunto de casos de teste valendo10pontos,N≤500,M≤20000.•Em um conjunto de casos de teste valendo25pontos,N≤200000,M≤200000e é garantidoque L = 1 para todo plano.•Em um conjunto de casos de teste valendo45pontos, nenhuma restrição adicional.
+Exemplo de entrada 1
+8 65 6 83 1 26 2 41 4 58 4 72 3 6Exemplo de saída 1
+4Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível 2 – Fase Nacional8
+Exemplo de entrada 2
+2 21 2 22 1 1Exemplo de saída 2
+2
+Exemplo de entrada 3
+5 61 2 53 4 55 2 21 2 43 4 54 2 2Exemplo de saída 3
+-1

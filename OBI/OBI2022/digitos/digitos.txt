@@ -1,0 +1,22 @@
+Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível Júnior – Fase 38
+Dígitos
+Nome do arquivo:digitos.c,digitos.cpp,digitos.pas,digitos.java,digitos.jsoudigitos.pyJoãozinho te propôs o seguinte desao: ele escolheu dois inteirosAeB, com1≤A≤B≤10
+1000, e escreveu na lousa todos os inteiros entreAeB, em sequência, porém colocando um espaço apóscada dígito, de forma a não ser possível ver quando um número termina ou começa. Por exemplo,se Joãozinho escolherA= 98eB= 102, ele escreveria a sequência "9 8 9 9 1 0 0 1 0 1 1 0 2".Seu desao é: dada a lista de dígitos escritos na lousa, encontrar os valores deAeB. Caso existamais de uma possibilidade para os valores que geraria a lista, você deve encontrar uma em que ovalor deAé o menor possível.É garantido que a lista de dígitos da lousa tem no máximo tamanho1000.
+Entrada
+A primeira linha da entrada contém um único inteiroN, indicando o número de dígitos. A segundalinha contémNinteirosd
+i, indicando os dígitos escritos.
+Saída
+Imprima o menor valor possível deA.
+Restrições
+•1≤N≤1000•0≤d
+i≤9
+Informações sobre a pontuação
+•Para um conjunto de casos de testes valendo 21 pontos,1000≤A≤B≤9999.•Para outro conjunto de casos de testes valendo 23 pontos,B=A+ 1.•Para outro conjunto de casos de testes valendo 40 pontos,A, B <10
+6.•Para outro conjunto de casos de testes valendo 16 pontos, nenhuma restrição adicional.
+Exemplos
+Exemplo de entrada 1
+61 2 3 1 2 4Exemplo de saída 1
+123
+Exemplo de entrada 2
+68 9 1 0 1 1Exemplo de saída 2
+8

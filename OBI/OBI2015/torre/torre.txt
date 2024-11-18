@@ -1,0 +1,19 @@
+Olimpíada Brasileira de Informática – OBI20154
+Torre
+Nome do arquivo:torre.c,torre.cpp,torre.pas,torre.java,torre.jsoutorre.pyNo jogo de xadrez, a torre é uma peça que pode se mover para qualqueroutra posição do tabuleiro na linha ou na coluna da posição que elaocupa. O professor Paulo está tentando inventar um novo tipo dejogo de xadrez onde todas as peças são torres, o tabuleiro também équadrado mas pode ter qualquer dimensão e cada posição do tabuleiroé anotada com um número inteiro positivo, como nagura ao lado.
+575941125212394321331922482857582345123456
+61889
+9Ele deniu opesode uma posição(i, j)como sendo a soma de todos os números que estejam nalinhaicom todos os números da colunaj, mas sem somar o número que está exatamente na posição(i, j). Quer dizer, se uma torre estiver na posição(i, j), o peso da posição é a soma de todas asposições que essa torre poderia atacar.O professor Paulo está solicitando a sua ajuda para implementar um programa que determine qual éo peso máximo entre todas as posições do tabuleiro. No exemplo dagura acima, com um tabuleirode dimensão seis (ou seja, seis linhas por seis colunas), o peso máximo é 67, referente à posição(4,4).
+Entrada
+A primeira linha da entrada contém um inteiroN, representando a dimensão do tabuleiro. Cadauma dasNlinhas seguintes contémNinteiros positivosX
+i, denindo os números em cada posiçãodo tabuleiro.
+Saída
+Seu programa deve produzir uma única linha, contendo um único inteiro, o peso máximo entre todasas posições do tabuleiro.
+Restrições
+•3≤N≤1000•0< X
+i≤100
+Informações sobre a pontuação
+•Em um conjunto de casos de teste cuja soma é 60 pontos,N≤300.
+Exemplos
+Entrada64 1 3 8 4 59 2 8 9 2 75 5 4 3 2 58 2 9 1 9 87 1 3 2 1 25 1 2 9 3 8Saída67Olimpíada Brasileira de Informática – OBI20155
+Entrada35 1 15 2 18 5 5 Saída20

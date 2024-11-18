@@ -1,0 +1,21 @@
+Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível Júnior – Fase 32
+Jogo
+Nome do arquivo:jogo.c,jogo.cpp,jogo.pas,jogo.java,jogo.jsoujogo.pyUma empresa está desenvolvendo um aplicativo para celular que tem como objetivo estimular ogosto por matemática em jovens.O aplicativo é um jogo, chamado Maior ou Menor, que sorteia um número inteiro e o jogador temque adivinhar qual o número sorteado. O jogo é composto de uma ou mais rodadas. A cada rodada,o jogador digita um número e o aplicativo responde com:•menorse o número digitado é maior do que o sorteado;•maiorse o número digitado é menor do que o sorteado; e•corretose o número digitado é igual ao número sorteado.O jogo termina quando o jogador acerta o número sorteado.Dados o número sorteado e as tentativas de um jogador, você deve escrever um programa que simuleo comportamento do aplicativo.
+Entrada
+A primeira linha contém um inteiroX, o número sorteado pelo aplicativo. Cada uma das linhasseguintes contém um inteiroT, indicando uma tentativa do jogador de acertar o número sorteado.Na última linha da entrada,T=X.
+Saída
+Para cada tentativa do jogador seu programa deve produzir uma linha na saída, contendo apenasuma palavra, que deve sermenorse o valor da tentativa é maior do que o número sorteado,maiorse o valor da tentativa é menor do que o número sorteado oucorretose o valor da tentativa é igualao número sorteado.
+Restrições
+•−10 000≤X≤10 000•−10 000≤T≤10 000•Haverá no máximo 1000 rodadas em cada jogo.
+Informações sobre a pontuação
+•Para um conjunto de casos de testes valendo 43 pontos, é garantido que o jogo termina emexatamente duas rodadas.•Para um outro conjunto de casos de testes valendo 57 pontos, nenhuma restrição adicional.Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível Júnior – Fase 33
+Exemplos
+Exemplo de entrada 1
+10310001500200100110105103Exemplo de saída 1
+menormaiormenormenormaiormenormenorcorreto
+Exemplo de entrada 2
+1000010000Exemplo de saída 2
+correto
+Exemplo de entrada 3
+-20-1-2Exemplo de saída 3
+menormenorcorreto

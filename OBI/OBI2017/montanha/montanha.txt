@@ -1,0 +1,17 @@
+Olimpíada Brasileira de Informática – OBI2017 – Prog. Nível Júnior – Fase 23
+Montanha
+Nome do arquivo:montanha.c,montanha.cpp,montanha.pas,montanha.java,montanha.js,montanha.py2oumontanha.py3Um sistema de informações geográcas computadorizado está representando o perl de uma mon-tanha através de uma sequência de números inteiros, na qual não há dois números consecutivosiguais, como ilustrado nagura abaixo para três montanhas. Os números representam a altura damontanha ao longo de uma certa direção.
+62356752412345672233465O gerente do sistema de informações geográcas pesquisou e encontrou uma maneira de identicar seuma sequência de números inteiros representa uma montanha com mais de um pico, ou com apenasum pico. Ele observou que, como não há números consecutivos iguais, se houver três númerosconsecutivos na sequência, tal que o número do meio é menor do que os outros dois números, entãoa montanha tem mais de um pico. Caso contrário, a montanha tem apenas um pico. De forma maisrigorosa, se a sequência éA= [A
+1, A2, A3, . . . , A N−2, AN−1, AN], ele quer saber se há uma posiçãoi, para2≤i≤N−1, tal queA
+i−1> A ieAi< A i+1.Para ajudar o gerente, seu programa deve determinar, dada a sequência de números inteiros repre-sentando a montanha, se ela tem mais de um pico, ou se tem um pico apenas.
+Entrada
+A primeira linha da entrada contém um inteiroN, representando o tamanho da sequência. Asegunda linha contémNinteirosA
+i,1≤i≤N, representando a sequência de alturas da montanha.
+Saída
+Seu programa deve imprimir uma linha contendo o caractere “S” se há mais de um pico, ou ocaractere “N” se há apenas um pico.
+Restrições
+•3≤N≤1000•1≤A
+i≤1000, para1≤i≤N
+Exemplos
+Entrada82 3 5 6 7 5 4 2 SaídaN
+Entrada82 3 6 5 4 6 3 2 SaídaS

@@ -1,0 +1,21 @@
+Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível Júnior – Fase Estadual3
+Tabela do campeonato
+Nome do arquivo:tabela.c,tabela.cpp,tabela.pas,tabela.java,tabela.js,tabela_py2.pyoutabela_py3.py
+Joana adora futebol e conseguiu um estágio no clube pelo qual torce. Na sala de troféus Joanaencontrou uma caderneta em que um antigo conselheiro do clube anotou os resultados de todos oscampeonatos que o time participou.Para cada campeonato há uma anotação na caderneta informando cinco dados: o número de jogos,o número de pontos, o número de vitórias, o número de empates e o número de derrotas do timenaquele campeonato. Em todos os campeonatos, cada vitória vale três pontos, cada empate valeum ponto e derrotas não valem pontos.Infelizmente, a caderneta era muito velha e alguns desses números estavam ilegíveis. Joana, noentanto, percebeu que, para cada campeonato, se algum número estivesse ilegível ele poderia sercomputado utilizando os números legíveis daquele campeonato.Sua tarefa é escrever um programa para completar as informações encontradas na caderneta.
+Entrada
+A entrada consiste de uma única linha que contém cinco inteirosJ, P, V, EeD, indicando respec-tivamente o número de jogos, o número de pontos, o número de vitórias, o número de empates eo número de derrotas para um campeonato. Um ou dois desses números tem o valor -1, indicandoque o número é ilegível na caderneta. Todos os casos da entrada têm solução.
+Saída
+Seu programa deve produzir uma única linha, com exatamente cinco números inteiros, os valorescorrigidos da caderneta para o campeonato da entrada. Os números devem ser dados na mesmaordem fornecida na entrada: o número de jogos, o número de pontos, o número de vitórias, o númerode empates e o número de derrotas, separados por exatamente um espaço em branco. Note que noresultado devem valer as equaçõesJ=V+E+DeP= 3×V+E.
+Restrições
+•1≤J≤100;0≤P≤300;0≤V≤100;0≤E≤100;0≤D≤100.•Na entrada, um ou dois dos valores entreJ, P, V, EeDé igual a−1(e somente nesses casosas restrições acima não são obedecidas).
+Informações sobre a pontuação
+•Para um conjunto de casos de testes valendo 10 pontos,P, V, E, D≥0eJ=−1.•Para um conjunto de casos de testes valendo outros 40 pontos, apenas um dos valores daentrada é−1.
+Exemplo de entrada 1
+10 20 6 2 -1Exemplo de saída 1
+10 20 6 2 2
+Exemplo de entrada 2
+-1 64 18 10 10Exemplo de saída 2
+38 64 18 10 10
+Exemplo de entrada 3
+-1 47 14 -1 9Exemplo de saída 3
+28 47 14 5 9

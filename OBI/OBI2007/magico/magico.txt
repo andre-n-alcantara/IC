@@ -1,0 +1,10 @@
+Olimp´ıada Brasileira de Inform´ atica – OBI2007 – Programa¸ c˜ ao N´ıvel 1, Fase 1 3
+Quadrado M´ agico
+Nome do arquivo fonte:magico.c,magico.cpp,oumagico.pasChama-se dequadrado m´ agicoum arranjo, na forma de um quadrado, deN×Nn´ umeros inteiros tal que todasas linhas, colunas e diagonais tˆ em a mesma soma.Por exemplo, o quadrado abaixo2 7 69 5 14 3 8´ e um quadrado m´ agico de soma 15, pois todas as linhas (2 + 7 + 6 = 15, 9 + 5 + 1 = 15 e 4 + 3 + 8 = 15), colunas(2 + 9 + 4 = 15, 7 + 5 + 3 = 15 e 6 + 1 + 8 = 15) e diagonais (2 + 5 + 8 = 15 e 6 + 5+ 4 = 15) tˆ em a mesmasoma (15).
+Tarefa
+Escreva um programa que, dado um quadrado, determine se ele ´ e magico ou n˜ ao e qual a soma dele (caso sejam´ agico).
+Entrada
+A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). A primeira linha da entrada de cada caso de teste cont´ em um inteiroN(2< N <10). AsNlinhas seguintes contˆ emNinteiros cada, separados por exatamente um espa¸ co em branco. Os inteiros dentrodo quadrado s˜ ao todos maiores que 0 (zero) e menores que 1.000.
+Sa´ıda
+Seu programa deve imprimir, nasa´ıda padr˜ ao, uma ´ unica linha com um inteiro representando a soma doquadrado m´ agico ou−1 caso o quadrado n˜ ao seja m´ agico.
+Entrada32 7 69 5 14 3 8Sa´ıda15Entrada31 2 34 5 67 8 9Sa´ıda-1Entrada416 3 2 135 10 11 89 6 7 124 15 14 1Sa´ıda34

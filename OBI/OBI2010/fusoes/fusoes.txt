@@ -1,0 +1,15 @@
+Olimp´ıada Brasileira de Inform´ atica – OBI2010 3
+Fus˜ oes
+Nome do arquivo fonte:fusoes.c,fusoes.cpp,oufusoes.pasA informatiza¸ c˜ ao dos sistemas banc´ arios permitiu grandes economias de tempo e dinheiro, permitindo que v´ ariostipos de transa¸ c˜ oesnanceiras pudessem ser realizadas pela Internet. Para possibilitar isso, cada banco recebeuumc´ odigo banc´ ario, que ´ e um n´ umero utilizado pelos sistemas de computador para identicar cada banco.Quando um banco decide comprar outro, ocorre o que se chama umafus˜ ao: os dois bancos tornam-se ums´ o banco. Para manter compatibilidade com os sistemas eletrˆ onicos dos bancos, qualquer um dos c´ odigos dosantigos bancos pode ser usado para se referir ao novo banco.Com a crise econˆ omica internacional, as fus˜ oes entre bancos tˆ em sido cada vez mais comuns; por isso, muitasvezes ´ e dif´ıcil decidir se dois c´ odigos banc´ arios na realidade se referem ao mesmo banco (devido aos dois bancosterem se fundido, diretamente ou n˜ ao).
+Tarefa
+Escreva um programa que, dada uma s´ erie de fus˜ oes entre bancos, responde a v´ arias consultas perguntando sedois c´ odigos banc´ arios se referem ao mesmo banco.
+Entrada
+A primeira linha da entrada cont´ em dois inteirosNeK, indicando o n´ umero de bancos e o n´ umero de opera¸ c˜ oesefetuadas (1≤N≤100.000, 1≤K≤100.000). Os c´ odigos de cada um dosNbancos, inicialmente, s˜ ao osinteiros de 1 at´ eN.Cada uma dasKlinhas seguintes descreve ou uma fus˜ ao entre bancos ou uma consulta.•Uma fus˜ ao ´ e descrita na entrada como uma linha que come¸ ca com o caractere ‘F’, um espa¸ co, e dois c´ odigosbanc´ arios, que se referem aos dois bancos que est˜ ao sofrendo a fus˜ ao, separados por um espa¸ co em branco;•Uma consulta ´ e descrita na entrada como uma linha que come¸ ca com o caractere ‘C’, um espa¸ co, e os doisc´ odigos a serem consultados, separados por um espa¸ co em branco. Os c´ odigos banc´ arios consultados s˜ aosempre distintos.As fus˜ oes s˜ ao sempre realizadas entre bancos diferentes, e todos os c´ odigos banc´ arios fornecidos na entrada s˜ aov´ alidos.
+Sa´ıda
+Seu programa deve imprimir uma linha para cada consulta na entrada. Caso os dois c´ odigos banc´ arios consul-tados se reram ao mesmo banco, imprima uma linha contendo o caractere ‘S’; caso contr´ ario, imprima umalinha contendo apenas o caractere ‘N’.
+Informa¸ c˜ oes sobre a pontua¸ c˜ ao
+•Em um conjunto de casos de teste que totaliza 40 pontos,N≤100 eK≤100.Olimp´ıada Brasileira de Inform´ atica – OBI2010 4
+Exemplos
+Entrada3 5C 1 2F 1 2C 1 2F 1 3C 1 3Sa´ıdaNSS
+Entrada4 5F 1 2F 2 3C 1 3F 2 4C 1 4Sa´ıdaSS
+Entrada4 4F 1 2F 3 4F 1 3C 2 4Sa´ıdaS

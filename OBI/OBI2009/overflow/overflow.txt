@@ -1,0 +1,15 @@
+Olimp´ıada Brasileira de Inform´ atica – OBI2009 3
+Overow
+Nome do arquivo fonte:overflow.c,overflow.cpp,ouoverflow.pasOs computadores foram inventados para realizar c´ alculos muito rapidamente, e atendem a esse requisito de ma-neira extraordin´ aria. Por´ em, nem toda conta pode ser feita num computador, pois ele n˜ ao consegue representartodos os n´ umeros dentro de sua mem´ oria. Em um computador pessoal atual, por exemplo, o maior inteiro que´ e poss´ıvel representar em sua mem´ oria ´ e 4.294.967.295. Caso alguma conta executada pelo computador dˆ e umresultado acima desse n´ umero, ocorrer´ a o que chamamos deoverow, que ´ e quando o computador faz uma contae o resultado n˜ ao pode ser representado, por ser maior do que o valor m´ aximo permitido (em inglˆ esoverowsignica trasbordar).Por exemplo, se um computador s´ o pode representar n´ umeros menores do que 1023 e mandamos ele executar aconta 1022 + 5, vai ocorreroverow.
+Tarefa
+Dados o maior n´ umero que um computador consegue representar e uma express˜ ao de soma ou multiplica¸ c˜ aoentre dois inteiros, determine se ocorrer´ aoverow.
+Entrada
+A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado).A primeira linha da entrada cont´ em um inteiroN(1≤N≤500.000) representando o maior n´ umero queo computador consegue representar. A segunda linha cont´ em um inteiroP(0≤P≤1000), seguido deum espa¸ co em branco, seguido de um caractere C (que pode ser ‘+’ ou ‘*’, representando os operadores deadi¸ c˜ ao e multiplica¸ c˜ ao, respectivamente), seguido de um espa¸ co em branco, seguido de um outro inteiroQ(0≤Q≤1000). Essa linha representa a express˜ aoP+Q, se o caractere C for ‘+’, ouP×Q, se o caractere Cfor ‘*’.
+Sa´ıda
+Seu programa deve imprimir, nasa´ıda padr˜ ao, a palavra ‘OVERFLOW’ se o resultado da express˜ ao causar umoverow, ou a palavra ‘OK’ caso contr´ ario. Ambas as palavras devem ser escritas com letras mai´ usculas.
+Informa¸ c˜ oes sobre a pontua¸ c˜ ao
+•Em um conjunto de casos de teste que totaliza 30 pontos,N≤10,P≤10 eQ≤10.•Em um conjunto de casos de teste que totaliza 80 pontos,N≤100,P≤100 eQ≤100.
+Exemplos
+Entrada105 + 5 Sa´ıdaOKOlimp´ıada Brasileira de Inform´ atica – OBI2009 4
+Entrada4423 * 2 Sa´ıdaOVERFLOW
+Entrada32350042 * 35 Sa´ıdaOK

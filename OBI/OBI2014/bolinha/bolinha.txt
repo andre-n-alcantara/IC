@@ -1,0 +1,14 @@
+Olimpíada Brasileira de Informática – OBI2014 4
+Passa Bolinha
+Nome do arquivo fonte:bolinha.c,bolinha.cpp,bolinha.pas,bolinha.java,oubolinha.pyO professor Miguel desaou os alunos do colégio onde ele leciona com uma brincadeira que exigemuita atenção! No pátio do colégio, os alunos formam um quadrado comNleiras eNcolunas, demodo que a primeiraleira esteja voltada para o norte. Cada um dosN
+2alunos segura uma bandeirae tem um número colado na camiseta. Inicialmente, as bandeiras estão abaixadas e os alunos estãovoltados para o norte. Todos os alunos têm que seguir exatamente o mesmo comportamento:•Ao receber a bolinha, levanta sua bandeira e realiza a seguinte ação quatro vezes, em sequência:–Vira-se 90 graus no sentido horário. Se o colega quecou à sua frente tiver um númerona camiseta maior ou igual ao seu, e estiver com a bandeira abaixada, passa a bolinhaao colega e aguarda que ele lhe devolva a bolinha;•Devolve a bolinha a quem lhe passou a bolinha inicialmente.Nesta tarefa, você deve escrever um programa que, dados os números nas camisetas de cada aluno,e a posição do aluno a quem o professor Miguel vai entregar a bolinha, calcule quantas bandeirasestarão levantadas aonal, quando esse aluno devolver a bolinha ao professor. Por exemplo, aparte direita dagura abaixo mostra que sete alunos vão levantar a bandeira se o professor entregarinicialmente a bolinha ao aluno naleira 3, coluna 1, como indicado na parte esquerda dagura.
+9norte12341 2 3 4 6 7 9 91 4 3 52 4 5 11 3 2 9 12341 2 3 46 7 9 91 4 3 52 4 5 11 3 2
+Entrada
+A primeira linha da entrada contém um inteiroN, o número deleiras (que é igual ao de colunas).A segunda linha contém dois números,IeJ, indicando respectivamente, aleira e a coluna doaluno a quem o professor Miguel entregará a bolinha. AsNlinhas seguintes contémNinteiros cadauma, indicando os números que estão nas camisetas dos alunos.
+Saída
+Seu programa deve imprimir apenas uma linha contendo um inteiro, o número de bandeiras queestarão levantadas aonal.
+Restrições
+•1≤N≤100•1≤I≤Ne1≤J≤N•Os números nas camisetas estão entre 1 e 9, inclusiveOlimpíada Brasileira de Informática – OBI2014 5
+Exemplos
+Entrada43 16 7 9 91 4 3 52 4 5 11 3 2 9Saída7
+Entrada64 59 4 9 6 1 99 9 3 8 9 39 9 3 9 9 69 9 3 9 2 19 9 9 9 7 99 4 9 4 9 7Saída21

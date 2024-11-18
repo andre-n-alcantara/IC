@@ -1,0 +1,16 @@
+Olimp´ıada Brasileira de Inform´ atica – OBI2010 4
+Ped´ agio
+Nome do arquivo fonte:pedagio.c,pedagio.cpp,oupedagio.pasA inven¸ c˜ ao do carro tornou muito mais r´ apido e mais barato realizar viagens de longa distˆ ancia. Realizar umaviagem rodovi´ aria tem dois tipos de custos: cada quilˆ ometro percorrido na rodovia tem um custo associado(n˜ ao s´ o devido ao consumo de combust´ıvel mas tamb´ em devido ao desgaste das pe¸ cas do carro, pneus, etc.),mas tamb´ em ´ e necess´ ario passar por v´ arios ped´ agios localizados ao longo da rodovia.Os ped´ agios s˜ ao igualmente espa¸ cados ao logo da rodovia; o come¸ co da estrada n˜ ao possui um ped´ agio, mas oseunal pode estar logo ap´ os um ped´ agio (por exemplo, se a distˆ ancia entre dois ped´ agios consecutivos for de37 km e a estrada tiver 111 km, o motorista deve pagar um ped´ agio aos 37 km, aos 74 km e aos 111 km, logoantes de terminar a sua viagem).
+Tarefa
+Dadas as caracter´ısticas da rodovia e os custos com gasolina e com ped´ agios, calcule o custo total da viagem.
+Entrada
+A entrada consiste de duas linhas. A primeira linha da entrada cont´ em dois inteirosLeD(1≤L, D≤104), indicando o comprimento da estrada e a distˆ ancia entre ped´ agios, respectivamente. A segunda linha cont´ emdois inteirosKeP(1≤K, P≤10
+4), indicando o custo por quilˆ ometro percorrido e o valor de cada ped´ agio.O primeiro ped´ agio est´ a localizado no quilˆ ometroDda estrada (ou seja, a distˆ ancia do in´ıcio da estrada parao primeiro ped´ agio ´ eDquilˆ ometros).
+Sa´ıda
+Seu programa deve imprimir uma ´ unica linha contendo um ´ unico inteiro, indicando o custo total da viagem.
+Informa¸ c˜ oes sobre a pontua¸ c˜ ao
+•Em um conjunto de casos de teste que totaliza 40 pontos,L, D, K, P≤100.Olimp´ıada Brasileira de Inform´ atica – OBI2010 5
+Exemplos
+Entrada111 371 10 Sa´ıda141
+Entrada100 303 14 Sa´ıda342
+Entrada20 709 17 Sa´ıda180

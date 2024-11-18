@@ -1,0 +1,34 @@
+Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível 1 – Fase 2 6
+Câmeras
+Nome do arquivo:cameras.c,cameras.cpp,cameras.pas,cameras.java,cameras.jsoucameras.pyUma exposição vai ser montada num espaço retangular, dividido emN×Mcélulas dispostas emNcolunas porMlinhas. Umacélulaé o espaço delimitado pela interseção de uma coluna com umalinha. As colunas estão na direção Norte-Sul e as linhas na direção Oeste-Leste. Para segurançadas obras foram instaladasKcâmeras, em células selecionadas. Cada câmera pode estar apontadapara uma de quatro direções: Norte, Sul, Leste ou Oeste. Uma câmera observa todas as células dacoluna ou linha na direção em que está apontada, a partir da célula em que está instalada (incluindoa célula em que está instalada).A porta de entrada da exposição está na célula mais ao norte e mais à oeste, a porta de saída estána célula mais ao sul e mais ao leste. Agura abaixo ilustra um espaço de exposição com 6 colunas,5 linhas e 5 câmeras instaladas.
+saídacâmeracaminho dovisitanteentradaNOLS
+Preocupado com a segurança, o organizador da exposição deseja saber se é possível que um visitanteentre pela porta de entrada e saia pela porta de saída, movendo-se somente nas quatro direções(Norte, Sul, Leste ou Oeste) sem que seja observado por qualquer das câmeras instaladas.
+Entrada
+A primeira linha contém três inteirosN,MeKindicando respectivamente o número de colunas,o número de linhas e o número de câmeras instaladas. As colunas estão numeradas de 1 aNeas linhas estão numeradas de 1 aM. A coluna 1 é a coluna mais à Oeste e a linha 1 é a linhamais ao Norte. Cada uma dasKlinhas seguintes descreve uma câmera e contém dois inteirosC
+i,L
+ie um caractereD i, indicando respectivamente a coluna, a linha e a direção em que a câmeraestá instalada. O caractereD
+ipode serN,S,LouO, indicando respectivamente que a câmera estáinstalada direcionada para o Norte, Sul, Leste ou Oeste.
+Saída
+Seu programa deve produzir uma única linha, contendo um único caractere, que deve serSseé possível que um visitante entre pela porta de entrada e saia pela porta de saída sem que sejaobservado por qualquer das câmeras instaladas, ouNcaso contrário.
+Restrições
+•2≤N≤30;2≤M≤30;1≤K≤30•1≤C
+i≤N, para1≤i≤K•1≤L
+i≤M, para1≤i≤K•D
+ipode serN,S,LouO.Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível 1 – Fase 2 7
+Informações sobre a pontuação
+•Para um conjunto de casos de testes valendo 10 pontos,M= 2eK= 1.•Para um conjunto de casos de testes valendo outros 10 pontos,N= 3,M= 3eK= 2.•Para um conjunto de casos de testes valendo outros 80 pontos, nenhuma restrição adicional.
+Exemplos
+Exemplo de entrada 1
+4 5 22 2 O3 3 LExemplo de saída 1
+N
+Explicação do exemplo 1:
+Neste caso a resposta é Não.
+Exemplo de entrada 2
+5 4 22 3 N4 2 SExemplo de saída 2
+S
+Explicação do exemplo 2:
+Neste caso a resposta é Sim.
+Exemplo de entrada 3
+6 5 51 2 S3 2 N5 2 N3 4 O5 4 LExemplo de saída 3
+S
+Explicação do exemplo 3:Este caso é o exemplo dado no enunciado.

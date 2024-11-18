@@ -1,0 +1,18 @@
+Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível Júnior – Fase Local3
+Álbum da copa
+Nome do arquivo:“album.x”,ondexdeve sercpp,pas,java,js,py2oupy3Em ano de Copa do Mundo de Futebol, o álbum degurinhas ocial é sempre um grande sucessoentre crianças e também entre adultos. Para quem não conhece, o álbum contém espaços numeradosde 1 aNpara colar asgurinhas; cadagurinha, também numerada de 1 aN, é uma pequenafoto de um jogador de uma das seleções que jogará a Copa do Mundo. O objetivo é colar todasasgurinhas nos respectivos espaços no álbum, de modo acompletaro álbum (ou seja, não deixarnenhum espaço sem a correspondentegurinha).Asgurinhas são vendidas em envelopes fechados, de forma que o comprador não sabe quais-gurinhas está comprando, e pode ocorrer de comprar umagurinha que ele já tenha colado noálbum.Para ajudar os usuários, a empresa responsável pela venda do álbum e dasgurinhas quer criar umaplicativo que permita gerenciar facilmente asgurinhas que faltam para completar o álbum e estásolicitando a sua ajuda.Dados o número total de espaços egurinhas do álbum, e uma lista dasgurinhas já compradas (quepode contergurinhas repetidas), sua tarefa é determinar quantasgurinhas faltam paracompletaro álbum.
+Entrada
+A primeira linha contém um inteiroNindicando o número total degurinhas e espaços no álbum.A segunda linha contém um inteiroMindicando o número degurinhas já compradas. Cada umadasMlinhas seguintes contém um número inteiroXindicando umagurinha já comprada.
+Saída
+Seu programa deve produzir uma única linha contendo um inteiro representando o número degurinhas que falta para completar o álbum.
+Restrições
+•1≤N≤100•1≤M≤300•1≤X≤N
+Exemplo de entrada 1
+103583Exemplo de saída 1
+7Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível Júnior – Fase Local4
+Exemplo de entrada 2
+56332333Exemplo de saída 2
+3
+Exemplo de entrada 3
+342133Exemplo de saída 3
+0

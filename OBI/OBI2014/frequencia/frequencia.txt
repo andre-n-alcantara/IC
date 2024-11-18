@@ -1,0 +1,16 @@
+Olimpíada Brasileira de Informática – OBI2014 8
+Frequência
+Nome do arquivo fonte:frequencia.c,frequencia.cpp,frequencia.pas,frequencia.java,oufrequencia.pyByteland é uma cidade bastante conhecida por propor variados desaos aos seus habitantes. Re-centemente, o prefeito de Byteland, Joãozinho, decidiu propor um desao que ele gosta de chamarde Tabuleiro da Frequência.A brincadeira ocorre da seguinte forma. Inicialmente, um tabuleiro com dimensõesN×Né dadocontendo apenas 0’s. Depois disso,Qoperações são propostas, podendo ser de 4 tipos:•1X R: Atribuir o valorRa todos os números da linhaX;•2X R: Atribuir o valorRa todos os números da colunaX;•3X: Imprimir o valor mais frequente na linhaX;•4X: Imprimir o valor mais frequente da colunaX.Joãozinho é muito bom com computadores, mas também é bastante preguiçoso. Sabendo que você éum dos melhores programadores do mundo, ele decidiu pedir sua ajuda para resolver este problema.
+Entrada
+A primeira linha da entrada é composta por dois inteirosNeQ, representando, respectivamente, otamanho do tabuleiro e a quantidade de operações. As próximasQlinhas da entrada vão conter asQoperações. O primeiro inteiro de cada linha vai indicar o tipo da operação. Caso seja1ou2, seráseguido por mais dois inteirosXeR. Caso seja3ou4, será seguido por apenas mais um inteiroX.
+Saída
+Para cada operação do tipo3ou4, seu programa deve produzir uma linha, contendo o valor daresposta correspondente. Se uma linha ou coluna tiver dois ou mais valores que se repetem omesmo número de vezes, você deve imprimir o maior deles. Por exemplo, se uma linha tem osvalores [5,7,7,2,5,2,1,3], tanto o 2, 5 e 7 se repetem duas vezes, então a resposta será 7, pois é omaior deles.
+Restrições
+•1≤N,Q≤105
+•1≤X≤N•0≤R≤50
+Informações sobre a pontuação
+•Em um conjunto de casos de teste equivalente a 30 pontos,N≤103.•Em um conjunto de casos de teste equivalente a 20 pontos, apenas as operações 2 e 3 serãousadas.Olimpíada Brasileira de Informática – OBI2014 9
+Exemplos
+Entrada5 93 11 1 21 3 41 4 44 22 2 52 3 52 4 53 3Saída045
+Entrada2 41 1 12 2 23 13 2Saída22
+Entrada3 61 1 21 2 31 3 44 31 3 04 3Saída43

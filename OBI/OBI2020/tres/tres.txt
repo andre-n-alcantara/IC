@@ -1,0 +1,23 @@
+Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 1 – Fase Local •TurnoB3
+Três por Dois
+Nome do arquivo:“tres.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3Uma loja de chocolates está fazendo uma promoção do tipo “leve três pague dois”. Mais precisa-mente, você pode escolher quaisquer três chocolates da loja e paga apenas pelos dois mais carosque escolher, levando o mais barato gratuitamente. Se você levar mais do que três chocolates, vocêpode agrupá-los em grupos de três e levar o chocolate mais barato de cada grupo gratuitamente.Por exemplo, se você escolher chocolates de preços (em reais) 8, 5, 10, 2, 5, 10 e 4, você podeagrupá-los como (8,5,10), (2,5,10) e (4), pagará um total de (10+8) + (10+5) + 4, ou seja, 37 reais.Mas você pode agrupá-los de uma forma melhor e assim conseguir pagar menos. Você consegue vercomo?Dados os preços dos chocolates escolhidos, escreva um programa para determinar o menor preço apagar.
+Entrada
+A primeira linha da entrada contém um inteiroN, o número de chocolates escolhidos. Cada umadasNlinhas seguintes contém um número inteiroP, o preço de um chocolate escolhido.
+Saída
+Seu programa deve produzir uma única linha, contendo um único número inteiro, o menor preço apagar pelos chocolates escolhidos.
+Restrições
+•1≤N≤100000•1≤P≤1000
+Informações sobre a pontuação
+•Para um conjunto de casos de testes valendo 50 pontos,N≤1000.
+Exemplo de entrada 1
+45665Exemplo de saída 1
+17
+Exemplo de entrada 2
+43333Exemplo de saída 2
+9Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 1 – Fase Local •TurnoB4
+Exemplo de entrada 3
+6787757Exemplo de saída 3
+29
+Exemplo de entrada 4
+7851025104Exemplo de saída 4
+32

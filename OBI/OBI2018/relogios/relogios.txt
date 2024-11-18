@@ -1,0 +1,23 @@
+Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível 1 – Fase Estadual5
+Relógios
+Nome do arquivo:“relogios.x”,ondexdeve serc|cpp|pas|java|js|py2|py3É como se diz: mesmo um relógio parado está certo duas vezespor dia. Quer dizer, se um relógio está parado com seus ponteirosmarcando, digamos, 7:32, e você olhar para ele exatamente às7:32 da manhã, ou da noite, o relógio vai lhe mostrar a horacerta! O coelho branco está atrasado, muito atrasado. Ele precisachegar ao seu destino o mais rápido possível, mas não pode, dejeito nenhum, mas de jeito nenhum mesmo, passar por um relógioque não esteja lhe mostrando a hora certa.
+O coelho branco está na sala do canto superior esquerdo de um palácio que é um quadriculado desalas iguais, cada uma delas contendo um relógio cujo marcador está dividido emKunidades detempo, de0aK−1, e que possuem apenas um ponteiro. Alguns relógios estão parados, enquantoos demais funcionam perfeitamente sincronizados. O coelho precisa chegar na sala do canto inferiordireito, pode se mover ortogonalmente apenas e leva exatamente uma unidade de tempo para ir deuma sala para outra. Ele podecar esperando parado, por uma quantidade inteira de unidades detempo, numa sala cujo relógio esteja funcionando. Mas ele não pode entrar, nemcar esperandoparado, em uma sala cujo relógio lhe esteja mostrando a hora errada!No exemplo dagura,K= 6e os relógios mostrados estão parados. Nas salas onde agura nãomostra o relógio, é porque ele está funcionando. Você consegue ver que, para esse exemplo, o tempomínimo para o coelho branco chegar na sala inferior direita é 8 unidades de tempo?Seu programa precisa computar a quantidade mínima de unidades de tempo para o coelho brancochegar ao destino, se for possível chegar ao destino!
+Entrada
+A primeira linha da entrada contém três inteirosL,CeK, indicando, respectivamente, o número delinhas, o número de colunas e a quantidade de unidades de tempo na qual o marcador dos relógiosestá dividido. AsLlinhas seguintes contêm, cada uma,CinteirosP, representando o estado dosrelógios em cada sala:P=−1, se o relógio estiver funcionando corretamente; e0≤P≤K−1,se estiver parado com o ponteiro na posiçãoP. O relógio na sala inicial, primeira linha e primeiracoluna, está sempre parado na posição0.
+Saída
+Imprima um inteiro, representando a quantidade mínima de unidades de tempo para o coelho brancochegar ao destino. Se não for possível, imprima−1.
+Restrições
+•2≤L, C≤100•2≤K≤10
+5
+•−1≤P≤K−1
+Informações sobre a pontuação
+•Para um conjunto de casos de teste valendo 25 pontos,L≤20,C≤20eK≤10;Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível 1 – Fase Estadual6
+Exemplo de entrada 1
+3 4 60 -1 3 -14 1 -1 14 -1 2 -1Exemplo de saída 1
+8
+Exemplo de entrada 2
+5 4 100 -1 -1 -1-1 9 9 94 9 -1 8-1 -1 9 7-1 7 9 -1Exemplo de saída 2
+-1
+Exemplo de entrada 3
+5 4 100 -1 -1 -1-1 9 9 94 9 -1 8-1 2 9 9-1 7 9 -1Exemplo de saída 3
+20

@@ -1,0 +1,12 @@
+Olimpíada Brasileira de Informática – OBI2012 4
+Desao do maior número
+Nome do arquivo fonte:maior.c,maior.cpp,maior.pas,maior.java,oumaior.pyLeonardo é um garoto muito criativo. Ele adora criar desaos para seus colegas da escola. Seu último desao éo seguinte: diversos números são ditos em voz alta, quando o número0(zero) é dito então o desao termina eseus colegas devem dizer imediatamente qual foi o maior número. Leonardo tem muita diculdade de vericarse a resposta dada pelos colegas é correta ou não, pois a sequência de números costuma ser longa. Por estemotivo, ele resolveu pedir sua ajuda.Sua tarefa é escrever um programa que dada uma sequência de números inteiros positivos terminada por0(zero), imprime o maior número da sequência.
+Entrada
+A entrada é dada em uma única linha contendo uma sequência de números inteiros positivos. O último númeroda linha é0(zero).
+Saída
+Seu programa deve imprimir o maior número dentre os números da entrada.
+Restrições
+•1≤tamanho da sequência≤100.•1≤número da sequência≤1000.
+Exemplos
+Entrada10 30 20 5 0 Saída30
+Entrada99 1000 55 1 2 9 0 Saída1000

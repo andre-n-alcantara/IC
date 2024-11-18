@@ -1,0 +1,20 @@
+Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível 2 – Fase Local3
+Figurinhas da copa
+Nome do arquivo:“figurinhas.x”,ondexdeve sercpp,pas,java,js,py2oupy3Em ano de Copa do Mundo de Futebol, o álbum degurinhas ocial é sempre um grande sucessoentre crianças e também entre adultos. Para quem não conhece, o álbum contém espaços numeradosde 1 aNpara colar asgurinhas; cadagurinha, também numerada de 1 aN, é uma pequenafoto de um jogador de uma das seleções que jogará a Copa do Mundo. O objetivo é colar todasasgurinhas nos respectivos espaços no álbum, de modo acompletaro álbum (ou seja, não deixarnenhum espaço sem a correspondentegurinha).Algumasgurinhas sãocarimbadas(efetivamente têm um carimbo impresso sobre a fotograa dojogador) e são mais raras, mais difíceis de conseguir.Asgurinhas são vendidas em envelopes fechados, de forma que o comprador não sabe quaisguri-nhas está comprando, e pode ocorrer de comprar umagurinha que ele já tenha colado no álbum.Para ajudar os usuários, a empresa responsável pela venda do álbum e dasgurinhas quer criar umaplicativo que permita gerenciar facilmente asgurinhas que faltam para completar o álbum.Dados o número total de espaços egurinhas do álbum (N), a lista dasgurinhas carimbadas e umalista dasgurinhas já compradas (que pode contergurinhas repetidas), sua tarefa é determinarquantasgurinhas carimbadasfaltam paracompletaro álbum.
+Entrada
+A primeira linha contém três números inteirosN,CeMindicando respectivamente o númerodegurinhas (e espaços) do álbum, o número degurinhas carimbadas do álbum e o número degurinhas já compradas. A segunda linha contémCnúmeros inteiros distintosX
+iindicando asgurinhas carimbadas do álbum. A terceira linha contémMnúmeros inteirosY iindicando asgurinhas já compradas.
+Saída
+Seu programa deve produzir um inteiro representando o número degurinhas carimbadasque faltapara completar o álbum.
+Restrições
+•1≤N≤100•1≤C≤N/2•1≤M≤300•1≤X
+i, Yi≤N
+Exemplo de entrada 1
+10 2 54 77 1 2 8 3Exemplo de saída 1
+1
+Exemplo de entrada 2
+10 2 64 77 1 8 4 9 3Exemplo de saída 2
+0Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível 2 – Fase Local4
+Exemplo de entrada 3
+8 4 102 4 6 83 1 1 5 9 1 7 7 1 1Exemplo de saída 3
+4

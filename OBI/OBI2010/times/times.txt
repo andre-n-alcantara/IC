@@ -1,0 +1,15 @@
+Olimp´ıada Brasileira de Inform´ atica – OBI2010 6
+Times
+Nome do arquivo fonte:times.c,times.cpp,outimes.pasAs aulas de educa¸ c˜ ao f´ısica, em muitas escolas, acontecem da seguinte maneira: O professor entrega uma bolaao alunos (geralmente de futebol) e estes se dividem em times, onde jogam partidas alternadamente.A maneira como os times s˜ ao escolhidos tamb´ em ´ e semelhante em todas as escolas: decide-se quantos timesser˜ ao formados, e uma pessoa para montar cada um dos times. Cada pessoa vai escolher, alternadamente, umdos alunos restantes para fazer parte de sua equipe. Como todos querem ter uma boa equipe, a pessoa quevai escolher o pr´ oximo membro do time escolhe aquele, dentre os ainda dispon´ıveis, que possui o melhor n´ıvelde habilidade. Assim, os times acabamcando relativamente equilibrados na soma do n´ıvel de habilidade dosjogadores.
+Tarefa
+Dada uma lista de alunos que ser˜ ao escolhidos e seus respectivos n´ıveis de habilidade para os times e a quantidadede times que ser˜ ao formados, mostre comocar˜ ao os times aonal do processo de montagem dos mesmos.
+Entrada
+A primeira linha da entrada cont´ em dois inteirosN(2≤N≤10.000) eT(2≤T≤1000), representandorespectivamente a quantidade de alunos e o n´ umero de times a serem formados, sendoT≤N. AsNlinhasseguintes descrevem, cada uma, um aluno dispon´ıvel para escolha de times. Cada uma dessas linhas possui onome do aluno (composto apenas por letras min´ usculas) e um inteiroH(0≤H≤1.000.000) descrevendo seun´ıvel de habilidade).N˜ ao existem dois alunos com o mesmo n´ıvel de habilidade, e todos eles possuem nomes diferentes. ´E poss´ıvel que alguns times acabemcando com menos jogadores do que os outros.
+Sa´ıda
+Seu programa deve imprimir a lista de times que ser´ a formada aonal do processo de sele¸ c˜ ao. Para cada time,vocˆ e dever´ a mostrar o termo “Time N”, ondeN´ e o n´ umero do time (1 para o primero, 2 para o segundo, eassim por diante) seguido deKlinhas, ondeK´ e a quantidade de jogadores do time, mostrando o nome de cadaum dos jogadores do time, em ordem alfab´ etica. Imprima uma linha em branco ap´ os cada descri¸ c˜ ao de time(inclusive do ´ ultimo).Os times ser˜ ao escolhidos pelo computador, ent˜ ao n˜ ao ´ e necess´ ario considerar o aluno que ir´ a fazer a escolhados times.
+Informa¸ c˜ oes sobre a pontua¸ c˜ ao
+•Em um conjunto de casos de teste que totaliza 40 pontos, 2≤N≤10, 2≤T≤5.Olimp´ıada Brasileira de Inform´ atica – OBI2010 7
+Exemplos
+Entrada14 3felipe 4alvaro 8thiago 1rodrigo 3robson 2fabio 9ricardo 11rodolfo 0andre 14arthur 12ronaldo 55rogerio 30lucas 7rafael 17
+Sa´ıdaTime 1andrefabiofeliperonaldothiagoTime 2alvaroarthurrodolforodrigorogerioTime 3lucasrafaelricardorobson
+Entrada4 3john 3richard 0greg 100rupert 20Sa´ıdaTime 1gregrichardTime 2rupertTime 3john

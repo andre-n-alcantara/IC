@@ -1,0 +1,34 @@
+Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível Júnior – Fase Fase 24
+Robô
+Nome do arquivo:“robo.x”,ondexdeve serc,cpp,pas,java,jsoupyUm fazendeiro comprou um robô-espantalho para espantar os pássaros de sua plantação de milho.O robô se move ao longo de um caminho que circunda a plantação. No caminho háNestaçõesnumeradas sequencialmente, a partir de 1, no sentido horário. Agura abaixo mostra um exemplocom oito estações.
+81245673
+plantação
+O robô inicia cada dia na estação número 1, e então obedece a uma sequência de comandos. Oscomandos são gerados por um algoritmo de aprendizagem de máquina que coleta informações atravésde sensores espalhados na plantação, para garantir uma cobertura de vigia máxima. Cada comandofaz com que o robô se mova para outra estação, vizinha à estação em que ele se encontra, ou nosentido horário ou no sentido anti-horário. O robô permanece nessa nova estação até receber umnovo comando.Apesar da promessa de que o robô protegeria a plantação, aonal de um determinado dia o fa-zendeiro notou que parte de sua plantação estava devastada por pássaros. O fazendeiro agora querentender melhor o que aconteceu.Dados o número da estação mais próxima à área devastada e a sequência de comandos que o robôobedeceu naquele dia, escreva um programa para determinar quantas vezes o robô permaneceu naestação mais próxima à àrea devastada.
+Entrada
+A primeira linha contém três inteirosN,CeS, representando respectivamente o número de estações,o número de comandos e o número da estação mais próxima à área devastada. A segunda linhacontémCinteirosX
+1, X2, . . . , X C, representando a sequência de comandos recebidos pelo robô.Parai= 1,2, . . . , C, seX
+ié1então oi-ésimo comando signica “mova-se para a próxima estaçãono sentido horário”, enquanto seX
+ié−1então oi-ésimo comando signica “mova-se para a próximaestação no sentido anti-horário”. O robô sempre inicia na estação número1.
+Saída
+Seu programa deve produzir uma única linha, contendo um único inteiro, o número de vezes que orobô permaneceu na estação númeroSdurante o dia.
+Restrições
+•2≤N≤100•1≤C≤1000
+Exemplos
+Exemplo de entrada 1
+8 8 31 -1 1 1 1 -1 1 1Exemplo de saída 1
+2Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível Júnior – Fase Fase 25
+Exemplo de entrada 2
+5 4 11 1 1 1Exemplo de saída 2
+1
+Exemplo de entrada 3
+2 1 11Exemplo de saída 3
+1
+Exemplo de entrada 4
+2 1 21Exemplo de saída 4
+1
+Exemplo de entrada 5
+2 2 1-1 1Exemplo de saída 5
+2
+Exemplo de entrada 6
+2 2 1-1 -1Exemplo de saída 6
+2

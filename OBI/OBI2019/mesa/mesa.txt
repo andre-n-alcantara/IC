@@ -1,0 +1,17 @@
+Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível 2 – Fase Nacional4
+Mesa redonda
+Nome do arquivo:mesa.c,mesa.cpp,mesa.pas,mesa.java,mesa.js,mesa_py2.pyoumesa_py3.py
+Ana, Beatriz e Carolina sempre saem juntas para tomarcafé numa padaria onde as mesas são circulares e têm trêscadeiras numeradas0,1e2, no sentido anti-horário, comoilustrado nagura ao lado.Elas gostam de decidir quem vai sentar em qual cadeira comuma brincadeira gerando números aleatórios nos seus celu-lares. Primeiro Ana sorteia um número inteiroAe, come-çando da cadeira1, seguindo no sentido anti-horário, contaAcadeiras e senta na cadeira em que a contagem terminar.Depois Beatriz sorteia um númeroBe faz a mesma coisa:começando da cadeira1, no sentido anti-horário, contaBcadeiras. Se a cadeiranal estiver livre, Beatriz senta nela.Caso seja a cadeira onde Ana está sentada, então Beatrizsenta na próxima cadeira no sentido anti-horário. Claro, aonal, Carolina senta na cadeira que estiver livre.
+Por exemplo, se Ana sortear8, ela vai contar[1,2,0,1,2,0,1,2]e sentar na cadeira2. Depois,se Beatriz sortear6, ela vai contar[1,2,0,1,2,0]e sentar na cadeira0. Assim, Carolina senta nacadeira1. Num outro exemplo, se Ana sortear3, ela vai contar[1,2,0]e sentar na cadeira0. Depois,se Beatriz sortear9, ela vai contar[1,2,0,1,2,0,1,2,0]e, como Ana já está sentada na cadeira0,Beatriz senta na cadeira1. Dessa forma, Carolina senta na cadeira2.Neste problema, dados os números sorteados por Ana e Beatriz, seu programa deve imprimir onúmero da cadeira onde Carolina vai sentar.
+Entrada
+A primeira linha da entrada contém um inteiroArepresentando o número sorteado por Ana. Asegunda linha da entrada contém um inteiroBrepresentando o número sorteado por Beatriz.
+Saída
+Seu programa deve imprimir uma linha contendo um número inteiro indicando a cadeira ondeCarolina vai sentar.
+Restrições
+•1≤A≤1000•1≤B≤1000
+Exemplo de entrada 1
+86Exemplo de saída 1
+1
+Exemplo de entrada 2
+39Exemplo de saída 2
+2

@@ -1,0 +1,14 @@
+Olimpíada Brasileira de Informática – OBI20144
+Fila
+Nome do arquivo fonte:fila.c,fila.cpp,fila.pas,fila.java,oufila.pyCom a proximidade da Copa do Mundo, ouxo de pessoas naslas para compra de ingressosaumentou consideravelmente. Como aslas estão cada vez maiores, pessoas menos pacientes tendema desistir da compra de ingressos e acabam deixando aslas, liberando assim vaga para outraspessoas. Quando uma pessoa deixa ala, todas as pessoas que estavam atrás dela dão um passoa frente, sendo assim nunca existe um espaço vago entre duas pessoas. Ala inicialmente contémNpessoas, cada uma com um identicador diferente. Joãozinho sabe o estado inicial dela e osidenticadores em ordem das pessoas que deixaram ala. Sabendo que após o estado inicialnenhuma pessoa entrou mais nala, Joãozinho deseja saber o estadonal dala.
+Entrada
+A primeira linha contém um inteiroNrepresentando a quantidade de pessoas inicialmente nala.A segunda linha contémNinteiros representando os identicadores das pessoas nala. O primeiroidenticador corresponde ao identicador da primeira pessoa nala. É garantido que duas pessoasdiferentes não possuem o mesmo identicador. A terceira linha contém um inteiroMrepresentandoa quantidade de pessoas que deixaram ala. A quarta linha contémMinteiros representando osidenticadores das pessoas que deixaram ala, na ordem em que elas saíram. É garantido que ummesmo identicador não aparece duas vezes nessa lista.
+Saída
+Seu programa deve imprimir uma linha contedoN−Minteiros com os identicadores das pessoasque permaneceram nala, em ordem de chegada.
+Restrições
+•1≤N≤50000•1≤M≤50000eM< N•Cada identicador está entre1e100000
+Informações sobre a pontuação
+•Em um conjunto de casos de teste equivalente a 30 pontos,N≤1000eM≤1000.
+Exemplos
+Entrada85 100 9 81 70 33 2 100039 33 5 Saída100 81 70 2 1000
+Entrada410 9 6 313 Saída10 9 6

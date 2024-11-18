@@ -1,0 +1,19 @@
+Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível Júnior – Fase Fase 2 (Turno B)7
+Pesquisa de preços
+Nome do arquivo:“pesquisa.x”,ondexdeve serc,cpp,pas,java,jsoupyUma jornalista está fazendo uma pesquisa de preços de combustíveis (álcool e gasolina), em váriosestados do país, para uma reportagem sobre qual dos dois combustíveis é mais vantajoso paraabastecer um carro.Na reportagem ela vai usar a regra de que a utilização do álcool é vantajosa quando o preço porlitro do álcool é no máximo igual a 70% do preço por litro da gasolina.Ela compilou os dados da pesquisa em uma lista contendo o identicador do estado e os preços dolitro de álcool e do litro de gasolina, e deseja computar em quais estados é mais vantajoso usarálcool ou gasolina. Você pode ajudá-la?
+Entrada
+A primeira linha da entrada contém um número inteiroN, o número de estados em que a pesquisafoi realizada. Cada uma dasNlinhas seguintes contém o identicador do estado,E, seguido de doisnúmeros reaisAeG, representando respectivamente o preço do litro de álcool e o preço do litro degasolina.
+Saída
+Para cada estado em que o álcool é vantajoso seu programa deve produzir uma linha, contendosomente o identicador do estado, na ordem em que os estados aparecem na entrada. Se emnenhum estado o álcool é vantajoso, seu programa deve imprimir uma linha contendo somente ocaratere ’*’ (asterisco).
+Restrições
+•1≤N≤27•Eé uma cadeia de caracteres formada por duas letras maiúsculas sem acento; todos osEsãodistintos.•0.01≤A≤10.00, com precisão de dois dígitos.•0.01≤G≤10.00, com precisão de dois dígitos.
+Exemplos
+Exemplo de entrada 1
+2AM 7.00 10.00RS 7.01 10.00Exemplo de saída 1
+AM
+Exemplo de entrada 2
+3SP 4.90 5.80RJ 4.70 5.70PR 4.60 5.60Exemplo de saída 2
+*Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível Júnior – Fase Fase 2 (Turno B)8
+Exemplo de entrada 3
+4SC 5.20 5.72MT 4.22 6.10AL 5.55 6.20GO 4.30 6.25Exemplo de saída 3
+MTGO

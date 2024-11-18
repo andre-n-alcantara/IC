@@ -1,0 +1,29 @@
+Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível Júnior – Fase Estadual6
+Cápsulas
+Nome do arquivo:“capsulas.x”,ondexdeve serc|cpp|pas|java|js|py2|py3O discípulo Fan Chi’ih retornou recentemente da China com algumas cápsulas mágicas, que sãocapazes de produzir moedas de ouro! Uma cápsula possui um certo ciclo de produção, que é umnúmeroCde dias. A cadaCdias a cápsula produz uma nova moeda; a moeda é sempre produzidano último dia do ciclo. Fan Chi’ih vai ativar todas as cápsulas ao mesmo tempo e quer acumularuma fortuna de pelo menosFmoedas. Ele precisa da sua ajuda para computar o número mínimode dias para que as cápsulas produzam, no total, pelo menosFmoedas. Na tabela abaixo, porexemplo, existem três cápsulas com ciclos de3,7e2dias. Se Fan Chi’ih quiser acumular pelomenos12moedas, ele vai ter que esperar pelo menos14dias.
+dia
+cápsula ciclo 12345678910 11 12 13 14
+1 3 1 1 1 1
+2 7 1 1
+3 2 1 1 1 1 1 1 1
+Entrada
+A primeira linha da entrada contém dois inteirosNeF, indicando o número de cápsulas e o númerode moedas que Fan Chi’ih quer produzir, respectivamente. A segunda linha contémNinteirosC
+i, para1≤i≤N, representando os ciclos de cada cápsula.
+Saída
+Imprima um inteiro, representando o número mínimo de dias para que as cápsulas produzam, nototal, pelo menosFmoedas.
+Restrições
+•1≤N≤105;1≤F≤109
+•1≤C i≤106
+•Em todos os casos de teste, a resposta é sempre menor ou igual a108dias;•Em todos os casos de teste, o número de moedas produzido, no total, após10
+8dias, é sempremenor ou igual a10
+9.
+Informações sobre a pontuação
+•Para um conjunto de casos de testes valendo 10 pontos, os ciclosC isão todos iguais (ou sejaC
+i=C jpara todo1≤i≤Ne1≤j≤N).•Para um conjunto de casos de testes valendo 20 pontos,N≤10
+3,F≤103eCi≤103
+Exemplo de entrada 1
+3 123 7 2Exemplo de saída 1
+14
+Exemplo de entrada 2
+10 10017 13 20 10 12 16 10 13 13 10Exemplo de saída 2
+130

@@ -1,0 +1,29 @@
+Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível 1 – Fase Nacional4
+Linhas de Ônibus
+Nome do arquivo:linhas.c,linhas.cpp,linhas.pas,linhas.java,linhas.js,linhas_py2.pyoulinhas_py3.py
+Nessa grande cidade na China, háTterminais de ônibus, numerados de1aT; eLlinhas deônibus,numeradas de1aL. Os mapas são muito confusos mas conseguimos entender que os ônibusde uma linha fazem viagens circulares passando por um conjuntoxo de terminais. Por exemplo,a tabela seguinte indica o conjunto de terminais por onde passam os ônibus de cada linha, paraT= 10eL= 5:
+Linha Conjunto de Terminais
+1 {4,3,8,2,1}
+2 {5,10,7}
+3 {1,5}
+4 {6,8,10}
+5 {9,4,5}
+Não estamos preocupados com o trajeto da linha, com a ordem na qual o ônibus passa pelosterminais. Portanto, para ir do terminal2para o terminal4, precisamos apenas tomar um ônibusda linha1e esperar até ele chegar no terminal4. O sistema garante que é possível viajar entrequalquer par de terminais, mas talvez seja preciso trocar de linha de ônibus algumas vezes.Nós estamos com medo de tomar um ônibus errado e acabar perdidos na cidade. É tudo muitogrande na China! Por isso, queremos trocar de ônibus o menor número possível de vezes. Porexemplo, você pode ir do terminal2para o terminal10primeiro tomando a linha1até o terminal1, depois a linha3até o terminal5e, porm, a linha2até o terminal10; trocando de ônibus duasvezes, usando três linhas no total. Só que dá para ir do terminal2para o10trocando apenas umavez: primeiro tomando a linha1até o terminal8e depois a linha4até o terminal10.Neste problema, dados os conjuntos de terminais de cada linha, um terminal origem e um terminaldestino, seu programa deve computar o número mínimo possível de linhas de ônibus para fazer aviagem.
+Entrada
+A primeira linha da entrada contém quatro inteiros,T,L,OeD, representando, respectivamente,o número de terminais, o número de linhas de ônibus, o terminal origem e o terminal destino. AsúltimasLlinhas da entrada descrevem, cada uma, o conjunto de terminais pelos quais uma linhade ônibus passa. Ai-ésima linha (dessas últimasLlinhas da entrada) descreve o conjunto determinais da linha de ônibusi, no seguinte formato: o primeiro inteiro na linha,C, indica o númerode terminais no conjunto. Depois desse inteiro, o restante da linha da entrada contémCinteirosdistintos representando os terminais.
+Saída
+Seu programa deve produzir uma única linha, contendo apenas um inteiro, o número mínimo possívelde linhas de ônibus para viajar do terminalOpara o terminalD.
+Restrições
+•2≤T≤500•1≤L≤500•2≤C≤T•O6=DOlimpíada Brasileira de Informática – OBI2019 – Prog. Nível 1 – Fase Nacional5
+Informações sobre a pontuação
+•Em um conjunto de casos de teste somando 5 pontos,L= 2•Em um conjunto de casos de teste somando outros 5 pontos,T= 3•Em um conjunto de casos de teste somando outros 10 pontos,T≤10•Em um conjunto de casos de teste somando outros 20 pontos,T≤100•Em um conjunto de casos de teste somando outros 20 pontos,C≤10•Em um conjunto de casos de teste somando os demais 40 pontos, nenhuma restrição adicional
+Exemplos
+Exemplo de entrada 1
+10 5 2 105 4 3 8 2 13 5 10 72 1 53 6 8 103 9 4 5Exemplo de saída 1
+2
+Exemplo de entrada 2
+2 1 1 22 2 1Exemplo de saída 2
+1
+Exemplo de entrada 3
+10 9 1 102 1 22 2 32 3 42 4 53 5 6 72 6 72 7 82 8 92 9 10Exemplo de saída 3
+8

@@ -1,0 +1,24 @@
+Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível Júnior – Fase Estadual2
+Copa
+Nome do arquivo:“copa.x”,ondexdeve serc|cpp|pas|java|js|py2|py3O sorteio das posições dos jogadores na chave decisiva da copa do mundo de ping-pong está deixandoa todos nervosos. É que ninguém quer pegar o jogador mais bem ranqueado, o Mestre Kung, logonas oitavas denal, ou nas quartas denal. Melhor que só seja possível enfrentar Mestre Kung naseminal ou nanal!A chave possui16posições numeradas de1a16, como nagura abaixo. A organização da copa vaifazer um sorteio para denir em qual posição cada jogador vai iniciar a chave decisiva. Nas oitavasdenal, o jogador na posição1enfrenta o jogador na posição2; o da posição3enfrenta o da posição4; e assim por diante, como nagura.
+O objetivo deste problema é, dadas as posições de Mestre Kung e Mestre Lu na chave, decidirem que fase da competição Mestre Kung e Mestre Lu vão se enfrentar, caso vençam todas as suasrespectivas partidas antes de se enfrentarem. Por exemplo, se o sorteio da chave determinar queMestre Kung ocupará a posição 1 e Mestre Lu a posição 2 da chave, eles se encontrarão nas oitavasdenal; se Mestre Kung ocupar a posição 6 e Mestre Kung ocupar a posição 9 da chave, eles seencontrarão somente nanal.
+Entrada
+A entrada consiste de duas linhas. A primeira linha da entrada contém um inteiroKque indica aposição de Mestre Kung na chave. A segunda linha da entrada contém um inteiroLque indica aposição de Mestre Lu na chave.
+Saída
+Seu programa deve produzir uma linha contendo uma das palavras seguintes, decidindo a faseem que vão se enfrentar os jogadores Mestre Kung e Mestre Lu, se eles chegarem a se enfrentar:oitavas,quartas,semifinaloufinal.
+Restrições
+•1≤K≤16•1≤L≤16•K6=L
+Informações sobre a pontuação
+•Para um conjunto de casos de testes valendo 30 pontos,K= 1.Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível Júnior – Fase Estadual3
+Exemplo de entrada 1
+1014Exemplo de saída 1
+semifinal
+Exemplo de entrada 2
+78Exemplo de saída 2
+oitavas
+Exemplo de entrada 3
+313Exemplo de saída 3
+final
+Exemplo de entrada 4
+58Exemplo de saída 4
+quartas

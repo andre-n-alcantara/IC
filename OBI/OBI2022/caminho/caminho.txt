@@ -1,0 +1,34 @@
+Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível Júnior – Fase 24
+Caminho
+Nome do arquivo:caminho.c,caminho.cpp,caminho.pas,caminho.java,caminho.jsoucaminho.pyA pista de treinos de corridas da Prefeitura tem formato circular, comNpostes igualmente espaça-dos na circunferência da pista, cada poste com exatamente uma lâmpada. Atualmente há lâmpadasde várias potências luminosas nos postes.Vamos chamar o trecho de pista entre duas lâmpadas adjadentes (ou seja, uma vizinha à outra) detrecho escurose a soma das potências luminosas dessas duas lâmpadas é menor do que 1000.Para justicar um pedido à Prefeitura para que troquem as lâmpadas, os atletas querem saber qualo maior número de trechos escuros consecutivos (ou seja, um imediatamente em seguida de outro)da pista. Você pode ajudá-los?
+Entrada
+A primeira linha da entrada contém um inteiroN, o número de postes. Cada uma dasNlinhasseguintes contém um inteiroP
+i, a potência luminosa de uma lâmpada. A posição de cada lâmpadaé dada pela ordem da entrada (ou seja, a ordem das lâmpadas ao longo da pista é a ordem dada naentrada).
+Saída
+Seu programa deve produzir uma única linha, contendo um único inteiro, o maior número de trechosescuros consecutivos.
+Restrições
+•2≤N≤500 000•1≤P
+i≤1 000parai≤i≤N
+Informações sobre a pontuação
+•Para um conjunto de casos de testes valendo 40 pontos,P 1+P N≥1 000.
+Exemplos
+Exemplo de entrada 1
+3499500499Exemplo de saída 1
+3
+Explicação do exemplo 1:O maior (e único) caminho de pares de lâmpadas com potêncialuminosa abaixo do especicado é formado pelos pares (499,500), (500, 499) e (499, 499),portanto a resposta é 3.Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível Júnior – Fase 25
+Exemplo de entrada 2
+6900700100900200700Exemplo de saída 2
+1
+Explicação do exemplo 2:O único par de lâmpadas com potência luminosa abaixo do especi-cado é (700,100), portanto a resposta é 1.
+Exemplo de entrada 3
+6500800290700200400Exemplo de saída 3
+4
+Explicação do exemplo 3:O maior (e único caminho) com pares de lâmpadas com potênciamenor do que o especicado é formado pelos pares (290,700), (700,200), (200,400) e (400,500),portanto a resposta é 4.
+Exemplo de entrada 4
+2500600Exemplo de saída 4
+0
+Explicação do exemplo 4:Não há nenhum par de lâmpadas com potência abaixo do especi-cado, portanto a resposta é 0.
+Exemplo de entrada 5
+2100101Exemplo de saída 5
+2
+Explicação do exemplo 5:O maior (e único caminho) com pares de lâmpadas com potênciamenor do que o especicado é formado pelos pares (100,101) e (101,100), portanto a respostaé 2.

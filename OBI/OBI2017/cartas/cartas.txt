@@ -1,0 +1,14 @@
+Olimpíada Brasileira de Informática – OBI2017 – Prog. Nível Júnior – Fase 22
+Cartas
+Nome do arquivo:cartas.c,cartas.cpp,cartas.pas,cartas.java,cartas.js,cartas.py2oucartas.py3Um novo game de realidade aumentada tem, dentro dele, um mini-game que aparece em certassituações para aumentar o ganho de pontos do game principal. O mini-game é um joguinho dememória com quatro cartas, formando dois pares de cartas iguais. Quer dizer, duas cartas têm umnúmero inteiroNmarcado em uma de suas faces e as outras duas cartas têm um outro númerointeiro
+M,N6=M. Neste problema, o jogador já virou três cartas, como mostrado nagura.40 40 11
+Claro que, dadas as condições, a carta que falta virar vai formar par com uma das três que já foramviradas. No caso dagura, o número marcado na carta que ainda falta virar é11. Implemente umprograma que, dados os números de três cartas, imprima o número da carta que ainda falta virar!
+Entrada
+A primeira linha da entrada contém um inteiroA, representando a primeira carta aberta. A segundalinha contém o inteiroB, representando a segunda carta. A terceira linha contém o inteiroC, queé a terceira carta.
+Saída
+Seu programa deve imprimir uma linha contendo um inteiro representando o número que está nacarta que ainda falta virar.
+Restrições
+•0≤A,B,C≤100
+Exemplos
+Entrada401140 Saída11
+Entrada8896 Saída96

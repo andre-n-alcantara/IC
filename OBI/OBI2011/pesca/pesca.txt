@@ -1,0 +1,4 @@
+NNXiXfYiYf(X, Y)Xi≤X≤X fYi≤Y≤Y f
+•1≤N≤100•1≤X
+i≤X f≤100•1≤Y
+i≤Y f≤100

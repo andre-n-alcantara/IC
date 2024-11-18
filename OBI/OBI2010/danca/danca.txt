@@ -1,0 +1,17 @@
+Olimp´ıada Brasileira de Inform´ atica – OBI2010 7
+Dan¸ ca Ind ´ıgena
+Nome do arquivo fonte:danca.c,danca.cpp,oudanca.pasA OBI (Organiza¸ c˜ ao Brasileira dos´Indios) promover´ a um festival ind´ıgena, onde v´ arias tribos ir˜ ao se reunir efazer demonstra¸ c˜ oes de cultura, como artesanato, dan¸ cas, pinturas, comidas e etc.Uma das tribos ´ e a dos Tunak Tunak, que possuem uma apresenta¸ c˜ ao de dan¸ ca muito peculiar. Nessa dan¸ ca,existemNtoras de madeira encrustadas no ch˜ ao, dispostas de maneira circular e igualmente espa¸ cadas. Emalgumas dessas torasca um ´ındio, olhando em sentido hor´ ario ou anti-hor´ ario.A cada batida do tambor, os ´ındios pulam para a pr´ oxima tora (que depende da dire¸ c˜ ao para onde ele est´ aolhando no momento). Durante a dan¸ ca, por´ em, algumas coisas podem acontecer:•Dois ´ındios que pulam em sentidos opostos caem na mesma tora ao mesmo tempo.Nesse caso, ambos permanecem nas toras, mas passam a pular na dire¸ c˜ ao contr´ aria a partir da pr´ oximabatida de tambor (isso ´ e, quem estava pulando em sentido hor´ ario passa a pular em sentido anti-hor´ ario,e vice-versa)•Dois ´ındios em toras consecutivas v˜ ao pular um em dire¸ c˜ ao ao outro.Nesse caso, os ´ındios simplesmente n˜ ao pulam (para n˜ ao causar nenhum acidente), e, assim como no casoanterior, passam a pular no sentido contr´ ario a partir da pr´ oxima batida de tambor.Note que se o ´ındio n˜ ao pula e inverte seu sentido, mas ao mesmo tempo um outro ´ındio cair na mesma torano sentido contr´ ario, caimos no primeiro caso, e ambos os ´ındios na tora invertem seus sentidos (assim, o ´ındioque estava na tora anteriormente inverte seu sentido novamente).A dan¸ ca termina quando as toras ocupadas por um ´ındio s˜ ao exatamente as mesmas toras ocupadas no in´ıcioda dan¸ ca, n˜ ao importando qual ´ındio est´ a em cada tora e nem os sentidos para onde eles est˜ ao pulando.Agura abaixo ilustra (a) uma congura¸ c˜ ao inicial com oito toras e seis ´ındios; (b) a posi¸ c˜ ao dos ´ındios ap´ osuma batida de tambor; e (c) a posi¸ c˜ ao dos ´ındios ap´ os duas batidas de tambor.
+123456781234567812345678
+(a)(b)(c)
+Tarefa
+Os ´ındios querem se preparar para a dan¸ ca e precisam saber quanto tempo ela vai durar.Para isso, vocˆ e dever´ a escrever um programa que, dados a quantidade de toras que ser˜ ao utilizadas, a quantidadede ´ındios e a posi¸ c˜ ao inicial de cada um, calcule quantas batidas de tambor levar´ a para que a dan¸ ca termine.
+Entrada
+A primeira linha da entrada possui 2 inteiros:N(3≤N≤1.000.000) eE(1≤E≤1000), que s˜ ao,respectivamente, a quantidade de toras e a quantidade de ´ındios que ir˜ ao dan¸ car (E≤N). As pr´ oximasEOlimp´ıada Brasileira de Inform´ atica – OBI2010 8 linhas cont´ em, cada uma, a descri¸ c˜ ao da posi¸ c˜ ao inicial de cada ´ındio. Cada linha possui dois inteiros:V(1≤V≤N) eD(D= 1 ouD=−1) que representam, respectivamente, o n´ umero da tora onde o ´ındio iniciae seu sentido inicial (1 se hor´ ario,−1 se anti-hor´ ario). A numera¸ c˜ ao das toras obedece o sentido hor´ ario. Noin´ıcio da dan¸ ca uma tora ter´ a, no m´ aximo, um ´ındio.
+Sa´ıda
+Seu programa dever´ a exibir um n´ umero inteiro representando a quantidade de batidas de tambor necess´ ariaspara que a dan¸ ca acabe.
+Informa¸ c˜ oes sobre a pontua¸ c˜ ao
+•Em um conjunto de casos de teste que totaliza 40 pontos,N≤100 eE≤100.
+Exemplos
+Entrada6 42 13 15 16 1Sa´ıda3
+Entrada3 12 -1 Sa´ıda3
+Entrada8 62 -13 14 -16 17 -18 1Sa´ıda4

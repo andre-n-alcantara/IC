@@ -1,0 +1,20 @@
+Olimpíada Brasileira de Informática – OBI20167
+Caminhos do reino
+Nome do arquivo:caminhos.c,caminhos.cpp,caminhos.pas,caminhos.java,caminhos.jsoucaminhos.pyO reino de Daglônia é um lugar estranho. Todas as estradas do reino só podem ser usadas emumadireçãoe de cada cidade saiexatamente umaestrada. O reino é dividido em duas partes: ociclointernoe oscaminhos periféricos. Cada uma das cidades do reino pertence a uma dessas partes.No ciclo interno, a estrada que sai de cada cidade vai à próxima cidade do ciclo, de forma que épossível percorrer um caminho que sai de uma cidade qualquer e retorna a essa mesma cidade.A algumas cidades do ciclo interno pode chegar um dos caminhos periféricos, que são as ligaçõesentre a parte central do reino e o mundo exterior, por onde pessoas podem chegar ao reino (masnão sair). Um caminho periférico começa em uma cidade na qual nenhuma estrada do reino chegae segue pelas estradas de cada cidade até chegar em uma cidade do ciclo interno. A cada cidadepertecente a um caminho periférico chega no máximo uma estrada. A cada cidade do ciclo internochegam no máximo duas estradas: uma estrada do ciclo interno (que sempre existe) e uma estradade um caminho periférico (que pode ou não existir).Agura abaixo mostra um exemplo das cidades e estradas do reino, com cidades numeradas de1aN.
+Nagura, os caminhos periféricos são(3→1)e(4)e o ciclo interno é(2→6→5→2).Há rumores de que um país vizinho vai declarar guerra contra a Daglônia, e por isso os habitantesdo reino querem se encontrar com seus familiares no menor tempo possível. Você foi contratadopelo Rei para ajudá-las. Você receberáQperguntas da seguinte forma: dadas as cidadesAeBondeestão duas pessoas do reino que querem se encontrar, você deve determinar qual o tempo mínimoem que elas podem se encontrar, considerando que cada estrada é percorrida em uma unidade detempo. O ponto de encontro das duas pessoas pode ser diferente das cidades iniciais e ambas podemse deslocarsimultaneamentepara chegar ao ponto de encontro.Considerando o exemplo dagura acima, pessoas nas cidades4e3podem se encontrar na cidade2ou6em tempo3. Pessoas nas cidades1e3podem se encontrar na cidade1em tempo1. Pessoasnas cidades6e3podem se encontrar na cidade2em tempo2.
+Entrada
+A primeira linha contém um inteiroN, representando o número de cidades. As cidades são identi-cadas por inteiros de 1 aN. A segunda linha contémNinteirosF
+1, F2, ... F N, ondeF ié o destinoda estrada que parte da cidadei. A terceira linha contém um inteiroQ, que representa o númerode perguntas. AsQlinhas seguintes contém dois inteirosAeB, indicando as cidades para as quaisvocê deve responder a pergunta descrita acima. Existe pelo menos um caminho periférico.Olimpíada Brasileira de Informática – OBI20168
+Saída
+Seu programa deve produzirQlinhas, cada uma contendo um único inteiro, o menor tempo neces-sário para que as duas pessoas se encontrem em uma cidade qualquer.
+Restrições
+•3≤N≤105
+•1≤F i≤N•F
+i6=i•1≤Q≤10
+5
+•1≤A, B≤N•O reino representado respeita as condições do enunciado. Particularmente, existe exatamenteum ciclo, existe pelo menos uma cidade que não pertence ao ciclo, a cada cidade do ciclochegam no máximo duas estradas e a cada cidade que não pertence ao ciclo chega no máximouma estrada.
+Informações sobre a pontuação
+•Em um conjunto de casos de teste equivalente a40pontos,Q= 1.
+Exemplos
+Entrada62 6 1 6 2 554 31 36 35 22 2Saída31210
+Entrada137 3 9 5 3 7 5 2 6 1 10 11 9104 1010 812 1110 47 38 116 113 46 128 5Saída3413253242

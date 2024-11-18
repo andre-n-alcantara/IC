@@ -1,0 +1,20 @@
+Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 1 – Fase Nacional8
+Trem da mina
+Nome do arquivo:“trem.x”,ondexdeve serc,cpp,pas,java,js,py2.pyoupy3.pyUma antiga mina de ouro foi desativada e Herculano quer torná-la uma atração turística. A minacontém uma verdadeira rede ferroviária subterrânea, composta de estações e ramos de trilhos, pelosquais trafegavam os trens carregando minério. Cada ramo de trilho liga duas estações distintase pode ser usado nas duas direções. Um “ciclo” na rede ferroviária é uma sequência de estaçõess
+1, s2, . . . , s n, sn+1=s1, tais ques i6=si+1e(s i, si+1)é um ramo de trilho, para1≤i≤n. Arede ferroviária pode conter ciclos, mas cada estação faz parte de no máximo um ciclo da redeferroviária. Os ramos de trilhos e estações são tais que, se uma parte do trem ocupa um ramo detrilho ou estação, não há espaço para outro (ou o mesmo!) trem entrar novamente nesse ramo detrilho ou estação.Algumas estações da rede ferroviária têm acesso ao direto ao solo, para descarregar o minério.Herculano tem um mapa que descreve a rede ferroviária da mina, informando para cada ramo detrilho o seu comprimento e quais duas estações o ramo de trilho liga.Para planejar o passeio turístico de trem pela mina Herculano quer saber, para as estações que têmacesso ao solo, conhecendo o comprimento do trem, se é possível que o trem entre na mina pelaestação, percorra a menor distância possível dentro da mina e saia novamente pela mesma estaçãoque entrou, sempre andando para a frente, sem nunca dar marcha-a-ré. Você pode ajudá-lo?
+Entrada
+A primeira linha contém dois inteirosEeRrepresentando respectivamente o número de estações eo número de ramos de trilhos da rede ferroviária da mina. As estações são identicadass por inteirosde1aE. Cada uma dasRlinhas seguintes descreve um ramo de trilho e contém três inteirosA,BeC, ondeAeBrepresentam as estações ligadas pelo ramo de trilho, eCrepresenta o comprimento doramo de trilho. Uma estação é ligada por ramos de trilhos a no máximo outras 100 estações e cadaduas estações são ligadas por no máximo um ramo de trilho. A próxima linha contém um inteiroK, que indica o número de consultas. Cada uma dasKlinhas seguintes descreve uma consulta, econtém dois inteirosXeT, que indicam respectivamente a estação pela qual Herculano quer que otrem entre e o comprimento do trem.
+Saída
+Para cada consulta da entrada seu programa deve produzir uma única linha, contendo um úniconúmero inteiro, o comprimento do percurso mínimo que o trem deve percorrer dentro da mina paraentrar e sair pela estação indicada na consulta, sem dar marcha-a-ré. Se não for possível para otrem entrar e sair sem dar marcha-a-ré, a linha deve conter o valor−1.
+Restrições
+•2≤E≤104
+•1≤R≤2×E•1≤A < B≤E•1≤C≤100•1≤K≤100•1≤X≤E•1≤T≤10
+5
+•Uma estação é ligada por ramos de trilhos a no máximo outras 100 estações e cada duasestações são ligadas por no máximo um ramo de trilho.Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 1 – Fase Nacional9
+Exemplos
+Exemplo de entrada 1
+4 41 2 101 3 123 4 71 4 642 181 104 263 25Exemplo de saída 1
+4525-125
+Exemplo de entrada 2
+7 81 2 22 3 22 5 105 6 252 6 203 7 14 7 43 4 341 64 507 567 5Exemplo de saída 2
+1665-18

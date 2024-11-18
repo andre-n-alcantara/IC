@@ -1,0 +1,30 @@
+Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível Júnior – Fase Fase 34
+Casamento de inteiros
+Nome do arquivo:“casamento.x”,ondexdeve serc,cpp,pas,java,jsoupyVamos denir a operação decasamentode dois números inteirosAeBda seguinte forma:•inicialmente fazemosAeBterem o mesmo número de dígitos, adicionando zeros à esquerdaconforme necessário;•então cada dígito deA(do menos signicativo ao mais signicativo) é comparado com o dígitocorrespondente deB, e o dígito de menor valor é eliminado do número a que pertence (se osdígitos são iguais nenhum é eliminado).•o resultado da operação de casamento é o par de números inteiros formados pelos dígitosremanescentes deAeB. No caso de não haver digito remanescente para um dos números, oresultado para esse número é−1.Por exemplo, considere o casamento de69961com487920:
+4 8 7 9 2 0 4 8 999614890 6 9 9 6 1 9 9 6 1
+O resultado do casamento é o par de números489e9961.Dados dois números inteiros, sua tarefa é determinar o resultado do casamento desses dois números.
+Entrada
+A primeira linha da entrada contém um número inteiroA, a segunda linha contém um númerointeiroB.
+Saída
+Seu programa deve produzir uma única linha, contendo os dois números inteiros produzidos pelocasamento dos números dados, em ordem não decrescente.
+Restrições
+•1≤A≤109
+•1≤B≤109
+Informações sobre a pontuação
+•Para um conjunto de casos de testes valendo 22 pontos,100≤A≤999e100≤B≤999.•Para um conjunto de casos de testes valendo outros 78 pontos, nenhuma restrição adicional.
+Exemplo de entrada 1
+69961487920Exemplo de saída 1
+489 9961
+Explicação do exemplo 1:este exemplo corresponde ao exemplo mostrado no enunciado.Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível Júnior – Fase Fase 35
+Exemplo de entrada 2
+56781234Exemplo de saída 2
+-1 5678
+Explicação do exemplo 2:todos os dígitos são eliminados do segundo número.
+Exemplo de entrada 3
+2112Exemplo de saída 3
+2 2
+Explicação do exemplo 3:o dígito 1 é eliminado dos dois números.
+Exemplo de entrada 4
+200100Exemplo de saída 4
+0 200
+Explicação do exemplo 4:o dígito 1 é eliminado do segundo número.

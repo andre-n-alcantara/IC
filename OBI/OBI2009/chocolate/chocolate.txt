@@ -1,0 +1,21 @@
+Olimp´ıada Brasileira de Inform´ atica – OBI2009 3
+Competi¸ c˜ ao de chocolate
+Nome do arquivo fonte:chocolate.c,chocolate.cpp,ouchocolate.pasCarlos e Paula acabaram de ganhar um saco com bolinhas de chocolate. Como sabem que v˜ ao comer tudomuito r´ apido inventaram uma brincadeira:•Eles v˜ ao comer de forma alternada, um depois o outro, sendo que sempre a Paula come¸ ca.•A cada vez, s´ o se pode comer de 1 a
+Mbolinhas, sendo oMdecidido pela m˜ ae de Paula, de forma quen˜ ao engasguem com o chocolate.•Se um comeuKbolinhas em sua vez, o pr´ oximo n˜ ao pode comer o mesmo tanto, tendo que comer umn´ umero de bolinhas distinto.•Quem n˜ ao puder mais jogar de maneira v´ alida perde.Um exemplo de partida paraM= 5 e 20 bolinhas, onde Carlos ganhou:
+Quem joga Quantas comeu N´ umero de bolinhas restantes
+- -20Paula 515Carlos 411Paula 38Carlos 44Paula 22Carlos 11
+Observe que nonal Carlos n˜ ao poderia comer 2 bolinhas para ganhar, pois seria o mesmo que Paula comeuna vez anterior. Mas Paula tamb´ em n˜ ao pˆ ode comer a ´ ultima bolinha, pois Carlos havia comido apenas umana rodada anterior, assim Paulacou sem op¸ c˜ ao de jogada e perdeu.Ambos s˜ ao muito espertos e jogam de maneira ´ otima, de forma que se existe para um deles uma sequˆ encia dejogadas que garante a vit´ oria independente da jogada do outro, essa pessoa jogar´ a dessa forma.
+Tarefa
+Sua tarefa ´ e determinar quem vai ganhar a brincadeira, se ambos jogam de forma ´ otima.
+Entrada
+A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado).A entrada consiste de uma linha contendo dois inteirosN(2≤N≤10
+6) eM(2≤M≤103), sendoNo n´ umero de bolinhas de chocolate eMo n´ umero de bolinhas permitidas por vez.
+Sa´ıda
+Seu programa deve imprimir, nasa´ıda padr˜ ao, uma linha, contendo o nome do vencedor, como exemplicadoabaixo.Olimp´ıada Brasileira de Inform´ atica – OBI2009 4
+Informa¸ c˜ oes sobre a pontua¸ c˜ ao
+•Em um conjunto de casos de teste que totaliza 50 pontos,N≤50 eM≤5.•Em um conjunto de casos de teste que totaliza 80 pontos,N≤10
+4eM≤100.
+Exemplos
+Entrada5 3 Sa´ıdaPaula
+Entrada20 5 Sa´ıdaCarlos
+Entrada5 6 Sa´ıdaPaula

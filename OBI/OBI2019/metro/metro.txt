@@ -1,0 +1,29 @@
+Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível 2 – Fase Nacional2
+Metrô da Nlogônia
+Nome do arquivo:metro.c,metro.cpp,metro.pas,metro.java,metro.js,metro_py2.pyoumetro_py3.py
+Há dois sistemas de metrô na capital da Nlogônia, operados por duas empresas diferentes. O doissistemas, denominados Círculo e Quadrado, são independentes e não conectados entre si, ou seja,não há nenhuma estação em comum e nenhum trilho em comum. Em cada sistema há exatamenteum caminho possível entre duas estações quaisquer, possivelmente passando por outras estaçõesdo sistema. Agura abaixo mostra uma representação de dois sistemas de metrô independentes,similares ao metrô da capital da Nlogônia. Apropriadamente, no sistema Círculo as estações sãorepresentadas por círculos, e no sistema Quadrado as estações são representadas por quadrados.
+2
+34
+5
+7
+66
+4
+2
+3
+15
+1
+Vamos chamar dediâmetro do sistemade metrô o maior número de estações no trajeto entrequalquer par de estações do sistema. Assim, o diâmetro do sistema Círculo nagura acima é cinco(trajeto2-3-4-5-7por exemplo) e o diâmetro do sistema Quadrado é quatro (trajeto4-3-5-6porexemplo).O rei da Nlogônia decidiu que os dois sistemas existentes devem ser integrados, para facilitar a vidados usuários. A integração vai ser implementada através da construção de um único novo trechode metrô ligando exatamente um par de estações existentes (uma estação do sistema Círculo e umaestação do sistema Quadrado). O rei determinou ainda que o diâmetro do sistema integrado seja omenor possível.Você pode ajudar a planejar a integração dos sistemas? Dadas as descrições dos dois sistemas, suatarefa é determinar qual par de estações deve ser ligado para realizar a integração como desejadapelo rei.
+Entrada
+A primeira linha contém dois inteirosNeM, indicando respectivamente o número de estaçõesdo sistema Círculo e do sistema Quadrado. No sistema Círculo as estações são identicadas pornúmeros de 1 aNe no sistema Quadrado as estações são identicadas por números de 1 aM. Cadauma dasN−1linhas seguintes descreve as ligações entre estações do sistema Círculo e contém doisinteirosAeBindicando que existe uma ligação entre as estaçõesAeB. Cada uma dasM−1linhas seguintes descreve as ligações entre estações do sistema Quadrado e contém dois inteirosXeYindicando que existe uma ligação entre as estaçõesXeY.
+Saída
+Seu programa deve produzir dois inteiros, o primeiro representando uma estação do sistema Círculoe o segundo representando uma estação do sistema Quadrado. Se houver mais de um par possível,indique qualquer um entre os possíveis.
+Restrições
+•2≤N,M≤105
+•1≤A,B≤NOlimpíada Brasileira de Informática – OBI2019 – Prog. Nível 2 – Fase Nacional3•1≤X,Y≤MInformações sobre a pontuação
+•Para um conjunto de casos de testes valendo 10 pontos,N,M≤100.•Para um conjunto de casos de testes valendo outros 20 pontos,N,M≤1000.
+Exemplo de entrada 1
+7 61 33 23 44 55 76 51 32 33 43 55 6Exemplo de saída 1
+4 3
+Exemplo de entrada 2
+3 41 22 31 22 33 4Exemplo de saída 2
+2 2

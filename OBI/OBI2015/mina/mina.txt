@@ -1,0 +1,10 @@
+Olimpíada Brasileira de Informática – OBI2015 6
+Mina
+Nome do arquivo:mina.c,mina.cpp,mina.pas,mina.java,mina.jsoumina.pyNossa mina de ouro será representada porNlinhas eNcolunas de quadrados. O mineiro está noquadrado inicial (superior esquerdo) e precisa cavar até o quadradonal (inferior direito), onde existea maior concentração de ouro da mina. Alguns quadrados, porém, estão bloqueados por pedras,o que diculta o trabalho. Sabendo que o mineiro pode realizar apenas movimentos ortogonais,seu programa deve calcular o número mínimo de quadrados bloqueados pelos quais o mineiro temque passar para chegar no quadrado inferior direito. Os quadrados inicial enal nunca estãobloqueados. Agura abaixo ilustra três possíveis minas, paraN= 8, para as quais os númerosmínimos de quadrados bloqueados são, respectivamente, três, zero e nove. Agura também mostratrês possíveis trajetórias mínimas, como exemplo.
+Entrada
+A primeira linha da entrada contém um inteiroN,2≤N≤100, representando as dimensões damina. Cada uma dasNlinhas seguintes contémNinteiros, denindo os quadrados da mina. Ointeiro 0 representa um quadrado livre e o inteiro 1, um quadrado bloqueado.
+Saída
+Seu programa deve produzir uma única linha, contendo um único inteiro, o número mínimo dequadrados bloqueados pelos quais o mineiro tem que passar para chegar no quadradonal.
+Exemplos
+Entrada60 1 0 0 0 01 1 0 0 1 11 0 1 1 1 10 0 0 1 1 00 0 1 1 1 00 1 0 0 0 0Saída3
+Entrada20 01 0 Saída0

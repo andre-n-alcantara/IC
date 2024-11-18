@@ -1,0 +1,23 @@
+Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 1 – Fase Estadual2
+Dona Formiga
+Nome do arquivo:“formiga.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3Dona Formiga é uma ótima trabalhadora e todos os dias coleta muitas folhas para seu formigueiro.Mas nonal de semana, quando todas as outras formigas estão descansando, ela gosta de se divertirescorregando pelos túneis do formigueiro.O formigueiro de Dona Formiga tem muitos túneis e salões. Cada túnel conecta exatamente doissalões diferentes. Cada salão está a uma altura no formigueiro. Se existe um túnel ligando um salãoIa um salãoJe o salãoIestá a uma altura maior do que o salãoJ, então Dona Formiga podeescorregar do salãoIpara o salãoJusando esse túnel.Dados o mapa dos túneis do formigueiro, as alturas em que estão os salões e o salão de onde DonaFormiga quer partir, escreva um programa para determinar o maior número de salões que ela podevisitar (não contando o salão do qual ela parte), usando túneis exclusivamente para escorregar entreos salões.
+Entrada
+A primeira linha da entrada contém três inteirosS,TeP, respectivamente o número de salões,o número de túneis e o salão do formigueiro do qual Dona Formiga quer partir. Os salões sãonumerados de 1 aS. A segunda linha contémSnúmeros inteirosA
+i, a altura em que o salãoiestáno formigueiro. Cada uma dasTlinhas seguintes contém dois inteirosIeJ, indicando que há umtúnel entre o salãoIe o salãoJ.
+Saída
+Seu programa deve produzir uma única linha, contendo um único inteiro, o maior número de sa-lões que Dona Formiga pode visitar (não contando o salão do qual ela parte), usando os túneisexclusivamente para escorregar entre os salões do formigueiro.
+Restrições
+•1≤S≤200•1≤T≤S×(S−1)/2•1≤P≤S•−1000≤A
+i≤1000para1≤i≤S•1≤I < J≤S
+Informações sobre a pontuação
+•Para um conjunto de casos de testes valendo 20 pontos,1≤S≤10.•Para um conjunto de casos de testes valendo 80 pontos adicionais, nenhuma restrição adicional.
+Exemplos
+Exemplo de entrada 1
+4 5 2100 150 -50 2001 22 41 43 41 3Exemplo de saída 1
+2Olimpíada Brasileira de Informática – OBI2020 – Prog. Nível 1 – Fase Estadual3
+Exemplo de entrada 2
+4 5 3100 150 -50 2001 22 41 43 41 3Exemplo de saída 2
+0
+Exemplo de entrada 3
+4 5 4100 150 -50 2001 22 41 43 41 3Exemplo de saída 3
+3

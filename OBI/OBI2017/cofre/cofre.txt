@@ -1,0 +1,17 @@
+Olimpíada Brasileira de Informática – OBI20173
+Segredo do Cofre
+Nome do arquivo:cofre.c,cofre.cpp,cofre.pas,cofre.java,cofre.jsoucofre.pyO sistema de segredo para abrir esse cofre é bastante complexo. Ao invés de girar um botão váriasvezes, como a gente vê normalmente noslmes, o dono do cofre tem que deslizar um controle para aesquerda e para a direita, em cima de uma barra, várias vezes, parando em determinadas posições.A barra possuiNposições e cada posição contém um número inteiro entre0e9, inclusive. Noexemplo dagura, a barra tem 14 posições e o controle está na posição1.
+9 4 3 9 1 2 4 5 1 1 9 7 0 5 9 9 9 99 9 9 9 9 9 9 9 9
+234567891011 12 1314 1
+O segredo vai depender de quantas vezes cada um dos dez inteiros entre0e9vai aparecer dentrodo controle. Por exemplo, suponha que o dono deslize o controle da posição inicial1até a posição9, depois para a posição4, depois para a posição11e porm até a posição13. Veja que o inteiro1, por exemplo, vai aparecer seis vezes dentro do controle; e o inteiro9vai aparecer quatro vezes.Dada a sequência de inteiros na barra e a sequência de posições entre as quais o dono desliza ocontrole, começando da posição inicial1, seu programa deve contar quantas vezes cada inteiro,entre0e9, vai aparecer dentro do controle.
+Entrada
+A primeira linha da entrada contém dois inteirosNeM, representando o número de posições nabarra do cofre e o número de posições na sequência que o dono vai seguir para deslizar o controle.A segunda linha contémNinteiros entre0e9, denindo a barra do cofre. A terceira linha contémMinteiros representando a sequência de posições que o dono vai seguir. A primeira posição nessasequência é sempre1e não há duas posições consecutivas iguais.
+Saída
+Seu programa deve imprimir uma linha contendo 10 inteiros, representando o número de vezes quecada inteiro, entre0e9, vai aparecer no controle da barra.
+Restrições
+•2≤N≤105e2≤M≤105
+Informações sobre a pontuação
+•Em um conjunto de testes somando40pontos,N≤1000eM≤1000
+Exemplos
+Entrada14 59 4 3 9 1 2 4 5 1 1 9 7 0 51 9 4 11 13 Saída1 6 3 1 4 3 0 1 0 4
+Entrada5 45 8 0 5 11 4 2 5 Saída3 1 0 0 0 3 0 0 2 0

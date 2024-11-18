@@ -1,0 +1,23 @@
+Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível 2 – Fase Estadual2
+Fuga
+Nome do arquivo:“fuga.x”,ondexdeve serc|cpp|pas|java|js|py2|py3Os irmãos Violet e Klaus estão fugindo pelas suas vidas do Conde Olaf, que corre atrás deles dentrode um prédio abandonado. Violet e Klaus acabam de entrar em uma sala retangular de larguraNecomprimentoM, dividida emN·Mcélulas(i, j)de área1(1≤i≤Ne1≤j≤M). Em algumascélulas dessa sala, existem armários. Toda célula(i, j)ondeiejsão pares contém um armário.A sala tem uma entrada na célula(X
+e, Ye)e uma saída na célula(X s, Ys), quecam em posiçõesdiferentesnas bordasda sala. A entrada e a saída nunca são adjacentes a um armário.Agura a seguir mostra a uma possível conguração da sala, ondeN=M= 7, a entradaca naposição(3,7)(marcada com uma estrela) e a saídaca na posição(5,1)(marcada com um círculo).Os armários estão indicados em quadrados cinzas.
+Para atrasar Conde Olaf, que os está perseguindo e entrará na sala em alguns momentos, os irmãosdecidiram derrubar armários da sala, de forma a aumentar o tamanho do percurso necessário para irda entrada até a saída. As células ocupadas por armários caídos ou em pé não podem ser percorridas.Um armário pode ser derrubado em qualquer uma das direções paralelas aos lados da sala e ocupaduas células após cair. Ou seja, um armário na posição(i, j)da sala, ao cair irá ocupar uma dasseguintes opções:•As células(i, j)e(i, j+ 1);•As células(i, j)e(i, j−1);•As células(i, j)e(i+ 1, j); ou•As células(i, j)e(i−1, j).Dadas as dimensões da sala e as posições de entrada e de saída, você deve encontrar uma formade derrubar os armários tal que a distância entre a entrada e a saída da sala seja a maior possíveldentre todas as formas de derrubar os armários.Para o exemplo acima, agura abaixo é uma solução possível. Os retângulos cinzas representamos armários derrubados e a linha representa o caminho entre a entrada e a saída (que passa por29células). Nesse caso, não é possível derrubar os armários de forma que a distância entre a entradae a saída seja maior que29.
+Entrada
+A primeira linha contém dois inteirosNeM, a largura e o comprimento da sala, respectivamente.A segunda linha contém dois inteirosX
+eeYe, identicando a célula de entrada da sala(X e, Ye). Aterceira linha contém dois inteirosX
+seYs, identicando a célula de saída da sala(X s, Ys).
+Saída
+Seu programa deve produzir um inteiro representando o tamanho do menor caminho (em númerode células) da entrada até a saída da sala após derrubar os armários de forma ótima.Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível 2 – Fase Estadual3
+Restrições
+•3≤N,M≤11•3≤X
+e, Xs≤N•3≤Y
+e, Ys≤M•N,M, Xe, Xs, Ye, Yssão ímpares.
+Informações sobre a pontuação
+•Para um conjunto de casos de testes valendo 40 pontos,1≤N,M≤7.
+Exemplo de entrada 1
+7 73 75 1Exemplo de saída 1
+29
+Exemplo de entrada 2
+11 1111 11 11Exemplo de saída 2
+69

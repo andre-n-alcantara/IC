@@ -1,0 +1,30 @@
+Olimpíada Brasileira de Informática – OBI2016 3
+Jardim de infância
+Nome do arquivo:jardim.c,jardim.cpp,jardim.pas,jardim.java,jardim.jsoujardim.pyVívian é uma professora do jardim de infância. Todos os dias, aonal da aula, ela tem queolhar os desenhos que seus alunoszeram naquele dia e fazer algum comentário. Esta é umatarefa muito repetitiva, já que as crianças costumam desenhar coisas semelhantes, portanto Víviandecidiu automatizar o processo. Ela fez um programa capaz de processar a imagem e procurarpadrões conhecidos para fazer comentários predeterminados. Em particular, ela percebeu que namaioria dos desenhos as crianças incluem um pinheiro. Porém, ela está tendo diculdades parareconhecê-los e pediu sua ajuda. O programa dela já é capaz de reconhecer umagura que podeser um pinheiro e transformá-la em sete pontosP
+1, P2, ... P 7. O candidato a pinheiro seria a regiãointerna do polígonoP
+1P2P4P6P7P5P3, como mostra agura a seguir de um pinheiro válido.
+Logo, dados os sete pontos que formam a imagem, você deve decidir se ela é ou não um pinheiro.Ao analisar os desenhos das crianças, você decidiu que as condições para que os pontos formem umpinheiro são as seguintes:•O ângulo
+6 P2P1P3é agudo (vértice emP 1);•Os segmentos
+P1P2eP1P3têm o mesmo comprimento;•Os pontosP
+2, P3, P4eP 5são colineares;•Os pontos médios dos segmentos
+P2P3eP4P5são coincidentes;•O segmento
+P2P3tem comprimento maior que o segmento P4P5;•Os segmentos
+P4P6eP5P7são perpendiculares ao segmento P2P3;•Os segmentos
+P4P6eP5P7têm o mesmo comprimento;•Os pontosP
+1eP6devem estar separados pela reta que contém o segmento P2P3. Formalmente,o segmento
+P1P6deve interceptar a reta que contém o segmento P2P3em um único ponto.A imagem a seguir mostra os polígonos formados pelos exemplos de entrada.Olimpíada Brasileira de Informática – OBI2016 4
+Entrada
+A entrada contém sete linhas. Ai-ésima da entrada contém dois inteirosX ieY i, indicando ascoordenadas cartesianas do pontoP
+i.
+Saída
+Seu programa deve produzir uma única linha, contendo uma única letra,"S"se os pontos formamum pinheiro pelas condições descritas e"N", caso contrário.
+Restrições
+•−2×104≤X i, Yi≤2×104.•Todos os pontos são diferentes.
+Informações sobre a pontuação
+•Em um conjunto de casos de teste equivalente a50pontos, o segmento P2P3será paralelo aoeixoXdo plano cartesiano (exemplos 1 e 4).Olimpíada Brasileira de Informática – OBI2016 5
+Exemplos
+Entrada2 -45 3-1 33 31 33 51 5SaídaS
+Entrada2 -15 45-43 9-11 33-27 21-20 45-36 33SaídaS
+Entrada-1 -311 -2311 1711 -711 119 -719 1SaídaN
+Entrada2 418 22-14 226 24-2 206 26-2 22SaídaN
+Entrada4 1-36 -4-12 -36-30 -12-18 -28-39 -25-27 -41SaídaN

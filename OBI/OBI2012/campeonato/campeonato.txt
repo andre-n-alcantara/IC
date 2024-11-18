@@ -1,0 +1,15 @@
+Olimpíada Brasileira de Informática – OBI2012 2
+Campeonato
+Nome do arquivo fonte:campeonato.c,campeonato.cpp,campeonato.pas,campeonato.java,oucampeonato.pyDois times,CormengoeFlaminthians, participam de um campeonato de futebol, juntamente com outros times.Cada vitória conta três pontos, cada empate um ponto. Fica melhor classicado no campeonato um time quetenha mais pontos. Em caso de empate no número de pontos,ca melhor classicado o time que tiver maiorsaldo de gols. Se o número de pontos e o saldo de gols forem os mesmos para os dois times então os dois timesestão empatados no campeonato.Dados os números de vitórias e empates, e os saldos de gols dos dois times, sua tarefa é determinar qual dosdois está melhor classicado, ou se eles estão empatados no campeonato.
+Entrada
+A entrada é descrita em uma única linha, que contém seis inteiros, separados por um espaço em branco:C
+v, Ce, Cs, Fv, Fe, Fs, que são, respectivamente, o número de vitórias do Cormengo, o número de empates doCormengo, o saldo de gols do Cormengo, o número de vitórias do Flaminthians, o número de empates doFlaminthians e o saldo de gols do Flaminthians.
+Saída
+Seu programa deve imprimir uma única linha. Se Cormengo é melhor classicado que Flaminthians, a linhadeve conter apenas a letra ‘C’; se Flaminthians é melhor classicado que Cormengo, a linha deve conter apenasa letra ‘F’; e se os dois times estão empatados a linha deve conter apenas o caractere ‘=’.
+Restrições
+•0≤C v, Ce, Fv, Fe≤100•−1000≤C
+s, Fs≤1000
+Exemplos
+Entrada10 5 18 11 1 18 SaídaC
+Entrada10 5 18 11 2 18 Saída=
+Entrada9 5 -1 10 2 10 SaídaF

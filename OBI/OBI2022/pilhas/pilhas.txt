@@ -1,0 +1,21 @@
+Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível 1 – Fase 3 7
+Pilhas de moedas
+Nome do arquivo:pilhas.c,pilhas.cpp,pilhas.pas,pilhas.java,pilhas.jsoupilhas.pyFlávia possui várias moedas em sua coleção, que estão organizadas emNpilhas, cada pilha comum certo número de moedas. Vamos chamar o número de moedas de uma pilha dealturada pilha.A garota pretende adicionar algumas moedas à sua coleção, de forma que cada moeda nova deveser adicionada em uma das pilhas existentes. As moedas originais, porém, devem permanecer nassuas pilhas.Flávia está se perguntando agora: qual o número mínimo de moedas que ela deve adicionar à coleçãopara que, considerando os valores de todas asNnovas alturas de pilhas, a quantidade de númerosdistintos seja no máximoK?Por exemplo, se a lista de alturas inicialmente é(3,5,8,4,5,8), temos que existem4valores distintosde alturas:3,4,5e8. SeK= 2, poderíamos, com3moedas novas, adicionar duas na pilha deíndice1, e uma na pilha de índice4. Assim, a lista de alturascará(5,5,8,5,5,8), que possuiapenas dois valores distintos de alturas:5e8.Note que, se inicialmente a lista de alturas já tem no máximoKvalores distintos, Flávia já estariafeliz, e não iria precisar de nenhuma moeda nova.
+Entrada
+A primeira linha da entrada contém um dois inteiros separados por espaçosN, indicando o númerode pilhas eK, indicado o número máximo de valores distintos. A segunda linha contémNinteirosP
+i, indicando as alturas das pilhas.
+Saída
+Imprima a menor quantidade adicional de moedas.
+Restrições
+•1≤N≤500•1≤K≤N•1≤v
+i≤500
+Informações sobre a pontuação
+•Para um conjunto de casos de testes valendo 13 pontos,K= 1.•Para outro conjunto de casos de testes valendo 21 pontos,K= 2.•Para outro conjunto de casos de testes valendo 28 pontos,K, N, v
+i≤50.•Para outro conjunto de casos de testes valendo 38 pontos, nenhuma restrição adicional.
+Exemplos
+Exemplo de entrada 1
+6 25 3 8 4 5 8Exemplo de saída 1
+3Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível 1 – Fase 3 8
+Exemplo de entrada 2
+6 35 3 8 4 5 8Exemplo de saída 2
+1

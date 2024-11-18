@@ -1,0 +1,19 @@
+Olimp´ıada Brasileira de Inform´ atica – OBI2008 – Programa¸ c˜ ao N´ıvel 2 Fase 2 3
+Chuva
+Nome do arquivo fonte:chuva.c,chuva.cppouchuva.pasA rob´ otica causou uma grande revolu¸ c˜ ao nos processos industriais no mundo todo; atualmente, v´ arios tipos derobˆ os s˜ ao usados na fabrica¸ c˜ ao de carros, equipamentos eletrˆ onicos e at´ e mesmo utens´ılios dom´ esticos.Uma f´ abrica possui um robˆ o de manuten¸ c˜ ao, que constantemente precisa ser deslocado entre setores diferentespara executar v´ arios servi¸ cos. A movimenta¸ c˜ ao do robˆ o ´ e feita por controle remoto: ele pode andar qualquerdistˆ ancia, mas apenas nas quatro dire¸ c˜ oes cardeais (norte, sul, leste e oeste).Robˆ os s˜ ao feitos de metal, e por isso ´ e ideal que eles evitem contato direto com a ´ agua. Assim, em dias chuvosos,´ e ideal que a trajet´ oria do robˆ o passe por dentro de galp˜ oes, debaixo de marquises e toldos, etc. para evitar suaexposi¸ c˜ ao ` a chuva.A sua tarefa ´ e escrever um programa que, dadas as informa¸ c˜ oes sobre as ´ areas cobertas e ponto inicial enaldo robˆ o, determine uma trajet´ oria para o robˆ o que minimize a por¸ c˜ ao do trajeto feita sob chuva.
+Entrada
+A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). A primeira linha da entrada cont´ em quatro inteirosX
+i,Yi,XfeYf(0≤X i, Yi, Xf, Yf≤106), indicando, respectivamente, a posi¸ c˜ ao atual e a posi¸ c˜ aonal do robˆ o — o robˆ o come¸ ca na posi¸ c˜ ao (X
+i, Yi) e deve terminar na posi¸ c˜ ao (X
+f, Yf).A linha seguinte da entrada cont´ em um ´ unico inteiroN(0≤N≤1000), indicando o n´ umero de ´ areas cobertasna f´ abrica. Cada uma das N linhas seguintes cont´ em quatro inteirosX
+1,Y1,X2eY2(0≤X 1< X 2≤106, 0≤Y
+1< Y2≤106), indicando uma regi˜ ao coberta.Uma regi˜ ao coberta ´ e um retˆ angulo de lados paralelos aos eixos tal que (X
+1, Y1) e (X 2, Y2) s˜ ao v´ ertices opostosdo retˆ angulo. Duas ´ areas cobertas podem ter regi˜ oes comuns. O robˆ o pode entrar e sair de uma ´ area cobertapor qualquer ponto de seu per´ımetro, e pode trafegar livremente dentro da ´ area coberta.
+Sa´ıda
+Seu programa deve imprimir, nasa´ıda padr˜ ao, uma ´ unica linha, contendo um n´ umero inteiro indicando a menordistˆ ancia que o robˆ o precisa percorrer sob chuva.
+Exemplo de entrada0 0 4 30 Exemplo de sa´ıda7
+Exemplo de entrada2 5 5 010 0 1 5 Exemplo de sa´ıda5
+Exemplo de entrada4 5 5 020 0 1 50 0 3 2 Exemplo de sa´ıda5Olimp´ıada Brasileira de Inform´ atica – OBI2008 – Programa¸ c˜ ao N´ıvel 2 Fase 2 4
+Informa¸ c˜ oes sobre a pontua¸ c˜ ao
+•Em um conjunto de casos de teste que totaliza 30 pontos,X 1, Y1, X2, Y2, Xi, Xf, Yi, Yf≤10 eN≤5. •Em um conjunto de casos de teste que totaliza 55 pontos,X
+1, Y1, X2, Y2, Xi, Xf, Yi, Yf≤1000 eN≤100.

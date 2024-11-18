@@ -1,0 +1,18 @@
+Olimp´ıada Brasileira de Inform´ atica – OBI2008 – Programa¸ c˜ ao N´ıvel 2 Fase 1 4
+Avi˜ ao
+Nome do arquivo fonte:aviao.c,aviao.cppouaviao.pasSu Zuki ´ e um empres´ ario japonˆ es acostumado a fazer viagens de avi˜ ao, sempre na classe econˆ omica, e quer saberqual seu assento com base no novo sistema da companhia a´ erea.Todos os avi˜ oes cont´ em uma classe executiva e uma econˆ omica, de forma que as primeirasleiras do avi˜ aopertencem ` a classe executiva e as restantes ` a classe econˆ omica.Cada assento do avi˜ ao ´ e indicado por um n´ umero correspondente a sualeira e por uma letra que indica a suaposi¸ c˜ ao naleira, sendoAa posi¸ c˜ ao mais ` a esquerda daleira,Ba posi¸ c˜ ao ` a direita do assentoA,Co assento` a direita do assentoB, e assim por diante, seguindo o alfabeto de 26 letras. Por exemplo, a assento 9Best´ alocalizado na nonaleira, logo ` a direita do assento 9A. Agura abaixo mostra a numera¸ c˜ ao utilizada em umavi˜ ao com noveleiras de trˆ es assentos cada.
+3A 3B 3C
+6A 6B 6C
+9B 9A 9C2A 2B 2C
+5A 5B 5C
+8B 8A 8C1A 1B 1C
+4A 4B 4C
+7B 7A 7C
+A companhia a´ erea adotou, para a classe econˆ omica, um sistema no qual o bilhete indica a posi¸ c˜ ao do passageironala de embarque e n˜ ao seu assento no vˆ oo. Ala de embarque cont´ em apenas passageiros da classe econˆ omica.Su Zuki descobriu que o primeiro passageiro dala de embarque deve sempre sentar-se no assento localizadona primeiraleira da classe econˆ omica, posi¸ c˜ aoA. O segundo passageiro deve sentar-se nesta mesmaleira,posi¸ c˜ aoB, e assim por diante, at´ e que todos os assentos dessaleira estejam ocupados. Esse processo ´ e repetidoa cadaleira da classe econˆ omica, at´ e que acabem os assentos desta classe ou todos os passageiros dala j´ atenham embarcado.Caso a classe econˆ omica j´ a esteja lotada e ainda haja passageiros nala, esses passageiros embarcar˜ ao somenteno pr´ oximo vˆ oo.Como viajante freq¨ uente, Su Zuki conhece bem os diversos modelos de avi˜ oes e ´ e capaz de dizer o n´ umero totaldeleiras no avi˜ ao, o n´ umero de posi¸ c˜ oes porleira, e a partir de queleira come¸ ca a classe econˆ omica. Combase nessas informa¸ c˜ oes, ele pediu a sua ajuda para descobrir, a partir de sua posi¸ c˜ ao nala, se ele tem assentogarantido neste vˆ oo e, caso tenha, qual seu assento.
+Entrada
+A entrada cont´ em um ´ unico teste, a ser lido daentrada padr˜ ao. O teste cont´ em uma linha com quatro inteirosF,C,E,B(2≤F≤1.000, 1≤C≤26, 1≤E≤F, 2≤B≤50.000) indicando, respectivamente, o n´ umerototal deleiras no avi˜ ao, o n´ umero de posi¸ c˜ oes porleira, o n´ umero da primeiraleira da classe econˆ omica e aposi¸ c˜ ao nala de embarque do Sr. Zuki.Olimp´ıada Brasileira de Inform´ atica – OBI2008 – Programa¸ c˜ ao N´ıvel 2 Fase 1 5
+Sa´ıda
+Seu programa deve imprimir, nasa´ıda padr˜ ao, uma ´ unica linha, contendo um inteiro e uma letra mai´ uscula,indicando aleira e a posi¸ c˜ ao em que o Su Zuki ir´ a sentar-se, ou a frase “PROXIMO VOO” (em mai´ usculas esem acentos) caso n˜ ao haja assentos sucientes para o Sr. Zuki no vˆ oo.
+Exemplo de entrada5 5 2 12 Exemplo de sa´ıda4 B
+Exemplo de entrada50 12 13 185 Exemplo de sa´ıda28 E
+Exemplo de entrada12 10 6 100 Exemplo de sa´ıdaPROXIMO VOO

@@ -1,0 +1,16 @@
+Olimpíada Brasileira de Informática – OBI2016 3
+Chaves
+Nome do arquivo:chaves.c,chaves.cpp,chaves.pas,chaves.java,chaves.js,chaves.py2ouchaves.py3Seu amigo Juca está enfrentando problemas com programação. Na linguagem C, algumas partesdo código devem ser colocadas entre chaves"{ }"e ele frequentemente esquece de colocá-las ou ascoloca de forma errada. Porém, como Juca tem diculdade para entender os erros de compilação, elenunca sabe exatamente o que procurar. Por isso ele te pediu para fazer um programa que determinese um código está com as chaves balanceadas, ou seja, se é válido. Um código está com as chavesbalanceadas se:•Não há chaves (como por exemplo “Bom” ou “Correto”);•O código é composto por uma sequência de códigos válidos (como por exemplo “Bom Correto”ou “{}{}” ou “{}Correto”); ou•O código é formado por um código válido entre chaves (como por exemplo “{{}}” ou “{Bom}”).O código de Juca é composto porNlinhas de até100caracteres cada. Pode haver linhas vazias eespaços consecutivos.
+Entrada
+A primeira linha contém um inteiroN, representando o número de linhas no código. AsNlinhasseguintes contém até100caracteres.
+Saída
+Seu programa deve produzir uma única linha, contendo uma única letra,"S"se o código está comas chaves balanceadas e"N", caso contrário.
+Restrições
+•1≤N≤103.
+Informações sobre a pontuação
+•Em um conjunto de casos de teste equivalente a 50 pontos,N= 1e todos os carateres são"{"ou"}"(como no terceiro exemplo).
+Exemplos
+Entrada6#include <stdio.h>int main(void){printf("Hello World\n");}SaídaSOlimpíada Brasileira de Informática – OBI2016 4
+Entrada5{I{N{}F{])}O}R{}M}A{T}I{C@!!{onze}!!}SaídaS
+Entrada1{{}}{{}}} SaídaN
+Entrada1{{{3}}}{{{2}}a{{1}}{0} SaídaN

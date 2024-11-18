@@ -1,0 +1,25 @@
+Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível Júnior – Fase 15
+Quadrado Mágico
+Nome do arquivo:magico.c,magico.cpp,magico.pas,magico.java,magico.jsoumagico.pyEm um Quadrado Mágico, a soma de qualquer coluna, linha ou diagonal tem sempre o mesmo valor,e nenhum número aparece mais do que uma vez.
+3
+6 1 879 2541515
+15151515 15 153
+6 1 879 254
+Adimensãode um quadrado mágico é o número de colunas (ou de linhas, já que o número decolunas é igual ao número de linhas).Rita encontrou um caderno antigo de sua avó, repleto de quadrados mágicos de todas as dimensões.Infelizmente alguns dos números estão ilegíveis. Você pode ajudá-la?Dado um quadrado mágico com exatamente um número ilegível, determine o valor e a posição dessenúmero.
+Entrada
+A primeira linha da entrada contém um número inteiroN, a dimensão do quadrado mágico. Cadauma dasNlinhas seguintes contémNinteirosX
+i. Exatamente um dos números do quadrado daentrada é igual a zero, indicando o número ilegível.
+Saída
+Seu programa deve produzir três linhas, cada uma contendo um único número inteiro. A primeiralinha deve conter o valor do número ilegível. A segunda linha deve conter a linha do número ilegívelno quadrado (as linhas do quadrado variam de 1 aN). A terceira linha deve conter a coluna donúmero ilegível no quadrado (as colunas do quadrado variam de 1 aN).
+Restrições
+•3≤N≤10•0≤X
+i≤100, para1≤i≤N
+Informações sobre a pontuação
+•Para um conjunto de casos de testes valendo 10 pontos,1≤N≤3.
+Exemplo de entrada 1
+32 9 47 0 36 1 8Exemplo de saída 1
+522Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível Júnior – Fase 16Explicação do exemplo 1:O valor do número ilegível é 5 e sua posição é linha 2 e coluna 2.
+Exemplo de entrada 2
+411 8 5 014 1 4 152 13 16 37 12 9 6Exemplo de saída 2
+1014
+Explicação do exemplo 2:O valor do número ilegível é 10 e sua posição é linha 1 e coluna 4.

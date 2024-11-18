@@ -1,0 +1,15 @@
+Olimp´ıada Brasileira de Inform´ atica – OBI2010 2
+Cometa
+Nome do arquivo fonte:cometa.c,cometa.cpp,oucometa.pasO cometa Halley ´ e um dos cometas de menor per´ıodo do Sistema Solar, completando uma volta em torno doSol a cada 76 anos; na ´ ultima ocasi˜ ao em que ele tornou-se vis´ıvel do planeta Terra, em 1986, v´ arias agˆ enciasespaciais enviaram sondas para coletar amostras de sua cauda e assim conrmar teorias sobre suas composi¸ c˜ oesqu´ımicas.
+Tarefa
+Escreva um programa que, dado o ano atual, determina qual o pr´ oximo ano em que o cometa Halley ser´ a vis´ıvelnovamente do planeta Terra. Se o ano atual ´ e um ano de passagem do cometa, considere que o cometa j´ a passounesse ano (ou seja, considere sempre o pr´ oximo ano de passagem, n˜ ao considerando o ano atual).
+Entrada
+A ´ unica linha da entrada cont´ em um ´ unico inteiroA(2010≤A≤104), indicando o ano atual.
+Sa´ıda
+Seu programa deve imprimir uma ´ unica linha, contendo um n´ umero inteiro, indicando o pr´ oximo ano em que ocometa Halley ser´ a vis´ıvel novamente do planeta Terra.
+Informa¸ c˜ oes sobre a pontua¸ c˜ ao
+•Em um conjunto de casos de teste que totaliza 20 pontos,A≤2400.
+Exemplos
+Entrada2010 Sa´ıda2062
+Entrada10000 Sa´ıda10042
+Entrada2062 Sa´ıda2138

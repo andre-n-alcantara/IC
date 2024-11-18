@@ -1,0 +1,13 @@
+Olimpíada Brasileira de Informática – OBI2016 9
+Direção
+Nome do arquivo:direcao.c,direcao.cpp,direcao.pas,direcao.java,direcao.js,direcao.py2oudirecao.py3Seu amigo está perdido no deserto e precisa encontrar um oásis. Você sabe que seu amigo está, nomomento, virado para um dos pontos cardeais (norte, sul, leste, oeste). Você também sabe que ooásis mais próximo está em uma dessas quatro direções. Dadas essas duas informações, você devedizer qual o menor ângulo, em graus, que seu amigo deverá virar para ir na direção do oásis maispróximo.
+Entrada
+A entrada contém duas strings,AeB, a direção para onde seu amigo está virado originalmente ea direção do oásis, respectivamente.
+Saída
+Seu programa deve produzir uma única linha, contendo um único inteiro, o menor ângulo que seuamigo deve virar para continuar na direção correta para o oásis.
+Restrições
+Os valores possíveis paraAeBsão { norte, leste, oeste, sul }.
+Exemplos
+Entradanorte sul Saída180
+Entradaoeste sul Saída90
+Entradaleste leste Saída0

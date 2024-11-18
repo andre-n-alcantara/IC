@@ -1,0 +1,21 @@
+Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível 1 – Fase Local2
+Xadrez
+Nome do arquivo:“xadrez.x”,ondexdeve sercpp,pas,java,js,py2oupy3No tabuleiro de xadrez, a casa na linha 1, coluna 1 (cantosuperior esquerdo) é sempre branca e as cores das casasse alternam entre branca e preta, de acordo com o padrãoconhecido como... xadrez! Dessa forma, como o tabuleirotradicional tem oito linhas e oito colunas, a casa na linha 8,coluna 8 (canto inferior direito) será também branca. Nesteproblema, entretanto, queremos saber a cor da casa no cantoinferior direito de um tabuleiro com dimensões quaisquer:Llinhas eCcolunas. No exemplo dagura, paraL= 6eC= 9, a casa no canto inferior direito será preta!
+Entrada
+A primeira linha da entrada contém um inteiroLindicando o número de linhas do tabuleiro. Asegunda linha da entrada contém um inteiroCrepresentando o número de colunas.
+Saída
+Imprima uma linha na saída. A linha deve conter um inteiro, representando a cor da casa no cantoinferior direito do tabuleiro:1, se for branca; e0, se for preta.
+Restrições
+•1≤L, C≤1000
+Exemplo de entrada 1
+69Exemplo de saída 1
+0
+Exemplo de entrada 2
+88Exemplo de saída 2
+1
+Exemplo de entrada 3
+591Exemplo de saída 3
+1
+Exemplo de entrada 4
+401322Exemplo de saída 4
+0

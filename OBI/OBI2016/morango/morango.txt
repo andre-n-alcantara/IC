@@ -1,0 +1,12 @@
+Olimpíada Brasileira de Informática – OBI2016 2
+Plantação de morango
+Nome do arquivo:morango.c,morango.cpp,morango.pas,morango.java,morango.js,morango.py2oumorango.py3Os administradores da Fazenda Fartura planejam criar uma nova plantação de morangos, no formatoretangular. Eles têm vários locais possíveis para a nova plantação, com diferentes dimensões decomprimento e largura. Para os administradores, o melhor local é aquele que tem a maior área.Eles gostariam de ter um programa de computador que, dadas as dimensões de dois locais, determinao que tem maior área. Você pode ajudá-los?
+Entrada
+A entrada contém quatro linhas, cada uma contendo um número inteiro. As duas primeiras linhasindicam as dimensões (comprimento e largura) de um dos possíveis locais. As duas últimas linhasindicam as dimensões (comprimento e largura) de um outro possível local para a plantação demorangos. As dimensões são dadas em metros.
+Saída
+Seu programa deve escrever uma linha contendo um único inteiro, a área, em metros quadrados, domelhor local para a plantação, entre os dois locais dados na entrada.
+Restrições
+•1≤comprimento≤100•1≤largura≤100
+Exemplos
+Entrada3081156 Saída616
+Entrada1238520 Saída456

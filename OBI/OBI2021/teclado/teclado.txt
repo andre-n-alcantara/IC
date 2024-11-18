@@ -1,0 +1,37 @@
+Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível Sênior – Fase Fase 34
+Teclado
+Nome do arquivo:“teclado.x”,ondexdeve serc,cpp,pas,java,jsoupyOs teclados de telefones mostram teclas com os dígitos de 0 a 9, para que possamos digitar o númerodo telefone que queremos contactar, como nagura abaixo. Mas as teclas também mostram letras,que podem ser usadas por exemplo para facilitar a memorização de um número de telefone emparticular. Por exemplo, para memorizar o número (74) 7622 3623 podemos associar esse númeroà cadeia de caracterespipocadoce:
+1 2
+abc3
+def
+4
+ghi5
+jkl6
+mno
+7
+pqrs8
+tuv9
+wxyz
+*0
++ #( 7 4 ) 7 6 2 23 6 2 3↓ ↓ ↓ ↓ ↓ ↓↓ ↓ ↓ ↓p i p o c ad o c eClaramente, um número pode ser representado por diferentes cadeias de caracteres. Por exemplo,o número 3482 pode ser representado porfita,diva,dita,egua, e muitas outras cadeias decaracteres.Dados um número e uma lista de cadeias de caracteres, sua tarefa é determinar quantas cadeias decaracteres da lista podem representar o número dado.
+Entrada
+A primeira linha da entrada contém uma cadeia de caracteresN, o número de telefone. A segundalinha contém um inteiroM, o número de cadeias de caracteres na lista. Cada uma dasMlinhasseguintes contém uma cadeia de caracteresC
+i.
+Saída
+Seu programa deve produzir uma única linha na saída, contendo um único inteiro, o número decadeias de caracteres da lista que podem representar o número dado.
+Restrições
+•1≤comprimento deN≤1 000•Ncontém apenas dígitos entre 2 e 9•1≤M≤1 000•C
+icontém apenas letras minúsculas não acentuadas, para1≤i≤M•1≤comprimento deC i≤1 000, para1≤i≤M•Cisão todas distintas para1≤i≤MInformações sobre a pontuação
+•Para um conjunto de casos de testes valendo 13 pontos, comprimento deN= 1eM≤20.•Para um conjunto de casos de testes valendo outros 87 pontos, nenhuma restrição adicional.Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível Sênior – Fase Fase 35
+Exemplo de entrada 1
+34824fitareguamilhodivaExemplo de saída 1
+2
+Explicação do exemplo 1:fitaedivasão representações do número3482.
+Exemplo de entrada 2
+74762236235pipocapipocadocemisobafobedocedocepipocaExemplo de saída 2
+1
+Explicação do exemplo 2:apenaspipocadocerepresenta o número7476223623.
+Exemplo de entrada 3
+44443monotudonadaExemplo de saída 3
+0
+Explicação do exemplo 3:nenhuma das cadeias de caracteres representa o número4444.

@@ -1,0 +1,23 @@
+Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível 2 – Fase Local5
+Soma
+Nome do arquivo:“soma.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3Temos uma sequência deNquadrados desenhados lado alado. Cada quadrado possui um número natural anotadodentro dele. Dados a sequência dosNquadrados e um va-lorK, quantos retângulos distintos existem cuja soma dosnúmeros dentro do retângulo é exatamente igual aK? Porexemplo, agura mostra uma sequência deN= 10quadra-dos para a qual existem5retângulos cuja soma dos númerosé igual aK= 4.
+Entrada
+A primeira linha da entrada contém dois inteirosNeKrepresentando o número de quadrados nasequência e o valor da soma desejada. A segunda linha da entrada contémNnúmeros naturaisX
+i, para1≤i≤N, indicando a sequência de números anotados dentro dos quadrados.
+Saída
+Seu programa deve imprimir uma linha contendo um número inteiro representando quantos retân-gulos existem na sequência cuja soma é igual aK.
+Restrições
+•1≤N≤500000 (5×105)•0≤K≤10
+6
+•0≤X i≤100para1≤i≤N
+Informações sobre a pontuação
+•Em um conjunto de casos de teste somando 10 pontos,N≤500•Em um conjunto de casos de teste somando 20 pontos,N≤10
+4
+•Em um conjunto de casos de teste somando 30 pontos,K >0eX i>0para1≤i≤N•Em um conjunto de casos de teste somando 40 pontos, nenhuma restrição adicional (note quepara esta subtarefa o inteiro da saída pode não caber em 32 bits.)
+Exemplos
+Exemplo de entrada 1
+10 42 0 1 1 0 0 8 4 1 3Exemplo de saída 1
+5
+Exemplo de entrada 2
+15 00 0 0 0 0 5 12 0 1 0 0 0 51 0 0Exemplo de saída 2
+25

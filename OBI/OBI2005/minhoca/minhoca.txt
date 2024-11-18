@@ -1,0 +1,20 @@
+Olimp´ıada Brasileira de Inform´ atica – OBI2005 – Modalidade Programa¸ c˜ ao N´ıvel 13
+Campo de Minhocas
+Arquivo fonte: minhoca.c, minhoca.cc, minhoca.cpp ou minhoca.pasMinhocas s˜ ao muito importantes para a agricultura e como insumo para produ¸ c˜ ao de ra¸ c˜ ao animal. AOrganiza¸ c˜ ao para Bioengenharia de Minhocas (OBM) ´ e uma entidade n˜ ao governamental que promoveo aumento da produ¸ c˜ ao, utiliza¸ c˜ ao e exporta¸ c˜ ao de minhocas.Uma das atividades promovidas pela OBM ´ e a manuten¸ c˜ ao de uma fazenda experimental parapesquisa de novas tecnologias de cria¸ c˜ ao de minhocas. Na fazenda, a ´ area destinada ` as pesquisas ´ e deformato retangular, dividida em c´ elulas quadrangulares de mesmo tamanho. As c´ elulas s˜ ao utilizadaspara testar os efeitos, na produ¸ c˜ ao de minhocas, de varia¸ c˜ oes de esp´ ecies de minhocas, tipos de terra,de adubo, de tratamento, etc. Os pesquisadores da OBM mantˆ em um acompanhamento constantedo desenvolvimento das minhocas em cada c´ elula, e tˆ em uma estimativa extremamente precisa daprodutividade em cada uma das c´ elulas. Agura abaixo mostra um mapa da fazenda, mostrando aprodutividade estimada de cada uma das c´ elulas.
+81 28240 10
+40 10100 240
+20180 110 35
+Um pesquisador da OBM inventou e construiu uma m´ aquina colhedeira de minhocas, e quer test´ a-la na fazenda. A m´ aquina tem a largura de uma c´ elula, e em uma passada pelo terreno de umac´ elula colhe todas as minhocas dessa c´ elula, separando-as, limpando-as e empacotando-as. Ou seja,a m´ aquina eliminar´ a uma das etapas mais intensivas de m˜ ao de obra no processo de produ¸ c˜ ao deminhocas. A m´ aquina, por´ em, ainda est´ a em desenvolvimento e tem uma restri¸ c˜ ao: n˜ ao faz curvas,podendo movimentar-se somente em linha reta.Decidiu-se ent˜ ao que seria efetuado um teste com a m´ aquina, de forma a colher o maior n´ umeroposs´ıvel de minhocas em uma ´ unica passada, em linha reta, de lado a lado do campo de minhocas.Ou seja, a m´ aquina deve colher todas as minhocas de uma ‘coluna’ ou de uma ‘linha’ de c´ elulas docampo de minhocas (a linha ou coluna cuja soma das produtividades esperadas das c´ elulas ´ e a maiorposs´ıvel).
+Tarefa
+Escreva um programa que, fornecido o mapa do campo de minhocas, descrevendo a produtividadeestimada em cada c´ elula, calcule o n´ umero esperado total de minhocas a serem colhidas pela m´ aquinadurante o teste, conforme descrito acima.
+Entrada
+A primeira linha da entrada cont´ em dois n´ umeros inteirosNeM, representando respectivamente on´ umero de linhas (1≤N≤100) e o n´ umero de colunas (1≤M≤100) de c´ elulas existentes no campoexperimental de minhocas. Cada uma dasNlinhas seguintes cont´ emMinteiros, representando asprodutividades estimadas das c´ elulas correspondentes a uma linha do campo de minhocas.A entrada deve ser lida do dispositivo de entrada padr˜ ao (normalmente o teclado).Olimp´ıada Brasileira de Inform´ atica – OBI2005 – Modalidade Programa¸ c˜ ao N´ıvel 14
+Sa´ıda
+A sa´ıda deve ser composta por uma ´ unica linha contendo um inteiro, indicando o n´ umero esperadototal de minhocas a serem colhidas pela m´ aquina durante o teste.A sa´ıda deve ser escrita no dispositivo de sa´ıda padr˜ ao (normalmente a tela).
+Restri¸ c˜ oes
+1≤N≤1001≤M≤1000≤Produtividade de uma c´ elula≤5000≤Produtividade de uma linha ou coluna de c´ elulas≤50000
+Exemplos de entrada e sa´ıda
+Exemplo 1
+Entrada3 481 28 240 1040 10 100 24020 180 110 35 Sa´ıda450
+Exemplo 2
+Entrada4 11001100100Sa´ıda310

@@ -1,0 +1,17 @@
+Olimpíada Brasileira de Informática – OBI2016 3
+Gincana
+Nome do arquivo:gincana.c,gincana.cpp,gincana.pas,gincana.java,gincana.jsougincana.pyAs duas turmas do terceiro ano de sua escola realizam anualmente uma gincana. Nessa gincana, adelegação de cada turma é dividida em grupos deKpessoas, de forma queKseja o maior númeropossível que divida as duas delegações sem que sobre alguém. Depois, os grupos competem uns comos outros, ganhando pontos para determinar a turma vencedora. Sua turma pode levar qualquernúmeroXde pessoas entre1e
+M, a quantidade de alunos na turma, e você sabe que a turmarival levará exatamenteNpessoas para a gincana. Os integrantes da sua turma são muito bons emcompetições individuais, mas não trabalham bem em equipe. Portanto, é sua tarefa encontrar amaior delegação possível que sua turma pode levar à competição para que a gincana aconteça comgrupos deK= 1pessoa.Por exemplo, seN= 9eM= 6a sua turma deve levar uma delegação deX= 5pessoas, já que,para esse valor, a única divisão possível é em grupos deK= 1pessoa e, paraX= 6, os gruposseriam de3pessoas.
+Entrada
+A primeira e única linha contém dois inteirosNeM, representando respectivamente o tamanho dadelegação rival e o tamanho da sua turma.
+Saída
+Seu programa deve produzir uma única linha, contendo um inteiroX, o maior tamanho possível dadelegação da sua turma para o qual a gincana aconteça com grupos de uma pessoa.
+Restrições
+•1≤N,M≤1018.
+Informações sobre a pontuação
+•Em um conjunto de casos de teste equivalente a 40 pontos,N,M≤103.•Em um conjunto de casos de teste equivalente a 60 pontos,N,M≤105.•Em um conjunto de casos de teste equivalente a 80 pontos,N,M≤107.
+Exemplos
+Entrada9 6 Saída5
+Entrada6 9 Saída7
+Entrada6 3 Saída1
+Entrada2310 126 Saída113

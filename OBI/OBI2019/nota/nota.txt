@@ -1,0 +1,22 @@
+Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível 1 – Fase Local2
+Nota cortada
+Nome do arquivo:“nota.x”,ondexdeve serc,cpp,pas,java,js,py2oupy3Se pegarmos uma nota de 100 reais e a cortarmos, usando uma tesoura, em dois pedaços, quantovale cada um dos pedaços? A regra é simples: se um dos pedaços possuir estritamente mais dametade da área da nota original, então ele vale 100 reais; e o outro pedaço não vale nada. Veja quese cada pedaço possuir exatamente metade da área original, então nenhum dos dois tem valor.Felix e Marzia decidiram fazer um corte, em linha reta, que comece no lado inferior da nota, a base,e termine no lado superior, o topo. A nota é um retângulo de comprimento160centímetros e altura70centímetros, como mostrado na parte esquerda dagura abaixo. Felix sempre vaicar com opedaço mais à esquerda da nota e Marzia com o pedaço mais à direita. A parte direita dagurailustra dois possíveis cortes. No de cima, Marziacaria claramente com o maior pedaço, que vale100 reais; e no de baixo, dá para ver que Felix é quemcaria com o maior pedaço.
+O corte reto vai começar na base a uma distância deBcentímetros a partir do lado esquerdo danota; e terminar no topo a uma distância deTcentímetros também a partir do lado esquerdo danota. Veja a indicação na parte direita dagura.Neste problema, dados os valoresBeT, seu programa deve computar quem vaicar com o pedaçoque vale100reais, ou se o valor da nota se perdeu.
+Entrada
+A primeira linha da entrada contém um inteiroBrepresentando a distância do ponto inicial docorte, na base, para o lado esquerdo da nota. A segunda linha da entrada contém um inteiroTrepresentando a distância do pontonal do corte, no topo, para o lado esquerdo da nota.
+Saída
+Seu programa deve imprimir uma linha contendo um número inteiro:1, se Felixcou com o pedaçoque vale100reais;2, se Marziacou com o pedaço que vale100reais; ou0, se o valor da nota seperdeu.
+Restrições
+•0< B <160•0< T <160
+Informações sobre a pontuação
+•Em um conjunto de casos de teste somando 25 pontos,B=TOlimpíada Brasileira de Informática – OBI2019 – Prog. Nível 1 – Fase Local3
+Exemplos
+Exemplo de entrada 1
+5086Exemplo de saída 1
+2
+Exemplo de entrada 2
+7090Exemplo de saída 2
+0
+Exemplo de entrada 3
+130138Exemplo de saída 3
+1

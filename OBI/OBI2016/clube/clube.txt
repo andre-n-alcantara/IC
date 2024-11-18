@@ -1,0 +1,17 @@
+Olimpíada Brasileira de Informática – OBI2016 5
+Clube dos Cinco
+Nome do arquivo:clube.c,clube.cpp,clube.pas,clube.java,clube.js,clube.py2ouclube.py3No Clube dos Cinco são oferecidos três esportes aos associados: tiro com arco, badminton e ca-noagem. Cada associado pode participar de no máximo dois esportes, mas a administração doclube suspeita que algumas pessoas estejam ultrapassando esse limite. Am de descobrir a ver-dade, perguntaram aos treinadores quantas pessoas estavam frequentando suas aulas, resultandonos seguintes dados:•O númeroAde pessoas que praticam tiro com arco;•O númeroBde pessoas que praticam badminton;•O númeroCde pessoas que praticam canoagem.Além disso, perguntaram aos membros quais esportes eles praticam. Obviamente, os associadosque praticam três esportes mentiram, mas considere que outros falaram a verdade. Os dados dosassociados foram resumidos nas seguintes informações:•O númeroDde pessoas que praticam tiro com arco e badminton;•O númeroEde pessoas que praticam tiro com arco e canoagem;•O númeroFde pessoas que praticam badminton e canoagem;•O númeroGde pessoas que não praticam nenhum esporte.Vocêcou encarregado da a tarefa de descobrir se a suspeita é verdadeira. Dados o númeroNdeassociados do clube e os númerosA,B,C,D,E,FeGdescritos acima, descubra se existe algumapessoa que faz três esportes.
+Entrada
+A primeira linha contém um inteirosN, representando o número de associados. A segunda linhacontém sete inteirosA,B,C,D,E,FeGcomo descritos no enunciado.
+Saída
+Seu programa deve produzir uma única linha, contendo uma única letra,"S"se algum associadoparticipa de três esportes e"N", caso contrário.
+Restrições
+•1≤N≤104.•0≤A,B,C,D,E,F,G≤N.
+Informações sobre a pontuação
+•Em um conjunto de casos de teste equivalente a50pontos,D= 0,E= 0eF= 0.Olimpíada Brasileira de Informática – OBI2016 6
+Exemplos
+Entrada74 4 4 1 1 2 0 SaídaS
+Entrada84 4 4 1 1 2 0 SaídaN
+Entrada104 4 4 1 1 1 1 SaídaN
+Entrada74 4 4 1 1 1 1 SaídaS
+Entrada104 4 4 0 0 0 1 SaídaS

@@ -1,0 +1,28 @@
+Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível Júnior – Fase 36
+Carro elétrico
+Nome do arquivo:carro.c,carro.cpp,carro.pas,carro.java,carro.jsoucarro.pyO mapa ao lado mostra o reino de Quadradônia. As estradassão representadas por linhas e as cidades por círculos nume-rados de 1 a 10. As estradas são igualmente espaçadas comdistância de 100 km entre cada par de estradas, sendo ori-entadas em apenas duas direções: Norte-Sul e Leste-Oeste.Uma empresa de aluguel de carros em Quadradônia utilizaapenas carros elétricos. Aautonomiade um carro elétrico éa distância que ele pode percorrer com uma carga de energia;após essa distância o carro deve ser carregado novamentepara que possa ser utilizado. Há carregadores de energiaem cada cidade e não há carregadores de energia fora dascidades. Entre cidades, os carros trafegam apenas pelasestradas e todos os carros têm a mesma autonomia.
+156432
+NOLS
+Um vendedor deseja partir da cidade 1 e visitar todas as outras cidades, em qualquer ordem, mesmoque ele visite a mesma cidade mais de uma vez. Ele quer utilizar preferencialmente carros elétricosna sua viagem, mas se necessário viajará de avião se a distância para a próxima cidade for maiordo que a autonomia do carro. Por exemplo, no mapa acima, se a autonomia for 300 km, o vendedorpode alugar um carro em 1 e visitar 3 e depois 2, mas não pode alcançar as outras cidades. Entãoele pode viajar de avião até 5, alugar um carro visitar 6, depois viajar de avião até 4. Assim, sãonecessárias duas viagens de avião para ele visitar todas as cidades.Dados o mapa da Quadradônia e a autonomia dos carros, determine qual o menor número de viagensde avião que são necessárias para que o viajante visite todas as cidades, partindo da cidade 1.
+Entrada
+A primeira linha contém dois inteirosXeY, indicando respectivamente o número de estradasna direção Oeste-Leste e estradas na direção Norte-Sul. As estradas são numeradas de 1 aXnadireção Oeste-Leste e de 1 aYna direção Norte-Sul. A segunda linha contém dois inteirosNeA, indicando respectivamente o número de cidades e a autonomia dos carros, em kilômetros. Ascidades são numeradas de 1 aN. Cada uma dasNlinhas seguintes contém um par de inteirosx
+iey
+i, indicando a posição da cidade de númeroi, para1≤i≤N.
+Saída
+Seu programa deve produzir uma única linha, contendo um único inteiro, o menor número de viagensde avião necessárias para que o vendedor visite todas as cidades.
+Restrições
+•1≤X≤100 000•1≤Y≤100 000•2≤N≤1 000•1≤A≤150 000•1≤x
+i≤X•1≤y
+i≤YOlimpíada Brasileira de Informática – OBI2022 – Prog. Nível Júnior – Fase 37
+Informações sobre a pontuação
+•Para um conjunto de casos de testes valendo 37 pontos,N= 2.•Para outro conjunto de casos de testes valendo 32 pontos,Y= 1, e é garantido que as cidadessão dadas em ordem crescente deX(isto é,x
+1< x2< ... < x n).•Para um outro conjunto de casos de testes valendo 31 pontos, nenhuma restrição adicional.
+Exemplos
+Exemplo de entrada 1
+7 96 3002 23 54 32 86 77 7Exemplo de saída 1
+2
+Explicação do exemplo 1:Este é o exemplo do enunciado.
+Exemplo de entrada 2
+7 96 2002 23 54 32 86 77 7Exemplo de saída 2
+4
+Explicação do exemplo 2:Como a autonomia é 200 km, a única viagem de carro possível éentre as cidades 5 e 6. O vendedor pode por exemplo viajar de avião de 1 para 3, depois de 3para 2, depois de 2 para 4, depois de 4 para 5, alugar um carro e visitar 6, para um total dequatro viagens de avião.

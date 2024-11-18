@@ -1,0 +1,13 @@
+Olimpíada Brasileira de Informática – OBI2017 3
+Drone de Entrega
+Nome do arquivo:drone.c,drone.cpp,drone.pas,drone.java,drone.jsoudrone.pyA loja do Pará, especializada em vendas pela internet, está desenvolvendodronespara entrega decaixas com as compras dos clientes. Cada caixa tem a forma de um paralelepípedo reto retângulo(ou seja, no formato de um tijolo).Odroneentregará uma caixa de cada vez, e colocará a caixa diretamente dentro da casa do cliente,através de uma janela. Todas as janelas dos clientes têm o formato retangular e estão sempretotalmente abertas. Odronetem um aplicativo de visão computacional que calcula exatamente asdimensõesHeLda janela. Odroneconsegue colocar a caixa através da janela somente quandouma das faces da caixa está paralela à janela, mas consegue virar e rotacionar a caixa antes depassá-la pela janela.O aplicativo de controle dodroneestá quase pronto, mas falta um pequeno detalhe: um programaque, dadas as dimensões da maior janela do cliente e as dimensões da caixa que deve ser entregue,determine se odronevai ser capaz de entregar a compra (pela janela) ou se a compra terá que serentregue por meios normais.
+Entrada
+A entrada é composta por cinco linhas, cada uma contendo um número inteiro. A três primeiraslinhas contêm os valoresA,B,C, indicando as três dimensões da caixa, em centímetros. As duasúltimas linhas contêm os valoresHeL, indicando a altura e a largura da janela, em centímetros.
+Saída
+Seu programa deve escrever uma única linha, contendo apenas a letraSse a caixa passa pela janelae apenas a letraNem caso contrário.
+Restrições
+•1≤A, B, C≤100•1≤H, L≤100
+Exemplos
+Entrada3050808060SaídaS
+Entrada751005010030SaídaNOlimpíada Brasileira de Informática – OBI2017 4
+Entrada202252010SaídaS

@@ -1,0 +1,16 @@
+Olimpíada Brasileira de Informática – OBI2015 5
+Arquivos
+Nome do arquivo:arquivos.c,arquivos.cpp,arquivos.pas,arquivos.java,arquivos.jsouarquivos.pyAldo temNarquivos em seu computador, cada um com um tamanho em bytes. Ele quer dividirestes arquivos em pastas, porém o sistema do computador é velho e só aceita pastas com as duasseguintes limitações:•Uma pasta pode ter no máximodoisarquivos•A soma dos tamanhos dos arquivos na pasta não pode excederBbytesComo ele tem muitos arquivos ele prefere não criar muitas pastas. Dado o tamanho dos arquivos,calcule o número mínimo possível de pastas.Vamos supor um exemplo que temos os arquivos de tamanho 1, 2 e 3, e que o limite de bytes seja3. A solução é colocar os dois primeiros arquivos juntos, totalizando apenas 2 pastas.
+Entrada
+A entrada consiste de duas linhas. A primeira linha contém os números inteirosNeB. A segundalinha contémNinteiros indicando o tamanho de cada arquivo.
+Saída
+Seu programa deve escrever uma única linha na saída, contendo um único número inteiro, a quan-tidade mínima possível de pastas.
+Restrições
+•1≤N≤105
+•1≤B≤109
+•Os arquivos terão tamanho entre 1 eB, inclusive
+Informações sobre a pontuação
+•Em um conjunto de casos de teste somando 20 pontos,N≤10•Em um conjunto de casos de teste somando 50 pontos,N≤1000
+Exemplos
+Entrada3 31 2 3 Saída2
+Entrada5 44 3 1 2 2 Saída3

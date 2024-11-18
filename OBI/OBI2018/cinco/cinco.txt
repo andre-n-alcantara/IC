@@ -1,0 +1,27 @@
+Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível 2 – Fase Nacional2
+Cinco
+Nome do arquivo:“cinco.x”,ondexdeve serc|cpp|pas|java|js|py2|py3Considere um número decimal não divisível por5. Que-remos fazer exatamente uma operação de troca entreos dígitos de duas posições distintas para obter um nú-mero que seja divisível por5. Quer dizer, precisamosescolher duas posições distintas e trocar os dígitos des-sas duas posições. Mas queremos que o número resul-tante após a troca seja o maior número divisível por5possível.
+Veja o exemplo dagura,730105697542, que não é divisível por5. Podemos fazer a primeira trocailustrada e obter730102697545, que é divisível por5. Mas, sezermos a segunda troca ilustradanagura, vamos obter um número divisível por5ainda maior,732105697540.Dados os dígitos decimais de um número na entrada, não divisível por5, seu programa deve imprimiros dígitos decimais do maior número divisível por5que pode ser obtido com exatamente uma trocade dígitos entre duas posições distintas. Caso não seja possível obter um número divisível por5,imprima apenas−1.
+Entrada
+A primeira linha da entrada contém um inteiroN, indicando quantos dígitos decimais tem o númeronão divisível por5. A segunda linha contémNinteirosD
+i,1≤i≤N, representando os dígitosdecimais do número em questão.
+Saída
+Imprima uma linha contendoNinteiros representando os dígitos decimais do maior número divisívelpor5que pode ser obtido com exatamente uma troca de dígitos entre duas posições distintas. Casonão seja possível obter um número divisível por5, imprima apenas−1.
+Restrições
+•2≤N≤1000•D
+ié um inteiro entre0e9, inclusive.
+Exemplo de entrada 1
+127 3 0 1 0 5 6 9 7 5 4 2Exemplo de saída 1
+7 3 2 1 0 5 6 9 7 5 4 0
+Exemplo de entrada 2
+57 4 1 2 9Exemplo de saída 2
+-1
+Exemplo de entrada 3
+80 0 7 8 4 5 3 1Exemplo de saída 3
+1 0 7 8 4 5 3 0Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível 2 – Fase Nacional3
+Exemplo de entrada 4
+106 5 0 5 0 4 5 3 4 4Exemplo de saída 4
+6 5 4 5 0 4 5 3 4 0
+Exemplo de entrada 5
+79 7 4 5 3 5 2Exemplo de saída 5
+9 7 4 5 3 2 5

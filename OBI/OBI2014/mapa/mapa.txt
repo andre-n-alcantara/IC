@@ -1,0 +1,15 @@
+Olimpíada Brasileira de Informática – OBI20146
+Mapa
+Nome do arquivo fonte:mapa.c,mapa.cpp,mapa.pas,mapa.java,oumapa.pyByteland é uma cidade bastante movimentada, cujo prefeito, Joãozinho, vem lutando recentementepor sua inclusão no grupo das cinco cidades mais importantes de Byteworld. Para uma cidade serconsiderada importante em Byteworld, ela precisa seguir alguns critérios. Antes de tudo, vamosdenir Byteland, que é uma cidade como qualquer outra, onde esquinas se conectam através de ruasde mão dupla. Sabe-se também que existe um e somente um caminho, sem repetir esquinas, entrequalquer par de esquinas. Além disso, cada rua pode ser considerada importante ou não. Caso elaseja importante, a rua é pintada de branco e caso não seja, é pintada de azul.Para saber se uma cidade é importante ou não em Byteworld é necessario calcular um valorE: aquantidade de pares de esquinas(A, B)tal que existe ao menos uma rua importante no caminhoentreAeB. Note que(A, B)e(B, A)são o mesmo par!O prefeito de Byteland resolveu pedir sua ajuda para calcular o valorEe saber, assim, se Bytelandé ou não uma cidade importante para Byteworld.
+Entrada
+A primeira linha da entrada contém um inteiroNindicando a quantidade de esquinas em Byteland.As próximasN−1linhas da entrada contêm cada uma três inteiros,A,BeC, indicando que existeuma rua entre as esquinasAeBpintada da corC. CasoCseja1, a rua é branca e importante,caso seja0, a rua é azul e não importante.
+Saída
+Seu programa deve produzir uma única linha, contendo um único inteiro, o valorEdenido acima.
+Restrições
+•2≤N≤105
+•1≤A, B≤N•0≤C≤1
+Informações sobre a pontuação
+•Em um conjunto de casos de teste equivalente a 40 pontos,N≤103.
+Exemplos
+Entrada41 2 02 3 13 4 0 Saída4Olimpíada Brasileira de Informática – OBI20147
+Entrada61 2 02 3 13 4 02 5 05 6 1Saída11

@@ -1,0 +1,16 @@
+Olimp´ıada Brasileira de Inform´ atica – OBI2009 3
+Ca¸ cadores de Mitos
+Nome do arquivo fonte:mito.c,mito.cpp,oumito.pasJorge ´ e um apresentador de televis˜ ao que comanda a vers˜ ao brasileira do grande sucesso Ca¸ cadores de Mitos,onde se estuda um mito para descobrir se ´ e fato ou apenas um boato.No pr´ oximo epis´ odio, Jorge dever´ a apresentar o mito que diz que ”os raios n˜ ao caem duas vezes no mesmolugar”, referindo-se aos raios das tempestades de chuva.Para isso, foi at´ e a cidade de Eletrolˆ andia, que ´ e a cidade com maior ocorrˆ encia de raios no mundo. O prefeitotem tanto orgulho desse t´ıtulo que mandou criar um sistema para registrar os raios. Jorge conseguiu um relat´ oriocom as ocorrˆ encias de cada raio que caiu na cidade nos ´ ultimos anos.O mapa de Eletrolˆ andia ´ e um retˆ angulo. Para o sistema de registro a cidade ´ e subdividida em quadrados de ummetro de lado, denominados quadrantes. Assim, se a cidade tem 300 metros de largura e 1000 de comprimento,ela ser´ a subdividida em 300.000 quadrantes. O sistema de registro armazena o quadrante em que o raio caiu.Cada quadrante ´ e identicado pelas suas coordenadas X e Y, conforme ilustra agura abaixo, que exemplicaum mapa de uma cidade com oito metros de comprimento por cinco metros de largura (quarenta quadrantes).
+012340 1 2 3 4 5 6 7
+Como os quadrantes s˜ ao relativamente pequenos, Jorge decidiu que se dois raios ca´ıram no mesmo quadrante,pode-se considerar que ca´ıram no mesmo lugar.
+Tarefa
+Sua miss˜ ao ´ e escrever um programa que receba as coordenadas dos raios que ca´ıram em Eletrolˆ andia nos ´ ultimosanos e determine se o mito estudado ´ e realmente apenas um mito ou pode ser considerado verdade.
+Entrada
+A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado).A primeira linha da entrada cont´ em um n´ umero inteiroN(2≤N≤500.000) representando o n´ umero deregistros de raios no relat´ orio. Cada uma dasNlinhas seguintes cont´ em 2 n´ umeros inteirosX,Y(0≤X, Y≤500), representando o registro de um raio que caiu no quadrante cujas coordenadas s˜ ao (X, Y).
+Sa´ıda
+Seu programa deve imprimir, nasa´ıda padr˜ ao, o n´ umero 0 se nenhum raio caiu no mesmo lugar, ou o n´ umero 1caso contr´ ario. Note que vocˆ e deve imprimir o n´ umero 1 mesmo que haja mais do que 1 par de raios que ca´ıramno mesmo lugar.Olimp´ıada Brasileira de Inform´ atica – OBI2009 4
+Informa¸ c˜ oes sobre a pontua¸ c˜ ao
+•Em um conjunto de casos de teste que totaliza 30 pontos,N≤1.000.•Em um conjunto de casos de teste que totaliza 70 pontos,N≤100.000.
+Exemplos
+Entrada51 12 33 34 24 4Sa´ıda0
+Entrada81 12 22 34 42 36 59 1110 10Sa´ıda1

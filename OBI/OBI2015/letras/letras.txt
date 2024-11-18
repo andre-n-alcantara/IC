@@ -1,0 +1,16 @@
+Olimpíada Brasileira de Informática – OBI20155
+Letras
+Nome do arquivo:letras.c,letras.cpp,letras.pas,letras.java,letras.jsouletras.pyUmacadeia de caracteresé uma sequência de letras do alfabeto. Uma cadeia de caracterescrescenteé uma sequência de letras onde a próxima letra (da esquerda para a direita) nunca ocorre antes noalfabeto do que a letra anterior. Por exemplo ABBD é crescente, enquanto ABBAD não é crescente.Umasubsequênciade uma cadeia de caracteres é uma cadeia de caracteres que pode ser obtida apartir da remoção de zero ou mais caracteres da cadeia de caracteres original. Por exemplo ANNAé uma subsequência de BANANAS. Outro exemplo seria ANNS, que é uma subsequência crescentede BANANAS.Dada uma cadeia de caracteresS, escreva um programa para determinar o tamanho da maiorsubsequência deSque é uma cadeia de caracteres crescente.
+Entrada
+A entrada consiste em uma única linha, contendo uma cadeia de caracteresS.
+Saída
+Seu programa deve produzir uma única linha, contendo um único inteiro, o tamanho da maiorsubsequência deSque é uma cadeia de caracteres crescente.
+Restrições
+•A cadeia de caracteres de entrada contém letras maiúsculas do alfabeto, de A até Z.•1≤comprimento(S)≤3×10
+5.
+Informações sobre a pontuação
+•Em um conjunto de casos de teste valendo 20 pontos:comprimento(S)≤20.•Em um conjunto de casos de teste valendo 30 pontos:comprimento(S)≤3000.
+Exemplos
+EntradaBANANAS Saída4
+EntradaAAXBBXZZX Saída7
+EntradaAAA Saída3

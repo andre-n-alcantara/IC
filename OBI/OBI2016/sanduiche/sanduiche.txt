@@ -1,0 +1,22 @@
+Olimpíada Brasileira de Informática – OBI2016 9
+Sanduíche
+Nome do arquivo:sanduiche.c,sanduiche.cpp,sanduiche.pas,sanduiche.java,sanduiche.js,sanduiche.py2ousanduiche.py3Você está na Seletiva para a IOI e depois de um dia cansativo de provas, chegou a hora do jantar.Hoje, trouxeram um sanduíche muito longo cortado emNpedaços de diversos tamanhos diferentes.Você gostaria de comer uma quantidade total de sanduíche de comprimentoD, porém há uma regra:para evitar bagunça, você só pode ou pegar uma sequência contínua de pedaços, ou pegar pedaçosdas extremidades. Você sabe a sequênciaC
+1, C2, ... C Ndos comprimentos dos pedaços na ordem emque estão posicionados no sanduíche. Agora, para otimizar o seu jantar, quer fazer um programaque com esses dados responda de quantas formas você pode escolher os pedaços do sanduíche quevai comer. Em outras palavras, deve contar quantos pares(i, j),1≤i≤j≤N, existem tais queo somatórioC
+i+C i+1+...+C jseja igual aDe quantos pares(i, j),1≤i < j≤N, existem taisque o somatórioC
+1+C 2+...+C i+C j+C j+1+...+C Nseja igual aD.
+Entrada
+A primeira linha contém dois inteirosNeD, representando respectivamente o número de pedaços ea quantidade de sanduíche que você quer comer. A segunda linha contémNinteirosC
+1, C2, ... C N, ondeC
+ié o tamanho doi-ésimo pedaço.
+Saída
+Seu programa deve produzir uma única linha, contendo um único inteiro, o número de maneiras decomer pedaços de sanduíche com somaD.
+Restrições
+•2≤N≤106.•1≤D≤10
+9.•1≤C
+i≤103.
+Informações sobre a pontuação
+•Em um conjunto de casos de teste equivalente a20pontos,N≤200.•Em um conjunto de casos de teste equivalente a40pontos,N≤1000.
+Exemplos
+Entrada5 101 2 3 4 3 Saída3
+Entrada5 51 1 1 1 1 Saída5Olimpíada Brasileira de Informática – OBI2016 10
+Entrada9 618665 658 248 282 428 562 741 290 457 5 Saída0

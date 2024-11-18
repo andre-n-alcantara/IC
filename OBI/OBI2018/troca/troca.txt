@@ -1,0 +1,27 @@
+Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível Júnior – Fase Nacional4
+Troca
+Nome do arquivo:“troca.x”,ondexdeve serc|cpp|pas|java|js|py2|py3Um cientista especializado em bioinformática está estudando formas de simular alguns fenômenos,que ocorrem dentro das células, relacionados ao funcionamento de proteínas. Parece muito compli-cado, não? Só que o problema computacional básico que ele precisa resolver ecientemente é fácilde entender. Existe uma sequência deNcartas, indexadas de1aN, e cada carta contém doisnúmeros impressos, um de cada lado. As cartas são colocadas na mesa, na sequência, com um doslados virado para cima. Dados dois inteirosiej, comi≤j, a operaçãotroca(i, j)consiste em virartodas as cartas da posiçãoiaté a posiçãoj, inclusive. Por exemplo, considere a sequência de cartasabaixo.
+virado para cima 31 245 38132 10 427 12 7 7 963 47
+virado para baixo 112 6497 287 10 3955 56 11 90 3 8
+A operação detroca(5,11)resultaria na seguinte sequência de cartas:
+virado para cima 31 245 397 287 10 3955 7 7 963 47
+virado para baixo 112 648132 10 427 12 56 11 90 3 8
+O problema do cientista é que a sequência de cartas pode ser muito grande e podem ser feitas muitasoperações de troca. Ele precisa saber a sequência dos números que estarão virados para cima aonal de todas as operações. Você pode ajudá-lo?
+Entrada
+A primeira linha da entrada contém dois inteirosNeT, indicando respectivamente a quantidadede cartas e a quantidade de operações de troca. A segunda linha contémNinteiros, indicando osnúmeros virados para cima inicialmente. A terceira linha contémNnúmeros, indicando os viradospara baixo inicialmente. AsTlinhas seguintes contém, cada uma, dois inteirosIeJ, indicando oslimites de uma operação de troca.
+Saída
+Imprima uma linha contendoNinteiros representando os números que estarão virados para cimaapós todas as operações.
+Restrições
+•1≤N≤105
+•1≤T≤105
+•1≤I≤J≤N•O valor dos elementos dos vetores está entre0e10
+9, inclusive.
+Informações sobre a pontuação
+•Para um conjunto de casos de teste valendo 10 pontos,I=Jpara todas as operações;•Para um conjunto de casos de teste valendo 20 pontos,N≤10
+4eT≤104.
+Exemplo de entrada 1
+16 131 2 45 3 8 1 32 10 4 27 12 7 7 9 63 471 12 6 4 97 2 87 10 3 9 55 56 11 90 3 85 11Exemplo de saída 1
+31 2 45 3 97 2 87 10 3 9 55 7 7 9 63 47Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível Júnior – Fase Nacional5
+Exemplo de entrada 2
+10 57 88 23 44 1 67 73 2 9 114 55 1 1 3 74 82 9 8 371 35 102 65 91 7Exemplo de saída 2
+7 55 1 44 1 67 82 2 9 37

@@ -1,0 +1,12 @@
+Olimp´ıada Brasileira de Inform´ atica – OBI2010 3
+Gar¸ com
+Nome do arquivo fonte:garcom.c,garcom.cpp,ougarcom.pasParte do treinamento de um novo gar¸ com ´ e carregar uma grande bandeja com v´ arias latas de bebidas e copose entreg´ a-las todas numa mesa do restaurante. Durante o treinamento ´ e comum que os gar¸ cons deixem cair asbandejas, quebrando todos os copos.A SBC — Sociedade Brasileira de Copos — analisou estat´ısticas do treinamento de diversos gar¸ cons e descobriuque os gar¸ cons em treinamento deixam cair apenas bandejas que tˆ em mais latas de bebidas que copos.Por exemplo, se uma bandeja tiver 10 latas e 4 copos, certamente o gar¸ com em treinamento a deixar´ a cair,quebrando os 4 copos. J´ a se a bandeja tiver 5 latas e 6 copos, ele conseguir´ a entreg´ a-la sem deixar cair.
+Tarefa
+Escreva um programa que, dado o n´ umero de latas e copos em cada bandeja que o gar¸ com tentou entregar,imprime o total de copos que ele quebrou.
+Entrada
+A primeira linha da entrada cont´ em um inteiroN(1≤N≤100) representando o n´ umero de bandejas que ogar¸ com tentou entregar. AsNlinhas seguintes representam asNbandejas. Cada linha cont´ em dois inteirosLeC, indicando o n´ umero de latas e o n´ umero de copos naquela bandeja, respectivamente (0≤L, C≤100).
+Sa´ıda
+Seu programa deve imprimir uma ´ unica linha, contendo um ´ unico inteiro, indicando o n´ umero total de coposque o gar¸ com quebrou.
+Exemplos
+Entrada310 56 83 3 Sa´ıda5
+Entrada410 68 85 1100 100Sa´ıda7

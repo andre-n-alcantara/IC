@@ -1,0 +1,12 @@
+Olimp´ıada Brasileira de Inform´ atica – OBI2006 –Modalidade Programa¸ c˜ ao N´ıvel 26
+Escada perfeita
+Nome do arquivo fonte:escada.c,escada.cpp,ouescada.pasUma construtora, durante a cria¸ c˜ ao de um parque tem´ atico, encontrou no terreno um conjunto de v´ arios pilhasde cubos de pedra. Ao inv´ es de pagar pela remo¸ c˜ ao dos cubos de pedras, um dos arquitetos da empresa achouinteressante utilizar as pedras para decora¸ c˜ ao do parque, determinando que as pedras fossem rearranjadas noformato de “escada”. Para isso, os funcion´ arios deveriam mover alguns cubos para formar os degraus dasescadas. S´ o que o arquiteto decidiu que, entre uma pilha e outra de pedras deveria haver exatamente uma pedrade diferen¸ ca, formando o que ele chamou de escada perfeita. O exemplo abaixo mostra um conjunto de cincopilhas de pedras encontradas e as cinco pilhas comocaram ap´ os a arruma¸ c˜ ao em escada perfeita.
+Arranjo de pilhas decubos de pedras encontrado
+Tarefa
+Dada uma seq¨ uˆ encia de pilhas de cubos de pedras com suas respectivas alturas, vocˆ e deve determinar o n´ umerom´ınimo de pedras que precisam ser movidas para formar uma escada perfeita com exatamente o mesmo n´ umerode pilhas de pedras encontrado inicialmente (ou seja, n˜ ao devem ser criadas ou eliminadas pilhas de pedras). Odegrau mais baixo da escada deve sempre estar do lado esquerdo.
+Entrada
+A entrada cont´ em um ´ unico conjunto de testes, que deve ser lido dodispositivo de entrada padr˜ ao(normalmenteo teclado). A primeira linha cont´ em um inteiroNque indica o n´ umero de pilhas de pedras. A segunda linhacont´ emNn´ umeros inteiros que indicam a quantidade de cubos de pedras em cada uma das pilhas, da esquerdapara a direita.
+Sa´ıda
+Seu programa deve imprimir, nasa´ıda padr˜ ao, uma ´ unica linha, contendo um inteiro: o n´ umero m´ınimo decubos de pedras que devem ser movidos para transformar o conjunto de pilhas em uma escada perfeita, conformecalculado pelo seu programa. Caso n˜ ao seja poss´ıvel efetuar a transforma¸ c˜ ao em escada perfeita, imprima comoresultado o valor -1.
+Exemplos
+Entrada55 4 5 4 2Sa´ıda5Entrada69 8 7 6 5 4Sa´ıda9Entrada21 5Sa´ıda-1

@@ -1,0 +1,25 @@
+Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível Sênior – Fase 35
+Quadrado
+Nome do arquivo:quadrado.c,quadrado.cpp,quadrado.pas,quadrado.java,quadrado.jsouquadrado.pyUmquadrado fantásticoé um conjunto de números inteiros positivos dispostos emNlinhas porNcolunas tal que:•Não há números repetidos no quadrado.•A média dos números em cada linha é um número inteiro que está presente na linha.•A média dos números em cada coluna é um número inteiro que está presente na coluna.
+Entrada
+A primeira e única linha da entrada contém um número inteiroN, indicando a dimensão do qua-drado.
+Saída
+Seu programa deve produzirNlinhas, cada uma contendoNnúmeros inteirosX i, representandoum quadrado fantástico.
+Restrições
+•1≤N≤40•1≤X
+i≤1000000
+Informações sobre a pontuação
+•Para um conjunto de casos de testes valendo 44 pontos,1≤Né ímpar.•Para outro conjunto de casos de testes valendo 56 pontos, nenhuma restrição adicional.
+Exemplos
+Exemplo de entrada 1
+1Exemplo de saída 1
+1
+Exemplo de entrada 2
+2Exemplo de saída 2
+-1
+Exemplo de entrada 3
+3Exemplo de saída 3
+1 2 34 5 67 8 9Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível Sênior – Fase 36
+Exemplo de entrada 4
+4Exemplo de saída 4
+1 2 3 67 8 9 1213 14 15 1831 32 33 36

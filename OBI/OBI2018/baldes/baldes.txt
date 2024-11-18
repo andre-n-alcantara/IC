@@ -1,0 +1,19 @@
+Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível 2 – Fase Nacional6
+Baldes
+Nome do arquivo:“baldes.x”,ondexdeve serc|cpp|pas|java|js|py2|py3Temos uma sequência deNbaldes, identicados de1atéN, cada balde contendo inicialmenteuma bola de peso inteiro positivo. Queremos realizar uma sequência deMoperações de dois tipospossíveis:1. Adicionar uma bola de pesopao baldei;2. Dadosaeb, com1≤a < b≤N, imprimir a maior diferença absoluta possível entre o pesode duas bolas, de baldes distintos, dentro do intervalo de baldes[a, b].Por exemplo, nagura abaixo, paraN= 6, o resultado da operação do tipo2para o intervalo[2,5]é11, correspondente às bolas4e15, dos baldes2e3respectivamente. Existe uma diferençaabsoluta maior para as bolas15e2, mas elas estão no mesmo balde, portanto, essa diferença nãoconta.
+Entrada
+A primeira linha da entrada contém dois inteiros,NeM, respectivamente, o número de baldes eo número de operações. A segunda linha da entrada contémNinteiros indicando o peso da bolacontida em cada balde inicialmente. AsMlinhas seguintes descrevem, cada uma, uma operação. Sea operação é do primeiro tipo, a linha contém o número1seguido de dois inteiros,PeI, indicandoo peso da bola a ser adicionada e o identicador do balde. Se a operação é do segundo tipo, a linhacontém o número2seguido de dois inteiros,AeB, representando o intervalo[A, B]de baldes.
+Saída
+Para cada operação do segundo tipo, imprima uma linha contendo a maior diferença absolutapossível entre o peso de duas bolas, de baldes distintos, dentro do intervalo em questão.
+Restrições
+•2≤N≤105;•1≤M≤105;•1≤A < B≤N;•O peso das bolas está entre1e10
+6;•A entrada contém pelo menos uma operação do segundo tipo.Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível 2 – Fase Nacional7
+Informações sobre a pontuação
+•Para um conjunto de casos de teste valendo 10 pontos,N≤100eM≤100;•Para um conjunto de casos de teste valendo 40 pontos,N≤10
+4eM≤104.
+Exemplo de entrada 1
+10 53 9 12 4 20 5 7 15 9 101 1 51 33 82 6 91 15 22 1 7Exemplo de saída 1
+2817
+Exemplo de entrada 2
+2 3100 2002 1 21 55 12 1 2Exemplo de saída 2
+100145

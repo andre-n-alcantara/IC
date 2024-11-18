@@ -1,0 +1,27 @@
+Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível Júnior – Fase Nacional2
+Batalha
+Nome do arquivo:“batalha.x”,ondexdeve serc|cpp|pas|java|js|py2|py3Todo mundo está jogando um novo game de realidade aumentada no celular, com batalhas entremonstrinhos! Nas primeiras fases do jogo as batalhas são bem simples, mas ainda assim bastantedivertidas. Dois jogadores vão escolher um monstrinho cada, na sua coleção de monstrinhos. Cadamonstrinho tem um tipo de ataque e um tipo de defesa, que são identicados por números naturais.A regra da batalha, que consiste em cada monstrinho usar seu respectivo ataque ao mesmo tempo,é que se o número da defesa de um monstrinho é igual ao número do ataque do seu oponente, entãoele não sofre nenhum dano; caso contrário, se o número da defesa dele é diferente do ataque dooponente, então ele sofre dano total e desmaia!Por exemplo, o monstrinho do primeiro jogador tem o ataque21e a defesa7; enquanto que omonstrinho do segundo jogador tem o ataque7e a defesa12. Nesse caso, o primeiro jogador vence,pois não desmaiou, enquanto que o segundo jogador desmaiou.Assim, o resultado da batalha, que seu programa deve determinar, pode ser:•Jogador1vence: se o jogador1não desmaia e o jogador2desmaia;•Jogador2vence: se o jogador2não desmaia e o jogador1desmaia;•Empate: em qualquer caso contrário; quer dizer, os dois desmaiam, ou nenhum desmaia.
+Entrada
+A primeira linha da entrada contém um inteiroA 1indicando o ataque do primeiro jogador. Asegunda linha contém um inteiroD
+1indicando a defesa do primeiro jogador. A terceira linha contémum inteiroA
+2representando o ataque do segundo jogador. A quarta, e última linha, contém uminteiroD
+2representando a defesa do segundo jogador.
+Saída
+Imprima uma linha contendo um inteiro,1ou2, indicando qual jogador ganhou a batalha. Se abatalha resultou em empate, imprima−1.
+Restrições
+•1≤A 1≤100•1≤D
+1≤100•1≤A
+2≤100•1≤D
+2≤100
+Exemplo de entrada 1
+217712Exemplo de saída 1
+1Olimpíada Brasileira de Informática – OBI2018 – Prog. Nível Júnior – Fase Nacional3
+Exemplo de entrada 2
+257118Exemplo de saída 2
+-1
+Exemplo de entrada 3
+148814Exemplo de saída 3
+-1
+Exemplo de entrada 4
+119321Exemplo de saída 4
+2

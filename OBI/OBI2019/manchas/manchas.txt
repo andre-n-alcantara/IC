@@ -1,0 +1,25 @@
+Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível Júnior – Fase Nacional4
+Manchas de pele
+Nome do arquivo:manchas.c,manchas.cpp,manchas.pas,manchas.java,manchas.js,manchas_py2.pyoumanchas_py3.py
+O laboratório de dermatologia da Linearlândia está implementando um software para contar onúmero de manchas presentes numa imagem digital deNporMpixels. Cada pixel na imagem épreto ou branco e dois pixels pretos distintosAeBpertencem à mesma mancha se e somente se:existir uma sequência de pixels[P
+1, P2, . . . , P k], ondek≥2,A=P 1,B=P ke para todo1≤i < k,P
+ié ortogonalmente adjacente aP i+1(Piimediatamente acima, abaixo, à esquerda ou à direita deP
+i+1).
+Agura acima, paraN= 8eM= 9, ilustra uma imagem digital onde existem oito manchas. Dadaa imagem, seu programa deve contar o número de manchas presentes.
+Entrada
+A primeira linha da entrada contém dois inteirosNeM, representando, respectivamente, o númerode linhas e colunas da imagem. AsNlinhas seguintes contêm, cada uma,MinteirosPrepresentandoos pixels da imagem.
+Saída
+Seu programa deve imprimir uma linha contendo um inteiro, o número de manchas na imagem.
+Restrições
+•1≤N≤1000•1≤M≤1000•O valor dePé1, representando um pixel preto, ou0, representando um pixel branco.
+Informações sobre a pontuação
+•Para um conjunto de casos de testes valendo10pontos,N=M= 2.•Para um conjunto de casos de testes valendo outros20pontos,N= 1.•Para um conjunto de casos de testes valendo outros20pontos,N, M≤100.•Para um conjunto de casos de testes valendo outros50pontos, nenhuma restrição adicional(Atenção, para essa parcial, não é recomendada uma implementação recursiva!)Olimpíada Brasileira de Informática – OBI2019 – Prog. Nível Júnior – Fase Nacional5
+Exemplo de entrada 1
+8 91 0 0 0 0 0 1 1 11 1 0 1 1 1 0 1 11 0 0 0 0 1 0 1 00 0 1 0 0 1 1 1 00 1 1 0 0 0 0 1 00 1 0 0 1 1 0 0 00 0 0 1 0 1 0 0 11 1 1 0 0 0 0 1 0Exemplo de saída 1
+8
+Exemplo de entrada 2
+1 10Exemplo de saída 2
+0
+Exemplo de entrada 3
+1 100 0 1 0 1 1 1 0 1 0Exemplo de saída 3
+3

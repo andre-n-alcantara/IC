@@ -1,0 +1,22 @@
+Olimpíada Brasileira de Informática – OBI2021 – Prog. Nível Júnior – Fase Fase 12
+Idade de Camila
+Nome do arquivo:“idade.x”,ondexdeve serc,cpp,pas,java,jsoupyCibele, Camila e Celeste são três irmãs inseparáveis. Estão sempre juntas e adoram fazer esportes,ler, cozinhar, jogar no computador... Agora estão aprendendo a programar computadores paradesenvolverem seus próprios jogos.Mas nada disso interessa para esta tarefa: estamos interessados apenas nas suas idades. Sabemosque Cibele nasceu antes de Camila e Celeste nasceu depois de Camila.Dados três números inteiros indicando as idades das irmãs, escreva um programa para determinara idade de Camila.
+Entrada
+A entrada é composta por três linhas, cada linha contendo um número inteiroN, a idade de umadas irmãs.
+Saída
+Seu programa deve produzir uma única linha, contendo um único número inteiro, a idade de Camila.
+Restrições
+•5≤N≤100
+Exemplos
+Exemplo de entrada 1
+697Exemplo de saída 1
+7
+Exemplo de entrada 2
+343638Exemplo de saída 2
+36
+Exemplo de entrada 3
+222522Exemplo de saída 3
+22
+Exemplo de entrada 4
+919191Exemplo de saída 4
+91

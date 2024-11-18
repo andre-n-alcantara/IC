@@ -1,0 +1,21 @@
+Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível 2 – Fase 32
+Caravana
+Nome do arquivo:caravana.c,caravana.cpp,caravana.pas,caravana.java,caravana.jsoucaravana.pyNo deserto da Nlogônia, uma longa caravana de camelos carregados de especiarias está parada numoásis para descansar. O chefe da caravana notou que alguns camelos pareciam mais cansados do queos outros, e descobriu que cada camelo estava carregando um peso diferente, de forma que algunscamelos carregam um peso muito maior do que outros e portanto se cansam mais.Aproveitando a parada para descanso, o chefe da caravana quer redistribuir as especiarias entre oscamelos, de forma que todos os camelos carreguem exatamente o mesmo peso.Dados os pesos carregados por cada camelo antes da parada, escreva um programa que determine,para cada camelo, qual o peso que deve ser retirado ou adicionado, para que todos carreguemexatamente o mesmo peso.
+Entrada
+A primeira linha contém um inteiroN, o número de camelos na caravana. Os camelos são numeradosde 1 aN. Cada uma das linhas seguintes contém um inteiroP
+i, o peso que o camelo de númeroicarregava antes da parada. Os camelos são dados em ordem crescente de numeração.
+Saída
+Para cada camelo da caravana, seu programa deve produzir uma linha, o valor que deve ser adici-onado ou retirado desse camelo para que todos os camelos carreguem o mesmo peso. A ordem doscamelos na saída deve ser a mesma ordem dada na entrada. Para todos os casos de teste o peso quecada camelo deve carregar é um número inteiro.
+Restrições
+•1≤N≤1 000•1≤P
+i≤10 000para1≤i≤N
+Exemplos
+Exemplo de entrada 1
+3100104108Exemplo de saída 1
+40-4
+Exemplo de entrada 2
+5304023532Exemplo de saída 2
+-4-14321-6Olimpíada Brasileira de Informática – OBI2022 – Prog. Nível 2 – Fase 33
+Exemplo de entrada 3
+3100001000010000Exemplo de saída 3
+000

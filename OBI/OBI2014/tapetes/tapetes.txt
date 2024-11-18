@@ -1,0 +1,17 @@
+Olimpíada Brasileira de Informática – OBI20143
+Tapetes
+Nome do arquivo fonte:tapetes.c,tapetes.cpp,tapetes.pas,tapetes.java,outapetes.pyNlogonia é conhecida por sua indústria de tradicionais tapetes quadrados, que são produzidos apenascom dimensões inteiras, para todos os números inteiros positivos. Quer dizer, os tapetes são dedimensão1×1,2×2,3×3, e assim por diante. João Tapetão, grande empresário do setor, estáplanejando o próximo carregamento para exportação, que deve ser de exatamenteNtapetes. Ostapetes são sempre enrolados e colocados em um tubo, um após o outro. Por exemplo, para umcarregamento deN= 4tapetes de dimensões2×2,4×4,6×6e3×3, será necessário um tubode comprimento2 + 4 + 6 + 3 = 15. A questão é que o preço do tapete é proporcional à sua área,de modo que quanto maior a soma das áreas dos tapetes, maior o lucro do Tapetão. No exemploanterior, a soma das áreas é2
+2+ 42+ 62+ 32= 65. Só que daria para lucrar mais, com o mesmotubo de comprimento15, se o carregamento fosse com quatro tapetes de dimensões1×1,4×4,7×7e3×3, cuja soma das áreas dá75. Será que daria para lucrar ainda mais?O navio chegou e Tapetão precisa embarcar o carregamento. Há apenas um tubo de comprimentoLe o carregamento deve conter exatamenteNtapetes. Qual é a maior soma possível das áreas dosNtapetes que poderá ser transportada?
+Entrada
+A primeira e única linha da entrada contém dois inteiros,LeN, o comprimento do tubo e aquantidade de tapetes que deve transportada, respectivamente.
+Saída
+Seu programa deve produzir uma única linha, contendo apenas um inteiro, a maior soma possíveldas áreas dos tapetes.
+Restrições
+•N≤L•1≤L≤10
+6e1≤N≤105
+Informações sobre a pontuação
+•Em um conjunto de casos de teste equivalente a 30 pontos,L≤50.
+Exemplos
+Entrada2 2 Saída2
+Entrada10 5 Saída40
+Entrada1000000 9 Saída999984000072

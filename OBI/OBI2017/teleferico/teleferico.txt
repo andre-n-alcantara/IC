@@ -1,0 +1,14 @@
+Olimpíada Brasileira de Informática – OBI2017 2
+Teleférico
+Nome do arquivo:teleferico.c,teleferico.cpp,teleferico.pas,teleferico.java,teleferico.jsouteleferico.pyA turma do colégio vai fazer uma excursão na serra e todos os alunos e monitores vão tomar umteleférico para subir até o pico de uma montanha. A cabine do teleférico pode levarCpessoas nomáximo, contando alunos e monitores, durante uma viagem até o pico. Por questão de segurança,tem que ter pelo menos um monitor dentro da cabine junto com os alunos. Por exemplo, se cabemC= 10pessoas na cabine e a turma temA= 20alunos, o colégio poderia fazer três viagens: aprimeira com8alunos e um monitor; a segunda com6alunos e um monitor; e a terceira com6alunos e um monitor. Você consegue ver que não seria possível fazer apenas duas viagens?
+Dados como entrada a capacidadeCda cabine e o número totalAde alunos, você deve escreverum programa para calcular o número mínimo de viagens do teleférico.
+Entrada
+A primeira linha da entrada contém um inteiroC, representando a capacidade da cabine. A segundalinha da entrada contém um inteiroA, representando o número total de alunos na turma.
+Saída
+Seu programa deve imprimir uma linha contendo um número inteiro representando o número mínimode viagens do teleférico para levar todos os alunos até o pico da montanha.
+Restrições
+•2≤C≤100e1≤A≤1000
+Exemplos
+Entrada1020 Saída3
+Entrada1255 Saída5
+Entrada10087 Saída1
