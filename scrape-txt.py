@@ -14,23 +14,20 @@ def get_text(base_url, href):
   edicao = edicao[1:len(edicao)-1]
 
   bs = BeautifulSoup(html, 'html.parser')
-  content = bs.select('form ~ *')
-  text = []
-  for it in content:
-    text.append(it.text)
-  text = ' '.join(text)
+  form_element = bs.find('form')
+  parent_element = form_element.find_parent()
+  form_element.decompose()
 
-  return file_name,edicao,text
+  return file_name,edicao,parent_element.text
 
 def save_txt(root, file_name, edicao):
-  path = os.path.join(root,'OBI'+edicao)
-  if file_name not in os.listdir(path):
-    print(f'Erro! {file_name},{edicao} nao existe.')
-  path = os.path.join(path, file_name)
-  os.makedirs(path, exist_ok=True)
-  path = os.path.join(path, file_name+'.txt')
-  with open(path,'w',encoding='utf-8') as f:
-    f.write(text)
+  path = os.join(root,'OBI'+edicao)
+  if file_name in os.listdir(path):
+    path = os.join(path, file_name, file_name+'2.txt')
+    with open(path,'w',encoding='utf-8') as f:
+      f.write(text)
+  else:
+     print(f'Erro! {file_name} nao existe.')
 
 niveis = ['pj','p1','p2','pu']
 for nivel in niveis:
@@ -40,11 +37,11 @@ for nivel in niveis:
   hrefs=[]
   for anchor in anchors:
     hrefs.append(anchor.get('href'))
-  root = './OBI'
-  base_url="https://olimpiada.ic.unicamp.br"
-  for href in hrefs:
-    file_name,edicao,text = get_text(base_url,href)
-    save_txt(root, file_name, edicao)
+root = './OBI'
+base_url="https://olimpiada.ic.unicamp.br"
+for href in hrefs:
+  file_name,edicao,text = get_text(base_url,href)
+  save_txt(root, file_name, edicao)
 
 
 
