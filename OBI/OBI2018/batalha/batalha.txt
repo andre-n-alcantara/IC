@@ -1,4 +1,7 @@
-Batalha 
+
+
+Batalha
+
 Todo mundo está jogando um novo game de realidade aumentada no
 celular, com batalhas entre monstrinhos! Nas primeiras fases do jogo
 as batalhas são bem simples, mas ainda assim bastante divertidas. Dois

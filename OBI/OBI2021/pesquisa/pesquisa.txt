@@ -1,4 +1,7 @@
-Pesquisa de preços 
+
+
+Pesquisa de preços
+
 Uma jornalista está fazendo uma pesquisa de preços de combustíveis
 (álcool e gasolina), em vários estados do país, para uma reportagem
 sobre qual dos dois combustíveis é mais vantajoso para

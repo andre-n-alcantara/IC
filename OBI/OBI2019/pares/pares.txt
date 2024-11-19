@@ -1,4 +1,7 @@
-Pares de números 
+
+
+Pares de números
+
 Temos um vetor de N inteiros distintos e dois inteiros I e
 F. Precisamos computar quantos pares desses inteiros do vetor somam
 pelo menos I e no máximo F.  Por exemplo, se o vetor for

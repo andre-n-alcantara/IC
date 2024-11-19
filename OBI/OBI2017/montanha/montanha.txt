@@ -1,4 +1,7 @@
-Montanha 
+
+
+Montanha
+
 Um sistema de informações geográficas computadorizado está
 representando o perfil de uma montanha através de uma sequência de
 números inteiros, na qual não há dois números consecutivos iguais,
@@ -18,7 +21,7 @@ houver três números consecutivos na sequência, tal que o número do
 meio é menor do que os outros dois números, então a montanha tem mais
 de um pico. Caso contrário, a montanha tem apenas um pico. De forma
 mais rigorosa, se a sequência é
-A=[A1, A2, A3, …, AN-2, A_N-1, AN], ele quer saber se há uma
+A=[A1, A2, A3, …, A_N-2, A_N-1, AN], ele quer saber se há uma
 posição i, para 2 ≤  i ≤  N-1, tal que Ai-1 > Ai e
 Ai < Ai+1.
 

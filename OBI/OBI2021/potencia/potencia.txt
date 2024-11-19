@@ -1,4 +1,7 @@
-Potência 
+
+
+Potência
+
 A profa. Vilma preparou uma tarefa de programação sobre
 a operação de potenciação.  Para lembrar, seja um número real
 n e um número inteiro p igual ou maior do que zero, então a

@@ -1,4 +1,7 @@
-Torre de Dados 
+
+
+Torre de dados
+
 Hortência está brincando de construir uma torre com dados de seis
 faces.  Os dados são similares aos dados comuns utilizados em jogos, com
 as faces estampadas com valores de 1 a 6. Mas os dados usados por

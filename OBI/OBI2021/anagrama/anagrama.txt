@@ -1,4 +1,7 @@
-Anagrama 
+
+
+Anagrama
+
 Uma palavra A é um anagrama de outra palavra B se podemos
 transformar a palavra A na palavra B apenas trocando de posição as
 letras da palavra A. Por exemplo, "iracema" é um anagrama de

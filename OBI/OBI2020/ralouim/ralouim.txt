@@ -1,0 +1,117 @@
+
+
+Ralouim
+
+Para a tradicional festa infantil de Ralouim, o rei da Nlogônia
+instalou tendas de distribuição de guloseimas no seu extenso Jardim Real,
+onde está também situado o Palácio Real.
+
+Cada tenda tem uma quantidade ilimitada de guloseimas. As crianças devem
+sair do Palácio Real e visitar as tendas para ganhar guloseimas, mas
+o Rei estabeleceu algumas regras:
+
+
+ a cada visita a uma tenda, a criança ganha exatamente uma guloseima.
+ uma tenda pode ser visitada mais de uma vez pela mesma criança,
+desde que as visitas não sejam consecutivas (ou seja, uma imediatamente após a outra).
+ as distâncias que uma criança percorre para chegar à "próxima tenda"
+devem ser estritamente decrescentes. Ou seja, a distância que a criança
+percorre do Palácio até a primeira tenda que a criança visita deve ser maior
+do que a distância que a criança percorre entre a primeira tenda e a segunda
+tenda, que por sua vez deve ser maior do que a distância que a criança percorre entre
+a segunda tenda e a terceira tenda, e assim por diante.
+
+Pedrinho percebeu que se planejar direito suas visitas, pode ganhar muitas guloseimas!
+Escreva um programa para ajudar Pedrinho a ganhar o maior número possível de guloseimas no Ralouim.
+
+
+
+
+
+Entrada
+A primeira linha da entrada contém um inteiro N, o número de
+tendas. Cada uma das N linhas seguintes contém dois inteiros X e
+Y, as coordenadas de uma tenda no Jardim Real. A localização do
+Palácio Real é (0,0) e não existe tenda com essas  coordenadas,
+todas as tendas têm localizações distintas.
+
+
+Saída
+Seu programa deve produzir uma única linha, contendo um único
+inteiro, o maior número de guloseimas que Pedrinho pode ganhar.
+
+Restrições
+
+ 1  ≤  N  ≤  2000
+ -10000  ≤  X  ≤  10000
+ -10000  ≤  Y  ≤  10000
+
+Informações sobre a pontuação
+
+ Para um conjunto de casos de testes valendo 20 pontos, 1  ≤  N  ≤  50.
+ Para um conjunto de casos de testes valendo 40 pontos adicionais, 1  ≤  N  ≤  200.
+ Para um conjunto de casos de testess valendo 40 pontos adicionais, nenhuma restrição adicional.
+
+Exemplos
+
+
+
+Entrada
+
+4
+6 0
+5 0
+1 0
+2 0
+
+
+
+Saída
+
+5
+	
+
+
+
+ 
+
+
+
+Entrada
+
+2
+0 3
+3 0
+
+
+
+Saída
+
+1
+	
+
+
+
+ 
+
+
+
+Entrada
+
+5
+6 8
+2 1
+2 2
+2 3
+5 9
+
+
+
+Saída
+
+6
+	
+
+
+
+ 

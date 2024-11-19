@@ -1,4 +1,7 @@
-Dominó 
+
+
+Dominó
+
 O jogo de dominó tradicional, conhecido como duplo-6, possui 28
 peças. Cada peça está dividida em dois quadrados e dentro de cada
 quadrado há entre 0 e 6 círculos. O jogo é chamado de duplo-6

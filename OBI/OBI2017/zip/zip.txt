@@ -1,4 +1,7 @@
-Zip 
+
+
+Zip
+
 Um jogo de cartas que faz muito sucesso no reino da Nlogônia é chamado
 zip.  Nesse jogo, apenas os valores das cartas são utilizados (ás a
 rei), os naipes das cartas são ignorados. Para simplificar, neste

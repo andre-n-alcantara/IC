@@ -1,4 +1,7 @@
-Escher 
+
+
+Escher
+
 M. C. Escher foi um artista gráfico holandês que fazia incríveis
 ilustrações onde preenchia a tela com objetos auto-similares, cujos
 contornos encaixam neles próprios, criando simetrias geométricas muito

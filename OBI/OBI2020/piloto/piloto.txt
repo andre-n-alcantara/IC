@@ -1,4 +1,7 @@
-Piloto Automático 
+
+
+Piloto Automático
+
 Uma grande fábrica de carros elétricos está realizando melhorias no
 sistema de piloto automático e precisa da sua ajuda para implementar
 um programa que decida se um carro B, que está trafegando no meio

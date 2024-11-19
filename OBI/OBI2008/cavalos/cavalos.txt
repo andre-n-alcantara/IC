@@ -1,0 +1,80 @@
+
+
+Cavalos
+O jogo de xadrez como conhecido hoje foi inventado por volta do século XV, na Europa Medieval. Uma das
+suas peças mais interessantes é o cavalo, que se movimenta e ataca outras peças conforme a figura abaixo:
+
+
+
+Na figura, o símbolo "•" representa as posições que o cavalo na casa central ataca.
+Existem vários quebra-cabeças interessantes envolvendo os movimentos do cavalo; um deles pergunta quantos
+cavalos podem ser colocados em um tabuleiro M × N de forma que nenhum par de cavalos se ataque:
+
+
+
+
+Soluções do quebra-cabeça para (a) um tabuleiro (a) 5 × 3 (b) um tabuleiro 2 × 6
+
+A sua tarefa é escrever um programa que, dados M e N , determina quantos cavalos podem ser colocados em
+um tabuleiro M × N de forma que nenhum par de cavalos ataque-se simultaneamente.
+Entrada
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado). A primeira (e única) linha da entrada contém dois inteiros, M e N, (1 ≤ M ≤ 1000, 1 ≤ N ≤ 1000)
+indicando, respectivamente, o número de linhas e o número de colunas do tabuleiro.
+Saída
+Seu programa deve imprimir, na saída padrão, uma única linha, contendo um inteiro indicando o maior número
+de cavalos que podem ser colocados no tabuleiro sem que dois deles se ataquem.
+Informações sobre a pontuação
+
+Em um conjunto de casos de teste que totaliza 30 pontos, 1 ≤ M ≤ 6.
+Em um conjunto de casos de teste que totaliza 55 pontos, 1 ≤ M ≤ 100.
+
+Exemplos
+
+
+
+Exemplo de entrada
+
+5 3
+			
+
+
+Exemplo de Saída
+
+8	
+			
+
+
+
+
+
+
+Exemplo de entrada
+
+2 6
+			
+
+
+Exemplo de Saída
+
+8
+			
+
+
+
+
+
+
+Exemplo de entrada
+
+1 4
+			
+
+
+Exemplo de Saída
+
+4
+			
+
+
+

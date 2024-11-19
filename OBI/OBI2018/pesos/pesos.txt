@@ -1,4 +1,7 @@
-Pesos 
+
+
+Pesos
+
 Uma fábrica instalou um elevador composto de duas cabines ligadas por
 uma roldana, como na figura. Quando uma cabine sobe, a outra desce. No
 primeiro andar da fábrica existem algumas caixas de pesos diversos e

@@ -1,4 +1,7 @@
-Gomoku 
+
+
+Gomoku
+
 Gomoku é um jogo japonês milenar, jogado em um tabuleiro de 15x15
 células e pedras pretas e brancas. Um jogador joga com as pedras
 brancas, o outro joga com as pedras pretas. O objetivo do jogo, como o

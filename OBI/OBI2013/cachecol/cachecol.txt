@@ -1,0 +1,81 @@
+
+
+Cachecol da Vovó Vitória
+
+Vovó Vitória possui muitos netinhos; como toda boa avó, ela se preocupa
+constantemente com a saúde de seus netos, e quer garantir que eles estejam
+sempre bem agasalhados o tempo todo.
+Vovó Vitória dispõe de um saco com vários retalhos quadrados de mesmo tamanho,
+em três cores diferentes, e quer usá-los para costurar cachecóis para seus
+netos. Ela quer que cada cachecol tenha três retalhos de largura por N de
+comprimento e, além disso, retalhos adjacentes devem ter cores diferentes. Por
+exemplo, a figura abaixo mostra três cachecóis que Vovó Vitória pode costurar.
+
+
+
+
+
+Vovó Vitória tem muitos netos, e quer fazer um cachecol diferente para cada um
+deles, mas ela não sabe de quantas formas ela pode arrumar os retalhos para
+formar cachecóis diferentes. Por isso, ela pediu para você escrever um programa
+que determina quantos cachecóis diferentes ela pode costurar.
+Entrada
+A entrada consiste de uma única linha contendo um único inteiro N, indicando
+o número de retalhos no comprimento do cachecol.
+Saída
+Imprima uma única linha contendo um único número inteiro, indicando o número de
+cachecóis distintos que a Vovó Vitória pode costurar.
+Como este número pode ser muito grande,
+imprima o resto que este número deixa quando dividido por 1.000.000.007 (109 + 7).
+Restrições
+ 1  ≤  N  ≤  10^18
+
+Exemplos
+
+
+
+Entrada
+
+1
+
+
+
+Saída
+
+12
+	
+
+
+
+
+
+
+Entrada
+
+2
+
+
+
+Saída
+
+54
+	
+
+
+
+
+
+
+Entrada
+
+4
+
+
+
+Saída
+
+1122
+	
+
+
+

@@ -1,4 +1,7 @@
-Jogo de Tabuleiro 
+
+
+Jogo de Tabuleiro
+
 Flavinho não se cansa de bolar joguinhos para passar o tempo. Ele diz
 que é uma boa forma de treinar a memória e a capacidade de resolver
 problemas. Dessa vez ele inventou uma forma de preencher um tabuleiro

@@ -1,0 +1,95 @@
+
+
+Plantação
+
+A N-logônia é uma região com um clima muito intenso e variável, onde em questão de poucos dias é
+possível observar uma forte seca, seguida de uma intensa estação de chuvas. O Seu João tem uma plantação
+de obilina, uma fruta típica e muito apreciada na região, o que a torna muito valiosa.
+A obilina, entretanto, é muito suscetível a mudanças climáticas, de forma que é difícil prever
+quanto desta fruta será colhido durante a safra.
+Observou-se que as árvores de obilina seguem as seguintes regras:
+
+ As árvores produzem frutas todos os dias, exceto quando elas morrem;
+ As árvores mortas não produzem frutas, e infelizmente, mesmo que volte a chover, continuam
+		mortas;
+ Se choveu na noite anterior, a árvore produz uma fruta a mais que no dia anterior;
+ Se estiou na noite anterior, a árvore produz uma fruta a menos que no dia anterior; e
+ Uma árvore morre se não produzir nenhuma fruta.
+
+
+
+
+
+O Seu João deseja vender toda a obilina produzida para uma grande rede de mercados local, mas para isso,
+precisa saber exatamente quantas frutas de obilina ele colherá durante a safra.
+Para ajudar o Seu João nesta tarefa, você deve escrever um programa que, dada a previsão do tempo 
+para cada noite do período da safra, e quantas frutas cada árvore do Seu João produziu no
+dia anterior ao início da safra, 
+determine quantas obilinas serão colhidas durante a safra.
+Por exemplo, considerando apenas um pé de obilina, se a safra dura
+dois dias, choveu durante duas noites, e o pé de obilina produziu 3
+frutos antes de começar a safra, a produção total da safra será de 9
+frutas: 4 no primeiro dia da safra, e 5 no segundo dia.
+Entrada
+A primeira linha da entrada contém dois inteiros, N e K, respectivamente o número de dias que dura a safra, e o
+número de árvores que o Seu João possui.
+
+A segunda linha contém K inteiros a_i indicando quantas frutas foram produzidas no dia anterior ao início da
+safra por cada uma das K árvores.
+A linha seguinte contém N letras separadas por um espaço em branco. Cada uma das letras
+indica se choveu ou se estiou durante a noite respectiva: a primeira letra se refere à primeira noite,
+a segunda letra se refere à segunda noite, e assim por diante. Se a letra for um `C", indica que choveu aquela noite
+chuvosa, e se for um `E", indica que estiou (ou seja, não choveu).
+Saída
+Seu programa deve imprimir uma única linha, contendo um único inteiro, indicando o número de  frutas que serão
+produzidas pela plantação do Seu João.
+
+Restrições
+
+ 1  ≤  N  ≤  100,000
+ 1  ≤  K  ≤  100,000
+ 1  ≤  a_i  ≤   100 para todo i
+
+Informações sobre a pontuação
+
+ Em um conjunto de casos de teste valendo 70 pontos, N  ≤  
+1000 e K  ≤  1000.
+ Em um conjunto de casos de teste valendo 70 pontos, a resposta não excederá 1.000.000.000.
+
+Exemplos
+
+
+
+Entrada
+
+3 2
+1 2
+C E C
+
+
+
+Saída
+
+13
+	
+
+
+
+
+
+
+Entrada
+
+5 3
+2 3 1
+E E E C C
+
+
+
+Saída
+
+4
+	
+
+
+

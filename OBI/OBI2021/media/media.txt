@@ -1,4 +1,7 @@
-Média ou mediana 
+
+
+Média ou mediana
+
 A média de três números inteiros A, B e C é (A + B + C)/3.
 A mediana de três números inteiros é o número que ficaria no meio se os
 três números fossem ordenados em ordem não-decrescente.

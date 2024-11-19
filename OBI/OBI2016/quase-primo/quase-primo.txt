@@ -1,0 +1,115 @@
+
+
+Quase primo
+
+O jovem César está aprendendo sobre  números primos: um número X > 1
+é primo se for divisível apenas por 1 e por X.
+
+A primeira  tarefa de  casa de  César consiste em  dizer, para  um dado
+número N, quantos números menores ou iguais a N são primos.  Acontece que
+os números  são muito grandes e  César tem preguiça. Ele  suspeita que
+seu professor é tão preguiçoso quanto  ele, e acha que, seu professor,
+para testar se um número é primo, vai testar só uma pequena quantidade
+de divisores primos. Com isso em  mente, ele compilou uma lista de K
+números primos que acha que o professor vai usar.
+
+Mesmo assim,  César ainda está com  preguiça. Dados N e  a lista com
+K números  primos, diga  quantos números inteiros  positivos menores
+ou iguais a N não são divisíveis por nenhum número primo na lista.
+
+Entrada
+
+A primeira linha da entrada contém  dois inteiros, N e K.  A linha
+seguinte contém K primos distintos ki, (1  ≤  i  ≤  K), que são
+os primos que César acha que o professor irá considerar.
+
+Saída
+
+Imprima um único  inteiro, a quantidade de  números inteiros positivos
+menores ou iguais a N que não são divisíveis por nenhum número na lista.
+
+Restrições
+
+ 1  ≤  N  ≤  10^9
+ 1  ≤  K  ≤  40
+ ki é primo e 2  ≤  ki  ≤  N
+
+Informações sobre a pontuação
+
+ Em um conjunto de testes valendo 20 pontos, N  ≤  105 e K = 1
+ Em um conjunto de testes valendo 40 pontos, N  ≤  105 e K  ≤  20
+ Em um conjunto de testes valendo 80 pontos, N  ≤  109 e K  ≤  20
+
+Exemplos
+
+
+
+Entrada
+
+10 1
+2
+
+
+
+Saída
+
+5
+	
+
+
+
+ 
+
+
+
+Entrada
+
+10 2
+2 3
+
+
+
+Saída
+
+3
+	
+
+
+
+ 
+
+
+
+Entrada
+
+20 3
+2 5 7
+
+
+
+Saída
+
+7
+	
+
+
+
+ 
+
+
+
+Entrada
+
+29 3
+2 5 7
+
+
+
+Saída
+
+10
+	
+
+
+
+ 

@@ -1,4 +1,7 @@
-Basquete de robôs 
+
+
+Basquete de robôs
+
 A organização da OIBR, Olimpíada Internacional de Basquete de Robô,
 está começando a ter problemas com dois times: os  Bit Warriors e
 os  Byte Bulls. É que os robôs desses times acertam quase todos

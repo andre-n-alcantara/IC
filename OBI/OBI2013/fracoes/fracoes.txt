@@ -1,0 +1,59 @@
+
+
+Soma de Frações
+
+Joãozinho está aprendendo a somar frações na escola e quer sua ajuda
+para escrever um programa que dadas duas frações imprima a soma delas
+em sua forma irredutível. Assim ele vai poder conferir as respostas
+dos exercícios que está fazendo.
+A forma irredutível de uma fração é quando o divisor (número de baixo)
+é o menor possível. Por exemplo, 10/3 é uma fração
+irredutível, pois 10 e 3 não têm nenhum divisor em comum. Mas
+10/6 não é, pois ela pode ser simplificada para
+5/3, dividindo-se 10 e 6 por 2.
+Dados quatro inteiros a, b, c, d, escreva um programa que calcule
+a/b + c/d na sua forma irredutível.
+Entrada
+A única linha da entrada contém quatro inteiros  a, b, c, d,
+respectivamente dividendo e divisor da primeira fração e dividendo e divisor da
+segunda fração.
+Saída
+Seu programa deve imprimir uma única linha contendo dois inteiros, dividendo e divisor da fração
+irredutível formada pela soma das duas frações dadas.
+Restrições
+
+ 1  ≤  a, b, c, d  ≤  100
+
+Exemplos
+
+
+
+Entrada
+
+2 3 7 3
+
+
+
+Saída
+
+3 1
+	
+
+
+
+
+
+
+Entrada
+
+7 5 3 2
+
+
+
+Saída
+
+29 10
+	
+
+
+

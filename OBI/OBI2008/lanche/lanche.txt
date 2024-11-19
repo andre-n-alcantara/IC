@@ -1,0 +1,91 @@
+
+
+Lanche na empresa
+Atualmente, uma empresa precisa oferecer mais que altos salários para manter seus melhores funcionários.
+Um dos benefícios comumente oferecidos é acesso a um suprimento infinito de comida e bebida disponível em
+cozinhas, onde os funcionários podem preparar lanches e refeições.
+Uma empresa de tecnologia decidiu posicionar uma cozinha em suas instalações; entretanto, essa tarefa requer
+um certo planejamento. Analisando a planta do prédio é possível criar um diagrama contendo todas as salas,
+todos os corredores que as ligam e os seus respectivos comprimentos, em metros. A cozinha deve ser posicionada
+em uma das salas de tal forma que a distância entre a cozinha e a sala mais distante da cozinha seja a menor
+possível.
+Obviamente, a empresa deseja utilizar esse fato para anunciar que "nenhum de seus funcionários está a mais de
+X metros de uma cozinha". Eles contrataram o seu escritório de arquitetura para posicionar a cozinha na sala
+que minimiza X e você, como programador, deve escrever um programa que informa qual será essa distância.
+Entrada
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado). A primeira linha da entrada contém dois inteiros, S e C, (1 ≤ S ≤ 250, 1 ≤ C ≤ 50.000) indicando,
+respectivamente, o número de salas e o número de corredores. As C linhas seguintes contêm, cada uma, três
+inteiros, A, B e D (1 ≤ A ≤ N , 1 ≤ B ≤ N , 1 ≤ D ≤ 100, A ≠ B) indicando que existe um corredor de D
+metros ligando a sala A à sala B. Cada corredor é informado uma única vez na entrada. Note que um corredor
+ligando as salas A e B pode ser percorrido nos dois sentidos (da sala A para a sala B e da sala B para a sala
+A).
+Saída
+Seu programa deve imprimir, na saída padrão, uma única linha, contendo um inteiro indicando a distância
+entre a cozinha e a sala mais distante, considerando que a cozinha foi posicionada na sala onde essa distância é
+mínima.
+Exemplos
+
+
+
+Entrada
+
+4 6
+1 2 1
+2 3 1
+2 4 2
+3 4 1
+1 4 1
+3 1 4
+			
+
+
+Saída
+
+2
+			
+
+
+
+
+
+
+Entrada
+
+4 4
+1 2 10
+2 3 1
+3 4 4
+2 4 3
+			
+
+
+Saída
+
+10
+			
+
+
+
+
+
+
+Entrada
+
+5 6
+1 2 10
+2 3 10
+2 4 11
+2 5 11
+3 4 10
+4 5 10
+			
+
+
+Saída
+
+11
+			
+
+
+

@@ -1,4 +1,7 @@
-Cartas 
+
+
+Cartas
+
 Um novo game de realidade aumentada tem, dentro dele, um mini-game que
 aparece em certas situações para aumentar o ganho de pontos do game
 principal. O mini-game é um joguinho de memória com quatro cartas,

@@ -1,4 +1,7 @@
-Sr. Sapo 
+
+
+Sr. Sapo
+
 O Sr. Sapo mora num lago de formato retangular dividido em um reticulado
 de células quadradas de um metro de lado. Algumas das células são
 pedras que estão acima do nível da água. 

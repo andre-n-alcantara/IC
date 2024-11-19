@@ -1,4 +1,7 @@
-Plano de estacionamento 
+
+
+Plano de estacionamento
+
 Tio Chico é o dono de um estacionamento para carros, localizado perto
 de um estádio de futebol.  O estacionamento tem N vagas numeradas de
 1 a N e em dias de jogo tem muita procura, podendo até mesmo lotar.

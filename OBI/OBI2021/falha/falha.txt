@@ -1,0 +1,125 @@
+
+
+Falha de segurança
+
+Rafael foi contratado como programador por um grande banco que está
+atualizando todo o sistema computacional.  O novo sistema vai ser
+instalado amanhã, mas Rafael acabou de descobrir uma falha grave na
+nova  autenticação para acesso às contas do banco: se um
+usuário digitar como senha uma cadeia de caracteres que contenha,
+como sub-cadeia contígua, a senha correta para esse usuário, o sistema
+se confunde e permite o acesso.
+
+Por exemplo, se a senha correta é 'senhafraca' e o usuário digitar
+
+`quesenhafracameu' ou `senhafraca123',
+
+o sistema permite o
+acesso. Note que nesse caso o sistema não permite o acesso se o
+usuário digitar
+
+`senha' ou `nhafra' ou `senha123fraca'.
+
+O chefe de Rafael chamou um programador mais experiente para alterar a
+autenticação do novo sistema, mas solicitou que Rafael determinasse,
+para o conjunto de senhas existentes, quantos pares ordenados (A,B) de
+usuários distintos existem tal que o usuário A, usando sua senha,
+consegue acesso à conta do usuário B. Você poderia por favor ajudar
+Rafael?
+
+
+
+
+
+Entrada
+A primeira linha da entrada contém um número inteiro N,
+  o número de usuários no sistema.
+  
+  Cada uma das N linhas seguintes contém uma senha Si, a senha do
+  i-ésimo usuário.
+
+
+
+
+
+Saída
+Seu programa deve produzir uma única linha, contendo um único inteiro,
+o número de pares ordenados (A,B) de usuários distintos tal que o usuário A,
+usando sua senha, consegue acesso à conta do usuário B.
+
+Restrições
+
+ 1  ≤  N  ≤  20 000
+ Si inicia com letra minúscula sem acento e contém apenas letras
+minúsculas sem acento e dígitos de 0 a 9, para 1  ≤  i  ≤  N
+ 1  ≤   comprimento de Si  ≤  10 
+
+Informações sobre a pontuação
+
+ Para um conjunto de casos de testes valendo 12 pontos, comprimento de Si=1 e N  ≤  1000.
+ Para um conjunto de casos de testes valendo outros 28 pontos, N  ≤  2000.
+ Para um conjunto de casos de testes valendo outros 60 pontos, nenhuma restrição adicional.
+
+Exemplos
+
+
+
+Entrada
+
+3
+xxx
+x23
+xx
+
+
+
+Saída
+
+1
+	
+
+
+
+ 
+
+
+
+Entrada
+
+3
+a
+a
+a8
+
+
+
+Saída
+
+4
+	
+
+
+
+ 
+
+
+
+Entrada
+
+5
+jus
+justa
+ta
+us
+t
+
+
+
+Saída
+
+6
+	
+
+
+
+ 

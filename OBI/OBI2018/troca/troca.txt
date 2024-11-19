@@ -1,4 +1,7 @@
-Troca 
+
+
+Troca
+
 Um cientista especializado em bioinformática está estudando formas de
 simular alguns fenômenos, que ocorrem dentro das células, relacionados
 ao funcionamento de proteínas. Parece muito complicado, não? Só que o

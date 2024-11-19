@@ -1,4 +1,7 @@
-Cápsulas 
+
+
+Cápsulas
+
 O discípulo Fan Chi'ih retornou recentemente da China com algumas
 cápsulas mágicas, que são capazes de produzir moedas de ouro! Uma
 cápsula possui um certo ciclo de produção, que é um número C de
@@ -23,7 +26,7 @@ A primeira linha da entrada contém dois inteiros N e
 
  
 Saída
-Imprima um inteiro, representando o número mínimo de dias
+Imprima uma única linha contendo um inteiro, representando o número mínimo de dias
  para que as cápsulas produzam, no total, pelo menos F moedas.
 
 Restrições

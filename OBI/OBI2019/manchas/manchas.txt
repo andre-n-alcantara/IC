@@ -1,4 +1,7 @@
-Manchas de pele 
+
+
+Manchas de pele
+
 O laboratório de dermatologia da Linearlândia está implementando um
 software para contar o número de manchas presentes numa imagem digital
 de N por M pixels. Cada pixel na imagem é preto ou branco e dois

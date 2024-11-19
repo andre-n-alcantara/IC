@@ -1,0 +1,86 @@
+
+
+Tapetes
+
+Nlogonia é conhecida por sua indústria de tradicionais tapetes
+quadrados, que são produzidos apenas com dimensões inteiras, para
+todos os números inteiros positivos. Quer dizer, os tapetes são de
+dimensão 1x1, 2x2, 3x3, e assim por
+diante. João Tapetão, grande empresário do setor, está
+planejando o próximo carregamento para exportação, que
+deve ser de exatamente N tapetes. Os tapetes são sempre enrolados e
+colocados em um tubo, um após o outro. Por exemplo, para um
+carregamento de N=4 tapetes de dimensões 2x2, 4x4,
+6x6 e 3x3, será necessário um tubo de comprimento
+2+4+6+3=15. A questão é que o preço do tapete é proporcional à sua
+área, de modo que quanto maior a soma das áreas dos tapetes, maior o
+lucro do Tapetão. No exemplo anterior, a soma das áreas é
+22+42+62+32=65. Só que daria para lucrar mais, com o mesmo tubo
+de comprimento 15, se o carregamento fosse com quatro tapetes de
+dimensões 1x1, 4x4, 7x7 e 3x3, cuja
+soma das áreas dá 75. Será que daria para lucrar ainda mais?
+O navio chegou e Tapetão precisa embarcar o carregamento. Há
+apenas um tubo de comprimento L e o carregamento deve conter
+exatamente N tapetes. Qual é a maior soma possível das áreas dos
+N tapetes que poderá ser transportada?
+EntradaA primeira e única linha da entrada contém dois inteiros, L
+e N, o comprimento do tubo e a quantidade de tapetes que deve
+transportada, respectivamente.
+SaídaSeu programa deve produzir uma única linha, contendo apenas um inteiro,
+a maior soma possível das áreas dos tapetes.
+Restrições
+ N ≤  L
+ 1  ≤  L  ≤  106 e 1  ≤  N  ≤  105
+
+Informações sobre a pontuação
+ Em um conjunto de casos de teste equivalente a 30 pontos, L  ≤  50.
+
+Exemplos
+
+
+
+Entrada
+
+2 2
+
+
+
+Saída
+
+2
+	
+
+
+
+
+
+
+Entrada
+
+10 5
+
+
+
+Saída
+
+40
+	
+
+
+
+
+
+
+Entrada
+
+1000000 9
+
+
+
+Saída
+
+999984000072
+	
+
+
+

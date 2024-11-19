@@ -1,0 +1,111 @@
+
+
+Coleção de Upas
+
+Mayuri é uma jovem que adora colecionar Upas. Ela está sempre
+procurando pelos melhores Upas para melhorar sua coleção. Cada Upa
+possui uma cor única e como Mayuri é muito perfeccionista ela não acha
+que todas cores combinam juntas, então ela resolveu escrever uma lista
+com pares de cores que não combinam. No entanto, ela está muito
+confusa em como organizar sua coleção, pois existem Upas mais raros
+que outros e por isso ela também precisa manter sempre os Upas mais
+raros.
+
+Sua coleção é composta por N Upas e ela possui exatamente um Upa de
+cada cor entre 1 e N. Um Upa de cor i possui raridade igual a
+2i. Dada a coleção atual de Upas de Mayuri, informe quais
+Upas ela deve manter na sua coleção de modo que todos os Upas possuem
+cores que combinam entre si e tal que a soma das raridades de todos os
+Upas é maior possível.
+
+
+Entrada
+A primeira linha da entrada contém dois números
+inteiros N e M, indicando respectivamente o número de Upas e o tamanho
+da lista de pares de cores que não combinam. As próximas M linhas
+contêm, cada uma, dois inteiros U e V, indicando que as cores U e V
+não combinam.
+
+
+Saída
+Seu programa deve produzir duas linhas de saída. A
+primeira linha da saída é composta por um inteiro Q indicando a
+quantidade de Upas que Mayuri deve manter na coleção. A segunda linha
+da saída deve ser composta por Q inteiros, indicando quais Upas ela
+manter na coleção, em ordem crescente de cor.
+
+Restrições
+
+ 1  ≤  N, M  ≤  105.
+ 1  ≤  U, V  ≤  N e U  &neq  V
+ Mayuri possui exatamente um Upa para cada cor entre 1 e N
+
+ É garantido que existe exatamente uma única resposta
+
+Informações sobre a pontuação
+
+ Para um conjunto de casos de testes valendo 20 pontos, 1  ≤  N  ≤  10 e 1  ≤  M  ≤  15.
+ Para um conjunto de casos de testes valendo outros 20 pontos, 1  ≤  N  ≤  15 e 1  ≤  M  ≤  30.
+ Para um conjunto de casos de testes valendo outros 20 pontos, 1  ≤  N, M  ≤  1000.
+ Para um conjunto de casos de testes valendo outros 40 pontos, não existem restrições adicionais.
+
+Exemplos
+
+
+
+Entrada
+
+10 4
+10 9
+8 7
+8 6
+1 2
+
+
+
+Saída
+
+6
+2 3 4 5 8 10
+	
+
+
+
+ 
+
+
+
+Entrada
+
+13 19
+12 1
+12 2
+12 3
+12 4
+10 5
+13 6
+3 7
+1 8
+1 9
+11 10
+7 11
+12 13
+1 5
+9 13
+6 2
+8 11
+8 7
+11 3
+7 12
+
+
+
+Saída
+
+5
+2 4 5 11 13
+	
+
+
+
+ 

@@ -21,27 +21,29 @@ def get_text(base_url, href):
   return file_name,edicao,parent_element.text
 
 def save_txt(root, file_name, edicao):
-  path = os.join(root,'OBI'+edicao)
-  if file_name in os.listdir(path):
-    path = os.join(path, file_name, file_name+'2.txt')
-    with open(path,'w',encoding='utf-8') as f:
-      f.write(text)
-  else:
-     print(f'Erro! {file_name} nao existe.')
+  path = os.path.join(root,'OBI'+edicao,file_name)
+  if not os.path.exists(path):
+    print(f'Erro! {file_name} nao existe.')
+  os.makedirs(path, exist_ok=True)
+  path = os.path.join(path, file_name+'.txt')
+  with open(path,'w',encoding='utf-8') as f:
+    f.write(text)     
 
 niveis = ['pj','p1','p2','pu']
 for nivel in niveis:
+  print(nivel)
   html = urlopen("https://olimpiada.ic.unicamp.br/pratique/"+nivel)
   bs = BeautifulSoup(html, 'html.parser')
   anchors = bs.select('li.atask a')
   hrefs=[]
   for anchor in anchors:
     hrefs.append(anchor.get('href'))
-root = './OBI'
-base_url="https://olimpiada.ic.unicamp.br"
-for href in hrefs:
-  file_name,edicao,text = get_text(base_url,href)
-  save_txt(root, file_name, edicao)
+  root = './OBI'
+  base_url="https://olimpiada.ic.unicamp.br"
+  for href in hrefs:
+    print(href)
+    file_name,edicao,text = get_text(base_url,href)
+    save_txt(root, file_name, edicao)
 
 
 

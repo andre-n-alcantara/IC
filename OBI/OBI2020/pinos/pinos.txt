@@ -1,4 +1,7 @@
-Jogo dos Pinos 
+
+
+Jogo dos Pinos
+
 O Jogo dos Pinos é um quebra-cabeças que utiliza pinos e um tabuleiro
 com furos em forma de cruz.  Inicialmente há apenas um furo vago, no
 centro do tabuleiro, e todos os outros furos contém um pino como

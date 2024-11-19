@@ -1,4 +1,7 @@
-Parcelamento sem juros 
+
+
+Parcelamento sem juros
+
 Pedrinho está implementando o sistema de controle de pagamentos
 parcelados de uma grande empresa de cartão de crédito digital.
 Os clientes podem parcelar as compras sem juros no cartão, em até 18

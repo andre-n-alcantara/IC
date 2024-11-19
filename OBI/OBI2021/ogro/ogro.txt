@@ -1,4 +1,7 @@
-Ogro 
+
+
+Ogro
+
 O Ogro da Nlogônia está aprendendo a contar até dez usando os dedos
 das mãos (assim como os humanos, ele possui 2 mãos com 5 dedos
 cada)). Ele está treinando muito, mas gostaria de ter um aplicativo
@@ -46,8 +49,8 @@ Seu programa deve
   produzir duas linhas na saída. A primeira linha deve conter a representação
   dos dedos da mão esquerda, a segunda linha deve conter a representação
   dos dedos da mão direita. A letra `I' deve ser usada para representar
-  um dedo, e o caractere `\texttt{*' (asterisco) deve ser usado para
-  representar a mão fechada (isto é, nenhum dedo mostrado).}
+  um dedo, e o caractere *' (asterisco) deve ser usado para
+  representar a mão fechada (isto é, nenhum dedo mostrado).
 
 Restrições
 

@@ -1,4 +1,7 @@
-Casamento de inteiros 
+
+
+Casamento de inteiros
+
 Vamos definir a operação de casamento de dois números inteiros
 A e B da seguinte forma:
 
@@ -14,10 +17,8 @@ inteiros formados pelos dígitos remanescentes de A e B.
 No caso de não haver digito remanescente para um dos números, o resultado
 para esse número é -1.
 
-
 Por exemplo, considere o casamento de 69961 com 487920:
 
-}
 
 
 O resultado do casamento é o par de números 489 e 9961.

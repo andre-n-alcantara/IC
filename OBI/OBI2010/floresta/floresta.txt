@@ -1,0 +1,81 @@
+
+
+Floresta
+O desmatamento é um dos maiores problemas enfrentados pelo Brasil hoje; estima-se que mais de 10 mil km2 de
+vegetação sejam desflorestados todo ano. Além de destruir os habitats de várias espécies em risco de extinção, o
+desmatamento promove a emissão de gás carbônico, principal responsável pelo efeito estufa e pelo aquecimento
+global.
+A Fundação de Conservação dos Carvalhos (FCC) tenta combater esta tendência, promovendo o reflorestamento
+das regiões desmatadas. Para isso, eles pretendem plantar carvalhos formando um quadriculado (um carvalho
+em cada vértice); no centro de cada quadrado formado por eles, a FCC também plantará um eucalipto. Para
+preservar a biodiversidade da área plantada, pelo menos uma árvore de cada espécie deve ser plantada durante
+o reflorestamento.
+Por exemplo, se a FCC quiser plantar 23 árvores, ela poderá fazê-lo de duas maneiras: ou formando um retângulo
+3 × 5 com os carvalhos, como na figura (a), ou formando um retângulo 2 × 8, como na figura (b).
+Considere que, para os propósitos deste problema, um retângulo x × y é equivalente a um retângulo y × x.
+
+
+
+Tarefa
+Escreva um programa que, dado o número total de árvores que devem ser plantadas, de quantas maneiras
+diferentes elas podem ser dispostas.
+Entrada
+A única linha da entrada contém um único inteiro N, que indica o número total de árvores que devem ser
+plantadas (1 ≤ N ≤ 109).
+Saída
+Seu programa deve imprimir uma única linha, contendo um único inteiro, indicando o número de arranjos
+distintos que podem ser feitos para o reflorestamento.
+
+Informações sobre a pontuação
+
+Em um conjunto de casos de teste que totaliza 40 pontos, N ≤ 10.000.
+
+Exemplos
+
+
+
+Entrada
+
+23
+			
+
+
+Saída
+
+2
+			
+
+
+
+
+
+
+Entrada
+
+7
+			
+
+
+Saída
+
+0
+			
+
+
+
+
+
+
+Entrada
+
+53
+			
+
+
+Saída
+
+3
+			
+
+
+

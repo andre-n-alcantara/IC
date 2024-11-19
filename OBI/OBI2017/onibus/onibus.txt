@@ -1,4 +1,7 @@
-Ônibus 
+
+
+Ônibus
+
 A Linearlândia é composta de N cidades, numeradas de 1 até
 N. Para alguns pares de cidades existe uma linha de ônibus que faz o
 trajeto de ida e volta diretamente entre as duas cidades do par. Os

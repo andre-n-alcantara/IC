@@ -1,4 +1,7 @@
-Nota esquecida 
+
+
+Nota esquecida
+
 João aprendeu na escola que a média de dois números é o valor da soma
 desses dois números dividido por dois. Ou seja, a média de dois números
 A e B é M=(A+B)/2.

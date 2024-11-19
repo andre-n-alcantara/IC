@@ -1,0 +1,53 @@
+
+
+Catador
+
+Há uma sequência de N baldes, indexados de 1 a N, onde cada
+balde contém uma certa quantidade de conchas. Dado o índice i de um
+balde, o catador de conchas vai realizar a seguinte operação: contar a
+quantidade C de conchas no balde i e, depois, retirar uma concha (se
+houver) de cada balde j, tal que |j-i| ≤  C. O catador vai
+realizar uma sequência de M operações. Quantas conchas restarão, no
+total, ao final? Por exemplo: se N=10, a quantidade de conchas em cada
+balde inicialmente é [1,2,0,8,4,2,9,8,1,3] e o catador realiza M=4
+operações nos índices [9,5,10,6], então os baldes vão conter no
+total 23 conchas, ao final.
+
+
+
+
+Entrada
+A primeira linha da entrada contém dois números N e M,
+respectivamente o número de baldes e o número de operações. A segunda
+linha contém uma sequência de N números naturais, representando as
+quantidades de conchas dentro de cada balde. A terceira linha contém a
+sequência de M índices.
+Saída
+Seu programa deve imprimir uma linha contendo um número natural, a
+quantidade total de conchas, ao final das operações.
+Restrições
+ 1 ≤  N,M ≤  100000;
+ A quantidade de conchas em cada balde inicialmente está entre 0 e 50000.
+
+Informações sobre a pontuação
+ Em um conjunto de casos de teste valendo 30 pontos: N,M ≤  10000;
+
+Exemplos
+
+
+
+Entrada
+
+10 4
+1 2 0 8 4 2 9 8 1 3
+9 5 10 6
+
+
+
+Saída
+
+23
+	
+
+
+

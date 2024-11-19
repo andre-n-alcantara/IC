@@ -1,4 +1,7 @@
-Robô 
+
+
+Robô
+
 Um fazendeiro comprou um robô-espantalho para espantar os pássaros de
 sua plantação de milho. O robô se move ao longo de um caminho que
 circunda a plantação. No caminho há N estações numeradas sequencialmente,

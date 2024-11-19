@@ -1,0 +1,148 @@
+
+
+Caminhos do reino
+
+O reino de Daglônia é um lugar estranho. Todas as estradas do reino só podem ser usadas 
+em uma direção e de cada cidade sai exatamente uma estrada. 
+O reino é dividido em duas partes: o ciclo interno e os caminhos periféricos. 
+Cada uma das cidades do reino pertence a uma dessas partes. No ciclo interno, a estrada que sai de cada cidade
+vai à próxima cidade do ciclo, de forma que é possível percorrer um caminho que sai de uma
+cidade qualquer e retorna a essa mesma cidade.
+
+A algumas cidades do ciclo interno pode chegar um dos caminhos periféricos, que 
+são as ligações entre a parte central do reino e o mundo exterior, por onde 
+pessoas podem chegar ao reino (mas não sair). Um caminho periférico começa em 
+uma cidade na qual nenhuma estrada do reino chega e segue pelas estradas de cada 
+cidade até chegar em uma cidade do ciclo interno.
+
+
+A cada cidade pertecente a um caminho periférico chega no máximo 
+uma estrada. A cada cidade do ciclo interno chegam no máximo duas estradas:
+uma estrada do ciclo interno (que sempre existe) e uma estrada de um caminho periférico (que pode
+ou não existir).
+
+A figura abaixo mostra um exemplo
+das cidades e estradas do reino, com cidades numeradas de 1 a N.
+
+
+
+
+
+Na figura, os caminhos 
+periféricos são (3  →  1) e (4) e o ciclo interno é 
+(2  →  6  →  5  →  2). 
+
+Há rumores de que um país vizinho vai declarar guerra contra a Daglônia, 
+e por isso os habitantes do reino querem se encontrar com 
+seus familiares no menor tempo possível. Você foi contratado pelo Rei para 
+ajudá-las. Você receberá Q perguntas da seguinte forma: dadas as cidades
+A e B onde estão duas pessoas do reino que querem se encontrar, você
+deve determinar qual o tempo mínimo em que elas podem se encontrar, considerando 
+que cada estrada é percorrida em uma unidade de tempo. O ponto de encontro das 
+duas pessoas pode ser diferente das cidades iniciais e ambas podem se deslocar
+simultaneamente para chegar ao ponto de encontro.
+
+Considerando o exemplo da figura acima, pessoas nas cidades 4 e 3 
+podem se encontrar na cidade 2 ou 6 em tempo 3. Pessoas nas cidades 1 
+e 3 podem se encontrar na cidade 1 em tempo 1. Pessoas nas cidades 6 
+e 3 podem se encontrar na cidade 2 em tempo 2.
+
+Entrada
+
+A  primeira linha  contém um  inteiro N,  representando o  número de
+cidades. As cidades são identificadas por inteiros de 1 a N.
+A  segunda linha contém N  inteiros F1, F2, ...  \ FN,
+onde Fi é o destino da estrada que parte da cidade i.  A terceira
+linha contém um inteiro Q, que  representa o número de perguntas.  As
+Q  linhas seguintes  contém dois  inteiros A  e B,  indicando as
+cidades para as quais você deve responder a pergunta descrita acima.
+Existe pelo menos um caminho periférico. 
+
+Saída
+
+Seu programa deve produzir Q linhas, cada uma contendo um único inteiro, o menor tempo 
+necessário para que as duas pessoas se encontrem em uma cidade qualquer.
+
+Restrições
+
+ 3  ≤  N  ≤  105
+ 1  ≤  Fi  ≤  N
+ Fi  ≠  i
+ 1  ≤  Q  ≤  105
+ 1  ≤  A, B  ≤  N
+ O reino representado respeita as condições do enunciado. Particularmente, 
+existe exatamente um ciclo, existe pelo menos uma cidade que não pertence ao ciclo, 
+a cada cidade do ciclo chegam no máximo duas estradas e a cada cidade que não 
+pertence ao ciclo chega no máximo uma estrada.
+
+Informações sobre a pontuação
+
+ Em um conjunto de casos de teste equivalente a 40 pontos, Q = 1.
+
+Exemplos
+
+
+
+Entrada
+
+6
+2 6 1 6 2 5
+5
+4 3
+1 3
+6 3
+5 2
+2 2
+
+
+
+Saída
+
+3
+1
+2
+1
+0
+	
+
+
+
+ 
+
+
+
+Entrada
+
+13
+7 3 9 5 3 7 5 2 6 1 10 11 9
+10
+4 10
+10 8
+12 11
+10 4
+7 3
+8 11
+6 11
+3 4
+6 12
+8 5
+
+
+
+Saída
+
+3
+4
+1
+3
+2
+5
+3
+2
+4
+2
+	
+
+
+
+ 

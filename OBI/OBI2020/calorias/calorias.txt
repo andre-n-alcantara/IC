@@ -1,4 +1,7 @@
-Aplicativo de Calorias 
+
+
+Aplicativo de calorias
+
 Um aplicativo de celular está sendo desenvolvido para, a partir da
 foto de um prato contendo uma refeição, estimar a quantidade de calorias
 da refeição.

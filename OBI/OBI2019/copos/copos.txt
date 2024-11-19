@@ -1,4 +1,7 @@
-Jogo dos copos 
+
+
+Jogo dos copos
+
 Uma brincadeira muito comum e divertida entre dois jogadores usa uma
 moeda e três copos opacos (ou seja, não é possível ver o que está
 dentro do copo olhando pela lateral do copo). Os três copos são

@@ -1,4 +1,7 @@
-Pulo do Gato 
+
+
+Pulo do Gato
+
 O gato Obinho gosta de brincar no pátio do colégio, no qual há
 uma sequência de C lajotas, que podem
 ser brancas ou pretas. Obinho está na lajota inicial da sequência

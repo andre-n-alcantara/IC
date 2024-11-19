@@ -1,4 +1,7 @@
-Palavras Cruzadas 
+
+
+Palavras Cruzadas
+
 Você já deve ter tentado completar um jogo de palavras cruzadas. Nesse
 jogo, o jogador deve descobrir um conjunto de palavras através de
 dicas fornecidas juntamente com um retângulo dividido em quadrados de
