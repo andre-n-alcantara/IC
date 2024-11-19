@@ -1,61 +1,111 @@
-Olimpíada Brasileira de Informática - OBI2021 — Prog. Nível Júnior — Fase Fase 2 (Turno B) 4
+Anagrama 
+Uma palavra A é um anagrama de outra palavra B se podemos
+transformar a palavra A na palavra B apenas trocando de posição as
+letras da palavra A. Por exemplo, "iracema" é um anagrama de
+"america", e "estudo" é um anagrama de
+"duetos".
 
-Anagrama
-
-Nome do arquivo: “anagrama.x”, onde x deve ser c, cpp, pas, java, js ou py
-
-Uma palavra 4 é um anagrama de outra palavra B se podemos transformar a palavra A na palavra
-B apenas trocando de posição as letras da palavra 4. Por exemplo, “iracema” é um anagrama de
-
-“america”, e “estudo” é um anagrama de “duetos”.
-
-Podemos estender o conceito de anagramas para frases, desconsiderando caracteres que não são
-letras, apenas separam as palavras da frase. Assim, por exemplo, “porta coral” é um anagrama de
-“claro trapo”. Também não é necessário que a palavra exista em alguma língua: “aca aaa bb b” é
-um anagrama de “ba.ba,aab ac”.
+Podemos estender o conceito de anagramas para frases, desconsiderando
+caracteres que não são letras e apenas separam as palavras da
+frase. Assim, por exemplo, "porta coral" é um anagrama de
+"claro trapo".  Também não é necessário que a palavra exista
+em alguma língua: "aca aaa bb b" é um anagrama de
+"ba.ba,aab ac".
 
 Dadas duas frases, escreva um programa para determinar se elas são anagramas.
 
 Entrada
-
-A primeira linha da entrada contém um inteiro N, indicando o número de letras e espaços das
-frases. As duas linhas seguintes contêm respectivamente a frase 4 e a frase B, cada linha contendo
-exatamente N caracteres, entre letras, espaços em branco, vírgulas e pontos.
+A primeira linha da entrada contém um inteiro N,
+indicando o número de letras e espaços das frases.
+As duas linhas seguintes contêm respectivamente a frase A e
+a frase B, cada linha contendo exatamente N caracteres, entre
+letras, espaços em branco, vírgulas e pontos.
 
 Saída
-
-Seu programa deve produzir uma única linha, contendo um único caractere, que deve ser S se a
-frase for um anagrama ou N caso contrário.
+Seu programa deve produzir uma única linha, contendo um único
+caractere, que deve ser S se a frase for um
+anagrama ou N caso contrário.
 
 Restrições
 
-e1<N<200
-
-e Os únicos caracteres em A e B são letras minúsculas, espaços em branco, vírgulas e pontos.
+ 1  ≤  N  ≤  200
+ Os únicos caracteres em A e B são letras minúsculas, espaços em
+branco, vírgulas e pontos.
 
 Exemplos
-Exemplo de entrada 1 Exemplo de saída 1
-11 s
 
+
+
+Entrada
+
+11
 porta coral
 claro trapo
 
-Exemplo de entrada 2 Exemplo de saída 2
-1 N
 
+
+Saída
+
+S
+	
+
+
+
+ 
+
+
+
+Entrada
+
+1
 a
-
 b
 
-Exemplo de entrada 3 Exemplo de saída 3
-12 s
 
+
+Saída
+
+N
+	
+
+
+
+ 
+
+
+
+Entrada
+
+12
 aca aaa bb b
-ta.ba,aab ac
+ba.ba,aab ac
 
-Exemplo de entrada 4 Exemplo de saída 4
 
-2 N
-a
+
+Saída
+
+S
+	
+
+
+
+ 
+
+
+
+Entrada
+
+2
+ a
 aa
 
+
+
+Saída
+
+N
+	
+
+
+
+ 

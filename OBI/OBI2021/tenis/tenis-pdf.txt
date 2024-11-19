@@ -1,0 +1,48 @@
+Olimpíada Brasileira de Informática - OBI2021 — Prog. Nível Júnior — Fase Fase 2 2
+
+Duplas de tênis
+
+Nome do arquivo: “tenis .x”, onde x deve ser c, cpp, pas, java, js ou py
+
+Quatro amigos combinaram de jogar tênis em duplas. Cada um dos amigos tem um nível de jogo,
+que é representado por um número inteiro: quanto maior o número, melhor o nível do jogador.
+
+Os quatro amigos querem formar as duplas para iniciar o jogo. De forma a tornar o jogo mais
+interessante, eles querem que os níveis dos dois times formados sejam o mais próximo possível. O
+nível de um time é a soma dos níveis dos jogadores do time.
+
+Embora eles sejam muito bons jogadores de tênis, os quatro amigos não são muito bons em algumas
+outras coisas, como lógica ou matemática. Você pode ajudá-los e encontrar a menor diferença
+possível entre os níveis dos times que podem ser formados?
+
+Entrada
+
+A entrada contém quatro linhas, cada linha contendo um inteiro 4, B, Ce D, indicando o nível de
+jogo dos quatro amigos.
+
+Saída
+
+Seu programa deve produzir uma única linha, contendo um único inteiro, a menor diferença entre
+os níveis dos dois times formados.
+
+Restrições
+
+“O<A<B<C<D<I0!
+
+Exemplos
+Exemplo de entrada 1 Exemplo de saída 1
+4 7
+7
+10
+20
+Exemplo de entrada 2 Exemplo de saída 2
+0 999
+0
+1
+1000
+Exemplo de entrada 3 Exemplo de saída 3
+1 0
+2
+3
+4
+

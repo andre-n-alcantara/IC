@@ -1,48 +1,72 @@
-Olimpíada Brasileira de Informática - OBI2019 — Prog. Nível Júnior — Fase Local 3
+A idade de Dona Mônica 
+Dona Mônica é mãe de três filhos que têm idades diferentes. Ela notou
+que, neste ano, a soma das idades dos seus três filhos é igual à idade
+dela. Neste problema, dada a idade de dona Mônica e as idades de dois
+dos filhos, seu programa deve computar e imprimir a idade do filho
+mais velho.
 
-A idade de Dona Mônica
 
-Nome do arquivo: “idade .x”, onde x deve ser c, cpp, pas, java, js, py2 ou py3
-
-Dona Mônica é mãe de três filhos que têm idades diferentes. Ela notou que, neste ano, a soma das
-idades dos seus três filhos é igual à idade dela. Neste problema, dada a idade de dona Mônica e as
-idades de dois dos filhos, seu programa deve computar e imprimir a idade do filho mais velho.
-
-Por exemplo, se sabemos que dona Mônica tem 52 anos e as idades conhecidas de dois dos filhos
-são 14 e 18 anos, então a idade do outro filho, que não era conhecida, tem que ser 20 anos, pois
-a soma das três idades tem que ser 52. Portanto, a idade do filho mais velho é 20. Em mais um
-exemplo, se dona Mônica tem 47 anos e as idades de dois dos filhos são 21 e 9 anos, então o outro
-filho tem que ter 17 anos e, portanto, a idade do filho mais velho é 21.
+Por exemplo, se sabemos que dona Mônica tem 52 anos e as idades
+conhecidas de dois dos filhos são 14 e 18 anos, então a idade do
+outro filho, que não era conhecida, tem que ser 20 anos, pois a soma
+das três idades tem que ser 52. Portanto, a idade do filho mais
+velho é 20. Em mais um exemplo, se dona Mônica tem 47 anos e as
+idades de dois dos filhos são 21 e 9 anos, então o outro filho tem
+que ter 17 anos e, portanto, a idade do filho mais velho é 21.
 
 Entrada
-
-A primeira linha da entrada contém um inteiro M representando a idade de dona Mônica. A
-segunda linha da entrada contém um inteiro A representando a idade de um dos filhos. A terceira
-linha da entrada contém um inteiro B representando a idade de outro filho.
+A primeira linha da entrada contém um inteiro M representando a
+idade de dona Mônica. A segunda linha da entrada contém um inteiro A
+representando a idade de um dos filhos. A terceira linha da entrada
+contém um inteiro B representando a idade de outro filho.
 
 Saída
-
-Seu programa deve imprimir uma linha, contendo um número inteiro, representando a idade do filho
-mais velho de dona Mônica.
+Seu programa deve imprimir uma linha, contendo um número inteiro,
+representando a idade do filho mais velho de dona Mônica.
 
 Restrições
 
-e 4<M<10
-cI<A<M
-c1I<B<M
-c“A£B
+ 40  ≤  M  ≤  110
+ 1  ≤  A < M
+ 1  ≤  B < M
+ A  ≠  B
 
 Exemplos
 
-Exemplo de entrada 1 Exemplo de saída 1
 
-52 20
+
+Entrada
+
+52
 14
 18
 
-Exemplo de entrada 2 Exemplo de saída 2
 
-47 21
+
+Saída
+
+20
+	
+
+
+
+ 
+
+
+
+Entrada
+
+47
 21
 9
 
+
+
+Saída
+
+21
+	
+
+
+
+ 

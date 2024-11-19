@@ -1,0 +1,68 @@
+Olimpíada Brasileira de Informática - OBI2021 — Prog. Nível Júnior — Fase Fase 3 2
+
+Ogro
+
+Nome do arquivo: “ogro.x”, onde x deve ser c, cpp, pas, java, js ou py
+
+O Ogro da Nlogônia está aprendendo a contar até dez usando os dedos das mãos (assim como os
+humanos, ele possui 2 mãos com 5 dedos cada)). Ele está treinando muito, mas gostaria de ter um
+aplicativo para ajudá-lo nessa empreitada.
+
+O Ogro aprendeu a mostrar a representação de um número com as mãos da seguinte forma:
+
+e se o número pode ser representado usando apenas uma das mãos, o Ogro usa os dedos na mão
+esquerda e mantém a mão direita fechada.
+
+e caso contrário, o Ogro mostra todos os cinco dedos da mão esquerda, e na mão direita mostra.
+os dedos que faltam para representar o número.
+
+Por exemplo, para o número 3, o Ogro mostra:
+III *
+
+onde cada letra I representa um dedo e a mão fechada é representada pelo símbolo “+” (asterisco).
+Para o número 8 o OÓgro mostra:
+
+IIIII III
+
+Sua tarefa é ajudar o Ogro em seu treinamento, escrevendo um programa para, dado um número
+entre O e 10, mostrar a configuração de dedos correspondente a esse número, de acordo com as
+regras acima.
+
+Entrada
+
+A primeira e única linha da entrada contém um inteiro N, o número que deve ser representado com
+os dedos das mãos.
+
+Saída
+
+Seu programa deve produzir duas linhas na saída. A primeira linha deve conter a representação dos
+dedos da mão esquerda, a segunda linha deve conter a representação dos dedos da mão direita. A
+letra “TI” deve ser usada para representar um dedo, e o caractere '*' (asterisco) deve ser usado para
+representar a mão fechada (isto é, nenhum dedo mostrado).
+
+Restrições
+e0<N<I10
+Exemplo de entrada 1 Exemplo de saída 1
+8 IIIII
+
+III
+
+Explicação do exemplo 1: para representar o número 8 o Ogro mostra os cinco dedos da mão
+esquerda e três dedos da mão direita.
+
+Exemplo de entrada 2 Exemplo de saída 2
+
+3 III
+*
+
+ Olimpíada Brasileira de Informática - OBI2021 — Prog. Nível Júnior — Fase Fase 3 3
+
+Explicação do exemplo 2: para representar o número 3 o Ógro mostra três dedos da mão
+esquerda e nenhum dedo na mão direita.
+
+Exemplo de entrada 3 Exemplo de saída 3
+
+0
+
+Explicação do exemplo 3: para representar o número zero o Ogro não mostra nenhum dedo da
+mão esquerda ou da mão direita.

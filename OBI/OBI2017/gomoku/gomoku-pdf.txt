@@ -1,0 +1,91 @@
+Olimpíada Brasileira de Informática - OBI2017 — Prog. Nível Júnior - Fase Nacional 6
+
+Gomoku
+
+Nome do arquivo: gomoku.c, gomoku.cpp, gomoku.pas, gomoku. java, gomoku. js, gomoku.py2 ou
+gomoku.py3
+
+Gomoku é um jogo japonês milenar, jogado em um tabuleiro de 15x15 células e pedras pretas e
+brancas. Um jogador joga com as pedras brancas, o outro joga com as pedras pretas. O objetivo do
+jogo, como o nome sugere — go-moku em japonês quer dizer cinco pedras — é colocar cinco pedras
+da mesma cor consecutivamente ou numa mesma linha, ou numa mesma coluna, ou numa diagonal
+do tabuleiro.
+
+As figuras abaixo ilustram algumas configurações do jogo (apenas uma parte do tabuleiro é mos-
+trada):
+o]
+o!
+o]
+e)
+e) 6) 6) eso)
+O (o) DODOS (o)
+O (o) SODO
+O
+pretas ganham brancas ganham ninguém ganha pretas ganham
+Entrada
+A entrada é composta por quinze linhas, cada uma contendo quinze inteiros. Cada inteiro representa
+
+o conteúdo de uma célula do tabuleiro. O número 1 indica uma pedra preta, o número 2 indica uma
+pedra branca e o número (O indica que não há pedra na célula.
+
+Saída
+
+Seu programa deve produzir uma única linha, contendo o inteiro 1 se o jogador com as pedras
+pretas venceu, o inteiro 2 se o jogador com as pedras brancas venceu, ou o número O se ainda não
+há vencedor na configuração da entrada.
+
+Restrições
+
+e Cada célula tem o valor 0, 1 ou 2.
+e Em todos os testes, há apenas um vencedor, ou não há vencedor.
+
+Exemplo
+
+Entrada Saída
+
+o
+o
+o
+
+Soooo0o0o000000000
+Soooo0o0000000h+-Ho
+Soo0o00000+-00+-no
+Sooo0o0000+-0o+-noo
+S0o0000000h+-HhNOoOoooo
+S0o000000+-nNoonrNoo
+000000N0ONoonoo
+So00000hoooomnoo
+So000000000hHhHoo
+2000000000 00000
+2000000000 00000
+ooooo0o0o00000000
+ooooo0o0o00000000
+ooooo0o0o00000000
+ooooo0o0o00000000
+
+ Fase Nacional
+
+OBDO01T — Prog. Nível Júnior
+
+Olimpíada Brasileira de Informática
+
+Saída
+
+Entrada
+
+000000000200000
+000000000201000
+000002111202210
+000000000201000
+000000202211000
+000002111122100
+000000101001020
+000000021020000
+000000002000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+000000000000000
+

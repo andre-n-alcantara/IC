@@ -1,82 +1,119 @@
-Olimpíada Brasileira de Informática - OBI2018 — Prog. Nível Júnior - Fase Nacional 4
+Troca 
+Um cientista especializado em bioinformática está estudando formas de
+simular alguns fenômenos, que ocorrem dentro das células, relacionados
+ao funcionamento de proteínas. Parece muito complicado, não? Só que o
+problema computacional básico que ele precisa resolver eficientemente
+é fácil de entender. Existe uma sequência de N cartas, indexadas de
+1 a N, e cada carta contém dois números impressos, um de cada
+lado. As cartas são colocadas na mesa, na sequência, com um dos lados
+virado para cima. Dados dois inteiros i e j, com i ≤  j, a
+operação troca(i,j) consiste em virar todas as cartas da
+posição i até a posição j, inclusive. Por exemplo, considere a
+sequência de cartas abaixo.
 
-Troca
 
-Nome do arquivo: “troca.x”, onde x deve ser clcpplpasljavaljslpy2Ipy3
 
-Um cientista especializado em bioinformática está estudando formas de simular alguns fenômenos,
-que ocorrem dentro das células, relacionados ao funcionamento de proteínas. Parece muito compli-
-cado, não? Só que o problema computacional básico que ele precisa resolver eficientemente é fácil
-de entender. Existe uma sequência de N cartas, indexadas de 1 a N, e cada carta contém dois
-números impressos, um de cada lado. As cartas são colocadas na mesa, na sequência, com um dos
-lados virado para cima. Dados dois inteiros à e j, com i < j, a operação troca(i, j) consiste em virar
-todas as cartas da posição à até a posição j, inclusive. Por exemplo, considere a sequência de cartas
-abaixo.
+  virado para cima  31  2  45  3 
+  8  1  32  10  4  27  12
+   7  7  9  63  47 
 
-virado para cima |31|2 /45]3|8]1/32/10/4/27]12]7|7/9/63 47 |
-virado para baixo | 1 [12 | 6 |4/97/2|]87/10/3/9/55/56/]11/90]3 8 |
 
-A operação de troca(5, 11) resultaria na seguinte sequência de cartas:
+  virado para baixo  1  12  6  4 
+  97  2  87  10  3  9  55
+   56  11  90  3  8 
 
-virado para cima [31 | 2 /45]|3|97|2|87/10/3/9|]55|TI|IT|9|63 47 |
-virado para baixo | 1 [12/ 6 |4/8/1/32/10/4/27/12/56/11/90]3 8 |
 
-O problema do cientista é que a sequência de cartas pode ser muito grande e podem ser feitas muitas
-operações de troca. Ele precisa saber a sequência dos números que estarão virados para cima ao
-final de todas as operações. Você pode ajudá-lo?
+A operação de troca(5,11) resultaria na seguinte sequência de
+cartas:
+
+
+
+  virado para cima  31  2  45  3 
+  97  2  87  10  3  9  55
+   7  7  9  63  47 
+
+
+  virado para baixo  1  12  6  4 
+  8  1  32  10  4  27  12
+   56  11  90  3  8 
+
+
+O problema do cientista é que a sequência de cartas pode ser muito
+grande e podem ser feitas muitas operações de troca. Ele precisa
+saber a sequência dos números que estarão virados para cima ao final
+de todas as operações. Você pode ajudá-lo?
+
 
 Entrada
+A primeira linha da entrada contém dois inteiros N e T,
+  indicando respectivamente a quantidade de cartas e a quantidade de
+  operações de troca. A segunda linha contém N inteiros, indicando
+  os números virados para cima inicialmente. A terceira linha contém
+  N números, indicando os virados para baixo inicialmente. As T
+  linhas seguintes contém, cada uma, dois inteiros I e J,
+  indicando os limites de uma operação de troca.
 
-A primeira linha da entrada contém dois inteiros N e T, indicando respectivamente a quantidade
-de cartas e a quantidade de operações de troca. A segunda linha contém N inteiros, indicando os
-números virados para cima inicialmente. A terceira linha contém N números, indicando os virados
-para baixo inicialmente. As T linhas seguintes contém, cada uma, dois inteiros 1 e J, indicando os
-limites de uma operação de troca.
 
 Saída
-
-Imprima uma linha contendo N inteiros representando os números que estarão virados para cima
-após todas as operações.
+Imprima uma linha contendo N inteiros representando os
+  números que estarão virados para cima após todas as operações.
 
 Restrições
-c1<N<IG
 
-cI<T<I0
-ecI<I<J<N
-
-e O valor dos elementos dos vetores está entre O e 10º, inclusive.
+ 1 ≤  N ≤  105
+ 1 ≤  T ≤  105
+ 1 ≤  I ≤  J ≤  N
+ O valor dos elementos dos vetores está entre 0 e 109, inclusive.
 
 Informações sobre a pontuação
 
-e Para um conjunto de casos de teste valendo 10 pontos, 1 = J para todas as operações;
+ Para um conjunto de casos de teste valendo 10 pontos, I=J
+  para todas as operações;
+  Para um conjunto de casos de teste valendo 20 pontos, N ≤ 
+   104 e T ≤  104.
 
-e Para um conjunto de casos de teste valendo 20 pontos, N <10!eT < 10º.
+Exemplos
 
-Exemplo de entrada 1 Exemplo de saída 1
 
-16 1 312453972871039557796347
-312 453813210427127796347
-1126497 2871039655656119038
-511
 
- Olimpíada Brasileira de Informática
+Entrada
 
-OBI2018
+16 1
+31 2 45 3 8 1 32 10 4 27 12 7 7 9 63 47
+1 12 6 4 97 2 87 10 3 9 55 56 11 90 3 8
+5 11
 
-Prog. Nível Júnior - Fase Nacional
 
-Exemplo de entrada 2
+
+Saída
+
+31 2 45 3 97 2 87 10 3 9 55 7 7 9 63 47
+	
+
+
+
+ 
+
+
+
+Entrada
 
 10 5
-7882344 167732911
-45511374829837
-13
-10
+7 88 23 44 1 67 73 2 9 11
+4 55 1 1 3 74 82 9 8 37
+1 3
+5 10
+2 6
+5 9
+1 7
 
-ON O
-No o
 
-Exemplo de saída 2
 
-755144 167822937
+Saída
 
+7 55 1 44 1 67 82 2 9 37
+	
+
+
+
+ 

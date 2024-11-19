@@ -1,5 +1,5 @@
 import os
-
+import re
 from multilingual_pdf2text.pdf2text import PDF2Text
 from multilingual_pdf2text.models.document_model.document import Document
 
@@ -19,18 +19,21 @@ def get_pdf(path):
     for file in os.listdir(path):
         if file.endswith('.pdf'):
             return file
-
-def list_subfolders(folder_path):
+        
+def list_subfolders(root):
     # Loop through the subfolders in the given folder path
-    for root, dirs, files in os.walk(folder_path):
-        for sub in dirs:
-            sub_path = os.path.join(root, sub)
-            pdf_path = os.path.join(sub_path, get_pdf(sub_path))
-            output_path = os.path.join(sub_path, f"{sub}.txt")
-            pdf_to_text(pdf_path, output_path)
-
-for root, dirs, files in os.walk('./OBI'):
-    for sub in dirs:
+    for sub in os.listdir(root):
+        if not os.path.isdir(os.path.join(root,sub)):
+            continue
         sub_path = os.path.join(root, sub)
-        list_subfolders(sub_path)
+        pdf_path = os.path.join(sub_path, get_pdf(sub_path))
+        output_path = os.path.join(sub_path, f"{sub}-pdf.txt")
+        pdf_to_text(pdf_path, output_path)
+
+root = './OBI'
+for sub in os.listdir(root):
+    if not os.path.isdir(os.path.join(root,sub)):
+        continue
+    sub_path = os.path.join(root, sub)
+    list_subfolders(sub_path)
 

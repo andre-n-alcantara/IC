@@ -1,0 +1,78 @@
+Olimpíada Brasileira de Informática - OBI2017 — Prog. Nível Júnior - Fase Nacional 4
+
+Ônibus
+
+Nome do arquivo: onibus.c, onibus.cpp, onibus.pas, onibus. java, onibus. js, onibus.py2 ou
+onibus.py3
+
+A Linearlândia é composta de N cidades, numera-
+
+das de 1 até N. Para alguns pares de cidades existe
+
+uma linha de ônibus que faz o trajeto de ida e volta
+
+diretamente entre as duas cidades do par. Os pa-
+
+res de cidades ligados diretamente por uma linha de
+
+ônibus são escolhidos de forma que sempre é possí- 12
+vel ir de qualquer cidade para qualquer outra cidade
+por um, e somente um, caminho (um caminho é uma
+sequência de linhas de ônibus, sem repetição).
+Dada a lista de pares de cidades ligados diretamente
+por linhas de ônibus, uma cidade origem e uma ci-
+dade destino, seu programa deve computar quantos
+ônibus é preciso pegar para ir da origem ao destino.
+Por exemplo, na figura, para ir da cidade 2 para a
+cidade 12 é preciso pegar 4 ônibus.
+
+Entrada
+
+A primeira linha da entrada contém três inteiros N, A e B, representando o número de cidades na
+Linearlândia, a cidade origem e a cidade destino, respectivamente. As N—1 linhas seguintes contém,
+cada uma, dois inteiros P e Q, indicando que existe uma linha de ônibus ligando diretamente as
+cidades P e Q.
+
+Saída
+
+Seu programa deve imprimir uma linha contendo um inteiro representando quantos ônibus é preciso
+pegar para ir de A até B.
+
+Restrições
+
+e 2<N<10000
+CI<A<NI<B<N,ALB
+CI<P<NI<Q<N
+
+Exemplos
+Entrada Saída
+424 2
+
+AN
+BwUN
+
+ Olimpíada Brasileira de Informática
+
+OBDO01T — Prog. Nível Júnior
+
+Fase Nacional
+
+Entrada Saída
+16 2 12 4
+
+35
+
+1283
+
+JN OB Na
+a e
+
+128
+129
+12 10
+12 11
+3 13
+13 14
+15 13
+15 16
+

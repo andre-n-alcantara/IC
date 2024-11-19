@@ -1,59 +1,87 @@
-[o
+Atlanta 
+Documentos recentemente encontrados por pesquisadores mostram que na
+Sala de Audiências do palácio Real na cidade perdida de Atlanta o piso
+era formado por ladrilhos 20 cm x 20 cm. Ladrilhos de duas cores foram
+usados: o centro da Sala era formado por ladrilhos brancos e
+exatamente uma fileira de ladrilhos azuis foram colocados em cada
+lateral do Sala, como nas figuras abaixo.
 
-Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível Júnior - Fase Nacional
 
-Atlanta
+Os pesquisadores não encontraram vestígios da Sala de Audiências (nem da cidade de
+Atlanta!), mas os documentos recentes, se forem autênticos, indicam também a
+quantidade de ladrilhos que foram utilizados no piso da Sala.
 
-Nome do arquivo: “atlanta.x”, onde x deve ser c, cpp, pas, java, js, py2.Py ou py3.py
-
-Documentos recentemente encontrados por pesquisadores mostram que na Sala de Audiências do
-palácio Real na cidade perdida de Atlanta o piso era formado por ladrilhos 20 em x 20 em. Ladrilhos
-de duas cores foram usados: o centro da Sala era formado por ladrilhos brancos e exatamente uma
-fileira de ladrilhos azuis foram colocados em cada lateral do Sala, como nas figuras abaixo.
-
-3x4 5x6
-
-Os pesquisadores não encontraram vestígios da Sala de Audiências (nem da cidade de Atlanta!),
-mas os documentos recentes, se forem autênticos, indicam também a quantidade de ladrilhos que
-foram utilizados no piso da Sala.
-
-Sua tarefa é, dadas as quantidades de azulejos azuis e brancos, determinar as dimensões da Sala de
-Audiências.
+Sua tarefa é, dadas as quantidades de azulejos azuis e brancos, determinar as dimensões
+da Sala de Audiências.
 
 Entrada
-
-A primeira linha da entrada contém um inteiro A, o número de azulejos azuis. A segunda linha
-contém um número inteiro B, o número de azulejos brancos.
+A primeira linha da entrada contém um inteiro A, o número de azulejos azuis.
+A segunda linha contém um número inteiro B, o número de azulejos brancos.
 
 Saída
-
-Seu programa deve produzir uma única linha, contendo dois números inteiros, representando as
-dimensões da Sala (largura e comprimento). Se a largura for diferente do comprimento, seu programa
-deve imprimir primeiro a menor dimensão, seguida da maior dimensão. Se as quantidades de azulejos
-não forem corretas para construir o piso da Sala no formato descrito acima, seu programa deve
-imprimir -1 -1.
+Seu programa deve produzir uma única linha, contendo dois números inteiros,
+representando as dimensões da Sala (largura e comprimento). Se a largura for diferente
+do comprimento, seu programa deve imprimir primeiro a menor dimensão, seguida da maior
+dimensão. Se as quantidades de azulejos não forem corretas para construir o piso
+da Sala no formato descrito acima, seu programa deve imprimir "-1 -1". 
 
 Restrições
 
-ec1<A4<10º
-
-c1I<B<10º
+ 1  ≤  A  ≤  106
+ 1  ≤  B  ≤  106
 
 Exemplos
 
-Exemplo de entrada 1 Exemplo de saída 1
 
-10 34
+
+Entrada
+
+10
 2
 
-Exemplo de entrada 2 Exemplo de saída 2
 
-8 -1-1
 
- Olimpíada Brasileira de Informática - OBI2020 — Prog. Nível Júnior - Fase Nacional
+Saída
 
-Exemplo de entrada 3 Exemplo de saída 3
+3 4
+	
 
-3996 1000 1000
+
+
+ 
+
+
+
+Entrada
+
+8
+2
+
+
+
+Saída
+
+-1 -1
+	
+
+
+
+ 
+
+
+
+Entrada
+
+3996
 996004
 
+
+
+Saída
+
+1000 1000
+	
+
+
+
+ 

@@ -1,0 +1,39 @@
+Olimpíada Brasileira de Informática - OBI2019 — Prog. Nível Júnior - Fase Nacional 2
+
+Pares de números
+
+Nome do arquivo: pares.c, pares.cpp, pares.pas, pares. java, pares. js, pares py2.py ou pares py3.py
+
+Temos um vetor de N inteiros distintos e dois inteiros 1 e F. Precisamos computar quantos pa-
+res desses inteiros do vetor somam pelo menos 1 e no máximo F. Por exemplo, se o vetor for
+[45,12,11,7,83,29,5] e 1 = 19 e F = 52, temos exatamente 8 pares cuja soma está entre 19 e 52:
+(5,29), (5,45), (7,12), (7,29), (7,45), (11,12), (11,29) e (12,29).
+
+Entrada
+
+A primeira linha da entrada contém três inteiros N, 1 e F, indicando respectivamente o tamanho
+do vetor e o valor mínimo da soma e o valor máximo da soma.
+
+Saída
+
+Seu programa deve imprimir uma única linha contendo um inteiro indicando quantos pares de
+inteiros no vetor somam pelo menos 1 e no máximo F.
+
+Restrições
+
+e2<N< 1000
+e —2000 < T,F < 2000
+e O valor de cada inteiro no vetor está entre —1000 e 1000
+
+e Os inteiros no vetor são distintos
+
+Exemplo de entrada 1 Exemplo de saída 1
+
+7 19 52 8
+45 1211783295
+
+Exemplo de entrada 2 Exemplo de saída 2
+
+2-22 0
+12 -16
+

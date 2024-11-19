@@ -1,32 +1,74 @@
-Olimpíada Brasileira de Informática - OBI2021 — Prog. Nível Júnior — Fase Fase 2 6
+Média ou mediana 
+A média de três números inteiros A, B e C é (A + B + C)/3.
+A mediana de três números inteiros é o número que ficaria no meio se os
+três números fossem ordenados em ordem não-decrescente.
 
-Média e mediana
+Sua tarefa é escrever um programa que, dados dois números inteiros distintos A e B,
+calcule o menor inteiro possível C tal que a média e a mediana de
+ A, B e C sejam iguais.
 
-Nome do arquivo: “media.x”, onde x deve ser c, cpp, pas, java, js ou py
-
-A média de três números inteiros 4, Be Cé (A+ B+C)/3. A mediana de três números inteiros
-é o número que ficaria no meio se os três números fossem ordenados em ordem não-decrescente.
-
-Sua tarefa é escrever um programa que, dados dois números inteiros distintos A e B, calcule o menor
-inteiro possível C tal que a média e a mediana de 4, Be C sejam iguais.
 
 Entrada
-A entrada é composta de uma única linha contendo dois números inteiros A e B.
+A entrada é composta de uma única linha contendo dois números
+inteiros A e B.
 
 Saída
-
-Seu programa deve produzir uma única linha, contendo um único número, o menor inteiro possível
-C tal que a média e a mediana de 4, Be C são iguais.
+Seu programa deve produzir uma única linha, contendo um único número,
+o menor inteiro possível C tal que a média e a mediana de A, B e C são iguais.
 
 Restrições
 
-cI<A<B<IO
+ 1  ≤  A  ≤  B  ≤  109
 
 Exemplos
-Exemplo de entrada 1 Exemplo de saída 1
-12 0
-Exemplo de entrada 2 Exemplo de saída 2
-6 10 2
-Exemplo de entrada 3 Exemplo de saída 3
-1 1000000000 -999999998
 
+
+
+Entrada
+
+1 2
+
+
+
+Saída
+
+0
+	
+
+
+
+ 
+
+
+
+Entrada
+
+6 10
+
+
+
+Saída
+
+2
+	
+
+
+
+ 
+
+
+
+Entrada
+
+1 1000000000
+
+
+
+Saída
+
+-999999998
+	
+
+
+
+ 
