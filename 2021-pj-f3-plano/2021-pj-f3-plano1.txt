@@ -1,3 +1,7 @@
+/*
+Esta solução passou nos dois casos teste da especificação. Perdi esta sessão do chat, mas ao fazer o mesmo pedido novamente, forneceu código diferente que não passava nos casos teste da especificação.
+Ainda assim, solução não passou em nenhum dos testes do juiz da OBI.
+*/
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 User: Você pode me ajudar com questões práticas de programação? Vou submeter a descrição de algumas questões e quero que você gere um código solução em C++ e sua explicação para sua corretude.
 AI: Sim, eu posso ajudar com questões práticas de programação em C++. Por favor, forneça as descrições das questões que você deseja que eu ajude, e farei o meu melhor para fornecer um código de solução em C++ e explicar porque ele é correto.

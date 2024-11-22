@@ -1,35 +1,53 @@
 #include <iostream>
-#include <string>
+#include <vector>
 #include <algorithm>
 
+using namespace std;
+
+struct Show {
+    int start;
+    int end;
+};
+
+bool compareShows(const Show& a, const Show& b) {
+    return a.end < b.end;
+}
+
+int maxConsecutiveShows(vector<Show>& shows) {
+    sort(shows.begin(), shows.end(), compareShows);
+
+    int maxConsecutive = 1;
+    int currentConsecutive = 1;
+    int lastEnd = shows[0].end;
+
+    for (int i = 1; i < shows.size(); i++) {
+        if (shows[i].start >= lastEnd) {
+            currentConsecutive++;
+            lastEnd = shows[i].end;
+        } else {
+            maxConsecutive = max(maxConsecutive, currentConsecutive);
+            currentConsecutive = 1;
+            lastEnd = shows[i].end;
+        }
+    }
+
+    maxConsecutive = max(maxConsecutive, currentConsecutive);
+
+    return maxConsecutive;
+}
+
 int main() {
-    int area1, area2, area3;
-    std::string color1, color2, color3;
+    int n;
+    cin >> n;
 
-    // Leia as áreas das paredes e as cores
-    std::cin >> area1 >> area2 >> area3;
-    std::cin >> color1 >> color2 >> color3;
+    vector<Show> shows(n);
 
-    // Ordene as áreas das paredes em ordem crescente
-    int areas[] = {area1, area2, area3};
-    std::sort(areas, areas + 3);
+    for (int i = 0; i < n; i++) {
+        cin >> shows[i].start >> shows[i].end;
+        // shows[i].end += shows[i].start; // não é necessário converter start time para end time
+    }
 
-    // Associe as cores às áreas das paredes ordenadas
-    std::string colors[3];
-    if (area1 == areas[0]) colors[0] = color1;
-    if (area1 == areas[1]) colors[1] = color1;
-    if (area1 == areas[2]) colors[2] = color1;
-
-    if (area2 == areas[0]) colors[0] = color2;
-    if (area2 == areas[1]) colors[1] = color2;
-    if (area2 == areas[2]) colors[2] = color2;
-
-    if (area3 == areas[0]) colors[0] = color3;
-    if (area3 == areas[1]) colors[1] = color3;
-    if (area3 == areas[2]) colors[2] = color3;
-
-    // Imprima a cor correspondente à parede intermediária
-    std::cout << colors[1] << std::endl;
+    cout << maxConsecutiveShows(shows) << endl;
 
     return 0;
 }

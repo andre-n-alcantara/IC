@@ -1,3 +1,8 @@
+/*
+Gerou código correto, que teve um erro de compilação que nem eu previa (juiz da OBI diz usar C++17, que tem min/max com initializer_list);
+Pedi exercício similar, que foi condizente com o tema e dificuldade do original (também forneceu explicação), e tinha apenas um erro das saídas de exemplo da especificação.
+Código solução correto e bem legível. Note que evitou o uso de <map> considerando o nível introdutório da questão original.
+*/
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 User: Você pode me ajudar com questões práticas de programação? Vou submeter a descrição de algumas questões e quero que você gere um código solução em C++ e sua explicação para sua corretude.
 AI: Eu estou aqui para ajudar!

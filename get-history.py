@@ -1,4 +1,5 @@
 import re
+import json
 
 def read_conversation_history(filename):
     conversation_history = []
@@ -26,9 +27,7 @@ def read_conversation_history(filename):
     
     return conversation_history
 
-# Example usage
 filename = '2021-pj-f3-plano2.txt'
 conversation_history = read_conversation_history(filename)
-for di in conversation_history[:3]:
-    print('{"role":', di['role'],'}')
-    print('{"content":', di['content'],'}')
+with open('conversation_history.json', 'w', encoding='utf-8') as f:
+    json.dump(conversation_history, f, ensure_ascii=False, indent=4)
