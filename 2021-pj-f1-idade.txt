@@ -68,4 +68,148 @@ Agora, `std::min` é chamado duas vezes para encontrar o menor valor entre os tr
 
 Essa solução deve funcionar corretamente!
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+/*
 100/100
+*/
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+User: A sua solução está correta. Você poderia gerar um exercício com temática e dificuldade similares mas com uma história diferente para que alunos de programação treinem os conceitos sem poder usar a mesma solução deste último exercício? Tente variar o tema.
+AI: Excelente ideia!
+
+Aqui vai um exercício com uma história diferente, mas com uma dificuldade similar:
+
+**Exercício:**
+
+Laras é uma famosa designer de interiores que está redecorando um loft moderno em Nova York. Ela precisa escolher três cores diferentes para as paredes do lounge, mas tem restrições de combinação de cores. As cores devem ser escolhidas de forma que a cor mais escura seja usada na parede maior, a cor intermediária seja usada na parede intermediária e a cor mais clara seja usada na parede menor.
+
+Dados três números inteiros representando as áreas das paredes (em metros quadrados) e três strings representando as cores (em inglês), escreva um programa para determinar a cor que deve ser usada na parede intermediária.
+
+**Entrada**
+
+A entrada consiste em três linhas:
+
+* A primeira linha contém três números inteiros, representando as áreas das paredes.
+* A segunda linha contém três strings, representando as cores (em inglês).
+
+**Saída**
+
+Seu programa deve produzir uma única linha, contendo a string que representa a cor que deve ser usada na parede intermediária.
+
+**Exemplos**
+
+Entrada:
+```
+10 20 30
+blue red green
+```
+Saída:
+```
+red
+```
+Entrada:
+```
+50 60 70
+yellow orange pink
+```
+Saída:
+```
+orange
+```
+Entrada:
+```
+100 150 200
+white black grey
+```
+Saída:
+```
+grey
+```
+**Restrições**
+
+* 5 ≤ área da parede ≤ 200
+* As cores serão sempre strings válidas em inglês.
+
+Essa é uma boa oportunidade para treinar conceitos como ordenação, comparação de valores e extração de informações de estruturas de dados.
+
+Boa sorte!
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+User: Pode explicitar os temas matemáticos e de programação colocados à prova na questão original que eu passei, e os temas da questão que você forneceu?
+AI: **Questão original:**
+
+* Tema matemático: Ordenação de dados (identificar o elemento médio em uma lista de três elementos)
+* Temas de programação:
+	+ Entrada e saída de dados (leitura de três inteiros e escrita de um inteiro)
+	+ Variáveis e atribuição (declaração e inicialização de variáveis)
+	+ Operações aritméticas (soma e subtração de inteiros)
+	+ Lógica de programação (identificar o elemento médio em uma lista de três elementos)
+	+ Uso de bibliotecas padrão (neste caso, `<iostream>`)
+
+**Questão fornecida:**
+
+* Tema matemático: Ordenação de dados (identificar o elemento médio em uma lista de três elementos) e correspondência entre dados (associar cores a áreas de paredes)
+* Temas de programação:
+	+ Entrada e saída de dados (leitura de três inteiros e três strings, e escrita de uma string)
+	+ Variáveis e atribuição (declaração e inicialização de variáveis)
+	+ Operações de comparação (comparação de áreas de paredes para ordená-las)
+	+ Lógica de programação (identificar o elemento médio em uma lista de três elementos e associá-lo à cor correspondente)
+	+ Uso de bibliotecas padrão (neste caso, `<iostream>` e `<string>`)
+	+ Trabalho com strings (manipulação de strings em inglês representando cores)
+
+Ambas as questões testam a capacidade do programador de trabalhar com entrada e saída de dados, variáveis e atribuição, operações aritméticas e lógica de programação. No entanto, a questão fornecida é um pouco mais desafiadora por envolver a correspondência entre dados (cores e áreas de paredes) e trabalhar com strings.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+User: Agora, gere o código solução de gabarito para a sua questão gerada.
+AI: Aqui está o código solução de gabarito para a questão que eu gerei:
+```cpp
+#include <iostream>
+#include <string>
+#include <algorithm>
+
+int main() {
+    int area1, area2, area3;
+    std::string color1, color2, color3;
+
+    // Leia as áreas das paredes e as cores
+    std::cin >> area1 >> area2 >> area3;
+    std::cin >> color1 >> color2 >> color3;
+
+    // Ordene as áreas das paredes em ordem crescente
+    int areas[] = {area1, area2, area3};
+    std::sort(areas, areas + 3);
+
+    // Associe as cores às áreas das paredes ordenadas
+    std::string colors[3];
+    if (area1 == areas[0]) colors[0] = color1;
+    if (area1 == areas[1]) colors[1] = color1;
+    if (area1 == areas[2]) colors[2] = color1;
+
+    if (area2 == areas[0]) colors[0] = color2;
+    if (area2 == areas[1]) colors[1] = color2;
+    if (area2 == areas[2]) colors[2] = color2;
+
+    if (area3 == areas[0]) colors[0] = color3;
+    if (area3 == areas[1]) colors[1] = color3;
+    if (area3 == areas[2]) colors[2] = color3;
+
+    // Imprima a cor correspondente à parede intermediária
+    std::cout << colors[1] << std::endl;
+
+    return 0;
+}
+```
+Explicação:
+
+* Primeiro, lemos as áreas das paredes e as cores com `std::cin`.
+* Em seguida, ordenamos as áreas das paredes em ordem crescente com `std::sort`.
+* Associa-se as cores às áreas das paredes ordenadas, usando uma estrutura de if-else para descobrir qual cor corresponde a cada área.
+* Finalmente, imprimimos a cor correspondente à parede intermediária, que é a segunda posição na matriz `colors`.
+
+Essa soluçãousa a ordenação de dados para resolver o problema e demonstra a capacidade de trabalhar com estruturas de dados (matrizes) e lógica de programação.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+/*
+Entrada:
+100 150 200
+white black grey
+Saída:
+grey
+Especificação falha, código correto.
+Código solução com uma sequência de 9 ifs para evitar o uso de um dicionário, supostamente para manter nível de dificuldade.
+*/
