@@ -1,0 +1,71 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+User: Você pode me ajudar com questões práticas de programação? Vou submeter a descrição de algumas questões e quero que você gere um código solução em C++ e sua explicação para sua corretude.
+AI: Eu estou aqui para ajudar!
+
+Sim, posso ajudar com questões práticas de programação em C++. Por favor, forneça a descrição das questões e farei o meu melhor para fornecer uma solução em C++ junto com uma explicação detalhada sobre por que o código é correto.
+
+Estou preparado quando você estiver!
+
+(Lembre-se de que, se a questão for muito difícil ou complexa, posso precisar pedir esclarecimentos ou mais informações para entender melhor o problema.)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+User:   Idade de Camila  Cibele, Camila e Celeste são três irmãs inseparáveis. Estão sempre juntas e adoram fazer esportes, ler, cozinhar, jogar no computador... Agora estão aprendendo a programar computadores para desenvolverem seus próprios jogos.  Mas nada disso interessa para esta tarefa: estamos interessados apenas nas suas idades. Sabemos que Cibele nasceu antes de Camila e Celeste nasceu depois de Camila.  Dados três números inteiros indicando as idades das irmãs, escreva um programa para determinar a idade de Camila.   Entrada A entrada é composta por três linhas, cada linha contendo um número inteiro N, a idade de uma das irmãs.  Saída Seu programa deve produzir uma única linha, contendo um único número inteiro, a idade de Camila.  Restrições   5  ≤  N  ≤  100  Exemplos    Entrada  6 9 7    Saída  7 	         Entrada  34 36 38    Saída  36 	         Entrada  22 25 22    Saída  22 	         Entrada  91 91 91    Saída  91 	     
+AI: Uma questão divertida!
+
+Aqui está uma solução em C++ para o problema:
+```cpp
+#include <iostream>
+
+int main() {
+    int age1, age2, age3;
+    std::cin >> age1 >> age2 >> age3;
+
+    // Ordenar as idades em ordem crescente
+    int minAge = std::min({age1, age2, age3});
+    int maxAge = std::max({age1, age2, age3});
+    int middleAge = (age1 + age2 + age3) - minAge - maxAge;
+
+    // Camila é a do meio
+    std::cout << middleAge << std::endl;
+
+    return 0;
+}
+```
+Explicação:
+
+* Primeiro, lemos as três idades das irmãs com `std::cin`.
+* Em seguida, ordenamos as idades em ordem crescente usando `std::min` e `std::max`. Isso nos permite identificar a idade mínima e máxima.
+* A idade de Camila é a que está no meio, portanto, calculamos a idade média como a soma das três idades menos a idade mínima e máxima.
+* Finalmente, imprimimos a idade de Camila com `std::cout`.
+
+Essa solução assume que as idades serão sempre únicas, o que é garantido pelas restrições do problema. Além disso, como as idades estão entre 5 e 100, podemos usar uma abordagem simples para ordenar as idades.
+
+Espero que isso ajude!
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+User: 2021f1pj_idade.cpp: In function ‘int main()’: 2021f1pj_idade.cpp:8:45: error: no matching function for call to ‘min(<brace-enclosed initializer list>)’     8 |     int minAge = std::min({age1, age2, age3});       |                                             ^ In file included from /usr/include/c++/9/bits/char_traits.h:39,                  from /usr/include/c++/9/ios:40,                  from /usr/include/c++/9/ostream:38,                  from /usr/include/c++/9/iostream:39,                  from 2021f1pj_idade.cpp:1: /usr/include/c++/9/bits/stl_algobase.h:198:5: note: candidate: ‘template<class _Tp> constexpr const _Tp& std::min(const _Tp&, const _Tp&)’   198 |     min(const _Tp& __a, const _Tp& __b)       |     ^~~ /usr/include/c++/9/bits/stl_algobase.h:198:5: note:   template argument deduction/substitution failed: 2021f1pj_idade.cpp:8:45: note:   candidate expects 2 arguments, 1 provided     8 |     int minAge = std::min({age1, age2, age3});       |
+AI: Parece que o compilador não está gostando da sintaxe que usei para chamar `std::min` com um initializer list.
+
+Isso é porque `std::min` não suporta initializer lists como parâmetro. Em vez disso, você precisa chamar `std::min` duas vezes para encontrar o menor valor entre os três.
+
+Aqui está a correção:
+```cpp
+#include <iostream>
+#include <algorithm>
+
+int main() {
+    int age1, age2, age3;
+    std::cin >> age1 >> age2 >> age3;
+
+    int minAge = std::min(age1, std::min(age2, age3));
+    int maxAge = std::max(age1, std::max(age2, age3));
+    int middleAge = (age1 + age2 + age3) - minAge - maxAge;
+
+    std::cout << middleAge << std::endl;
+
+    return 0;
+}
+```
+Agora, `std::min` é chamado duas vezes para encontrar o menor valor entre os três. O primeiro `std::min` compara `age1` e `age2`, e o segundo `std::min` compara o resultado com `age3`.
+
+Essa solução deve funcionar corretamente!
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+100/100

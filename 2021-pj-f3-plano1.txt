@@ -1,0 +1,56 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+User: Você pode me ajudar com questões práticas de programação? Vou submeter a descrição de algumas questões e quero que você gere um código solução em C++ e sua explicação para sua corretude.
+AI: Sim, eu posso ajudar com questões práticas de programação em C++. Por favor, forneça as descrições das questões que você deseja que eu ajude, e farei o meu melhor para fornecer um código de solução em C++ e explicar porque ele é correto.
+
+Lembre-se de que, se a questão for muito específica ou complexa, pode ser necessário que eu faça algumas perguntas adicionais para entender melhor o problema e fornecer uma solução mais adequada.
+
+Vá em frente e forneça a primeira questão!
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+User:   Plano de estacionamento  Tio Chico é o dono de um estacionamento para carros, localizado perto de um estádio de futebol.  O estacionamento tem N vagas numeradas de 1 a N e em dias de jogo tem muita procura, podendo até mesmo lotar.  Tio Chico é um tanto excêntrico, e decidiu que, no próximo jogo, deverá ser obedecida uma nova regra, que em termos gerais consiste no seguinte: o carro do i-ésimo cliente a chegar deverá ocupar uma vaga cujo número está dentro de um certo intervalo. Esses intervalos foram definidos pelo Tio Chico de acordo com alguns critérios, como espaços para manobra, sombreamento, etc.  Mais especificamente, para o i-ésimo cliente que chegar, Tio Chico definiu um número V_i e determinou que o automóvel desse cliente deve ocupar uma vaga ainda não ocupada cujo número está dentro do intervalo 1,2,\ldots,V_i. Vamos chamar de plano de estacionamento a lista dos valores V_i, para todos os clientes i.  Se um cliente chegar e não puder estacionar o carro de acordo com o plano de estacionamento, esse cliente não será atendido, e o estacionamento não aceitará o carro de nenhum outro cliente até o final do jogo.  Você ficou muito preocupado com essa esquisitice to Tio Chico, e conhecendo o plano de estacionamento que foi definido, precisa determinar qual o maior número de clientes que poderão estacionar.      Entrada A primeira linha da entrada contém um inteiro N, o número de vagas do estacionamento. A segunda linha contém um inteiro M, o número esperado de clientes.  Cada uma das M linhas seguintes contém um inteiro V_i, o número definido no plano de estacionamento para o i-ésimo cliente a chegar.      Saída Se programa deve produzir uma única linha, contendo um único inteiro, o número máximo de carros que poderão estacionar de acordo com o plano de estacionamento de Tio Chico.   Restrições   1  ≤  N  ≤  100 000  1  ≤  M  ≤  100 000  1  ≤  V_i  ≤  N, para 1  ≤  i  ≤  N  Informações sobre a pontuação   Para um conjunto de casos de testes valendo 40 pontos, N  ≤  2000 e M  ≤  2000.  Para um conjunto de casos de testes valendo outros 60 pontos, nenhuma restrição adicional.  Exemplos    Entrada  4 3 4 1 1    Saída  2 	         Entrada  4 6 2 2 3 3 4 4    Saída  3 	     
+AI: Eu entendi o problema. Vou fornecer uma solução em C++ e explicar por que ela é correta.
+
+**Código:**
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+    int N, M;
+    cin >> N >> M;
+
+    vector<int> v(M);
+    for (int i = 0; i < M; i++) {
+        cin >> v[i];
+    }
+
+    sort(v.begin(), v.end());
+
+    int cnt = 0;
+    int curr = 1;
+    for (int i = 0; i < M; i++) {
+        if (v[i] >= curr) {
+            cnt++;
+            curr = v[i] + 1;
+        }
+    }
+
+    cout << cnt << endl;
+
+    return 0;
+}
+```
+**Explicação:**
+
+A ideia é ordenar os valores `V_i` em ordem crescente e, em seguida, iterar sobre eles. Para cada `V_i`, verificamos se ele é maior ou igual ao valor atual `curr`, que inicialmente é 1. Se for verdadeiro, significa que podemos estacionar o carro nessa vaga, então incrementamos o contador `cnt` e atualizamos `curr` para `V_i + 1`. Isso porque, se um carro estaciona em uma vaga `x`, o próximo carro só pode estacionar em uma vaga maior que `x`.
+
+O algoritmo termina quando todos os `V_i` foram processados, e o valor de `cnt` representatives o maior número de clientes que podem estacionar.
+
+A complexidade do algoritmo é O(M log M) devido à ordenação dos valores `V_i`, e O(M) para a iteração sobre eles. Portanto, o algoritmo é eficiente o suficiente para lidar com os casos de teste fornecidos.
+
+Espero que isso ajude! Se tiver alguma dúvida ou precisar de mais explicações, sinta-se à vontade para perguntar.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Gerava saídas corretas.
+0/100
