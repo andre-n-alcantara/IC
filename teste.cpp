@@ -1,53 +1,36 @@
 #include <iostream>
-#include <vector>
-#include <algorithm>
+#include <cmath>
 
 using namespace std;
 
-struct Show {
-    int start;
-    int end;
-};
+int main() {
+    int N, XC, YC, R;
+    cin >> N >> XC >> YC >> R;
 
-bool compareShows(const Show& a, const Show& b) {
-    return a.end < b.end;
-}
+    int hits = 0;
+    for (int i = 0; i < N; i++) {
+        int X1, Y1, X2, Y2;
+        cin >> X1 >> Y1 >> X2 >> Y2;
 
-int maxConsecutiveShows(vector<Show>& shows) {
-    sort(shows.begin(), shows.end(), compareShows);
+        double dx = X2 - X1;
+        double dy = Y2 - Y1;
+        double a = dx * dx + dy * dy;
+        double b = 2 * (dx * (X1 - XC) + dy * (Y1 - YC));
+        double c = (X1 - XC) * (X1 - XC) + (Y1 - YC) * (Y1 - YC) - R * R;
 
-    int maxConsecutive = 1;
-    int currentConsecutive = 1;
-    int lastEnd = shows[0].end;
+        double det = b * b - 4 * a * c;
+        if (det >= 0) {
+            det = sqrt(det);
+            double t1 = (-b - det) / (2 * a);
+            double t2 = (-b + det) / (2 * a);
 
-    for (int i = 1; i < shows.size(); i++) {
-        if (shows[i].start >= lastEnd) {
-            currentConsecutive++;
-            lastEnd = shows[i].end;
-        } else {
-            maxConsecutive = max(maxConsecutive, currentConsecutive);
-            currentConsecutive = 1;
-            lastEnd = shows[i].end;
+            if ((t1 >= 0 && t1 <= 1) || (t2 >= 0 && t2 <= 1)) {
+                hits++;
+            }
         }
     }
 
-    maxConsecutive = max(maxConsecutive, currentConsecutive);
-
-    return maxConsecutive;
-}
-
-int main() {
-    int n;
-    cin >> n;
-
-    vector<Show> shows(n);
-
-    for (int i = 0; i < n; i++) {
-        cin >> shows[i].start >> shows[i].end;
-        // shows[i].end += shows[i].start; // não é necessário converter start time para end time
-    }
-
-    cout << maxConsecutiveShows(shows) << endl;
+    cout << hits << endl;
 
     return 0;
 }

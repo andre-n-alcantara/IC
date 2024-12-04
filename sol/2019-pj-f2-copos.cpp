@@ -1,4 +1,3 @@
-
 #include <iostream>
 
 char move(char pos, int type) {

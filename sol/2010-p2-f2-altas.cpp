@@ -1,4 +1,3 @@
-cpp
 #include <iostream>
 
 int minTests(int n, int k) {
