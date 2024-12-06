@@ -1,7 +1,8 @@
+#LE O REGISTRO DO CHAT EM TXT E RECUPERA O DICIONARIO DE CONTEXTO PARA CONTINUAR A CONVERSA
 import re
 import json
 
-def read_conversation_history(filename):
+def get_conversation_history(filename):
     conversation_history = []
     with open(filename, 'r', encoding='utf-8') as file:
         content = file.read()
@@ -27,7 +28,7 @@ def read_conversation_history(filename):
     
     return conversation_history
 
-filename = '2021-pj-f3-plano2.txt'
-conversation_history = read_conversation_history(filename)
+filename = ''
+conversation_history = get_conversation_history(filename)
 with open('conversation_history.json', 'w', encoding='utf-8') as f:
     json.dump(conversation_history, f, ensure_ascii=False, indent=4)

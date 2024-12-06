@@ -1,3 +1,4 @@
+#LE O OUTPUT DO JUDGE EM TXT NA PASTA /SOL E GUARDA RESULTADOS
 import os, re
 root = './sol'
 list_pass= [] 

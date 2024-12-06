@@ -1,3 +1,4 @@
+#SCRAPE DO TXT DE TODAS AS QUESTOES EM  https://olimpiada.ic.unicamp.br/pratique/ 
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import re
