@@ -1,0 +1,31 @@
+Visita entre cidades
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,1 s
+Limite de memória permitido 1.0 GB
+Máximo tempo usado 0 s
+Máxima memória usada N/D
+Detalhes da correção
+Execução dos testes
+Compilação
+Resultado da compilação Compilação terminou com falha
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+2017f3p1_visita.cpp: In function ‘void dijkstra(int)’:
+2017f3p1_visita.cpp:13:5: error: reference to ‘distance’ is ambiguous
+   13 |     distance[start] = 0;
+      |     ^~~~~~~~
+In file included from /usr/include/c++/9/bits/stl_algobase.h:66,
+                 from /usr/include/c++/9/bits/char_traits.h:39,
+                 from /usr/include/c++/9/ios:40,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from 2017f3p1_visita.cpp:1:
+/usr/include/c++/9/bits/stl_iterator_base_funcs.h:138:5: note: candidates are: ‘template<class _InputIterator> constexpr typename std::iterator_traits<_Iterator>::difference_type std::distance(_InputIterator, _InputIterator)’
+  138 |     distance(_InputIterator __first, _InputIterator __last)
+      |     ^~~~~~~~
+2017f3p1_visita.cpp:8:5: note:                 ‘int distance [10001]’
+    8 | int distance[10001];
+      |     ^~~~~~~~
+2017f3p1_visita.cpp:20:17: error: reference to ‘distance’ is

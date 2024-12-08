@@ -1,0 +1,28 @@
+Wifi
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,4 s
+Limite de memória permitido 1.0 GB
+Máximo tempo usado 0 s
+Máxima memória usada N/D
+Detalhes da correção
+Execução dos testes
+Compilação
+Resultado da compilação Compilação terminou com falha
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+2018f2p2_wifi.cpp: In function ‘int main()’:
+2018f2p2_wifi.cpp:27:13: error: ‘queue’ was not declared in this scope
+   27 |             queue<int> q;
+      |             ^~~~~
+2018f2p2_wifi.cpp:4:1: note: ‘std::queue’ is defined in header ‘<queue>’; did you forget to ‘#include <queue>’?
+    3 | #include <algorithm>
+  +++ |+#include <queue>
+    4 | 
+2018f2p2_wifi.cpp:27:19: error: expected primary-expression before ‘int’
+   27 |             queue<int> q;
+      |                   ^~~
+2018f2p2_wifi.cpp:28:13: error: ‘q’ was not declared in this scope
+   28 |             q.push(i);
+      |             ^

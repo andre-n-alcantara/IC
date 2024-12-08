@@ -1,0 +1,25 @@
+Cadeiras do auditório
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,1 s
+Limite de memória permitido 1.0 GB
+Máximo tempo usado 0 s
+Máxima memória usada N/D
+Detalhes da correção
+Execução dos testes
+Compilação
+Resultado da compilação Compilação terminou com falha
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+In file included from /usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33,
+                 from /usr/include/c++/9/bits/allocator.h:46,
+                 from /usr/include/c++/9/string:41,
+                 from /usr/include/c++/9/bits/locale_classes.h:40,
+                 from /usr/include/c++/9/bits/ios_base.h:41,
+                 from /usr/include/c++/9/ios:42,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from 2009f2p2_cadeiras.cpp:1:
+/usr/include/c++/9/ext/new_allocator.h: In instantiation of ‘void __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = std::pair<char, std::pair<int, int> >; _Args = {char, int, int}; _Tp = std::pair<char, std::pair<int, int> >]’:
+/usr/include/c++/9/bits/alloc_traits.h:482:2:   required from ‘static void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = std::pair<ch

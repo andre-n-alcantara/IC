@@ -1,0 +1,31 @@
+Triângulos
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,1 s
+Limite de memória permitido 1.0 GB
+Máximo tempo usado 0 s
+Máxima memória usada N/D
+Detalhes da correção
+Execução dos testes
+Compilação
+Resultado da compilação Compilação terminou com falha
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+2011f1p1_triangulos.cpp: In function ‘int main()’:
+2011f1p1_triangulos.cpp:11:37: error: no matching function for call to ‘max(<brace-enclosed initializer list>)’
+   11 |         int max = std::max({A, B, C});
+      |                                     ^
+In file included from /usr/include/c++/9/bits/char_traits.h:39,
+                 from /usr/include/c++/9/ios:40,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from 2011f1p1_triangulos.cpp:1:
+/usr/include/c++/9/bits/stl_algobase.h:222:5: note: candidate: ‘template<class _Tp> constexpr const _Tp& std::max(const _Tp&, const _Tp&)’
+  222 |     max(const _Tp& __a, const _Tp& __b)
+      |     ^~~
+/usr/include/c++/9/bits/stl_algobase.h:222:5: note:   template argument deduction/substitution failed:
+2011f1p1_triangulos.cpp:11:37: note:   candidate expects 2 arguments, 1 provided
+   11 |         int max = std::max({A, B, C});
+      |                                     ^
+In file

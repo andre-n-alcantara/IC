@@ -1,0 +1,22 @@
+Catálogo de Músicas
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,5 s
+Limite de memória permitido 1.0 GB
+Máximo tempo usado 0 s
+Máxima memória usada N/D
+Detalhes da correção
+Execução dos testes
+Compilação
+Resultado da compilação Compilação terminou com falha
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+2013f1p2_catalogo.cpp: In function ‘int main()’:
+2013f1p2_catalogo.cpp:16:21: error: ‘INT_MAX’ was not declared in this scope
+   16 |     int min_chars = INT_MAX;
+      |                     ^~~~~~~
+2013f1p2_catalogo.cpp:5:1: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+    4 | #include <algorithm>
+  +++ |+#include <climits>
+    5 |

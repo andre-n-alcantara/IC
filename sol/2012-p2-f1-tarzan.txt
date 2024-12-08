@@ -1,0 +1,34 @@
+Tarzan
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,1 s
+Limite de memória permitido 1.0 GB
+Máximo tempo usado 0,003 s
+Máxima memória usada 384.0 KB
+Detalhes da correção
+Execução dos testes
+Subtarefa 1
+0 / 10
+Subtarefa 2
+0 / 10
+Subtarefa 3
+0 / 10
+Subtarefa 4
+0 / 10
+Subtarefa 5
+0 / 10
+Subtarefa 6
+0 / 10
+Subtarefa 7
+0 / 10
+Subtarefa 8
+0 / 10
+Subtarefa 9
+0 / 10
+Subtarefa 10
+0 / 10
+Compilação
+Resultado da compilação Compilação terminou com sucesso
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):

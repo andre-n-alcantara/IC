@@ -1,0 +1,27 @@
+Álbum de fotos
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,1 s
+Limite de memória permitido 1.0 GB
+Máximo tempo usado 0 s
+Máxima memória usada N/D
+Detalhes da correção
+Execução dos testes
+Compilação
+Resultado da compilação Compilação terminou com falha
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+2012f2p2_album.cpp: In function ‘int main()’:
+2012f2p2_album.cpp:9:26: error: ‘max’ was not declared in this scope; did you mean ‘std::max’?
+    9 |         (L1 + L2 <= X && max(H1, H2) <= Y) || (H1 + H2 <= X && max(L1, L2) <= Y) ||
+      |                          ^~~
+      |                          std::max
+In file included from /usr/include/c++/9/bits/char_traits.h:39,
+                 from /usr/include/c++/9/ios:40,
+                 from /usr/include/c++/9/ostream:38,
+                 from /usr/include/c++/9/iostream:39,
+                 from 2012f2p2_album.cpp:1:
+/usr/include/c++/9/bits/stl_algobase.h:268:5: note: ‘std::max’ declared here
+  268 |     max(const _Tp& __a, const _Tp& __b, _Compare __comp)
+      |     ^~~

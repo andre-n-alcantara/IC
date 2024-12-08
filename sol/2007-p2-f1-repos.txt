@@ -1,0 +1,54 @@
+Repositórios
+Resumo da correção
+Pontuação 5 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,1 s
+Limite de memória permitido 1.0 GB
+Máximo tempo usado 0,011 s
+Máxima memória usada 780.0 KB
+Detalhes da correção
+Execução dos testes
+Subtarefa 1
+5 / 5
+Subtarefa 2
+0 / 5
+Subtarefa 3
+0 / 5
+Subtarefa 4
+0 / 5
+Subtarefa 5
+0 / 5
+Subtarefa 6
+0 / 5
+Subtarefa 7
+0 / 5
+Subtarefa 8
+0 / 5
+Subtarefa 9
+0 / 5
+Subtarefa 10
+0 / 5
+Subtarefa 11
+0 / 5
+Subtarefa 12
+0 / 5
+Subtarefa 13
+0 / 5
+Subtarefa 14
+0 / 5
+Subtarefa 15
+0 / 5
+Subtarefa 16
+0 / 5
+Subtarefa 17
+0 / 5
+Subtarefa 18
+0 / 5
+Subtarefa 19
+0 / 5
+Subtarefa 20
+0 / 5
+Compilação
+Resultado da compilação Compilação terminou com sucesso
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):

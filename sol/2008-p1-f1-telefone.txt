@@ -1,0 +1,54 @@
+Telefone
+Resumo da correção
+Pontuação 100 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,1 s
+Limite de memória permitido 1.0 GB
+Máximo tempo usado 0,004 s
+Máxima memória usada 284.0 KB
+Detalhes da correção
+Execução dos testes
+Subtarefa 1
+5 / 5
+Subtarefa 2
+5 / 5
+Subtarefa 3
+5 / 5
+Subtarefa 4
+5 / 5
+Subtarefa 5
+5 / 5
+Subtarefa 6
+5 / 5
+Subtarefa 7
+5 / 5
+Subtarefa 8
+5 / 5
+Subtarefa 9
+5 / 5
+Subtarefa 10
+5 / 5
+Subtarefa 11
+5 / 5
+Subtarefa 12
+5 / 5
+Subtarefa 13
+5 / 5
+Subtarefa 14
+5 / 5
+Subtarefa 15
+5 / 5
+Subtarefa 16
+5 / 5
+Subtarefa 17
+5 / 5
+Subtarefa 18
+5 / 5
+Subtarefa 19
+5 / 5
+Subtarefa 20
+5 / 5
+Compilação
+Resultado da compilação Compilação terminou com sucesso
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):

@@ -1,0 +1,25 @@
+Reunião
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,1 s
+Limite de memória permitido 1.0 GB
+Máximo tempo usado 0 s
+Máxima memória usada N/D
+Detalhes da correção
+Execução dos testes
+Compilação
+Resultado da compilação Compilação terminou com falha
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+2010f1p2_reuniao.cpp: In function ‘int main()’:
+2010f1p2_reuniao.cpp:42:5: error: ‘scanf’ was not declared in this scope
+   42 |     scanf("%d %d", &n, &m);
+      |     ^~~~~
+2010f1p2_reuniao.cpp:59:5: error: ‘printf’ was not declared in this scope
+   59 |     printf("%d\n", ans);
+      |     ^~~~~~
+2010f1p2_reuniao.cpp:4:1: note: ‘printf’ is defined in header ‘<cstdio>’; did you forget to ‘#include <cstdio>’?
+    3 | #include <climits>
+  +++ |+#include <cstdio>
+    4 |

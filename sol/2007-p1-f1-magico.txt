@@ -1,0 +1,21 @@
+Quadrado Mágico
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,1 s
+Limite de memória permitido 1.0 GB
+Máximo tempo usado 0 s
+Máxima memória usada N/D
+Detalhes da correção
+Execução dos testes
+Compilação
+Resultado da compilação Compilação terminou com falha
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+2007f1p1_magico.cpp: In function ‘int verificaMagico(std::vector<std::vector<int> >&, int)’:
+2007f1p1_magico.cpp:31:9: error: ‘diag1Soma’ was not declared in this scope
+   31 |     if (diag1Soma != soma || diag2Soma != soma) {
+      |         ^~~~~~~~~
+2007f1p1_magico.cpp:31:30: error: ‘diag2Soma’ was not declared in this scope
+   31 |     if (diag1Soma != soma || diag2Soma != soma) {
+      |                              ^~~~~~~~~

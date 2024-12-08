@@ -1,0 +1,22 @@
+Letras
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,1 s
+Limite de memória permitido 1.0 GB
+Máximo tempo usado 0,011 s
+Máxima memória usada 932.0 KB
+Detalhes da correção
+Execução dos testes
+Subtarefa 1
+0 / 25
+Subtarefa 2
+0 / 25
+Subtarefa 3
+0 / 25
+Subtarefa 4
+0 / 25
+Compilação
+Resultado da compilação Compilação terminou com sucesso
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):

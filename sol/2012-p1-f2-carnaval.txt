@@ -1,0 +1,18 @@
+Carnaval
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,1 s
+Limite de memória permitido 1.0 GB
+Máximo tempo usado 0 s
+Máxima memória usada N/D
+Detalhes da correção
+Execução dos testes
+Compilação
+Resultado da compilação Compilação terminou com falha
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+2012f2p1_carnaval.cpp: In function ‘int main()’:
+2012f2p1_carnaval.cpp:10:37: error: ‘setprecision’ is not a member of ‘std’
+   10 |     std::cout << std::fixed << std::setprecision(1) << n[1] + n[2] + n[3] << std::endl;
+      |                                     ^~~~~~~~~~~~

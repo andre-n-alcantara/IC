@@ -1,0 +1,37 @@
+Telemarketing
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,4 s
+Limite de memória permitido 1.0 GB
+Máximo tempo usado 0 s
+Máxima memória usada N/D
+Detalhes da correção
+Execução dos testes
+Compilação
+Resultado da compilação Compilação terminou com falha
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+2007f2p1_tele.cpp:19:21: error: stray ‘\303’ in program
+   19 |     vector<int> ligações(N, 0);
+      |                     ^
+2007f2p1_tele.cpp:19:22: error: stray ‘\247’ in program
+   19 |     vector<int> ligações(N, 0);
+      |                      ^
+2007f2p1_tele.cpp:19:23: error: stray ‘\303’ in program
+   19 |     vector<int> ligações(N, 0);
+      |                       ^
+2007f2p1_tele.cpp:19:24: error: stray ‘\265’ in program
+   19 |     vector<int> ligações(N, 0);
+      |                        ^
+2007f2p1_tele.cpp:30:13: error: stray ‘\303’ in program
+   30 |         ligações[ligacao.vendedor - 1]++;
+      |             ^
+2007f2p1_tele.cpp:30:14: error: stray ‘\247’ in program
+   30 |         ligações[ligacao.vendedor - 1]++;
+      |              ^
+2007f2p1_tele.cpp:30:15: error: stray ‘\303’ in program
+   30 |         ligações[ligacao.vendedor - 1]++;
+      |               ^
+2007f2p1_tele.cpp:30:16: error: stray ‘\265’ in program
+   30 |         ligaçõe

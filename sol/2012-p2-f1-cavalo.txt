@@ -1,0 +1,21 @@
+O Tabuleiro Esburacado
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,1 s
+Limite de memória permitido 1.0 GB
+Máximo tempo usado 0 s
+Máxima memória usada N/D
+Detalhes da correção
+Execução dos testes
+Compilação
+Resultado da compilação Compilação terminou com falha
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+2012f1p2_cavalo.cpp:6:7: error: ‘intBURACOS’ does not name a type
+    6 | const intBURACOS[4][2] = {{1, 3}, {2, 3}, {2, 5}, {5, 4}};
+      |       ^~~~~~~~~~
+2012f1p2_cavalo.cpp: In function ‘int main()’:
+2012f1p2_cavalo.cpp:26:23: error: ‘BURACOS’ was not declared in this scope
+   26 |             if (nx == BURACOS[j][0] && ny == BURACOS[j][1])
+      |                       ^~~~~~~

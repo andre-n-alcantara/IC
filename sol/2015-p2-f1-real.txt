@@ -1,0 +1,18 @@
+Família real
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,1 s
+Limite de memória permitido 1.0 GB
+Máximo tempo usado 0 s
+Máxima memória usada N/D
+Detalhes da correção
+Execução dos testes
+Compilação
+Resultado da compilação Compilação terminou com falha
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+2015f1p2_real.cpp: In function ‘int main()’:
+2015f1p2_real.cpp:49:26: error: ‘setprecision’ was not declared in this scope
+   49 |         cout << fixed << setprecision(2) << percentage << " ";
+      |                          ^~~~~~~~~~~~
