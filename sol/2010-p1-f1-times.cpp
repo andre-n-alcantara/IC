@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -14,6 +15,7 @@ bool operator<(const Aluno& a, const Aluno& b) {
 }
 
 int main() {
+    std::clock_t startTime = std::clock();
     int N, T;
     std::cin >> N >> T;
 
@@ -44,5 +46,10 @@ int main() {
         std::cout << std::endl;
     }
 
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

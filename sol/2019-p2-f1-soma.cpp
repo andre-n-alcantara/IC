@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 #include <vector>
 
@@ -25,6 +26,7 @@ int countRectangles(vector<int>& arr, int k) {
 }
 
 int main() {
+    std::clock_t startTime = std::clock();
     int n, k;
     cin >> n >> k;
 
@@ -35,5 +37,10 @@ int main() {
 
     cout << countRectangles(arr, k) << endl;
 
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

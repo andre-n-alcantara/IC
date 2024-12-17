@@ -1,6 +1,8 @@
+#include <ctime>
 #include <iostream>
 
 int main() {
+    std::clock_t startTime = std::clock();
     int d;
     std::cin >> d;
     int dist_emissor_acelerador = 3;
@@ -14,5 +16,10 @@ int main() {
         std::cout << 3 << std::endl;
     }
 
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 using namespace std;
 
@@ -12,6 +13,7 @@ int calcula_pontuacao(int carta1, int carta2) {
 }
 
 int main() {
+    std::clock_t startTime = std::clock();
     int lia_carta1, lia_carta2, carolina_carta1, carolina_carta2;
     cin >> lia_carta1 >> lia_carta2 >> carolina_carta1 >> carolina_carta2;
 
@@ -26,5 +28,10 @@ int main() {
         cout << "empate" << endl;
     }
 
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

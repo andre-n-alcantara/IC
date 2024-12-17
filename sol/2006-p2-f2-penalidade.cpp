@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 #include <vector>
 #include <cmath>
@@ -29,6 +30,7 @@ int minPenalty(int n, vector<vector<int>>& board) {
 }
 
 int main() {
+    std::clock_t startTime = std::clock();
     int n;
     cin >> n;
     vector<vector<int>> board(n, vector<int>(n));
@@ -40,5 +42,10 @@ int main() {
 
     cout << minPenalty(n, board) << endl;
 
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

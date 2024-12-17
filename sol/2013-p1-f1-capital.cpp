@@ -1,7 +1,9 @@
+#include <ctime>
 #include <iostream>
 using namespace std;
 
 int main() {
+    std::clock_t startTime = std::clock();
     int A1, A2, A3, A4;
     cin >> A1 >> A2 >> A3 >> A4;
     int areas[4] = {A1, A2, A3, A4};
@@ -10,7 +12,12 @@ int main() {
             int otherAreas = A1 + A2 + A3 + A4 - areas[i] - areas[j];
             if (areas[i] + areas[j] == otherAreas) {
                 cout << "S" << endl;
-                return 0;
+                
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
             }
         }
     }

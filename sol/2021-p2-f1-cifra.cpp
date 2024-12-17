@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 #include <string>
 
@@ -28,8 +29,14 @@ std::string cifra(const std::string& palavra) {
 }
 
 int main() {
+    std::clock_t startTime = std::clock();
   std::string palavra;
   std::getline(std::cin, palavra);
   std::cout << cifra(palavra) << std::endl;
-  return 0;
+  
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

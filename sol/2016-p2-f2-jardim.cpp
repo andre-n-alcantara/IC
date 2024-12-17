@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 #include <cmath>
 
@@ -27,6 +28,7 @@ bool arePerpendicular(const Point &p1, const Point &p2, const Point &p3, const P
 }
 
 int main() {
+    std::clock_t startTime = std::clock();
     Point p[7];
     for (int i = 0; i < 7; i++) {
         cin >> p[i].x >> p[i].y;
@@ -81,5 +83,10 @@ int main() {
 
     cout << (isPine ? "S" : "N") << endl;
 
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

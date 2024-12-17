@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 #include <vector>
 #include <bitset>
@@ -35,11 +36,17 @@ int count_sandwiches() {
 }
 
 int main() {
+    std::clock_t startTime = std::clock();
     cin >> n >> m;
     forbidden.resize(m);
     for (int i = 0; i < m; i++) {
         cin >> forbidden[i].first >> forbidden[i].second;
     }
     cout << count_sandwiches() << endl;
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

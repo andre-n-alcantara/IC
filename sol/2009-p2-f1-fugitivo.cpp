@@ -1,9 +1,11 @@
+#include <ctime>
 #include <iostream>
 #include <cmath>
 
 using namespace std;
 
 int main() {
+    std::clock_t startTime = std::clock();
     int n, m;
     cin >> n >> m;
 
@@ -39,5 +41,10 @@ int main() {
 
     cout << (flagged ? 1 : 0) << endl;
 
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 #include <string>
 #include <map>
@@ -20,8 +21,14 @@ int napoletano(std::string s) {
 }
 
 int main() {
+    std::clock_t startTime = std::clock();
     std::string s;
     std::cin >> s;
     std::cout << napoletano(s) << std::endl;
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

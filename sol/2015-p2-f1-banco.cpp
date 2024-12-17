@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 #include <vector>
 
@@ -7,6 +8,7 @@ int dp[5001]; // dp[i] é o número de formas de entregar i reais
 int values[] = {2, 5, 10, 20, 50, 100};
 
 int main() {
+    std::clock_t startTime = std::clock();
     int S, N2, N5, N10, N20, N50, N100;
     cin >> S >> N2 >> N5 >> N10 >> N20 >> N50 >> N100;
 
@@ -24,5 +26,10 @@ int main() {
 
     cout << dp[S] << endl;
 
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

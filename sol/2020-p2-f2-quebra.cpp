@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -21,6 +22,7 @@ int maxVal(int N, vector<int> &row1, vector<int> &row2) {
 }
 
 int main() {
+    std::clock_t startTime = std::clock();
     int N;
     cin >> N;
 
@@ -39,5 +41,10 @@ int main() {
 
     cout << maxVal(N, row1, row2) << endl;
 
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

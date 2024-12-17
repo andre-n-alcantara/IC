@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 #include <vector>
 
@@ -7,6 +8,7 @@ int dx[] = {-1, 1, 0, 0}; // Norte, Sul, Leste, Oeste
 int dy[] = {0, 0, 1, -1}; // Norte, Sul, Leste, Oeste
 
 int main() {
+    std::clock_t startTime = std::clock();
     int L, C, A, B;
     cin >> L >> C >> A >> B;
     A--; B--; // Convertendo para indices 0-based
@@ -37,5 +39,10 @@ int main() {
 
     cout << A + 1 << " " << B + 1 << endl; // Convertendo para indices 1-based
 
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

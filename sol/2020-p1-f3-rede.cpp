@@ -1,8 +1,10 @@
+#include <ctime>
 #include <iostream>
 #include <vector>
 #include <algorithm>
 
 int main() {
+    std::clock_t startTime = std::clock();
     int N;
     std::cin >> N;
     std::vector<int> repos(N);
@@ -19,5 +21,10 @@ int main() {
         }
     }
     std::cout << infl << std::endl;
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

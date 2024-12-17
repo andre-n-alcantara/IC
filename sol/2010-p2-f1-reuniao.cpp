@@ -1,3 +1,4 @@
+#include <ctime>
 #include <vector>
 #include <queue>
 #include <climits>
@@ -38,6 +39,7 @@ int dijkstra(int start, int n) {
 }
 
 int main() {
+    std::clock_t startTime = std::clock();
     int n, m;
     scanf("%d %d", &n, &m);
 
@@ -58,5 +60,10 @@ int main() {
 
     printf("%d\n", ans);
 
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

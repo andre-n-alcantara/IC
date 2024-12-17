@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 #include <vector>
 #include <unordered_set>
@@ -5,6 +6,7 @@
 using namespace std;
 
 int main() {
+    std::clock_t startTime = std::clock();
     int N, C;
     cin >> N >> C;
 
@@ -33,5 +35,10 @@ int main() {
         cout << zero << endl;
     }
 
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

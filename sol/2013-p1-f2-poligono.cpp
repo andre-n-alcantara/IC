@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -9,6 +10,7 @@ bool canFormTriangle(int a, int b, int c) {
 }
 
 int main() {
+    std::clock_t startTime = std::clock();
     int n;
     cin >> n;
     vector<int> sticks(n);
@@ -20,7 +22,12 @@ int main() {
     for (int i = n - 1; i >= 3; i--) {
         if (canFormTriangle(sticks[0], sticks[1], sticks[i])) {
             cout << i << endl;
-            return 0;
+            
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
         }
     }
 

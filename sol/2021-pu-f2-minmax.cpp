@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 #include <vector>
 
@@ -11,6 +12,7 @@ int somaDigitos(int n) {
 }
 
 int main() {
+    std::clock_t startTime = std::clock();
     int S, A, B, min = A, max = A;
     std::cin >> S >> A >> B;
 
@@ -24,5 +26,10 @@ int main() {
     std::cout << min << std::endl;
     std::cout << max << std::endl;
 
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

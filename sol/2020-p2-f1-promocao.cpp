@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -25,6 +26,7 @@ int dfs(int node, int company, vector<bool>& visited) {
 }
 
 int main() {
+    std::clock_t startTime = std::clock();
     int N;
     cin >> N;
 
@@ -44,5 +46,10 @@ int main() {
 
     cout << max_path << endl;
 
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

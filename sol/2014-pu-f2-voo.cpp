@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -5,6 +6,7 @@
 using namespace std;
 
 int main() {
+    std::clock_t startTime = std::clock();
     string input;
     getline(cin, input);
     stringstream ss(input);
@@ -24,5 +26,10 @@ int main() {
 
     cout << duration << " " << (offset / 60) << endl;
 
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

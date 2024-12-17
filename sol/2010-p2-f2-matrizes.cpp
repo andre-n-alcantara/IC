@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 
 using namespace std;
@@ -9,6 +10,7 @@ long long mul(long long a, long long b) {
 }
 
 int main() {
+    std::clock_t startTime = std::clock();
     int N, P, Q, R, S, X, Y, I, J;
     cin >> N >> P >> Q >> R >> S >> X >> Y >> I >> J;
 
@@ -19,5 +21,10 @@ int main() {
 
     cout << C << endl;
 
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

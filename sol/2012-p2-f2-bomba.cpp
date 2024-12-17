@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -42,6 +43,7 @@ int bfs(int start, int end, int n) {
 }
 
 int main() {
+    std::clock_t startTime = std::clock();
     int n, e, s, m;
     cin >> n >> e >> s >> m;
 
@@ -61,5 +63,10 @@ int main() {
         cout << ans << endl;
     }
 
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 
 char move(char pos, int type) {
@@ -20,6 +21,7 @@ char move(char pos, int type) {
 }
 
 int main() {
+    std::clock_t startTime = std::clock();
     int N;
     char pos;
     std::cin >> N >> pos;
@@ -29,5 +31,10 @@ int main() {
         pos = move(pos, type);
     }
     std::cout << pos << std::endl;
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -35,6 +36,7 @@ void bfs(int x, int y) {
 }
 
 int main() {
+    std::clock_t startTime = std::clock();
     ios::sync_with_stdio(false);
     cin.tie(NULL);
 
@@ -59,5 +61,10 @@ int main() {
 
     cout << maxWhite << endl;
 
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

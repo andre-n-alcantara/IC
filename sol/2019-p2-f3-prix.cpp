@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 #include <vector>
 
@@ -29,6 +30,7 @@ void dfs(int node, int parent) {
 }
 
 int main() {
+    std::clock_t startTime = std::clock();
     int n, m;
     cin >> n >> m;
 
@@ -47,5 +49,10 @@ int main() {
     }
 
     cout << -1 << endl;
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

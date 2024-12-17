@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 #include <vector>
 #include <string>
@@ -34,6 +35,7 @@ int countValidMoves(vector<string> board) {
 }
 
 int main() {
+    std::clock_t startTime = std::clock();
     vector<string> board(7);
     for (int i = 0; i < 7; i++) {
         cin >> board[i];
@@ -41,5 +43,10 @@ int main() {
 
     cout << countValidMoves(board) << endl;
 
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

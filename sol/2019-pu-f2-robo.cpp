@@ -1,3 +1,4 @@
+#include <ctime>
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -51,6 +52,7 @@ int bfs(vector<Rect> &rects, Point start, Point end) {
 }
 
 int main() {
+    std::clock_t startTime = std::clock();
     int xi, yi, xf, yf;
     cin >> xi >> yi >> xf >> yf;
     Point start = { xi, yi }, end = { xf, yf };
@@ -61,5 +63,10 @@ int main() {
         cin >> rects[i].p1.x >> rects[i].p1.y >> rects[i].p2.x >> rects[i].p2.y;
     }
     cout << bfs(rects, start, end) << endl;
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

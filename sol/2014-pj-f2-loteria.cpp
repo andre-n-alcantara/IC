@@ -1,7 +1,9 @@
+#include <ctime>
 #include <iostream>
 #include <algorithm>
 
 int main() {
+    std::clock_t startTime = std::clock();
     int flavinho[6], sorteio[6];
     for (int i = 0; i < 6; i++) {
         std::cin >> flavinho[i];
@@ -32,5 +34,10 @@ int main() {
         std::cout << "sena" << std::endl;
     }
 
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -29,6 +30,7 @@ void bfs(int start, vector<vector<int>>& graph, vector<int>& diameter) {
 }
 
 int main() {
+    std::clock_t startTime = std::clock();
     cin >> n >> m;
     graphC.resize(n + 1);
     graphQ.resize(m + 1);
@@ -70,5 +72,10 @@ int main() {
 
     cout << cNode << " " << qNode << endl;
 
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

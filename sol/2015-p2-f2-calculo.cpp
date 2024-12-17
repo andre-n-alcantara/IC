@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 #include <vector>
 #include <string>
@@ -22,6 +23,7 @@ vector<int> addOBI2015(vector<int> x, vector<int> y) {
 }
 
 int main() {
+    std::clock_t startTime = std::clock();
     int M, N;
     cin >> M >> N;
     vector<int> x(M);
@@ -37,5 +39,10 @@ int main() {
         cout << result[i] << " ";
     }
     cout << endl;
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

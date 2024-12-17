@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -30,6 +31,7 @@ int bfs(vector<vector<int>> &graph, int O, int D) {
 }
 
 int main() {
+    std::clock_t startTime = std::clock();
     int T, L, O, D;
     cin >> T >> L >> O >> D;
 
@@ -48,5 +50,10 @@ int main() {
     int min_lines = bfs(graph, O, D);
     cout << min_lines << endl;
 
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

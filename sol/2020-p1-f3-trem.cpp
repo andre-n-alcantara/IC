@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -32,6 +33,7 @@ int dijkstra(int start, int end, int train_length) {
 }
 
 int main() {
+    std::clock_t startTime = std::clock();
     int E, R;
     cin >> E >> R;
     for (int i = 0; i < R; i++) {
@@ -47,5 +49,10 @@ int main() {
         cin >> X >> T;
         cout << dijkstra(X, X, T) << endl;
     }
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

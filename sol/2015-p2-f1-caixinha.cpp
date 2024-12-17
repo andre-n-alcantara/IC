@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 
 using namespace std;
@@ -19,9 +20,15 @@ long long solve(int n, int m, int a, int b, int c) {
 }
 
 int main() {
+    std::clock_t startTime = std::clock();
     int n, m;
     cin >> n >> m;
     memset(dp, -1, sizeof dp);
     cout << solve(n, m, 0, 0, 0) << endl;
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }

@@ -1,3 +1,4 @@
+#include <ctime>
 #include <iostream>
 #include <queue>
 #include <vector>
@@ -10,6 +11,7 @@ struct Ligacao {
 };
 
 int main() {
+    std::clock_t startTime = std::clock();
     int N, L;
     cin >> N >> L;
 
@@ -36,5 +38,10 @@ int main() {
         cout << i + 1 << " " << ligações[i] << endl;
     }
 
-    return 0;
+    
+    std::clock_t endTime = std::clock();
+    std::clock_t clockTicksTaken = endTime - startTime;
+    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
+    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+return 0;
 }
