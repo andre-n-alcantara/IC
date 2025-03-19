@@ -1,7 +1,0 @@
-2012-p2-f2-bomba.cpp: In function ‘int bfs(int, int, int)’:
-2012-p2-f2-bomba.cpp:27:17: warning: unused variable ‘time’ [-Wunused-variable]
-   27 |             int time = edge.second;
-      |                 ^~~~
-2012-p2-f2-bomba.cpp:15:33: warning: unused parameter ‘n’ [-Wunused-parameter]
-   15 | int bfs(int start, int end, int n) {
-      |                             ~~~~^

@@ -23,7 +23,6 @@ void soma(int x, int y) {
 }
 
 int main() {
-    std::clock_t startTime = std::clock();
     int n, m;
     cin >> n >> m;
     mem.resize(n + 1);
@@ -41,9 +40,5 @@ int main() {
         }
     }
     
-    std::clock_t endTime = std::clock();
-    std::clock_t clockTicksTaken = endTime - startTime;
-    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
-    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
 return 0;
 }

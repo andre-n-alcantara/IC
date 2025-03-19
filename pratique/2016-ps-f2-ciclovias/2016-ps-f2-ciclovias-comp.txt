@@ -1,8 +1,0 @@
-2016-ps-f2-ciclovias.cpp: In function ‘int main()’:
-2016-ps-f2-ciclovias.cpp:32:5: error: ‘memset’ was not declared in this scope
-   32 |     memset(dp, -1, sizeof(dp));
-      |     ^~~~~~
-2016-ps-f2-ciclovias.cpp:4:1: note: ‘memset’ is defined in header ‘<cstring>’; did you forget to ‘#include <cstring>’?
-    3 | #include <queue>
-  +++ |+#include <cstring>
-    4 | 

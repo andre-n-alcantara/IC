@@ -1,8 +1,0 @@
-2016-p2-f2-ciclovias.cpp: In function ‘void dfs(int, int)’:
-2016-p2-f2-ciclovias.cpp:13:22: error: ‘INT_MAX’ was not declared in this scope
-   13 |     int mx = 0, mn = INT_MAX;
-      |                      ^~~~~~~
-2016-p2-f2-ciclovias.cpp:5:1: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
-    4 | #include <queue>
-  +++ |+#include <climits>
-    5 | 

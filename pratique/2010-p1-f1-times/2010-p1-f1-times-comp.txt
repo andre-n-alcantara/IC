@@ -1,5 +1,0 @@
-2010-p1-f1-times.cpp: In function ‘int main()’:
-2010-p1-f1-times.cpp:42:14: error: ‘sort’ is not a member of ‘std’; did you mean ‘qsort’?
-   42 |         std::sort(time.begin(), time.end());
-      |              ^~~~
-      |              qsort

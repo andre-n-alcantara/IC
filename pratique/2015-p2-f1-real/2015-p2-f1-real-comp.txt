@@ -1,4 +1,0 @@
-2015-p2-f1-real.cpp: In function ‘int main()’:
-2015-p2-f1-real.cpp:51:26: error: ‘setprecision’ was not declared in this scope
-   51 |         cout << fixed << setprecision(2) << percentage << " ";
-      |                          ^~~~~~~~~~~~

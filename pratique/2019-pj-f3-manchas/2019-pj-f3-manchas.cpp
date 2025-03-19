@@ -36,7 +36,6 @@ int countSpots() {
 }
 
 int main() {
-    std::clock_t startTime = std::clock();
     cin >> N >> M;
     img.resize(N, vector<int>(M));
     visited.resize(N, vector<bool>(M, false));
@@ -47,9 +46,5 @@ int main() {
     }
     cout << countSpots() << endl;
     
-    std::clock_t endTime = std::clock();
-    std::clock_t clockTicksTaken = endTime - startTime;
-    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
-    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
 return 0;
 }

@@ -1,4 +1,0 @@
-2020-p1-f2-estrada.cpp: In function ‘int main()’:
-2020-p1-f2-estrada.cpp:24:22: error: ‘setprecision’ was not declared in this scope
-   24 |     cout << fixed << setprecision(2) << min_interval << endl;
-      |                      ^~~~~~~~~~~~

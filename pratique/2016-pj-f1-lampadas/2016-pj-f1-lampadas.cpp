@@ -4,7 +4,6 @@
 using namespace std;
 
 int main() {
-    std::clock_t startTime = std::clock();
     int n;
     cin >> n;
     bool lampA = false, lampB = false;
@@ -21,9 +20,5 @@ int main() {
     cout << (lampA ? 1 : 0) << endl;
     cout << (lampB ? 1 : 0) << endl;
     
-    std::clock_t endTime = std::clock();
-    std::clock_t clockTicksTaken = endTime - startTime;
-    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
-    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
 return 0;
 }

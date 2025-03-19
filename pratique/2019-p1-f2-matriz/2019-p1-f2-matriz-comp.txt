@@ -1,3 +1,0 @@
-/tmp/cc1qL6Uy.o: na função "_GLOBAL__sub_I_dp":
-2019-p1-f2-matriz.cpp:(.text.startup+0x628): realocação truncada para caber: R_X86_64_PC32 contra ".bss"
-collect2: error: ld returned 1 exit status

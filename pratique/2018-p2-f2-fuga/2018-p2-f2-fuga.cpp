@@ -39,7 +39,6 @@ int bfs(vector<vector<bool>>& grid, int x1, int y1, int x2, int y2) {
 }
 
 int main() {
-    std::clock_t startTime = std::clock();
     int N, M, Xe, Ye, Xs, Ys;
     cin >> N >> M >> Xe >> Ye >> Xs >> Ys;
     vector<vector<bool>> grid(N, vector<bool>(M, false));
@@ -51,9 +50,5 @@ int main() {
     int ans = bfs(grid, Xe-1, Ye-1, Xs-1, Ys-1);
     cout << ans << endl;
     
-    std::clock_t endTime = std::clock();
-    std::clock_t clockTicksTaken = endTime - startTime;
-    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
-    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
 return 0;
 }

@@ -28,16 +28,11 @@ std::string findRoot(std::string word) {
 }
 
 int main() {
-    std::clock_t startTime = std::clock();
     int N;
     std::cin >> N;
     std::string word;
     std::cin >> word;
     std::cout << findRoot(word) << std::endl;
     
-    std::clock_t endTime = std::clock();
-    std::clock_t clockTicksTaken = endTime - startTime;
-    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
-    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
 return 0;
 }

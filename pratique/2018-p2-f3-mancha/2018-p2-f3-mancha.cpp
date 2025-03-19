@@ -77,7 +77,6 @@ bool isRegular() {
 }
 
 int main() {
-    std::clock_t startTime = std::clock();
     cin >> N;
     image.resize(N, vector<char>(N));
 
@@ -94,9 +93,5 @@ int main() {
     }
 
     
-    std::clock_t endTime = std::clock();
-    std::clock_t clockTicksTaken = endTime - startTime;
-    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
-    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
 return 0;
 }

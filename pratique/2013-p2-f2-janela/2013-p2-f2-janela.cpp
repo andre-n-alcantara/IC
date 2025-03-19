@@ -2,7 +2,6 @@
 #include <iostream>
 
 int main() {
-    std::clock_t startTime = std::clock();
     int F1, F2, F3;
     std::cin >> F1 >> F2 >> F3;
 
@@ -13,9 +12,5 @@ int main() {
     std::cout << area * 100 << std::endl;
 
     
-    std::clock_t endTime = std::clock();
-    std::clock_t clockTicksTaken = endTime - startTime;
-    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
-    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
 return 0;
 }

@@ -1,7 +1,0 @@
-2011-p2-f1-tesouro.cpp: In function ‘bool bfs(int, std::vector<Point>, int, int)’:
-2011-p2-f1-tesouro.cpp:24:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Point>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
-   24 |         for (int i = 0; i < pistas.size(); i++) {
-      |                         ~~^~~~~~~~~~~~~~~
-2011-p2-f1-tesouro.cpp:21:13: warning: unused variable ‘d’ [-Wunused-variable]
-   21 |         int d = q.front().d;
-      |             ^

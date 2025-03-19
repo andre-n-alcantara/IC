@@ -3,7 +3,6 @@
 using namespace std;
 
 int main(){
-    std::clock_t startTime = std::clock();
     int IA, IB, FA, FB;
     cin >> IA >> IB >> FA >> FB;
 

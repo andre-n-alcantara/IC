@@ -49,7 +49,6 @@ int minDistance(vector<Rect>& rects, Point start, Point end) {
 }
 
 int main() {
-    std::clock_t startTime = std::clock();
     int xi, yi, xf, yf, n;
     cin >> xi >> yi >> xf >> yf;
     Point start = {xi, yi};
@@ -64,9 +63,5 @@ int main() {
     cout << minDistance(rects, start, end) << endl;
 
     
-    std::clock_t endTime = std::clock();
-    std::clock_t clockTicksTaken = endTime - startTime;
-    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
-    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
 return 0;
 }

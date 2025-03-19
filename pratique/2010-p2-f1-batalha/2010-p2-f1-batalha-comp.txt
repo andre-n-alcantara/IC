@@ -1,7 +1,0 @@
-2010-p2-f1-batalha.cpp: In function ‘int dfs(int, int)’:
-2010-p2-f1-batalha.cpp:14:20: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<char> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
-   14 |     if (l < 0 || l >= board.size() || c < 0 || c >= board[0].size() || board[l][c] == '.' || visited[l][c])
-      |                  ~~^~~~~~~~~~~~~~~
-2010-p2-f1-batalha.cpp:14:50: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
-   14 |     if (l < 0 || l >= board.size() || c < 0 || c >= board[0].size() || board[l][c] == '.' || visited[l][c])
-      |                                                ~~^~~~~~~~~~~~~~~~~~

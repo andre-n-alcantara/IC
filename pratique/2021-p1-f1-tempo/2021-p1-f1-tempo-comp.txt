@@ -1,5 +1,0 @@
-2021-p1-f1-tempo.cpp: In function ‘int main()’:
-2021-p1-f1-tempo.cpp:44:5: error: ‘sort’ was not declared in this scope; did you mean ‘short’?
-   44 |     sort(friends.begin(), friends.end());
-      |     ^~~~
-      |     short

@@ -1,7 +1,0 @@
-2012-p2-f1-cavalo.cpp:7:7: error: ‘intBURACOS’ does not name a type
-    7 | const intBURACOS[4][2] = {{1, 3}, {2, 3}, {2, 5}, {5, 4}};
-      |       ^~~~~~~~~~
-2012-p2-f1-cavalo.cpp: In function ‘int main()’:
-2012-p2-f1-cavalo.cpp:28:23: error: ‘BURACOS’ was not declared in this scope
-   28 |             if (nx == BURACOS[j][0] && ny == BURACOS[j][1])
-      |                       ^~~~~~~

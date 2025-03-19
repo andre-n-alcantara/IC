@@ -1,7 +1,0 @@
-2017-p2-f3-taxa.cpp: In function ‘int main()’:
-2017-p2-f3-taxa.cpp:32:9: warning: array subscript 201 is above array bounds of ‘double [201][201]’ [-Warray-bounds]
-   32 |     fill(&dp[0][0], &dp[201][201], -1);
-      |     ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-2017-p2-f3-taxa.cpp:8:8: note: while referencing ‘dp’
-    8 | double dp[201][201];
-      |        ^~

@@ -52,7 +52,6 @@ int bfs() {
 }
 
 int main() {
-    std::clock_t startTime = std::clock();
     ios::sync_with_stdio(false);
     cin.tie(0);
 
@@ -69,9 +68,5 @@ int main() {
     cout << bfs() << endl;
 
     
-    std::clock_t endTime = std::clock();
-    std::clock_t clockTicksTaken = endTime - startTime;
-    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
-    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
 return 0;
 }

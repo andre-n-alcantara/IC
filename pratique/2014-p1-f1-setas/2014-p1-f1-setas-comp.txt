@@ -1,6 +1,0 @@
-2014-p1-f1-setas.cpp:13:1: sorry, unimplemented: non-trivial designated initializers not supported
-   13 | };
-      | ^
-2014-p1-f1-setas.cpp:13:1: sorry, unimplemented: non-trivial designated initializers not supported
-2014-p1-f1-setas.cpp:13:1: sorry, unimplemented: non-trivial designated initializers not supported
-2014-p1-f1-setas.cpp:13:1: sorry, unimplemented: non-trivial designated initializers not supported

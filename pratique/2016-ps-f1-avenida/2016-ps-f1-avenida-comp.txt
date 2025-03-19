@@ -1,8 +1,0 @@
-2016-ps-f1-avenida.cpp: In function ‘int main()’:
-2016-ps-f1-avenida.cpp:17:21: error: ‘INT_MAX’ was not declared in this scope
-   17 |     int min_valor = INT_MAX;
-      |                     ^~~~~~~
-2016-ps-f1-avenida.cpp:4:1: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
-    3 | #include <algorithm>
-  +++ |+#include <climits>
-    4 | 

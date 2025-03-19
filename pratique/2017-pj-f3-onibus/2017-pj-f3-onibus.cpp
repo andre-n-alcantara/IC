@@ -28,7 +28,6 @@ void bfs(int start) {
 }
 
 int main() {
-    std::clock_t startTime = std::clock();
     int n, a, b;
     cin >> n >> a >> b;
 
@@ -48,9 +47,5 @@ int main() {
     cout << dist[b] << endl;
 
     
-    std::clock_t endTime = std::clock();
-    std::clock_t clockTicksTaken = endTime - startTime;
-    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
-    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
 return 0;
 }

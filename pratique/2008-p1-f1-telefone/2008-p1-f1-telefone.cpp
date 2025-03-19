@@ -4,7 +4,6 @@
 #include <map>
 
 int main() {
-    std::clock_t startTime = std::clock();
     std::string input;
     std::map<char, char> phoneMap = {
         {'A', '2'}, {'B', '2'}, {'C', '2'},
@@ -25,9 +24,5 @@ int main() {
     }
     std::cout << input << std::endl;
     
-    std::clock_t endTime = std::clock();
-    std::clock_t clockTicksTaken = endTime - startTime;
-    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
-    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
 return 0;
 }

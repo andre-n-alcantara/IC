@@ -1,4 +1,0 @@
-2011-p2-f2-escalona.cpp: In function ‘int main()’:
-2011-p2-f2-escalona.cpp:48:22: warning: comparison of integer expressions of different signedness: ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
-   48 |     if (order.size() != n) {
-      |         ~~~~~~~~~~~~~^~~~

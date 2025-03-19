@@ -1,8 +1,0 @@
-2021-ps-f2-senha.cpp: In function ‘int main()’:
-2021-ps-f2-senha.cpp:25:42: error: invalid initialization of reference of type ‘const string&’ {aka ‘const std::__cxx11::basic_string<char>&’} from expression of type ‘char’
-   25 |         for (const string& word : words[i]) {
-      |                                          ^
-2021-ps-f2-senha.cpp:25:28: warning: loop variable ‘word’ of type ‘const string&’ {aka ‘const std::__cxx11::basic_string<char>&’} binds to a temporary constructed from type ‘char’ [-Wrange-loop-construct]
-   25 |         for (const string& word : words[i]) {
-      |                            ^~~~
-2021-ps-f2-senha.cpp:25:28: note: use non-reference type ‘const string’ {aka ‘const std::__cxx11::basic_string<char>’} to make the copy explicit or ‘const char&’ to prevent copying

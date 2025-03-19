@@ -1,8 +1,0 @@
-2007-p2-f1-saco.cpp: In function ‘int solve()’:
-2007-p2-f1-saco.cpp:21:15: error: ‘INT_MAX’ was not declared in this scope
-   21 |     int ans = INT_MAX;
-      |               ^~~~~~~
-2007-p2-f1-saco.cpp:5:1: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
-    4 | #include <queue>
-  +++ |+#include <climits>
-    5 | 

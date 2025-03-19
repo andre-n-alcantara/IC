@@ -1,7 +1,0 @@
-2007-p1-f1-magico.cpp: In function ‘int verificaMagico(std::vector<std::vector<int> >&, int)’:
-2007-p1-f1-magico.cpp:32:9: error: ‘diag1Soma’ was not declared in this scope
-   32 |     if (diag1Soma != soma || diag2Soma != soma) {
-      |         ^~~~~~~~~
-2007-p1-f1-magico.cpp:32:30: error: ‘diag2Soma’ was not declared in this scope
-   32 |     if (diag1Soma != soma || diag2Soma != soma) {
-      |                              ^~~~~~~~~

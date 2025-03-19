@@ -9,7 +9,6 @@ int dx[] = {-1, 1, 0, 0};
 int dy[] = {0, 0, -1, 1};
 
 int main() {
-    std::clock_t startTime = std::clock();
     int L, C;
     cin >> L >> C;
     vector<vector<char>> mapa(L, vector<char>(C));
@@ -43,10 +42,6 @@ int main() {
             if (mapa[i][j] == 'H') {
                 cout << i + 1 << " " << j + 1 << endl;
                 
-    std::clock_t endTime = std::clock();
-    std::clock_t clockTicksTaken = endTime - startTime;
-    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
-    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
 return 0;
             }
         }

@@ -2,7 +2,6 @@
 #include <iostream>
 
 int main() {
-    std::clock_t startTime = std::clock();
     int A, B;
     std::cin >> A >> B;
 
@@ -14,10 +13,6 @@ int main() {
                 std::cout << i + 2 << " " << i << std::endl;
             }
             
-    std::clock_t endTime = std::clock();
-    std::clock_t clockTicksTaken = endTime - startTime;
-    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
-    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
 return 0;
         }
     }

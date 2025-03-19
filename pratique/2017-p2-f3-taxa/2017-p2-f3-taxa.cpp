@@ -24,7 +24,6 @@ double divide(int l, int r) {
 }
 
 int main() {
-    std::clock_t startTime = std::clock();
     ios::sync_with_stdio(false);
     cin >> N >> F;
     areas.resize(N);
@@ -32,9 +31,5 @@ int main() {
     fill(&dp[0][0], &dp[201][201], -1);
     printf("%.2f\n", divide(0, N - 1));
     
-    std::clock_t endTime = std::clock();
-    std::clock_t clockTicksTaken = endTime - startTime;
-    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
-    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
 return 0;
 }

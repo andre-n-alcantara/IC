@@ -1,7 +1,0 @@
-2020-ps-f1-bingo.cpp: In function ‘int main()’:
-2020-ps-f1-bingo.cpp:31:56: warning: comparison of integer expressions of different signedness: ‘std::set<int>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
-   31 |             if (numerosSorteados.count(cartelas[j][0]) == K) {
-      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
-2020-ps-f1-bingo.cpp:40:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
-   40 |     for (int i = 0; i < vencedoras.size(); i++) {
-      |                     ~~^~~~~~~~~~~~~~~~~~~

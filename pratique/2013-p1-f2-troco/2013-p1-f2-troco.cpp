@@ -3,7 +3,6 @@
 using namespace std;
 
 int main() {
-    std::clock_t startTime = std::clock();
     int V, M;
     cin >> V >> M;
     vector<int> coins(M);
@@ -16,9 +15,5 @@ int main() {
             dp[j] = dp[j] || dp[j - coins[i]];
     cout << (dp[V] ? "S" : "N") << endl;
     
-    std::clock_t endTime = std::clock();
-    std::clock_t clockTicksTaken = endTime - startTime;
-    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
-    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
 return 0;
 }

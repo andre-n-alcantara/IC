@@ -42,7 +42,6 @@ void bfs(int r, int c) {
 }
 
 int main() {
-    std::clock_t startTime = std::clock();
     cin >> R >> C;
     for (int i = 0; i < R; i++) {
         for (int j = 0; j < C; j++) {
@@ -68,9 +67,5 @@ int main() {
 
     cout << sheep << " " << wolves << endl;
     
-    std::clock_t endTime = std::clock();
-    std::clock_t clockTicksTaken = endTime - startTime;
-    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
-    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
 return 0;
 }

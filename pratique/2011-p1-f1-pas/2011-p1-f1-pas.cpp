@@ -22,7 +22,6 @@ int minParts(vector<int>& seq) {
 }
 
 int main() {
-    std::clock_t startTime = std::clock();
     int n;
     cin >> n;
     vector<int> seq(n);
@@ -32,9 +31,5 @@ int main() {
     cout << minParts(seq) << endl;
 
     
-    std::clock_t endTime = std::clock();
-    std::clock_t clockTicksTaken = endTime - startTime;
-    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
-    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
 return 0;
 }

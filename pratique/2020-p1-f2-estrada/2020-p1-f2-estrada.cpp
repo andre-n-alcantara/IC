@@ -6,7 +6,6 @@
 using namespace std;
 
 int main() {
-    std::clock_t startTime = std::clock();
     int T, N;
     cin >> T >> N;
     vector<int> cities(N);
@@ -24,9 +23,5 @@ int main() {
     cout << fixed << setprecision(2) << min_interval << endl;
 
     
-    std::clock_t endTime = std::clock();
-    std::clock_t clockTicksTaken = endTime - startTime;
-    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
-    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
 return 0;
 }

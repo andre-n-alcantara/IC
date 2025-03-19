@@ -2,7 +2,6 @@
 #include <iostream>
 
 int main() {
-    std::clock_t startTime = std::clock();
     int X, Y, L1, H1, L2, H2;
     std::cin >> X >> Y >> L1 >> H1 >> L2 >> H2;
 
@@ -15,9 +14,5 @@ int main() {
         std::cout << "N" << std::endl;
 
     
-    std::clock_t endTime = std::clock();
-    std::clock_t clockTicksTaken = endTime - startTime;
-    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
-    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
 return 0;
 }

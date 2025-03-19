@@ -36,7 +36,6 @@ int count_sandwiches() {
 }
 
 int main() {
-    std::clock_t startTime = std::clock();
     cin >> n >> m;
     forbidden.resize(m);
     for (int i = 0; i < m; i++) {
@@ -44,9 +43,5 @@ int main() {
     }
     cout << count_sandwiches() << endl;
     
-    std::clock_t endTime = std::clock();
-    std::clock_t clockTicksTaken = endTime - startTime;
-    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
-    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
 return 0;
 }

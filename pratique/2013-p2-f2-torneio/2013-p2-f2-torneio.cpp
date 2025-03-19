@@ -34,7 +34,6 @@ int count_losses(int n, int k, vector<int> skills) {
 }
 
 int main() {
-    std::clock_t startTime = std::clock();
     int n, k;
     cin >> n >> k;
     vector<int> skills(1 << n);
@@ -43,9 +42,5 @@ int main() {
     }
     cout << count_losses(n, k, skills) << endl;
     
-    std::clock_t endTime = std::clock();
-    std::clock_t clockTicksTaken = endTime - startTime;
-    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
-    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
 return 0;
 }

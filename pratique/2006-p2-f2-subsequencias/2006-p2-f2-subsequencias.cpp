@@ -33,7 +33,6 @@ int independenceDegree(string S1, string S2) {
 }
 
 int main() {
-    std::clock_t startTime = std::clock();
     int N, M;
     string S1, S2;
 
@@ -43,9 +42,5 @@ int main() {
     cout << independenceDegree(S1, S2) << endl;
 
     
-    std::clock_t endTime = std::clock();
-    std::clock_t clockTicksTaken = endTime - startTime;
-    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
-    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
 return 0;
 }

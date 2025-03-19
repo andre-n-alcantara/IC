@@ -16,7 +16,6 @@ void print_solution(vector<pair<char, pair<int, int>>> solution) {
 }
 
 int main() {
-    std::clock_t startTime = std::clock();
     cin >> L >> C;
     chairs.resize(L, vector<int>(C));
     for (int i = 0; i < L; ++i) {
@@ -53,9 +52,5 @@ int main() {
     print_solution(solution);
 
     
-    std::clock_t endTime = std::clock();
-    std::clock_t clockTicksTaken = endTime - startTime;
-    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
-    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
 return 0;
 }

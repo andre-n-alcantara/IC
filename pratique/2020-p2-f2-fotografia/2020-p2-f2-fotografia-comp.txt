@@ -1,8 +1,0 @@
-2020-p2-f2-fotografia.cpp: In function ‘int main()’:
-2020-p2-f2-fotografia.cpp:13:19: error: ‘INT_MAX’ was not declared in this scope
-   13 |     int minDiff = INT_MAX;
-      |                   ^~~~~~~
-2020-p2-f2-fotografia.cpp:4:1: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
-    3 | #include <algorithm>
-  +++ |+#include <climits>
-    4 | 

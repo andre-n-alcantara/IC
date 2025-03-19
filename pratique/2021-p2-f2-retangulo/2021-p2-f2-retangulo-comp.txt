@@ -1,4 +1,0 @@
-2021-p2-f2-retangulo.cpp: In function ‘int main()’:
-2021-p2-f2-retangulo.cpp:19:20: error: ‘accumulate’ was not declared in this scope
-   19 |     if (sum * 2 == accumulate(lengths.begin(), lengths.end(), 0)) {
-      |                    ^~~~~~~~~~

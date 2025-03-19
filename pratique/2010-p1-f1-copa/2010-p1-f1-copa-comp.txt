@@ -1,4 +1,0 @@
-2010-p1-f1-copa.cpp: In function ‘int main()’:
-2010-p1-f1-copa.cpp:43:10: warning: ‘winner’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-   43 |     char winner;
-      |          ^~~~~~

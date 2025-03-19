@@ -7,7 +7,6 @@
 using namespace std;
 
 int main() {
-    std::clock_t startTime = std::clock();
     int N;
     cin >> N;
     vector<string> seq(N);
@@ -22,10 +21,6 @@ int main() {
                 if (concat.find(seq[i]) != string::npos) {
                     cout << seq[i] << endl;
                     
-    std::clock_t endTime = std::clock();
-    std::clock_t clockTicksTaken = endTime - startTime;
-    double timeInSeconds = clockTicksTaken / (double) CLOCKS_PER_SEC;
-    std::cout << "timeInSeconds: " << timeInSeconds << '\n';
 return 0;
                 }
             }
