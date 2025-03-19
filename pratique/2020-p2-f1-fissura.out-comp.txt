@@ -1,0 +1,7 @@
+2020-p2-f1-fissura.cpp: In function ‘void bfs(std::vector<std::vector<char> >&, int, int, int)’:
+2020-p2-f1-fissura.cpp:24:25: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<char> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   24 |       if (nx >= 0 && nx < grid.size() && ny >= 0 && ny < grid[0].size() && grid[nx][ny] - '0' <= F && grid[nx][ny] != '*') {
+      |                      ~~~^~~~~~~~~~~~~
+2020-p2-f1-fissura.cpp:24:56: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   24 |       if (nx >= 0 && nx < grid.size() && ny >= 0 && ny < grid[0].size() && grid[nx][ny] - '0' <= F && grid[nx][ny] != '*') {
+      |                                                     ~~~^~~~~~~~~~~~~~~~

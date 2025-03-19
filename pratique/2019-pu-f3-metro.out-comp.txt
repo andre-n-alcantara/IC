@@ -1,0 +1,84 @@
+2019-pu-f3-metro.cpp: In function ‘int bfsC(int, int)’:
+2019-pu-f3-metro.cpp:18:40: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?
+   18 |         for (int neighbor : graphC[node]) {
+      |                                        ^
+      |                                        std::begin
+In file included from /usr/include/c++/11/string:54,
+                 from /usr/include/c++/11/bits/locale_classes.h:40,
+                 from /usr/include/c++/11/bits/ios_base.h:41,
+                 from /usr/include/c++/11/ios:42,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from 2019-pu-f3-metro.cpp:1:
+/usr/include/c++/11/bits/range_access.h:108:37: note: ‘std::begin’ declared here
+  108 |   template<typename _Tp> const _Tp* begin(const valarray<_Tp>&) noexcept;
+      |                                     ^~~~~
+2019-pu-f3-metro.cpp:18:40: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?
+   18 |         for (int neighbor : graphC[node]) {
+      |                                        ^
+      |                                        std::end
+In file included from /usr/include/c++/11/string:54,
+                 from /usr/include/c++/11/bits/locale_classes.h:40,
+                 from /usr/include/c++/11/bits/ios_base.h:41,
+                 from /usr/include/c++/11/ios:42,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from 2019-pu-f3-metro.cpp:1:
+/usr/include/c++/11/bits/range_access.h:110:37: note: ‘std::end’ declared here
+  110 |   template<typename _Tp> const _Tp* end(const valarray<_Tp>&) noexcept;
+      |                                     ^~~
+2019-pu-f3-metro.cpp:10:25: warning: unused parameter ‘N’ [-Wunused-parameter]
+   10 | int bfsC(int start, int N) {
+      |                     ~~~~^
+2019-pu-f3-metro.cpp: In function ‘int bfsQ(int, int)’:
+2019-pu-f3-metro.cpp:37:40: error: ‘begin’ was not declared in this scope; did you mean ‘std::begin’?
+   37 |         for (int neighbor : graphQ[node]) {
+      |                                        ^
+      |                                        std::begin
+In file included from /usr/include/c++/11/string:54,
+                 from /usr/include/c++/11/bits/locale_classes.h:40,
+                 from /usr/include/c++/11/bits/ios_base.h:41,
+                 from /usr/include/c++/11/ios:42,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from 2019-pu-f3-metro.cpp:1:
+/usr/include/c++/11/bits/range_access.h:108:37: note: ‘std::begin’ declared here
+  108 |   template<typename _Tp> const _Tp* begin(const valarray<_Tp>&) noexcept;
+      |                                     ^~~~~
+2019-pu-f3-metro.cpp:37:40: error: ‘end’ was not declared in this scope; did you mean ‘std::end’?
+   37 |         for (int neighbor : graphQ[node]) {
+      |                                        ^
+      |                                        std::end
+In file included from /usr/include/c++/11/string:54,
+                 from /usr/include/c++/11/bits/locale_classes.h:40,
+                 from /usr/include/c++/11/bits/ios_base.h:41,
+                 from /usr/include/c++/11/ios:42,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from 2019-pu-f3-metro.cpp:1:
+/usr/include/c++/11/bits/range_access.h:110:37: note: ‘std::end’ declared here
+  110 |   template<typename _Tp> const _Tp* end(const valarray<_Tp>&) noexcept;
+      |                                     ^~~
+2019-pu-f3-metro.cpp:29:25: warning: unused parameter ‘M’ [-Wunused-parameter]
+   29 | int bfsQ(int start, int M) {
+      |                     ~~~~^
+2019-pu-f3-metro.cpp: In function ‘int main()’:
+2019-pu-f3-metro.cpp:59:19: error: request for member ‘push_back’ in ‘graphC.std::vector<int>::operator[](((std::vector<int>::size_type)A))’, which is of non-class type ‘__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type’ {aka ‘int’}
+   59 |         graphC[A].push_back(B);
+      |                   ^~~~~~~~~
+2019-pu-f3-metro.cpp:60:19: error: request for member ‘push_back’ in ‘graphC.std::vector<int>::operator[](((std::vector<int>::size_type)B))’, which is of non-class type ‘__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type’ {aka ‘int’}
+   60 |         graphC[B].push_back(A);
+      |                   ^~~~~~~~~
+2019-pu-f3-metro.cpp:66:19: error: request for member ‘push_back’ in ‘graphQ.std::vector<int>::operator[](((std::vector<int>::size_type)X))’, which is of non-class type ‘__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type’ {aka ‘int’}
+   66 |         graphQ[X].push_back(Y);
+      |                   ^~~~~~~~~
+2019-pu-f3-metro.cpp:67:19: error: request for member ‘push_back’ in ‘graphQ.std::vector<int>::operator[](((std::vector<int>::size_type)Y))’, which is of non-class type ‘__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type’ {aka ‘int’}
+   67 |         graphQ[Y].push_back(X);
+      |                   ^~~~~~~~~
+2019-pu-f3-metro.cpp:70:23: error: ‘INT_MAX’ was not declared in this scope
+   70 |     int minDiameter = INT_MAX;
+      |                       ^~~~~~~
+2019-pu-f3-metro.cpp:4:1: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+    3 | #include <queue>
+  +++ |+#include <climits>
+    4 | 

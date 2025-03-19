@@ -1,0 +1,4 @@
+2012-p1-f2-carnaval.cpp: In function ‘int main()’:
+2012-p1-f2-carnaval.cpp:12:37: error: ‘setprecision’ is not a member of ‘std’
+   12 |     std::cout << std::fixed << std::setprecision(1) << n[1] + n[2] + n[3] << std::endl;
+      |                                     ^~~~~~~~~~~~

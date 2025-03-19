@@ -1,0 +1,8 @@
+2021-pj-f3-sapo.cpp: In function ‘int main()’:
+2021-pj-f3-sapo.cpp:27:9: error: ‘tie’ was not declared in this scope
+   27 |         tie(c, l) = q.front();
+      |         ^~~
+2021-pj-f3-sapo.cpp:4:1: note: ‘std::tie’ is defined in header ‘<tuple>’; did you forget to ‘#include <tuple>’?
+    3 | #include <queue>
+  +++ |+#include <tuple>
+    4 | #include <vector>

@@ -1,0 +1,5 @@
+2016-ps-f2-times.cpp: In function ‘int main()’:
+2016-ps-f2-times.cpp:34:5: error: ‘sort’ was not declared in this scope; did you mean ‘short’?
+   34 |     sort(team1.begin(), team1.end());
+      |     ^~~~
+      |     short

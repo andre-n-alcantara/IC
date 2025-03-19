@@ -1,0 +1,7 @@
+2011-p2-f1-pesca.cpp: In function ‘int main()’:
+2011-p2-f1-pesca.cpp:28:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::pair<int, int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   28 |     for (int i = 0; i < intervalsX.size(); i++) {
+      |                     ~~^~~~~~~~~~~~~~~~~~~
+2011-p2-f1-pesca.cpp:38:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::pair<int, int> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   38 |     for (int i = 0; i < intervalsY.size(); i++) {
+      |                     ~~^~~~~~~~~~~~~~~~~~~

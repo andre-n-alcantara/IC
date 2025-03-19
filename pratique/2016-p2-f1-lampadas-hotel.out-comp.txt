@@ -1,0 +1,4 @@
+2016-p2-f1-lampadas-hotel.cpp: In function ‘int main()’:
+2016-p2-f1-lampadas-hotel.cpp:6:18: warning: unused variable ‘startTime’ [-Wunused-variable]
+    6 |     std::clock_t startTime = std::clock();
+      |                  ^~~~~~~~~

@@ -1,0 +1,28 @@
+2011-p1-f1-triangulos.cpp: In function ‘int main()’:
+2011-p1-f1-triangulos.cpp:13:27: error: no matching function for call to ‘max(<brace-enclosed initializer list>)’
+   13 |         int max = std::max({A, B, C});
+      |                   ~~~~~~~~^~~~~~~~~~~
+In file included from /usr/include/c++/11/bits/char_traits.h:39,
+                 from /usr/include/c++/11/ios:40,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from 2011-p1-f1-triangulos.cpp:2:
+/usr/include/c++/11/bits/stl_algobase.h:254:5: note: candidate: ‘template<class _Tp> constexpr const _Tp& std::max(const _Tp&, const _Tp&)’
+  254 |     max(const _Tp& __a, const _Tp& __b)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algobase.h:254:5: note:   template argument deduction/substitution failed:
+2011-p1-f1-triangulos.cpp:13:27: note:   candidate expects 2 arguments, 1 provided
+   13 |         int max = std::max({A, B, C});
+      |                   ~~~~~~~~^~~~~~~~~~~
+In file included from /usr/include/c++/11/bits/char_traits.h:39,
+                 from /usr/include/c++/11/ios:40,
+                 from /usr/include/c++/11/ostream:38,
+                 from /usr/include/c++/11/iostream:39,
+                 from 2011-p1-f1-triangulos.cpp:2:
+/usr/include/c++/11/bits/stl_algobase.h:300:5: note: candidate: ‘template<class _Tp, class _Compare> constexpr const _Tp& std::max(const _Tp&, const _Tp&, _Compare)’
+  300 |     max(const _Tp& __a, const _Tp& __b, _Compare __comp)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algobase.h:300:5: note:   template argument deduction/substitution failed:
+2011-p1-f1-triangulos.cpp:13:27: note:   candidate expects 3 arguments, 1 provided
+   13 |         int max = std::max({A, B, C});
+      |                   ~~~~~~~~^~~~~~~~~~~

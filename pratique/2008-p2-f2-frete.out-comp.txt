@@ -1,0 +1,4 @@
+2008-p2-f2-frete.cpp: In function ‘int dijkstra(int)’:
+2008-p2-f2-frete.cpp:43:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<Edge> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   43 |     for (int i = 0; i < graph.size(); ++i) {
+      |                     ~~^~~~~~~~~~~~~~

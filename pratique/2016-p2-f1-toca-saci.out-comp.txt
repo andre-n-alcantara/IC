@@ -1,0 +1,7 @@
+2016-p2-f1-toca-saci.cpp: In function ‘int main()’:
+2016-p2-f1-toca-saci.cpp:33:23: warning: ‘startY’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   33 |     map[startX][startY] = 0;
+      |                       ^
+2016-p2-f1-toca-saci.cpp:33:15: warning: ‘startX’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   33 |     map[startX][startY] = 0;
+      |               ^

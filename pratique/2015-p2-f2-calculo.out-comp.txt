@@ -1,0 +1,8 @@
+2015-p2-f2-calculo.cpp: In function ‘std::vector<int> addOBI2015(std::vector<int>, std::vector<int>)’:
+2015-p2-f2-calculo.cpp:18:5: error: ‘reverse’ was not declared in this scope
+   18 |     reverse(result.begin(), result.end());
+      |     ^~~~~~~
+2015-p2-f2-calculo.cpp: In function ‘int main()’:
+2015-p2-f2-calculo.cpp:38:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   38 |     for (int i = 0; i < result.size(); ++i) {
+      |                     ~~^~~~~~~~~~~~~~~

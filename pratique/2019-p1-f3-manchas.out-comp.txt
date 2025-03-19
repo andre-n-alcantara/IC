@@ -1,0 +1,4 @@
+2019-p1-f3-manchas.cpp:3:10: fatal error:  queue: Arquivo ou diretório inexistente
+    3 | #include < queue>
+      |          ^~~~~~~~
+compilation terminated.

@@ -1,0 +1,8 @@
+2015-p1-f2-capitais.cpp: In function ‘int main()’:
+2015-p1-f2-capitais.cpp:43:20: error: ‘INT_MAX’ was not declared in this scope
+   43 |     int min_dist = INT_MAX;
+      |                    ^~~~~~~
+2015-p1-f2-capitais.cpp:5:1: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+    4 | #include <queue>
+  +++ |+#include <climits>
+    5 | 

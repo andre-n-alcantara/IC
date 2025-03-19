@@ -1,0 +1,14 @@
+2018-p2-f2-wifi.cpp: In function ‘int main()’:
+2018-p2-f2-wifi.cpp:29:13: error: ‘queue’ was not declared in this scope
+   29 |             queue<int> q;
+      |             ^~~~~
+2018-p2-f2-wifi.cpp:5:1: note: ‘std::queue’ is defined in header ‘<queue>’; did you forget to ‘#include <queue>’?
+    4 | #include <algorithm>
+  +++ |+#include <queue>
+    5 | 
+2018-p2-f2-wifi.cpp:29:19: error: expected primary-expression before ‘int’
+   29 |             queue<int> q;
+      |                   ^~~
+2018-p2-f2-wifi.cpp:30:13: error: ‘q’ was not declared in this scope
+   30 |             q.push(i);
+      |             ^

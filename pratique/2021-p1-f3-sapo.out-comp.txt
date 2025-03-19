@@ -1,0 +1,79 @@
+2021-p1-f3-sapo.cpp: In function ‘bool is_valid(int, int)’:
+2021-p1-f3-sapo.cpp:17:56: error: no match for ‘operator!’ (operand type is ‘std::vector<bool>’)
+   17 |     return (1 <= c && c <= N) && (1 <= l && l <= M) && !visited[c][l];
+      |                                                        ^~~~~~~~~~~~~~
+2021-p1-f3-sapo.cpp:17:56: note: candidate: ‘operator!(bool)’ (built-in)
+2021-p1-f3-sapo.cpp:17:56: note:   no known conversion for argument 1 from ‘std::vector<bool>’ to ‘bool’
+2021-p1-f3-sapo.cpp: In function ‘bool bfs()’:
+2021-p1-f3-sapo.cpp:23:25: error: no match for ‘operator=’ (operand types are ‘std::vector<bool>’ and ‘bool’)
+   23 |     visited[S_C][S_L] = true;
+      |                         ^~~~
+In file included from /usr/include/c++/11/vector:68,
+                 from /usr/include/c++/11/queue:61,
+                 from 2021-p1-f3-sapo.cpp:2:
+/usr/include/c++/11/bits/stl_bvector.h:736:7: note: candidate: ‘std::vector<bool, _Alloc>& std::vector<bool, _Alloc>::operator=(const std::vector<bool, _Alloc>&) [with _Alloc = std::allocator<bool>]’
+  736 |       operator=(const vector& __x)
+      |       ^~~~~~~~
+/usr/include/c++/11/bits/stl_bvector.h:736:31: note:   no known conversion for argument 1 from ‘bool’ to ‘const std::vector<bool>&’
+  736 |       operator=(const vector& __x)
+      |                 ~~~~~~~~~~~~~~^~~
+/usr/include/c++/11/bits/stl_bvector.h:767:7: note: candidate: ‘std::vector<bool, _Alloc>& std::vector<bool, _Alloc>::operator=(std::vector<bool, _Alloc>&&) [with _Alloc = std::allocator<bool>]’
+  767 |       operator=(vector&& __x) noexcept(_Bit_alloc_traits::_S_nothrow_move())
+      |       ^~~~~~~~
+/usr/include/c++/11/bits/stl_bvector.h:767:26: note:   no known conversion for argument 1 from ‘bool’ to ‘std::vector<bool>&&’
+  767 |       operator=(vector&& __x) noexcept(_Bit_alloc_traits::_S_nothrow_move())
+      |                 ~~~~~~~~~^~~
+/usr/include/c++/11/bits/stl_bvector.h:792:7: note: candidate: ‘std::vector<bool, _Alloc>& std::vector<bool, _Alloc>::operator=(std::initializer_list<bool>) [with _Alloc = std::allocator<bool>]’
+  792 |       operator=(initializer_list<bool> __l)
+      |       ^~~~~~~~
+/usr/include/c++/11/bits/stl_bvector.h:792:40: note:   no known conversion for argument 1 from ‘bool’ to ‘std::initializer_list<bool>’
+  792 |       operator=(initializer_list<bool> __l)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~^~~
+2021-p1-f3-sapo.cpp:37:34: error: no match for ‘operator=’ (operand types are ‘std::vector<bool>’ and ‘bool’)
+   37 |                 visited[nc][l] = true;
+      |                                  ^~~~
+In file included from /usr/include/c++/11/vector:68,
+                 from /usr/include/c++/11/queue:61,
+                 from 2021-p1-f3-sapo.cpp:2:
+/usr/include/c++/11/bits/stl_bvector.h:736:7: note: candidate: ‘std::vector<bool, _Alloc>& std::vector<bool, _Alloc>::operator=(const std::vector<bool, _Alloc>&) [with _Alloc = std::allocator<bool>]’
+  736 |       operator=(const vector& __x)
+      |       ^~~~~~~~
+/usr/include/c++/11/bits/stl_bvector.h:736:31: note:   no known conversion for argument 1 from ‘bool’ to ‘const std::vector<bool>&’
+  736 |       operator=(const vector& __x)
+      |                 ~~~~~~~~~~~~~~^~~
+/usr/include/c++/11/bits/stl_bvector.h:767:7: note: candidate: ‘std::vector<bool, _Alloc>& std::vector<bool, _Alloc>::operator=(std::vector<bool, _Alloc>&&) [with _Alloc = std::allocator<bool>]’
+  767 |       operator=(vector&& __x) noexcept(_Bit_alloc_traits::_S_nothrow_move())
+      |       ^~~~~~~~
+/usr/include/c++/11/bits/stl_bvector.h:767:26: note:   no known conversion for argument 1 from ‘bool’ to ‘std::vector<bool>&&’
+  767 |       operator=(vector&& __x) noexcept(_Bit_alloc_traits::_S_nothrow_move())
+      |                 ~~~~~~~~~^~~
+/usr/include/c++/11/bits/stl_bvector.h:792:7: note: candidate: ‘std::vector<bool, _Alloc>& std::vector<bool, _Alloc>::operator=(std::initializer_list<bool>) [with _Alloc = std::allocator<bool>]’
+  792 |       operator=(initializer_list<bool> __l)
+      |       ^~~~~~~~
+/usr/include/c++/11/bits/stl_bvector.h:792:40: note:   no known conversion for argument 1 from ‘bool’ to ‘std::initializer_list<bool>’
+  792 |       operator=(initializer_list<bool> __l)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~^~~
+2021-p1-f3-sapo.cpp:46:34: error: no match for ‘operator=’ (operand types are ‘std::vector<bool>’ and ‘bool’)
+   46 |                 visited[c][nl] = true;
+      |                                  ^~~~
+In file included from /usr/include/c++/11/vector:68,
+                 from /usr/include/c++/11/queue:61,
+                 from 2021-p1-f3-sapo.cpp:2:
+/usr/include/c++/11/bits/stl_bvector.h:736:7: note: candidate: ‘std::vector<bool, _Alloc>& std::vector<bool, _Alloc>::operator=(const std::vector<bool, _Alloc>&) [with _Alloc = std::allocator<bool>]’
+  736 |       operator=(const vector& __x)
+      |       ^~~~~~~~
+/usr/include/c++/11/bits/stl_bvector.h:736:31: note:   no known conversion for argument 1 from ‘bool’ to ‘const std::vector<bool>&’
+  736 |       operator=(const vector& __x)
+      |                 ~~~~~~~~~~~~~~^~~
+/usr/include/c++/11/bits/stl_bvector.h:767:7: note: candidate: ‘std::vector<bool, _Alloc>& std::vector<bool, _Alloc>::operator=(std::vector<bool, _Alloc>&&) [with _Alloc = std::allocator<bool>]’
+  767 |       operator=(vector&& __x) noexcept(_Bit_alloc_traits::_S_nothrow_move())
+      |       ^~~~~~~~
+/usr/include/c++/11/bits/stl_bvector.h:767:26: note:   no known conversion for argument 1 from ‘bool’ to ‘std::vector<bool>&&’
+  767 |       operator=(vector&& __x) noexcept(_Bit_alloc_traits::_S_nothrow_move())
+      |                 ~~~~~~~~~^~~
+/usr/include/c++/11/bits/stl_bvector.h:792:7: note: candidate: ‘std::vector<bool, _Alloc>& std::vector<bool, _Alloc>::operator=(std::initializer_list<bool>) [with _Alloc = std::allocator<bool>]’
+  792 |       operator=(initializer_list<bool> __l)
+      |       ^~~~~~~~
+/usr/include/c++/11/bits/stl_bvector.h:792:40: note:   no known conversion for argument 1 from ‘bool’ to ‘std::initializer_list<bool>’
+  792 |       operator=(initializer_list<bool> __l)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~^~~

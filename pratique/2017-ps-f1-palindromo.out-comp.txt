@@ -1,0 +1,8 @@
+2017-ps-f1-palindromo.cpp: In function ‘int minCut(std::string)’:
+2017-ps-f1-palindromo.cpp:18:27: error: ‘INT_MAX’ was not declared in this scope
+   18 |     vector<int> dp(n + 1, INT_MAX);
+      |                           ^~~~~~~
+2017-ps-f1-palindromo.cpp:4:1: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+    3 | #include <vector>
+  +++ |+#include <climits>
+    4 | 

@@ -1,0 +1,4 @@
+2014-p2-f1-copa.cpp: In function ‘int main()’:
+2014-p2-f1-copa.cpp:72:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Edge>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   72 |     for (int i = 0; i < edges.size(); i++) {
+      |                     ~~^~~~~~~~~~~~~~

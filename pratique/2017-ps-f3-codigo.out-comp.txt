@@ -1,0 +1,18 @@
+2017-ps-f3-codigo.cpp: In function ‘bool isSubsequence(const string&, const string&)’:
+2017-ps-f3-codigo.cpp:9:14: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+    9 |     while (i < s1.size() && j < s2.size()) {
+      |            ~~^~~~~~~~~~~
+2017-ps-f3-codigo.cpp:9:31: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+    9 |     while (i < s1.size() && j < s2.size()) {
+      |                             ~~^~~~~~~~~~~
+2017-ps-f3-codigo.cpp:15:14: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   15 |     return i == s1.size();
+      |            ~~^~~~~~~~~~~~
+2017-ps-f3-codigo.cpp: In function ‘bool isValidCode(const std::vector<std::__cxx11::basic_string<char> >&)’:
+2017-ps-f3-codigo.cpp:19:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::__cxx11::basic_string<char> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   19 |     for (int k = 2; k < code.size(); k++) {
+      |                     ~~^~~~~~~~~~~~~
+2017-ps-f3-codigo.cpp: In function ‘int main()’:
+2017-ps-f3-codigo.cpp:41:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::__cxx11::basic_string<char> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   41 |         for (int k = 2; k < code.size(); k++) {
+      |                         ~~^~~~~~~~~~~~~

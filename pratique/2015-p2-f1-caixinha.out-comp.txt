@@ -1,0 +1,8 @@
+2015-p2-f1-caixinha.cpp: In function ‘int main()’:
+2015-p2-f1-caixinha.cpp:26:5: error: ‘memset’ was not declared in this scope
+   26 |     memset(dp, -1, sizeof dp);
+      |     ^~~~~~
+2015-p2-f1-caixinha.cpp:3:1: note: ‘memset’ is defined in header ‘<cstring>’; did you forget to ‘#include <cstring>’?
+    2 | #include <iostream>
+  +++ |+#include <cstring>
+    3 | 

@@ -1,0 +1,8 @@
+2009-pj-f1-envelopes1.cpp: In function ‘int main()’:
+2009-pj-f1-envelopes1.cpp:15:21: error: ‘INT_MAX’ was not declared in this scope
+   15 |     int envelopes = INT_MAX;
+      |                     ^~~~~~~
+2009-pj-f1-envelopes1.cpp:4:1: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+    3 | #include <vector>
+  +++ |+#include <climits>
+    4 | 

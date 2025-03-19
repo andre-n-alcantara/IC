@@ -1,0 +1,4 @@
+2019-p1-f1-amigos.cpp: In function ‘int main()’:
+2019-p1-f1-amigos.cpp:14:9: warning: unused variable ‘max_height’ [-Wunused-variable]
+   14 |     int max_height = *std::max_element(heights.begin(), heights.end());
+      |         ^~~~~~~~~~

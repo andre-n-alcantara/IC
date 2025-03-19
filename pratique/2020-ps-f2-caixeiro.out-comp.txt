@@ -1,0 +1,42 @@
+2020-ps-f2-caixeiro.cpp:7:13: warning: left shift count >= width of type [-Wshift-count-overflow]
+    7 | int n, dp[1 << MAXN][MAXN], d[MAXN][MAXN];
+      |           ~~^~~~~~~
+2020-ps-f2-caixeiro.cpp: In function ‘int main()’:
+2020-ps-f2-caixeiro.cpp:33:11: warning: ‘memset’ used with length equal to number of elements without multiplication by element size [-Wmemset-elt-size]
+   33 |     memset(dp, -1, sizeof dp);
+      |     ~~~~~~^~~~~~~~~~~~~~~~~~~
+2020-ps-f2-caixeiro.cpp: In function ‘void floyd_warshall()’:
+2020-ps-f2-caixeiro.cpp:15:18: warning: ignoring return value of ‘int scanf(const char*, ...)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   15 |             scanf("%d %d %d", &i, &j, &d[i][j]);
+      |             ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2020-ps-f2-caixeiro.cpp: In function ‘int main()’:
+2020-ps-f2-caixeiro.cpp:32:10: warning: ignoring return value of ‘int scanf(const char*, ...)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   32 |     scanf("%d", &n);
+      |     ~~~~~^~~~~~~~~~
+2020-ps-f2-caixeiro.cpp: In function ‘int _Z3tspii.part.0(int, int)’:
+2020-ps-f2-caixeiro.cpp:28:19: warning: array subscript mask is outside array bounds of ‘int [0][1501]’ [-Warray-bounds]
+   28 |     return dp[mask][v] = ans;
+      |            ~~~~~~~^
+2020-ps-f2-caixeiro.cpp:7:8: note: while referencing ‘dp’
+    7 | int n, dp[1 << MAXN][MAXN], d[MAXN][MAXN];
+      |        ^~
+2020-ps-f2-caixeiro.cpp:23:16: warning: array subscript <unknown> is outside array bounds of ‘int [0][1501]’ [-Warray-bounds]
+   23 |     if (dp[mask][v] != -1) return dp[mask][v];
+      |         ~~~~~~~^
+2020-ps-f2-caixeiro.cpp:7:8: note: while referencing ‘dp’
+    7 | int n, dp[1 << MAXN][MAXN], d[MAXN][MAXN];
+      |        ^~
+2020-ps-f2-caixeiro.cpp: In function ‘int tsp(int, int)’:
+2020-ps-f2-caixeiro.cpp:23:16: warning: array subscript mask is outside array bounds of ‘int [0][1501]’ [-Warray-bounds]
+   23 |     if (dp[mask][v] != -1) return dp[mask][v];
+      |         ~~~~~~~^
+2020-ps-f2-caixeiro.cpp:7:8: note: while referencing ‘dp’
+    7 | int n, dp[1 << MAXN][MAXN], d[MAXN][MAXN];
+      |        ^~
+2020-ps-f2-caixeiro.cpp: In function ‘int main()’:
+2020-ps-f2-caixeiro.cpp:23:16: warning: array subscript <unknown> is outside array bounds of ‘int [0][1501]’ [-Warray-bounds]
+   23 |     if (dp[mask][v] != -1) return dp[mask][v];
+      |         ~~~~~~~^
+2020-ps-f2-caixeiro.cpp:7:8: note: while referencing ‘dp’
+    7 | int n, dp[1 << MAXN][MAXN], d[MAXN][MAXN];
+      |        ^~

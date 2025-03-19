@@ -1,0 +1,4 @@
+2021-ps-f2-retangulo.cpp: In function ‘int main()’:
+2021-ps-f2-retangulo.cpp:15:9: warning: unused variable ‘area’ [-Wunused-variable]
+   15 |     int area = L[0] * L[1];
+      |         ^~~~

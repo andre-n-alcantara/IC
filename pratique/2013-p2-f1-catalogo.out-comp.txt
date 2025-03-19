@@ -1,0 +1,8 @@
+2013-p2-f1-catalogo.cpp: In function ‘int main()’:
+2013-p2-f1-catalogo.cpp:18:21: error: ‘INT_MAX’ was not declared in this scope
+   18 |     int min_chars = INT_MAX;
+      |                     ^~~~~~~
+2013-p2-f1-catalogo.cpp:6:1: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+    5 | #include <algorithm>
+  +++ |+#include <climits>
+    6 | 

@@ -1,0 +1,7 @@
+2021-p2-f2-poligrama.cpp: In function ‘std::string findRoot(std::string)’:
+2021-p2-f2-poligrama.cpp:14:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   14 |     for (int len = 1; len <= word.size() / 2; ++len) {
+      |                       ~~~~^~~~~~~~~~~~~~~~~~
+2021-p2-f2-poligrama.cpp:18:29: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   18 |         for (int i = len; i < word.size(); i += len) {
+      |                           ~~^~~~~~~~~~~~~

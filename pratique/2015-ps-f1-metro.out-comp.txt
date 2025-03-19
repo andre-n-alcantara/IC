@@ -1,0 +1,4 @@
+2015-ps-f1-metro.cpp: In function ‘void dfs(int, int&)’:
+2015-ps-f1-metro.cpp:12:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   12 |     for (int i = 0; i < graph[node].size(); i++) {
+      |                     ~~^~~~~~~~~~~~~~~~~~~~

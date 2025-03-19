@@ -1,0 +1,13 @@
+2020-p2-f2-quebra.cpp: In function ‘int maxVal(int, std::vector<int>&, std::vector<int>&)’:
+2020-p2-f2-quebra.cpp:14:49: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   14 |                 dp[i][j] = max(dp[i][j - 1], (j > row1.size() ? 0 : row1[j - 1]) * (j > row2.size() ? 0 : row2[j - 1]));
+      |                                               ~~^~~~~~~~~~~~~
+2020-p2-f2-quebra.cpp:14:87: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   14 |                 dp[i][j] = max(dp[i][j - 1], (j > row1.size() ? 0 : row1[j - 1]) * (j > row2.size() ? 0 : row2[j - 1]));
+      |                                                                                     ~~^~~~~~~~~~~~~
+2020-p2-f2-quebra.cpp:16:68: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   16 |                 dp[i][j] = max(dp[i - 1][j - 1], dp[i - 1][j] + (j > row1.size() ? 0 : row1[j - 1]) * (j > row2.size() ? 0 : row2[j - 1]));
+      |                                                                  ~~^~~~~~~~~~~~~
+2020-p2-f2-quebra.cpp:16:106: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   16 |                 dp[i][j] = max(dp[i - 1][j - 1], dp[i - 1][j] + (j > row1.size() ? 0 : row1[j - 1]) * (j > row2.size() ? 0 : row2[j - 1]));
+      |                                                                                                        ~~^~~~~~~~~~~~~

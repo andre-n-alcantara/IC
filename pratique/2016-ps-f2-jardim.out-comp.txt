@@ -1,0 +1,13 @@
+2016-ps-f2-jardim.cpp: In function ‘int main()’:
+2016-ps-f2-jardim.cpp:26:32: warning: array subscript 7 is outside array bounds of ‘Point [7]’ [-Warray-bounds]
+   26 |     return (p2.x - p1.x) * (p4.x - p3.x) + (p2.y - p1.y) * (p4.y - p3.y) == 0;
+      |                             ~~~^
+2016-ps-f2-jardim.cpp:38:11: note: while referencing ‘p’
+   38 |     Point p[7];
+      |           ^
+2016-ps-f2-jardim.cpp:26:64: warning: array subscript 7 is outside array bounds of ‘Point [7]’ [-Warray-bounds]
+   26 |     return (p2.x - p1.x) * (p4.x - p3.x) + (p2.y - p1.y) * (p4.y - p3.y) == 0;
+      |                                                             ~~~^
+2016-ps-f2-jardim.cpp:38:11: note: while referencing ‘p’
+   38 |     Point p[7];
+      |           ^

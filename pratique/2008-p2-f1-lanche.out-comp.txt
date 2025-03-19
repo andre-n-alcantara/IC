@@ -1,0 +1,4 @@
+2008-p2-f1-lanche.cpp: In function ‘int dijkstra(int)’:
+2008-p2-f1-lanche.cpp:37:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   37 |     for (int i = 1; i < distancia.size(); i++) {
+      |                     ~~^~~~~~~~~~~~~~~~~~

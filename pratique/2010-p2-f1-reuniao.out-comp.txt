@@ -1,0 +1,18 @@
+2010-p2-f1-reuniao.cpp: In function ‘int main()’:
+2010-p2-f1-reuniao.cpp:44:5: error: ‘scanf’ was not declared in this scope
+   44 |     scanf("%d %d", &n, &m);
+      |     ^~~~~
+2010-p2-f1-reuniao.cpp:61:5: error: ‘printf’ was not declared in this scope
+   61 |     printf("%d\n", ans);
+      |     ^~~~~~
+2010-p2-f1-reuniao.cpp:5:1: note: ‘printf’ is defined in header ‘<cstdio>’; did you forget to ‘#include <cstdio>’?
+    4 | #include <climits>
+  +++ |+#include <cstdio>
+    5 | 
+2010-p2-f1-reuniao.cpp:67:10: error: ‘cout’ is not a member of ‘std’
+   67 |     std::cout << "timeInSeconds: " << timeInSeconds << '\n';
+      |          ^~~~
+2010-p2-f1-reuniao.cpp:5:1: note: ‘std::cout’ is defined in header ‘<iostream>’; did you forget to ‘#include <iostream>’?
+    4 | #include <climits>
+  +++ |+#include <iostream>
+    5 | 

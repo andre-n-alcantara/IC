@@ -1,0 +1,8 @@
+2021-ps-f2-tenis.cpp: In function ‘int main()’:
+2021-ps-f2-tenis.cpp:8:16: error: ‘INT_MAX’ was not declared in this scope
+    8 |     int diff = INT_MAX;
+      |                ^~~~~~~
+2021-ps-f2-tenis.cpp:3:1: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+    2 | #include <algorithm>
+  +++ |+#include <climits>
+    3 | 

@@ -1,0 +1,4 @@
+2012-p2-f2-banco.cpp: In function ‘int main()’:
+2012-p2-f2-banco.cpp:31:25: warning: comparison of integer expressions of different signedness: ‘std::priority_queue<std::pair<int, int>, std::vector<std::pair<int, int> >, std::greater<std::pair<int, int> > >::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+   31 |         if (fila.size() > C) {
+      |             ~~~~~~~~~~~~^~~

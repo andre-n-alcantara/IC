@@ -1,0 +1,16 @@
+2017-ps-f3-arranhaceu.cpp: In function ‘int main()’:
+2017-ps-f3-arranhaceu.cpp:11:10: warning: ignoring return value of ‘int scanf(const char*, ...)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   11 |     scanf("%d %d", &n, &q);
+      |     ~~~~~^~~~~~~~~~~~~~~~~
+2017-ps-f3-arranhaceu.cpp:13:14: warning: ignoring return value of ‘int scanf(const char*, ...)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   13 |         scanf("%d", &arr[i]);
+      |         ~~~~~^~~~~~~~~~~~~~~
+2017-ps-f3-arranhaceu.cpp:18:14: warning: ignoring return value of ‘int scanf(const char*, ...)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   18 |         scanf("%d", &tipo);
+      |         ~~~~~^~~~~~~~~~~~~
+2017-ps-f3-arranhaceu.cpp:20:18: warning: ignoring return value of ‘int scanf(const char*, ...)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   20 |             scanf("%d %d", &k, &p);
+      |             ~~~~~^~~~~~~~~~~~~~~~~
+2017-ps-f3-arranhaceu.cpp:24:18: warning: ignoring return value of ‘int scanf(const char*, ...)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   24 |             scanf("%d", &k);
+      |             ~~~~~^~~~~~~~~~

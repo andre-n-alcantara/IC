@@ -1,0 +1,11 @@
+2020-ps-f2-fotografia.cpp: In function ‘int main()’:
+2020-ps-f2-fotografia.cpp:17:19: error: ‘INT_MAX’ was not declared in this scope
+   17 |     int minArea = INT_MAX;
+      |                   ^~~~~~~
+2020-ps-f2-fotografia.cpp:4:1: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+    3 | #include <algorithm>
+  +++ |+#include <climits>
+    4 | 
+2020-ps-f2-fotografia.cpp:21:53: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+   21 |         if (area < minArea && (A <= frames[i].first && L <= frames[i].second || A <= frames[i].second && L <= frames[i].first)) {
+      |                                ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~

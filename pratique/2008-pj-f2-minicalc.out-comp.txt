@@ -1,0 +1,5 @@
+2008-pj-f2-minicalc.cpp: In function ‘int main()’:
+2008-pj-f2-minicalc.cpp:21:15: error: ‘__gcd’ was not declared in this scope; did you mean ‘gcd’?
+   21 |     int gcd = __gcd(D, Q);
+      |               ^~~~~
+      |               gcd
