@@ -4,27 +4,22 @@ from bs4 import BeautifulSoup
 import re
 import os
 import requests
-
-def get_text(base_url, href):
+import json
+def get_text(base_url, href, contain_image):
     html = urlopen(base_url+href)
-    pattern = r"[^/]+/$" # EXTRAI NOME DA QUESTAO PELO TEXTO DA URL
-    file_name = re.search(pattern, href).group()
-    file_name = file_name[:len(file_name)-1]
-
-    pattern = r"/[0-9]+/" # EXTRAI EDICAO DA QUESTAO PELO TEXTO DA URL
-    edicao = re.search(pattern, href).group()
-    edicao = edicao[1:len(edicao)-1]
-
-    pattern = r"/f[0-9]/" # EXTRAI FASE DA QUESTAO PELO TEXTO DA URL
-    fase = re.search(pattern, href).group()
-    fase = fase[1:len(fase)-1]
+    splitted = href.split('/')
+    nivel = splitted[2]
+    edicao = splitted[3]
+    fase = splitted[4]
+    file_name = splitted[5]
     
     bs = BeautifulSoup(html, 'html.parser')
     form_element = bs.find('form')
-    parent_element = form_element.find_parent() # ENUNCIADO DA QUESTAO ESTA ACIMA DO FORM (DESCOBERTO POR INSPECAO DA PAGINA)
-    form_element.decompose()
-    
-    return file_name,edicao,fase,parent_element.text
+    parent_element = form_element.find_parent() 
+    form_element.decompose()  # ENUNCIADO DA QUESTAO ESTA JUNTO COM O FORM (DESCOBERTO POR INSPECAO DA PAGINA)
+    if parent_element.find('img') is not None:
+        contain_image.append(href)
+    return edicao, nivel, fase, file_name, parent_element.text
 
 def save_txt(root, file_name, edicao, fase, nivel, text):
     path = os.path.join(root,'OBI'+edicao,file_name)
@@ -65,6 +60,7 @@ def get_passadas(): # AS QUESTOES NAO DISPONIVEIS NO "PRATIQUE" https://olimpiad
     return anchors
 
 def get_pratique():
+    contain_image = []
     base_url="https://olimpiada.ic.unicamp.br"
     niveis = ['pj','p1','p2','pu']
     for nivel in niveis:
@@ -78,8 +74,26 @@ def get_pratique():
             root = './OBI'
         for href in hrefs:
             print(href)
-            file_name,edicao,fase,text = get_text(base_url,href,nivel)
+            file_name,edicao,fase,text = get_text(base_url,href,contain_image)
             save_txt(root, file_name, edicao, fase, nivel, text)
 
+def get_pratique2():
+    contain_image = []
+    hrefs= []
+    with open('pratique.json', 'r', encoding='utf-8') as f:
+        hrefs = json.load(f)
+    base_url="https://olimpiada.ic.unicamp.br"
+    
+    for href in hrefs:
+        print(href)
+        edicao, nivel, fase, file_name, text = get_text(base_url,href,contain_image)
+        with open(os.path.join('./pratique',f'{edicao}-{nivel}-{fase}-{file_name}.txt'),'w',encoding='utf-8') as f:
+            f.write(text)
+        
+    with open('contain_image.json', 'w', encoding='utf-8') as f:
+        json.dump(contain_image, f, ensure_ascii=False, indent=4)
+
+get_pratique2()
+    
 
 

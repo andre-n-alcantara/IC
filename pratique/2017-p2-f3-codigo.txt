@@ -1,0 +1,153 @@
+
+
+Código
+
+A professora Maryam está tentando construir um código constituído de
+uma sequência de N cadeias de 10 letras minúsculas,
+S1,S2,S3,…,SN. Essas cadeias da sequência serão, no futuro,
+concatenadas de diversas maneiras para formar cadeias maiores. Mas,
+para que o código seja válido, a sequência de cadeias tem que
+satifazer uma propriedade bastante específica: nenhuma cadeia da
+sequência pode ser subcadeia de uma concatenação de duas cadeias
+anteriores na sequência. De forma mais rigorosa, o código será 
+  inválido se existirem três inteiros a, b e k, tais que:
+
+
+ 1 ≤  a < k ≤  N, 1 ≤  b < k ≤  N (a pode ser igual a b); e
+ Sk é subcadeia da concatenação SaSb.
+
+Por exemplo, o código S={aaaaaaabbb,yyuudiwwkl,
+kkfidaaooa} é válido. Mas se adicionarmos a cadeia 
+aooaaaaaaa no final da sequência, o código resultante,
+S‘={aaaaaaabbb,yyuudiwwkl, kkfidaaooa,
+aooaaaaaaa}, será inválido, pois S‘4 é subcadeia da
+concatenação S‘3S‘1.
+
+Dada a sequência de cadeias, seu programa deve determinar se o código
+é válido, ou não.
+
+Entrada
+A primeira linha da entrada contém um inteiro N, representando o
+número de cadeias na sequência. As N linhas seguintes contêm, cada
+uma, uma cadeia de 10 letras minúsculas, definindo a sequência de
+cadeias do código.
+
+Saída
+Seu programa deve imprimir uma linha contendo a cadeia "ok"
+caso o código seja válido, ou contendo a primeira cadeia na sequência
+que invalida o código. Quer dizer, contendo Sk onde k é o menor
+possível tal que Sk seja subcadeia de uma concatenação de duas
+cadeias anteriores na sequência.
+
+Restrições
+
+ 1 ≤  N ≤  10000
+
+Informações sobre a pontuação
+
+ Em um conjunto de casos de teste somando 40 pontos, N ≤  100
+
+Exemplos
+
+
+
+Entrada
+
+3
+aaaaaaabbb
+yyuudiwwkl
+kkfidaaooa
+
+
+
+Saída
+
+ok
+	
+
+
+
+ 
+
+
+
+Entrada
+
+4
+aaaaaaabbb
+yyuudiwwkl
+kkfidaaooa
+aooaaaaaaa
+
+
+
+Saída
+
+aooaaaaaaa
+	
+
+
+
+ 
+
+
+
+Entrada
+
+1
+jfjshiddds
+
+
+
+Saída
+
+ok
+	
+
+
+
+ 
+
+
+
+Entrada
+
+2
+abcdefghij
+abcdefghij
+
+
+
+Saída
+
+abcdefghij
+	
+
+
+
+ 
+
+
+
+Entrada
+
+8
+xfwvijuydq
+hcprvezofg
+hwykagqawu
+givfzndqpy
+yvfiqgadfc
+wuhcprvezo
+qaswiksscl
+uchskpkcit
+
+
+
+Saída
+
+wuhcprvezo
+	
+
+
+
+ 

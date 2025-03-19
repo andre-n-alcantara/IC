@@ -1,0 +1,121 @@
+
+
+Wifi
+
+A arquitetura do novo museu de ciências é bastante peculiar. O prédio
+do museu é uma grande sala retangular. Dentro dessa sala existem
+outras salas retangulares, e dentro delas existem outras salas
+retangulares, e assim recursivamente, como se fossem caixas dentro de
+caixas... As paredes das salas não se tocam. Veja um exemplo na parte
+esquerda da figura, com oito salas.
+
+
+
+
+
+O diretor quer instalar uma rede wifi que funcione em todo o
+museu. Para economizar, ele quer comprar o número mínimo possível de
+antenas. O problema é que, pela forma como foram construídas as
+paredes das salas, ocorre uma coisa interessante: o sinal wifi é capaz
+de atravessar as paredes quando vem de dentro para fora, mas
+estranhamente não atravessa as paredes quando vem de fora para dentro
+das salas! A figura mostra duas posições possíveis para uma antena,
+mostrada como um círculo, e a área que o respectivo sinal wifi da
+antena alcançaria.
+
+
+Neste problema, dados N retângulos cujos lados são paralelos aos
+eixos cartesianos, que descrevem as salas do museu, seu programa deve
+computar o número mínimo possível de antenas que o diretor deve
+comprar para que a rede wifi funcione em todo o museu.
+
+ 
+Entrada
+A primeira linha da entrada contém um inteiro N
+ indicando o número de salas. Cada uma das N linhas seguintes contém
+ quatro inteiros, X1,Y1,X2 e Y2, definindo as coordenadas do
+ canto superior esquerdo (X1,Y1) e inferior direito (X2,Y2) de
+ uma sala. Não há nenhum tipo de interseção entre os retângulos que
+ definem as salas. Um dos retângulos contém todos os demais e
+ representa a sala mais externa (as paredes externas do prédio do
+ museu).
+
+ 
+Saída
+Imprima um inteiro, representando o número mínimo
+ possível de antenas de wifi para que a rede funcione em todo o
+ museu.
+
+Restrições
+
+ 1 ≤  N ≤  105
+ -109 ≤  X1,Y1,X2,Y2 ≤  109; X1 < X2 e Y2 < Y1
+
+Informações sobre a pontuação
+
+ Para um conjunto de casos de testes valendo 20 pontos, 1  ≤  N  ≤  104.
+
+Exemplos
+
+
+
+Entrada
+
+4
+5 19 8 17
+5 15 15 5
+0 20 20 0
+8 10 10 8
+
+
+
+Saída
+
+2
+	
+
+
+
+ 
+
+
+
+Entrada
+
+1
+-10000000 10000000 10000000 -10000000
+
+
+
+Saída
+
+1
+	
+
+
+
+ 
+
+
+
+Entrada
+
+7
+50 80 90 75
+45 30 50 20
+5 98 6 97
+0 100 100 0
+20 60 98 5
+25 50 70 10
+30 45 65 15
+
+
+
+Saída
+
+3
+	
+
+
+
+ 

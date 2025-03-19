@@ -1,0 +1,66 @@
+
+
+Troco
+
+Você está num supermercado e está na fila do caixa para comprar alguns produtos.
+Assim que você termina de passar as compras pelo caixa, se lembra que tem várias
+moedas em seu bolso, algumas repetidas, e fica pensando se com elas dá para
+pagar exatamente o valor das compras (para assim se livrar destas moedas e ficar
+com os bolsos mais leves). Você consegue pagar o valor exato da conta usando
+estas moedas?
+Entrada
+A primeira linha da entrada contém dois números inteiros V e M, 
+indicando, respectivamente, o valor final da compra e o número de moedas que
+você tem em seu bolso. A segunda linha contém M números inteiros que descrevem o valor M_i
+de cada moeda existente em seu bolso.
+
+Saída
+Seu programa deve imprimir apenas uma linha, contendo apenas um caractere: \textttS
+caso seja possível pagar o valor exato da conta usando apenas suas moedas,
+ou \textttN caso contrário.
+
+Restrições
+
+ 1  ≤  V  ≤  105
+ 1  ≤  M  ≤  103
+ 1  ≤  M_i  ≤  105
+
+Informações sobre a pontuação
+
+ Para um conjunto de entradas que vale 70 pontos, M  ≤  20
+
+Exemplos
+
+
+
+Entrada
+
+16 4
+25 10 5 1
+
+
+
+Saída
+
+S
+	
+
+
+
+
+
+
+Entrada
+
+20 4
+25 10 5 1
+
+
+
+Saída
+
+N
+	
+
+
+

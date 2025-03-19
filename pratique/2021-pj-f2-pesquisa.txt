@@ -1,0 +1,101 @@
+
+
+Pesquisa de preços
+
+Uma jornalista está fazendo uma pesquisa de preços de combustíveis
+(álcool e gasolina), em vários estados do país, para uma reportagem
+sobre qual dos dois combustíveis é mais vantajoso para
+abastecer um carro.
+
+Na reportagem ela vai usar a regra de que a utilização do álcool é
+vantajosa quando o preço por litro do álcool é no máximo igual a 70%
+do preço por litro da gasolina.
+
+Ela compilou os dados da pesquisa em uma lista contendo
+o identificador do estado e os preços do litro de álcool
+e do litro de gasolina, e deseja computar em quais
+estados é mais vantajoso usar álcool ou gasolina. Você
+pode ajudá-la?
+
+Entrada
+A primeira linha da entrada contém um número inteiro N,
+o número de estados em que a pesquisa foi realizada.  Cada uma das N
+linhas seguintes contém o identificador do estado, E, seguido de
+dois números reais A e G, representando respectivamente o preço do
+litro de álcool e o preço do litro de gasolina.
+
+Saída
+Para cada estado em que o álcool é vantajoso seu programa deve produzir
+uma linha, contendo somente o identificador do estado, na ordem em que
+os estados aparecem na entrada. Se em nenhum estado o álcool é vantajoso,
+seu programa deve imprimir uma linha contendo somente o caratere '*' (asterisco).
+
+Restrições
+
+ 1  ≤  N  ≤  27
+ E é uma cadeia de caracteres formada por duas letras maiúsculas sem acento; todos os E são distintos.
+ 0.01  ≤  A  ≤  10.00, com precisão de dois dígitos.
+ 0.01  ≤  G  ≤  10.00, com precisão de dois dígitos.
+
+Exemplos
+
+
+
+Entrada
+
+2
+AM 7.00 10.00
+RS 7.01 10.00
+
+
+
+Saída
+
+AM
+	
+
+
+
+ 
+
+
+
+Entrada
+
+3
+SP 4.90 5.80
+RJ 4.70 5.70
+PR 4.60 5.60
+
+
+
+Saída
+
+*
+	
+
+
+
+ 
+
+
+
+Entrada
+
+4
+SC 5.20 5.72
+MT 4.22 6.10
+AL 5.55 6.20
+GO 4.30 6.25
+
+
+
+Saída
+
+MT
+GO
+	
+
+
+
+ 

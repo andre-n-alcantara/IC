@@ -1,0 +1,99 @@
+
+
+Gomoku
+
+Gomoku é um jogo japonês milenar, jogado em um tabuleiro de 15x15
+células e pedras pretas e brancas. Um jogador joga com as pedras
+brancas, o outro joga com as pedras pretas. O objetivo do jogo, como o
+nome sugere -- go-moku em japonês quer dizer cinco pedras -- é colocar
+cinco pedras da mesma cor consecutivamente ou numa mesma linha, ou numa
+mesma coluna, ou numa diagonal do tabuleiro.
+
+As figuras abaixo ilustram algumas configurações do jogo (apenas uma
+parte do tabuleiro é mostrada):
+
+
+
+
+
+Entrada
+A entrada é composta por quinze linhas, cada uma contendo
+quinze inteiros. Cada inteiro representa o conteúdo
+de uma célula do tabuleiro. O número 1 indica uma pedra preta,
+o número 2 indica uma pedra branca e o número 0
+indica que não há pedra na célula.
+
+Saída
+Seu programa deve produzir uma única linha, contendo o inteiro 1 se o
+jogador com as pedras pretas venceu, o inteiro 2 se o jogador com as
+pedras brancas venceu, ou o número 0 se ainda não há vencedor
+na configuração da entrada.
+
+Restrições
+
+ Cada célula tem o valor 0, 1 ou 2.
+ Em todos os testes, há apenas um vencedor, ou não há vencedor.
+
+Exemplo
+
+
+
+Entrada
+
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 2 0 0 2 2 2 1 0 0 0 0 0 0
+0 0 1 2 0 0 0 0 1 0 0 0 0 0 0
+0 0 0 1 2 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 1 2 2 0 0 0 0 0 0 0 0
+0 0 1 1 0 1 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 2 1 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+
+Saída
+
+1
+	
+
+
+
+ 
+
+
+
+Entrada
+
+0 0 0 0 0 0 0 0 0 2 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 2 0 1 0 0 0
+0 0 0 0 0 2 1 1 1 2 0 2 2 1 0
+0 0 0 0 0 0 0 0 0 2 0 1 0 0 0
+0 0 0 0 0 0 2 0 2 2 1 1 0 0 0
+0 0 0 0 0 2 1 1 1 1 2 2 1 0 0
+0 0 0 0 0 0 1 0 1 0 0 1 0 2 0
+0 0 0 0 0 0 0 2 1 0 2 0 0 0 0
+0 0 0 0 0 0 0 0 2 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+
+Saída
+
+2
+	
+
+
+
+ 

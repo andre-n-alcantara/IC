@@ -1,0 +1,114 @@
+
+
+Grand Prix da Nlogônia
+
+A Nlogônia irá realizar o Grand Prix de corrida de carros. Foram dados
+planos de construção de um circuito para a realização do evento e você
+ficou responsável pela avaliação do plano.  Um grafo direcionado de N
+vertices e M arestas é considerado um Grand Prix se existe algum ciclo
+direcionado, ou seja, existe um vertice P e um caminho direcionado
+saindo de P que chega novamente em P.  A Nlogônia pode ser
+representada como um grafo direcionado que contêm N esquinas,
+numeradas de 1 a N. Foram dados para você M planos de construção, cada
+um contendo três inteiros U, L e R, que significa o seguinte: caso
+esse plano seja aceito, será construída uma estrada direcionada da
+esquina U para a esquina i, para todo L ≤ i ≤ R. Sua tarefa é
+computar o menor inteiro X tal que aceitando todos os planos de 1 até
+X, teremos um Grand Prix em Nlogônia.
+
+
+Entrada
+A primeira linha da entrada contém dois inteiros N e M,
+representando, respectivamente, o número de esquinas e o número de
+planos. As M linhas seguintes contêm, cada uma, três inteiros U, L e R, descrevendo
+um plano de construção.
+
+
+Saída
+
+Imprima um inteiro X, o menor inteiro tal que aceitando todos os
+planos de 1 até X, inclusive, conseguiremos um Grand Prix. Caso
+Nlogônia não consiga realizar o Grand Prix, imprima -1.
+
+Restrições
+
+ 2 ≤  N ≤  200000
+ 1 ≤  M ≤  200000
+ 1 ≤  L ≤  R  ≤  N
+ 1 ≤  U ≤  N
+ É garantido que não existe uma aresta de um vertice indo para ele mesmo.
+
+Informações sobre a pontuação
+
+ Em um conjunto de casos de teste valendo 10 pontos, N ≤  200000, M ≤  200000 e L = R para todo plano.
+  Em um conjunto de casos de teste valendo 10 pontos, N ≤  1000, M ≤  500.
+  Em um conjunto de casos de teste valendo 10 pontos, N ≤  500, M ≤  20000.
+  Em um conjunto de casos de teste valendo 25 pontos, N ≤  200000, M ≤  200000 e é garantido que L = 1 para todo plano.
+  Em um conjunto de casos de teste valendo 45 pontos, nenhuma restrição adicional.
+
+Exemplos
+
+
+
+Entrada
+
+8 6
+5 6 8
+3 1 2
+6 2 4
+1 4 5
+8 4 7
+2 3 6
+
+
+
+Saída
+
+4
+	
+
+
+
+ 
+
+
+
+Entrada
+
+2 2
+1 2 2
+2 1 1
+
+
+
+Saída
+
+2
+	
+
+
+
+ 
+
+
+
+Entrada
+
+5 6
+1 2 5
+3 4 5
+5 2 2
+1 2 4
+3 4 5
+4 2 2
+
+
+
+Saída
+
+-1
+	
+
+
+
+ 

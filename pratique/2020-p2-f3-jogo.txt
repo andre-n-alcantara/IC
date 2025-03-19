@@ -1,0 +1,122 @@
+
+
+Jogo do Preto e Branco
+
+Você gosta de quebra-cabeças? O jogo do Preto e Branco é um
+quebra-cabeças que usa um tabuleiro retangular com L linhas e C colunas,
+formando L × C casas. No tabuleiro são posicionadas algumas
+peças pretas, cada peça em uma casa diferente.
+
+
+O objetivo do jogo é colocar o maior número possível de peças brancas no
+tabuleiro, obedecendo às seguintes restrições:
+
+ cada casa do tabuleiro pode conter no máximo uma peça;
+ uma peça branca deve ter ao menos uma peça preta como vizinha,
+à direita, à esquerda, acima ou abaixo;
+ uma peça branca não pode ter outra peça branca como vizinha,
+à direita, à esquerda, acima ou abaixo;
+
+
+A figura abaixo mostra dois exemplos de jogos, com as respectivas soluções,
+um com um tabuleiro 
+3 × 3 e outro com um tabuleiro 3 × 5.
+
+
+
+Sua tarefa é escrever um programa que, dadas as descrições do tabuleiro e das peças
+pretas posicionadas, determine o maior número de peças brancas que podem
+ser colocadas.
+
+Entrada
+
+A primeira linha contém dois inteiros L e C, o número de linhas
+e o número de colunas do tabuleiro. As linhas são numeradas de 1 a L e as
+colunas são numeradas de 1 a C. A segunda linha contém um inteiro
+P, o número de peças pretas colocadas no tabuleiro. Cada uma das P
+linhas seguintes descreve a posição de uma peça preta e contém dois
+inteiros Xi e Yi, indicando a linha e a coluna em que a peça foi
+colocada.
+
+
+Saída
+
+Seu programa deve produzir uma única linha, contendo um único
+inteiro, o maior número de peças brancas que podem ser colocadas no tabuleiro.
+
+Restrições
+
+ 1  ≤  L  ≤  6
+ 1  ≤  C  ≤  6
+ 1  ≤  P  ≤  10
+ 1  ≤  Xi  ≤  L para 1  ≤  i  ≤  L
+ 1  ≤  Yi  ≤  C para 1  ≤  i  ≤  C
+
+Informações sobre a pontuação
+
+ Para um conjunto de casos de testes valendo 20 pontos, L = 1.
+ Para um conjunto adicional de casos de testes valendo 80 pontos, nenhuma restrição adicional.
+
+Exemplos
+
+
+
+Entrada
+
+3 3
+3
+1 1
+1 3
+3 2
+
+
+
+Saída
+
+3
+	
+
+
+
+ 
+
+
+
+Entrada
+
+1 6
+2
+1 2
+1 5
+
+
+
+Saída
+
+3
+	
+
+
+
+ 
+
+
+
+Entrada
+
+3 5
+3
+2 2
+2 3
+3 5
+
+
+
+Saída
+
+5
+	
+
+
+
+ 

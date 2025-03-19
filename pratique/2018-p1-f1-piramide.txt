@@ -1,0 +1,83 @@
+
+
+Pirâmide
+
+No depósito da fábrica, encostada numa parede, existe uma matriz de
+N linhas por N colunas de caixas empilhadas. Cada caixa possui um
+peso inteiro positivo associado. O inspetor da fábrica precisa retirar
+algumas caixas da matriz de modo a deixar uma espécie de pirâmide de
+caixas satisfazendo as seguintes restrições:
+
+ Se uma caixa está na pirâmide, a caixa imediatamente abaixo
+ dela também deve estar na pirâmide;
+
+  Na i-ésima linha de caixas (a linha 1 é a do topo da
+ matriz), a pirâmide deve ter exatamente i caixas consecutivas.
+
+Dados os pesos de todas as caixas na matriz, seu programa deve
+calcular o peso total mínimo que uma pirâmide poderá ter, se o
+inspetor retirar algumas caixas segundo as restrições acima.
+ 
+Entrada
+A primeira linha da entrada contém um inteiro N,
+ indicando a dimensão da matriz. As N linhas seguintes contêm, cada
+ uma, N inteiros representando os pesos das caixas em cada linha da
+ matriz de caixas.
+
+ 
+Saída
+Seu programa deve produzir uma única linha, contendo um
+   inteiro, indicando o peso total mínimo que a pirâmide poderá
+   ter.
+
+Restrições
+
+ 1 ≤  N ≤  100
+ Os valor dos elementos da matriz está entre 1 e 100, inclusive.
+
+Informações sobre a pontuação
+
+ Para um conjunto de casos de testes valendo 20 pontos, N  ≤  20.
+
+Exemplos
+
+
+
+Entrada
+
+3
+5 2 4
+3 6 7
+10 5 10
+
+
+
+Saída
+
+36
+	
+
+
+
+ 
+
+
+
+Entrada
+
+4
+45 8 3 1
+1 10 5 67
+4 4 3 18
+10 4 7 12
+
+
+
+Saída
+
+62
+	
+
+
+
+ 

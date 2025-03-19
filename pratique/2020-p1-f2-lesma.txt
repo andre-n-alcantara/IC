@@ -1,0 +1,91 @@
+
+
+Dona Lesma
+
+Dona Lesma é esportista e aventureira e definiu como objetivo deste
+verão alcançar o topo do muro do jardim em que vive. A cada dia,
+valente e metodicamente ela sobe exatamente uma certa distância
+(sempre a mesma a cada dia). Mas a
+cada noite enquanto dorme Dona Lesma escorrega para baixo uma outra
+distância (sempre a mesma a cada noite)...
+
+Dadas a altura do muro, a distância que ela sobe a cada dia e a
+distância que ela desce a cada noite, ajude Dona Lesma a calcular
+quantos dias ela levará para chegar ao topo do muro.
+
+
+Entrada
+A primeira linha contém um inteiro A, a altura
+do muro. A segunda linha contém um inteiro S, distância que Dona
+Lesma sobe a cada dia. A terceira linha contém um inteiro D, a
+distância que Dona Lesma escorrega para baixo a cada noite. 
+
+
+Saída
+Seu programa deve produzir uma única linha, contendo
+um único inteiro, o número de dias que Dona Lesma demorará para
+chegar ao topo do muro.
+
+Restrições
+
+ 1  ≤   A  ≤  10000
+ 1  ≤   D < S  ≤  10000
+
+Exemplos
+
+
+
+Entrada
+
+4
+2
+1
+
+
+
+Saída
+
+3
+	
+
+
+
+ 
+
+
+
+Entrada
+
+12
+5
+2
+
+
+
+Saída
+
+4
+	
+
+
+
+ 
+
+
+
+Entrada
+
+10000
+100
+50
+
+
+
+Saída
+
+199
+	
+
+
+
+ 

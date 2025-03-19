@@ -1,0 +1,115 @@
+
+
+Rede Social
+
+Uma nova rede social foi lançada e fez sucesso imediato. Nessa nova
+rede é possível postar mensagens que são recebidas
+por seguidores; um seguidor pode decidir repostar uma
+mensagem que recebeu e seus seguidores também receberão a mensagem e poderão
+por sua vez repostá-la.
+
+
+Para medir a influência de um usuário na nova rede foi criado um
+novo critério, chamado de Fator de Influência, descrito a seguir.
+
+
+ Inicialmente vamos definir o índice de repostagem de uma
+mensagem M de um usuário U como sendo o número de usuários diferentes de U que
+repostaram M.
+ O Fator de Influência de um usuário U é o máximo valor de FI tal que
+U postou FI mensagens que, cada uma, tem um índice de repostagem de pelo menos FI.  
+
+
+Por exemplo, se João postou quatro mensagens, com índices de repostagem 1, 1, 5, 6, seu Fator de Influência
+é 2, pois postou duas mensagens com índice de repostagem maior ou igual a 2.
+
+
+Dada uma lista com os índices de repostagens de todas as mensagens postadas por um usuário,
+escreva um programa para calcular o Fator de Influência do usuário.
+
+Entrada
+
+A primeira linha da entrada contém um inteiro N, o número de mensagens postadas pelo usuário.
+Cada uma das N linhas seguintes contém um inteiro Ri, o índice de repostagem de uma mensagem.
+
+
+Saída
+
+Seu programa deve produzir uma única linha, contendo um único número inteiro, o
+Fator de Influência para o usuário.
+Restrições
+
+ 1  ≤  N  ≤  5 × 105
+ 0  ≤  Ri  ≤  106 para 1  ≤  i  ≤  N
+
+Informações sobre a pontuação
+
+ Para um conjunto de casos de testes valendo 20 pontos, 1  ≤  N  ≤  1000.
+ Para um conjunto adicional de casos de testes valendo 80 pontos, nenhuma restrição adicional.
+
+Exemplos
+
+
+
+Entrada
+
+5
+1
+4
+1
+7
+1
+
+
+
+Saída
+
+2
+	
+
+
+
+ 
+
+
+
+Entrada
+
+5
+12
+5
+3
+5
+15
+
+
+
+Saída
+
+4
+	
+
+
+
+ 
+
+
+
+Entrada
+
+4
+3
+3
+3
+3
+
+
+
+Saída
+
+3
+	
+
+
+
+ 

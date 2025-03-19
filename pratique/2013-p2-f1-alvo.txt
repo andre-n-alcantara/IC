@@ -1,0 +1,115 @@
+
+
+Tiro ao alvo
+
+Recentemente Juquinha ganhou de  aniversário um joguinho bem clássico:
+Tiro  ao Alvo.   Ele arrumou  um  ótimo lugar  em seu  quarto para  se
+divertir  com o  jogo, porém  após  ler todas  as regras  do jogo  ele
+percebeu que precisa da sua ajuda para calcular a pontuação obtida.
+Segundo as regras,  o alvo do jogo é composto  por C círculos, todos
+centrados na origem (0,0).  Juquinha atira  T vezes e após cada tiro
+informa  suas  coordenadas.  A  pontuação  de  cada  tiro é  feita  da
+seguinte  forma: para  cada  círculo  em que  o  tiro estiver  contido
+Juquinha recebe um ponto.
+Considere por exemplo a figura abaixo. O tiro marcado com a letra 
+  A recebe zero pontos, pois não  está contido por nenhum círculo.  O
+tiro marcado  com a letra   B recebe um ponto,  pois está contido
+por um círculo (o  mais externo).  O tiro marcado com  a letra \sf C
+recebe dois pontos, pois está contido por dois círculos (note que este
+caso  mostra  que  tiros  exatamente   na  borda  de  um  círculo  são
+considerados como  contidos pelo  círculo).  Já o  tiro marcado  com a
+letra    D recebe  três  pontos,  pois  está contido  pelos  três
+círculos. Considerando todos os pontos,  a pontuação total de Juquinha
+é de 13 pontos.
+
+
+
+
+
+Dados os  raios de C círculos  centrados na origem e  as coordenadas
+dos T tiros realizados por Juquinha, escreva um programa que calcula
+o total de pontos que Juquinha obteve.
+Entrada
+A primeira linha da entrada contém dois inteiros positivos, C e T,
+que representam, respectivamente,  o número de círculos do alvo e  o número de
+tiros.
+
+Cada  uma  das C  linhas seguintes contém  um inteiro  positivo.  O
+i-ésimo inteiro  R_i representa  o raio  do i-ésimo  círculo. Os
+raios R_i são fornecidos em ordem crescente.
+ 
+Cada uma das T linhas seguintes contém um par X,Y de inteiros, que
+representam as coordenadas de cada tiro.
+Saída
+Seu  programa  deve  imprimir  uma única  linha,  contendo  apenas  um
+inteiro, o total de pontos obtidos por Juquinha.
+Restrições 
+   1  ≤  C  ≤  105
+   1  ≤  R_i  ≤  106 para 1  ≤  i  ≤  C
+   R_i > R_i-1 para 2  ≤  i  ≤  C
+   1  ≤  T  ≤  105
+   -105  ≤  X,Y  ≤  105
+
+Informações sobre a pontuação
+Em um conjunto de casos de teste que totaliza 30 pontos:
+  
+ 1  ≤  C  ≤  103
+ 1  ≤  R_i  ≤  104 para 1  ≤  i  ≤  N
+ 1  ≤  T  ≤  103
+ -102  ≤  X,Y  ≤  102
+
+Exemplos
+
+
+
+Entrada
+
+3 10
+1
+2
+5
+0 0
+-2 0
+0 -2
+3 -4
+-4 -3
+3 1
+6 2
+-1 2
+-5 -2
+1 -1
+
+
+
+Saída
+
+13
+	
+
+
+
+
+
+
+Entrada
+
+3 6
+1
+2
+5
+1 0
+0 3
+-5 0
+0 0
+-3 -3
+1 1
+
+
+
+Saída
+
+11
+	
+
+
+

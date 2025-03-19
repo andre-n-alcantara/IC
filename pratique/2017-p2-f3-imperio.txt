@@ -1,0 +1,102 @@
+
+
+Dividindo o império
+
+Um grande Império é composto por N cidades, numeradas de 1 até
+N. Alguns pares de cidades estão ligados diretamente por estradas
+bidirecionais e, por uma antiga tradição, esses pares são escolhidos
+de maneira que sempre é possível ir de qualquer cidade para qualquer
+outra cidade por exatamente um caminho (um caminho é uma sequência de
+estradas).
+
+O imperador quer dividir seu império em dois para deixar de herança
+para seus dois filhos. Ele percebeu que basta destruir exatamente uma
+estrada, qualquer estrada, para dividir seu império em dois menores
+que, separadamente, preservam a antiga tradição. Ele agora precisa da
+sua ajuda para computar a menor diferença possível no número de
+cidades entre os dois impérios resultantes.
+
+
+
+
+
+Por exemplo, na figura, se o imperador destruir a estrada entre as
+cidades 3 e 12, os impérios resultantes terão 5 e 11 cidades,
+uma diferença de 6 cidades. Porém, se ele destruir a estrada entre
+as cidades 3 e 5, a diferença será de apenas 4 cidades. Você
+consegue ver que essa é a menor diferença possível para esse exemplo
+da figura?
+
+Entrada
+A primeira linha da entrada contém um inteiro N, representando o
+número de cidades no império. As N-1 linhas seguintes contém, cada
+uma, dois inteiros A e B, indicando que existe uma estrada
+bidirecional ligando diretamente as cidades A e B.
+
+Saída
+Seu programa deve imprimir uma linha contendo um inteiro representando
+a menor diferença possível no número de cidades entre os dois impérios
+resultantes.
+
+Restrições
+
+ 2 ≤  N ≤  105
+ 1 ≤  A ≤  N, 1 ≤  B ≤  N
+
+Informações sobre a pontuação
+
+ Em um conjunto de casos de teste somando 40 pontos, N ≤  10000
+
+Exemplos
+
+
+
+Entrada
+
+4
+1 2
+2 3
+3 4
+
+
+
+Saída
+
+0
+	
+
+
+
+ 
+
+
+
+Entrada
+
+16
+3 5
+12 3
+5 1
+2 1
+4 1
+6 1
+7 1
+12 8
+12 9
+12 10
+12 11
+3 13
+13 14
+15 13
+15 16
+
+
+
+Saída
+
+4
+	
+
+
+
+ 

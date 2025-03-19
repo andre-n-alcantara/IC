@@ -1,0 +1,128 @@
+
+
+Cobertura para Celular
+
+Para atrair mais turistas, o governo decidiu permitir a instalação de
+uma rede de telefonia celular no paradisíaco arquipélago de Logarium.
+O arquipélago tem muitas ilhas no formato circular, todas com no
+máximo 1 km de diâmetro.
+
+
+Exatamente uma torre de celular será instalada no centro de cada uma
+das ilhas.  Todas as torres serão idênticas e terão o mesmo
+alcance; o alcance é a distância máxima da torre que um
+equipamento (telefone ou outra torre) pode estar de forma que a
+comunição seja possível.
+
+
+O governo deseja que a rede de telefonia celular garanta
+a cobertura total do arquipélago, ou seja, deve ser possível a
+um usuário comunicar-se com qualquer outro usuário no arquipélago,
+mesmo que a comunicação tenha que passar por mais de uma torre.
+
+
+Há vários tipos de torres disponíveis no mercado, cada tipo com um
+alcance. O governo recebeu uma proposta atrativa de uma empresa e
+deseja saber se o alcance da torre ofertada permitirá a cobertura
+total do arquipélago.
+
+
+Dadas a localização das torres e o alcance da torre ofertada, escreva
+um programa para determinar se a torre ofertada permite a cobertura
+total do arquipélago.
+
+Entrada
+
+A primeira linha da entrada contém um inteiro N indicando o número
+de ilhas do arquipélago.  Cada uma das N linhas seguintes contém
+dois inteiros Xi e Yi, as coordenadas da i-ésima torre. Não
+existem duas torres com as mesmas coordenadas.  A última linha da
+entrada contém um inteiro A indicando o alcance da torre.
+
+
+
+Saída
+
+Seu programa deve produzir uma única linha na saída, contendo um único caractere,
+que deve ser
+S se a torre permite a cobertura total ou 
+N caso contrário.
+
+
+Restrições
+
+ 2  ≤  N  ≤  10000
+   0  ≤  Xi, Yi  ≤  1000, para 1  ≤  i  ≤  N
+   1  ≤  A  ≤  10000
+
+Informações sobre a pontuação
+
+ Para um conjunto de casos de testes valendo 20 pontos, Yi = 0 para 1  ≤  i  ≤  N.
+ Para um conjunto de casos de testes valendo 80 pontos adicionais, nenhuma outra restrição.
+
+Exemplos
+
+
+
+Entrada
+
+3
+200 200
+400 400
+600 600
+200
+
+
+
+Saída
+
+N
+	
+
+
+
+ 
+
+
+
+Entrada
+
+5
+10 10
+10 30
+30 10
+30 30
+20 20
+20
+
+
+
+Saída
+
+S
+	
+
+
+
+ 
+
+
+
+Entrada
+
+3
+0 0
+40 0
+0 30
+49
+
+
+
+Saída
+
+S
+	
+
+
+
+ 

@@ -1,0 +1,127 @@
+
+
+Arco e flecha
+
+
+O comitê olímpico está testando uma nova forma de pontuar as
+competições de arco e flecha, baseada em penalidades. O atleta vai atirar N flechas no alvo,
+em sequência. A penalidade PK da K-ésima flecha atirada é computada
+imediatamente após ela atingir o alvo, antes do próximo lançamento, e
+é igual ao número de flechas que estão no alvo naquele momento cuja
+distância  ao centro do alvo é menor ou igual à
+distância da K-ésima flecha  ao centro, excluindo a própria
+K-ésima flecha. Quer dizer, a penalidade é o número das K-1 flechas lançadas antes
+da K-ésima flecha que estão mais próximas ou à mesma distância do centro
+do alvo, comparadas com a K-ésima flecha.
+  
+
+
+
+
+
+Neste problema, o centro do alvo está na origem (0,0). Dada a
+sequência de coordenadas dos pontos em que as sucessivas flechas
+atingiram o alvo, seu programa deve computar a penalidade de cada flecha.
+
+Porém, para dificultar um pouco, você deverá computar a penalidade de cada
+flecha antes de saber as coordenadas dos pontos posteriores. Para descobrir
+as coordenadas reais da K-ésima flecha (XR e YR), você deverá somar a penalidade conquistada
+pela flecha anterior às coordenadas X e Y fornecidas na entrada. Ou seja,
+XKR = XK + P_K-1 e YKR = YK + P_K-1. Para a primeira flecha,
+X1R = X1 e Y1R = Y1.
+
+Entrada
+A primeira linha da entrada contém um inteiro N, representando a
+quantidade de flechas lançadas. Cada uma das N linhas seguintes
+contém dois inteiros, XK e YK, indicando as coordenadas que 
+devem ser usadas para calcular o ponto em que cada flecha atingiu 
+o alvo, definindo a sequência de lançamentos.
+
+Saída
+Você deve imprimir N linhas. Para 1  ≤  K  ≤  N, a K-ésima linha 
+deve conter um inteiro PK representando a penalidade que o atleta
+rebeceu pela K-ésima flecha.
+
+Restrições
+
+ 1 ≤  N ≤  105
+ -106 ≤  XR,YR ≤  106
+
+Informações sobre a pontuação
+
+ Em um conjunto de testes somando 20 pontos, N ≤  104
+ Em um conjunto de testes somando 60 pontos, N ≤  5 \times 104
+
+Exemplos
+
+
+
+Entrada
+
+2
+1 3
+5 4
+
+
+
+Saída
+
+0
+1
+	
+
+
+
+ 
+
+
+
+Entrada
+
+4
+-100 85
+-25 -60
+18 33
+0 0
+
+
+
+Saída
+
+0
+0
+0
+0
+	
+
+
+
+ 
+
+
+
+Entrada
+
+6
+1 1
+2 2
+2 2
+3 3
+1 1
+3 3
+
+
+
+Saída
+
+0
+1
+2
+3
+3
+5
+	
+
+
+
+ 

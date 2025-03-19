@@ -1,0 +1,103 @@
+
+
+Times
+
+Chegou a hora da caça ao tesouro na gincana escolar! Para jogar, sua turma
+de N pessoas deve se dividir em dois times. A divisão será feita com base
+no número de chamada de cada aluno, um número entre 1 e N. 
+Só que mais importante que fazer uma 
+divisão balanceada é evitar que pessoas que não se gostam fiquem no mesmo time.
+Você receberá o número N de alunos e, para cada pessoa, você receberá a 
+lista de pessoas que ela não gosta. Se a pessoa A não gosta da pessoa B
+então a pessoa B também não gosta da pessoa A. O aluno de número 1
+sempre ficará no primeiro time. Você deve dividir os outros alunos entre os 
+dois times de forma que dentro de cada time não haja duas pessoas que não se gostam.
+
+Entrada
+A primeira linha contém um inteiro N, representando o número de alunos na turma.
+As N linhas seguintes, para 1  ≤  i  ≤  N, contém um inteiro Mi, indicando 
+de quantas pessoas o aluno i não gosta, e em seguida Mi inteiros Xj, 
+indicando que a pessoa i não gosta da pessoa Xj.
+
+Saída
+Seu programa deve produzir duas linhas, a primeira contendo os números dos integrantes
+do primeiro time e a segunda contendo os números dos integrantes do segundo time, ambas em ordem crescente.
+Lembre-se que o aluno 1 sempre estará no primeiro time. Sempre há uma única solução.
+
+Restrições
+
+ 2  ≤  N  ≤  105.
+ 1  ≤  Mi  ≤  N - 1.
+ 1  ≤  Xj  ≤  N.
+ 1  ≤  \displaystyle\sum_i=1^N Mi  ≤  6 \times 105.
+ Ou seja, a soma de todos os Mi descritos na entrada é no máximo 6 \times 105.
+
+Informações sobre a pontuação
+
+ Em um conjunto de casos de teste equivalente a 40 pontos, N  ≤  15.
+
+Exemplos
+
+
+
+Entrada
+
+13
+2 12 9
+1 10
+3 8 12 13
+5 8 10 13 6 5
+2 11 4
+1 4
+1 8
+3 4 3 7
+1 1
+2 2 4
+1 5
+2 3 1
+2 4 3
+
+
+
+Saída
+
+1 2 3 4 7 11
+5 6 8 9 10 12 13
+	
+
+
+
+ 
+
+
+
+Entrada
+
+15
+1 13
+1 13
+1 13
+1 13
+1 13
+1 13
+1 13
+1 13
+1 13
+1 13
+1 13
+1 13
+14 11 7 1 10 8 6 14 12 3 2 15 5 4 9
+1 13
+1 13
+
+
+
+Saída
+
+1 2 3 4 5 6 7 8 9 10 11 12 14 15
+13
+	
+
+
+
+ 

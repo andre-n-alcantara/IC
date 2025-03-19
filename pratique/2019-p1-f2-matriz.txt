@@ -1,0 +1,113 @@
+
+
+Matriz super-legal
+
+Denotando por Ai,j o elemento na i-ésima linha e j-ésima
+coluna da matriz A,
+dizemos que uma matriz é "legal" se a condição
+
+A1,1 + Alin,col  ≤  A1,col + Alin,1
+
+
+é verdadeira para todo lin > 1 e col > 1.
+
+
+Adicionalmente, dizemos que a matriz é "super-legal" se cada uma de suas
+submatrizes com pelo menos duas linhas e duas colunas é legal. Lembre que
+uma submatriz S de uma matriz MLxC é uma matriz 
+que inclui todos os elementos Mi,j tais que l1  ≤  i  ≤  l2
+e c1  ≤  j  ≤  c2, para 1  ≤  l1  ≤  l2  ≤  L e 1  ≤  c1  ≤  c2  ≤  C.
+
+
+A sua tarefa é, dada uma matriz A, determinar a maior quantidade de elementos
+de uma submatriz super-legal da matriz A.
+
+Entrada
+A primeira linha contém dois inteiros L e C indicando
+  respectivamente o número de linhas e o número de colunas da
+  matriz. Cada uma das L linhas seguintes contém C inteiros
+  Xi representando os elementos da matriz.
+
+
+
+
+Saída
+Seu programa deve produzir uma única linha, contendo uma única linha, com apenas um número inteiro, a
+  maior quantidade de elementos de uma submatriz super-legal da matriz da
+  entrada, ou zero no caso de não existir uma submatriz super-legal.
+
+Restrições
+
+ 2  ≤  L,C  ≤  1000
+
+
+ -106  ≤  Xi  ≤  106
+
+Informações sobre a pontuação
+
+ Para um conjunto de casos de testes valendo 10 pontos, L,C  ≤  3.
+ Para um conjunto de casos de testes valendo outros 50 pontos, L,C  ≤  300.
+
+Exemplos
+
+
+
+Entrada
+
+3 3
+1 4 10
+5 2 6
+11 1 3
+
+
+
+Saída
+
+9
+	
+
+
+
+ 
+
+
+
+Entrada
+
+3 3
+1 3 1
+2 1 2
+1 1 1
+
+
+
+Saída
+
+4
+	
+
+
+
+ 
+
+
+
+Entrada
+
+5 6
+1 1 4 0 3 3
+4 4 9 7 11 13
+-3 -1 4 2 8 11
+1 5 9 5 9 10
+4 8 10 5 8 8
+
+
+
+Saída
+
+15
+	
+
+
+
+ 

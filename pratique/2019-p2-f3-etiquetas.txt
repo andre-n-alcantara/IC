@@ -1,0 +1,82 @@
+
+
+Etiquetas
+
+Uma fita esticada horizontalmente é composta de N quadrados de
+dimensão 1 x 1, cada um deles contendo um número inteiro
+anotado. Temos também K etiquetas retangulares idênticas, de dimensão
+1 x C, onde C é um inteiro.  Nosso objetivo é colar todas as
+etiquetas sobre a fita de modo que a soma dos inteiros que não
+estiverem cobertos por nenhuma etiqueta ao final seja a máxima
+possível.  Cada etiqueta deve ser colada na horizontal, ao longo da
+fita. Duas etiquetas não podem estar sobrepostas e cada quadrado da
+fita deve estar ou totalmente coberto por uma etiqueta, ou totalmente
+descoberto.
+
+
+Entrada
+A primeira linha da entrada contém três inteiros N, K
+e C, representando, respectivamente, o comprimento da fita, o número
+de etiquetas e o comprimento das etiquetas.  A segunda linha da
+entrada contém N inteiros A indicando a sequência de números anotados
+nos quadrados da fita.
+
+
+Saída
+Seu programa deve imprimir uma linha contendo um
+inteiro indicando a soma máxima possível de inteiros descobertos na
+fita depois que todas as etiquetas sejam coladas seguindo as condições
+do enunciado.
+
+Restrições
+
+ 1 ≤  N ≤  10000
+ -10000 ≤  A ≤  10000
+ 1 ≤  K ≤  10000
+ 1 ≤  C ≤  10000
+ K\times C ≤  N
+
+Informações sobre a pontuação
+
+ Para um conjunto de casos de testes valendo 10 pontos, os números no vetor estão ordenados crescentemente.
+ Para um conjunto de casos de testes valendo outros 10 pontos, C=1.
+ Para um conjunto de casos de testes valendo outros 20 pontos, K=1.
+ Para um conjunto de casos de testes valendo outros 20 pontos, K,N ≤  100.
+
+Exemplos
+
+
+
+Entrada
+
+12 2 3
+1 22 4 -8 9 2 10 -1 5 5 32 -11
+
+
+
+Saída
+
+58
+	
+
+
+
+ 
+
+
+
+Entrada
+
+1 1 1
+10000
+
+
+
+Saída
+
+0
+	
+
+
+
+ 

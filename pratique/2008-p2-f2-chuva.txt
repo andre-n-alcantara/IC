@@ -1,0 +1,90 @@
+
+
+Chuva
+A robótica causou uma grande revolução nos processos industriais no mundo todo; atualmente, vários tipos de
+robôs são usados na fabricação de carros, equipamentos eletrônicos e até mesmo utensílios domésticos.
+Uma fábrica possui um robô de manutenção, que constantemente precisa ser deslocado entre setores diferentes
+para executar vários serviços. A movimentação do robô é feita por controle remoto: ele pode andar qualquer
+distância, mas apenas nas quatro direções cardeais (norte, sul, leste e oeste).
+Robôs são feitos de metal, e por isso é ideal que eles evitem contato direto com a água. Assim, em dias chuvosos,
+é ideal que a trajetória do robô passe por dentro de galpões, debaixo de marquises e toldos, etc. para evitar sua
+exposição à chuva.
+A sua tarefa é escrever um programa que, dadas as informações sobre as áreas cobertas e ponto inicial e final
+do robô, determine uma trajetória para o robô que minimize a porção do trajeto feita sob chuva.
+Entrada
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente
+o teclado). A primeira linha da entrada contém quatro inteiros Xi, Yi, Xf 
+e Yf (0 ≤ Xi, Yi, Xf, Yf ≤ 106),
+indicando, respectivamente, a posição atual e a posição final do robô - o robô começa na posição (Xi, Yi) e
+deve terminar na posição (Xf, Yf ).
+A linha seguinte da entrada contém um único inteiro N (0 ≤ N ≤ 1000), indicando o número de áreas cobertas
+na fábrica. Cada uma das N linhas seguintes contém quatro inteiros X1, Y1, X2 e Y2 
+(0 ≤ X1 < X2 ≤ 106, 0 ≤ Y1 < Y2 ≤ 106), indicando uma região coberta.
+Uma região coberta é um retângulo de lados paralelos aos eixos tal que (X1, Y1) e (X2, Y2) 
+são vértices opostos do retângulo. Duas áreas cobertas podem ter regiões comuns. O robô pode entrar e sair de uma área coberta
+por qualquer ponto de seu perímetro, e pode trafegar livremente dentro da área coberta.
+Saída
+Seu programa deve imprimir, na saída padrão, uma única linha, contendo um número inteiro indicando a menor
+distância que o robô precisa percorrer sob chuva.
+Informações sobre a pontuação
+
+Em um conjunto de casos de teste que totaliza 30 pontos, X1, Y1, X2, 
+	Y2, Xi, Xf, Yi, Yf ≤ 10 e N ≤ 5.
+Em um conjunto de casos de teste que totaliza 55 pontos, X1, Y1, X2, 
+	Y2, Xi, Xf, Yi, Yf ≤ 1000 e N ≤ 100.
+
+Exemplos
+
+
+
+Entrada
+
+0 0 4 3
+0			
+			
+
+
+Saída
+
+7
+			
+
+
+
+
+
+
+Entrada
+
+2 5 5 0
+1
+0 0 1 5
+			
+
+
+Saída
+
+5
+			
+
+
+
+
+
+
+Entrada
+
+4 5 5 0
+2
+0 0 1 5
+0 0 3 2
+			
+
+
+Saída
+
+5
+			
+
+
+

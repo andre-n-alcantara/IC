@@ -1,0 +1,97 @@
+
+
+Arranha-céu
+
+Um arranha-céu residencial possui N andares, numerados de 1 a
+N. O síndico do arranha-céu está tendo muito trabalho com uma nova
+regra do corpo de bombeiros. Ele não sabe o porquê, mas os bombeiros
+apontam um andar k e exigem que o síndico informe o total de pessoas
+que moram no arranha-céu do andar 1 até o andar k,
+inclusive. Talvez seja alguma medida de segurança dos bombeiros! O
+problema é que o prédio tem muitos andares e toda hora tem gente se
+mudando, passando a morar no arranha-céu, ou indo embora. O síndico
+precisa cuidar de dois eventos:
+
+
+  Mudança: alterar o número de pessoas que moram num determinado andar;
+  Bombeiro: informar o total de pessoas que moram do andar
+  1 até um determinado andar, inclusive.
+
+Dados o número de pessoas que moram em cada andar do arranha-céu
+inicialmente, e uma sequência de eventos (do tipo  Mudança ou
+ Bombeiro), seu programa deve imprimir, para cada evento do tipo
+ Bombeiro, o total de pessoas exigido, no momento do evento!
+
+Entrada
+A primeira linha da entrada contém dois inteiros N e Q,
+representando, respectivamente, o número de andares e o número de
+eventos. A segunda linha contém N inteiros Ai, 1 ≤  i ≤  N,
+indicando o número de pessoas que moram no i-ésimo andar
+inicialmente.  Cada uma das Q linhas seguintes representa um evento
+e tem uma de duas formas:
+
+ "0 K P",  Mudança, alterar o número de pessoas
+  que moram no K-ésimo andar para P pessoas;
+ "1 K",  Bombeiro, informar o total de pessoas que moram do andar 1
+ até o andar K, inclusive.
+
+Saída
+Para cada evento do tipo  Bombeiro, seu programa deve imprimir
+uma linha contendo um inteiro representando o total de pessoas
+correspondente aquele evento.
+
+Restrições
+
+ 1 ≤  N ≤  105 e 1 ≤  Q ≤  N
+ Há pelo menos um evento do tipo  Bombeiro.
+ 1 ≤  K ≤  N
+ 0 ≤  Ai ≤  1000 e 0 ≤  P ≤  1000 
+
+Informações sobre a pontuação
+
+ Em um conjunto de casos de teste somando 20 pontos, N ≤  20000
+
+Exemplos
+
+
+
+Entrada
+
+8 4
+30 2 0 42 10 11 11 9
+1 5
+0 4 12
+1 5
+1 1
+
+
+
+Saída
+
+84
+54
+30
+	
+
+
+
+ 
+
+
+
+Entrada
+
+1 1
+0
+1 1
+
+
+
+Saída
+
+0
+	
+
+
+
+ 

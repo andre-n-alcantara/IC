@@ -1,0 +1,137 @@
+
+
+Cinco
+
+  Considere um número decimal não divisível por 5. Queremos fazer
+  exatamente uma operação de troca entre os dígitos de duas posições
+  distintas para obter um número que seja divisível por 5. Quer
+  dizer, precisamos escolher duas posições distintas e trocar os
+  dígitos dessas duas posições. Mas queremos que o número resultante
+  após a troca seja o maior número divisível por 5 possível.
+
+
+
+
+Veja o exemplo da figura, 730105697542, que não é divisível por
+5. Podemos fazer a primeira troca ilustrada e obter 730102697545,
+que é divisível por 5. Mas, se fizermos a segunda troca ilustrada na
+figura, vamos obter um número divisível por 5 ainda maior,
+732105697540.
+
+Dados os dígitos decimais de um número na entrada, não divisível por
+5, seu programa deve imprimir os dígitos decimais do maior número
+divisível por 5 que pode ser obtido com exatamente uma troca de
+dígitos entre duas posições distintas.  Caso não seja possível obter
+um número divisível por 5, imprima apenas -1.
+
+
+Entrada
+A primeira linha da entrada contém um inteiro N,
+  indicando quantos dígitos decimais tem o número não divisível por
+  5. A segunda linha contém N inteiros Di, 1 ≤  i  ≤  N,
+  representando os dígitos decimais do número em questão.
+
+
+Saída
+Imprima uma linha contendo N inteiros representando os
+  dígitos decimais do maior número divisível por 5 que pode ser
+  obtido com exatamente uma troca de dígitos entre duas posições
+  distintas. Caso não seja possível obter um número divisível por 5,
+  imprima apenas -1.
+
+Restrições
+
+ 2 ≤  N ≤  1000
+ Di é um inteiro entre 0 e 9, inclusive.
+
+Exemplos
+
+
+
+Entrada
+
+12
+7 3 0 1 0 5 6 9 7 5 4 2
+
+
+
+Saída
+
+7 3 2 1 0 5 6 9 7 5 4 0
+	
+
+
+
+ 
+
+
+
+Entrada
+
+5
+7 4 1 2 9
+
+
+
+Saída
+
+-1
+	
+
+
+
+ 
+
+
+
+Entrada
+
+8
+0 0 7 8 4 5 3 1
+
+
+
+Saída
+
+1 0 7 8 4 5 3 0
+	
+
+
+
+ 
+
+
+
+Entrada
+
+10
+6 5 0 5 0 4 5 3 4 4
+
+
+
+Saída
+
+6 5 4 5 0 4 5 3 4 0
+	
+
+
+
+ 
+
+
+
+Entrada
+
+7
+9 7 4 5 3 5 2
+
+
+
+Saída
+
+9 7 4 5 3 2 5
+	
+
+
+
+ 

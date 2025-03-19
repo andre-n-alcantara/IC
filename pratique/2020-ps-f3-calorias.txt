@@ -1,0 +1,87 @@
+
+
+Aplicativo de calorias
+
+Um aplicativo de celular está sendo desenvolvido para, a partir da
+foto de um prato contendo uma refeição, estimar a quantidade de calorias
+da refeição.
+
+O algoritmo de inteligência artificial (IA) utilizado no aplicativo produz três números inteiros,
+E1, E2 e E3. 
+E1 é a quantidade mínima de calorias estimada e E2 a quantidade máxima de calorias
+estimada para a refeição da fotografia. E3 só tem significado se a diferença entre as
+quantidades estimadas mínima e máxima são maiores do que um valor pré-definido X; nesse
+caso, E3 é a quantidade de calorias estimada por um método alternativo.
+
+Depois de vários testes, os desenvolvedores do aplicativo determinaram que os melhores
+resultados são obtidos usando as estimativas produzidas pelo algoritmo de IA da
+seguinte forma:
+
+
+ se a diferença entre E1 e E2 for menor ou igual ao valor de X,
+o aplicativo deve mostrar ao usuário o valor de E2 como o número de calorias;
+ se a diferença entre E1 e E2 for maior do que o valor de X,
+o aplicativo deve mostrar ao usuário o valor de E3 como o número de calorias;
+
+
+Dados o valor de X e as três estimativas produzidas pelo algoritmo de IA, escreva
+um programa que determine o resultado que deve ser mostrado para o usuário.
+
+Entrada
+A primeira linha da entrada contém um inteiro, o valor de E1.
+A segunda linha contém um inteiro, o valor de E2.
+A terceira linha contém um inteiro, o valor de E3.
+A quarta linha contém um inteiro, o valor de X.
+
+
+Saída
+Seu programa deve produzir uma única linha, contendo um único inteiro,
+o resultado que deve ser mostrado para o usuário do aplicativo.
+
+Restrições
+
+ 0  ≤  E1  ≤  E2  ≤  10000
+ 0  ≤  E3  ≤  10000
+ 0  ≤  X  ≤  10000
+
+Exemplos
+
+
+
+Entrada
+
+1500
+2000
+2500
+1000
+
+
+
+Saída
+
+2000
+	
+
+
+
+ 
+
+
+
+Entrada
+
+1000
+1300
+1050
+200
+
+
+
+Saída
+
+1050
+	
+
+
+
+ 
