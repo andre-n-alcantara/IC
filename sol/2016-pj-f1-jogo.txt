@@ -1,0 +1,22 @@
+Jogo de par ou ímpar
+Resumo da correção
+Pontuação 100 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,1 s
+Limite de memória permitido 64.0 MB
+Máximo tempo usado 0,002 s
+Máxima memória usada 512.0 KB
+Detalhes da correção
+Execução dos testes
+Subtarefa 1
+25 / 25
+Subtarefa 2
+25 / 25
+Subtarefa 3
+25 / 25
+Subtarefa 4
+25 / 25
+Compilação
+Resultado da compilação Compilação terminou com sucesso
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):

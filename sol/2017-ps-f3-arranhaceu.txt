@@ -1,0 +1,38 @@
+Arranha-céu
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,9 s
+Limite de memória permitido 64.0 MB
+Máximo tempo usado 0,038 s
+Máxima memória usada 1.87 MB
+Detalhes da correção
+Execução dos testes
+Subtarefa 1
+0 / 20
+Subtarefa 2
+0 / 20
+Subtarefa 3
+0 / 20
+Subtarefa 4
+0 / 20
+Subtarefa 5
+0 / 20
+Compilação
+Resultado da compilação Compilação terminou com sucesso
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+2017f3p2_arranhaceu.cpp: In function ‘int main()’:
+2017f3p2_arranhaceu.cpp:11:10: warning: ignoring return value of ‘int scanf(const char*, ...)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   11 |     scanf("%d %d", &n, &q);
+      |     ~~~~~^~~~~~~~~~~~~~~~~
+2017f3p2_arranhaceu.cpp:13:14: warning: ignoring return value of ‘int scanf(const char*, ...)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   13 |         scanf("%d", &arr[i]);
+      |         ~~~~~^~~~~~~~~~~~~~~
+2017f3p2_arranhaceu.cpp:18:14: warning: ignoring return value of ‘int scanf(const char*, ...)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   18 |         scanf("%d", &tipo);
+      |         ~~~~~^~~~~~~~~~~~~
+2017f3p2_arranhaceu.cpp:20:18: warning: ignoring return value of ‘int scanf(const char*, ...)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   20 |             scanf("%d %d", &k, &p);
+      |             ~~~~~^~~~~~~~~~~~~~~~~
+2

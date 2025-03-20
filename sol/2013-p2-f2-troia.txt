@@ -1,0 +1,34 @@
+Famílias de Troia
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,1 s
+Limite de memória permitido 64.0 MB
+Máximo tempo usado 0 s
+Máxima memória usada N/D
+Detalhes da correção
+Execução dos testes
+Compilação
+Resultado da compilação Compilação terminou com falha
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+2013f2p2_troia.cpp: In function ‘void unionSets(int, int)’:
+2013f2p2_troia.cpp:21:13: error: reference to ‘rank’ is ambiguous
+   21 |         if (rank[rootX] < rank[rootY]) {
+      |             ^~~~
+In file included from /usr/include/c++/13/bits/move.h:37,
+                 from /usr/include/c++/13/bits/exception_ptr.h:41,
+                 from /usr/include/c++/13/exception:164,
+                 from /usr/include/c++/13/ios:41,
+                 from /usr/include/c++/13/ostream:40,
+                 from /usr/include/c++/13/iostream:41,
+                 from 2013f2p2_troia.cpp:2:
+/usr/include/c++/13/type_traits:1356:12: note: candidates are: ‘template<class> struct std::rank’
+ 1356 |     struct rank
+      |            ^~~~
+2013f2p2_troia.cpp:8:13: note:                 ‘std::vector<int> rank’
+    8 | vector<int> rank;
+      |             ^~~~
+2013f2p2_troia.cpp:21:27: error: reference to ‘rank’ is ambiguous
+   21 |         if (rank[rootX] < rank[rootY]) {
+      |                           ^~

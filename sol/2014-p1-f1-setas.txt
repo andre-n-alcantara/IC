@@ -1,0 +1,20 @@
+Setas
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,1 s
+Limite de memória permitido 64.0 MB
+Máximo tempo usado 0 s
+Máxima memória usada N/D
+Detalhes da correção
+Execução dos testes
+Compilação
+Resultado da compilação Compilação terminou com falha
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+2014f1p1_setas.cpp:13:1: sorry, unimplemented: non-trivial designated initializers not supported
+   13 | };
+      | ^
+2014f1p1_setas.cpp:13:1: sorry, unimplemented: non-trivial designated initializers not supported
+2014f1p1_setas.cpp:13:1: sorry, unimplemented: non-trivial designated initializers not supported
+2014f1p1_setas.cpp:13:1: sorry, unimplemented: non-trivial designated initializers not supported

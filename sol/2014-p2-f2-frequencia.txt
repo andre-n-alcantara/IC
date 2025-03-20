@@ -1,0 +1,30 @@
+Frequência
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 1,1 s
+Limite de memória permitido 64.0 MB
+Máximo tempo usado 0 s
+Máxima memória usada N/D
+Detalhes da correção
+Execução dos testes
+Compilação
+Resultado da compilação Compilação terminou com falha
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+2014f2p2_frequencia.cpp: In function ‘int main()’:
+2014f2p2_frequencia.cpp:14:39: error: expected initializer before ‘freq’
+   14 |     vector<vector<map<int, int>>> row freq(N), col freq(N);
+      |                                       ^~~~
+2014f2p2_frequencia.cpp:26:21: error: ‘row_freq’ was not declared in this scope
+   26 |                     row_freq[x-1][r]++;
+      |                     ^~~~~~~~
+2014f2p2_frequencia.cpp:31:21: error: ‘col_freq’ was not declared in this scope
+   31 |                     col_freq[x-1][r]++;
+      |                     ^~~~~~~~
+2014f2p2_frequencia.cpp:35:39: error: ‘row_freq’ was not declared in this scope
+   35 |             map<int, int>& freq_map = row_freq[x-1];
+      |                                       ^~~~~~~~
+2014f2p2_frequencia.cpp:45:39: error: ‘col_freq’ was not declared in this scope
+   45 |             map<int, int>& freq_map = col_freq[x-1];
+      |                                       ^~~~~~~~
