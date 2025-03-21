@@ -1,0 +1,22 @@
+Sr. Sapo
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,1 s
+Limite de memória permitido 64.0 MB
+Máximo tempo usado 0 s
+Máxima memória usada N/D
+Detalhes da correção
+Execução dos testes
+Compilação
+Resultado da compilação Compilação terminou com falha
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+2021f3pj_sapo.cpp: In function ‘int main()’:
+2021f3pj_sapo.cpp:26:9: error: ‘tie’ was not declared in this scope
+   26 |         tie(c, l) = q.front();
+      |         ^~~
+2021f3pj_sapo.cpp:4:1: note: ‘std::tie’ is defined in header ‘<tuple>’; did you forget to ‘#include <tuple>’?
+    3 | #include <queue>
+  +++ |+#include <tuple>
+    4 | #include <vector>

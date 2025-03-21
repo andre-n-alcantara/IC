@@ -1,0 +1,19 @@
+Tempo de resposta
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,1 s
+Limite de memória permitido 64.0 MB
+Máximo tempo usado 0 s
+Máxima memória usada N/D
+Detalhes da correção
+Execução dos testes
+Compilação
+Resultado da compilação Compilação terminou com falha
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+2021f1p1_tempo.cpp: In function ‘int main()’:
+2021f1p1_tempo.cpp:36:5: error: ‘sort’ was not declared in this scope; did you mean ‘short’?
+   36 |     sort(friends.begin(), friends.end());
+      |     ^~~~
+      |     short

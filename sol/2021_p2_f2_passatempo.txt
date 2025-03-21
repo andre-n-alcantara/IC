@@ -1,0 +1,24 @@
+Passatempo
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,3 s
+Limite de memória permitido 64.0 MB
+Máximo tempo usado 0 s
+Máxima memória usada N/D
+Detalhes da correção
+Execução dos testes
+Compilação
+Resultado da compilação Compilação terminou com falha
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+2021f2p2_passatempo.cpp: In function ‘void solve()’:
+2021f2p2_passatempo.cpp:27:32: error: no match for ‘operator[]’ (operand types are ‘std::vector<Var>’ and ‘__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> >, std::__cxx11::basic_string<char> >::value_type’ {aka ‘std::__cxx11::basic_string<char>’})
+   27 |                     sum -= vars[lines[i][k]].value;
+      |                                ^
+In file included from /usr/include/c++/13/vector:66,
+                 from 2021f2p2_passatempo.cpp:3:
+/usr/include/c++/13/bits/stl_vector.h:1126:7: note: candidate: ‘std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](size_type) [with _Tp = Var; _Alloc = std::allocator<Var>; reference = Var&; size_type = long unsigned int]’
+ 1126 |       operator[](size_type __n) _GLIBCXX_NOEXCEPT
+      |       ^~~~~~~~
+/usr/include/c++/13/bits/stl_vector.h:1126:28: note:   no known conversion for argument 1 from ‘__gnu_cxx::__alloc_traits<std::allocator<std::

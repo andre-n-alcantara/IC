@@ -1,0 +1,22 @@
+Duplas de tênis
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,1 s
+Limite de memória permitido 64.0 MB
+Máximo tempo usado 0 s
+Máxima memória usada N/D
+Detalhes da correção
+Execução dos testes
+Compilação
+Resultado da compilação Compilação terminou com falha
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+2021f2pj_tenis.cpp: In function ‘int main()’:
+2021f2pj_tenis.cpp:8:16: error: ‘INT_MAX’ was not declared in this scope
+    8 |     int diff = INT_MAX;
+      |                ^~~~~~~
+2021f2pj_tenis.cpp:3:1: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+    2 | #include <algorithm>
+  +++ |+#include <climits>
+    3 |

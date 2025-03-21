@@ -1,0 +1,25 @@
+Metrô da Nlogônia
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,2 s
+Limite de memória permitido 64.0 MB
+Máximo tempo usado 0 s
+Máxima memória usada N/D
+Detalhes da correção
+Execução dos testes
+Compilação
+Resultado da compilação Compilação terminou com falha
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+2019f3p2_metro.cpp: In function ‘void bfs(int, std::vector<std::vector<int> >&, std::vector<int>&)’:
+2019f3p2_metro.cpp:25:72: error: no matching function for call to ‘find(std::vector<bool>::iterator, std::vector<bool>::iterator, bool)’
+   25 |                 maxDepth = max(maxDepth, distance(visited.begin(), find(visited.begin(), visited.end(), true)) - 1);
+      |                                                                    ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/13/bits/locale_facets.h:48,
+                 from /usr/include/c++/13/bits/basic_ios.h:37,
+                 from /usr/include/c++/13/ios:46,
+                 from /usr/include/c++/13/ostream:40,
+                 from /usr/include/c++/13/iostream:41,
+                 from 2019f3p2_metro.cpp:2:
+/usr/include/c++/13/bits/streambuf_iterator.h:435:5: note: candidate: ‘template<class _CharT2> typename __gnu_cxx::__enable_if<std::__is_char<_CharT2>::__value, std::istreambuf_iterator<_CharT> >::__t

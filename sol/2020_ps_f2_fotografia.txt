@@ -1,0 +1,22 @@
+Fotografia
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,1 s
+Limite de memória permitido 64.0 MB
+Máximo tempo usado 0 s
+Máxima memória usada N/D
+Detalhes da correção
+Execução dos testes
+Compilação
+Resultado da compilação Compilação terminou com falha
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+2020f2p2_fotografia.cpp: In function ‘int main()’:
+2020f2p2_fotografia.cpp:17:19: error: ‘INT_MAX’ was not declared in this scope
+   17 |     int minArea = INT_MAX;
+      |                   ^~~~~~~
+2020f2p2_fotografia.cpp:4:1: note: ‘INT_MAX’ is defined in header ‘<climits>’; did you forget to ‘#include <climits>’?
+    3 | #include <algorithm>
+  +++ |+#include <climits>
+    4 |

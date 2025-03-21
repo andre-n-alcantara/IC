@@ -1,0 +1,21 @@
+Matriz super-legal
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,2 s
+Limite de memória permitido 64.0 MB
+Máximo tempo usado 0 s
+Máxima memória usada N/D
+Detalhes da correção
+Execução dos testes
+Compilação
+Resultado da compilação Compilação terminou com falha
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+/tmp/ccKHUXzA.o: in function `main':
+2019f2p1_matriz.cpp:(.text.startup+0xf): relocation truncated to fit: R_X86_64_PC32 against symbol `std::cin' defined in .bss._ZSt3cin section in /usr/lib/gcc/x86_64-linux-gnu/13/libstdc++.a(globals_io.o)
+2019f2p1_matriz.cpp:(.text.startup+0x41): relocation truncated to fit: R_X86_64_PC32 against symbol `std::cin' defined in .bss._ZSt3cin section in /usr/lib/gcc/x86_64-linux-gnu/13/libstdc++.a(globals_io.o)
+2019f2p1_matriz.cpp:(.text.startup+0x496): relocation truncated to fit: R_X86_64_PC32 against symbol `std::cout' defined in .bss._ZSt4cout section in /usr/lib/gcc/x86_64-linux-gnu/13/libstdc++.a(globals_io.o)
+/usr/lib/gcc/x86_64-linux-gnu/13/libstdc++.a(vterminate.o): in function `__gnu_cxx::__verbose_terminate_handler()':
+(.text._ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x22): relocation truncated to fit: R_X86_64_PC32 against `.bss._ZZN9__gnu_cxx27__verbose_terminate_handlerEvE11terminating'
+(.text._ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x2f): relocation trun

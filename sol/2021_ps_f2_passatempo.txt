@@ -1,0 +1,28 @@
+Passatempo
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,3 s
+Limite de memória permitido 64.0 MB
+Máximo tempo usado 0 s
+Máxima memória usada N/D
+Detalhes da correção
+Execução dos testes
+Compilação
+Resultado da compilação Compilação terminou com falha
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+2021f2p2_passatempo.cpp: In function ‘void solve()’:
+2021f2p2_passatempo.cpp:30:23: error: no match for ‘operator=’ (operand types are ‘std::vector<int>’ and ‘int’)
+   30 |         row_sums[i] = sum;
+      |                       ^~~
+In file included from /usr/include/c++/13/vector:72,
+                 from 2021f2p2_passatempo.cpp:2:
+/usr/include/c++/13/bits/vector.tcc:210:5: note: candidate: ‘std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = int; _Alloc = std::allocator<int>]’
+  210 |     vector<_Tp, _Alloc>::
+      |     ^~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13/bits/vector.tcc:211:42: note:   no known conversion for argument 1 from ‘int’ to ‘const std::vector<int>&’
+  211 |     operator=(const vector<_Tp, _Alloc>& __x)
+      |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+In file included from /usr/include/c++/13/vector:66:
+/usr/include/c++/13/bits/stl_vector.h:766:7: note: candidate: ‘std::vector<_Tp, _Alloc>& std::vector<

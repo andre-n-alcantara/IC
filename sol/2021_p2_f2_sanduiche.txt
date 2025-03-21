@@ -1,0 +1,23 @@
+Sanduíche
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,4 s
+Limite de memória permitido 64.0 MB
+Máximo tempo usado 0 s
+Máxima memória usada N/D
+Detalhes da correção
+Execução dos testes
+Compilação
+Resultado da compilação Compilação terminou com falha
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+2021f2p2_sanduiche.cpp: In function ‘int count_sandwiches()’:
+2021f2p2_sanduiche.cpp:17:13: error: no match for ‘operator!’ (operand type is ‘std::bitset<21>’)
+   17 |         if (!dp[mask]) continue;
+      |             ^~~~~~~~~
+2021f2p2_sanduiche.cpp:17:13: note: candidate: ‘operator!(bool)’ (built-in)
+2021f2p2_sanduiche.cpp:17:13: note:   no known conversion for argument 1 from ‘std::bitset<21>’ to ‘bool’
+2021f2p2_sanduiche.cpp:33:13: error: no match for ‘operator+=’ (operand types are ‘int’ and ‘std::bitset<21>’)
+   33 |         ans += dp[i];
+      |         ~~~~^~~~~~~~

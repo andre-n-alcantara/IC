@@ -1,0 +1,28 @@
+Duplas de tênis
+Resumo da correção
+Pontuação 0 / 100
+Linguagem C++17 / g++
+Limite de tempo permitido 0,1 s
+Limite de memória permitido 64.0 MB
+Máximo tempo usado 0 s
+Máxima memória usada N/D
+Detalhes da correção
+Execução dos testes
+Compilação
+Resultado da compilação Compilação terminou com falha
+Saída Padrão (stdout):
+Saída de erro padrão (stderr):
+2021f2pj_tenis.cpp: In function ‘int main()’:
+2021f2pj_tenis.cpp:8:10: error: ‘vector’ is not a member of ‘std’
+    8 |     std::vector<int> levels = {a, b, c, d};
+      |          ^~~~~~
+2021f2pj_tenis.cpp:4:1: note: ‘std::vector’ is defined in header ‘<vector>’; did you forget to ‘#include <vector>’?
+    3 | #include <algorithm>
+  +++ |+#include <vector>
+    4 | 
+2021f2pj_tenis.cpp:8:17: error: expected primary-expression before ‘int’
+    8 |     std::vector<int> levels = {a, b, c, d};
+      |                 ^~~
+2021f2pj_tenis.cpp:9:15: error: ‘levels’ was not declared in this scope
+    9 |     std::sort(levels.begin(), levels.end());
+      |               ^~~~~~
