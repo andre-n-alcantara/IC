@@ -1,4 +1,15 @@
 {
+    "2021_p2_f1_idade": {
+        "pontuacao": 70,
+        "n_subtarefas": 10,
+        "subtarefas100": 7,
+        "tempo_lim": 0.1,
+        "mem_lim": 64000.0,
+        "tempo": 0.001,
+        "mem": 504.0,
+        "comp": true,
+        "stderr": "\n"
+    },
     "2017_p1_f3_bits": {
         "pontuacao": 0,
         "n_subtarefas": 5,
