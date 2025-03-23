@@ -36,13 +36,13 @@ ou ‘F’) . As N linhas contém as operações ocorridas durante o jogo. Cada 
 
 
 Compra: a letra C, seguida da letra inicial de um jogador J e de um inteiro X que 
-representa o valor gasto por J na compra. Exemplo: ‘C D 1000’.
+representa o valor gasto por J na compra. exemplo: ‘C D 1000’.
 Venda: a letra V, seguida da letra inicial de um jogador J e de um inteiro A que 
 representa o valor
-recebido por J na venda. Exemplo: ‘V E 200’
+recebido por J na venda. exemplo: ‘V E 200’
 Aluguel: a letra A, seguida da letra inicial de um jogador J que recebe o aluguel, da 
 letra inicial do jogador
-K que paga o aluguel e de um inteiro A que representa o valor do aluguel. Exemplo: ‘A F D 500’.
+K que paga o aluguel e de um inteiro A que representa o valor do aluguel. exemplo: ‘A F D 500’.
 
 Os valores intermediários e totais acumulados por cada jogador estão entre 0 e 1000000.
 

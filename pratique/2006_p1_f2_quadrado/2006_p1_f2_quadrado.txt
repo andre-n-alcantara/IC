@@ -32,7 +32,7 @@ Restrições
   1 ≤ C ≤ 2000
 
 
-
+Exemplos
 
 Entrada
 

@@ -18,7 +18,7 @@ Trocar qualquer letra de A por outra letra, na mesma posição.
 
 O serviço de busca definiu que a palavra P fornecida pelo usuário pode se referir a uma palavra D do dicionário
 se está a uma distância de no máximo 2 de D.
-Exemplos:
+
 
 A palavra "tu" pode se referir à palavra do dicionário "tubo", realizando duas vezes a operação 2.
 A palavra "crto" pode se referir à palavra do dicionário "corte", realizando uma vez a operação 2 e uma vez
