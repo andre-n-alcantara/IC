@@ -20,10 +20,10 @@ Entrada
 A primeira linha da entrada contém N , o número de movimentos do passeio. A segunda linha contém N inteiros
 M1, M2,..., MN, separados por um espaço em branco, correspondentes aos N movimentos do cavalo no passeio.
 Um movimento pode levar o cavalo a cair em um buraco, mas nunca leva o cavalo a sair do tabuleiro.
-Saí,da
+Saída
 Seu programa deve imprimir uma única linha, contendo um único número inteiro, o número de movimentos do
 cavalo até terminar o passeio ou o cavalo cair em um buraco.
-Restriçõ,es
+Restrições
 
 1 ≤, N ≤, 100
 1 ≤ Mi ≤ 8, para i = 1, 2,..., N.
@@ -39,7 +39,7 @@ Entrada
 			
 
 
-Saí,da
+Saída
 
 4			
 			
@@ -56,7 +56,7 @@ Entrada
 			
 
 
-Saí,da
+Saída
 
 3
 			
